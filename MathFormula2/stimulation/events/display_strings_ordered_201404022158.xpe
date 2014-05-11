@@ -1,0 +1,9 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Wed Apr 02 2014 21:58:37
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-60-generic', '#91-Ubuntu SMP Wed Feb 19 03:54:44 UTC 2014', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+265,stderr,received,'Traceback (most recent call last):'
+266,stderr,received,'  File "display_strings_ordered.py", line 50, in <module>'
+266,stderr,received,"    target = stimuli.TextLine(i[prime_column - 1].decode('utf-8'),"
+266,stderr,received,'IndexError: list index out of range'

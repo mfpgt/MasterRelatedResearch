@@ -1,0 +1,505 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.4.14)  24 MAR 2014 10:45
+entering extended mode
+ %&-line parsing enabled.
+**create_fBU.tex
+(./create_fBU.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, french, basque, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+No file create_fBU.aux.
+\openout1 = `create_fBU.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+(./fBU.tex
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <20> not available
+(Font)              size <20.74> substituted on input line 1.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <20> not available
+(Font)              size <20.74> substituted on input line 1.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <20> not available
+(Font)              size <20.74> substituted on input line 1.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <20> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14> on input line 1.
+)
+Overfull \hbox (35.80673pt too wide) in paragraph at lines 1--6
+\OML/cmm/m/it/20.74 x: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 y\OT1/cmr/m/n/
+20.74 )$ $\OML/cmm/m/it/20.74 x: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 z\OT
+1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 x: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/
+20.74 \OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 x: []\OT1/cmr/m/n/20.74 (\OML
+/cmm/m/it/20.74 ^^L\OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 x: []\OT1/cmr/m/n
+/20.74 (\OML/cmm/m/it/20.74 y\OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 x: []\O
+T1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 z\OT1/cmr/m/n/20.74 )$
+ []
+
+
+Overfull \hbox (29.11511pt too wide) in paragraph at lines 1--6
+\OML/cmm/m/it/20.74 x: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 \OT1/cmr/m/n/
+20.74 )$ $\OML/cmm/m/it/20.74 x: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 ^^L\
+OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 y: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/i
+t/20.74 x\OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 y: []\OT1/cmr/m/n/20.74 (\O
+ML/cmm/m/it/20.74 z\OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 y: []\OT1/cmr/m/n
+/20.74 (\OML/cmm/m/it/20.74 \OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 y: []\O
+T1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 ^^L\OT1/cmr/m/n/20.74 )$
+ []
+
+
+Overfull \hbox (32.22995pt too wide) in paragraph at lines 1--6
+\OML/cmm/m/it/20.74 y: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/
+20.74 )$ $\OML/cmm/m/it/20.74 y: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 z\OT
+1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 y: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/
+20.74 \OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 y: []\OT1/cmr/m/n/20.74 (\OML
+/cmm/m/it/20.74 ^^L\OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 y: []\OT1/cmr/m/n
+/20.74 (\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 y: []\O
+T1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 z\OT1/cmr/m/n/20.74 )$
+ []
+
+
+Overfull \hbox (26.46265pt too wide) in paragraph at lines 1--6
+\OML/cmm/m/it/20.74 y: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 \OT1/cmr/m/n/
+20.74 )$ $\OML/cmm/m/it/20.74 y: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 ^^L\
+OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 z: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/i
+t/20.74 x\OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 z: []\OT1/cmr/m/n/20.74 (\O
+ML/cmm/m/it/20.74 y\OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 z: []\OT1/cmr/m/n
+/20.74 (\OML/cmm/m/it/20.74 \OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 z: []\O
+T1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 ^^L\OT1/cmr/m/n/20.74 )$
+ []
+
+
+Overfull \hbox (31.07785pt too wide) in paragraph at lines 1--6
+\OML/cmm/m/it/20.74 z: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/
+20.74 )$ $\OML/cmm/m/it/20.74 z: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 y\OT
+1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 z: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/
+20.74 \OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 z: []\OT1/cmr/m/n/20.74 (\OML
+/cmm/m/it/20.74 ^^L\OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 z: []\OT1/cmr/m/n
+/20.74 (\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 z: []\O
+T1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 y\OT1/cmr/m/n/20.74 )$
+ []
+
+
+Overfull \hbox (33.95921pt too wide) in paragraph at lines 1--6
+\OML/cmm/m/it/20.74 z: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 \OT1/cmr/m/n/
+20.74 )$ $\OML/cmm/m/it/20.74 z: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 ^^L\
+OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 : []\OT1/cmr/m/n/20.74 (\OML/cmm/m/i
+t/20.74 x\OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 : []\OT1/cmr/m/n/20.74 (\O
+ML/cmm/m/it/20.74 y\OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 : []\OT1/cmr/m/n
+/20.74 (\OML/cmm/m/it/20.74 z\OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 : []\O
+T1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 ^^L\OT1/cmr/m/n/20.74 )$
+ []
+
+
+Overfull \hbox (44.53221pt too wide) in paragraph at lines 1--6
+\OML/cmm/m/it/20.74 : []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/
+20.74 )$ $\OML/cmm/m/it/20.74 : []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 y\OT
+1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 : []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/
+20.74 z\OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 : []\OT1/cmr/m/n/20.74 (\OML
+/cmm/m/it/20.74 ^^L\OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 : []\OT1/cmr/m/n
+/20.74 (\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 : []\O
+T1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 y\OT1/cmr/m/n/20.74 )$
+ []
+
+
+Overfull \hbox (35.34665pt too wide) in paragraph at lines 1--6
+\OML/cmm/m/it/20.74 : []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 z\OT1/cmr/m/n/
+20.74 )$ $\OML/cmm/m/it/20.74 : []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 ^^L\
+OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 ^^L: []\OT1/cmr/m/n/20.74 (\OML/cmm/m
+/it/20.74 x\OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 ^^L: []\OT1/cmr/m/n/20.74
+ (\OML/cmm/m/it/20.74 y\OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 ^^L: []\OT1/c
+mr/m/n/20.74 (\OML/cmm/m/it/20.74 z\OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 ^
+^L: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 \OT1/cmr/m/n/20.74 )$
+ []
+
+
+Overfull \hbox (42.35982pt too wide) in paragraph at lines 1--6
+\OML/cmm/m/it/20.74 ^^L: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 x\OT1/cmr/m/
+n/20.74 )$ $\OML/cmm/m/it/20.74 ^^L: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 
+y\OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 ^^L: []\OT1/cmr/m/n/20.74 (\OML/cmm
+/m/it/20.74 z\OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 ^^L: []\OT1/cmr/m/n/20.
+74 (\OML/cmm/m/it/20.74 \OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74 ^^L: []\OT1
+/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/20.74 )$ $\OML/cmm/m/it/20.74
+ ^^L: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 y\OT1/cmr/m/n/20.74 )$
+ []
+
+
+Overfull \hbox (48.01524pt too wide) in paragraph at lines 1--6
+\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 x: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/
+20.74 z\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 x: []\OT1/cmr/m/n/20.74 (\O
+ML/cmm/m/it/20.74 \OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 x: []\OT1/cmr/m
+/n/20.74 (\OML/cmm/m/it/20.74 ^^L\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 x
+: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 y\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/
+m/it/20.74 x: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 z\OT1/cmr/m/n/20.74 ))$
+
+ []
+
+
+Overfull \hbox (28.34702pt too wide) in paragraph at lines 1--6
+\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 x: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/
+20.74 \OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 x: []\OT1/cmr/m/n/20.74 (\O
+ML/cmm/m/it/20.74 ^^L\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 x: []\OT1/cmr
+/m/n/20.74 (\OML/cmm/m/it/20.74 y\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 x
+: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 z\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/
+m/it/20.74 x: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 \OT1/cmr/m/n/20.74 ))$
+
+ []
+
+
+Overfull \hbox (35.80188pt too wide) in paragraph at lines 1--6
+\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 x: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/
+20.74 ^^L\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 y: []\OT1/cmr/m/n/20.74 (
+\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 y: []\OT1/cmr
+/m/n/20.74 (\OML/cmm/m/it/20.74 z\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 y
+: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 \OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/
+m/it/20.74 y: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 ^^L\OT1/cmr/m/n/20.74 )
+)$
+ []
+
+
+Overfull \hbox (42.50179pt too wide) in paragraph at lines 1--6
+\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 y: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/
+20.74 x\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 y: []\OT1/cmr/m/n/20.74 (\O
+ML/cmm/m/it/20.74 z\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 y: []\OT1/cmr/m
+/n/20.74 (\OML/cmm/m/it/20.74 \OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 y: 
+[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 ^^L\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/
+m/it/20.74 y: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/20.74 ))$
+
+ []
+
+
+Overfull \hbox (17.4572pt too wide) in paragraph at lines 1--6
+\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 y: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/
+20.74 z\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 y: []\OT1/cmr/m/n/20.74 (\O
+ML/cmm/m/it/20.74 \OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 y: []\OT1/cmr/m
+/n/20.74 (\OML/cmm/m/it/20.74 ^^L\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 z
+: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/
+m/it/20.74 z: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 y\OT1/cmr/m/n/20.74 ))$
+
+ []
+
+
+Overfull \hbox (48.1443pt too wide) in paragraph at lines 1--6
+\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 z: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/
+20.74 \OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 z: []\OT1/cmr/m/n/20.74 (\O
+ML/cmm/m/it/20.74 ^^L\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 z: []\OT1/cmr
+/m/n/20.74 (\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 z
+: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 y\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/
+m/it/20.74 z: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 \OT1/cmr/m/n/20.74 ))$
+
+ []
+
+
+Overfull \hbox (13.56355pt too wide) in paragraph at lines 1--6
+\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 z: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/
+20.74 ^^L\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 z: []\OT1/cmr/m/n/20.74 (
+\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 z: []\OT1/cmr
+/m/n/20.74 (\OML/cmm/m/it/20.74 y\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 z
+: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 \OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/
+m/it/20.74 z: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 ^^L\OT1/cmr/m/n/20.74 )
+)$
+ []
+
+
+Overfull \hbox (53.065pt too wide) in paragraph at lines 1--6
+\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 : []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/
+20.74 x\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 : []\OT1/cmr/m/n/20.74 (\O
+ML/cmm/m/it/20.74 y\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 : []\OT1/cmr/m
+/n/20.74 (\OML/cmm/m/it/20.74 z\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 : 
+[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 ^^L\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/
+m/it/20.74 : []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/20.74 ))$
+
+ []
+
+
+Overfull \hbox (41.59888pt too wide) in paragraph at lines 1--6
+\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 : []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/
+20.74 y\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 : []\OT1/cmr/m/n/20.74 (\O
+ML/cmm/m/it/20.74 z\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 : []\OT1/cmr/m
+/n/20.74 (\OML/cmm/m/it/20.74 ^^L\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 
+: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/
+m/it/20.74 : []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 y\OT1/cmr/m/n/20.74 ))$
+
+ []
+
+
+Overfull \hbox (33.50621pt too wide) in paragraph at lines 1--6
+\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 : []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/
+20.74 z\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 : []\OT1/cmr/m/n/20.74 (\O
+ML/cmm/m/it/20.74 ^^L\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 ^^L: []\OT1/c
+mr/m/n/20.74 (\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74
+ ^^L: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 y\OT1/cmr/m/n/20.74 ))$ $(\OML/
+cmm/m/it/20.74 ^^L: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 z\OT1/cmr/m/n/20.
+74 ))$
+ []
+
+
+Overfull \hbox (59.33694pt too wide) in paragraph at lines 1--6
+\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 ^^L: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/i
+t/20.74 \OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 ^^L: []\OT1/cmr/m/n/20.74
+ (\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.74 ^^L: []\OT1
+/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 y\OT1/cmr/m/n/20.74 ))$ $(\OML/cmm/m/it/20.
+74 ^^L: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 z\OT1/cmr/m/n/20.74 ))$ $(\OM
+L/cmm/m/it/20.74 ^^L: []\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 \OT1/cmr/m/n/2
+0.74 ))$
+ []
+
+
+Overfull \hbox (15.06674pt too wide) in paragraph at lines 1--6
+[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 y\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20
+.74 :x$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 z\OT1/cmr/m/n/20.74 )\OML/cm
+m/m/it/20.74 :x$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 \OT1/cmr/m/n/20.74
+ )\OML/cmm/m/it/20.74 :x$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 ^^L\OT1/cm
+r/m/n/20.74 )\OML/cmm/m/it/20.74 :x$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74
+ y\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :x$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m
+/it/20.74 z\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :x$
+ []
+
+
+Overfull \hbox (8.37512pt too wide) in paragraph at lines 1--6
+[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 \OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20
+.74 :x$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 ^^L\OT1/cmr/m/n/20.74 )\OML/
+cmm/m/it/20.74 :x$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/20.
+74 )\OML/cmm/m/it/20.74 :y$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 z\OT1/cm
+r/m/n/20.74 )\OML/cmm/m/it/20.74 :y$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74
+ \OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :y$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m
+/it/20.74 ^^L\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :y$
+ []
+
+
+Overfull \hbox (11.48996pt too wide) in paragraph at lines 1--6
+[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20
+.74 :y$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 z\OT1/cmr/m/n/20.74 )\OML/cm
+m/m/it/20.74 :y$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 \OT1/cmr/m/n/20.74
+ )\OML/cmm/m/it/20.74 :y$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 ^^L\OT1/cm
+r/m/n/20.74 )\OML/cmm/m/it/20.74 :y$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74
+ x\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :y$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m
+/it/20.74 z\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :y$
+ []
+
+
+Overfull \hbox (5.72266pt too wide) in paragraph at lines 1--6
+[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 \OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20
+.74 :y$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 ^^L\OT1/cmr/m/n/20.74 )\OML/
+cmm/m/it/20.74 :y$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/20.
+74 )\OML/cmm/m/it/20.74 :z$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 y\OT1/cm
+r/m/n/20.74 )\OML/cmm/m/it/20.74 :z$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74
+ \OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :z$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m
+/it/20.74 ^^L\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :z$
+ []
+
+
+Overfull \hbox (10.33786pt too wide) in paragraph at lines 1--6
+[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20
+.74 :z$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 y\OT1/cmr/m/n/20.74 )\OML/cm
+m/m/it/20.74 :z$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 \OT1/cmr/m/n/20.74
+ )\OML/cmm/m/it/20.74 :z$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 ^^L\OT1/cm
+r/m/n/20.74 )\OML/cmm/m/it/20.74 :z$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74
+ x\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :z$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m
+/it/20.74 y\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :z$
+ []
+
+
+Overfull \hbox (13.21922pt too wide) in paragraph at lines 1--6
+[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 \OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20
+.74 :z$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 ^^L\OT1/cmr/m/n/20.74 )\OML/
+cmm/m/it/20.74 :z$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/20.
+74 )\OML/cmm/m/it/20.74 :$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 y\OT1/cm
+r/m/n/20.74 )\OML/cmm/m/it/20.74 :$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74
+ z\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m
+/it/20.74 ^^L\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :$
+ []
+
+
+Overfull \hbox (23.79222pt too wide) in paragraph at lines 1--6
+[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20
+.74 :$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 y\OT1/cmr/m/n/20.74 )\OML/cm
+m/m/it/20.74 :$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 z\OT1/cmr/m/n/20.74
+ )\OML/cmm/m/it/20.74 :$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 ^^L\OT1/cm
+r/m/n/20.74 )\OML/cmm/m/it/20.74 :$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74
+ x\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m
+/it/20.74 y\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :$
+ []
+
+
+Overfull \hbox (14.60666pt too wide) in paragraph at lines 1--6
+[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 z\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20
+.74 :$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 ^^L\OT1/cmr/m/n/20.74 )\OML/
+cmm/m/it/20.74 :$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/20.
+74 )\OML/cmm/m/it/20.74 :^^L$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 y\OT1/
+cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :^^L$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/2
+0.74 z\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :^^L$ $[]\OT1/cmr/m/n/20.74 (\OML
+/cmm/m/it/20.74 \OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :^^L$
+ []
+
+
+Overfull \hbox (21.61983pt too wide) in paragraph at lines 1--6
+[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20
+.74 :^^L$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 y\OT1/cmr/m/n/20.74 )\OML/
+cmm/m/it/20.74 :^^L$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 z\OT1/cmr/m/n/2
+0.74 )\OML/cmm/m/it/20.74 :^^L$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it/20.74 \OT
+1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :^^L$ $[]\OT1/cmr/m/n/20.74 (\OML/cmm/m/it
+/20.74 x\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :^^L$ $[]\OT1/cmr/m/n/20.74 (\O
+ML/cmm/m/it/20.74 y\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :^^L$
+ []
+
+
+Overfull \hbox (37.32245pt too wide) in paragraph at lines 1--6
+\OT1/cmr/m/n/20.74 ([](\OML/cmm/m/it/20.74 ^^L\OT1/cmr/m/n/20.74 )\OML/cmm/m/it
+/20.74 :x\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 y\OT1/cmr/m/n/20.74 )\O
+ML/cmm/m/it/20.74 :x\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 z\OT1/cmr/m/
+n/20.74 )\OML/cmm/m/it/20.74 :x\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 
+\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :x\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m
+/it/20.74 ^^L\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :x\OT1/cmr/m/n/20.74 )$
+ []
+
+
+Overfull \hbox (27.15514pt too wide) in paragraph at lines 1--6
+\OT1/cmr/m/n/20.74 ([](\OML/cmm/m/it/20.74 z\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/2
+0.74 :y\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 \OT1/cmr/m/n/20.74 )\OML
+/cmm/m/it/20.74 :y\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 ^^L\OT1/cmr/m/
+n/20.74 )\OML/cmm/m/it/20.74 :y\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 x
+\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :y\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m
+/it/20.74 z\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :y\OT1/cmr/m/n/20.74 )$
+ []
+
+
+Overfull \hbox (7.48691pt too wide) in paragraph at lines 1--6
+\OT1/cmr/m/n/20.74 ([](\OML/cmm/m/it/20.74 \OT1/cmr/m/n/20.74 )\OML/cmm/m/it/2
+0.74 :y\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 ^^L\OT1/cmr/m/n/20.74 )\O
+ML/cmm/m/it/20.74 :y\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 x\OT1/cmr/m/
+n/20.74 )\OML/cmm/m/it/20.74 :y\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 z
+\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :y\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m
+/it/20.74 \OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :y\OT1/cmr/m/n/20.74 )$
+ []
+
+
+Overfull \hbox (16.76028pt too wide) in paragraph at lines 1--6
+\OT1/cmr/m/n/20.74 ([](\OML/cmm/m/it/20.74 ^^L\OT1/cmr/m/n/20.74 )\OML/cmm/m/it
+/20.74 :y\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/20.74 )\O
+ML/cmm/m/it/20.74 :z\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 y\OT1/cmr/m/
+n/20.74 )\OML/cmm/m/it/20.74 :z\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 
+\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :z\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m
+/it/20.74 ^^L\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :z\OT1/cmr/m/n/20.74 )$
+ []
+
+
+Overfull \hbox (24.06636pt too wide) in paragraph at lines 1--6
+\OT1/cmr/m/n/20.74 ([](\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/2
+0.74 :z\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 y\OT1/cmr/m/n/20.74 )\OML
+/cmm/m/it/20.74 :z\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 \OT1/cmr/m/n/
+20.74 )\OML/cmm/m/it/20.74 :z\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 ^^L
+\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :z\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m
+/it/20.74 x\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :z\OT1/cmr/m/n/20.74 )$
+ []
+
+
+Overfull \hbox (4.97957pt too wide) in paragraph at lines 1--6
+\OT1/cmr/m/n/20.74 ([](\OML/cmm/m/it/20.74 y\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/2
+0.74 :z\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 \OT1/cmr/m/n/20.74 )\OML
+/cmm/m/it/20.74 :z\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 ^^L\OT1/cmr/m/
+n/20.74 )\OML/cmm/m/it/20.74 :z\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 x
+\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m
+/it/20.74 y\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :\OT1/cmr/m/n/20.74 )$
+ []
+
+
+Overfull \hbox (38.9336pt too wide) in paragraph at lines 1--6
+\OT1/cmr/m/n/20.74 ([](\OML/cmm/m/it/20.74 z\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/2
+0.74 :\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 ^^L\OT1/cmr/m/n/20.74 )\O
+ML/cmm/m/it/20.74 :\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 x\OT1/cmr/m/
+n/20.74 )\OML/cmm/m/it/20.74 :\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 y
+\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m
+/it/20.74 z\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :\OT1/cmr/m/n/20.74 )$
+ []
+
+
+Overfull \hbox (7.04372pt too wide) in paragraph at lines 1--6
+\OT1/cmr/m/n/20.74 ([](\OML/cmm/m/it/20.74 ^^L\OT1/cmr/m/n/20.74 )\OML/cmm/m/it
+/20.74 :\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/20.74 )\O
+ML/cmm/m/it/20.74 :\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 y\OT1/cmr/m/
+n/20.74 )\OML/cmm/m/it/20.74 :\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 z
+\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m
+/it/20.74 ^^L\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :\OT1/cmr/m/n/20.74 )$
+ []
+
+
+Overfull \hbox (34.04376pt too wide) in paragraph at lines 1--6
+\OT1/cmr/m/n/20.74 ([](\OML/cmm/m/it/20.74 x\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/2
+0.74 :^^L\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 y\OT1/cmr/m/n/20.74 )\O
+ML/cmm/m/it/20.74 :^^L\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 z\OT1/cmr/
+m/n/20.74 )\OML/cmm/m/it/20.74 :^^L\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.
+74 \OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :^^L\OT1/cmr/m/n/20.74 )$ $([](\OML
+/cmm/m/it/20.74 x\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :^^L\OT1/cmr/m/n/20.74
+ )$
+ []
+
+
+Overfull \hbox (22.57764pt too wide) in paragraph at lines 1--6
+\OT1/cmr/m/n/20.74 ([](\OML/cmm/m/it/20.74 y\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/2
+0.74 :^^L\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 z\OT1/cmr/m/n/20.74 )\O
+ML/cmm/m/it/20.74 :^^L\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.74 \OT1/cmr/
+m/n/20.74 )\OML/cmm/m/it/20.74 :^^L\OT1/cmr/m/n/20.74 )$ $([](\OML/cmm/m/it/20.
+74 x\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :^^L\OT1/cmr/m/n/20.74 )$ $([](\OML
+/cmm/m/it/20.74 y\OT1/cmr/m/n/20.74 )\OML/cmm/m/it/20.74 :^^L\OT1/cmr/m/n/20.74
+ )$
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] [6]
+[7] (./create_fBU.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.74pt have occurred.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 220 strings out of 495028
+ 2401 string characters out of 1181229
+ 82106 words of memory out of 3000000
+ 3488 multiletter control sequences out of 15000+50000
+ 5765 words of font info for 21 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 22i,4n,19p,178b,107s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb>
+Output written on create_fBU.pdf (7 pages, 47203 bytes).
+PDF statistics:
+ 42 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

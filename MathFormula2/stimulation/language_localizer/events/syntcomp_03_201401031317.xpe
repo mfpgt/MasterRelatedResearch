@@ -1,0 +1,20 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Fri Jan 03 2014 13:17:16
+#display: size=(1366, 768), window_mode=False, opengl=True
+#os: ('Linux', 'is146569', '3.2.0-58-generic', '#88-Ubuntu SMP Tue Dec 3 17:37:58 UTC 2013', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+11687,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+11687,design,logged,
+11687,Experiment,started
+11689,Stimulus,presented,0
+12691,Stimulus,presented,0
+13693,Stimulus,presented,0
+14695,Stimulus,presented,0
+15697,Experiment,ended
+15699,Stimulus,presented,5

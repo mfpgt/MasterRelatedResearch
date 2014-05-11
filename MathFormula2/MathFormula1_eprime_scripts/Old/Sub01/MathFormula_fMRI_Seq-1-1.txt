@@ -1,0 +1,5667 @@
+*** Header Start ***
+VersionPersist: 1
+LevelName: Session
+LevelName: Block
+LevelName: Trial
+LevelName: SubTrial
+LevelName: LogLevel5
+LevelName: LogLevel6
+LevelName: LogLevel7
+LevelName: LogLevel8
+LevelName: LogLevel9
+LevelName: LogLevel10
+Experiment: MathFormula_fMRI_Seq
+SessionDate: 06-08-2009
+SessionTime: 14:03:56
+RandomSeed: 2088528653
+Group: 1
+Subject: 1
+Session: 1
+Display.RefreshRate: 60.027
+*** Header End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 6
+	Level: 2
+	BranchSide: L
+	Symbol1: }
+	Symbol2: (
+	Symbol3: 1
+	Symbol4: +
+	Symbol5: 4
+	Symbol6: )
+	Symbol7: +
+	Symbol8: 3
+	Symbol9: {
+	Symbol10: 2
+	Symbol11: -
+	TaskExpression: }+4)3+1({2-
+	TaskAns: 1
+	Level2: 1
+	NonmatchN: 7
+	Trigger: 146
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 1
+	Running: List1
+	Symbol1.OnsetDelay: 5
+	Symbol1.OnsetTime: 143594
+	Symbol1.DurationError: -5
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 143829
+	Symbol1.FinishTime: 143829
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 5
+	Symbol2.OnsetTime: 143894
+	Symbol2.DurationError: -5
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 144129
+	Symbol2.FinishTime: 144129
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 5
+	Symbol3.OnsetTime: 144194
+	Symbol3.DurationError: -5
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 144429
+	Symbol3.FinishTime: 144429
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 5
+	Symbol4.OnsetTime: 144494
+	Symbol4.DurationError: -5
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 144729
+	Symbol4.FinishTime: 144729
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 5
+	Symbol5.OnsetTime: 144794
+	Symbol5.DurationError: -5
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 145029
+	Symbol5.FinishTime: 145029
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 4
+	Symbol6.OnsetTime: 145093
+	Symbol6.DurationError: -4
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 145329
+	Symbol6.FinishTime: 145329
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 4
+	Symbol7.OnsetTime: 145393
+	Symbol7.DurationError: -4
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 145629
+	Symbol7.FinishTime: 145629
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 4
+	Symbol8.OnsetTime: 145693
+	Symbol8.DurationError: -4
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 145929
+	Symbol8.FinishTime: 145929
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 4
+	Symbol9.OnsetTime: 145993
+	Symbol9.DurationError: -4
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 146229
+	Symbol9.FinishTime: 146229
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 4
+	Symbol10.OnsetTime: 146293
+	Symbol10.DurationError: -4
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 146529
+	Symbol10.FinishTime: 146529
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 4
+	Symbol11.OnsetTime: 146593
+	Symbol11.DurationError: -4
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 146829
+	Symbol11.FinishTime: 146829
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 3253
+	FixationAfter.Duration: 4278
+	TaskExpression.OnsetDelay: 7
+	TaskExpression.OnsetTime: 151174
+	TaskExpression.DurationError: -7
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 152607
+	TaskExpression.FinishTime: 152607
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 1
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	Objperformance: 0
+	FeedbackTrial.Duration: 3253
+	Perf: 0
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 15
+	Level: 0
+	BranchSide: B
+	Symbol1: 3
+	Symbol2: -
+	Symbol3: +
+	Symbol4: )
+	Symbol5: }
+	Symbol6: 1
+	Symbol7: (
+	Symbol8: 4
+	Symbol9: {
+	Symbol10: 2
+	Symbol11: +
+	TaskExpression: 3-{(4+1)+2}
+	TaskAns: 1
+	Level2: 3
+	NonmatchN: 8
+	Trigger: 184
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 2
+	Running: List1
+	Symbol1.OnsetDelay: 1
+	Symbol1.OnsetTime: 156721
+	Symbol1.DurationError: -1
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 156960
+	Symbol1.FinishTime: 156960
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 1
+	Symbol2.OnsetTime: 157021
+	Symbol2.DurationError: -1
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 157260
+	Symbol2.FinishTime: 157260
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 1
+	Symbol3.OnsetTime: 157321
+	Symbol3.DurationError: -1
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 157560
+	Symbol3.FinishTime: 157560
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 1
+	Symbol4.OnsetTime: 157621
+	Symbol4.DurationError: -1
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 157860
+	Symbol4.FinishTime: 157860
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 1
+	Symbol5.OnsetTime: 157921
+	Symbol5.DurationError: -1
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 158160
+	Symbol5.FinishTime: 158160
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 1
+	Symbol6.OnsetTime: 158221
+	Symbol6.DurationError: -1
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 158460
+	Symbol6.FinishTime: 158460
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 1
+	Symbol7.OnsetTime: 158521
+	Symbol7.DurationError: -1
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 158760
+	Symbol7.FinishTime: 158760
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 0
+	Symbol8.OnsetTime: 158820
+	Symbol8.DurationError: 0
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 159060
+	Symbol8.FinishTime: 159060
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 0
+	Symbol9.OnsetTime: 159120
+	Symbol9.DurationError: 0
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 159360
+	Symbol9.FinishTime: 159360
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 0
+	Symbol10.OnsetTime: 159420
+	Symbol10.DurationError: 0
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 159660
+	Symbol10.FinishTime: 159660
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 0
+	Symbol11.OnsetTime: 159720
+	Symbol11.DurationError: 0
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 159960
+	Symbol11.FinishTime: 159960
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 4109
+	FixationAfter.Duration: 2559
+	TaskExpression.OnsetDelay: 6
+	TaskExpression.OnsetTime: 162585
+	TaskExpression.DurationError: -6
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 164019
+	TaskExpression.FinishTime: 164019
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 1
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	Objperformance: 0
+	FeedbackTrial.Duration: 4109
+	Perf: 0
+	TotalTrial: 2
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 29
+	Level: 0
+	BranchSide: B
+	Symbol1: 1
+	Symbol2: (
+	Symbol3: }
+	Symbol4: +
+	Symbol5: 3
+	Symbol6: )
+	Symbol7: {
+	Symbol8: 2
+	Symbol9: +
+	Symbol10: -
+	Symbol11: 4
+	TaskExpression: 1(}+3){2+-4
+	TaskAns: 2
+	Level2: 0
+	NonmatchN: 0
+	Trigger: 120
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 3
+	Running: List1
+	Symbol1.OnsetDelay: 11
+	Symbol1.OnsetTime: 168999
+	Symbol1.DurationError: -11
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 169228
+	Symbol1.FinishTime: 169228
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 11
+	Symbol2.OnsetTime: 169299
+	Symbol2.DurationError: -11
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 169528
+	Symbol2.FinishTime: 169528
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 11
+	Symbol3.OnsetTime: 169599
+	Symbol3.DurationError: -11
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 169828
+	Symbol3.FinishTime: 169828
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 11
+	Symbol4.OnsetTime: 169899
+	Symbol4.DurationError: -11
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 170128
+	Symbol4.FinishTime: 170128
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 11
+	Symbol5.OnsetTime: 170199
+	Symbol5.DurationError: -11
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 170428
+	Symbol5.FinishTime: 170428
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 10
+	Symbol6.OnsetTime: 170498
+	Symbol6.DurationError: -10
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 170728
+	Symbol6.FinishTime: 170728
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 10
+	Symbol7.OnsetTime: 170798
+	Symbol7.DurationError: -10
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 171028
+	Symbol7.FinishTime: 171028
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 10
+	Symbol8.OnsetTime: 171098
+	Symbol8.DurationError: -10
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 171328
+	Symbol8.FinishTime: 171328
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 10
+	Symbol9.OnsetTime: 171398
+	Symbol9.DurationError: -10
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 171628
+	Symbol9.FinishTime: 171628
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 10
+	Symbol10.OnsetTime: 171698
+	Symbol10.DurationError: -10
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 171928
+	Symbol10.FinishTime: 171928
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 10
+	Symbol11.OnsetTime: 171998
+	Symbol11.DurationError: -10
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 172228
+	Symbol11.FinishTime: 172228
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 4033
+	FixationAfter.Duration: 2203
+	TaskExpression.OnsetDelay: 6
+	TaskExpression.OnsetTime: 174497
+	TaskExpression.DurationError: -6
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 175931
+	TaskExpression.FinishTime: 175931
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 175161
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 664
+	TaskExpression.RESP: 5
+	TaskExpression.CRESP: 
+	Objperformance: 0
+	FeedbackTrial.Duration: 4033
+	Perf: 0
+	TotalTrial: 3
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 25
+	Level: 0
+	BranchSide: B
+	Symbol1: )
+	Symbol2: 1
+	Symbol3: }
+	Symbol4: +
+	Symbol5: 3
+	Symbol6: (
+	Symbol7: 2
+	Symbol8: {
+	Symbol9: 4
+	Symbol10: -
+	Symbol11: +
+	TaskExpression: )1}+3(2{4-+
+	TaskAns: 2
+	Level2: 0
+	NonmatchN: 0
+	Trigger: 120
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 4
+	Running: List1
+	Symbol1.OnsetDelay: 3
+	Symbol1.OnsetTime: 180827
+	Symbol1.DurationError: -3
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 181064
+	Symbol1.FinishTime: 181064
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 3
+	Symbol2.OnsetTime: 181127
+	Symbol2.DurationError: -3
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 181364
+	Symbol2.FinishTime: 181364
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 3
+	Symbol3.OnsetTime: 181427
+	Symbol3.DurationError: -3
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 181664
+	Symbol3.FinishTime: 181664
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 3
+	Symbol4.OnsetTime: 181727
+	Symbol4.DurationError: -3
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 181964
+	Symbol4.FinishTime: 181964
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 3
+	Symbol5.OnsetTime: 182027
+	Symbol5.DurationError: -3
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 182264
+	Symbol5.FinishTime: 182264
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 2
+	Symbol6.OnsetTime: 182326
+	Symbol6.DurationError: -2
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 182564
+	Symbol6.FinishTime: 182564
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 2
+	Symbol7.OnsetTime: 182626
+	Symbol7.DurationError: -2
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 182864
+	Symbol7.FinishTime: 182864
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 2
+	Symbol8.OnsetTime: 182926
+	Symbol8.DurationError: -2
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 183164
+	Symbol8.FinishTime: 183164
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 2
+	Symbol9.OnsetTime: 183226
+	Symbol9.DurationError: -2
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 183464
+	Symbol9.FinishTime: 183464
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 2
+	Symbol10.OnsetTime: 183526
+	Symbol10.DurationError: -2
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 183764
+	Symbol10.FinishTime: 183764
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 2
+	Symbol11.OnsetTime: 183826
+	Symbol11.DurationError: -2
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 184064
+	Symbol11.FinishTime: 184064
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 4431
+	FixationAfter.Duration: 1591
+	TaskExpression.OnsetDelay: 10
+	TaskExpression.OnsetTime: 185725
+	TaskExpression.DurationError: -10
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 187155
+	TaskExpression.FinishTime: 187155
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 186296
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 571
+	TaskExpression.RESP: 5
+	TaskExpression.CRESP: 
+	Objperformance: 0
+	FeedbackTrial.Duration: 4431
+	Perf: 0
+	TotalTrial: 4
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 23
+	Level: 2
+	BranchSide: L
+	Symbol1: }
+	Symbol2: (
+	Symbol3: 4
+	Symbol4: +
+	Symbol5: 1
+	Symbol6: )
+	Symbol7: -
+	Symbol8: 2
+	Symbol9: {
+	Symbol10: 3
+	Symbol11: +
+	TaskExpression: }(4+1)-2{3+
+	TaskAns: 2
+	Level2: 2
+	NonmatchN: 0
+	Trigger: 82
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 5
+	Running: List1
+	Symbol1.OnsetDelay: 9
+	Symbol1.OnsetTime: 192455
+	Symbol1.DurationError: -9
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 192686
+	Symbol1.FinishTime: 192686
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 9
+	Symbol2.OnsetTime: 192755
+	Symbol2.DurationError: -9
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 192986
+	Symbol2.FinishTime: 192986
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 9
+	Symbol3.OnsetTime: 193055
+	Symbol3.DurationError: -9
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 193286
+	Symbol3.FinishTime: 193286
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 9
+	Symbol4.OnsetTime: 193355
+	Symbol4.DurationError: -9
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 193586
+	Symbol4.FinishTime: 193586
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 9
+	Symbol5.OnsetTime: 193655
+	Symbol5.DurationError: -9
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 193886
+	Symbol5.FinishTime: 193886
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 8
+	Symbol6.OnsetTime: 193954
+	Symbol6.DurationError: -8
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 194186
+	Symbol6.FinishTime: 194186
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 8
+	Symbol7.OnsetTime: 194254
+	Symbol7.DurationError: -8
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 194486
+	Symbol7.FinishTime: 194486
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 8
+	Symbol8.OnsetTime: 194554
+	Symbol8.DurationError: -8
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 194786
+	Symbol8.FinishTime: 194786
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 8
+	Symbol9.OnsetTime: 194854
+	Symbol9.DurationError: -8
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 195086
+	Symbol9.FinishTime: 195086
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 8
+	Symbol10.OnsetTime: 195154
+	Symbol10.DurationError: -8
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 195386
+	Symbol10.FinishTime: 195386
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 8
+	Symbol11.OnsetTime: 195454
+	Symbol11.DurationError: -8
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 195686
+	Symbol11.FinishTime: 195686
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 2402
+	FixationAfter.Duration: 4285
+	TaskExpression.OnsetDelay: 4
+	TaskExpression.OnsetTime: 200035
+	TaskExpression.DurationError: -4
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 201471
+	TaskExpression.FinishTime: 201471
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 200738
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 703
+	TaskExpression.RESP: 5
+	TaskExpression.CRESP: 
+	Objperformance: 0
+	FeedbackTrial.Duration: 2402
+	Perf: 0
+	TotalTrial: 5
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 21
+	Level: 0
+	BranchSide: B
+	Symbol1: 1
+	Symbol2: -
+	Symbol3: (
+	Symbol4: +
+	Symbol5: 2
+	Symbol6: +
+	Symbol7: )
+	Symbol8: 3
+	Symbol9: {
+	Symbol10: }
+	Symbol11: 4
+	TaskExpression: 1-(+2+)3{}4
+	TaskAns: 2
+	Level2: 0
+	NonmatchN: 0
+	Trigger: 120
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 6
+	Running: List1
+	Symbol1.OnsetDelay: 0
+	Symbol1.OnsetTime: 204733
+	Symbol1.DurationError: 0
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 204973
+	Symbol1.FinishTime: 204973
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 0
+	Symbol2.OnsetTime: 205033
+	Symbol2.DurationError: 0
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 205273
+	Symbol2.FinishTime: 205273
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 0
+	Symbol3.OnsetTime: 205333
+	Symbol3.DurationError: 0
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 205573
+	Symbol3.FinishTime: 205573
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: -1
+	Symbol4.OnsetTime: 205632
+	Symbol4.DurationError: 1
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 205873
+	Symbol4.FinishTime: 205873
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: -1
+	Symbol5.OnsetTime: 205932
+	Symbol5.DurationError: 1
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 206173
+	Symbol5.FinishTime: 206173
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: -1
+	Symbol6.OnsetTime: 206232
+	Symbol6.DurationError: 1
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 206473
+	Symbol6.FinishTime: 206473
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: -1
+	Symbol7.OnsetTime: 206532
+	Symbol7.DurationError: 1
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 206773
+	Symbol7.FinishTime: 206773
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: -1
+	Symbol8.OnsetTime: 206832
+	Symbol8.DurationError: 1
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 207073
+	Symbol8.FinishTime: 207073
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: -1
+	Symbol9.OnsetTime: 207132
+	Symbol9.DurationError: 1
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 207373
+	Symbol9.FinishTime: 207373
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: -1
+	Symbol10.OnsetTime: 207432
+	Symbol10.DurationError: 1
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 207673
+	Symbol10.FinishTime: 207673
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: -1
+	Symbol11.OnsetTime: 207732
+	Symbol11.DurationError: 1
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 207973
+	Symbol11.FinishTime: 207973
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 3588
+	FixationAfter.Duration: 2399
+	TaskExpression.OnsetDelay: -1
+	TaskExpression.OnsetTime: 210431
+	TaskExpression.DurationError: 1
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 211872
+	TaskExpression.FinishTime: 211872
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 210933
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 502
+	TaskExpression.RESP: 5
+	TaskExpression.CRESP: 
+	Objperformance: 0
+	FeedbackTrial.Duration: 3588
+	Perf: 0
+	TotalTrial: 6
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 14
+	Level: 2
+	BranchSide: R
+	Symbol1: 2
+	Symbol2: +
+	Symbol3: }
+	Symbol4: 4
+	Symbol5: -
+	Symbol6: (
+	Symbol7: 3
+	Symbol8: +
+	Symbol9: 1
+	Symbol10: )
+	Symbol11: {
+	TaskExpression: 2+{4-(3+1)}
+	TaskAns: 1
+	Level2: 3
+	NonmatchN: 2
+	Trigger: 162
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 7
+	Running: List1
+	Symbol1.OnsetDelay: 7
+	Symbol1.OnsetTime: 216327
+	Symbol1.DurationError: -7
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 216560
+	Symbol1.FinishTime: 216560
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 7
+	Symbol2.OnsetTime: 216627
+	Symbol2.DurationError: -7
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 216860
+	Symbol2.FinishTime: 216860
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 7
+	Symbol3.OnsetTime: 216927
+	Symbol3.DurationError: -7
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 217160
+	Symbol3.FinishTime: 217160
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 7
+	Symbol4.OnsetTime: 217227
+	Symbol4.DurationError: -7
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 217460
+	Symbol4.FinishTime: 217460
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 7
+	Symbol5.OnsetTime: 217527
+	Symbol5.DurationError: -7
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 217760
+	Symbol5.FinishTime: 217760
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 7
+	Symbol6.OnsetTime: 217827
+	Symbol6.DurationError: -7
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 218060
+	Symbol6.FinishTime: 218060
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 7
+	Symbol7.OnsetTime: 218127
+	Symbol7.DurationError: -7
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 218360
+	Symbol7.FinishTime: 218360
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 7
+	Symbol8.OnsetTime: 218427
+	Symbol8.DurationError: -7
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 218660
+	Symbol8.FinishTime: 218660
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 6
+	Symbol9.OnsetTime: 218726
+	Symbol9.DurationError: -6
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 218960
+	Symbol9.FinishTime: 218960
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 6
+	Symbol10.OnsetTime: 219026
+	Symbol10.DurationError: -6
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 219260
+	Symbol10.FinishTime: 219260
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 6
+	Symbol11.OnsetTime: 219326
+	Symbol11.DurationError: -6
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 219560
+	Symbol11.FinishTime: 219560
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 4067
+	FixationAfter.Duration: 1646
+	TaskExpression.OnsetDelay: 9
+	TaskExpression.OnsetTime: 221275
+	TaskExpression.DurationError: -9
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 222706
+	TaskExpression.FinishTime: 222706
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 221889
+	TaskExpression.ACC: 1
+	TaskExpression.RT: 614
+	TaskExpression.RESP: 5
+	TaskExpression.CRESP: 
+	Objperformance: 1
+	FeedbackTrial.Duration: 4067
+	Perf: 1
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 31
+	Level: 2
+	BranchSide: L
+	Symbol1: }
+	Symbol2: (
+	Symbol3: 4
+	Symbol4: +
+	Symbol5: 1
+	Symbol6: )
+	Symbol7: -
+	Symbol8: 3
+	Symbol9: {
+	Symbol10: 2
+	Symbol11: +
+	TaskExpression: }(4+1)-3{2+
+	TaskAns: 2
+	Level2: 2
+	NonmatchN: 0
+	Trigger: 82
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 8
+	Running: List1
+	Symbol1.OnsetDelay: 6
+	Symbol1.OnsetTime: 227639
+	Symbol1.DurationError: -6
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 227873
+	Symbol1.FinishTime: 227873
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 6
+	Symbol2.OnsetTime: 227939
+	Symbol2.DurationError: -6
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 228173
+	Symbol2.FinishTime: 228173
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 6
+	Symbol3.OnsetTime: 228239
+	Symbol3.DurationError: -6
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 228473
+	Symbol3.FinishTime: 228473
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 6
+	Symbol4.OnsetTime: 228539
+	Symbol4.DurationError: -6
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 228773
+	Symbol4.FinishTime: 228773
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 5
+	Symbol5.OnsetTime: 228838
+	Symbol5.DurationError: -5
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 229073
+	Symbol5.FinishTime: 229073
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 5
+	Symbol6.OnsetTime: 229138
+	Symbol6.DurationError: -5
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 229373
+	Symbol6.FinishTime: 229373
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 5
+	Symbol7.OnsetTime: 229438
+	Symbol7.DurationError: -5
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 229673
+	Symbol7.FinishTime: 229673
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 5
+	Symbol8.OnsetTime: 229738
+	Symbol8.DurationError: -5
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 229973
+	Symbol8.FinishTime: 229973
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 5
+	Symbol9.OnsetTime: 230038
+	Symbol9.DurationError: -5
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 230273
+	Symbol9.FinishTime: 230273
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 5
+	Symbol10.OnsetTime: 230338
+	Symbol10.DurationError: -5
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 230573
+	Symbol10.FinishTime: 230573
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 5
+	Symbol11.OnsetTime: 230638
+	Symbol11.DurationError: -5
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 230873
+	Symbol11.FinishTime: 230873
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 4088
+	FixationAfter.Duration: 3351
+	TaskExpression.OnsetDelay: 2
+	TaskExpression.OnsetTime: 234286
+	TaskExpression.DurationError: -2
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 235724
+	TaskExpression.FinishTime: 235724
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 1
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	Objperformance: 0
+	FeedbackTrial.Duration: 4088
+	Perf: 1
+	TotalTrial: 8
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 20
+	Level: 3
+	BranchSide: R
+	Symbol1: 2
+	Symbol2: +
+	Symbol3: {
+	Symbol4: 3
+	Symbol5: +
+	Symbol6: (
+	Symbol7: 1
+	Symbol8: -
+	Symbol9: 4
+	Symbol10: )
+	Symbol11: }
+	TaskExpression: 2+{3+(1-4)}
+	TaskAns: 2
+	Level2: 3
+	NonmatchN: 0
+	Trigger: 97
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 9
+	Running: List1
+	Symbol1.OnsetDelay: 11
+	Symbol1.OnsetTime: 240683
+	Symbol1.DurationError: -11
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 240912
+	Symbol1.FinishTime: 240912
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 11
+	Symbol2.OnsetTime: 240983
+	Symbol2.DurationError: -11
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 241212
+	Symbol2.FinishTime: 241212
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 11
+	Symbol3.OnsetTime: 241283
+	Symbol3.DurationError: -11
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 241512
+	Symbol3.FinishTime: 241512
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 11
+	Symbol4.OnsetTime: 241583
+	Symbol4.DurationError: -11
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 241812
+	Symbol4.FinishTime: 241812
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 10
+	Symbol5.OnsetTime: 241882
+	Symbol5.DurationError: -10
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 242112
+	Symbol5.FinishTime: 242112
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 10
+	Symbol6.OnsetTime: 242182
+	Symbol6.DurationError: -10
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 242412
+	Symbol6.FinishTime: 242412
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 10
+	Symbol7.OnsetTime: 242482
+	Symbol7.DurationError: -10
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 242712
+	Symbol7.FinishTime: 242712
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 10
+	Symbol8.OnsetTime: 242782
+	Symbol8.DurationError: -10
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 243012
+	Symbol8.FinishTime: 243012
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 10
+	Symbol9.OnsetTime: 243082
+	Symbol9.DurationError: -10
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 243312
+	Symbol9.FinishTime: 243312
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 10
+	Symbol10.OnsetTime: 243382
+	Symbol10.DurationError: -10
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 243612
+	Symbol10.FinishTime: 243612
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 10
+	Symbol11.OnsetTime: 243682
+	Symbol11.DurationError: -10
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 243912
+	Symbol11.FinishTime: 243912
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 2604
+	FixationAfter.Duration: 3017
+	TaskExpression.OnsetDelay: 8
+	TaskExpression.OnsetTime: 246997
+	TaskExpression.DurationError: -8
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 248429
+	TaskExpression.FinishTime: 248429
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 1
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	Objperformance: 0
+	FeedbackTrial.Duration: 2604
+	Perf: 1
+	TotalTrial: 9
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 26
+	Level: 1
+	BranchSide: R
+	Symbol1: 4
+	Symbol2: +
+	Symbol3: }
+	Symbol4: +
+	Symbol5: 3
+	Symbol6: )
+	Symbol7: 2
+	Symbol8: -
+	Symbol9: 1
+	Symbol10: (
+	Symbol11: {
+	TaskExpression: 4+}+3)2-1({
+	TaskAns: 2
+	Level2: 1
+	NonmatchN: 0
+	Trigger: 100
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 10
+	Running: List1
+	Symbol1.OnsetDelay: 2
+	Symbol1.OnsetTime: 251895
+	Symbol1.DurationError: -2
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 252133
+	Symbol1.FinishTime: 252133
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 1
+	Symbol2.OnsetTime: 252194
+	Symbol2.DurationError: -1
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 252433
+	Symbol2.FinishTime: 252433
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 1
+	Symbol3.OnsetTime: 252494
+	Symbol3.DurationError: -1
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 252733
+	Symbol3.FinishTime: 252733
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 1
+	Symbol4.OnsetTime: 252794
+	Symbol4.DurationError: -1
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 253033
+	Symbol4.FinishTime: 253033
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 1
+	Symbol5.OnsetTime: 253094
+	Symbol5.DurationError: -1
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 253333
+	Symbol5.FinishTime: 253333
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 1
+	Symbol6.OnsetTime: 253394
+	Symbol6.DurationError: -1
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 253633
+	Symbol6.FinishTime: 253633
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 1
+	Symbol7.OnsetTime: 253694
+	Symbol7.DurationError: -1
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 253933
+	Symbol7.FinishTime: 253933
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 1
+	Symbol8.OnsetTime: 253994
+	Symbol8.DurationError: -1
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 254233
+	Symbol8.FinishTime: 254233
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 0
+	Symbol9.OnsetTime: 254293
+	Symbol9.DurationError: 0
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 254533
+	Symbol9.FinishTime: 254533
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 0
+	Symbol10.OnsetTime: 254593
+	Symbol10.DurationError: 0
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 254833
+	Symbol10.FinishTime: 254833
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 0
+	Symbol11.OnsetTime: 254893
+	Symbol11.DurationError: 0
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 255133
+	Symbol11.FinishTime: 255133
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 3686
+	FixationAfter.Duration: 2332
+	TaskExpression.OnsetDelay: 0
+	TaskExpression.OnsetTime: 257525
+	TaskExpression.DurationError: 0
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 258965
+	TaskExpression.FinishTime: 258965
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 258433
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 908
+	TaskExpression.RESP: 5
+	TaskExpression.CRESP: 
+	Objperformance: 0
+	FeedbackTrial.Duration: 3686
+	Perf: 1
+	TotalTrial: 10
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 19
+	Level: 2
+	BranchSide: R
+	Symbol1: +
+	Symbol2: 2
+	Symbol3: }
+	Symbol4: 3
+	Symbol5: +
+	Symbol6: (
+	Symbol7: 1
+	Symbol8: -
+	Symbol9: 4
+	Symbol10: )
+	Symbol11: {
+	TaskExpression: +2}3+(1-4){
+	TaskAns: 2
+	Level2: 2
+	NonmatchN: 0
+	Trigger: 98
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 11
+	Running: List1
+	Symbol1.OnsetDelay: 12
+	Symbol1.OnsetTime: 263523
+	Symbol1.DurationError: -12
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 263751
+	Symbol1.FinishTime: 263751
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 11
+	Symbol2.OnsetTime: 263822
+	Symbol2.DurationError: -11
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 264051
+	Symbol2.FinishTime: 264051
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 11
+	Symbol3.OnsetTime: 264122
+	Symbol3.DurationError: -11
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 264351
+	Symbol3.FinishTime: 264351
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 11
+	Symbol4.OnsetTime: 264422
+	Symbol4.DurationError: -11
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 264651
+	Symbol4.FinishTime: 264651
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 11
+	Symbol5.OnsetTime: 264722
+	Symbol5.DurationError: -11
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 264951
+	Symbol5.FinishTime: 264951
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 11
+	Symbol6.OnsetTime: 265022
+	Symbol6.DurationError: -11
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 265251
+	Symbol6.FinishTime: 265251
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 11
+	Symbol7.OnsetTime: 265322
+	Symbol7.DurationError: -11
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 265551
+	Symbol7.FinishTime: 265551
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 11
+	Symbol8.OnsetTime: 265622
+	Symbol8.DurationError: -11
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 265851
+	Symbol8.FinishTime: 265851
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 10
+	Symbol9.OnsetTime: 265921
+	Symbol9.DurationError: -10
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 266151
+	Symbol9.FinishTime: 266151
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 10
+	Symbol10.OnsetTime: 266221
+	Symbol10.DurationError: -10
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 266451
+	Symbol10.FinishTime: 266451
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 10
+	Symbol11.OnsetTime: 266521
+	Symbol11.DurationError: -10
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 266751
+	Symbol11.FinishTime: 266751
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 2320
+	FixationAfter.Duration: 2942
+	TaskExpression.OnsetDelay: 0
+	TaskExpression.OnsetTime: 269753
+	TaskExpression.DurationError: 0
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 271193
+	TaskExpression.FinishTime: 271193
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 270222
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 469
+	TaskExpression.RESP: 5
+	TaskExpression.CRESP: 
+	Objperformance: 0
+	FeedbackTrial.Duration: 2320
+	Perf: 1
+	TotalTrial: 11
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 7
+	Level: 0
+	BranchSide: B
+	Symbol1: )
+	Symbol2: 4
+	Symbol3: }
+	Symbol4: 3
+	Symbol5: {
+	Symbol6: -
+	Symbol7: +
+	Symbol8: 2
+	Symbol9: +
+	Symbol10: (
+	Symbol11: 1
+	TaskExpression: +{}4+)2-3(1
+	TaskAns: 1
+	Level2: 1
+	NonmatchN: 8
+	Trigger: 184
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 12
+	Running: List1
+	Symbol1.OnsetDelay: 11
+	Symbol1.OnsetTime: 274384
+	Symbol1.DurationError: -11
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 274613
+	Symbol1.FinishTime: 274613
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 11
+	Symbol2.OnsetTime: 274684
+	Symbol2.DurationError: -11
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 274913
+	Symbol2.FinishTime: 274913
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 11
+	Symbol3.OnsetTime: 274984
+	Symbol3.DurationError: -11
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 275213
+	Symbol3.FinishTime: 275213
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 11
+	Symbol4.OnsetTime: 275284
+	Symbol4.DurationError: -11
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 275513
+	Symbol4.FinishTime: 275513
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 11
+	Symbol5.OnsetTime: 275584
+	Symbol5.DurationError: -11
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 275813
+	Symbol5.FinishTime: 275813
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 11
+	Symbol6.OnsetTime: 275884
+	Symbol6.DurationError: -11
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 276113
+	Symbol6.FinishTime: 276113
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 10
+	Symbol7.OnsetTime: 276183
+	Symbol7.DurationError: -10
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 276413
+	Symbol7.FinishTime: 276413
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 10
+	Symbol8.OnsetTime: 276483
+	Symbol8.DurationError: -10
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 276713
+	Symbol8.FinishTime: 276713
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 10
+	Symbol9.OnsetTime: 276783
+	Symbol9.DurationError: -10
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 277013
+	Symbol9.FinishTime: 277013
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 10
+	Symbol10.OnsetTime: 277083
+	Symbol10.DurationError: -10
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 277313
+	Symbol10.FinishTime: 277313
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 10
+	Symbol11.OnsetTime: 277383
+	Symbol11.DurationError: -10
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 277613
+	Symbol11.FinishTime: 277613
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 1725
+	FixationAfter.Duration: 3062
+	TaskExpression.OnsetDelay: 13
+	TaskExpression.OnsetTime: 280748
+	TaskExpression.DurationError: -13
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 282175
+	TaskExpression.FinishTime: 282175
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 281490
+	TaskExpression.ACC: 1
+	TaskExpression.RT: 742
+	TaskExpression.RESP: 5
+	TaskExpression.CRESP: 
+	Objperformance: 1
+	FeedbackTrial.Duration: 1725
+	Perf: 2
+	TotalTrial: 12
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 18
+	Level: 1
+	BranchSide: R
+	Symbol1: {
+	Symbol2: 2
+	Symbol3: +
+	Symbol4: }
+	Symbol5: +
+	Symbol6: )
+	Symbol7: 1
+	Symbol8: -
+	Symbol9: 4
+	Symbol10: (
+	Symbol11: 3
+	TaskExpression: {2+}+)1-4(3
+	TaskAns: 2
+	Level2: 1
+	NonmatchN: 0
+	Trigger: 100
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 13
+	Running: List1
+	Symbol1.OnsetDelay: 3
+	Symbol1.OnsetTime: 284763
+	Symbol1.DurationError: -3
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 285000
+	Symbol1.FinishTime: 285000
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 3
+	Symbol2.OnsetTime: 285063
+	Symbol2.DurationError: -3
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 285300
+	Symbol2.FinishTime: 285300
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 3
+	Symbol3.OnsetTime: 285363
+	Symbol3.DurationError: -3
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 285600
+	Symbol3.FinishTime: 285600
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 2
+	Symbol4.OnsetTime: 285662
+	Symbol4.DurationError: -2
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 285900
+	Symbol4.FinishTime: 285900
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 2
+	Symbol5.OnsetTime: 285962
+	Symbol5.DurationError: -2
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 286200
+	Symbol5.FinishTime: 286200
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 2
+	Symbol6.OnsetTime: 286262
+	Symbol6.DurationError: -2
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 286500
+	Symbol6.FinishTime: 286500
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 2
+	Symbol7.OnsetTime: 286562
+	Symbol7.DurationError: -2
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 286800
+	Symbol7.FinishTime: 286800
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 2
+	Symbol8.OnsetTime: 286862
+	Symbol8.DurationError: -2
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 287100
+	Symbol8.FinishTime: 287100
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 2
+	Symbol9.OnsetTime: 287162
+	Symbol9.DurationError: -2
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 287400
+	Symbol9.FinishTime: 287400
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 2
+	Symbol10.OnsetTime: 287462
+	Symbol10.DurationError: -2
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 287700
+	Symbol10.FinishTime: 287700
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 1
+	Symbol11.OnsetTime: 287761
+	Symbol11.DurationError: -1
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 288000
+	Symbol11.FinishTime: 288000
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 1984
+	FixationAfter.Duration: 4352
+	TaskExpression.OnsetDelay: 14
+	TaskExpression.OnsetTime: 292426
+	TaskExpression.DurationError: -14
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 293852
+	TaskExpression.FinishTime: 293852
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 292900
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 474
+	TaskExpression.RESP: 5
+	TaskExpression.CRESP: 
+	Objperformance: 0
+	FeedbackTrial.Duration: 1984
+	Perf: 2
+	TotalTrial: 13
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 28
+	Level: 3
+	BranchSide: R
+	Symbol1: 4
+	Symbol2: +
+	Symbol3: {
+	Symbol4: 3
+	Symbol5: +
+	Symbol6: (
+	Symbol7: 2
+	Symbol8: -
+	Symbol9: 1
+	Symbol10: )
+	Symbol11: }
+	TaskExpression: 4+{3+(2-1)}
+	TaskAns: 2
+	Level2: 3
+	NonmatchN: 0
+	Trigger: 97
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 14
+	Running: List1
+	Symbol1.OnsetDelay: 11
+	Symbol1.OnsetTime: 296707
+	Symbol1.DurationError: -11
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 296936
+	Symbol1.FinishTime: 296936
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 11
+	Symbol2.OnsetTime: 297007
+	Symbol2.DurationError: -11
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 297236
+	Symbol2.FinishTime: 297236
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 11
+	Symbol3.OnsetTime: 297307
+	Symbol3.DurationError: -11
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 297536
+	Symbol3.FinishTime: 297536
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 11
+	Symbol4.OnsetTime: 297607
+	Symbol4.DurationError: -11
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 297836
+	Symbol4.FinishTime: 297836
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 11
+	Symbol5.OnsetTime: 297907
+	Symbol5.DurationError: -11
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 298136
+	Symbol5.FinishTime: 298136
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 11
+	Symbol6.OnsetTime: 298207
+	Symbol6.DurationError: -11
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 298436
+	Symbol6.FinishTime: 298436
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 11
+	Symbol7.OnsetTime: 298507
+	Symbol7.DurationError: -11
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 298736
+	Symbol7.FinishTime: 298736
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 10
+	Symbol8.OnsetTime: 298806
+	Symbol8.DurationError: -10
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 299036
+	Symbol8.FinishTime: 299036
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 10
+	Symbol9.OnsetTime: 299106
+	Symbol9.DurationError: -10
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 299336
+	Symbol9.FinishTime: 299336
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 10
+	Symbol10.OnsetTime: 299406
+	Symbol10.DurationError: -10
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 299636
+	Symbol10.FinishTime: 299636
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 10
+	Symbol11.OnsetTime: 299706
+	Symbol11.DurationError: -10
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 299936
+	Symbol11.FinishTime: 299936
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 3463
+	FixationAfter.Duration: 4021
+	TaskExpression.OnsetDelay: 4
+	TaskExpression.OnsetTime: 304021
+	TaskExpression.DurationError: -4
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 305457
+	TaskExpression.FinishTime: 305457
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 1
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	Objperformance: 0
+	FeedbackTrial.Duration: 3463
+	Perf: 2
+	TotalTrial: 14
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 12
+	Level: 3
+	BranchSide: L
+	Symbol1: {
+	Symbol2: (
+	Symbol3: 4
+	Symbol4: +
+	Symbol5: 3
+	Symbol6: )
+	Symbol7: +
+	Symbol8: 1
+	Symbol9: }
+	Symbol10: -
+	Symbol11: 2
+	TaskExpression: }(4+3)-1{+2
+	TaskAns: 1
+	Level2: 2
+	NonmatchN: 4
+	Trigger: 145
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 15
+	Running: List1
+	Symbol1.OnsetDelay: 5
+	Symbol1.OnsetTime: 309785
+	Symbol1.DurationError: -5
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 310020
+	Symbol1.FinishTime: 310020
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 5
+	Symbol2.OnsetTime: 310085
+	Symbol2.DurationError: -5
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 310320
+	Symbol2.FinishTime: 310320
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 4
+	Symbol3.OnsetTime: 310384
+	Symbol3.DurationError: -4
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 310620
+	Symbol3.FinishTime: 310620
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 4
+	Symbol4.OnsetTime: 310684
+	Symbol4.DurationError: -4
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 310920
+	Symbol4.FinishTime: 310920
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 4
+	Symbol5.OnsetTime: 310984
+	Symbol5.DurationError: -4
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 311220
+	Symbol5.FinishTime: 311220
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 4
+	Symbol6.OnsetTime: 311284
+	Symbol6.DurationError: -4
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 311520
+	Symbol6.FinishTime: 311520
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 4
+	Symbol7.OnsetTime: 311584
+	Symbol7.DurationError: -4
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 311820
+	Symbol7.FinishTime: 311820
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 4
+	Symbol8.OnsetTime: 311884
+	Symbol8.DurationError: -4
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 312120
+	Symbol8.FinishTime: 312120
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 4
+	Symbol9.OnsetTime: 312184
+	Symbol9.DurationError: -4
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 312420
+	Symbol9.FinishTime: 312420
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 3
+	Symbol10.OnsetTime: 312483
+	Symbol10.DurationError: -3
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 312720
+	Symbol10.FinishTime: 312720
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 3
+	Symbol11.OnsetTime: 312783
+	Symbol11.DurationError: -3
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 313020
+	Symbol11.FinishTime: 313020
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 2483
+	FixationAfter.Duration: 3807
+	TaskExpression.OnsetDelay: 11
+	TaskExpression.OnsetTime: 316898
+	TaskExpression.DurationError: -11
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 318327
+	TaskExpression.FinishTime: 318327
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 317506
+	TaskExpression.ACC: 1
+	TaskExpression.RT: 608
+	TaskExpression.RESP: 5
+	TaskExpression.CRESP: 
+	Objperformance: 1
+	FeedbackTrial.Duration: 2483
+	Perf: 3
+	TotalTrial: 15
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 16
+	Level: 2
+	BranchSide: L
+	Symbol1: }
+	Symbol2: (
+	Symbol3: 4
+	Symbol4: +
+	Symbol5: 3
+	Symbol6: )
+	Symbol7: -
+	Symbol8: 1
+	Symbol9: {
+	Symbol10: +
+	Symbol11: 2
+	TaskExpression: {(4+3)-1}+2
+	TaskAns: 1
+	Level2: 3
+	NonmatchN: 2
+	Trigger: 146
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 16
+	Running: List1
+	Symbol1.OnsetDelay: 9
+	Symbol1.OnsetTime: 321679
+	Symbol1.DurationError: -9
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 321910
+	Symbol1.FinishTime: 321910
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 9
+	Symbol2.OnsetTime: 321979
+	Symbol2.DurationError: -9
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 322210
+	Symbol2.FinishTime: 322210
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 9
+	Symbol3.OnsetTime: 322279
+	Symbol3.DurationError: -9
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 322510
+	Symbol3.FinishTime: 322510
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 9
+	Symbol4.OnsetTime: 322579
+	Symbol4.DurationError: -9
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 322810
+	Symbol4.FinishTime: 322810
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 9
+	Symbol5.OnsetTime: 322879
+	Symbol5.DurationError: -9
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 323110
+	Symbol5.FinishTime: 323110
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 9
+	Symbol6.OnsetTime: 323179
+	Symbol6.DurationError: -9
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 323410
+	Symbol6.FinishTime: 323410
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 8
+	Symbol7.OnsetTime: 323478
+	Symbol7.DurationError: -8
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 323710
+	Symbol7.FinishTime: 323710
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 8
+	Symbol8.OnsetTime: 323778
+	Symbol8.DurationError: -8
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 324010
+	Symbol8.FinishTime: 324010
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 8
+	Symbol9.OnsetTime: 324078
+	Symbol9.DurationError: -8
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 324310
+	Symbol9.FinishTime: 324310
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 8
+	Symbol10.OnsetTime: 324378
+	Symbol10.DurationError: -8
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 324610
+	Symbol10.FinishTime: 324610
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 8
+	Symbol11.OnsetTime: 324678
+	Symbol11.DurationError: -8
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 324910
+	Symbol11.FinishTime: 324910
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 2456
+	FixationAfter.Duration: 1925
+	TaskExpression.OnsetDelay: -1
+	TaskExpression.OnsetTime: 326894
+	TaskExpression.DurationError: 1
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 328335
+	TaskExpression.FinishTime: 328335
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 1
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	Objperformance: 0
+	FeedbackTrial.Duration: 2456
+	Perf: 3
+	TotalTrial: 16
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 5
+	Level: 0
+	BranchSide: B
+	Symbol1: +
+	Symbol2: )
+	Symbol3: 1
+	Symbol4: }
+	Symbol5: 2
+	Symbol6: +
+	Symbol7: (
+	Symbol8: 4
+	Symbol9: {
+	Symbol10: 3
+	Symbol11: -
+	TaskExpression: 3)1+4(}2{+-
+	TaskAns: 1
+	Level2: 1
+	NonmatchN: 7
+	Trigger: 184
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 17
+	Running: List1
+	Symbol1.OnsetDelay: 7
+	Symbol1.OnsetTime: 331658
+	Symbol1.DurationError: -7
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 331891
+	Symbol1.FinishTime: 331891
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 7
+	Symbol2.OnsetTime: 331958
+	Symbol2.DurationError: -7
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 332191
+	Symbol2.FinishTime: 332191
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 7
+	Symbol3.OnsetTime: 332258
+	Symbol3.DurationError: -7
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 332491
+	Symbol3.FinishTime: 332491
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 7
+	Symbol4.OnsetTime: 332558
+	Symbol4.DurationError: -7
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 332791
+	Symbol4.FinishTime: 332791
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 6
+	Symbol5.OnsetTime: 332857
+	Symbol5.DurationError: -6
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 333091
+	Symbol5.FinishTime: 333091
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 6
+	Symbol6.OnsetTime: 333157
+	Symbol6.DurationError: -6
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 333391
+	Symbol6.FinishTime: 333391
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 6
+	Symbol7.OnsetTime: 333457
+	Symbol7.DurationError: -6
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 333691
+	Symbol7.FinishTime: 333691
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 6
+	Symbol8.OnsetTime: 333757
+	Symbol8.DurationError: -6
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 333991
+	Symbol8.FinishTime: 333991
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 6
+	Symbol9.OnsetTime: 334057
+	Symbol9.DurationError: -6
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 334291
+	Symbol9.FinishTime: 334291
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 6
+	Symbol10.OnsetTime: 334357
+	Symbol10.DurationError: -6
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 334591
+	Symbol10.FinishTime: 334591
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 6
+	Symbol11.OnsetTime: 334657
+	Symbol11.DurationError: -6
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 334891
+	Symbol11.FinishTime: 334891
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 3290
+	FixationAfter.Duration: 2376
+	TaskExpression.OnsetDelay: 12
+	TaskExpression.OnsetTime: 337339
+	TaskExpression.DurationError: -12
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 338767
+	TaskExpression.FinishTime: 338767
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 1
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	Objperformance: 0
+	FeedbackTrial.Duration: 3290
+	Perf: 3
+	TotalTrial: 17
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 9
+	Level: 1
+	BranchSide: R
+	Symbol1: {
+	Symbol2: +
+	Symbol3: }
+	Symbol4: +
+	Symbol5: 4
+	Symbol6: )
+	Symbol7: 3
+	Symbol8: -
+	Symbol9: 1
+	Symbol10: (
+	Symbol11: 2
+	TaskExpression: 2+}4+(3-1){
+	TaskAns: 1
+	Level2: 2
+	NonmatchN: 6
+	Trigger: 164
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 18
+	Running: List1
+	Symbol1.OnsetDelay: 3
+	Symbol1.OnsetTime: 342920
+	Symbol1.DurationError: -3
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 343157
+	Symbol1.FinishTime: 343157
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 2
+	Symbol2.OnsetTime: 343219
+	Symbol2.DurationError: -2
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 343457
+	Symbol2.FinishTime: 343457
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 2
+	Symbol3.OnsetTime: 343519
+	Symbol3.DurationError: -2
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 343757
+	Symbol3.FinishTime: 343757
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 2
+	Symbol4.OnsetTime: 343819
+	Symbol4.DurationError: -2
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 344057
+	Symbol4.FinishTime: 344057
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 2
+	Symbol5.OnsetTime: 344119
+	Symbol5.DurationError: -2
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 344357
+	Symbol5.FinishTime: 344357
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 2
+	Symbol6.OnsetTime: 344419
+	Symbol6.DurationError: -2
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 344657
+	Symbol6.FinishTime: 344657
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 2
+	Symbol7.OnsetTime: 344719
+	Symbol7.DurationError: -2
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 344957
+	Symbol7.FinishTime: 344957
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 2
+	Symbol8.OnsetTime: 345019
+	Symbol8.DurationError: -2
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 345257
+	Symbol8.FinishTime: 345257
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 1
+	Symbol9.OnsetTime: 345318
+	Symbol9.DurationError: -1
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 345557
+	Symbol9.FinishTime: 345557
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 1
+	Symbol10.OnsetTime: 345618
+	Symbol10.DurationError: -1
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 345857
+	Symbol10.FinishTime: 345857
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 1
+	Symbol11.OnsetTime: 345918
+	Symbol11.DurationError: -1
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 346157
+	Symbol11.FinishTime: 346157
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 1715
+	FixationAfter.Duration: 2628
+	TaskExpression.OnsetDelay: 5
+	TaskExpression.OnsetTime: 348850
+	TaskExpression.DurationError: -5
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 350285
+	TaskExpression.FinishTime: 350285
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 1
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	Objperformance: 0
+	FeedbackTrial.Duration: 1715
+	Perf: 3
+	TotalTrial: 18
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 10
+	Level: 3
+	BranchSide: R
+	Symbol1: 4
+	Symbol2: +
+	Symbol3: {
+	Symbol4: 2
+	Symbol5: +
+	Symbol6: (
+	Symbol7: 3
+	Symbol8: -
+	Symbol9: 1
+	Symbol10: )
+	Symbol11: }
+	TaskExpression: 4+}2-(3+1){
+	TaskAns: 1
+	Level2: 2
+	NonmatchN: 4
+	Trigger: 161
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 19
+	Running: List1
+	Symbol1.OnsetDelay: 5
+	Symbol1.OnsetTime: 352865
+	Symbol1.DurationError: -5
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 353100
+	Symbol1.FinishTime: 353100
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 5
+	Symbol2.OnsetTime: 353165
+	Symbol2.DurationError: -5
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 353400
+	Symbol2.FinishTime: 353400
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 5
+	Symbol3.OnsetTime: 353465
+	Symbol3.DurationError: -5
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 353700
+	Symbol3.FinishTime: 353700
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 5
+	Symbol4.OnsetTime: 353765
+	Symbol4.DurationError: -5
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 354000
+	Symbol4.FinishTime: 354000
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 4
+	Symbol5.OnsetTime: 354064
+	Symbol5.DurationError: -4
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 354300
+	Symbol5.FinishTime: 354300
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 4
+	Symbol6.OnsetTime: 354364
+	Symbol6.DurationError: -4
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 354600
+	Symbol6.FinishTime: 354600
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 4
+	Symbol7.OnsetTime: 354664
+	Symbol7.DurationError: -4
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 354900
+	Symbol7.FinishTime: 354900
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 4
+	Symbol8.OnsetTime: 354964
+	Symbol8.DurationError: -4
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 355200
+	Symbol8.FinishTime: 355200
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 4
+	Symbol9.OnsetTime: 355264
+	Symbol9.DurationError: -4
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 355500
+	Symbol9.FinishTime: 355500
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 4
+	Symbol10.OnsetTime: 355564
+	Symbol10.DurationError: -4
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 355800
+	Symbol10.FinishTime: 355800
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 4
+	Symbol11.OnsetTime: 355864
+	Symbol11.DurationError: -4
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 356100
+	Symbol11.FinishTime: 356100
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 2016
+	FixationAfter.Duration: 3867
+	TaskExpression.OnsetDelay: 1
+	TaskExpression.OnsetTime: 360028
+	TaskExpression.DurationError: -1
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 361467
+	TaskExpression.FinishTime: 361467
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 1
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	Objperformance: 0
+	FeedbackTrial.Duration: 2016
+	Perf: 3
+	TotalTrial: 19
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 22
+	Level: 1
+	BranchSide: L
+	Symbol1: 2
+	Symbol2: )
+	Symbol3: 4
+	Symbol4: +
+	Symbol5: 1
+	Symbol6: (
+	Symbol7: }
+	Symbol8: {
+	Symbol9: 3
+	Symbol10: +
+	Symbol11: -
+	TaskExpression: 2)4+1(}{3+-
+	TaskAns: 2
+	Level2: 1
+	NonmatchN: 0
+	Trigger: 84
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 20
+	Running: List1
+	Symbol1.OnsetDelay: 0
+	Symbol1.OnsetTime: 364343
+	Symbol1.DurationError: 0
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 364583
+	Symbol1.FinishTime: 364583
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 0
+	Symbol2.OnsetTime: 364643
+	Symbol2.DurationError: 0
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 364883
+	Symbol2.FinishTime: 364883
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 0
+	Symbol3.OnsetTime: 364943
+	Symbol3.DurationError: 0
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 365183
+	Symbol3.FinishTime: 365183
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 0
+	Symbol4.OnsetTime: 365243
+	Symbol4.DurationError: 0
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 365483
+	Symbol4.FinishTime: 365483
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 0
+	Symbol5.OnsetTime: 365543
+	Symbol5.DurationError: 0
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 365783
+	Symbol5.FinishTime: 365783
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: -1
+	Symbol6.OnsetTime: 365842
+	Symbol6.DurationError: 1
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 366083
+	Symbol6.FinishTime: 366083
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: -1
+	Symbol7.OnsetTime: 366142
+	Symbol7.DurationError: 1
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 366383
+	Symbol7.FinishTime: 366383
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: -1
+	Symbol8.OnsetTime: 366442
+	Symbol8.DurationError: 1
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 366683
+	Symbol8.FinishTime: 366683
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: -1
+	Symbol9.OnsetTime: 366742
+	Symbol9.DurationError: 1
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 366983
+	Symbol9.FinishTime: 366983
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: -1
+	Symbol10.OnsetTime: 367042
+	Symbol10.DurationError: 1
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 367283
+	Symbol10.FinishTime: 367283
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: -1
+	Symbol11.OnsetTime: 367342
+	Symbol11.DurationError: 1
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 367583
+	Symbol11.FinishTime: 367583
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 2815
+	FixationAfter.Duration: 2508
+	TaskExpression.OnsetDelay: 6
+	TaskExpression.OnsetTime: 370157
+	TaskExpression.DurationError: -6
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 371591
+	TaskExpression.FinishTime: 371591
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 1
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	Objperformance: 0
+	FeedbackTrial.Duration: 2815
+	Perf: 3
+	TotalTrial: 20
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 4
+	Level: 3
+	BranchSide: L
+	Symbol1: {
+	Symbol2: (
+	Symbol3: 1
+	Symbol4: +
+	Symbol5: 2
+	Symbol6: )
+	Symbol7: +
+	Symbol8: 4
+	Symbol9: }
+	Symbol10: -
+	Symbol11: 3
+	TaskExpression: 1{})2+(4+-3
+	TaskAns: 1
+	Level2: 0
+	NonmatchN: 7
+	Trigger: 145
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 21
+	Running: List1
+	Symbol1.OnsetDelay: 5
+	Symbol1.OnsetTime: 375271
+	Symbol1.DurationError: -5
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 375506
+	Symbol1.FinishTime: 375506
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 5
+	Symbol2.OnsetTime: 375571
+	Symbol2.DurationError: -5
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 375806
+	Symbol2.FinishTime: 375806
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 5
+	Symbol3.OnsetTime: 375871
+	Symbol3.DurationError: -5
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 376106
+	Symbol3.FinishTime: 376106
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 5
+	Symbol4.OnsetTime: 376171
+	Symbol4.DurationError: -5
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 376406
+	Symbol4.FinishTime: 376406
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 5
+	Symbol5.OnsetTime: 376471
+	Symbol5.DurationError: -5
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 376706
+	Symbol5.FinishTime: 376706
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 5
+	Symbol6.OnsetTime: 376771
+	Symbol6.DurationError: -5
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 377006
+	Symbol6.FinishTime: 377006
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 5
+	Symbol7.OnsetTime: 377071
+	Symbol7.DurationError: -5
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 377306
+	Symbol7.FinishTime: 377306
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 4
+	Symbol8.OnsetTime: 377370
+	Symbol8.DurationError: -4
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 377606
+	Symbol8.FinishTime: 377606
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 4
+	Symbol9.OnsetTime: 377670
+	Symbol9.DurationError: -4
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 377906
+	Symbol9.FinishTime: 377906
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 4
+	Symbol10.OnsetTime: 377970
+	Symbol10.DurationError: -4
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 378206
+	Symbol10.FinishTime: 378206
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 4
+	Symbol11.OnsetTime: 378270
+	Symbol11.DurationError: -4
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 378506
+	Symbol11.FinishTime: 378506
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 2835
+	FixationAfter.Duration: 2319
+	TaskExpression.OnsetDelay: 0
+	TaskExpression.OnsetTime: 380885
+	TaskExpression.DurationError: 0
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 382325
+	TaskExpression.FinishTime: 382325
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 381396
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 511
+	TaskExpression.RESP: 4
+	TaskExpression.CRESP: 
+	Objperformance: 0
+	FeedbackTrial.Duration: 2835
+	Perf: 3
+	TotalTrial: 21
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 13
+	Level: 0
+	BranchSide: B
+	Symbol1: 1
+	Symbol2: +
+	Symbol3: }
+	Symbol4: 2
+	Symbol5: +
+	Symbol6: )
+	Symbol7: 3
+	Symbol8: (
+	Symbol9: 4
+	Symbol10: -
+	Symbol11: {
+	TaskExpression: 1+{2+(3-4)}
+	TaskAns: 1
+	Level2: 3
+	NonmatchN: 5
+	Trigger: 184
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 22
+	Running: List1
+	Symbol1.OnsetDelay: 13
+	Symbol1.OnsetTime: 386033
+	Symbol1.DurationError: -13
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 386260
+	Symbol1.FinishTime: 386260
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 13
+	Symbol2.OnsetTime: 386333
+	Symbol2.DurationError: -13
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 386560
+	Symbol2.FinishTime: 386560
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 13
+	Symbol3.OnsetTime: 386633
+	Symbol3.DurationError: -13
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 386860
+	Symbol3.FinishTime: 386860
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 13
+	Symbol4.OnsetTime: 386933
+	Symbol4.DurationError: -13
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 387160
+	Symbol4.FinishTime: 387160
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 13
+	Symbol5.OnsetTime: 387233
+	Symbol5.DurationError: -13
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 387460
+	Symbol5.FinishTime: 387460
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 12
+	Symbol6.OnsetTime: 387532
+	Symbol6.DurationError: -12
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 387760
+	Symbol6.FinishTime: 387760
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 12
+	Symbol7.OnsetTime: 387832
+	Symbol7.DurationError: -12
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 388060
+	Symbol7.FinishTime: 388060
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 12
+	Symbol8.OnsetTime: 388132
+	Symbol8.DurationError: -12
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 388360
+	Symbol8.FinishTime: 388360
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 12
+	Symbol9.OnsetTime: 388432
+	Symbol9.DurationError: -12
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 388660
+	Symbol9.FinishTime: 388660
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 12
+	Symbol10.OnsetTime: 388732
+	Symbol10.DurationError: -12
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 388960
+	Symbol10.FinishTime: 388960
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 12
+	Symbol11.OnsetTime: 389032
+	Symbol11.DurationError: -12
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 389260
+	Symbol11.FinishTime: 389260
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 1506
+	FixationAfter.Duration: 2734
+	TaskExpression.OnsetDelay: 10
+	TaskExpression.OnsetTime: 392064
+	TaskExpression.DurationError: -10
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 393494
+	TaskExpression.FinishTime: 393494
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 392707
+	TaskExpression.ACC: 1
+	TaskExpression.RT: 643
+	TaskExpression.RESP: 5
+	TaskExpression.CRESP: 
+	Objperformance: 1
+	FeedbackTrial.Duration: 1506
+	Perf: 4
+	TotalTrial: 22
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 24
+	Level: 3
+	BranchSide: L
+	Symbol1: {
+	Symbol2: (
+	Symbol3: 4
+	Symbol4: +
+	Symbol5: 1
+	Symbol6: )
+	Symbol7: -
+	Symbol8: 2
+	Symbol9: }
+	Symbol10: +
+	Symbol11: 3
+	TaskExpression: {(4+1)-2}+3
+	TaskAns: 2
+	Level2: 3
+	NonmatchN: 0
+	Trigger: 81
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 23
+	Running: List1
+	Symbol1.OnsetDelay: 2
+	Symbol1.OnsetTime: 395862
+	Symbol1.DurationError: -2
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 396100
+	Symbol1.FinishTime: 396100
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 2
+	Symbol2.OnsetTime: 396162
+	Symbol2.DurationError: -2
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 396400
+	Symbol2.FinishTime: 396400
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 2
+	Symbol3.OnsetTime: 396462
+	Symbol3.DurationError: -2
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 396700
+	Symbol3.FinishTime: 396700
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 2
+	Symbol4.OnsetTime: 396762
+	Symbol4.DurationError: -2
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 397000
+	Symbol4.FinishTime: 397000
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 1
+	Symbol5.OnsetTime: 397061
+	Symbol5.DurationError: -1
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 397300
+	Symbol5.FinishTime: 397300
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 1
+	Symbol6.OnsetTime: 397361
+	Symbol6.DurationError: -1
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 397600
+	Symbol6.FinishTime: 397600
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 1
+	Symbol7.OnsetTime: 397661
+	Symbol7.DurationError: -1
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 397900
+	Symbol7.FinishTime: 397900
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 1
+	Symbol8.OnsetTime: 397961
+	Symbol8.DurationError: -1
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 398200
+	Symbol8.FinishTime: 398200
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 1
+	Symbol9.OnsetTime: 398261
+	Symbol9.DurationError: -1
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 398500
+	Symbol9.FinishTime: 398500
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 1
+	Symbol10.OnsetTime: 398561
+	Symbol10.DurationError: -1
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 398800
+	Symbol10.FinishTime: 398800
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 1
+	Symbol11.OnsetTime: 398861
+	Symbol11.DurationError: -1
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 399100
+	Symbol11.FinishTime: 399100
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 4392
+	FixationAfter.Duration: 4005
+	TaskExpression.OnsetDelay: 10
+	TaskExpression.OnsetTime: 403175
+	TaskExpression.DurationError: -10
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 404605
+	TaskExpression.FinishTime: 404605
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 403661
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 486
+	TaskExpression.RESP: 5
+	TaskExpression.CRESP: 
+	Objperformance: 0
+	FeedbackTrial.Duration: 4392
+	Perf: 4
+	TotalTrial: 23
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 30
+	Level: 1
+	BranchSide: L
+	Symbol1: }
+	Symbol2: )
+	Symbol3: 4
+	Symbol4: +
+	Symbol5: 1
+	Symbol6: (
+	Symbol7: 2
+	Symbol8: -
+	Symbol9: {
+	Symbol10: 3
+	Symbol11: +
+	TaskExpression: })4+1(2-{3+
+	TaskAns: 2
+	Level2: 1
+	NonmatchN: 0
+	Trigger: 84
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 24
+	Running: List1
+	Symbol1.OnsetDelay: -1
+	Symbol1.OnsetTime: 409856
+	Symbol1.DurationError: 1
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 410097
+	Symbol1.FinishTime: 410097
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: -1
+	Symbol2.OnsetTime: 410156
+	Symbol2.DurationError: 1
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 410397
+	Symbol2.FinishTime: 410397
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: -1
+	Symbol3.OnsetTime: 410456
+	Symbol3.DurationError: 1
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 410697
+	Symbol3.FinishTime: 410697
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: -1
+	Symbol4.OnsetTime: 410756
+	Symbol4.DurationError: 1
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 410997
+	Symbol4.FinishTime: 410997
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: -1
+	Symbol5.OnsetTime: 411056
+	Symbol5.DurationError: 1
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 411297
+	Symbol5.FinishTime: 411297
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: -1
+	Symbol6.OnsetTime: 411356
+	Symbol6.DurationError: 1
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 411597
+	Symbol6.FinishTime: 411597
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: -1
+	Symbol7.OnsetTime: 411656
+	Symbol7.DurationError: 1
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 411897
+	Symbol7.FinishTime: 411897
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 14
+	Symbol8.OnsetTime: 411971
+	Symbol8.DurationError: -14
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 412197
+	Symbol8.FinishTime: 412197
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 14
+	Symbol9.OnsetTime: 412271
+	Symbol9.DurationError: -14
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 412497
+	Symbol9.FinishTime: 412497
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 14
+	Symbol10.OnsetTime: 412571
+	Symbol10.DurationError: -14
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 412797
+	Symbol10.FinishTime: 412797
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 14
+	Symbol11.OnsetTime: 412871
+	Symbol11.DurationError: -14
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 413097
+	Symbol11.FinishTime: 413097
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 1564
+	FixationAfter.Duration: 1511
+	TaskExpression.OnsetDelay: 2
+	TaskExpression.OnsetTime: 414670
+	TaskExpression.DurationError: -2
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 416108
+	TaskExpression.FinishTime: 416108
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 415392
+	TaskExpression.ACC: 1
+	TaskExpression.RT: 722
+	TaskExpression.RESP: 4
+	TaskExpression.CRESP: 
+	Objperformance: 1
+	FeedbackTrial.Duration: 1564
+	Perf: 5
+	TotalTrial: 24
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 27
+	Level: 2
+	BranchSide: R
+	Symbol1: +
+	Symbol2: 4
+	Symbol3: }
+	Symbol4: 3
+	Symbol5: +
+	Symbol6: (
+	Symbol7: 2
+	Symbol8: -
+	Symbol9: 1
+	Symbol10: )
+	Symbol11: {
+	TaskExpression: +4}3+(2-1){
+	TaskAns: 2
+	Level2: 2
+	NonmatchN: 0
+	Trigger: 98
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 25
+	Running: List1
+	Symbol1.OnsetDelay: 3
+	Symbol1.OnsetTime: 418535
+	Symbol1.DurationError: -3
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 418772
+	Symbol1.FinishTime: 418772
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 3
+	Symbol2.OnsetTime: 418835
+	Symbol2.DurationError: -3
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 419072
+	Symbol2.FinishTime: 419072
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 3
+	Symbol3.OnsetTime: 419135
+	Symbol3.DurationError: -3
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 419372
+	Symbol3.FinishTime: 419372
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 3
+	Symbol4.OnsetTime: 419435
+	Symbol4.DurationError: -3
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 419672
+	Symbol4.FinishTime: 419672
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 2
+	Symbol5.OnsetTime: 419734
+	Symbol5.DurationError: -2
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 419972
+	Symbol5.FinishTime: 419972
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 2
+	Symbol6.OnsetTime: 420034
+	Symbol6.DurationError: -2
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 420272
+	Symbol6.FinishTime: 420272
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 2
+	Symbol7.OnsetTime: 420334
+	Symbol7.DurationError: -2
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 420572
+	Symbol7.FinishTime: 420572
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 2
+	Symbol8.OnsetTime: 420634
+	Symbol8.DurationError: -2
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 420872
+	Symbol8.FinishTime: 420872
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 2
+	Symbol9.OnsetTime: 420934
+	Symbol9.DurationError: -2
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 421172
+	Symbol9.FinishTime: 421172
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 2
+	Symbol10.OnsetTime: 421234
+	Symbol10.DurationError: -2
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 421472
+	Symbol10.FinishTime: 421472
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 2
+	Symbol11.OnsetTime: 421534
+	Symbol11.DurationError: -2
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 421772
+	Symbol11.FinishTime: 421772
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 3159
+	FixationAfter.Duration: 2862
+	TaskExpression.OnsetDelay: 5
+	TaskExpression.OnsetTime: 424699
+	TaskExpression.DurationError: -5
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 426134
+	TaskExpression.FinishTime: 426134
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 425237
+	TaskExpression.ACC: 1
+	TaskExpression.RT: 538
+	TaskExpression.RESP: 4
+	TaskExpression.CRESP: 
+	Objperformance: 1
+	FeedbackTrial.Duration: 3159
+	Perf: 6
+	TotalTrial: 25
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 32
+	Level: 3
+	BranchSide: L
+	Symbol1: {
+	Symbol2: (
+	Symbol3: 4
+	Symbol4: +
+	Symbol5: 1
+	Symbol6: )
+	Symbol7: -
+	Symbol8: 3
+	Symbol9: }
+	Symbol10: +
+	Symbol11: 2
+	TaskExpression: {(4+1)-3}+2
+	TaskAns: 2
+	Level2: 3
+	NonmatchN: 0
+	Trigger: 81
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 26
+	Running: List1
+	Symbol1.OnsetDelay: 10
+	Symbol1.OnsetTime: 430163
+	Symbol1.DurationError: -10
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 430393
+	Symbol1.FinishTime: 430393
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 10
+	Symbol2.OnsetTime: 430463
+	Symbol2.DurationError: -10
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 430693
+	Symbol2.FinishTime: 430693
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 10
+	Symbol3.OnsetTime: 430763
+	Symbol3.DurationError: -10
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 430993
+	Symbol3.FinishTime: 430993
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 10
+	Symbol4.OnsetTime: 431063
+	Symbol4.DurationError: -10
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 431293
+	Symbol4.FinishTime: 431293
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 9
+	Symbol5.OnsetTime: 431362
+	Symbol5.DurationError: -9
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 431593
+	Symbol5.FinishTime: 431593
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 9
+	Symbol6.OnsetTime: 431662
+	Symbol6.DurationError: -9
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 431893
+	Symbol6.FinishTime: 431893
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 9
+	Symbol7.OnsetTime: 431962
+	Symbol7.DurationError: -9
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 432193
+	Symbol7.FinishTime: 432193
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 9
+	Symbol8.OnsetTime: 432262
+	Symbol8.DurationError: -9
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 432493
+	Symbol8.FinishTime: 432493
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 9
+	Symbol9.OnsetTime: 432562
+	Symbol9.DurationError: -9
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 432793
+	Symbol9.FinishTime: 432793
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 9
+	Symbol10.OnsetTime: 432862
+	Symbol10.DurationError: -9
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 433093
+	Symbol10.FinishTime: 433093
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 9
+	Symbol11.OnsetTime: 433162
+	Symbol11.DurationError: -9
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 433393
+	Symbol11.FinishTime: 433393
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 4236
+	FixationAfter.Duration: 4337
+	TaskExpression.OnsetDelay: 3
+	TaskExpression.OnsetTime: 437793
+	TaskExpression.DurationError: -3
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 439230
+	TaskExpression.FinishTime: 439230
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 438277
+	TaskExpression.ACC: 1
+	TaskExpression.RT: 484
+	TaskExpression.RESP: 4
+	TaskExpression.CRESP: 
+	Objperformance: 1
+	FeedbackTrial.Duration: 4236
+	Perf: 7
+	TotalTrial: 26
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 1
+	Level: 1
+	BranchSide: R
+	Symbol1: -
+	Symbol2: 4
+	Symbol3: {
+	Symbol4: }
+	Symbol5: 1
+	Symbol6: )
+	Symbol7: 2
+	Symbol8: +
+	Symbol9: 3
+	Symbol10: (
+	Symbol11: +
+	TaskExpression: -4)1}+2+{(3
+	TaskAns: 1
+	Level2: 0
+	NonmatchN: 6
+	Trigger: 164
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 27
+	Running: List1
+	Symbol1.OnsetDelay: 14
+	Symbol1.OnsetTime: 444340
+	Symbol1.DurationError: -14
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 444566
+	Symbol1.FinishTime: 444566
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 14
+	Symbol2.OnsetTime: 444640
+	Symbol2.DurationError: -14
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 444866
+	Symbol2.FinishTime: 444866
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 14
+	Symbol3.OnsetTime: 444940
+	Symbol3.DurationError: -14
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 445166
+	Symbol3.FinishTime: 445166
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 13
+	Symbol4.OnsetTime: 445239
+	Symbol4.DurationError: -13
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 445466
+	Symbol4.FinishTime: 445466
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 13
+	Symbol5.OnsetTime: 445539
+	Symbol5.DurationError: -13
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 445766
+	Symbol5.FinishTime: 445766
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 13
+	Symbol6.OnsetTime: 445839
+	Symbol6.DurationError: -13
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 446066
+	Symbol6.FinishTime: 446066
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 13
+	Symbol7.OnsetTime: 446139
+	Symbol7.DurationError: -13
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 446366
+	Symbol7.FinishTime: 446366
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 13
+	Symbol8.OnsetTime: 446439
+	Symbol8.DurationError: -13
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 446666
+	Symbol8.FinishTime: 446666
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 13
+	Symbol9.OnsetTime: 446739
+	Symbol9.DurationError: -13
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 446966
+	Symbol9.FinishTime: 446966
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 13
+	Symbol10.OnsetTime: 447039
+	Symbol10.DurationError: -13
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 447266
+	Symbol10.FinishTime: 447266
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 12
+	Symbol11.OnsetTime: 447338
+	Symbol11.DurationError: -12
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 447566
+	Symbol11.FinishTime: 447566
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 3814
+	FixationAfter.Duration: 2373
+	TaskExpression.OnsetDelay: 5
+	TaskExpression.OnsetTime: 450004
+	TaskExpression.DurationError: -5
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 451439
+	TaskExpression.FinishTime: 451439
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 450542
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 538
+	TaskExpression.RESP: 4
+	TaskExpression.CRESP: 
+	Objperformance: 0
+	FeedbackTrial.Duration: 3814
+	Perf: 7
+	TotalTrial: 27
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 8
+	Level: 2
+	BranchSide: R
+	Symbol1: -
+	Symbol2: 4
+	Symbol3: }
+	Symbol4: 3
+	Symbol5: +
+	Symbol6: (
+	Symbol7: 2
+	Symbol8: +
+	Symbol9: 1
+	Symbol10: )
+	Symbol11: {
+	TaskExpression: -4})1+3(2+{
+	TaskAns: 1
+	Level2: 1
+	NonmatchN: 7
+	Trigger: 162
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 28
+	Running: List1
+	Symbol1.OnsetDelay: 5
+	Symbol1.OnsetTime: 456118
+	Symbol1.DurationError: -5
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 456353
+	Symbol1.FinishTime: 456353
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 5
+	Symbol2.OnsetTime: 456418
+	Symbol2.DurationError: -5
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 456653
+	Symbol2.FinishTime: 456653
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 4
+	Symbol3.OnsetTime: 456717
+	Symbol3.DurationError: -4
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 456953
+	Symbol3.FinishTime: 456953
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 4
+	Symbol4.OnsetTime: 457017
+	Symbol4.DurationError: -4
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 457253
+	Symbol4.FinishTime: 457253
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 4
+	Symbol5.OnsetTime: 457317
+	Symbol5.DurationError: -4
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 457553
+	Symbol5.FinishTime: 457553
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 4
+	Symbol6.OnsetTime: 457617
+	Symbol6.DurationError: -4
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 457853
+	Symbol6.FinishTime: 457853
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 4
+	Symbol7.OnsetTime: 457917
+	Symbol7.DurationError: -4
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 458153
+	Symbol7.FinishTime: 458153
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 4
+	Symbol8.OnsetTime: 458217
+	Symbol8.DurationError: -4
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 458453
+	Symbol8.FinishTime: 458453
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 4
+	Symbol9.OnsetTime: 458517
+	Symbol9.DurationError: -4
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 458753
+	Symbol9.FinishTime: 458753
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 3
+	Symbol10.OnsetTime: 458816
+	Symbol10.DurationError: -3
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 459053
+	Symbol10.FinishTime: 459053
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 3
+	Symbol11.OnsetTime: 459116
+	Symbol11.DurationError: -3
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 459353
+	Symbol11.FinishTime: 459353
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 3386
+	FixationAfter.Duration: 3481
+	TaskExpression.OnsetDelay: 4
+	TaskExpression.OnsetTime: 462898
+	TaskExpression.DurationError: -4
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 464334
+	TaskExpression.FinishTime: 464334
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 1
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	Objperformance: 0
+	FeedbackTrial.Duration: 3386
+	Perf: 7
+	TotalTrial: 28
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 11
+	Level: 1
+	BranchSide: L
+	Symbol1: 1
+	Symbol2: )
+	Symbol3: 4
+	Symbol4: +
+	Symbol5: 3
+	Symbol6: (
+	Symbol7: }
+	Symbol8: +
+	Symbol9: -
+	Symbol10: 2
+	Symbol11: {
+	TaskExpression: 1+}(3-4)+2{
+	TaskAns: 1
+	Level2: 2
+	NonmatchN: 7
+	Trigger: 148
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 29
+	Running: List1
+	Symbol1.OnsetDelay: -1
+	Symbol1.OnsetTime: 468579
+	Symbol1.DurationError: 1
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 468820
+	Symbol1.FinishTime: 468820
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: -1
+	Symbol2.OnsetTime: 468879
+	Symbol2.DurationError: 1
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 469120
+	Symbol2.FinishTime: 469120
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: -1
+	Symbol3.OnsetTime: 469179
+	Symbol3.DurationError: 1
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 469420
+	Symbol3.FinishTime: 469420
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: -1
+	Symbol4.OnsetTime: 469479
+	Symbol4.DurationError: 1
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 469720
+	Symbol4.FinishTime: 469720
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: -1
+	Symbol5.OnsetTime: 469779
+	Symbol5.DurationError: 1
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 470020
+	Symbol5.FinishTime: 470020
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: -1
+	Symbol6.OnsetTime: 470079
+	Symbol6.DurationError: 1
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 470320
+	Symbol6.FinishTime: 470320
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: -1
+	Symbol7.OnsetTime: 470379
+	Symbol7.DurationError: 1
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 470620
+	Symbol7.FinishTime: 470620
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 14
+	Symbol8.OnsetTime: 470694
+	Symbol8.DurationError: -14
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 470920
+	Symbol8.FinishTime: 470920
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 14
+	Symbol9.OnsetTime: 470994
+	Symbol9.DurationError: -14
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 471220
+	Symbol9.FinishTime: 471220
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 14
+	Symbol10.OnsetTime: 471294
+	Symbol10.DurationError: -14
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 471520
+	Symbol10.FinishTime: 471520
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 14
+	Symbol11.OnsetTime: 471594
+	Symbol11.DurationError: -14
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 471820
+	Symbol11.FinishTime: 471820
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 3986
+	FixationAfter.Duration: 2077
+	TaskExpression.OnsetDelay: 3
+	TaskExpression.OnsetTime: 473960
+	TaskExpression.DurationError: -3
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 475397
+	TaskExpression.FinishTime: 475397
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 474629
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 669
+	TaskExpression.RESP: 4
+	TaskExpression.CRESP: 
+	Objperformance: 0
+	FeedbackTrial.Duration: 3986
+	Perf: 7
+	TotalTrial: 29
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 2
+	Level: 3
+	BranchSide: R
+	Symbol1: 4
+	Symbol2: -
+	Symbol3: {
+	Symbol4: 1
+	Symbol5: +
+	Symbol6: (
+	Symbol7: 2
+	Symbol8: +
+	Symbol9: 3
+	Symbol10: )
+	Symbol11: }
+	TaskExpression: 4)+1{+}-3(2
+	TaskAns: 1
+	Level2: 0
+	NonmatchN: 8
+	Trigger: 161
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 30
+	Running: List1
+	Symbol1.OnsetDelay: 14
+	Symbol1.OnsetTime: 480257
+	Symbol1.DurationError: -14
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 480483
+	Symbol1.FinishTime: 480483
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 14
+	Symbol2.OnsetTime: 480557
+	Symbol2.DurationError: -14
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 480783
+	Symbol2.FinishTime: 480783
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 13
+	Symbol3.OnsetTime: 480856
+	Symbol3.DurationError: -13
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 481083
+	Symbol3.FinishTime: 481083
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 13
+	Symbol4.OnsetTime: 481156
+	Symbol4.DurationError: -13
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 481383
+	Symbol4.FinishTime: 481383
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 13
+	Symbol5.OnsetTime: 481456
+	Symbol5.DurationError: -13
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 481683
+	Symbol5.FinishTime: 481683
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 13
+	Symbol6.OnsetTime: 481756
+	Symbol6.DurationError: -13
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 481983
+	Symbol6.FinishTime: 481983
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 13
+	Symbol7.OnsetTime: 482056
+	Symbol7.DurationError: -13
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 482283
+	Symbol7.FinishTime: 482283
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 13
+	Symbol8.OnsetTime: 482356
+	Symbol8.DurationError: -13
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 482583
+	Symbol8.FinishTime: 482583
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 13
+	Symbol9.OnsetTime: 482656
+	Symbol9.DurationError: -13
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 482883
+	Symbol9.FinishTime: 482883
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 12
+	Symbol10.OnsetTime: 482955
+	Symbol10.DurationError: -12
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 483183
+	Symbol10.FinishTime: 483183
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 12
+	Symbol11.OnsetTime: 483255
+	Symbol11.DurationError: -12
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 483483
+	Symbol11.FinishTime: 483483
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 2914
+	FixationAfter.Duration: 3885
+	TaskExpression.OnsetDelay: 9
+	TaskExpression.OnsetTime: 487437
+	TaskExpression.DurationError: -9
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 488868
+	TaskExpression.FinishTime: 488868
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 488079
+	TaskExpression.ACC: 1
+	TaskExpression.RT: 642
+	TaskExpression.RESP: 5
+	TaskExpression.CRESP: 
+	Objperformance: 1
+	FeedbackTrial.Duration: 2914
+	Perf: 8
+	TotalTrial: 30
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 17
+	Level: 0
+	BranchSide: B
+	Symbol1: {
+	Symbol2: 1
+	Symbol3: +
+	Symbol4: )
+	Symbol5: 2
+	Symbol6: -
+	Symbol7: }
+	Symbol8: +
+	Symbol9: 3
+	Symbol10: (
+	Symbol11: 4
+	TaskExpression: {1+)2-}+3(4
+	TaskAns: 2
+	Level2: 0
+	NonmatchN: 0
+	Trigger: 120
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 31
+	Running: List1
+	Symbol1.OnsetDelay: 9
+	Symbol1.OnsetTime: 492651
+	Symbol1.DurationError: -9
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 492882
+	Symbol1.FinishTime: 492882
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 9
+	Symbol2.OnsetTime: 492951
+	Symbol2.DurationError: -9
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 493182
+	Symbol2.FinishTime: 493182
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 9
+	Symbol3.OnsetTime: 493251
+	Symbol3.DurationError: -9
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 493482
+	Symbol3.FinishTime: 493482
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 9
+	Symbol4.OnsetTime: 493551
+	Symbol4.DurationError: -9
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 493782
+	Symbol4.FinishTime: 493782
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 8
+	Symbol5.OnsetTime: 493850
+	Symbol5.DurationError: -8
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 494082
+	Symbol5.FinishTime: 494082
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 8
+	Symbol6.OnsetTime: 494150
+	Symbol6.DurationError: -8
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 494382
+	Symbol6.FinishTime: 494382
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 8
+	Symbol7.OnsetTime: 494450
+	Symbol7.DurationError: -8
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 494682
+	Symbol7.FinishTime: 494682
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 8
+	Symbol8.OnsetTime: 494750
+	Symbol8.DurationError: -8
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 494982
+	Symbol8.FinishTime: 494982
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 8
+	Symbol9.OnsetTime: 495050
+	Symbol9.DurationError: -8
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 495282
+	Symbol9.FinishTime: 495282
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 8
+	Symbol10.OnsetTime: 495350
+	Symbol10.DurationError: -8
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 495582
+	Symbol10.FinishTime: 495582
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 8
+	Symbol11.OnsetTime: 495650
+	Symbol11.DurationError: -8
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 495882
+	Symbol11.FinishTime: 495882
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 2996
+	FixationAfter.Duration: 2567
+	TaskExpression.OnsetDelay: 6
+	TaskExpression.OnsetTime: 498515
+	TaskExpression.DurationError: -6
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 499949
+	TaskExpression.FinishTime: 499949
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 499004
+	TaskExpression.ACC: 1
+	TaskExpression.RT: 489
+	TaskExpression.RESP: 4
+	TaskExpression.CRESP: 
+	Objperformance: 1
+	FeedbackTrial.Duration: 2996
+	Perf: 9
+	TotalTrial: 31
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 3
+	Level: 1
+	BranchSide: L
+	Symbol1: }
+	Symbol2: )
+	Symbol3: 1
+	Symbol4: +
+	Symbol5: 2
+	Symbol6: (
+	Symbol7: {
+	Symbol8: 3
+	Symbol9: -
+	Symbol10: +
+	Symbol11: 4
+	TaskExpression: })1(3+{2+-4
+	TaskAns: 1
+	Level2: 0
+	NonmatchN: 6
+	Trigger: 148
+	Procedure: stimproc
+	List1.Cycle: 1
+	List1.Sample: 32
+	Running: List1
+	Symbol1.OnsetDelay: 8
+	Symbol1.OnsetTime: 503813
+	Symbol1.DurationError: -8
+	Symbol1.Duration: 300
+	Symbol1.OffsetTime: 504045
+	Symbol1.FinishTime: 504045
+	Symbol1.OffsetDelay: 0
+	Symbol1.RTTime: 0
+	Symbol1.ACC: 0
+	Symbol1.RT: 0
+	Symbol1.RESP: 
+	Symbol1.CRESP: 
+	Symbol2.OnsetDelay: 7
+	Symbol2.OnsetTime: 504112
+	Symbol2.DurationError: -7
+	Symbol2.Duration: 300
+	Symbol2.OffsetTime: 504345
+	Symbol2.FinishTime: 504345
+	Symbol2.OffsetDelay: 0
+	Symbol2.RTTime: 0
+	Symbol2.ACC: 0
+	Symbol2.RT: 0
+	Symbol2.RESP: 
+	Symbol2.CRESP: 
+	Symbol3.OnsetDelay: 7
+	Symbol3.OnsetTime: 504412
+	Symbol3.DurationError: -7
+	Symbol3.Duration: 300
+	Symbol3.OffsetTime: 504645
+	Symbol3.FinishTime: 504645
+	Symbol3.OffsetDelay: 0
+	Symbol3.RTTime: 0
+	Symbol3.ACC: 0
+	Symbol3.RT: 0
+	Symbol3.RESP: 
+	Symbol3.CRESP: 
+	Symbol4.OnsetDelay: 7
+	Symbol4.OnsetTime: 504712
+	Symbol4.DurationError: -7
+	Symbol4.Duration: 300
+	Symbol4.OffsetTime: 504945
+	Symbol4.FinishTime: 504945
+	Symbol4.OffsetDelay: 0
+	Symbol4.RTTime: 0
+	Symbol4.ACC: 0
+	Symbol4.RT: 0
+	Symbol4.RESP: 
+	Symbol4.CRESP: 
+	Symbol5.OnsetDelay: 7
+	Symbol5.OnsetTime: 505012
+	Symbol5.DurationError: -7
+	Symbol5.Duration: 300
+	Symbol5.OffsetTime: 505245
+	Symbol5.FinishTime: 505245
+	Symbol5.OffsetDelay: 0
+	Symbol5.RTTime: 0
+	Symbol5.ACC: 0
+	Symbol5.RT: 0
+	Symbol5.RESP: 
+	Symbol5.CRESP: 
+	Symbol6.OnsetDelay: 7
+	Symbol6.OnsetTime: 505312
+	Symbol6.DurationError: -7
+	Symbol6.Duration: 300
+	Symbol6.OffsetTime: 505545
+	Symbol6.FinishTime: 505545
+	Symbol6.OffsetDelay: 0
+	Symbol6.RTTime: 0
+	Symbol6.ACC: 0
+	Symbol6.RT: 0
+	Symbol6.RESP: 
+	Symbol6.CRESP: 
+	Symbol7.OnsetDelay: 7
+	Symbol7.OnsetTime: 505612
+	Symbol7.DurationError: -7
+	Symbol7.Duration: 300
+	Symbol7.OffsetTime: 505845
+	Symbol7.FinishTime: 505845
+	Symbol7.OffsetDelay: 0
+	Symbol7.RTTime: 0
+	Symbol7.ACC: 0
+	Symbol7.RT: 0
+	Symbol7.RESP: 
+	Symbol7.CRESP: 
+	Symbol8.OnsetDelay: 7
+	Symbol8.OnsetTime: 505912
+	Symbol8.DurationError: -7
+	Symbol8.Duration: 300
+	Symbol8.OffsetTime: 506145
+	Symbol8.FinishTime: 506145
+	Symbol8.OffsetDelay: 0
+	Symbol8.RTTime: 0
+	Symbol8.ACC: 0
+	Symbol8.RT: 0
+	Symbol8.RESP: 
+	Symbol8.CRESP: 
+	Symbol9.OnsetDelay: 6
+	Symbol9.OnsetTime: 506211
+	Symbol9.DurationError: -6
+	Symbol9.Duration: 300
+	Symbol9.OffsetTime: 506445
+	Symbol9.FinishTime: 506445
+	Symbol9.OffsetDelay: 0
+	Symbol9.RTTime: 0
+	Symbol9.ACC: 0
+	Symbol9.RT: 0
+	Symbol9.RESP: 
+	Symbol9.CRESP: 
+	Symbol10.OnsetDelay: 6
+	Symbol10.OnsetTime: 506511
+	Symbol10.DurationError: -6
+	Symbol10.Duration: 300
+	Symbol10.OffsetTime: 506745
+	Symbol10.FinishTime: 506745
+	Symbol10.OffsetDelay: 0
+	Symbol10.RTTime: 0
+	Symbol10.ACC: 0
+	Symbol10.RT: 0
+	Symbol10.RESP: 
+	Symbol10.CRESP: 
+	Symbol11.OnsetDelay: 6
+	Symbol11.OnsetTime: 506811
+	Symbol11.DurationError: -6
+	Symbol11.Duration: 300
+	Symbol11.OffsetTime: 507045
+	Symbol11.FinishTime: 507045
+	Symbol11.OffsetDelay: 0
+	Symbol11.RTTime: 0
+	Symbol11.ACC: 0
+	Symbol11.RT: 0
+	Symbol11.RESP: 
+	Symbol11.CRESP: 
+	Duration: 3982
+	FixationAfter.Duration: 2083
+	TaskExpression.OnsetDelay: 5
+	TaskExpression.OnsetTime: 509193
+	TaskExpression.DurationError: -5
+	TaskExpression.Duration: 1500
+	TaskExpression.OffsetTime: 510628
+	TaskExpression.FinishTime: 510628
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 1
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	Objperformance: 0
+	FeedbackTrial.Duration: 3982
+	Perf: 9
+	TotalTrial: 32
+	*** LogFrame End ***
+Level: 1
+*** LogFrame Start ***
+Experiment: MathFormula_fMRI_Seq
+SessionDate: 06-08-2009
+SessionTime: 14:03:56
+RandomSeed: 2088528653
+Group: 1
+Subject: 1
+Session: 1
+Display.RefreshRate: 60.027
+Instructions.Duration: -1
+Instructions.FinishTime: 100093
+Perf: 28.125
+*** LogFrame End ***

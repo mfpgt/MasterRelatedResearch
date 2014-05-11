@@ -1,0 +1,94 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Mon Mar 24 2014 16:49:07
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-60-generic', '#91-Ubuntu SMP Wed Feb 19 03:54:44 UTC 2014', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+4865,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 0,0,5,5
+#design: 0,0,6,6
+#design: 0,0,7,7
+#design: 0,0,8,8
+#design: 0,0,9,9
+#design: 0,0,10,10
+#design: 0,0,11,11
+#design: 0,0,12,12
+#design: 0,0,13,13
+#design: 0,0,14,14
+#design: 0,0,15,15
+#design: 0,0,16,16
+#design: 0,0,17,17
+#design: 0,0,18,18
+#design: 0,0,19,19
+4866,design,logged,
+4866,Experiment,started
+4870,Stimulus,presented,21
+5834,Keyboard,received,s,wait_char
+5835,Stimulus,presented,0
+6336,Stimulus,presented,1
+8697,stdout,received,'[]'
+8697,Stimulus,presented,0
+9199,Stimulus,presented,2
+11712,stdout,received,'[]'
+11712,Stimulus,presented,0
+12214,Stimulus,presented,3
+14520,stdout,received,'[]'
+14520,Stimulus,presented,0
+15022,Stimulus,presented,4
+18027,stdout,received,'[]'
+18027,Stimulus,presented,0
+18529,Stimulus,presented,5
+21462,stdout,received,'[]'
+21462,Stimulus,presented,0
+21964,Stimulus,presented,6
+24798,stdout,received,'[]'
+24798,Stimulus,presented,0
+25300,Stimulus,presented,7
+28501,stdout,received,'[]'
+28501,Stimulus,presented,0
+29003,Stimulus,presented,8
+31597,stdout,received,'[]'
+31597,Stimulus,presented,0
+32099,Stimulus,presented,9
+34875,stdout,received,'[]'
+34875,Stimulus,presented,0
+35377,Stimulus,presented,10
+37736,stdout,received,'[]'
+37736,Stimulus,presented,0
+38238,Stimulus,presented,11
+40549,stdout,received,'[]'
+40549,Stimulus,presented,0
+41051,Stimulus,presented,12
+43752,stdout,received,'[]'
+43752,Stimulus,presented,0
+44254,Stimulus,presented,13
+47340,stdout,received,'[]'
+47340,Stimulus,presented,0
+47842,Stimulus,presented,14
+50510,stdout,received,'[]'
+50510,Stimulus,presented,0
+51012,Stimulus,presented,15
+53302,stdout,received,'[]'
+53302,Stimulus,presented,0
+53804,Stimulus,presented,16
+56541,stdout,received,'[]'
+56541,Stimulus,presented,0
+57043,Stimulus,presented,17
+60143,stdout,received,'[]'
+60143,Stimulus,presented,0
+60645,Stimulus,presented,18
+63771,stdout,received,'[]'
+63771,Stimulus,presented,0
+64273,Stimulus,presented,19
+67345,stdout,received,'[]'
+67345,Stimulus,presented,0
+67847,Stimulus,presented,20
+70234,stdout,received,'[]'
+70234,Experiment,ended
+70238,Stimulus,presented,22

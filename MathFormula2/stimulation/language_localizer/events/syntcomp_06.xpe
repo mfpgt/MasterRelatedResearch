@@ -1,0 +1,25 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Sat Jan 04 2014 18:26:55
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-58-generic', '#88-Ubuntu SMP Tue Dec 3 17:37:58 UTC 2013', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+964,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+964,design,logged,
+964,Experiment,started
+964,stderr,received,'Traceback (most recent call last):'
+965,stderr,received,'  File "<stdin>", line 1, in <module>'
+965,stderr,received,'  File "/usr/lib/python2.7/dist-packages/spyderlib/widgets/externalshell/sitecustomize.py", line 540, in runfile'
+967,stderr,received,'    execfile(filename, namespace)'
+967,stderr,received,'  File "/home/pallier/code/syntcomp/syntcomp.py", line 38, in <module>'
+967,stderr,received,'    fixcross.present()'
+967,stderr,received,"NameError: name 'fixcross' is not defined"
+71307,stdout,received,'*** DEVELOP MODE ***'
+71307,stdout,received,'Warning: OpenGL does not support window mode. OpenGL will be deactivated!'
+739155,stdout,received,'*** DEVELOP MODE ***'
+739165,stdout,received,'Warning: OpenGL does not support window mode. OpenGL will be deactivated!'

@@ -1,0 +1,17 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Wed Apr 02 2014 22:05:55
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-60-generic', '#91-Ubuntu SMP Wed Feb 19 03:54:44 UTC 2014', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+275,stdout,received,"['same', '3', '3', '    sin(a) * b', '   log(x) + y']"
+276,stdout,received,"['diff', '2', '3', '    sin(a * b)', '   log(x) + y']"
+277,stdout,received,"['same', '1', '1', '    a * sin(b)', '   x + log(y)     ']"
+277,stdout,received,"['diff', '3', '2', '    log(x) + y', '   sin(a * b)']"
+278,stdout,received,"['same', '2', '2', '    sin(a * b)', '   log(x + y)     ']"
+279,stdout,received,"['diff', '5', '4', '    (x + y)', '     log(x)        ']"
+281,stdout,received,"['same', '8', '8', '   x) log+ y(', '  x) log+ y(']"
+282,stdout,received,"['same', '6', '6     )x(log', '   )x(log']"
+283,stderr,received,'Traceback (most recent call last):'
+283,stderr,received,'  File "display_strings_ordered.py", line 54, in <module>'
+283,stderr,received,"    prime = stimuli.TextLine(i[target_column - 1].decode('utf-8'),"
+283,stderr,received,'IndexError: list index out of range'

@@ -1,0 +1,70 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Tue Feb 11 2014 15:12:56
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-58-generic', '#88-Ubuntu SMP Tue Dec 3 17:37:58 UTC 2013', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+2518,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 0,0,5,5
+#design: 0,0,6,6
+#design: 0,0,7,7
+#design: 0,0,8,8
+#design: 0,0,9,9
+#design: 0,0,10,10
+#design: 0,0,11,11
+#design: 0,0,12,12
+#design: 0,0,13,13
+#design: 0,0,14,14
+#design: 0,0,15,15
+#design: 0,0,16,16
+#design: 0,0,17,17
+#design: 0,0,18,18
+#design: 0,0,19,19
+#design: 0,0,20,20
+#design: 0,0,21,21
+#design: 0,0,22,22
+#design: 0,0,23,23
+#design: 0,0,24,24
+#design: 0,0,25,25
+#design: 0,0,26,26
+#design: 0,0,27,27
+#design: 0,0,28,28
+#design: 0,0,29,29
+#design: 0,0,30,30
+#design: 0,0,31,31
+#design: 0,0,32,32
+#design: 0,0,33,33
+#design: 0,0,34,34
+#design: 0,0,35,35
+#design: 0,0,36,36
+#design: 0,0,37,37
+#design: 0,0,38,38
+#design: 0,0,39,39
+#design: 0,0,40,40
+#design: 0,0,41,41
+#design: 0,0,42,42
+#design: 0,0,43,43
+#design: 0,0,44,44
+#design: 0,0,45,45
+#design: 0,0,46,46
+#design: 0,0,47,47
+#design: 0,0,48,48
+#design: 0,0,49,49
+#design: 0,0,50,50
+#design: 0,0,51,51
+#design: 0,0,52,52
+#design: 0,0,53,53
+2519,design,logged,
+2519,Experiment,started
+2520,Stimulus,presented,0
+5678,Keyboard,received,s,wait_char
+5679,stderr,received,'Traceback (most recent call last):'
+5679,stderr,received,'  File "rsvp.py", line 58, in <module>'
+5680,stderr,received,'    t0 = expyriment.clock.time()'
+5680,stderr,received,"AttributeError: 'module' object has no attribute 'clock'"

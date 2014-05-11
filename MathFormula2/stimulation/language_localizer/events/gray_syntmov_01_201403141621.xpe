@@ -1,0 +1,200 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Fri Mar 14 2014 16:21:43
+#display: size=(1920, 1200), window_mode=False, opengl=True
+#os: ('Linux', 'is146569', '3.2.0-60-generic', '#91-Ubuntu SMP Wed Feb 19 03:54:44 UTC 2014', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+12371,design,log,
+#design: #exp: First Experiment
+#design: #dvn: onset,targetonset,cond,stim,resp
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 0,0,5,5
+#design: 0,0,6,6
+#design: 0,0,7,7
+#design: 0,0,8,8
+#design: 0,0,9,9
+#design: 0,0,10,10
+#design: 0,0,11,11
+#design: 0,0,12,12
+#design: 0,0,13,13
+#design: 0,0,14,14
+#design: 0,0,15,15
+#design: 0,0,16,16
+#design: 0,0,17,17
+#design: 0,0,18,18
+#design: 0,0,19,19
+#design: 0,0,20,20
+#design: 0,0,21,21
+#design: 0,0,22,22
+#design: 0,0,23,23
+#design: 0,0,24,24
+#design: 0,0,25,25
+#design: 0,0,26,26
+#design: 0,0,27,27
+#design: 0,0,28,28
+#design: 0,0,29,29
+#design: 0,0,30,30
+#design: 0,0,31,31
+#design: 0,0,32,32
+#design: 0,0,33,33
+#design: 0,0,34,34
+#design: 0,0,35,35
+#design: 0,0,36,36
+#design: 0,0,37,37
+#design: 0,0,38,38
+#design: 0,0,39,39
+#design: 0,0,40,40
+#design: 0,0,41,41
+#design: 0,0,42,42
+#design: 0,0,43,43
+#design: 0,0,44,44
+#design: 0,0,45,45
+#design: 0,0,46,46
+#design: 0,0,47,47
+#design: 0,0,48,48
+#design: 0,0,49,49
+#design: 0,0,50,50
+#design: 0,0,51,51
+#design: 0,0,52,52
+#design: 0,0,53,53
+#design: 0,0,54,54
+#design: 0,0,55,55
+#design: 0,0,56,56
+#design: 0,0,57,57
+#design: 0,0,58,58
+#design: 0,0,59,59
+#design: 0,0,60,60
+#design: 0,0,61,61
+#design: 0,0,62,62
+#design: 0,0,63,63
+#design: 0,0,64,64
+#design: 0,0,65,65
+#design: 0,0,66,66
+#design: 0,0,67,67
+#design: 0,0,68,68
+#design: 0,0,69,69
+#design: 0,0,70,70
+#design: 0,0,71,71
+#design: 0,0,72,72
+#design: 0,0,73,73
+#design: 0,0,74,74
+#design: 0,0,75,75
+#design: 0,0,76,76
+#design: 0,0,77,77
+#design: 0,0,78,78
+#design: 0,0,79,79
+#design: 0,0,80,80
+#design: 0,0,81,81
+#design: 0,0,82,82
+#design: 0,0,83,83
+#design: 0,0,84,84
+#design: 0,0,85,85
+#design: 0,0,86,86
+#design: 0,0,87,87
+#design: 0,0,88,88
+#design: 0,0,89,89
+#design: 0,0,90,90
+#design: 0,0,91,91
+#design: 0,0,92,92
+#design: 0,0,93,93
+#design: 0,0,94,94
+#design: 0,0,95,95
+#design: 0,0,96,96
+#design: 0,0,97,97
+#design: 0,0,98,98
+#design: 0,0,99,99
+#design: 0,0,100,100
+#design: 0,0,101,101
+#design: 0,0,102,102
+#design: 0,0,103,103
+#design: 0,0,104,104
+#design: 0,0,105,105
+#design: 0,0,106,106
+#design: 0,0,107,107
+#design: 0,0,108,108
+#design: 0,0,109,109
+#design: 0,0,110,110
+#design: 0,0,111,111
+#design: 0,0,112,112
+#design: 0,0,113,113
+#design: 0,0,114,114
+#design: 0,0,115,115
+#design: 0,0,116,116
+12372,design,logged,
+12372,Experiment,started
+12375,Stimulus,presented,1
+15976,Keyboard,received,s,wait_char
+20691,Stimulus,presented,119
+20692,Stimulus,presented,120
+20995,Stimulus,presented,119
+20996,Stimulus,presented,120
+20996,Stimulus,presented,0
+21218,Stimulus,presented,119
+21220,Stimulus,presented,120
+21220,Stimulus,presented,2
+24717,Stimulus,presented,119
+24718,Stimulus,presented,120
+25021,Stimulus,presented,119
+25022,Stimulus,presented,120
+25022,Stimulus,presented,0
+25242,Stimulus,presented,119
+25243,Stimulus,presented,120
+25244,Stimulus,presented,3
+29454,Stimulus,presented,119
+29455,Stimulus,presented,120
+29758,Stimulus,presented,119
+29759,Stimulus,presented,120
+29759,Stimulus,presented,0
+29980,Stimulus,presented,119
+29982,Stimulus,presented,120
+29982,Stimulus,presented,4
+34030,Stimulus,presented,119
+34031,Stimulus,presented,120
+34335,Stimulus,presented,119
+34336,Stimulus,presented,120
+34337,Stimulus,presented,0
+34552,Stimulus,presented,119
+34554,Stimulus,presented,120
+34554,Stimulus,presented,5
+38471,Stimulus,presented,119
+38472,Stimulus,presented,120
+38775,Stimulus,presented,119
+38776,Stimulus,presented,120
+38776,Stimulus,presented,0
+38991,Stimulus,presented,119
+38993,Stimulus,presented,120
+38993,Stimulus,presented,6
+42782,Stimulus,presented,119
+42783,Stimulus,presented,120
+43086,Stimulus,presented,119
+43087,Stimulus,presented,120
+43087,Stimulus,presented,0
+43298,Stimulus,presented,119
+43299,Stimulus,presented,120
+43300,Stimulus,presented,7
+47408,Stimulus,presented,119
+47409,Stimulus,presented,120
+47712,Stimulus,presented,119
+47713,Stimulus,presented,120
+47713,Stimulus,presented,0
+47936,Stimulus,presented,119
+47936,Stimulus,presented,120
+47936,Stimulus,presented,8
+51853,Stimulus,presented,119
+51854,Stimulus,presented,120
+52158,Stimulus,presented,119
+52159,Stimulus,presented,120
+52160,Stimulus,presented,0
+52375,Stimulus,presented,119
+52377,Stimulus,presented,120
+52377,Stimulus,presented,9
+55594,Experiment,paused
+55597,Stimulus,presented,122
+56737,Keyboard,received,y,wait_char
+56737,Experiment,ended
+56738,Data,saved
+56743,Stimulus,presented,122

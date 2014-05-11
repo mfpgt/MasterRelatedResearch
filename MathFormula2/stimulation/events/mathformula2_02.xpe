@@ -1,0 +1,37 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Thu Jan 23 2014 09:32:34
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-58-generic', '#88-Ubuntu SMP Tue Dec 3 17:37:58 UTC 2013', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1451,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 0,0,5,5
+#design: 0,0,6,6
+#design: 0,0,7,7
+#design: 0,0,8,8
+#design: 0,0,9,9
+#design: 0,0,10,10
+#design: 0,0,11,11
+#design: 0,0,12,12
+#design: 0,0,13,13
+#design: 0,0,14,14
+#design: 0,0,15,15
+#design: 0,0,16,16
+#design: 0,0,17,17
+#design: 0,0,18,18
+#design: 0,0,19,19
+1452,design,logged,
+1452,Experiment,started
+1452,stderr,received,'Exception AttributeError: "\'TextLine\' object has no attribute \'_compression_filename\'" in <bound method TextLine.__del__ of <expyriment.stimuli._textline.TextLine object at 0x1c70390>> ignored'
+1453,stderr,received,'Traceback (most recent call last):'
+1453,stderr,received,'  File "mathformula2.py", line 65, in <module>'
+1453,stderr,received,'    wait_for_MRI_synchro()'
+1453,stderr,received,'  File "mathformula2.py", line 53, in wait_for_MRI_synchro'
+1453,stderr,received,"    text_fond='Courier')"
+1453,stderr,received,"TypeError: __init__() got an unexpected keyword argument 'text_fond'"

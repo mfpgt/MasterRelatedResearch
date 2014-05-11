@@ -1,0 +1,69 @@
+#Expyriment 0.6.4 (Revision ff39d2489a7e; Python 2.7.3), .xpe-file
+#date: Thu Apr 03 2014 14:25:40
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is147103', '3.2.0-58-generic', '#88-Ubuntu SMP Tue Dec 3 17:37:58 UTC 2013', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+178,stdout,received,"['same', '8', '8', '   *sin )a( b', '  *sin )a( b']"
+179,stdout,received,"['diff', '2', '1', '    sin(a * b)', '   x + log(y)      ']"
+180,stdout,received,"['diff', '4', '5', '    sin(a)', '    (x + y)       ']"
+181,stdout,received,"['same', '7', '7', '    )x ( y+', '    )x ( y+']"
+182,stdout,received,"['diff', '3', '2', '    log(x) + y', '   sin(a * b)']"
+183,stdout,received,"['diff', '1', '2', '    a * sin(b)', '   log(x + y)']"
+184,stdout,received,"['same', '8', '8', '   * a sin)b(', '  * a sin)b(']"
+185,stdout,received,"['same', '1', '1', '    x + tan(y)', '   a * sin(b)']"
+185,stdout,received,"['same', '5', '5', '    (a * b)', '   (x + y)        ']"
+186,stdout,received,"['same', '6', '6', '     x)(log', '   x)(log \\t ']"
+187,stdout,received,"['same', '6', '6', '     )x(log', '   )x(log']"
+188,stdout,received,"['same', '3', '3', '    sin(a) * b', '   log(x) + y']"
+189,stdout,received,"['same', '8', '8', '   x) log+ y(', '  x) log+ y(']"
+190,stdout,received,"['same', '4', '4', '    sin(y)', '      log(x)']"
+190,stdout,received,"['same', '2', '2', '    sin(a * b)', '   log(x + y)     ']"
+191,stdout,received,"['diff', '2', '1', '    log(x + y)', '   a * sin(b)  ']"
+192,stdout,received,"['diff', '5', '4', '    (x + y)', '     log(x)        ']"
+193,stdout,received,"['same', '7', '7', '    y )x (+', '    y )x (+  ']"
+194,stdout,received,"['diff', '2', '3', '    sin(a * b)', '   log(x) + y']"
+195,stdout,received,"['same', '8', '8', '   log) xy (*', '  log) xy (*']"
+196,stdout,received,"['same', '2', '2', '    log(x * y)', '   sin(a * b)']"
+197,stdout,received,"['same', '1', '1', '    a * sin(b)', '   x + log(y)     ']"
+1699,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 0,0,5,5
+#design: 0,0,6,6
+#design: 0,0,7,7
+#design: 0,0,8,8
+#design: 0,0,9,9
+#design: 0,0,10,10
+#design: 0,0,11,11
+#design: 0,0,12,12
+#design: 0,0,13,13
+#design: 0,0,14,14
+#design: 0,0,15,15
+#design: 0,0,16,16
+#design: 0,0,17,17
+#design: 0,0,18,18
+#design: 0,0,19,19
+#design: 0,0,20,20
+#design: 0,0,21,21
+1699,design,logged,
+1699,Experiment,started
+1702,Stimulus,presented,45
+2083,Keyboard,received,s,wait_char
+2084,Stimulus,presented,0
+2786,Stimulus,presented,2
+3790,Stimulus,presented,1
+7843,stdout,received,'[]'
+7843,Stimulus,presented,0
+8545,Stimulus,presented,4
+9549,Stimulus,presented,3
+12691,stderr,received,'Traceback (most recent call last):'
+12691,stderr,received,'  File "display_strings_ordered.py", line 102, in <module>'
+12691,stderr,received,'    exp.clock.wait(design.randomize.rand_int(inter_trial_time[0], inter_trial_time[1]))'
+12691,stderr,received,'  File "/usr/local/lib/python2.7/dist-packages/expyriment/misc/_clock.py", line 114, in wait'
+12691,stderr,received,'    time.sleep((waiting_time - looptime) / 1000)'
+12691,stderr,received,'KeyboardInterrupt'

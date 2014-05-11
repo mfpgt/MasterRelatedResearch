@@ -1,0 +1,11 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Mon Mar 24 2014 10:53:55
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-60-generic', '#91-Ubuntu SMP Wed Feb 19 03:54:44 UTC 2014', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+457,stderr,received,'Traceback (most recent call last):'
+457,stderr,received,'  File "showimageformulas.py", line 49, in <module>'
+457,stderr,received,'    stim = stimuli.Picture(path)'
+457,stderr,received,'  File "/usr/local/lib/python2.7/dist-packages/expyriment/stimuli/_picture.py", line 52, in __init__'
+457,stderr,received,'    filename))'
+457,stderr,received,"IOError: The picture file 'chris_formulas/create_fU/img7.png\n' does not exist"

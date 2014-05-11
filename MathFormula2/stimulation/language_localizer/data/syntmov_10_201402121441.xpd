@@ -1,0 +1,130 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpd-file
+#date: Wed Feb 12 2014 14:41:18
+#--EXPERIMENT INFO
+#e mainfile: syntmov.py
+#e Experiment: 'First Experiment'
+#e no between subject factors
+#e Block 0: block1
+#e     block factors: 
+#e     n trials: 117
+#e     trial factors:
+#--SUBJECT INFO
+#s id: 10
+subject_id,onset,targetonset,cond,stim,resp
+10,5241,4709,11_Unacc_Decl_NP_Cl1_2Arg_loc,Tu y circules.,0
+10,9265,8735,10_Unacc_Qinv_NP_V_2Arg_loc,Affleure-t-elle là?,0
+10,13996,13472,14_Unacc_Q_NP_Wh_2Arg_loc,Où tu circules?,0
+10,18575,18048,9_Unacc_Qinv_NP_V_Wh_2Arg_loc,Où tombe-t-il?,0
+10,23010,22489,16_Trans_ynQ_2Arg_obj,Elle imite ça?,0
+10,27337,26800,11_Unacc_Decl_NP_Cl1_2Arg_loc,On y séjourne.,0
+10,31952,31426,26_transy_WhQinv_V_Wh_3Arg_obj_loc,Où soumet-elle ça?,0
+10,36392,35871,7_Unacc_Decl_NP_2Arg_loc,Tu survis ici.,0
+10,40800,40278,39_target,Appuyez!,0
+10,45776,45247,22_Trans_whQ_Wh_2Arg_obj,Qui tu trahis?,0
+10,50398,49866,29_transy_Qinv_V_Cl1obj_3Arg_obj_loc,Le presente-t-on ici?,0
+10,54205,53675,18_Trans_whQinv_V_Wh_2Arg_obj,Qui écoute-t-elle?,0
+10,58887,58357,4_Unerg_Decl_1Arg,Il tousse.,0
+10,63279,62759,10_Unacc_Qinv_NP_V_2Arg_loc,Réside-t-elle ici?,0
+10,68005,67474,1_Unacc_Decl_NP_1Arg,Elle bronze.,0
+10,72321,71792,6_Unerg_Qinv_V_1Arg,Bailles-tu?,0
+10,77019,76492,29_transy_Qinv_V_Cl1obj_3Arg_obj_loc,L'envoie-t-elle ici?,0
+10,81821,81282,12_Unacc_ynQ_NP_Cl1_2Arg_loc,Elle y affleure?,0
+10,86436,85904,20_Trans_ynQ_Cl1_2Arg_obj,Elle l'imite?,0
+10,90170,89522,10_Unacc_Qinv_NP_V_2Arg_loc,Hiberne-t-il là?,0
+10,95382,94862,30_transy_WhQ_Wh_3Arg_obj_loc,Où on le présente?,0
+10,99787,99265,34_ynQ_2Clobjloc_3Arg_4W_2EC,Il l'y enfouit?,0
+10,104317,103778,19_Trans_Decl_Cl1_2Arg_obj,Il l'adopte.,0
+10,108971,108439,28_transy_ynQ_Cl1obj_3Arg_obj_loc,On l'assigne là?,0
+10,112712,112153,35_Qinv_V_2Clobjloc_3Arg_4w_3EC,L'y convoques-tu?,0
+10,117484,116950,2_Unacc_ynQ_NP_1Arg,Il bascule?,0
+10,121584,121049,37_Controls,correspondance,0
+10,126189,125668,30_transy_WhQ_Wh_3Arg_obj_loc,Où on adosse ça?,0
+10,130712,130182,17_Trans_Qinv_V_2Arg_obj,Esquives-tu ça?,0
+10,135092,134565,31_transy_WhQ_Wh_Cl_3Arg_dat,Qui tu lui envois?,0
+10,140062,139529,14_Unacc_Q_NP_Wh_2Arg_loc,Où il vit?,0
+10,144528,144002,37_Controls,destinataire,0
+10,149150,148623,6_Unerg_Qinv_V_1Arg,Miaule-t-elle?,0
+10,153041,152512,20_Trans_ynQ_Cl1_2Arg_obj,Il l'adopte?,0
+10,157654,157127,5_Unerg_ynQ_1Arg,Il galope?,0
+10,162135,161612,36_Controls,peignoir,0
+10,166997,166461,12_Unacc_ynQ_NP_Cl1_2Arg_loc,On y séjourne?,0
+10,171080,170548,8_Unacc_ynQ_NP_2Arg_loc,Tu vis là?,0
+10,176490,175957,27_transy_Decl_Cl1obj_3Arg_obj_loc,Elle le retire là.,0
+10,180575,180055,23_transy_Decl_3Arg_obj_loc,On adresse ça là.,0
+10,184820,184288,8_Unacc_ynQ_NP_2Arg_loc,Elle figure ici?,0
+10,189753,189233,28_transy_ynQ_Cl1obj_3Arg_obj_loc,Elle le vante ici?,0
+10,194347,193811,16_Trans_ynQ_2Arg_obj,Il critique ça?,0
+10,198453,197917,16_Trans_ynQ_2Arg_obj,Tu salis ça?,0
+10,203242,202697,4_Unerg_Decl_1Arg,Elle tergiverse.,0
+10,207348,206814,36_Controls,température,0
+10,212336,211801,24_transy_ynQ_3Arg_obj_loc,On adosse ça ici?,0
+10,216160,215623,38_target,Cliquez!,0
+10,221141,220619,3_Unacc_Qinv_NP_V_1Arg,Moisit-il?,0
+10,225371,224838,20_Trans_ynQ_Cl1_2Arg_obj,Elle l'efface?,0
+10,230070,229550,2_Unacc_ynQ_NP_1Arg,Tu agonises?,0
+10,234159,233636,23_transy_Decl_3Arg_obj_loc,Tu enlèves ça ici.,0
+10,238965,238445,1_Unacc_Decl_NP_1Arg,Il meurt.,0
+10,243121,242599,18_Trans_whQinv_V_Wh_2Arg_obj,Qui entend-elle?,0
+10,247626,247104,13_Unacc_Qinv_NP_V_Cl1_2Arg_loc,Y demeure-t-on?,0
+10,253013,252479,5_Unerg_ynQ_1Arg,Il éternue?,0
+10,256794,256257,23_transy_Decl_3Arg_obj_loc,Elle envoie ça ici.,0
+10,261234,260706,29_transy_Qinv_V_Cl1obj_3Arg_obj_loc,L'adresse-t-on là?,0
+10,265656,265121,33_Decl_2Clobjloc_3Arg_4W_2EC,Tu l'y associes.,0
+10,270045,269514,12_Unacc_ynQ_NP_Cl1_2Arg_loc,Tu y circules?,0
+10,275342,274810,38_target,Cliquez!,0
+10,279289,278758,9_Unacc_Qinv_NP_V_Wh_2Arg_loc,Où hiberne-t-il?,0
+10,283995,283465,4_Unerg_Decl_1Arg,Tu bailles.,0
+10,288843,288314,2_Unacc_ynQ_NP_1Arg,Il vacille?,0
+10,293498,292971,9_Unacc_Qinv_NP_V_Wh_2Arg_loc,Où séjourne-t-on?,0
+10,297462,296924,34_ynQ_2Clobjloc_3Arg_4W_2EC,On l'y verse?,0
+10,301951,301413,28_transy_ynQ_Cl1obj_3Arg_obj_loc,Elle le dégote là?,0
+10,306423,305884,7_Unacc_Decl_NP_2Arg_loc,Elle surgit là.,0
+10,311478,310946,27_transy_Decl_Cl1obj_3Arg_obj_loc,Elle le soumet ici.,0
+10,315917,315376,26_transy_WhQinv_V_Wh_3Arg_obj_loc,Où dégotte-t-elle ça?,0
+10,320152,319632,39_target,Validez!,0
+10,324645,324115,21_Trans_Qinv_V_Cl1_2Arg_obj,Le détruis-tu?,0
+10,329344,328815,14_Unacc_Q_NP_Wh_2Arg_loc,Où elle stationne?,0
+10,333491,332961,17_Trans_Qinv_V_2Arg_obj,Piétine-t-on ça?,0
+10,338189,337668,25_transy_Qinv_V_3Arg_obj_loc,Enlèves-tu ça ici?,0
+10,342146,341621,27_transy_Decl_Cl1obj_3Arg_obj_loc,On la refourgue là.,0
+10,346818,346293,13_Unacc_Qinv_NP_V_Cl1_2Arg_loc,Y siège-t-il?,0
+10,351091,350570,15_Trans_Decl_2Arg_obj,Tu détruis ça.,0
+10,356514,355993,24_transy_ynQ_3Arg_obj_loc,Il affecte ça là?,0
+10,360791,360260,8_Unacc_ynQ_NP_2Arg_loc,Elle stationne ici?,0
+10,364667,364140,3_Unacc_Qinv_NP_V_1Arg,Germe-t-elle?,0
+10,369047,368523,7_Unacc_Decl_NP_2Arg_loc,Elle stationne ici.,0
+10,374085,373556,32_transy_WhQ_Wh_Cl_V_3Arg_dat,Qui lui adresse-t-on? ,0
+10,378773,378243,21_Trans_Qinv_V_Cl1_2Arg_obj,Le piétine-t-on?,0
+10,382637,382100,17_Trans_Qinv_V_2Arg_obj,Chasse-on ça?,0
+10,387519,386986,39_target,Appuyez!,0
+10,392414,391878,34_ynQ_2Clobjloc_3Arg_4W_2EC,Elle l'y rince?,0
+10,396847,396327,32_transy_WhQ_Wh_Cl_V_3Arg_dat,Qui lui soumet-elle?,0
+10,401259,400726,3_Unacc_Qinv_NP_V_1Arg,Déchantes-tu?,0
+10,405192,404669,15_Trans_Decl_2Arg_obj,Tu trahis ça.,0
+10,410353,409820,31_transy_WhQ_Wh_Cl_3Arg_dat,Qui on lui présente?,0
+10,414852,414332,30_transy_WhQ_Wh_3Arg_obj_loc,Où tu colles ça?,0
+10,419514,418976,36_Controls,porcelaine,0
+10,423953,423420,31_transy_WhQ_Wh_Cl_3Arg_dat,Qui on lui adosse?,0
+10,428485,427959,18_Trans_whQinv_V_Wh_2Arg_obj,Qui efface-t-elle?,0
+10,432210,431596,33_Decl_2Clobjloc_3Arg_4W_2EC,Il l'y joint.,0
+10,437038,436506,37_Controls,arrondissement,0
+10,441244,440711,32_transy_WhQ_Wh_Cl_V_3Arg_dat,Qui lui vante-t-elle?,0
+10,445743,445213,13_Unacc_Qinv_NP_V_Cl1_2Arg_loc,Y réside-t-elle?,0
+10,450864,450343,25_transy_Qinv_V_3Arg_obj_loc,Retire-elle ça là?,0
+10,455270,454745,5_Unerg_ynQ_1Arg,On grimace?,0
+10,459551,459021,19_Trans_Decl_Cl1_2Arg_obj,Tu l'esquives.,0
+10,464049,463528,22_Trans_whQ_Wh_2Arg_obj,Qui on piétine?,0
+10,468654,468132,35_Qinv_V_2Clobjloc_3Arg_4w_3EC,L'y jettes-tu?,0
+10,472801,472270,1_Unacc_Decl_NP_1Arg,Il bascule.,0
+10,477499,476972,25_transy_Qinv_V_3Arg_obj_loc,Dégotte-t-elle ça là?,0
+10,481874,481354,35_Qinv_V_2Clobjloc_3Arg_4w_3EC,L'y consigne-elle?,0
+10,486826,486303,24_transy_ynQ_3Arg_obj_loc,On refourgue ça ici?,0
+10,491024,490497,15_Trans_Decl_2Arg_obj,Elle imite ça.,0
+10,495142,494622,19_Trans_Decl_Cl1_2Arg_obj,Elle l'efface.,0
+10,500435,499908,6_Unerg_Qinv_V_1Arg,Flânes-tu? ,0
+10,504167,503643,38_target,Validez!,0
+10,508773,508244,26_transy_WhQinv_V_Wh_3Arg_obj_loc,Où colles-tu ça?,0
+10,513651,513113,11_Unacc_Decl_NP_Cl1_2Arg_loc,Il y déteint.,0
+10,518083,517555,22_Trans_whQ_Wh_2Arg_obj,Qui on chasse?,0
+10,522430,521895,21_Trans_Qinv_V_Cl1_2Arg_obj,L'esquives-tu?,0
+10,526879,526349,33_Decl_2Clobjloc_3Arg_4W_2EC,Tu l'y convoques.,0

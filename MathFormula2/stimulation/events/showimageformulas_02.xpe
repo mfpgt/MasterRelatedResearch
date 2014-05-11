@@ -1,0 +1,124 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Mon Mar 24 2014 11:00:04
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-60-generic', '#91-Ubuntu SMP Wed Feb 19 03:54:44 UTC 2014', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+23,Picture,loaded,chris_formulas/create_fBU/img582.png
+23,Picture,loaded,chris_formulas/create_fU/img8.png
+24,Picture,loaded,chris_formulas/create_fBB/img1680.png
+24,Picture,loaded,chris_formulas/create_fBB/img80.png
+25,Picture,loaded,chris_formulas/create_fU/img7.png
+25,Picture,loaded,chris_formulas/create_fUU/img21.png
+26,Picture,loaded,chris_formulas/create_fUU/img24.png
+27,Picture,loaded,chris_formulas/create_fUU/img8.png
+27,Picture,loaded,chris_formulas/create_fU/img10.png
+28,Picture,loaded,chris_formulas/create_fB/img19.png
+28,Picture,loaded,chris_formulas/create_fB/img97.png
+32,Picture,loaded,chris_formulas/create_fBB/img910.png
+32,Picture,loaded,chris_formulas/create_fB/img53.png
+33,Picture,loaded,chris_formulas/create_fU/img14.png
+33,Picture,loaded,chris_formulas/create_fU/img12.png
+35,Picture,loaded,chris_formulas/create_fUU/img17.png
+36,Picture,loaded,chris_formulas/create_fU/img11.png
+36,Picture,loaded,chris_formulas/create_fUU/img4.png
+37,Picture,loaded,chris_formulas/create_fUU/img23.png
+37,Picture,loaded,chris_formulas/create_fB/img16.png
+38,Picture,loaded,chris_formulas/create_fBU/img234.png
+39,Picture,loaded,chris_formulas/create_fBU/img298.png
+39,Picture,loaded,chris_formulas/create_fUU/img2.png
+40,Picture,loaded,chris_formulas/create_fBB/img896.png
+40,Picture,loaded,chris_formulas/create_fU/img15.png
+41,Picture,loaded,chris_formulas/create_fBB/img107.png
+42,Picture,loaded,chris_formulas/create_fBB/img1016.png
+42,Picture,loaded,chris_formulas/create_fB/img20.png
+43,Picture,loaded,chris_formulas/create_fBB/img791.png
+44,Picture,loaded,chris_formulas/create_fBU/img569.png
+44,Picture,loaded,chris_formulas/create_fUU/img22.png
+45,Picture,loaded,chris_formulas/create_fB/img70.png
+45,Picture,loaded,chris_formulas/create_fBB/img1162.png
+46,Picture,loaded,chris_formulas/create_fBU/img195.png
+47,Picture,loaded,chris_formulas/create_fB/img4.png
+47,Picture,loaded,chris_formulas/create_fBU/img655.png
+51,Picture,loaded,chris_formulas/create_fBB/img866.png
+51,Picture,loaded,chris_formulas/create_fUU/img18.png
+52,Picture,loaded,chris_formulas/create_fB/img24.png
+53,Picture,loaded,chris_formulas/create_fBU/img573.png
+53,Picture,loaded,chris_formulas/create_fBU/img493.png
+54,Picture,loaded,chris_formulas/create_fU/img4.png
+54,Picture,loaded,chris_formulas/create_fU/img3.png
+59,Picture,loaded,chris_formulas/create_fU/img2.png
+59,Picture,loaded,chris_formulas/create_fBB/img1392.png
+60,Picture,loaded,chris_formulas/create_fBU/img581.png
+67,Picture,loaded,chris_formulas/create_fB/img39.png
+67,Picture,loaded,chris_formulas/create_fUU/img1.png
+68,Picture,loaded,chris_formulas/create_fB/img84.png
+69,Picture,loaded,chris_formulas/create_fBU/img447.png
+5261,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 0,0,5,5
+#design: 0,0,6,6
+#design: 0,0,7,7
+#design: 0,0,8,8
+#design: 0,0,9,9
+#design: 0,0,10,10
+#design: 0,0,11,11
+#design: 0,0,12,12
+#design: 0,0,13,13
+#design: 0,0,14,14
+#design: 0,0,15,15
+#design: 0,0,16,16
+#design: 0,0,17,17
+#design: 0,0,18,18
+#design: 0,0,19,19
+#design: 0,0,20,20
+#design: 0,0,21,21
+#design: 0,0,22,22
+#design: 0,0,23,23
+#design: 0,0,24,24
+#design: 0,0,25,25
+#design: 0,0,26,26
+#design: 0,0,27,27
+#design: 0,0,28,28
+#design: 0,0,29,29
+#design: 0,0,30,30
+#design: 0,0,31,31
+#design: 0,0,32,32
+#design: 0,0,33,33
+#design: 0,0,34,34
+#design: 0,0,35,35
+#design: 0,0,36,36
+#design: 0,0,37,37
+#design: 0,0,38,38
+#design: 0,0,39,39
+#design: 0,0,40,40
+#design: 0,0,41,41
+#design: 0,0,42,42
+#design: 0,0,43,43
+#design: 0,0,44,44
+#design: 0,0,45,45
+#design: 0,0,46,46
+#design: 0,0,47,47
+#design: 0,0,48,48
+#design: 0,0,49,49
+5261,design,logged,
+5261,Experiment,started
+5264,Stimulus,presented,51
+6221,Keyboard,received,s,wait_char
+6222,Stimulus,presented,0
+6723,Stimulus,presented,1
+11611,Stimulus,presented,0
+12112,Stimulus,presented,2
+16590,Stimulus,presented,0
+17091,Stimulus,presented,3
+21183,Stimulus,presented,0
+21685,Stimulus,presented,4
+26115,Stimulus,presented,0
+26618,Stimulus,presented,5
+31222,Stimulus,presented,0
+31723,Stimulus,presented,6

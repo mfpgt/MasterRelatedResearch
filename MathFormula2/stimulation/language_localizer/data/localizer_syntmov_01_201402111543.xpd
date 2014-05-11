@@ -1,0 +1,37 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpd-file
+#date: Tue Feb 11 2014 15:43:21
+#--EXPERIMENT INFO
+#e mainfile: localizer_syntmov.py
+#e Experiment: 'First Experiment'
+#e no between subject factors
+#e Block 0: block1
+#e     block factors: 
+#e     n trials: 24
+#e     trial factors:
+#--SUBJECT INFO
+#s id: 1
+subject_id,
+1,999
+1,16008
+1,31032
+1,46049
+1,61073
+1,76096
+1,91108
+1,106131
+1,121153
+1,136185
+1,151412
+1,166430
+1,181865
+1,196890
+1,211907
+1,226934
+1,241952
+1,256978
+1,272002
+1,287019
+1,302044
+1,317065
+1,332075
+1,347092

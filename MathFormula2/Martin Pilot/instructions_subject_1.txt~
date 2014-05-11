@@ -1,0 +1,10 @@
+cd C:\Users\MPEREZGU\Dropbox\MathFormula2\Martin Pilot\Maruyama remake
+python maruyama2script.py Stimuli\subject_1\maruyamaStimuliSession1.csv
+python maruyama2script.py Stimuli\subject_1\maruyamaStimuliSession2.csv
+
+cd C:\Users\MPEREZGU\Dropbox\MathFormula2\Martin Pilot\Priming trees
+python primingTreesScript.py Stimuli\subject_1\primeTreesStimuliSession1.csv
+python primingTreesScript.py Stimuli\subject_1\primeTreesStimuliSession2.csv
+
+cd C:\Users\MPEREZGU\Dropbox\MathFormula2\Martin Pilot\Language localizer
+python localizer_syntmov.py localizer_lists\loc_sub001.csv

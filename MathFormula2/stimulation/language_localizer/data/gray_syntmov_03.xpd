@@ -1,0 +1,14 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpd-file
+#date: Fri Mar 14 2014 16:24:05
+#--EXPERIMENT INFO
+#e mainfile: gray_syntmov.py
+#e Experiment: 'First Experiment'
+#e no between subject factors
+#e Block 0: block1
+#e     block factors: 
+#e     n trials: 117
+#e     trial factors:
+#--SUBJECT INFO
+#s id: 3
+subject_id,onset,targetonset,cond,stim,resp
+3,5217,4709,11_Unacc_Decl_NP_Cl1_2Arg_loc,Tu y circules.,0

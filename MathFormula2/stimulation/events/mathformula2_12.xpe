@@ -1,0 +1,52 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Wed Mar 12 2014 08:54:22
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-60-generic', '#91-Ubuntu SMP Wed Feb 19 03:54:44 UTC 2014', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1624,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 0,0,5,5
+#design: 0,0,6,6
+#design: 0,0,7,7
+#design: 0,0,8,8
+#design: 0,0,9,9
+#design: 0,0,10,10
+#design: 0,0,11,11
+#design: 0,0,12,12
+#design: 0,0,13,13
+#design: 0,0,14,14
+#design: 0,0,15,15
+#design: 0,0,16,16
+#design: 0,0,17,17
+#design: 0,0,18,18
+#design: 0,0,19,19
+1624,design,logged,
+1624,Experiment,started
+1626,Stimulus,presented,21
+2928,Keyboard,received,s,wait_char
+2929,Stimulus,presented,0
+3431,Stimulus,presented,1
+6163,stdout,received,'[]'
+6163,Stimulus,presented,0
+6665,Stimulus,presented,2
+9411,stdout,received,'[]'
+9411,Stimulus,presented,0
+9912,Stimulus,presented,3
+13017,stdout,received,'[]'
+13018,Stimulus,presented,0
+13520,Stimulus,presented,4
+16484,stdout,received,'[113]'
+16485,Stimulus,presented,0
+16995,Stimulus,presented,5
+17504,stderr,received,'Traceback (most recent call last):'
+17504,stderr,received,'  File "mathformula2.py", line 80, in <module>'
+17504,stderr,received,'    exp.clock.wait(ISI)'
+17504,stderr,received,'  File "/usr/local/lib/python2.7/dist-packages/expyriment/misc/_clock.py", line 114, in wait'
+17506,stderr,received,'    time.sleep((waiting_time - looptime) / 1000)'
+17506,stderr,received,'KeyboardInterrupt'

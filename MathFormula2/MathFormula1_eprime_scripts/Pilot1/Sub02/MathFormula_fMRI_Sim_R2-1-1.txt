@@ -1,0 +1,5887 @@
+*** Header Start ***
+VersionPersist: 1
+LevelName: Session
+LevelName: Block
+LevelName: Trial
+LevelName: SubTrial
+LevelName: LogLevel5
+LevelName: LogLevel6
+LevelName: LogLevel7
+LevelName: LogLevel8
+LevelName: LogLevel9
+LevelName: LogLevel10
+Experiment: MathFormula_fMRI_Sim_R2
+SessionDate: 07-16-2009
+SessionTime: 11:51:51
+RandomSeed: 1534135763
+Group: 1
+Subject: 1
+Session: 1
+Name: 
+Age: 0
+Sex: male
+Handedness: left
+ResearcherID: 1
+Display.RefreshRate: 60.027
+*** Header End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 1
+	Stim: ###########
+	BranchSide: N
+	duration: 2
+	Type: target
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 1
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 12
+	MathString.OnsetTime: 45586
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 45786
+	Fixation.DurationError: 0
+	Fixation.RTTime: 46156
+	Fixation.ACC: 0
+	Fixation.RT: 370
+	Fixation.RESP: 4
+	Fixation.CRESP: 
+	Objperformance: 1
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 2
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 2
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 47585
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 47785
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 3
+	Stim: +4}2+(3-1){
+	BranchSide: R
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 3
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 48585
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 48785
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 4
+	Stim: 3-}2+(4+1){
+	BranchSide: R
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 4
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 50584
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 50784
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 5
+	Stim: -{+}1)4+3(2
+	BranchSide: R
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 5
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 52583
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 52783
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 6
+	Stim: }(3+2)-1{+4
+	BranchSide: L
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 6
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 54582
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 54782
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 7
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 7
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 56581
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 56781
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 8
+	Stim: 4+}+3)2-1({
+	BranchSide: R
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 8
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 57581
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 57781
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 9
+	Stim: 1)3-4(+}2+{
+	BranchSide: L
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 9
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 59580
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 59780
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 10
+	Stim: 2+{4+(3-1)}
+	BranchSide: R
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 10
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 61579
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 61779
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 11
+	Stim: }(2+4)-3{+1
+	BranchSide: L
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 11
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 63578
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 63778
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 12
+	Stim: 4)2}{-3+(1+
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 12
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 65577
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 65777
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 13
+	Stim: 3+{1-(2+4)}
+	BranchSide: R
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 13
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 67576
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 67776
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 14
+	Stim: }3({2+)4-+1
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 14
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 69575
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 69775
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 15
+	Stim: }(4-2)+1{3+
+	BranchSide: L
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 15
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 71575
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: -1
+	Fixation.OnsetTime: 71774
+	Fixation.DurationError: 1
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 16
+	Stim: }(4+3)+2{1-
+	BranchSide: L
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 16
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 73574
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: -1
+	Fixation.OnsetTime: 73773
+	Fixation.DurationError: 1
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 17
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 17
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 75573
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 75773
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 18
+	Stim: 3)2}{+4(-+1
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 18
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 76572
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 76772
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 19
+	Stim: }2)1(+{4-+3
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 19
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 78571
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 78771
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 20
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 20
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 80570
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 80770
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 21
+	Stim: 4)3+2(+}1-{
+	BranchSide: L
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 21
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 81570
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 81770
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 22
+	Stim: {(4+3)+2}-1
+	BranchSide: L
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 22
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 83569
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 83769
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 23
+	Stim: }3)+1-(2{4+
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 23
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 85568
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 85768
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 24
+	Stim: }-4{+)3+1(2
+	BranchSide: R
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 24
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 87567
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 87767
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 25
+	Stim: 3{}+1(+-2)4
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 25
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 89566
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 89766
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 26
+	Stim: +4}1+(2-3){
+	BranchSide: R
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 26
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 91565
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 91765
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 27
+	Stim: 
+	BranchSide: N
+	duration: 3
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 27
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 2800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 93564
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 93764
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 28
+	Stim: }{4-+)1+3(2
+	BranchSide: R
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 28
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 96563
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 96763
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 29
+	Stim: }{1-+)3+2(4
+	BranchSide: R
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 29
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 98562
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 98762
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 30
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 30
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 100561
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 100761
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 31
+	Stim: 4-{2+(1+3)}
+	BranchSide: R
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 31
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 101561
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 101761
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 32
+	Stim: 3{-}2+)4(+1
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 32
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 103560
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 103760
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 33
+	Stim: 4)+}3{+-1(2
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 33
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 105559
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 105759
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 34
+	Stim: {(2+4)-1}+3
+	BranchSide: L
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 34
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 107558
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 107758
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 35
+	Stim: })2-3(+4+{1
+	BranchSide: L
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 35
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 109557
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 109757
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 36
+	Stim: }(1+2)+4{3-
+	BranchSide: L
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 36
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 111556
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 111756
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 37
+	Stim: 
+	BranchSide: N
+	duration: 3
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 37
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 2800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 113555
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 113755
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 38
+	Stim: 2}1)(-3{+4+
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 38
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 116554
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 116754
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 39
+	Stim: 3-{4+(1+2)}
+	BranchSide: R
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 39
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 118553
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 118753
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 40
+	Stim: }(2-3)+1{4+
+	BranchSide: L
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 40
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 120552
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 120752
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 41
+	Stim: +2}3+(4-1){
+	BranchSide: R
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 41
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 122551
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 122751
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 1
+	TotalTrial: 1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 42
+	Stim: ###########
+	BranchSide: N
+	duration: 2
+	Type: target
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 42
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 124550
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 124750
+	Fixation.DurationError: 0
+	Fixation.RTTime: 124840
+	Fixation.ACC: 0
+	Fixation.RT: 90
+	Fixation.RESP: 4
+	Fixation.CRESP: 
+	Objperformance: 1
+	Perf: 2
+	TotalTrial: 2
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 43
+	Stim: 
+	BranchSide: N
+	duration: 3
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 43
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 2800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 126550
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 126750
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 2
+	TotalTrial: 2
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 44
+	Stim: }(2+4)-1{+3
+	BranchSide: L
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 44
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 129549
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: -1
+	Fixation.OnsetTime: 129748
+	Fixation.DurationError: 1
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 2
+	TotalTrial: 2
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 45
+	Stim: 1+({}2-+4)3
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 45
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 131548
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: -1
+	Fixation.OnsetTime: 131747
+	Fixation.DurationError: 1
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 2
+	TotalTrial: 2
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 46
+	Stim: 
+	BranchSide: N
+	duration: 2
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 46
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 133547
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: -1
+	Fixation.OnsetTime: 133746
+	Fixation.DurationError: 1
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 2
+	TotalTrial: 2
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 47
+	Stim: 1)2+4(+}-{3
+	BranchSide: L
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 47
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 135546
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: -1
+	Fixation.OnsetTime: 135745
+	Fixation.DurationError: 1
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 2
+	TotalTrial: 2
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 48
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 48
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 137545
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: -1
+	Fixation.OnsetTime: 137744
+	Fixation.DurationError: 1
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 2
+	TotalTrial: 2
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 49
+	Stim: {)2+1(}3-+4
+	BranchSide: L
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 49
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 138544
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 138744
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 2
+	TotalTrial: 2
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 50
+	Stim: 3+}1-(2+4){
+	BranchSide: R
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 50
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 140543
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 140743
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 2
+	TotalTrial: 2
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 51
+	Stim: +4}3+(2-1){
+	BranchSide: R
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 51
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 142542
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 142742
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 2
+	TotalTrial: 2
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 52
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 52
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 144541
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 144741
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 2
+	TotalTrial: 2
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 53
+	Stim: ###########
+	BranchSide: N
+	duration: 2
+	Type: target
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 53
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 145541
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 145741
+	Fixation.DurationError: 0
+	Fixation.RTTime: 145901
+	Fixation.ACC: 0
+	Fixation.RT: 160
+	Fixation.RESP: 4
+	Fixation.CRESP: 
+	Objperformance: 1
+	Perf: 3
+	TotalTrial: 3
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 54
+	Stim: 4+{2-(3+1)}
+	BranchSide: R
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 54
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 147540
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 147740
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 3
+	TotalTrial: 3
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 55
+	Stim: {(1+2)+4}-3
+	BranchSide: L
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 55
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 149539
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 149739
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 3
+	TotalTrial: 3
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 56
+	Stim: -4}2+(1+3){
+	BranchSide: R
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 56
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 151538
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 151738
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 3
+	TotalTrial: 3
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 57
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 57
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 153537
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 153737
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 3
+	TotalTrial: 3
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 58
+	Stim: }(1+3)-4{2+
+	BranchSide: L
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 58
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 154537
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 154737
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 3
+	TotalTrial: 3
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 59
+	Stim: +1}4-(3+2){
+	BranchSide: R
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 59
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 156536
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 156736
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 3
+	TotalTrial: 3
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 60
+	Stim: ###########
+	BranchSide: N
+	duration: 2
+	Type: target
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 60
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 158535
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 158735
+	Fixation.DurationError: 0
+	Fixation.RTTime: 158896
+	Fixation.ACC: 0
+	Fixation.RT: 161
+	Fixation.RESP: 4
+	Fixation.CRESP: 
+	Objperformance: 1
+	Perf: 4
+	TotalTrial: 4
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 61
+	Stim: {(3+1)-4}+2
+	BranchSide: L
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 61
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 160534
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 160734
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 4
+	TotalTrial: 4
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 62
+	Stim: 2)3+1({+-4}
+	BranchSide: L
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 62
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 162533
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 162733
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 4
+	TotalTrial: 4
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 63
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 63
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 164532
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 164732
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 4
+	TotalTrial: 4
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 64
+	Stim: 3)+}-1{2(+4
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 64
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 165532
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 165732
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 4
+	TotalTrial: 4
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 65
+	Stim: ###########
+	BranchSide: N
+	duration: 2
+	Type: target
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 65
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 167531
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 167731
+	Fixation.DurationError: 0
+	Fixation.RTTime: 167952
+	Fixation.ACC: 0
+	Fixation.RT: 221
+	Fixation.RESP: 4
+	Fixation.CRESP: 
+	Objperformance: 1
+	Perf: 5
+	TotalTrial: 5
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 66
+	Stim: 2)}+1(+3{4-
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 66
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 169530
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 169730
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 5
+	TotalTrial: 5
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 67
+	Stim: }(3+1)-4{2+
+	BranchSide: L
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 67
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 171529
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 171729
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 5
+	TotalTrial: 5
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 68
+	Stim: {(1+3)-4}+2
+	BranchSide: L
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 68
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 173528
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 173728
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 5
+	TotalTrial: 5
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 69
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 69
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 175527
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 175727
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 5
+	TotalTrial: 5
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 70
+	Stim: 2+{4-(1+3)}
+	BranchSide: R
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 70
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 176527
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 176727
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 5
+	TotalTrial: 5
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 71
+	Stim: 4+{3+(2-1)}
+	BranchSide: R
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 71
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 178526
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 178726
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 5
+	TotalTrial: 5
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 72
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 72
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 180525
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 180725
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 5
+	TotalTrial: 5
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 73
+	Stim: 2{+)1-+4(}3
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 73
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 181525
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 181725
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 5
+	TotalTrial: 5
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 74
+	Stim: 
+	BranchSide: N
+	duration: 2
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 74
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 183524
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 183724
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 5
+	TotalTrial: 5
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 75
+	Stim: +1}-{)3+4(2
+	BranchSide: R
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 75
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 185523
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 185723
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 5
+	TotalTrial: 5
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 76
+	Stim: ###########
+	BranchSide: N
+	duration: 2
+	Type: target
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 76
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 187522
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 187722
+	Fixation.DurationError: 0
+	Fixation.RTTime: 187887
+	Fixation.ACC: 0
+	Fixation.RT: 165
+	Fixation.RESP: 4
+	Fixation.CRESP: 
+	Objperformance: 1
+	Perf: 6
+	TotalTrial: 6
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 77
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 77
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 189521
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 189721
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 6
+	TotalTrial: 6
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 78
+	Stim: 1{}3+)2-+4(
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 78
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 190520
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 190720
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 6
+	TotalTrial: 6
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 79
+	Stim: ###########
+	BranchSide: N
+	duration: 2
+	Type: target
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 79
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 192520
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: -1
+	Fixation.OnsetTime: 192719
+	Fixation.DurationError: 1
+	Fixation.RTTime: 192930
+	Fixation.ACC: 0
+	Fixation.RT: 211
+	Fixation.RESP: 4
+	Fixation.CRESP: 
+	Objperformance: 1
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 80
+	Stim: 1+{4-(3+2)}
+	BranchSide: R
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 80
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 194519
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 194719
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 81
+	Stim: 3+}4){2(1+-
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 81
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 196518
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 196718
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 82
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 82
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 198517
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 198717
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 83
+	Stim: 1+{2-(3+4)}
+	BranchSide: R
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 83
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 199516
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 199716
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 84
+	Stim: 4+{2+(3-1)}
+	BranchSide: R
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 84
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 201515
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 201715
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 85
+	Stim: }(1+3)-2{4+
+	BranchSide: L
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 85
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 203515
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: -1
+	Fixation.OnsetTime: 203714
+	Fixation.DurationError: 1
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 86
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 86
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 205514
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 205714
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 87
+	Stim: {(4-2)+1}+3
+	BranchSide: L
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 87
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 206513
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 206713
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 88
+	Stim: 1+{2-(4+3)}
+	BranchSide: R
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 88
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 208512
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 208712
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 89
+	Stim: }(4+1)+2{3-
+	BranchSide: L
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 89
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 210511
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 210711
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 90
+	Stim: 4+})+1(2-{3
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 90
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 212510
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 212710
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 91
+	Stim: {+}+4)3-1(2
+	BranchSide: R
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 91
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 214510
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: -1
+	Fixation.OnsetTime: 214709
+	Fixation.DurationError: 1
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 92
+	Stim: {1+-3)4}+(2
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 92
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 216509
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 216709
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 93
+	Stim: +{}4+)2-3(1
+	BranchSide: R
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 93
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 218508
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 218708
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 94
+	Stim: 
+	BranchSide: N
+	duration: 2
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 94
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 220507
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 220707
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 95
+	Stim: {(3+2)-1}+4
+	BranchSide: L
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 95
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 222506
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 222706
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 96
+	Stim: 3)+2-}+1{4(
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 96
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 224505
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 224705
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 97
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 97
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 226504
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 226704
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 98
+	Stim: +3)4+}2-({1
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 98
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 227504
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 227704
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 99
+	Stim: -3}2){1(+4+
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 99
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 229503
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 229703
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 100
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 100
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 231502
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 231702
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 101
+	Stim: +1}2-(4+3){
+	BranchSide: R
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 101
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 232501
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 232701
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 102
+	Stim: 1)4-2(+}{+3
+	BranchSide: L
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 102
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 234500
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 234700
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 103
+	Stim: 4+{1+(2-3)}
+	BranchSide: R
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 103
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 236500
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: -1
+	Fixation.OnsetTime: 236699
+	Fixation.DurationError: 1
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 104
+	Stim: 2}3-)(+1{+4
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 104
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 238499
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 238699
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 105
+	Stim: {(2+1)-3}+4
+	BranchSide: L
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 105
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 240498
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 240698
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 106
+	Stim: {(3-4)+1}+2
+	BranchSide: L
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 106
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 242497
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 242697
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 107
+	Stim: 
+	BranchSide: N
+	duration: 3
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 107
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 2800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 244496
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 244696
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 7
+	TotalTrial: 7
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 108
+	Stim: ###########
+	BranchSide: N
+	duration: 2
+	Type: target
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 108
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 247495
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 247695
+	Fixation.DurationError: 0
+	Fixation.RTTime: 247843
+	Fixation.ACC: 0
+	Fixation.RT: 148
+	Fixation.RESP: 4
+	Fixation.CRESP: 
+	Objperformance: 1
+	Perf: 8
+	TotalTrial: 8
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 109
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 109
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 249494
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 249694
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 8
+	TotalTrial: 8
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 110
+	Stim: 3-+)}1(4{2+
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 110
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 250493
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 250693
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 8
+	TotalTrial: 8
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 111
+	Stim: 2+}4+(3-1){
+	BranchSide: R
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 111
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 252492
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 252692
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 8
+	TotalTrial: 8
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 112
+	Stim: {}4)2+-3(+1
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 112
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 254491
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 254691
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 8
+	TotalTrial: 8
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 113
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 113
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 256491
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: -1
+	Fixation.OnsetTime: 256690
+	Fixation.DurationError: 1
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 8
+	TotalTrial: 8
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 114
+	Stim: }2+-3)4+1({
+	BranchSide: R
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 114
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 257490
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 257690
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 8
+	TotalTrial: 8
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 115
+	Stim: 1)4+3(-}{2+
+	BranchSide: L
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 115
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 259489
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 259689
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 8
+	TotalTrial: 8
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 116
+	Stim: ###########
+	BranchSide: N
+	duration: 2
+	Type: target
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 116
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 261488
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 261688
+	Fixation.DurationError: 0
+	Fixation.RTTime: 262008
+	Fixation.ACC: 0
+	Fixation.RT: 320
+	Fixation.RESP: 4
+	Fixation.CRESP: 
+	Objperformance: 1
+	Perf: 9
+	TotalTrial: 9
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 117
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 117
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 263487
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 263687
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 9
+	TotalTrial: 9
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 118
+	Stim: 3-{2+(4+1)}
+	BranchSide: R
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 118
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 264487
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 264687
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 9
+	TotalTrial: 9
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 119
+	Stim: 
+	BranchSide: N
+	duration: 5
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 119
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 4800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 266486
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 266686
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 9
+	TotalTrial: 9
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 120
+	Stim: 2+{3+(4-1)}
+	BranchSide: R
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 120
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 14
+	MathString.OnsetTime: 271500
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 271700
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 9
+	TotalTrial: 9
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 121
+	Stim: 2)4+3({}1+-
+	BranchSide: L
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 121
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 273499
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 273699
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 9
+	TotalTrial: 9
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 122
+	Stim: +4{}1+)3-(2
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 122
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 275499
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: -1
+	Fixation.OnsetTime: 275698
+	Fixation.DurationError: 1
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 9
+	TotalTrial: 9
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 123
+	Stim: 3+{4+(2-1)}
+	BranchSide: R
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 123
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 277498
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 277698
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 9
+	TotalTrial: 9
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 124
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 124
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 279497
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 279697
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 9
+	TotalTrial: 9
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 125
+	Stim: 4)3+2({1-+}
+	BranchSide: L
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 125
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 280496
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 280696
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 9
+	TotalTrial: 9
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 126
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 126
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 282495
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 282695
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 9
+	TotalTrial: 9
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 127
+	Stim: ###########
+	BranchSide: N
+	duration: 2
+	Type: target
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 127
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 283495
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 283695
+	Fixation.DurationError: 0
+	Fixation.RTTime: 283865
+	Fixation.ACC: 0
+	Fixation.RT: 170
+	Fixation.RESP: 4
+	Fixation.CRESP: 
+	Objperformance: 1
+	Perf: 10
+	TotalTrial: 10
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 128
+	Stim: 4)1+3(-+2{}
+	BranchSide: L
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 128
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 285494
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 285694
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 10
+	TotalTrial: 10
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 129
+	Stim: {(3+2)+4}-1
+	BranchSide: L
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 129
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 287493
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 287693
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 10
+	TotalTrial: 10
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 130
+	Stim: +4}3)-(1{2+
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 130
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 289492
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 289692
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 10
+	TotalTrial: 10
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 131
+	Stim: 2)3{+(}4-+1
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 131
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 291491
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 291691
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 10
+	TotalTrial: 10
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 132
+	Stim: }(3-4)+1{2+
+	BranchSide: L
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 132
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 293490
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 293690
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 10
+	TotalTrial: 10
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 133
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 133
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 295489
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 295689
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 10
+	TotalTrial: 10
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 134
+	Stim: 2)1-}+{+3(4
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 134
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 296489
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 296689
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 10
+	TotalTrial: 10
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 135
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 135
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 298488
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 298688
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 10
+	TotalTrial: 10
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 136
+	Stim: })1+2({3-+4
+	BranchSide: L
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 136
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 299488
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 299688
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 10
+	TotalTrial: 10
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 137
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 137
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 301487
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 301687
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 10
+	TotalTrial: 10
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 138
+	Stim: ###########
+	BranchSide: N
+	duration: 2
+	Type: target
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 138
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 302486
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 302686
+	Fixation.DurationError: 0
+	Fixation.RTTime: 302859
+	Fixation.ACC: 0
+	Fixation.RT: 173
+	Fixation.RESP: 4
+	Fixation.CRESP: 
+	Objperformance: 1
+	Perf: 11
+	TotalTrial: 11
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 139
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 139
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 304485
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 304685
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 11
+	TotalTrial: 11
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 140
+	Stim: 4+}2-(3+1){
+	BranchSide: R
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 140
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 305485
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 305685
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 11
+	TotalTrial: 11
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 141
+	Stim: }(3+2)+4{1-
+	BranchSide: L
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 141
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 307484
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 307684
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 11
+	TotalTrial: 11
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 142
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 142
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 309483
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 309683
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 11
+	TotalTrial: 11
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 143
+	Stim: 4+{-})1+2(3
+	BranchSide: R
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 143
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 310483
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 310683
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 11
+	TotalTrial: 11
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 144
+	Stim: 1)2+4(-+3}{
+	BranchSide: L
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 144
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 312482
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 312682
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 11
+	TotalTrial: 11
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 145
+	Stim: -3}4+(1+2){
+	BranchSide: R
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 145
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 314481
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 314681
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 11
+	TotalTrial: 11
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 146
+	Stim: 
+	BranchSide: N
+	duration: 2
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 146
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 316480
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 316680
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 11
+	TotalTrial: 11
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 147
+	Stim: ###########
+	BranchSide: N
+	duration: 2
+	Type: target
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 147
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 318479
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 318679
+	Fixation.DurationError: 0
+	Fixation.RTTime: 318828
+	Fixation.ACC: 0
+	Fixation.RT: 149
+	Fixation.RESP: 4
+	Fixation.CRESP: 
+	Objperformance: 1
+	Perf: 12
+	TotalTrial: 12
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 148
+	Stim: 
+	BranchSide: N
+	duration: 2
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 148
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 320478
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 320678
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 12
+	TotalTrial: 12
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 149
+	Stim: +2}4-(1+3){
+	BranchSide: R
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 149
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 322477
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 322677
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 12
+	TotalTrial: 12
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 150
+	Stim: {(4+1)+2}-3
+	BranchSide: L
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 150
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 324476
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 324676
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 12
+	TotalTrial: 12
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 151
+	Stim: 
+	BranchSide: N
+	duration: 2
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 151
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 326475
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 326675
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 12
+	TotalTrial: 12
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 152
+	Stim: +3}4+(2-1){
+	BranchSide: R
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 152
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 328474
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 328674
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 12
+	TotalTrial: 12
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 153
+	Stim: }(2+1)-3{4+
+	BranchSide: L
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 153
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 330474
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: -1
+	Fixation.OnsetTime: 330673
+	Fixation.DurationError: 1
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 12
+	TotalTrial: 12
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 154
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 154
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 332473
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 332673
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 12
+	TotalTrial: 12
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 155
+	Stim: )1}+3(2{4-+
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 155
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 333472
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 333672
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 12
+	TotalTrial: 12
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 156
+	Stim: })1+3(2-{4+
+	BranchSide: L
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 156
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 335471
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 335671
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 12
+	TotalTrial: 12
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 157
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 157
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 337470
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 337670
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 12
+	TotalTrial: 12
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 158
+	Stim: {(4+3)-1}+2
+	BranchSide: L
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 158
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 338470
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 338670
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 12
+	TotalTrial: 12
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 159
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 159
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 340469
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 340669
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 12
+	TotalTrial: 12
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 160
+	Stim: -2}{+)1+3(4
+	BranchSide: R
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 160
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 341469
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: -1
+	Fixation.OnsetTime: 341668
+	Fixation.DurationError: 1
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 12
+	TotalTrial: 12
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 161
+	Stim: 3+}+4)2-1({
+	BranchSide: R
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 161
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 343468
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 343668
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 12
+	TotalTrial: 12
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 162
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 162
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 345467
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 345667
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 12
+	TotalTrial: 12
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 163
+	Stim: {(2+4)-3}+1
+	BranchSide: L
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 163
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 346466
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 346666
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 12
+	TotalTrial: 12
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 164
+	Stim: +2+{})3-1(4
+	BranchSide: R
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 164
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 348465
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 348665
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 12
+	TotalTrial: 12
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 165
+	Stim: 
+	BranchSide: N
+	duration: 3
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 165
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 2800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 350465
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: -1
+	Fixation.OnsetTime: 350664
+	Fixation.DurationError: 1
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 12
+	TotalTrial: 12
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 166
+	Stim: 1+}2-(3+4){
+	BranchSide: R
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 166
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 353464
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: -1
+	Fixation.OnsetTime: 353663
+	Fixation.DurationError: 1
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 12
+	TotalTrial: 12
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 167
+	Stim: {(1+3)-2}+4
+	BranchSide: L
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 167
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 355463
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: -1
+	Fixation.OnsetTime: 355662
+	Fixation.DurationError: 1
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 12
+	TotalTrial: 12
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 168
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 168
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 357462
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: -1
+	Fixation.OnsetTime: 357661
+	Fixation.DurationError: 1
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 12
+	TotalTrial: 12
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 169
+	Stim: {(2-3)+1}+4
+	BranchSide: L
+	duration: 2
+	Type: level3
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 169
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 358461
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 358661
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 12
+	TotalTrial: 12
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 170
+	Stim: ###########
+	BranchSide: N
+	duration: 2
+	Type: target
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 170
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 360460
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 360660
+	Fixation.DurationError: 0
+	Fixation.RTTime: 360878
+	Fixation.ACC: 0
+	Fixation.RT: 218
+	Fixation.RESP: 4
+	Fixation.CRESP: 
+	Objperformance: 1
+	Perf: 13
+	TotalTrial: 13
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 171
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 171
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 362459
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 362659
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 13
+	TotalTrial: 13
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 172
+	Stim: 2)4+1({3+}-
+	BranchSide: L
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 172
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 363459
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 363659
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 13
+	TotalTrial: 13
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 173
+	Stim: 3}-+1)2+4({
+	BranchSide: R
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 173
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 365458
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 365658
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 13
+	TotalTrial: 13
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 174
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 174
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 367457
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 367657
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 13
+	TotalTrial: 13
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 175
+	Stim: }(4+3)-1{+2
+	BranchSide: L
+	duration: 2
+	Type: level2
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 175
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 368456
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 368656
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 13
+	TotalTrial: 13
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 176
+	Stim: ###########
+	BranchSide: N
+	duration: 2
+	Type: target
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 176
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 370455
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 370655
+	Fixation.DurationError: 0
+	Fixation.RTTime: 370839
+	Fixation.ACC: 0
+	Fixation.RT: 184
+	Fixation.RESP: 4
+	Fixation.CRESP: 
+	Objperformance: 1
+	Perf: 14
+	TotalTrial: 14
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 177
+	Stim: 2}{3+-+)1(4
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 177
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: 0
+	MathString.OnsetTime: 372455
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: -1
+	Fixation.OnsetTime: 372654
+	Fixation.DurationError: 1
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 14
+	TotalTrial: 14
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 178
+	Stim: +{}2+)4-1(3
+	BranchSide: R
+	duration: 2
+	Type: level1
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 178
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 374454
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 374654
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 14
+	TotalTrial: 14
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 179
+	Stim: 1)2{}4+(-+3
+	BranchSide: B
+	duration: 2
+	Type: level0
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 179
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 376453
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 376653
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 1
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 14
+	TotalTrial: 14
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 180
+	Stim: 
+	BranchSide: N
+	duration: 1
+	Type: NULL
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 180
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 378452
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 378652
+	Fixation.DurationError: 0
+	Fixation.RTTime: 0
+	Fixation.ACC: 0
+	Fixation.RT: 0
+	Fixation.RESP: 
+	Fixation.CRESP: 
+	Perf: 14
+	TotalTrial: 14
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	ListOfTrials: 181
+	Stim: ###########
+	BranchSide: N
+	duration: 2
+	Type: target
+	Procedure: TrialProc
+	ListOfTrials.Cycle: 1
+	ListOfTrials.Sample: 181
+	Running: ListOfTrials
+	Dur: 200
+	Fix: 1800
+	MathString.OnsetDelay: -1
+	MathString.OnsetTime: 379451
+	MathString.DurationError: 0
+	MathString.RTTime: 0
+	MathString.ACC: 1
+	MathString.RT: 0
+	MathString.RESP: 
+	MathString.CRESP: 
+	Fixation.OnsetDelay: 0
+	Fixation.OnsetTime: 379651
+	Fixation.DurationError: 0
+	Fixation.RTTime: 379820
+	Fixation.ACC: 0
+	Fixation.RT: 169
+	Fixation.RESP: 4
+	Fixation.CRESP: 
+	Objperformance: 1
+	Perf: 15
+	TotalTrial: 15
+	*** LogFrame End ***
+Level: 1
+*** LogFrame Start ***
+Experiment: MathFormula_fMRI_Sim_R2
+SessionDate: 07-16-2009
+SessionTime: 11:51:51
+RandomSeed: 1534135763
+Group: 1
+Subject: 1
+Session: 1
+Name: 
+Age: 0
+Sex: male
+Handedness: left
+ResearcherID: 1
+Display.RefreshRate: 60.027
+TaskInstructions.OnsetDelay: 13
+TaskInstructions.OnsetTime: 3022
+TaskInstructions.DurationError: -999999
+waitforscannerTTL.OnsetDelay: 14
+waitforscannerTTL.OnsetTime: 33725
+waitforscannerTTL.DurationError: -999999
+waitforscannerTTL.RTTime: 43574
+waitforscannerTTL.ACC: 0
+waitforscannerTTL.RT: 9849
+waitforscannerTTL.RESP: 6
+waitforscannerTTL.CRESP: 
+Police: Lucida Console
+Stimsize: 18
+Stimcolor: 160,160,160
+Stimbold: no
+FixCar: ·
+Fixsize: 12
+FixFont: Courier New
+FixY: center
+FixColor: white
+Fixbold: gray
+BaselineBefore.OnsetDelay: 13
+BaselineBefore.OnsetTime: 43587
+BaselineBefore.DurationError: -13
+BaselineBefore.RTTime: 0
+BaselineBefore.ACC: 0
+BaselineBefore.RT: 0
+BaselineBefore.RESP: 
+BaselineBefore.CRESP: 
+Perf: 100
+BaselineAfter.OnsetDelay: -1
+BaselineAfter.OnsetTime: 381450
+BaselineAfter.DurationError: 1
+BaselineAfter.RTTime: 0
+BaselineAfter.ACC: 0
+BaselineAfter.RT: 0
+BaselineAfter.RESP: 
+BaselineAfter.CRESP: 
+*** LogFrame End ***

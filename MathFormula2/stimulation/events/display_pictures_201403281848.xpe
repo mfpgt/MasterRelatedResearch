@@ -1,0 +1,25 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Fri Mar 28 2014 18:48:07
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-60-generic', '#91-Ubuntu SMP Wed Feb 19 03:54:44 UTC 2014', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+265,Picture,loaded,forMathfonts/img74.png
+266,Picture,loaded,forMathfonts/img12.png
+267,Picture,loaded,forMathfonts/img39.png
+268,Picture,loaded,forMathfonts/img113.png
+268,Picture,loaded,forMathfonts/img75.png
+269,Picture,loaded,forMathfonts/img43.png
+270,Picture,loaded,forMathfonts/img97.png
+271,Picture,loaded,forMathfonts/img134.png
+271,Picture,loaded,forMathfonts/img155.png
+272,Picture,loaded,forMathfonts/img25.png
+272,Picture,loaded,forMathfonts/img43.png
+273,Picture,loaded,forMathfonts/img62.png
+274,Picture,loaded,forMathfonts/img45.png
+274,Picture,loaded,forMathfonts/img121.png
+275,stderr,received,'Traceback (most recent call last):'
+275,stderr,received,'  File "./display_pictures.py", line 43, in <module>'
+275,stderr,received,'    stim = stimuli.Picture(path)'
+275,stderr,received,'  File "/usr/local/lib/python2.7/dist-packages/expyriment/stimuli/_picture.py", line 52, in __init__'
+275,stderr,received,'    filename))'
+275,stderr,received,"IOError: The picture file 'forMathfonts/img164.png' does not exist"

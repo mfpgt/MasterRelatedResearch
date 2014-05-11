@@ -1,0 +1,5 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Wed Feb 12 2014 14:02:54
+#display: size=(1920, 1200), window_mode=False, opengl=True
+#os: ('Linux', 'is146569', '3.2.0-58-generic', '#88-Ubuntu SMP Tue Dec 3 17:37:58 UTC 2013', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2

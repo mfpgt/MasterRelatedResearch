@@ -1,0 +1,565 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Tue Mar 25 2014 14:48:04
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-60-generic', '#91-Ubuntu SMP Wed Feb 19 03:54:44 UTC 2014', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+331,Picture,loaded,formulasPure/img88.png
+332,Picture,loaded,formulasPure/img9.png
+333,Picture,loaded,formulasPure/img27.png
+334,Picture,loaded,formulasPure/img8.png
+334,Picture,loaded,formulasPure/img19.png
+335,Picture,loaded,formulasPure/img38.png
+336,Picture,loaded,formulasPure/img17.png
+337,Picture,loaded,formulasPure/img142.png
+338,Picture,loaded,formulasPure/img103.png
+338,Picture,loaded,formulasPure/img42.png
+339,Picture,loaded,formulasPure/img89.png
+340,Picture,loaded,formulasPure/img41.png
+341,Picture,loaded,formulasPure/img39.png
+341,Picture,loaded,formulasPure/img12.png
+342,Picture,loaded,formulasPure/img65.png
+343,Picture,loaded,formulasPure/img56.png
+344,Picture,loaded,formulasPure/img90.png
+345,Picture,loaded,formulasPure/img61.png
+346,Picture,loaded,formulasPure/img137.png
+347,Picture,loaded,formulasPure/img24.png
+348,Picture,loaded,formulasPure/img25.png
+348,Picture,loaded,formulasPure/img30.png
+349,Picture,loaded,formulasPure/img40.png
+350,Picture,loaded,formulasPure/img23.png
+351,Picture,loaded,formulasPure/img30.png
+351,Picture,loaded,formulasPure/img41.png
+352,Picture,loaded,formulasPure/img39.png
+352,Picture,loaded,formulasPure/img42.png
+353,Picture,loaded,formulasPure/img4.png
+354,Picture,loaded,formulasPure/img120.png
+354,Picture,loaded,formulasPure/img81.png
+355,Picture,loaded,formulasPure/img111.png
+356,Picture,loaded,formulasPure/img69.png
+357,Picture,loaded,formulasPure/img60.png
+358,Picture,loaded,formulasPure/img60.png
+358,Picture,loaded,formulasPure/img96.png
+359,Picture,loaded,formulasPure/img21.png
+360,Picture,loaded,formulasPure/img123.png
+362,Picture,loaded,formulasPure/img20.png
+363,Picture,loaded,formulasPure/img130.png
+363,Picture,loaded,formulasPure/img133.png
+364,Picture,loaded,formulasPure/img10.png
+365,Picture,loaded,formulasPure/img79.png
+366,Picture,loaded,formulasPure/img16.png
+366,Picture,loaded,formulasPure/img10.png
+367,Picture,loaded,formulasPure/img9.png
+368,Picture,loaded,formulasPure/img68.png
+369,Picture,loaded,formulasPure/img106.png
+369,Picture,loaded,formulasPure/img40.png
+370,Picture,loaded,formulasPure/img21.png
+371,Picture,loaded,formulasPure/img80.png
+371,Picture,loaded,formulasPure/img9.png
+372,Picture,loaded,formulasPure/img60.png
+374,Picture,loaded,formulasPure/img105.png
+375,Picture,loaded,formulasPure/img4.png
+376,Picture,loaded,formulasPure/img85.png
+377,Picture,loaded,formulasPure/img54.png
+380,Picture,loaded,formulasPure/img15.png
+382,Picture,loaded,formulasPure/img32.png
+382,Picture,loaded,formulasPure/img90.png
+384,Picture,loaded,formulasPure/img97.png
+385,Picture,loaded,formulasPure/img52.png
+386,Picture,loaded,formulasPure/img138.png
+386,Picture,loaded,formulasPure/img1.png
+387,Picture,loaded,formulasPure/img115.png
+388,Picture,loaded,formulasPure/img104.png
+389,Picture,loaded,formulasPure/img119.png
+390,Picture,loaded,formulasPure/img3.png
+391,Picture,loaded,formulasPure/img70.png
+392,Picture,loaded,formulasPure/img30.png
+392,Picture,loaded,formulasPure/img30.png
+393,Picture,loaded,formulasPure/img109.png
+394,Picture,loaded,formulasPure/img117.png
+395,Picture,loaded,formulasPure/img86.png
+396,Picture,loaded,formulasPure/img46.png
+396,Picture,loaded,formulasPure/img114.png
+397,Picture,loaded,formulasPure/img37.png
+398,Picture,loaded,formulasPure/img39.png
+398,Picture,loaded,formulasPure/img39.png
+399,Picture,loaded,formulasPure/img127.png
+400,Picture,loaded,formulasPure/img2.png
+400,Picture,loaded,formulasPure/img41.png
+401,Picture,loaded,formulasPure/img47.png
+402,Picture,loaded,formulasPure/img59.png
+402,Picture,loaded,formulasPure/img38.png
+403,Picture,loaded,formulasPure/img77.png
+404,Picture,loaded,formulasPure/img139.png
+405,Picture,loaded,formulasPure/img3.png
+406,Picture,loaded,formulasPure/img129.png
+406,Picture,loaded,formulasPure/img47.png
+407,Picture,loaded,formulasPure/img1.png
+407,Picture,loaded,formulasPure/img42.png
+407,Picture,loaded,formulasPure/img2.png
+408,Picture,loaded,formulasPure/img53.png
+409,Picture,loaded,formulasPure/img54.png
+409,Picture,loaded,formulasPure/img21.png
+410,Picture,loaded,formulasPure/img46.png
+411,Picture,loaded,formulasPure/img53.png
+411,Picture,loaded,formulasPure/img57.png
+412,Picture,loaded,formulasPure/img42.png
+413,Picture,loaded,formulasPure/img100.png
+414,Picture,loaded,formulasPure/img34.png
+414,Picture,loaded,formulasPure/img19.png
+415,Picture,loaded,formulasPure/img14.png
+416,Picture,loaded,formulasPure/img132.png
+417,Picture,loaded,formulasPure/img75.png
+417,Picture,loaded,formulasPure/img19.png
+418,Picture,loaded,formulasPure/img38.png
+418,Picture,loaded,formulasPure/img2.png
+419,Picture,loaded,formulasPure/img7.png
+419,Picture,loaded,formulasPure/img38.png
+420,Picture,loaded,formulasPure/img77.png
+420,Picture,loaded,formulasPure/img21.png
+421,Picture,loaded,formulasPure/img40.png
+421,Picture,loaded,formulasPure/img39.png
+422,Picture,loaded,formulasPure/img126.png
+423,Picture,loaded,formulasPure/img25.png
+424,Picture,loaded,formulasPure/img50.png
+424,Picture,loaded,formulasPure/img57.png
+425,Picture,loaded,formulasPure/img1.png
+426,Picture,loaded,formulasPure/img112.png
+426,Picture,loaded,formulasPure/img3.png
+427,Picture,loaded,formulasPure/img79.png
+427,Picture,loaded,formulasPure/img17.png
+428,Picture,loaded,formulasPure/img6.png
+429,Picture,loaded,formulasPure/img4.png
+430,Picture,loaded,formulasPure/img63.png
+431,Picture,loaded,formulasPure/img92.png
+432,Picture,loaded,formulasPure/img143.png
+432,Picture,loaded,formulasPure/img65.png
+433,Picture,loaded,formulasPure/img22.png
+434,Picture,loaded,formulasPure/img135.png
+435,Picture,loaded,formulasPure/img136.png
+435,Picture,loaded,formulasPure/img71.png
+436,Picture,loaded,formulasPure/img43.png
+437,Picture,loaded,formulasPure/img99.png
+438,Picture,loaded,formulasPure/img67.png
+439,Picture,loaded,formulasPure/img5.png
+440,Picture,loaded,formulasPure/img94.png
+441,Picture,loaded,formulasPure/img74.png
+442,Picture,loaded,formulasPure/img95.png
+443,Picture,loaded,formulasPure/img108.png
+444,Picture,loaded,formulasPure/img113.png
+444,Picture,loaded,formulasPure/img44.png
+445,Picture,loaded,formulasPure/img13.png
+446,Picture,loaded,formulasPure/img134.png
+447,Picture,loaded,formulasPure/img48.png
+447,Picture,loaded,formulasPure/img80.png
+448,Picture,loaded,formulasPure/img116.png
+449,Picture,loaded,formulasPure/img18.png
+450,Picture,loaded,formulasPure/img42.png
+450,Picture,loaded,formulasPure/img59.png
+451,Picture,loaded,formulasPure/img64.png
+452,Picture,loaded,formulasPure/img102.png
+453,Picture,loaded,formulasPure/img53.png
+453,Picture,loaded,formulasPure/img64.png
+454,Picture,loaded,formulasPure/img72.png
+455,Picture,loaded,formulasPure/img5.png
+457,Picture,loaded,formulasPure/img55.png
+457,Picture,loaded,formulasPure/img49.png
+458,Picture,loaded,formulasPure/img4.png
+459,Picture,loaded,formulasPure/img121.png
+459,Picture,loaded,formulasPure/img11.png
+460,Picture,loaded,formulasPure/img131.png
+461,Picture,loaded,formulasPure/img46.png
+462,Picture,loaded,formulasPure/img141.png
+462,Picture,loaded,formulasPure/img40.png
+463,Picture,loaded,formulasPure/img66.png
+464,Picture,loaded,formulasPure/img40.png
+464,Picture,loaded,formulasPure/img10.png
+465,Picture,loaded,formulasPure/img31.png
+466,Picture,loaded,formulasPure/img30.png
+467,Picture,loaded,formulasPure/img98.png
+467,Picture,loaded,formulasPure/img36.png
+468,Picture,loaded,formulasPure/img46.png
+468,Picture,loaded,formulasPure/img120.png
+469,Picture,loaded,formulasPure/img28.png
+470,Picture,loaded,formulasPure/img87.png
+471,Picture,loaded,formulasPure/img51.png
+472,Picture,loaded,formulasPure/img102.png
+472,Picture,loaded,formulasPure/img43.png
+473,Picture,loaded,formulasPure/img33.png
+473,Picture,loaded,formulasPure/img44.png
+474,Picture,loaded,formulasPure/img141.png
+474,Picture,loaded,formulasPure/img1.png
+475,Picture,loaded,formulasPure/img73.png
+476,Picture,loaded,formulasPure/img7.png
+477,Picture,loaded,formulasPure/img93.png
+477,Picture,loaded,formulasPure/img1.png
+478,Picture,loaded,formulasPure/img29.png
+479,Picture,loaded,formulasPure/img118.png
+479,Picture,loaded,formulasPure/img9.png
+480,Picture,loaded,formulasPure/img6.png
+481,Picture,loaded,formulasPure/img91.png
+482,Picture,loaded,formulasPure/img76.png
+482,Picture,loaded,formulasPure/img40.png
+483,Picture,loaded,formulasPure/img43.png
+483,Picture,loaded,formulasPure/img101.png
+484,Picture,loaded,formulasPure/img84.png
+485,Picture,loaded,formulasPure/img22.png
+486,Picture,loaded,formulasPure/img128.png
+487,Picture,loaded,formulasPure/img58.png
+487,Picture,loaded,formulasPure/img2.png
+488,Picture,loaded,formulasPure/img110.png
+489,Picture,loaded,formulasPure/img124.png
+490,Picture,loaded,formulasPure/img78.png
+491,Picture,loaded,formulasPure/img62.png
+491,Picture,loaded,formulasPure/img39.png
+492,Picture,loaded,formulasPure/img15.png
+492,Picture,loaded,formulasPure/img34.png
+493,Picture,loaded,formulasPure/img35.png
+494,Picture,loaded,formulasPure/img128.png
+494,Picture,loaded,formulasPure/img82.png
+495,Picture,loaded,formulasPure/img93.png
+496,Picture,loaded,formulasPure/img50.png
+496,Picture,loaded,formulasPure/img17.png
+497,Picture,loaded,formulasPure/img67.png
+497,Picture,loaded,formulasPure/img111.png
+498,Picture,loaded,formulasPure/img35.png
+498,Picture,loaded,formulasPure/img102.png
+499,Picture,loaded,formulasPure/img27.png
+499,Picture,loaded,formulasPure/img6.png
+500,Picture,loaded,formulasPure/img83.png
+501,Picture,loaded,formulasPure/img20.png
+501,Picture,loaded,formulasPure/img3.png
+502,Picture,loaded,formulasPure/img42.png
+502,Picture,loaded,formulasPure/img46.png
+503,Picture,loaded,formulasPure/img122.png
+504,Picture,loaded,formulasPure/img107.png
+504,Picture,loaded,formulasPure/img58.png
+505,Picture,loaded,formulasPure/img26.png
+506,Picture,loaded,formulasPure/img140.png
+507,Picture,loaded,formulasPure/img125.png
+508,Picture,loaded,formulasPure/img45.png
+508,Picture,loaded,formulasPure/img53.png
+509,Picture,loaded,formulasPure/img5.png
+509,Picture,loaded,formulasPure/img22.png
+510,Picture,loaded,formulasPure/img56.png
+511,Picture,loaded,formulasPure/img88.png
+511,Picture,loaded,formulasPure/img29.png
+5029,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 0,0,5,5
+#design: 0,0,6,6
+#design: 0,0,7,7
+#design: 0,0,8,8
+#design: 0,0,9,9
+#design: 0,0,10,10
+#design: 0,0,11,11
+#design: 0,0,12,12
+#design: 0,0,13,13
+#design: 0,0,14,14
+#design: 0,0,15,15
+#design: 0,0,16,16
+#design: 0,0,17,17
+#design: 0,0,18,18
+#design: 0,0,19,19
+#design: 0,0,20,20
+#design: 0,0,21,21
+#design: 0,0,22,22
+#design: 0,0,23,23
+#design: 0,0,24,24
+#design: 0,0,25,25
+#design: 0,0,26,26
+#design: 0,0,27,27
+#design: 0,0,28,28
+#design: 0,0,29,29
+#design: 0,0,30,30
+#design: 0,0,31,31
+#design: 0,0,32,32
+#design: 0,0,33,33
+#design: 0,0,34,34
+#design: 0,0,35,35
+#design: 0,0,36,36
+#design: 0,0,37,37
+#design: 0,0,38,38
+#design: 0,0,39,39
+#design: 0,0,40,40
+#design: 0,0,41,41
+#design: 0,0,42,42
+#design: 0,0,43,43
+#design: 0,0,44,44
+#design: 0,0,45,45
+#design: 0,0,46,46
+#design: 0,0,47,47
+#design: 0,0,48,48
+#design: 0,0,49,49
+#design: 0,0,50,50
+#design: 0,0,51,51
+#design: 0,0,52,52
+#design: 0,0,53,53
+#design: 0,0,54,54
+#design: 0,0,55,55
+#design: 0,0,56,56
+#design: 0,0,57,57
+#design: 0,0,58,58
+#design: 0,0,59,59
+#design: 0,0,60,60
+#design: 0,0,61,61
+#design: 0,0,62,62
+#design: 0,0,63,63
+#design: 0,0,64,64
+#design: 0,0,65,65
+#design: 0,0,66,66
+#design: 0,0,67,67
+#design: 0,0,68,68
+#design: 0,0,69,69
+#design: 0,0,70,70
+#design: 0,0,71,71
+#design: 0,0,72,72
+#design: 0,0,73,73
+#design: 0,0,74,74
+#design: 0,0,75,75
+#design: 0,0,76,76
+#design: 0,0,77,77
+#design: 0,0,78,78
+#design: 0,0,79,79
+#design: 0,0,80,80
+#design: 0,0,81,81
+#design: 0,0,82,82
+#design: 0,0,83,83
+#design: 0,0,84,84
+#design: 0,0,85,85
+#design: 0,0,86,86
+#design: 0,0,87,87
+#design: 0,0,88,88
+#design: 0,0,89,89
+#design: 0,0,90,90
+#design: 0,0,91,91
+#design: 0,0,92,92
+#design: 0,0,93,93
+#design: 0,0,94,94
+#design: 0,0,95,95
+#design: 0,0,96,96
+#design: 0,0,97,97
+#design: 0,0,98,98
+#design: 0,0,99,99
+#design: 0,0,100,100
+#design: 0,0,101,101
+#design: 0,0,102,102
+#design: 0,0,103,103
+#design: 0,0,104,104
+#design: 0,0,105,105
+#design: 0,0,106,106
+#design: 0,0,107,107
+#design: 0,0,108,108
+#design: 0,0,109,109
+#design: 0,0,110,110
+#design: 0,0,111,111
+#design: 0,0,112,112
+#design: 0,0,113,113
+#design: 0,0,114,114
+#design: 0,0,115,115
+#design: 0,0,116,116
+#design: 0,0,117,117
+#design: 0,0,118,118
+#design: 0,0,119,119
+#design: 0,0,120,120
+#design: 0,0,121,121
+#design: 0,0,122,122
+#design: 0,0,123,123
+#design: 0,0,124,124
+#design: 0,0,125,125
+#design: 0,0,126,126
+#design: 0,0,127,127
+#design: 0,0,128,128
+#design: 0,0,129,129
+#design: 0,0,130,130
+#design: 0,0,131,131
+#design: 0,0,132,132
+#design: 0,0,133,133
+#design: 0,0,134,134
+#design: 0,0,135,135
+#design: 0,0,136,136
+#design: 0,0,137,137
+#design: 0,0,138,138
+#design: 0,0,139,139
+#design: 0,0,140,140
+#design: 0,0,141,141
+#design: 0,0,142,142
+#design: 0,0,143,143
+#design: 0,0,144,144
+#design: 0,0,145,145
+#design: 0,0,146,146
+#design: 0,0,147,147
+#design: 0,0,148,148
+#design: 0,0,149,149
+#design: 0,0,150,150
+#design: 0,0,151,151
+#design: 0,0,152,152
+#design: 0,0,153,153
+#design: 0,0,154,154
+#design: 0,0,155,155
+#design: 0,0,156,156
+#design: 0,0,157,157
+#design: 0,0,158,158
+#design: 0,0,159,159
+#design: 0,0,160,160
+#design: 0,0,161,161
+#design: 0,0,162,162
+#design: 0,0,163,163
+#design: 0,0,164,164
+#design: 0,0,165,165
+#design: 0,0,166,166
+#design: 0,0,167,167
+#design: 0,0,168,168
+#design: 0,0,169,169
+#design: 0,0,170,170
+#design: 0,0,171,171
+#design: 0,0,172,172
+#design: 0,0,173,173
+#design: 0,0,174,174
+#design: 0,0,175,175
+#design: 0,0,176,176
+#design: 0,0,177,177
+#design: 0,0,178,178
+#design: 0,0,179,179
+#design: 0,0,180,180
+#design: 0,0,181,181
+#design: 0,0,182,182
+#design: 0,0,183,183
+#design: 0,0,184,184
+#design: 0,0,185,185
+#design: 0,0,186,186
+#design: 0,0,187,187
+#design: 0,0,188,188
+#design: 0,0,189,189
+#design: 0,0,190,190
+#design: 0,0,191,191
+#design: 0,0,192,192
+#design: 0,0,193,193
+#design: 0,0,194,194
+#design: 0,0,195,195
+#design: 0,0,196,196
+#design: 0,0,197,197
+#design: 0,0,198,198
+#design: 0,0,199,199
+#design: 0,0,200,200
+#design: 0,0,201,201
+#design: 0,0,202,202
+#design: 0,0,203,203
+#design: 0,0,204,204
+#design: 0,0,205,205
+#design: 0,0,206,206
+#design: 0,0,207,207
+#design: 0,0,208,208
+#design: 0,0,209,209
+#design: 0,0,210,210
+#design: 0,0,211,211
+#design: 0,0,212,212
+#design: 0,0,213,213
+#design: 0,0,214,214
+#design: 0,0,215,215
+#design: 0,0,216,216
+#design: 0,0,217,217
+#design: 0,0,218,218
+#design: 0,0,219,219
+#design: 0,0,220,220
+#design: 0,0,221,221
+#design: 0,0,222,222
+#design: 0,0,223,223
+#design: 0,0,224,224
+#design: 0,0,225,225
+#design: 0,0,226,226
+#design: 0,0,227,227
+#design: 0,0,228,228
+#design: 0,0,229,229
+#design: 0,0,230,230
+#design: 0,0,231,231
+#design: 0,0,232,232
+#design: 0,0,233,233
+#design: 0,0,234,234
+#design: 0,0,235,235
+#design: 0,0,236,236
+#design: 0,0,237,237
+#design: 0,0,238,238
+#design: 0,0,239,239
+5031,design,logged,
+5031,Experiment,started
+5036,Stimulus,presented,241
+5420,Keyboard,received,s,wait_char
+5422,Stimulus,presented,0
+5923,Stimulus,presented,1
+9415,stdout,received,'[]'
+9415,Stimulus,presented,0
+9917,Stimulus,presented,2
+13340,stdout,received,'[]'
+13340,Stimulus,presented,0
+13841,Stimulus,presented,3
+16569,stdout,received,'[]'
+16569,Stimulus,presented,0
+17070,Stimulus,presented,4
+20078,stdout,received,'[]'
+20078,Stimulus,presented,0
+20579,Stimulus,presented,5
+23300,stdout,received,'[]'
+23300,Stimulus,presented,0
+23801,Stimulus,presented,6
+26555,stdout,received,'[]'
+26555,Stimulus,presented,0
+27056,Stimulus,presented,7
+29929,stdout,received,'[]'
+29929,Stimulus,presented,0
+30430,Stimulus,presented,8
+33354,stdout,received,'[]'
+33354,Stimulus,presented,0
+33855,Stimulus,presented,9
+36746,stdout,received,'[]'
+36746,Stimulus,presented,0
+37247,Stimulus,presented,10
+40369,stdout,received,'[]'
+40369,Stimulus,presented,0
+40870,Stimulus,presented,11
+43990,stdout,received,'[]'
+43990,Stimulus,presented,0
+44491,Stimulus,presented,12
+47840,stdout,received,'[]'
+47841,Stimulus,presented,0
+48342,Stimulus,presented,13
+51428,stdout,received,'[]'
+51429,Stimulus,presented,0
+51930,Stimulus,presented,14
+54911,stdout,received,'[]'
+54911,Stimulus,presented,0
+55412,Stimulus,presented,15
+58704,stdout,received,'[]'
+58704,Stimulus,presented,0
+59206,Stimulus,presented,16
+62181,stdout,received,'[]'
+62181,Stimulus,presented,0
+62682,Stimulus,presented,17
+66117,stdout,received,'[]'
+66117,Stimulus,presented,0
+66618,Stimulus,presented,18
+69287,stdout,received,'[]'
+69287,Stimulus,presented,0
+69788,Stimulus,presented,19
+72960,stdout,received,'[]'
+72960,Stimulus,presented,0
+73461,Stimulus,presented,20
+76645,stdout,received,'[]'
+76645,Stimulus,presented,0
+77146,Stimulus,presented,21
+80094,stdout,received,'[]'
+80094,Stimulus,presented,0
+80595,Stimulus,presented,22
+83605,stdout,received,'[]'
+83605,Stimulus,presented,0
+84106,Stimulus,presented,23
+87113,Experiment,paused
+87115,Stimulus,presented,242
+88110,Keyboard,received,y,wait_char
+88110,Experiment,ended
+88119,Stimulus,presented,242

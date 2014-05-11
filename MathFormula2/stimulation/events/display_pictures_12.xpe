@@ -1,0 +1,553 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Fri Mar 28 2014 19:00:31
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-60-generic', '#91-Ubuntu SMP Wed Feb 19 03:54:44 UTC 2014', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+298,Picture,loaded,forMathfonts/img136.png
+299,Picture,loaded,forMathfonts/img56.png
+299,Picture,loaded,forMathfonts/img28.png
+299,Picture,loaded,forMathfonts/img58.png
+300,Picture,loaded,forMathfonts/img24.png
+300,Picture,loaded,forMathfonts/img18.png
+300,Picture,loaded,forMathfonts/img100.png
+300,Picture,loaded,forMathfonts/img116.png
+301,Picture,loaded,forMathfonts/img146.png
+301,Picture,loaded,forMathfonts/img43.png
+301,Picture,loaded,forMathfonts/img2.png
+301,Picture,loaded,forMathfonts/img21.png
+302,Picture,loaded,forMathfonts/img71.png
+302,Picture,loaded,forMathfonts/img76.png
+302,Picture,loaded,forMathfonts/img52.png
+302,Picture,loaded,forMathfonts/img12.png
+303,Picture,loaded,forMathfonts/img54.png
+303,Picture,loaded,forMathfonts/img65.png
+303,Picture,loaded,forMathfonts/img29.png
+303,Picture,loaded,forMathfonts/img38.png
+304,Picture,loaded,forMathfonts/img123.png
+304,Picture,loaded,forMathfonts/img75.png
+304,Picture,loaded,forMathfonts/img136.png
+304,Picture,loaded,forMathfonts/img90.png
+305,Picture,loaded,forMathfonts/img48.png
+305,Picture,loaded,forMathfonts/img61.png
+305,Picture,loaded,forMathfonts/img48.png
+305,Picture,loaded,forMathfonts/img118.png
+306,Picture,loaded,forMathfonts/img105.png
+306,Picture,loaded,forMathfonts/img30.png
+306,Picture,loaded,forMathfonts/img99.png
+306,Picture,loaded,forMathfonts/img93.png
+307,Picture,loaded,forMathfonts/img122.png
+307,Picture,loaded,forMathfonts/img133.png
+307,Picture,loaded,forMathfonts/img121.png
+307,Picture,loaded,forMathfonts/img102.png
+308,Picture,loaded,forMathfonts/img141.png
+308,Picture,loaded,forMathfonts/img17.png
+308,Picture,loaded,forMathfonts/img10.png
+308,Picture,loaded,forMathfonts/img8.png
+309,Picture,loaded,forMathfonts/img92.png
+309,Picture,loaded,forMathfonts/img70.png
+309,Picture,loaded,forMathfonts/img51.png
+309,Picture,loaded,forMathfonts/img128.png
+310,Picture,loaded,forMathfonts/img110.png
+310,Picture,loaded,forMathfonts/img20.png
+310,Picture,loaded,forMathfonts/img40.png
+310,Picture,loaded,forMathfonts/img81.png
+311,Picture,loaded,forMathfonts/img19.png
+311,Picture,loaded,forMathfonts/img79.png
+311,Picture,loaded,forMathfonts/img48.png
+311,Picture,loaded,forMathfonts/img46.png
+312,Picture,loaded,forMathfonts/img32.png
+312,Picture,loaded,forMathfonts/img40.png
+312,Picture,loaded,forMathfonts/img111.png
+312,Picture,loaded,forMathfonts/img38.png
+313,Picture,loaded,forMathfonts/img7.png
+313,Picture,loaded,forMathfonts/img41.png
+313,Picture,loaded,forMathfonts/img98.png
+313,Picture,loaded,forMathfonts/img74.png
+314,Picture,loaded,forMathfonts/img61.png
+314,Picture,loaded,forMathfonts/img46.png
+314,Picture,loaded,forMathfonts/img38.png
+314,Picture,loaded,forMathfonts/img22.png
+315,Picture,loaded,forMathfonts/img85.png
+315,Picture,loaded,forMathfonts/img72.png
+315,Picture,loaded,forMathfonts/img53.png
+316,Picture,loaded,forMathfonts/img66.png
+316,Picture,loaded,forMathfonts/img14.png
+316,Picture,loaded,forMathfonts/img140.png
+316,Picture,loaded,forMathfonts/img108.png
+317,Picture,loaded,forMathfonts/img40.png
+317,Picture,loaded,forMathfonts/img57.png
+317,Picture,loaded,forMathfonts/img112.png
+317,Picture,loaded,forMathfonts/img8.png
+318,Picture,loaded,forMathfonts/img3.png
+318,Picture,loaded,forMathfonts/img40.png
+318,Picture,loaded,forMathfonts/img131.png
+318,Picture,loaded,forMathfonts/img104.png
+319,Picture,loaded,forMathfonts/img124.png
+319,Picture,loaded,forMathfonts/img59.png
+319,Picture,loaded,forMathfonts/img137.png
+319,Picture,loaded,forMathfonts/img115.png
+320,Picture,loaded,forMathfonts/img23.png
+320,Picture,loaded,forMathfonts/img49.png
+320,Picture,loaded,forMathfonts/img144.png
+320,Picture,loaded,forMathfonts/img86.png
+321,Picture,loaded,forMathfonts/img50.png
+321,Picture,loaded,forMathfonts/img43.png
+321,Picture,loaded,forMathfonts/img47.png
+321,Picture,loaded,forMathfonts/img13.png
+322,Picture,loaded,forMathfonts/img11.png
+322,Picture,loaded,forMathfonts/img120.png
+322,Picture,loaded,forMathfonts/img125.png
+322,Picture,loaded,forMathfonts/img113.png
+323,Picture,loaded,forMathfonts/img42.png
+323,Picture,loaded,forMathfonts/img23.png
+323,Picture,loaded,forMathfonts/img41.png
+323,Picture,loaded,forMathfonts/img62.png
+324,Picture,loaded,forMathfonts/img10.png
+324,Picture,loaded,forMathfonts/img55.png
+324,Picture,loaded,forMathfonts/img97.png
+324,Picture,loaded,forMathfonts/img39.png
+325,Picture,loaded,forMathfonts/img4.png
+325,Picture,loaded,forMathfonts/img15.png
+325,Picture,loaded,forMathfonts/img83.png
+325,Picture,loaded,forMathfonts/img40.png
+326,Picture,loaded,forMathfonts/img64.png
+326,Picture,loaded,forMathfonts/img36.png
+326,Picture,loaded,forMathfonts/img67.png
+326,Picture,loaded,forMathfonts/img130.png
+327,Picture,loaded,forMathfonts/img49.png
+327,Picture,loaded,forMathfonts/img94.png
+327,Picture,loaded,forMathfonts/img31.png
+327,Picture,loaded,forMathfonts/img37.png
+328,Picture,loaded,forMathfonts/img91.png
+328,Picture,loaded,forMathfonts/img1.png
+328,Picture,loaded,forMathfonts/img148.png
+329,Picture,loaded,forMathfonts/img96.png
+329,Picture,loaded,forMathfonts/img103.png
+329,Picture,loaded,forMathfonts/img89.png
+329,Picture,loaded,forMathfonts/img127.png
+330,Picture,loaded,forMathfonts/img88.png
+330,Picture,loaded,forMathfonts/img16.png
+330,Picture,loaded,forMathfonts/img139.png
+330,Picture,loaded,forMathfonts/img138.png
+331,Picture,loaded,forMathfonts/img44.png
+331,Picture,loaded,forMathfonts/img33.png
+331,Picture,loaded,forMathfonts/img96.png
+331,Picture,loaded,forMathfonts/img35.png
+332,Picture,loaded,forMathfonts/img142.png
+332,Picture,loaded,forMathfonts/img9.png
+332,Picture,loaded,forMathfonts/img25.png
+332,Picture,loaded,forMathfonts/img106.png
+333,Picture,loaded,forMathfonts/img135.png
+333,Picture,loaded,forMathfonts/img77.png
+333,Picture,loaded,forMathfonts/img101.png
+333,Picture,loaded,forMathfonts/img43.png
+334,Picture,loaded,forMathfonts/img35.png
+334,Picture,loaded,forMathfonts/img132.png
+334,Picture,loaded,forMathfonts/img69.png
+334,Picture,loaded,forMathfonts/img114.png
+335,Picture,loaded,forMathfonts/img109.png
+335,Picture,loaded,forMathfonts/img82.png
+335,Picture,loaded,forMathfonts/img60.png
+335,Picture,loaded,forMathfonts/img5.png
+336,Picture,loaded,forMathfonts/img129.png
+336,Picture,loaded,forMathfonts/img147.png
+336,Picture,loaded,forMathfonts/img134.png
+337,Picture,loaded,forMathfonts/img117.png
+337,Picture,loaded,forMathfonts/img107.png
+337,Picture,loaded,forMathfonts/img35.png
+337,Picture,loaded,forMathfonts/img41.png
+338,Picture,loaded,forMathfonts/img37.png
+338,Picture,loaded,forMathfonts/img16.png
+338,Picture,loaded,forMathfonts/img26.png
+338,Picture,loaded,forMathfonts/img143.png
+339,Picture,loaded,forMathfonts/img119.png
+339,Picture,loaded,forMathfonts/img9.png
+339,Picture,loaded,forMathfonts/img95.png
+339,Picture,loaded,forMathfonts/img126.png
+340,Picture,loaded,forMathfonts/img84.png
+340,Picture,loaded,forMathfonts/img45.png
+340,Picture,loaded,forMathfonts/img80.png
+340,Picture,loaded,forMathfonts/img78.png
+341,Picture,loaded,forMathfonts/img62.png
+341,Picture,loaded,forMathfonts/img40.png
+341,Picture,loaded,forMathfonts/img63.png
+342,Picture,loaded,forMathfonts/img37.png
+342,Picture,loaded,forMathfonts/img145.png
+342,Picture,loaded,forMathfonts/img34.png
+342,Picture,loaded,forMathfonts/img45.png
+343,Picture,loaded,forMathfonts/img67.png
+343,Picture,loaded,forMathfonts/img68.png
+343,Picture,loaded,forMathfonts/img27.png
+343,Picture,loaded,forMathfonts/img87.png
+344,Picture,loaded,forMathfonts/img120.png
+344,Picture,loaded,forMathfonts/img73.png
+344,Picture,loaded,forMathfonts/img6.png
+344,Picture,loaded,forMathfonts/img11.png
+3237,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 0,0,5,5
+#design: 0,0,6,6
+#design: 0,0,7,7
+#design: 0,0,8,8
+#design: 0,0,9,9
+#design: 0,0,10,10
+#design: 0,0,11,11
+#design: 0,0,12,12
+#design: 0,0,13,13
+#design: 0,0,14,14
+#design: 0,0,15,15
+#design: 0,0,16,16
+#design: 0,0,17,17
+#design: 0,0,18,18
+#design: 0,0,19,19
+#design: 0,0,20,20
+#design: 0,0,21,21
+#design: 0,0,22,22
+#design: 0,0,23,23
+#design: 0,0,24,24
+#design: 0,0,25,25
+#design: 0,0,26,26
+#design: 0,0,27,27
+#design: 0,0,28,28
+#design: 0,0,29,29
+#design: 0,0,30,30
+#design: 0,0,31,31
+#design: 0,0,32,32
+#design: 0,0,33,33
+#design: 0,0,34,34
+#design: 0,0,35,35
+#design: 0,0,36,36
+#design: 0,0,37,37
+#design: 0,0,38,38
+#design: 0,0,39,39
+#design: 0,0,40,40
+#design: 0,0,41,41
+#design: 0,0,42,42
+#design: 0,0,43,43
+#design: 0,0,44,44
+#design: 0,0,45,45
+#design: 0,0,46,46
+#design: 0,0,47,47
+#design: 0,0,48,48
+#design: 0,0,49,49
+#design: 0,0,50,50
+#design: 0,0,51,51
+#design: 0,0,52,52
+#design: 0,0,53,53
+#design: 0,0,54,54
+#design: 0,0,55,55
+#design: 0,0,56,56
+#design: 0,0,57,57
+#design: 0,0,58,58
+#design: 0,0,59,59
+#design: 0,0,60,60
+#design: 0,0,61,61
+#design: 0,0,62,62
+#design: 0,0,63,63
+#design: 0,0,64,64
+#design: 0,0,65,65
+#design: 0,0,66,66
+#design: 0,0,67,67
+#design: 0,0,68,68
+#design: 0,0,69,69
+#design: 0,0,70,70
+#design: 0,0,71,71
+#design: 0,0,72,72
+#design: 0,0,73,73
+#design: 0,0,74,74
+#design: 0,0,75,75
+#design: 0,0,76,76
+#design: 0,0,77,77
+#design: 0,0,78,78
+#design: 0,0,79,79
+#design: 0,0,80,80
+#design: 0,0,81,81
+#design: 0,0,82,82
+#design: 0,0,83,83
+#design: 0,0,84,84
+#design: 0,0,85,85
+#design: 0,0,86,86
+#design: 0,0,87,87
+#design: 0,0,88,88
+#design: 0,0,89,89
+#design: 0,0,90,90
+#design: 0,0,91,91
+#design: 0,0,92,92
+#design: 0,0,93,93
+#design: 0,0,94,94
+#design: 0,0,95,95
+#design: 0,0,96,96
+#design: 0,0,97,97
+#design: 0,0,98,98
+#design: 0,0,99,99
+#design: 0,0,100,100
+#design: 0,0,101,101
+#design: 0,0,102,102
+#design: 0,0,103,103
+#design: 0,0,104,104
+#design: 0,0,105,105
+#design: 0,0,106,106
+#design: 0,0,107,107
+#design: 0,0,108,108
+#design: 0,0,109,109
+#design: 0,0,110,110
+#design: 0,0,111,111
+#design: 0,0,112,112
+#design: 0,0,113,113
+#design: 0,0,114,114
+#design: 0,0,115,115
+#design: 0,0,116,116
+#design: 0,0,117,117
+#design: 0,0,118,118
+#design: 0,0,119,119
+#design: 0,0,120,120
+#design: 0,0,121,121
+#design: 0,0,122,122
+#design: 0,0,123,123
+#design: 0,0,124,124
+#design: 0,0,125,125
+#design: 0,0,126,126
+#design: 0,0,127,127
+#design: 0,0,128,128
+#design: 0,0,129,129
+#design: 0,0,130,130
+#design: 0,0,131,131
+#design: 0,0,132,132
+#design: 0,0,133,133
+#design: 0,0,134,134
+#design: 0,0,135,135
+#design: 0,0,136,136
+#design: 0,0,137,137
+#design: 0,0,138,138
+#design: 0,0,139,139
+#design: 0,0,140,140
+#design: 0,0,141,141
+#design: 0,0,142,142
+#design: 0,0,143,143
+#design: 0,0,144,144
+#design: 0,0,145,145
+#design: 0,0,146,146
+#design: 0,0,147,147
+#design: 0,0,148,148
+#design: 0,0,149,149
+#design: 0,0,150,150
+#design: 0,0,151,151
+#design: 0,0,152,152
+#design: 0,0,153,153
+#design: 0,0,154,154
+#design: 0,0,155,155
+#design: 0,0,156,156
+#design: 0,0,157,157
+#design: 0,0,158,158
+#design: 0,0,159,159
+#design: 0,0,160,160
+#design: 0,0,161,161
+#design: 0,0,162,162
+#design: 0,0,163,163
+#design: 0,0,164,164
+#design: 0,0,165,165
+#design: 0,0,166,166
+#design: 0,0,167,167
+#design: 0,0,168,168
+#design: 0,0,169,169
+#design: 0,0,170,170
+#design: 0,0,171,171
+#design: 0,0,172,172
+#design: 0,0,173,173
+#design: 0,0,174,174
+#design: 0,0,175,175
+#design: 0,0,176,176
+#design: 0,0,177,177
+#design: 0,0,178,178
+#design: 0,0,179,179
+3239,design,logged,
+3239,Experiment,started
+3244,Stimulus,presented,181
+4293,Keyboard,received,s,wait_char
+4294,Stimulus,presented,0
+4796,Stimulus,presented,1
+7546,stdout,received,'[]'
+7546,Stimulus,presented,0
+8047,Stimulus,presented,2
+10808,stdout,received,'[]'
+10808,Stimulus,presented,0
+11309,Stimulus,presented,3
+14083,stdout,received,'[]'
+14083,Stimulus,presented,0
+14584,Stimulus,presented,4
+17661,stdout,received,'[]'
+17661,Stimulus,presented,0
+18162,Stimulus,presented,5
+21637,stdout,received,'[]'
+21637,Stimulus,presented,0
+22138,Stimulus,presented,6
+25218,stdout,received,'[]'
+25218,Stimulus,presented,0
+25719,Stimulus,presented,7
+28481,stdout,received,'[]'
+28481,Stimulus,presented,0
+28982,Stimulus,presented,8
+31860,stdout,received,'[]'
+31860,Stimulus,presented,0
+32361,Stimulus,presented,9
+35457,stdout,received,'[]'
+35457,Stimulus,presented,0
+35958,Stimulus,presented,10
+39404,stdout,received,'[]'
+39404,Stimulus,presented,0
+39905,Stimulus,presented,11
+43091,stdout,received,'[]'
+43091,Stimulus,presented,0
+43592,Stimulus,presented,12
+46967,stdout,received,'[]'
+46967,Stimulus,presented,0
+47468,Stimulus,presented,13
+50580,stdout,received,'[]'
+50580,Stimulus,presented,0
+51081,Stimulus,presented,14
+54058,stdout,received,'[]'
+54058,Stimulus,presented,0
+54559,Stimulus,presented,15
+57515,stdout,received,'[]'
+57515,Stimulus,presented,0
+58016,Stimulus,presented,16
+61336,stdout,received,'[]'
+61336,Stimulus,presented,0
+61837,Stimulus,presented,17
+64491,stdout,received,'[]'
+64491,Stimulus,presented,0
+64992,Stimulus,presented,18
+68343,stdout,received,'[]'
+68343,Stimulus,presented,0
+68844,Stimulus,presented,19
+72249,stdout,received,'[]'
+72249,Stimulus,presented,0
+72750,Stimulus,presented,20
+75615,stdout,received,'[]'
+75615,Stimulus,presented,0
+76116,Stimulus,presented,21
+79496,stdout,received,'[]'
+79496,Stimulus,presented,0
+79997,Stimulus,presented,22
+83385,stdout,received,'[]'
+83385,Stimulus,presented,0
+83886,Stimulus,presented,23
+87216,stdout,received,'[]'
+87216,Stimulus,presented,0
+87717,Stimulus,presented,24
+90965,stdout,received,'[]'
+90965,Stimulus,presented,0
+91466,Stimulus,presented,25
+93986,stdout,received,'[]'
+93986,Stimulus,presented,0
+94487,Stimulus,presented,26
+97450,stdout,received,'[]'
+97450,Stimulus,presented,0
+97951,Stimulus,presented,27
+101178,stdout,received,'[]'
+101178,Stimulus,presented,0
+101679,Stimulus,presented,28
+104928,stdout,received,'[]'
+104928,Stimulus,presented,0
+105429,Stimulus,presented,29
+108715,stdout,received,'[]'
+108715,Stimulus,presented,0
+109216,Stimulus,presented,30
+111759,stdout,received,'[]'
+111759,Stimulus,presented,0
+112260,Stimulus,presented,31
+115079,stdout,received,'[]'
+115079,Stimulus,presented,0
+115580,Stimulus,presented,32
+118888,stdout,received,'[]'
+118888,Stimulus,presented,0
+119389,Stimulus,presented,33
+122431,stdout,received,'[]'
+122431,Stimulus,presented,0
+122959,Stimulus,presented,34
+126343,stdout,received,'[]'
+126344,Stimulus,presented,0
+126845,Stimulus,presented,35
+129627,stdout,received,'[]'
+129627,Stimulus,presented,0
+130128,Stimulus,presented,36
+133334,stdout,received,'[]'
+133335,Stimulus,presented,0
+133836,Stimulus,presented,37
+136478,stdout,received,'[]'
+136478,Stimulus,presented,0
+136979,Stimulus,presented,38
+140288,stdout,received,'[]'
+140288,Stimulus,presented,0
+140789,Stimulus,presented,39
+143797,stdout,received,'[]'
+143797,Stimulus,presented,0
+144298,Stimulus,presented,40
+146860,stdout,received,'[]'
+146860,Stimulus,presented,0
+147361,Stimulus,presented,41
+150002,stdout,received,'[]'
+150002,Stimulus,presented,0
+150503,Stimulus,presented,42
+153869,stdout,received,'[]'
+153869,Stimulus,presented,0
+154370,Stimulus,presented,43
+157273,stdout,received,'[]'
+157273,Stimulus,presented,0
+157774,Stimulus,presented,44
+160481,stdout,received,'[]'
+160481,Stimulus,presented,0
+160982,Stimulus,presented,45
+164116,stdout,received,'[]'
+164116,Stimulus,presented,0
+164617,Stimulus,presented,46
+167939,stdout,received,'[]'
+167939,Stimulus,presented,0
+168440,Stimulus,presented,47
+171175,stdout,received,'[]'
+171175,Stimulus,presented,0
+171676,Stimulus,presented,48
+174632,stdout,received,'[]'
+174632,Stimulus,presented,0
+175133,Stimulus,presented,49
+178332,stdout,received,'[]'
+178332,Stimulus,presented,0
+178833,Stimulus,presented,50
+181400,stdout,received,'[]'
+181400,Stimulus,presented,0
+181901,Stimulus,presented,51
+185008,stdout,received,'[]'
+185008,Stimulus,presented,0
+185509,Stimulus,presented,52
+188694,stdout,received,'[]'
+188694,Stimulus,presented,0
+189195,Stimulus,presented,53
+192535,stdout,received,'[]'
+192535,Stimulus,presented,0
+193036,Stimulus,presented,54
+195820,stdout,received,'[]'
+195820,Stimulus,presented,0
+196321,Stimulus,presented,55
+199431,stdout,received,'[]'
+199431,Stimulus,presented,0
+199932,Stimulus,presented,56
+203141,stdout,received,'[]'
+203141,Stimulus,presented,0
+203642,Stimulus,presented,57
+206617,stdout,received,'[]'
+206617,Stimulus,presented,0
+207118,Stimulus,presented,58
+210223,stdout,received,'[]'
+210223,Stimulus,presented,0
+210725,Stimulus,presented,59
+213458,Experiment,paused
+213460,Stimulus,presented,182
+214745,Keyboard,received,y,wait_char
+214745,Experiment,ended
+214751,Stimulus,presented,182

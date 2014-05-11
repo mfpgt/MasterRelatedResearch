@@ -1,0 +1,929 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.4.14)  28 MAR 2014 18:58
+entering extended mode
+ %&-line parsing enabled.
+**./images.tex
+(./images.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, french, basque, loaded.
+
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: dvips.def on input line 130.
+(/usr/share/texmf-texlive/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+) (/usr/share/texmf-texlive/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+)) (/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+\sizebox=\box26
+\lthtmlwrite=\write3
+(./images.aux)
+\openout1 = `images.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+
+latex2htmlLength hsize=349.0pt
+
+latex2htmlLength vsize=632.5pt
+
+latex2htmlLength hoffset=0.0pt
+
+latex2htmlLength voffset=0.0pt
+
+latex2htmlLength topmargin=0.0pt
+
+latex2htmlLength topskip=0.00003pt
+
+latex2htmlLength headheight=0.0pt
+
+latex2htmlLength headsep=0.0pt
+
+latex2htmlLength parskip=0.0pt plus 1.0pt
+
+latex2htmlLength oddsidemargin=39.0pt
+
+latex2htmlLength evensidemargin=39.0pt
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <20> not available
+(Font)              size <20.74> substituted on input line 140.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <20> not available
+(Font)              size <20.74> substituted on input line 140.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <20> not available
+(Font)              size <20.74> substituted on input line 140.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <20> on input line 140.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14> on input line 140.
+l2hSize :displaymath9:21.70398pt::0.0pt::349.0pt.
+[1
+
+
+
+]
+l2hSize :displaymath11:21.70398pt::0.0pt::349.0pt.
+[2
+
+
+]
+l2hSize :displaymath15:21.70398pt::0.0pt::349.0pt.
+[3
+
+
+]
+l2hSize :displaymath17:21.70398pt::0.0pt::349.0pt.
+[4
+
+
+]
+l2hSize :displaymath19:21.70398pt::0.0pt::349.0pt.
+[5
+
+
+]
+l2hSize :displaymath21:21.70398pt::0.0pt::349.0pt.
+[6
+
+
+]
+l2hSize :displaymath23:21.70398pt::0.0pt::349.0pt.
+[7
+
+
+]
+l2hSize :displaymath25:21.70398pt::0.0pt::349.0pt.
+[8
+
+
+]
+l2hSize :displaymath27:21.70398pt::0.0pt::349.0pt.
+[9
+
+
+]
+l2hSize :displaymath29:21.70398pt::0.0pt::349.0pt.
+[10
+
+
+]
+l2hSize :displaymath31:21.70398pt::0.0pt::349.0pt.
+[11
+
+
+]
+l2hSize :displaymath33:21.70398pt::0.0pt::349.0pt.
+[12
+
+
+]
+l2hSize :displaymath35:21.70398pt::0.0pt::349.0pt.
+[13
+
+
+]
+l2hSize :displaymath37:21.70398pt::0.0pt::349.0pt.
+[14
+
+
+]
+l2hSize :displaymath39:21.70398pt::0.0pt::349.0pt.
+[15
+
+
+]
+l2hSize :displaymath41:21.70398pt::0.0pt::349.0pt.
+[16
+
+
+]
+l2hSize :displaymath43:21.70398pt::0.0pt::349.0pt.
+[17
+
+
+]
+l2hSize :displaymath45:21.70398pt::0.0pt::349.0pt.
+[18
+
+
+]
+l2hSize :displaymath47:21.70398pt::0.0pt::349.0pt.
+[19
+
+
+]
+l2hSize :displaymath49:21.70398pt::0.0pt::349.0pt.
+[20
+
+
+]
+l2hSize :displaymath51:21.70398pt::0.0pt::349.0pt.
+[21
+
+
+]
+l2hSize :displaymath53:21.70398pt::0.0pt::349.0pt.
+[22
+
+
+]
+l2hSize :displaymath55:21.70398pt::0.0pt::349.0pt.
+[23
+
+
+]
+l2hSize :displaymath57:21.70398pt::0.0pt::349.0pt.
+[24
+
+
+]
+l2hSize :displaymath59:21.70398pt::0.0pt::349.0pt.
+[25
+
+
+]
+l2hSize :displaymath61:21.70398pt::0.0pt::349.0pt.
+[26
+
+
+]
+l2hSize :displaymath63:21.70398pt::0.0pt::349.0pt.
+[27
+
+
+]
+l2hSize :displaymath65:21.70398pt::0.0pt::349.0pt.
+[28
+
+
+]
+l2hSize :displaymath67:21.70398pt::0.0pt::349.0pt.
+[29
+
+
+]
+l2hSize :displaymath69:21.70398pt::0.0pt::349.0pt.
+[30
+
+
+]
+l2hSize :displaymath71:21.70398pt::0.0pt::349.0pt.
+[31
+
+
+]
+l2hSize :displaymath73:21.70398pt::0.0pt::349.0pt.
+[32
+
+
+]
+l2hSize :displaymath77:21.70398pt::0.0pt::349.0pt.
+[33
+
+
+]
+l2hSize :displaymath79:21.70398pt::0.0pt::349.0pt.
+[34
+
+
+]
+l2hSize :displaymath81:21.70398pt::0.0pt::349.0pt.
+[35
+
+
+]
+l2hSize :displaymath83:21.70398pt::0.0pt::349.0pt.
+[36
+
+
+]
+l2hSize :displaymath85:21.70398pt::0.0pt::349.0pt.
+[37
+
+
+]
+l2hSize :displaymath87:21.70398pt::0.0pt::349.0pt.
+[38
+
+
+]
+l2hSize :displaymath89:21.70398pt::0.0pt::349.0pt.
+[39
+
+
+]
+l2hSize :displaymath91:21.70398pt::0.0pt::349.0pt.
+[40
+
+
+]
+l2hSize :displaymath93:21.70398pt::0.0pt::349.0pt.
+[41
+
+
+]
+l2hSize :displaymath95:21.70398pt::0.0pt::349.0pt.
+[42
+
+
+]
+l2hSize :displaymath97:21.70398pt::0.0pt::349.0pt.
+[43
+
+
+]
+l2hSize :displaymath99:21.70398pt::0.0pt::349.0pt.
+[44
+
+
+]
+l2hSize :displaymath101:21.70398pt::0.0pt::349.0pt.
+[45
+
+
+]
+l2hSize :displaymath103:21.70398pt::0.0pt::349.0pt.
+[46
+
+
+]
+l2hSize :displaymath105:21.70398pt::0.0pt::349.0pt.
+[47
+
+
+]
+l2hSize :displaymath107:21.70398pt::0.0pt::349.0pt.
+[48
+
+
+]
+l2hSize :displaymath109:21.70398pt::0.0pt::349.0pt.
+[49
+
+
+]
+l2hSize :displaymath111:21.70398pt::0.0pt::349.0pt.
+[50
+
+
+]
+l2hSize :displaymath113:21.70398pt::0.0pt::349.0pt.
+[51
+
+
+]
+l2hSize :displaymath115:21.70398pt::0.0pt::349.0pt.
+[52
+
+
+]
+l2hSize :displaymath117:21.70398pt::0.0pt::349.0pt.
+[53
+
+
+]
+l2hSize :displaymath119:21.70398pt::0.0pt::349.0pt.
+[54
+
+
+]
+l2hSize :displaymath121:21.70398pt::0.0pt::349.0pt.
+[55
+
+
+]
+l2hSize :displaymath123:21.70398pt::0.0pt::349.0pt.
+[56
+
+
+]
+l2hSize :displaymath125:21.70398pt::0.0pt::349.0pt.
+[57
+
+
+]
+l2hSize :displaymath127:21.70398pt::0.0pt::349.0pt.
+[58
+
+
+]
+l2hSize :displaymath129:21.70398pt::0.0pt::349.0pt.
+[59
+
+
+]
+l2hSize :displaymath131:21.70398pt::0.0pt::349.0pt.
+[60
+
+
+]
+l2hSize :displaymath133:21.70398pt::0.0pt::349.0pt.
+[61
+
+
+]
+l2hSize :displaymath135:21.70398pt::0.0pt::349.0pt.
+[62
+
+
+]
+l2hSize :displaymath137:21.70398pt::0.0pt::349.0pt.
+[63
+
+
+]
+l2hSize :displaymath139:21.70398pt::0.0pt::349.0pt.
+[64
+
+
+]
+l2hSize :displaymath141:21.70398pt::0.0pt::349.0pt.
+[65
+
+
+]
+l2hSize :displaymath143:21.70398pt::0.0pt::349.0pt.
+[66
+
+
+]
+l2hSize :displaymath145:21.70398pt::0.0pt::349.0pt.
+[67
+
+
+]
+l2hSize :displaymath147:21.70398pt::0.0pt::349.0pt.
+[68
+
+
+]
+l2hSize :displaymath149:21.70398pt::0.0pt::349.0pt.
+[69
+
+
+]
+l2hSize :displaymath151:21.70398pt::0.0pt::349.0pt.
+[70
+
+
+]
+l2hSize :displaymath153:21.70398pt::0.0pt::349.0pt.
+[71
+
+
+]
+l2hSize :displaymath155:21.70398pt::0.0pt::349.0pt.
+[72
+
+
+]
+l2hSize :displaymath157:21.70398pt::0.0pt::349.0pt.
+[73
+
+
+]
+l2hSize :displaymath159:21.70398pt::0.0pt::349.0pt.
+[74
+
+
+]
+l2hSize :displaymath161:21.70398pt::0.0pt::349.0pt.
+[75
+
+
+]
+l2hSize :displaymath163:21.70398pt::0.0pt::349.0pt.
+[76
+
+
+]
+l2hSize :displaymath165:21.70398pt::0.0pt::349.0pt.
+[77
+
+
+]
+l2hSize :displaymath167:21.70398pt::0.0pt::349.0pt.
+[78
+
+
+]
+l2hSize :displaymath169:21.70398pt::0.0pt::349.0pt.
+[79
+
+
+]
+l2hSize :displaymath171:21.70398pt::0.0pt::349.0pt.
+[80
+
+
+]
+l2hSize :displaymath173:21.70398pt::0.0pt::349.0pt.
+[81
+
+
+]
+l2hSize :displaymath175:21.70398pt::0.0pt::349.0pt.
+[82
+
+
+]
+l2hSize :displaymath177:21.70398pt::0.0pt::349.0pt.
+[83
+
+
+]
+l2hSize :displaymath179:21.70398pt::0.0pt::349.0pt.
+[84
+
+
+]
+l2hSize :displaymath181:21.70398pt::0.0pt::349.0pt.
+[85
+
+
+]
+l2hSize :displaymath183:21.70398pt::0.0pt::349.0pt.
+[86
+
+
+]
+l2hSize :displaymath185:21.70398pt::0.0pt::349.0pt.
+[87
+
+
+]
+l2hSize :displaymath187:21.70398pt::0.0pt::349.0pt.
+[88
+
+
+]
+l2hSize :displaymath189:21.70398pt::0.0pt::349.0pt.
+[89
+
+
+]
+l2hSize :displaymath191:21.70398pt::0.0pt::349.0pt.
+[90
+
+
+]
+l2hSize :displaymath193:21.70398pt::0.0pt::349.0pt.
+[91
+
+
+]
+l2hSize :displaymath195:21.70398pt::0.0pt::349.0pt.
+[92
+
+
+]
+l2hSize :displaymath197:21.70398pt::0.0pt::349.0pt.
+[93
+
+
+]
+l2hSize :displaymath199:21.70398pt::0.0pt::349.0pt.
+[94
+
+
+]
+l2hSize :displaymath201:21.70398pt::0.0pt::349.0pt.
+[95
+
+
+]
+l2hSize :displaymath203:21.70398pt::0.0pt::349.0pt.
+[96
+
+
+]
+l2hSize :displaymath205:21.70398pt::0.0pt::349.0pt.
+[97
+
+
+]
+l2hSize :displaymath207:21.70398pt::0.0pt::349.0pt.
+[98
+
+
+]
+l2hSize :displaymath209:21.70398pt::0.0pt::349.0pt.
+[99
+
+
+]
+l2hSize :displaymath211:21.70398pt::0.0pt::349.0pt.
+[100
+
+
+]
+l2hSize :displaymath213:21.70398pt::0.0pt::349.0pt.
+[101
+
+
+]
+l2hSize :displaymath215:21.70398pt::0.0pt::349.0pt.
+[102
+
+
+]
+l2hSize :displaymath217:21.70398pt::0.0pt::349.0pt.
+[103
+
+
+]
+l2hSize :displaymath219:21.70398pt::0.0pt::349.0pt.
+[104
+
+
+]
+l2hSize :displaymath221:21.70398pt::0.0pt::349.0pt.
+[105
+
+
+]
+l2hSize :displaymath223:21.70398pt::0.0pt::349.0pt.
+[106
+
+
+]
+l2hSize :displaymath225:21.70398pt::0.0pt::349.0pt.
+[107
+
+
+]
+l2hSize :displaymath227:21.70398pt::0.0pt::349.0pt.
+[108
+
+
+]
+l2hSize :displaymath229:21.70398pt::0.0pt::349.0pt.
+[109
+
+
+]
+l2hSize :displaymath231:21.70398pt::0.0pt::349.0pt.
+[110
+
+
+]
+l2hSize :displaymath233:21.70398pt::0.0pt::349.0pt.
+[111
+
+
+]
+l2hSize :displaymath235:21.70398pt::0.0pt::349.0pt.
+[112
+
+
+]
+l2hSize :displaymath237:21.70398pt::0.0pt::349.0pt.
+[113
+
+
+]
+l2hSize :displaymath239:21.70398pt::0.0pt::349.0pt.
+[114
+
+
+]
+l2hSize :displaymath241:21.70398pt::0.0pt::349.0pt.
+[115
+
+
+]
+l2hSize :displaymath243:21.70398pt::0.0pt::349.0pt.
+[116
+
+
+]
+l2hSize :displaymath245:21.70398pt::0.0pt::349.0pt.
+[117
+
+
+]
+l2hSize :displaymath247:21.70398pt::0.0pt::349.0pt.
+[118
+
+
+]
+l2hSize :displaymath249:21.70398pt::0.0pt::349.0pt.
+[119
+
+
+]
+l2hSize :displaymath253:21.70398pt::0.0pt::349.0pt.
+[120
+
+
+]
+l2hSize :displaymath255:21.70398pt::0.0pt::349.0pt.
+[121
+
+
+]
+l2hSize :displaymath257:21.70398pt::0.0pt::349.0pt.
+[122
+
+
+]
+l2hSize :displaymath259:21.70398pt::0.0pt::349.0pt.
+[123
+
+
+]
+l2hSize :displaymath261:21.70398pt::0.0pt::349.0pt.
+[124
+
+
+]
+l2hSize :displaymath263:21.70398pt::0.0pt::349.0pt.
+[125
+
+
+]
+l2hSize :displaymath265:21.70398pt::0.0pt::349.0pt.
+[126
+
+
+]
+l2hSize :displaymath267:21.70398pt::0.0pt::349.0pt.
+[127
+
+
+]
+l2hSize :displaymath269:21.70398pt::0.0pt::349.0pt.
+[128
+
+
+]
+l2hSize :displaymath271:21.70398pt::0.0pt::349.0pt.
+[129
+
+
+]
+l2hSize :displaymath273:21.70398pt::0.0pt::349.0pt.
+[130
+
+
+]
+l2hSize :displaymath275:21.70398pt::0.0pt::349.0pt.
+[131
+
+
+]
+l2hSize :displaymath277:21.70398pt::0.0pt::349.0pt.
+[132
+
+
+]
+l2hSize :displaymath279:21.70398pt::0.0pt::349.0pt.
+[133
+
+
+]
+l2hSize :displaymath281:21.70398pt::0.0pt::349.0pt.
+[134
+
+
+]
+l2hSize :displaymath283:21.70398pt::0.0pt::349.0pt.
+[135
+
+
+]
+l2hSize :displaymath285:21.70398pt::0.0pt::349.0pt.
+[136
+
+
+]
+l2hSize :displaymath287:21.70398pt::0.0pt::349.0pt.
+[137
+
+
+]
+l2hSize :displaymath289:21.70398pt::0.0pt::349.0pt.
+[138
+
+
+]
+l2hSize :displaymath291:21.70398pt::0.0pt::349.0pt.
+[139
+
+
+]
+l2hSize :displaymath293:21.70398pt::0.0pt::349.0pt.
+[140
+
+
+]
+l2hSize :displaymath295:21.70398pt::0.0pt::349.0pt.
+[141
+
+
+]
+l2hSize :displaymath297:21.70398pt::0.0pt::349.0pt.
+[142
+
+
+]
+l2hSize :displaymath299:21.70398pt::0.0pt::349.0pt.
+[143
+
+
+]
+l2hSize :displaymath301:21.70398pt::0.0pt::349.0pt.
+[144
+
+
+]
+l2hSize :displaymath303:21.70398pt::0.0pt::349.0pt.
+[145
+
+
+]
+l2hSize :displaymath305:21.70398pt::0.0pt::349.0pt.
+[146
+
+
+]
+l2hSize :displaymath307:21.70398pt::0.0pt::349.0pt.
+[147
+
+
+]
+l2hSize :displaymath309:21.70398pt::0.0pt::349.0pt.
+[148
+
+
+]
+l2hSize :displaymath311:21.70398pt::0.0pt::349.0pt.
+[149
+
+
+]
+l2hSize :displaymath313:21.70398pt::0.0pt::349.0pt.
+[150
+
+
+]
+l2hSize :displaymath315:21.70398pt::0.0pt::349.0pt.
+[151
+
+
+]
+l2hSize :displaymath317:21.70398pt::0.0pt::349.0pt.
+[152
+
+
+]
+l2hSize :displaymath319:21.70398pt::0.0pt::349.0pt.
+[153
+
+
+]
+l2hSize :displaymath321:21.70398pt::0.0pt::349.0pt.
+[154
+
+
+]
+l2hSize :displaymath323:21.70398pt::0.0pt::349.0pt.
+[155
+
+
+]
+l2hSize :displaymath325:21.70398pt::0.0pt::349.0pt.
+[156
+
+
+]
+l2hSize :displaymath327:21.70398pt::0.0pt::349.0pt.
+[157
+
+
+]
+l2hSize :displaymath329:21.70398pt::0.0pt::349.0pt.
+[158
+
+
+]
+l2hSize :displaymath331:21.70398pt::0.0pt::349.0pt.
+[159
+
+
+]
+l2hSize :displaymath333:21.70398pt::0.0pt::349.0pt.
+[160
+
+
+]
+l2hSize :displaymath335:21.70398pt::0.0pt::349.0pt.
+[161
+
+
+]
+l2hSize :displaymath337:21.70398pt::0.0pt::349.0pt.
+[162
+
+
+]
+l2hSize :displaymath341:21.70398pt::0.0pt::349.0pt.
+[163
+
+
+] (./images.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.74pt have occurred.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 617 strings out of 495029
+ 8058 string characters out of 1181252
+ 49361 words of memory out of 3000000
+ 3867 multiletter control sequences out of 15000+50000
+ 5765 words of font info for 21 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 22i,5n,19p,162b,145s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on images.dvi (163 pages, 36008 bytes).

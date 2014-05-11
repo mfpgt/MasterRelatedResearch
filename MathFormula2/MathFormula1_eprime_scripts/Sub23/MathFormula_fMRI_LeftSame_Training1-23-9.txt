@@ -1,0 +1,1154 @@
+*** Header Start ***
+VersionPersist: 1
+LevelName: Session
+LevelName: Block
+LevelName: Trial
+LevelName: SubTrial
+LevelName: LogLevel5
+LevelName: LogLevel6
+LevelName: LogLevel7
+LevelName: LogLevel8
+LevelName: LogLevel9
+LevelName: LogLevel10
+Experiment: MathFormula_fMRI_LeftSame_Training1
+SessionDate: 03-22-2010
+SessionTime: 12:20:40
+RandomSeed: -1950960542
+Group: 1
+Subject: 23
+Session: 9
+Display.RefreshRate: 60.028
+*** Header End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 12
+	Level: 3
+	BranchSide: R
+	MemoryExpression: 4-(2+(1+3))
+	TaskExpression: 1-(2+(4+3))
+	TaskAns: 1
+	DiffPosi1: 1
+	WithinCorrect1: 1
+	DiffPosi2: 7
+	WithinCorrect2: 1
+	ExchSymb: 1
+	Trigger: 7
+	RandPeriod: 4667
+	Procedure: stimproc
+	List1.Cycle: 2
+	List1.Sample: 1
+	Running: List1
+	FixationBefore.OnsetDelay: 10
+	FixationBefore.OnsetTime: 46104
+	FixationBefore.Duration: 800
+	FixationBefore.OffsetTime: 46834
+	FixationBefore.OffsetDelay: 0
+	MemoryExpression.OnsetDelay: 10
+	MemoryExpression.OnsetTime: 46904
+	MemoryExpression.Duration: 200
+	MemoryExpression.CustomOnsetTime: 0
+	MemoryExpression.CustomOffsetTime: 0
+	FixationBtwn.OnsetDelay: 10
+	FixationBtwn.OnsetTime: 47104
+	FixationBtwn.Duration: 1500
+	FixationBtwn.OffsetTime: 48534
+	FixationBtwn.OffsetDelay: 0
+	ButtonAns: 4
+	MouseAns: 2
+	TaskExpression.OnsetDelay: 9
+	TaskExpression.OnsetTime: 48603
+	TaskExpression.DurationError: -9
+	TaskExpression.OffsetTime: 48734
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	FixationAfter.OnsetDelay: 9
+	FixationAfter.OnsetTime: 48803
+	FixationAfter.DurationError: -9
+	FixationAfter.Duration: 1500
+	FixationAfter.OffsetTime: 50234
+	FixationAfter.OffsetDelay: 0
+	FixationAfter.RTTime: 49686
+	FixationAfter.ACC: 0
+	FixationAfter.RT: 883
+	FixationAfter.RESP: 1
+	FixationAfter.CRESP: 2
+	Objperformance: 0
+	Perf: 0
+	TotalTrial: 1
+	FeedbackTrial.OnsetDelay: 8
+	FeedbackTrial.OnsetTime: 50302
+	FeedbackTrial.Duration: 4667
+	FeedbackTrial.OffsetTime: 54901
+	FeedbackTrial.OffsetDelay: 0
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 51
+	Level: 2
+	BranchSide: L
+	MemoryExpression: )(2-1)+4(+3
+	TaskExpression: )(2-1)+4(+3
+	TaskAns: 2
+	DiffPosi1: -1
+	WithinCorrect1: -1
+	DiffPosi2: -1
+	WithinCorrect2: -1
+	ExchSymb: -1
+	Trigger: 4
+	RandPeriod: 4286
+	Procedure: stimproc
+	List1.Cycle: 2
+	List1.Sample: 2
+	Running: List1
+	FixationBefore.OnsetDelay: 6
+	FixationBefore.OnsetTime: 54967
+	FixationBefore.Duration: 800
+	FixationBefore.OffsetTime: 55701
+	FixationBefore.OffsetDelay: 0
+	MemoryExpression.OnsetDelay: 6
+	MemoryExpression.OnsetTime: 55767
+	MemoryExpression.Duration: 200
+	MemoryExpression.CustomOnsetTime: 0
+	MemoryExpression.CustomOffsetTime: 0
+	FixationBtwn.OnsetDelay: 6
+	FixationBtwn.OnsetTime: 55967
+	FixationBtwn.Duration: 1500
+	FixationBtwn.OffsetTime: 57401
+	FixationBtwn.OffsetDelay: 0
+	ButtonAns: 5
+	MouseAns: 1
+	TaskExpression.OnsetDelay: 5
+	TaskExpression.OnsetTime: 57466
+	TaskExpression.DurationError: -5
+	TaskExpression.OffsetTime: 57601
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	FixationAfter.OnsetDelay: 5
+	FixationAfter.OnsetTime: 57666
+	FixationAfter.DurationError: -5
+	FixationAfter.Duration: 1500
+	FixationAfter.OffsetTime: 59101
+	FixationAfter.OffsetDelay: 0
+	FixationAfter.RTTime: 58211
+	FixationAfter.ACC: 1
+	FixationAfter.RT: 545
+	FixationAfter.RESP: 1
+	FixationAfter.CRESP: 1
+	Objperformance: 1
+	Perf: 1
+	TotalTrial: 2
+	FeedbackTrial.OnsetDelay: 4
+	FeedbackTrial.OnsetTime: 59165
+	FeedbackTrial.Duration: 4286
+	FeedbackTrial.OffsetTime: 63387
+	FeedbackTrial.OffsetDelay: 0
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 29
+	Level: 0
+	BranchSide: N
+	MemoryExpression: 2))3(4+-+(1
+	TaskExpression: 2))3(4-++(1
+	TaskAns: 1
+	DiffPosi1: 8
+	WithinCorrect1: 0
+	DiffPosi2: 7
+	WithinCorrect2: 0
+	ExchSymb: 2
+	Trigger: 1
+	RandPeriod: 2190
+	Procedure: stimproc
+	List1.Cycle: 2
+	List1.Sample: 3
+	Running: List1
+	FixationBefore.OnsetDelay: -1
+	FixationBefore.OnsetTime: 63446
+	FixationBefore.Duration: 800
+	FixationBefore.OffsetTime: 64187
+	FixationBefore.OffsetDelay: 0
+	MemoryExpression.OnsetDelay: -1
+	MemoryExpression.OnsetTime: 64246
+	MemoryExpression.Duration: 200
+	MemoryExpression.CustomOnsetTime: 0
+	MemoryExpression.CustomOffsetTime: 0
+	FixationBtwn.OnsetDelay: -1
+	FixationBtwn.OnsetTime: 64446
+	FixationBtwn.Duration: 1500
+	FixationBtwn.OffsetTime: 65887
+	FixationBtwn.OffsetDelay: 0
+	ButtonAns: 4
+	MouseAns: 2
+	TaskExpression.OnsetDelay: -1
+	TaskExpression.OnsetTime: 65946
+	TaskExpression.DurationError: 1
+	TaskExpression.OffsetTime: 66087
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	FixationAfter.OnsetDelay: -1
+	FixationAfter.OnsetTime: 66146
+	FixationAfter.DurationError: 1
+	FixationAfter.Duration: 1500
+	FixationAfter.OffsetTime: 67587
+	FixationAfter.OffsetDelay: 0
+	FixationAfter.RTTime: 66813
+	FixationAfter.ACC: 1
+	FixationAfter.RT: 667
+	FixationAfter.RESP: 2
+	FixationAfter.CRESP: 2
+	Objperformance: 1
+	Perf: 2
+	TotalTrial: 3
+	FeedbackTrial.OnsetDelay: 14
+	FeedbackTrial.OnsetTime: 67661
+	FeedbackTrial.Duration: 2190
+	FeedbackTrial.OffsetTime: 69777
+	FeedbackTrial.OffsetDelay: 0
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 50
+	Level: 1
+	BranchSide: L
+	MemoryExpression: 3)2-1(+()+4
+	TaskExpression: 3)2-1(+()+4
+	TaskAns: 2
+	DiffPosi1: -1
+	WithinCorrect1: -1
+	DiffPosi2: -1
+	WithinCorrect2: -1
+	ExchSymb: -1
+	Trigger: 2
+	RandPeriod: 4476
+	Procedure: stimproc
+	List1.Cycle: 2
+	List1.Sample: 4
+	Running: List1
+	FixationBefore.OnsetDelay: 7
+	FixationBefore.OnsetTime: 69844
+	FixationBefore.Duration: 800
+	FixationBefore.OffsetTime: 70577
+	FixationBefore.OffsetDelay: 0
+	MemoryExpression.OnsetDelay: 6
+	MemoryExpression.OnsetTime: 70643
+	MemoryExpression.Duration: 200
+	MemoryExpression.CustomOnsetTime: 0
+	MemoryExpression.CustomOffsetTime: 0
+	FixationBtwn.OnsetDelay: 6
+	FixationBtwn.OnsetTime: 70843
+	FixationBtwn.Duration: 1500
+	FixationBtwn.OffsetTime: 72277
+	FixationBtwn.OffsetDelay: 0
+	ButtonAns: 5
+	MouseAns: 1
+	TaskExpression.OnsetDelay: 5
+	TaskExpression.OnsetTime: 72342
+	TaskExpression.DurationError: -5
+	TaskExpression.OffsetTime: 72477
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	FixationAfter.OnsetDelay: 5
+	FixationAfter.OnsetTime: 72542
+	FixationAfter.DurationError: -5
+	FixationAfter.Duration: 1500
+	FixationAfter.OffsetTime: 73977
+	FixationAfter.OffsetDelay: 0
+	FixationAfter.RTTime: 73021
+	FixationAfter.ACC: 1
+	FixationAfter.RT: 479
+	FixationAfter.RESP: 1
+	FixationAfter.CRESP: 1
+	Objperformance: 1
+	Perf: 3
+	TotalTrial: 4
+	FeedbackTrial.OnsetDelay: 5
+	FeedbackTrial.OnsetTime: 74042
+	FeedbackTrial.Duration: 4476
+	FeedbackTrial.OffsetTime: 78453
+	FeedbackTrial.OffsetDelay: 0
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 45
+	Level: 0
+	BranchSide: N
+	MemoryExpression: )+4)-3(2+(1
+	TaskExpression: )+4)-3(2+(1
+	TaskAns: 2
+	DiffPosi1: -1
+	WithinCorrect1: -1
+	DiffPosi2: -1
+	WithinCorrect2: -1
+	ExchSymb: -1
+	Trigger: 1
+	RandPeriod: 2619
+	Procedure: stimproc
+	List1.Cycle: 2
+	List1.Sample: 5
+	Running: List1
+	FixationBefore.OnsetDelay: 10
+	FixationBefore.OnsetTime: 78523
+	FixationBefore.Duration: 800
+	FixationBefore.OffsetTime: 79253
+	FixationBefore.OffsetDelay: 0
+	MemoryExpression.OnsetDelay: 10
+	MemoryExpression.OnsetTime: 79323
+	MemoryExpression.Duration: 200
+	MemoryExpression.CustomOnsetTime: 0
+	MemoryExpression.CustomOffsetTime: 0
+	FixationBtwn.OnsetDelay: 9
+	FixationBtwn.OnsetTime: 79522
+	FixationBtwn.Duration: 1500
+	FixationBtwn.OffsetTime: 80953
+	FixationBtwn.OffsetDelay: 0
+	ButtonAns: 5
+	MouseAns: 1
+	TaskExpression.OnsetDelay: 9
+	TaskExpression.OnsetTime: 81022
+	TaskExpression.DurationError: -9
+	TaskExpression.OffsetTime: 81153
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	FixationAfter.OnsetDelay: 9
+	FixationAfter.OnsetTime: 81222
+	FixationAfter.DurationError: -9
+	FixationAfter.Duration: 1500
+	FixationAfter.OffsetTime: 82653
+	FixationAfter.OffsetDelay: 0
+	FixationAfter.RTTime: 81869
+	FixationAfter.ACC: 1
+	FixationAfter.RT: 647
+	FixationAfter.RESP: 1
+	FixationAfter.CRESP: 1
+	Objperformance: 1
+	Perf: 4
+	TotalTrial: 5
+	FeedbackTrial.OnsetDelay: 8
+	FeedbackTrial.OnsetTime: 82721
+	FeedbackTrial.Duration: 2619
+	FeedbackTrial.OffsetTime: 85272
+	FeedbackTrial.OffsetDelay: 0
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 46
+	Level: 1
+	BranchSide: R
+	MemoryExpression: 2+-3))4+1((
+	TaskExpression: 2+-3))4+1((
+	TaskAns: 2
+	DiffPosi1: -1
+	WithinCorrect1: -1
+	DiffPosi2: -1
+	WithinCorrect2: -1
+	ExchSymb: -1
+	Trigger: 3
+	RandPeriod: 4048
+	Procedure: stimproc
+	List1.Cycle: 2
+	List1.Sample: 6
+	Running: List1
+	FixationBefore.OnsetDelay: 4
+	FixationBefore.OnsetTime: 85336
+	FixationBefore.Duration: 800
+	FixationBefore.OffsetTime: 86072
+	FixationBefore.OffsetDelay: 0
+	MemoryExpression.OnsetDelay: 4
+	MemoryExpression.OnsetTime: 86136
+	MemoryExpression.Duration: 200
+	MemoryExpression.CustomOnsetTime: 0
+	MemoryExpression.CustomOffsetTime: 0
+	FixationBtwn.OnsetDelay: 4
+	FixationBtwn.OnsetTime: 86336
+	FixationBtwn.Duration: 1500
+	FixationBtwn.OffsetTime: 87772
+	FixationBtwn.OffsetDelay: 0
+	ButtonAns: 5
+	MouseAns: 1
+	TaskExpression.OnsetDelay: 3
+	TaskExpression.OnsetTime: 87835
+	TaskExpression.DurationError: -3
+	TaskExpression.OffsetTime: 87972
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	FixationAfter.OnsetDelay: 3
+	FixationAfter.OnsetTime: 88035
+	FixationAfter.DurationError: -3
+	FixationAfter.Duration: 1500
+	FixationAfter.OffsetTime: 89472
+	FixationAfter.OffsetDelay: 0
+	FixationAfter.RTTime: 88532
+	FixationAfter.ACC: 1
+	FixationAfter.RT: 497
+	FixationAfter.RESP: 1
+	FixationAfter.CRESP: 1
+	Objperformance: 1
+	Perf: 5
+	TotalTrial: 6
+	FeedbackTrial.OnsetDelay: 3
+	FeedbackTrial.OnsetTime: 89535
+	FeedbackTrial.Duration: 4048
+	FeedbackTrial.OffsetTime: 93520
+	FeedbackTrial.OffsetDelay: 0
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 39
+	Level: 2
+	BranchSide: R
+	MemoryExpression: 1+)2+(3-4)(
+	TaskExpression: 1+)2+(3-4)(
+	TaskAns: 2
+	DiffPosi1: -1
+	WithinCorrect1: -1
+	DiffPosi2: -1
+	WithinCorrect2: -1
+	ExchSymb: -1
+	Trigger: 5
+	RandPeriod: 4762
+	Procedure: stimproc
+	List1.Cycle: 2
+	List1.Sample: 7
+	Running: List1
+	FixationBefore.OnsetDelay: 3
+	FixationBefore.OnsetTime: 93583
+	FixationBefore.Duration: 800
+	FixationBefore.OffsetTime: 94320
+	FixationBefore.OffsetDelay: 0
+	MemoryExpression.OnsetDelay: 2
+	MemoryExpression.OnsetTime: 94382
+	MemoryExpression.Duration: 200
+	MemoryExpression.CustomOnsetTime: 0
+	MemoryExpression.CustomOffsetTime: 0
+	FixationBtwn.OnsetDelay: 2
+	FixationBtwn.OnsetTime: 94582
+	FixationBtwn.Duration: 1500
+	FixationBtwn.OffsetTime: 96020
+	FixationBtwn.OffsetDelay: 0
+	ButtonAns: 5
+	MouseAns: 1
+	TaskExpression.OnsetDelay: 2
+	TaskExpression.OnsetTime: 96082
+	TaskExpression.DurationError: -2
+	TaskExpression.OffsetTime: 96220
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	FixationAfter.OnsetDelay: 1
+	FixationAfter.OnsetTime: 96281
+	FixationAfter.DurationError: -1
+	FixationAfter.Duration: 1500
+	FixationAfter.OffsetTime: 97720
+	FixationAfter.OffsetDelay: 0
+	FixationAfter.RTTime: 96781
+	FixationAfter.ACC: 1
+	FixationAfter.RT: 500
+	FixationAfter.RESP: 1
+	FixationAfter.CRESP: 1
+	Objperformance: 1
+	Perf: 6
+	TotalTrial: 7
+	FeedbackTrial.OnsetDelay: 1
+	FeedbackTrial.OnsetTime: 97781
+	FeedbackTrial.Duration: 4762
+	FeedbackTrial.OffsetTime: 102482
+	FeedbackTrial.OffsetDelay: 0
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 34
+	Level: 1
+	BranchSide: L
+	MemoryExpression: ))4+2(3-+1(
+	TaskExpression: ))4+2(3-+1(
+	TaskAns: 2
+	DiffPosi1: -1
+	WithinCorrect1: -1
+	DiffPosi2: -1
+	WithinCorrect2: -1
+	ExchSymb: -1
+	Trigger: 2
+	RandPeriod: 2810
+	Procedure: stimproc
+	List1.Cycle: 2
+	List1.Sample: 8
+	Running: List1
+	FixationBefore.OnsetDelay: 3
+	FixationBefore.OnsetTime: 102545
+	FixationBefore.Duration: 800
+	FixationBefore.OffsetTime: 103282
+	FixationBefore.OffsetDelay: 0
+	MemoryExpression.OnsetDelay: 3
+	MemoryExpression.OnsetTime: 103345
+	MemoryExpression.Duration: 200
+	MemoryExpression.CustomOnsetTime: 0
+	MemoryExpression.CustomOffsetTime: 0
+	FixationBtwn.OnsetDelay: 3
+	FixationBtwn.OnsetTime: 103545
+	FixationBtwn.Duration: 1500
+	FixationBtwn.OffsetTime: 104982
+	FixationBtwn.OffsetDelay: 0
+	ButtonAns: 5
+	MouseAns: 1
+	TaskExpression.OnsetDelay: 2
+	TaskExpression.OnsetTime: 105044
+	TaskExpression.DurationError: -2
+	TaskExpression.OffsetTime: 105182
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	FixationAfter.OnsetDelay: 2
+	FixationAfter.OnsetTime: 105244
+	FixationAfter.DurationError: -2
+	FixationAfter.Duration: 1500
+	FixationAfter.OffsetTime: 106682
+	FixationAfter.OffsetDelay: 0
+	FixationAfter.RTTime: 105716
+	FixationAfter.ACC: 1
+	FixationAfter.RT: 472
+	FixationAfter.RESP: 1
+	FixationAfter.CRESP: 1
+	Objperformance: 1
+	Perf: 7
+	TotalTrial: 8
+	FeedbackTrial.OnsetDelay: 1
+	FeedbackTrial.OnsetTime: 106743
+	FeedbackTrial.Duration: 2810
+	FeedbackTrial.OffsetTime: 109492
+	FeedbackTrial.OffsetDelay: 0
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 25
+	Level: 0
+	BranchSide: N
+	MemoryExpression: +3-)1()4(+2
+	TaskExpression: +3+)1()4(-2
+	TaskAns: 1
+	DiffPosi1: 3
+	WithinCorrect1: 0
+	DiffPosi2: 10
+	WithinCorrect2: 0
+	ExchSymb: 2
+	Trigger: 1
+	RandPeriod: 3762
+	Procedure: stimproc
+	List1.Cycle: 2
+	List1.Sample: 9
+	Running: List1
+	FixationBefore.OnsetDelay: 7
+	FixationBefore.OnsetTime: 109559
+	FixationBefore.Duration: 800
+	FixationBefore.OffsetTime: 110292
+	FixationBefore.OffsetDelay: 0
+	MemoryExpression.OnsetDelay: 6
+	MemoryExpression.OnsetTime: 110358
+	MemoryExpression.Duration: 200
+	MemoryExpression.CustomOnsetTime: 0
+	MemoryExpression.CustomOffsetTime: 0
+	FixationBtwn.OnsetDelay: 6
+	FixationBtwn.OnsetTime: 110558
+	FixationBtwn.Duration: 1500
+	FixationBtwn.OffsetTime: 111992
+	FixationBtwn.OffsetDelay: 0
+	ButtonAns: 4
+	MouseAns: 2
+	TaskExpression.OnsetDelay: 6
+	TaskExpression.OnsetTime: 112058
+	TaskExpression.DurationError: -6
+	TaskExpression.OffsetTime: 112192
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	FixationAfter.OnsetDelay: 6
+	FixationAfter.OnsetTime: 112258
+	FixationAfter.DurationError: -6
+	FixationAfter.Duration: 1500
+	FixationAfter.OffsetTime: 113692
+	FixationAfter.OffsetDelay: 0
+	FixationAfter.RTTime: 112964
+	FixationAfter.ACC: 1
+	FixationAfter.RT: 706
+	FixationAfter.RESP: 2
+	FixationAfter.CRESP: 2
+	Objperformance: 1
+	Perf: 8
+	TotalTrial: 9
+	FeedbackTrial.OnsetDelay: 5
+	FeedbackTrial.OnsetTime: 113757
+	FeedbackTrial.Duration: 3762
+	FeedbackTrial.OffsetTime: 117454
+	FeedbackTrial.OffsetDelay: 0
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 1
+	Level: 0
+	BranchSide: N
+	MemoryExpression: )1)+2(4+(-3
+	TaskExpression: )1)+4(2+(-3
+	TaskAns: 1
+	DiffPosi1: 5
+	WithinCorrect1: 0
+	DiffPosi2: 7
+	WithinCorrect2: 0
+	ExchSymb: 1
+	Trigger: 1
+	RandPeriod: 3286
+	Procedure: stimproc
+	List1.Cycle: 2
+	List1.Sample: 10
+	Running: List1
+	FixationBefore.OnsetDelay: 8
+	FixationBefore.OnsetTime: 117522
+	FixationBefore.Duration: 800
+	FixationBefore.OffsetTime: 118254
+	FixationBefore.OffsetDelay: 0
+	MemoryExpression.OnsetDelay: 7
+	MemoryExpression.OnsetTime: 118321
+	MemoryExpression.Duration: 200
+	MemoryExpression.CustomOnsetTime: 0
+	MemoryExpression.CustomOffsetTime: 0
+	FixationBtwn.OnsetDelay: 7
+	FixationBtwn.OnsetTime: 118521
+	FixationBtwn.Duration: 1500
+	FixationBtwn.OffsetTime: 119954
+	FixationBtwn.OffsetDelay: 0
+	ButtonAns: 4
+	MouseAns: 2
+	TaskExpression.OnsetDelay: 7
+	TaskExpression.OnsetTime: 120021
+	TaskExpression.DurationError: -7
+	TaskExpression.OffsetTime: 120154
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	FixationAfter.OnsetDelay: 7
+	FixationAfter.OnsetTime: 120221
+	FixationAfter.DurationError: -7
+	FixationAfter.Duration: 1500
+	FixationAfter.OffsetTime: 121654
+	FixationAfter.OffsetDelay: 0
+	FixationAfter.RTTime: 0
+	FixationAfter.ACC: 0
+	FixationAfter.RT: 0
+	FixationAfter.RESP: 
+	FixationAfter.CRESP: 4
+	Objperformance: 0
+	Perf: 8
+	TotalTrial: 10
+	FeedbackTrial.OnsetDelay: 6
+	FeedbackTrial.OnsetTime: 121720
+	FeedbackTrial.Duration: 3286
+	FeedbackTrial.OffsetTime: 124940
+	FeedbackTrial.OffsetDelay: 0
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 48
+	Level: 3
+	BranchSide: R
+	MemoryExpression: 2-(3+(4+1))
+	TaskExpression: 2-(3+(4+1))
+	TaskAns: 2
+	DiffPosi1: -1
+	WithinCorrect1: -1
+	DiffPosi2: -1
+	WithinCorrect2: -1
+	ExchSymb: -1
+	Trigger: 7
+	RandPeriod: 3524
+	Procedure: stimproc
+	List1.Cycle: 2
+	List1.Sample: 11
+	Running: List1
+	FixationBefore.OnsetDelay: 2
+	FixationBefore.OnsetTime: 125002
+	FixationBefore.Duration: 800
+	FixationBefore.OffsetTime: 125740
+	FixationBefore.OffsetDelay: 0
+	MemoryExpression.OnsetDelay: 1
+	MemoryExpression.OnsetTime: 125801
+	MemoryExpression.Duration: 200
+	MemoryExpression.CustomOnsetTime: 0
+	MemoryExpression.CustomOffsetTime: 0
+	FixationBtwn.OnsetDelay: 1
+	FixationBtwn.OnsetTime: 126001
+	FixationBtwn.Duration: 1500
+	FixationBtwn.OffsetTime: 127440
+	FixationBtwn.OffsetDelay: 0
+	ButtonAns: 5
+	MouseAns: 1
+	TaskExpression.OnsetDelay: 1
+	TaskExpression.OnsetTime: 127501
+	TaskExpression.DurationError: -1
+	TaskExpression.OffsetTime: 127640
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	FixationAfter.OnsetDelay: 1
+	FixationAfter.OnsetTime: 127701
+	FixationAfter.DurationError: -1
+	FixationAfter.Duration: 1500
+	FixationAfter.OffsetTime: 129140
+	FixationAfter.OffsetDelay: 0
+	FixationAfter.RTTime: 0
+	FixationAfter.ACC: 0
+	FixationAfter.RT: 0
+	FixationAfter.RESP: 
+	FixationAfter.CRESP: 5
+	Objperformance: 0
+	Perf: 8
+	TotalTrial: 11
+	FeedbackTrial.OnsetDelay: 0
+	FeedbackTrial.OnsetTime: 129200
+	FeedbackTrial.Duration: 3524
+	FeedbackTrial.OffsetTime: 132664
+	FeedbackTrial.OffsetDelay: 0
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 17
+	Level: 0
+	BranchSide: N
+	MemoryExpression: )3)(1+(4-+2
+	TaskExpression: )3)(1+(4+-2
+	TaskAns: 1
+	DiffPosi1: 9
+	WithinCorrect1: 0
+	DiffPosi2: 10
+	WithinCorrect2: 0
+	ExchSymb: 2
+	Trigger: 1
+	RandPeriod: 3667
+	Procedure: stimproc
+	List1.Cycle: 2
+	List1.Sample: 12
+	Running: List1
+	FixationBefore.OnsetDelay: 8
+	FixationBefore.OnsetTime: 132732
+	FixationBefore.Duration: 800
+	FixationBefore.OffsetTime: 133464
+	FixationBefore.OffsetDelay: 0
+	MemoryExpression.OnsetDelay: 7
+	MemoryExpression.OnsetTime: 133531
+	MemoryExpression.Duration: 200
+	MemoryExpression.CustomOnsetTime: 0
+	MemoryExpression.CustomOffsetTime: 0
+	FixationBtwn.OnsetDelay: 7
+	FixationBtwn.OnsetTime: 133731
+	FixationBtwn.Duration: 1500
+	FixationBtwn.OffsetTime: 135164
+	FixationBtwn.OffsetDelay: 0
+	ButtonAns: 4
+	MouseAns: 2
+	TaskExpression.OnsetDelay: 6
+	TaskExpression.OnsetTime: 135230
+	TaskExpression.DurationError: -6
+	TaskExpression.OffsetTime: 135364
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	FixationAfter.OnsetDelay: 6
+	FixationAfter.OnsetTime: 135430
+	FixationAfter.DurationError: -6
+	FixationAfter.Duration: 1500
+	FixationAfter.OffsetTime: 136864
+	FixationAfter.OffsetDelay: 0
+	FixationAfter.RTTime: 0
+	FixationAfter.ACC: 0
+	FixationAfter.RT: 0
+	FixationAfter.RESP: 
+	FixationAfter.CRESP: 4
+	Objperformance: 0
+	Perf: 8
+	TotalTrial: 12
+	FeedbackTrial.OnsetDelay: 6
+	FeedbackTrial.OnsetTime: 136930
+	FeedbackTrial.Duration: 3667
+	FeedbackTrial.OffsetTime: 140531
+	FeedbackTrial.OffsetDelay: 0
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 6
+	Level: 1
+	BranchSide: L
+	MemoryExpression: 1)3+4(+()-2
+	TaskExpression: 1)3+2(+()-4
+	TaskAns: 1
+	DiffPosi1: 5
+	WithinCorrect1: 1
+	DiffPosi2: 11
+	WithinCorrect2: 0
+	ExchSymb: 1
+	Trigger: 2
+	RandPeriod: 2333
+	Procedure: stimproc
+	List1.Cycle: 2
+	List1.Sample: 13
+	Running: List1
+	FixationBefore.OnsetDelay: 4
+	FixationBefore.OnsetTime: 140595
+	FixationBefore.Duration: 800
+	FixationBefore.OffsetTime: 141331
+	FixationBefore.OffsetDelay: 0
+	MemoryExpression.OnsetDelay: 3
+	MemoryExpression.OnsetTime: 141394
+	MemoryExpression.Duration: 200
+	MemoryExpression.CustomOnsetTime: 0
+	MemoryExpression.CustomOffsetTime: 0
+	FixationBtwn.OnsetDelay: 3
+	FixationBtwn.OnsetTime: 141594
+	FixationBtwn.Duration: 1500
+	FixationBtwn.OffsetTime: 143031
+	FixationBtwn.OffsetDelay: 0
+	ButtonAns: 4
+	MouseAns: 2
+	TaskExpression.OnsetDelay: 2
+	TaskExpression.OnsetTime: 143093
+	TaskExpression.DurationError: -2
+	TaskExpression.OffsetTime: 143231
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	FixationAfter.OnsetDelay: 2
+	FixationAfter.OnsetTime: 143293
+	FixationAfter.DurationError: -2
+	FixationAfter.Duration: 1500
+	FixationAfter.OffsetTime: 144731
+	FixationAfter.OffsetDelay: 0
+	FixationAfter.RTTime: 0
+	FixationAfter.ACC: 0
+	FixationAfter.RT: 0
+	FixationAfter.RESP: 
+	FixationAfter.CRESP: 4
+	Objperformance: 0
+	Perf: 8
+	TotalTrial: 13
+	FeedbackTrial.OnsetDelay: 2
+	FeedbackTrial.OnsetTime: 144793
+	FeedbackTrial.Duration: 2333
+	FeedbackTrial.OffsetTime: 147064
+	FeedbackTrial.OffsetDelay: 0
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 27
+	Level: 2
+	BranchSide: R
+	MemoryExpression: 1+)3-(2+4)(
+	TaskExpression: 1-)3+(2+4)(
+	TaskAns: 1
+	DiffPosi1: 5
+	WithinCorrect1: 1
+	DiffPosi2: 2
+	WithinCorrect2: 0
+	ExchSymb: 2
+	Trigger: 5
+	RandPeriod: 2905
+	Procedure: stimproc
+	List1.Cycle: 2
+	List1.Sample: 14
+	Running: List1
+	FixationBefore.OnsetDelay: 1
+	FixationBefore.OnsetTime: 147125
+	FixationBefore.Duration: 800
+	FixationBefore.OffsetTime: 147864
+	FixationBefore.OffsetDelay: 0
+	MemoryExpression.OnsetDelay: 1
+	MemoryExpression.OnsetTime: 147925
+	MemoryExpression.Duration: 200
+	MemoryExpression.CustomOnsetTime: 0
+	MemoryExpression.CustomOffsetTime: 0
+	FixationBtwn.OnsetDelay: 1
+	FixationBtwn.OnsetTime: 148125
+	FixationBtwn.Duration: 1500
+	FixationBtwn.OffsetTime: 149564
+	FixationBtwn.OffsetDelay: 0
+	ButtonAns: 4
+	MouseAns: 2
+	TaskExpression.OnsetDelay: 0
+	TaskExpression.OnsetTime: 149624
+	TaskExpression.DurationError: 0
+	TaskExpression.OffsetTime: 149764
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	FixationAfter.OnsetDelay: 0
+	FixationAfter.OnsetTime: 149824
+	FixationAfter.DurationError: 0
+	FixationAfter.Duration: 1500
+	FixationAfter.OffsetTime: 151264
+	FixationAfter.OffsetDelay: 0
+	FixationAfter.RTTime: 0
+	FixationAfter.ACC: 0
+	FixationAfter.RT: 0
+	FixationAfter.RESP: 
+	FixationAfter.CRESP: 4
+	Objperformance: 0
+	Perf: 8
+	TotalTrial: 14
+	FeedbackTrial.OnsetDelay: -1
+	FeedbackTrial.OnsetTime: 151323
+	FeedbackTrial.Duration: 2905
+	FeedbackTrial.OffsetTime: 154169
+	FeedbackTrial.OffsetDelay: 0
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 58
+	Level: 1
+	BranchSide: L
+	MemoryExpression: 4)3-1(+)2(+
+	TaskExpression: 4)3-1(+)2(+
+	TaskAns: 2
+	DiffPosi1: -1
+	WithinCorrect1: -1
+	DiffPosi2: -1
+	WithinCorrect2: -1
+	ExchSymb: -1
+	Trigger: 2
+	RandPeriod: 3952
+	Procedure: stimproc
+	List1.Cycle: 2
+	List1.Sample: 15
+	Running: List1
+	FixationBefore.OnsetDelay: 9
+	FixationBefore.OnsetTime: 154238
+	FixationBefore.Duration: 800
+	FixationBefore.OffsetTime: 154969
+	FixationBefore.OffsetDelay: 0
+	MemoryExpression.OnsetDelay: 9
+	MemoryExpression.OnsetTime: 155038
+	MemoryExpression.Duration: 200
+	MemoryExpression.CustomOnsetTime: 0
+	MemoryExpression.CustomOffsetTime: 0
+	FixationBtwn.OnsetDelay: 9
+	FixationBtwn.OnsetTime: 155238
+	FixationBtwn.Duration: 1500
+	FixationBtwn.OffsetTime: 156669
+	FixationBtwn.OffsetDelay: 0
+	ButtonAns: 5
+	MouseAns: 1
+	TaskExpression.OnsetDelay: 8
+	TaskExpression.OnsetTime: 156737
+	TaskExpression.DurationError: -8
+	TaskExpression.OffsetTime: 156869
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	FixationAfter.OnsetDelay: 8
+	FixationAfter.OnsetTime: 156937
+	FixationAfter.DurationError: -8
+	FixationAfter.Duration: 1500
+	FixationAfter.OffsetTime: 158369
+	FixationAfter.OffsetDelay: 0
+	FixationAfter.RTTime: 0
+	FixationAfter.ACC: 0
+	FixationAfter.RT: 0
+	FixationAfter.RESP: 
+	FixationAfter.CRESP: 5
+	Objperformance: 0
+	Perf: 8
+	TotalTrial: 15
+	FeedbackTrial.OnsetDelay: 8
+	FeedbackTrial.OnsetTime: 158437
+	FeedbackTrial.Duration: 3952
+	FeedbackTrial.OffsetTime: 162321
+	FeedbackTrial.OffsetDelay: 0
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 60
+	Level: 3
+	BranchSide: L
+	MemoryExpression: ((3-1)+2)+4
+	TaskExpression: ((3-1)+2)+4
+	TaskAns: 2
+	DiffPosi1: -1
+	WithinCorrect1: -1
+	DiffPosi2: -1
+	WithinCorrect2: -1
+	ExchSymb: -1
+	Trigger: 6
+	RandPeriod: 2952
+	Procedure: stimproc
+	List1.Cycle: 2
+	List1.Sample: 16
+	Running: List1
+	FixationBefore.OnsetDelay: 4
+	FixationBefore.OnsetTime: 162385
+	FixationBefore.Duration: 800
+	FixationBefore.OffsetTime: 163121
+	FixationBefore.OffsetDelay: 0
+	MemoryExpression.OnsetDelay: 3
+	MemoryExpression.OnsetTime: 163184
+	MemoryExpression.Duration: 200
+	MemoryExpression.CustomOnsetTime: 0
+	MemoryExpression.CustomOffsetTime: 0
+	FixationBtwn.OnsetDelay: 3
+	FixationBtwn.OnsetTime: 163384
+	FixationBtwn.Duration: 1500
+	FixationBtwn.OffsetTime: 164821
+	FixationBtwn.OffsetDelay: 0
+	ButtonAns: 5
+	MouseAns: 1
+	TaskExpression.OnsetDelay: 3
+	TaskExpression.OnsetTime: 164884
+	TaskExpression.DurationError: -3
+	TaskExpression.OffsetTime: 165021
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	FixationAfter.OnsetDelay: 2
+	FixationAfter.OnsetTime: 165083
+	FixationAfter.DurationError: -2
+	FixationAfter.Duration: 1500
+	FixationAfter.OffsetTime: 166521
+	FixationAfter.OffsetDelay: 0
+	FixationAfter.RTTime: 0
+	FixationAfter.ACC: 0
+	FixationAfter.RT: 0
+	FixationAfter.RESP: 
+	FixationAfter.CRESP: 5
+	Objperformance: 0
+	Perf: 8
+	TotalTrial: 16
+	FeedbackTrial.OnsetDelay: 2
+	FeedbackTrial.OnsetTime: 166583
+	FeedbackTrial.Duration: 2952
+	FeedbackTrial.OffsetTime: 169473
+	FeedbackTrial.OffsetDelay: 0
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 38
+	Level: 1
+	BranchSide: R
+	MemoryExpression: +)(1+)3-4(2
+	TaskExpression: +)(1+)3-4(2
+	TaskAns: 2
+	DiffPosi1: -1
+	WithinCorrect1: -1
+	DiffPosi2: -1
+	WithinCorrect2: -1
+	ExchSymb: -1
+	Trigger: 3
+	RandPeriod: 2762
+	Procedure: stimproc
+	List1.Cycle: 2
+	List1.Sample: 17
+	Running: List1
+	FixationBefore.OnsetDelay: -1
+	FixationBefore.OnsetTime: 169532
+	FixationBefore.Duration: 800
+	FixationBefore.OffsetTime: 170273
+	FixationBefore.OffsetDelay: 0
+	MemoryExpression.OnsetDelay: -1
+	MemoryExpression.OnsetTime: 170332
+	MemoryExpression.Duration: 200
+	MemoryExpression.CustomOnsetTime: 0
+	MemoryExpression.CustomOffsetTime: 0
+	FixationBtwn.OnsetDelay: -1
+	FixationBtwn.OnsetTime: 170532
+	FixationBtwn.Duration: 1500
+	FixationBtwn.OffsetTime: 171973
+	FixationBtwn.OffsetDelay: 0
+	ButtonAns: 5
+	MouseAns: 1
+	TaskExpression.OnsetDelay: 14
+	TaskExpression.OnsetTime: 172047
+	TaskExpression.DurationError: -14
+	TaskExpression.OffsetTime: 172173
+	TaskExpression.OffsetDelay: 0
+	TaskExpression.RTTime: 0
+	TaskExpression.ACC: 0
+	TaskExpression.RT: 0
+	TaskExpression.RESP: 
+	TaskExpression.CRESP: 
+	*** LogFrame End ***
+Level: 1
+*** LogFrame Start ***
+Experiment: MathFormula_fMRI_LeftSame_Training1
+SessionDate: 03-22-2010
+SessionTime: 12:20:40
+RandomSeed: -1950960542
+Group: 1
+Subject: 23
+Session: 9
+Display.RefreshRate: 60.028
+sessiondisp: 9
+Instructions.Duration: -1
+Instructions.FinishTime: 37495
+WaitTTL.OnsetDelay: 14
+WaitTTL.OnsetTime: 37508
+WaitTTL.DurationError: -999999
+WaitTTL.OffsetTime: 41094
+WaitTTL.FinishTime: 41094
+WaitTTL.OffsetDelay: -999999
+WaitTTL.RTTime: 41094
+WaitTTL.ACC: 0
+WaitTTL.RT: 3586
+WaitTTL.RESP: s
+WaitTTL.CRESP: 
+FixationStart.OnsetDelay: 13
+FixationStart.OnsetTime: 41107
+FixationStart.Duration: 5000
+FixationStart.OffsetTime: 46034
+FixationStart.OffsetDelay: 0
+*** LogFrame End ***

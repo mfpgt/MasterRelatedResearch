@@ -1,0 +1,62 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Thu Jan 23 2014 17:00:28
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-58-generic', '#88-Ubuntu SMP Tue Dec 3 17:37:58 UTC 2013', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+2036,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 0,0,5,5
+#design: 0,0,6,6
+#design: 0,0,7,7
+#design: 0,0,8,8
+#design: 0,0,9,9
+#design: 0,0,10,10
+#design: 0,0,11,11
+#design: 0,0,12,12
+#design: 0,0,13,13
+#design: 0,0,14,14
+#design: 0,0,15,15
+#design: 0,0,16,16
+#design: 0,0,17,17
+#design: 0,0,18,18
+#design: 0,0,19,19
+#design: 0,0,20,20
+#design: 0,0,21,21
+#design: 0,0,22,22
+#design: 0,0,23,23
+2036,design,logged,
+2036,Experiment,started
+2040,Stimulus,presented,25
+3140,Keyboard,received,s,wait_char
+3145,Stimulus,presented,1
+3449,Stimulus,presented,2
+3755,Stimulus,presented,3
+4060,Stimulus,presented,4
+4365,Stimulus,presented,5
+4670,Stimulus,presented,6
+4975,Stimulus,presented,7
+5280,Stimulus,presented,8
+5585,Stimulus,presented,9
+5889,Stimulus,presented,10
+6195,Stimulus,presented,11
+6500,Stimulus,presented,12
+6804,Stimulus,presented,13
+7110,Stimulus,presented,14
+7415,Stimulus,presented,15
+7720,Stimulus,presented,16
+8025,Stimulus,presented,17
+8330,Stimulus,presented,18
+8635,Stimulus,presented,19
+8940,Stimulus,presented,20
+9245,Stimulus,presented,21
+9550,Stimulus,presented,22
+9857,Stimulus,presented,23
+10162,Stimulus,presented,24
+10464,Experiment,ended
+10469,Stimulus,presented,26

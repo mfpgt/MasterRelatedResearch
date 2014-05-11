@@ -1,0 +1,41 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Fri Mar 21 2014 15:02:48
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-60-generic', '#91-Ubuntu SMP Wed Feb 19 03:54:44 UTC 2014', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+330,Picture,loaded,formulas/img5.png
+330,Picture,loaded,formulas/img2.png
+331,Picture,loaded,formulas/img1.png
+332,Picture,loaded,formulas/img3.png
+332,Picture,loaded,formulas/img4.png
+1117,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+1117,design,logged,
+1117,Experiment,started
+1122,Stimulus,presented,6
+2172,Keyboard,received,s,wait_char
+2173,Stimulus,presented,0
+2674,Stimulus,presented,1
+7458,stdout,received,'[]'
+7458,Stimulus,presented,0
+7960,Stimulus,presented,2
+12131,stdout,received,'[]'
+12132,Stimulus,presented,0
+12639,Stimulus,presented,3
+17338,stdout,received,'[]'
+17338,Stimulus,presented,0
+17839,Stimulus,presented,4
+22300,stdout,received,'[113]'
+22300,Stimulus,presented,0
+22801,Stimulus,presented,5
+26816,Experiment,paused
+26818,Stimulus,presented,7
+27885,Keyboard,received,y,wait_char
+27885,Experiment,ended
+27892,Stimulus,presented,7

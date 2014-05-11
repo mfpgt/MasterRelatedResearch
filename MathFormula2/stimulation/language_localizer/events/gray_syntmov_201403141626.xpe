@@ -1,0 +1,10 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Fri Mar 14 2014 16:26:35
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-60-generic', '#91-Ubuntu SMP Wed Feb 19 03:54:44 UTC 2014', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+315,stderr,received,'Exception AttributeError: "\'TextLine\' object has no attribute \'_compression_filename\'" in <bound method TextLine.__del__ of <expyriment.stimuli._textline.TextLine object at 0x2176a10>> ignored'
+315,stderr,received,'Traceback (most recent call last):'
+315,stderr,received,'  File "gray_syntmov.py", line 69, in <module>'
+315,stderr,received,'    text_size=28, colour=(255,255,255))'
+315,stderr,received,"TypeError: __init__() got an unexpected keyword argument 'colour'"

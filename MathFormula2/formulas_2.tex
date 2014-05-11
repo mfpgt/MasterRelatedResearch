@@ -1,0 +1,86 @@
+\documentclass[12pt]{article}
+\usepackage{qtree}
+
+\DeclareMathSizes{12}{20}{14}{10}
+\everymath{\displaystyle}
+
+\begin{document}
+
+\title{Math Stimuli}
+\author{}
+\maketitle
+
+\section{Set U}
+
+\Tree [.U x ]
+
+$  \sin(x) $,
+\quad $  \sin(y) $,
+\quad $  \sin(\alpha) $,
+\quad $  \sin(\beta) $,
+\quad 
+$  \cos(x) $,
+\quad $  \cos(y) $,
+\quad $  \cos(\alpha) $,
+\quad $  \cos(\beta) $,
+\quad 
+$  \ln(x) $,
+\quad $  \ln(y) $,
+\quad $  \ln(\alpha) $,
+\quad $  \ln(\beta) $  
+
+\section{Set B}
+
+\Tree [.B x y ]
+
+$  (x + y) $,
+\quad $  (x - y) $,
+\quad $  (x.y) $,
+\quad $  (x.z) $,
+\quad $  (y.t) $,
+\quad $  (\alpha + \beta) $,
+\quad $  (\alpha.x) $,
+\quad $  (\beta.t) $,
+
+
+\newpage
+
+
+\section{Set UU}
+
+\Tree [.U [.U x ] ]
+
+$  \sin(\ln x) $,
+\quad 
+
+\section{Set BB}
+
+\Tree [.B x [.B y z ] ]
+
+$  x+yz $,
+\quad $  x+(y*z) $,
+\quad $  (x+y).z $,
+\quad $  x + yz $,
+\quad $  \alpha\beta + \gamma $,
+\quad 
+
+
+\section{Set BU}
+
+\Tree [.B x [.U y ] ]
+
+$  x + \ln(y) $,
+\quad $  x + \sin(\alpha) $,
+\quad 
+\section{Set UB}
+
+\Tree [.U [.B x y ] ]
+
+$  \sin( \alpha + \beta ) $,
+\quad $  \sin( x - y ) $,
+\quad 
+
+
+
+
+\end{document}

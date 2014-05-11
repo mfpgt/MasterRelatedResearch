@@ -1,0 +1,739 @@
+#Expyriment 0.7.0 (Revision 7a6b73d; Python 2.7.3), .xpe-file, coding: cp1252
+#date: Tue Apr 22 2014 14:20:54
+#sha1: ce36f1
+#display: size=(1024, 768), window_mode=False, opengl=True
+#os: ('Windows', 'IS147100', '7', '6.1.7601', 'AMD64', 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+13132,design,log,
+#design: #exp: SimpleTargetProcedure
+#design: block_cnt,block_id,trial_cnt,trial_id,csvIndex
+#design: 0,0,0,0,0
+#design: 0,0,1,1,1
+#design: 0,0,2,2,2
+#design: 0,0,3,3,3
+#design: 0,0,4,4,4
+#design: 0,0,5,5,5
+#design: 0,0,6,6,6
+#design: 0,0,7,7,7
+#design: 0,0,8,8,8
+#design: 0,0,9,9,9
+#design: 0,0,10,10,10
+#design: 0,0,11,11,11
+#design: 0,0,12,12,12
+#design: 0,0,13,13,13
+#design: 0,0,14,14,14
+#design: 0,0,15,15,15
+#design: 0,0,16,16,16
+#design: 0,0,17,17,17
+#design: 0,0,18,18,18
+#design: 0,0,19,19,19
+#design: 0,0,20,20,20
+#design: 0,0,21,21,21
+#design: 0,0,22,22,22
+#design: 0,0,23,23,23
+#design: 0,0,24,24,24
+#design: 0,0,25,25,25
+#design: 0,0,26,26,26
+#design: 0,0,27,27,27
+#design: 0,0,28,28,28
+#design: 0,0,29,29,29
+#design: 0,0,30,30,30
+#design: 0,0,31,31,31
+#design: 0,0,32,32,32
+#design: 0,0,33,33,33
+#design: 0,0,34,34,34
+#design: 0,0,35,35,35
+#design: 0,0,36,36,36
+#design: 0,0,37,37,37
+#design: 0,0,38,38,38
+#design: 0,0,39,39,39
+#design: 0,0,40,40,40
+#design: 0,0,41,41,41
+#design: 0,0,42,42,42
+#design: 0,0,43,43,43
+#design: 0,0,44,44,44
+#design: 0,0,45,45,45
+#design: 0,0,46,46,46
+#design: 0,0,47,47,47
+#design: 0,0,48,48,48
+#design: 0,0,49,49,49
+#design: 0,0,50,50,50
+#design: 0,0,51,51,51
+#design: 0,0,52,52,52
+#design: 0,0,53,53,53
+#design: 0,0,54,54,54
+#design: 0,0,55,55,55
+#design: 0,0,56,56,56
+#design: 0,0,57,57,57
+#design: 0,0,58,58,58
+#design: 0,0,59,59,59
+#design: 0,0,60,60,60
+#design: 0,0,61,61,61
+#design: 0,0,62,62,62
+#design: 0,0,63,63,63
+#design: 0,0,64,64,64
+#design: 0,0,65,65,65
+#design: 0,0,66,66,66
+#design: 0,0,67,67,67
+#design: 0,0,68,68,68
+#design: 0,0,69,69,69
+#design: 0,0,70,70,70
+#design: 0,0,71,71,71
+#design: 0,0,72,72,72
+#design: 0,0,73,73,73
+#design: 0,0,74,74,74
+#design: 0,0,75,75,75
+#design: 0,0,76,76,76
+#design: 0,0,77,77,77
+#design: 0,0,78,78,78
+#design: 0,0,79,79,79
+#design: 0,0,80,80,80
+#design: 0,0,81,81,81
+#design: 0,0,82,82,82
+#design: 0,0,83,83,83
+#design: 0,0,84,84,84
+#design: 0,0,85,85,85
+#design: 0,0,86,86,86
+#design: 0,0,87,87,87
+#design: 0,0,88,88,88
+#design: 0,0,89,89,89
+#design: 0,0,90,90,90
+#design: 0,0,91,91,91
+#design: 0,0,92,92,92
+#design: 0,0,93,93,93
+#design: 0,0,94,94,94
+#design: 0,0,95,95,95
+#design: 0,0,96,96,96
+#design: 0,0,97,97,97
+#design: 0,0,98,98,98
+#design: 0,0,99,99,99
+#design: 0,0,100,100,100
+#design: 0,0,101,101,101
+#design: 0,0,102,102,102
+#design: 0,0,103,103,103
+#design: 0,0,104,104,104
+#design: 0,0,105,105,105
+#design: 0,0,106,106,106
+#design: 0,0,107,107,107
+#design: 0,0,108,108,108
+#design: 0,0,109,109,109
+#design: 0,0,110,110,110
+#design: 0,0,111,111,111
+#design: 0,0,112,112,112
+#design: 0,0,113,113,113
+#design: 0,0,114,114,114
+#design: 0,0,115,115,115
+#design: 0,0,116,116,116
+#design: 0,0,117,117,117
+#design: 0,0,118,118,118
+#design: 0,0,119,119,119
+#design: 0,0,120,120,120
+#design: 0,0,121,121,121
+#design: 0,0,122,122,122
+#design: 0,0,123,123,123
+#design: 0,0,124,124,124
+#design: 0,0,125,125,125
+#design: 0,0,126,126,126
+#design: 0,0,127,127,127
+#design: 0,0,128,128,128
+#design: 0,0,129,129,129
+#design: 0,0,130,130,130
+#design: 0,0,131,131,131
+#design: 0,0,132,132,132
+#design: 0,0,133,133,133
+#design: 0,0,134,134,134
+#design: 0,0,135,135,135
+#design: 0,0,136,136,136
+#design: 0,0,137,137,137
+#design: 0,0,138,138,138
+#design: 0,0,139,139,139
+#design: 0,0,140,140,140
+#design: 0,0,141,141,141
+#design: 0,0,142,142,142
+#design: 0,0,143,143,143
+#design: 0,0,144,144,144
+#design: 0,0,145,145,145
+#design: 0,0,146,146,146
+#design: 0,0,147,147,147
+#design: 0,0,148,148,148
+#design: 0,0,149,149,149
+#design: 0,0,150,150,150
+#design: 0,0,151,151,151
+#design: 0,0,152,152,152
+#design: 0,0,153,153,153
+#design: 0,0,154,154,154
+#design: 0,0,155,155,155
+#design: 0,0,156,156,156
+#design: 0,0,157,157,157
+#design: 0,0,158,158,158
+#design: 0,0,159,159,159
+#design: 0,0,160,160,160
+#design: 0,0,161,161,161
+#design: 0,0,162,162,162
+#design: 0,0,163,163,163
+#design: 0,0,164,164,164
+#design: 0,0,165,165,165
+#design: 0,0,166,166,166
+#design: 0,0,167,167,167
+#design: 0,0,168,168,168
+#design: 0,0,169,169,169
+#design: 0,0,170,170,170
+#design: 0,0,171,171,171
+#design: 0,0,172,172,172
+#design: 0,0,173,173,173
+#design: 0,0,174,174,174
+#design: 0,0,175,175,175
+13135,design,logged,
+13135,Experiment,started
+13148,Stimulus,presented,354
+85698,Keyboard,received,s,wait_char
+89685,Stimulus,presented,0
+90184,Stimulus,presented,1
+90484,Stimulus,presented,2
+93465,Stimulus,presented,0
+93964,Stimulus,presented,3
+94264,Stimulus,presented,4
+94998,Keyboard,received,114,check
+97929,Stimulus,presented,0
+98428,Stimulus,presented,5
+98728,Stimulus,presented,6
+101849,Stimulus,presented,0
+102348,Stimulus,presented,7
+102648,Stimulus,presented,8
+105479,Stimulus,presented,0
+105978,Stimulus,presented,9
+106278,Stimulus,presented,10
+109715,Stimulus,presented,0
+110214,Stimulus,presented,11
+110514,Stimulus,presented,12
+113559,Stimulus,presented,0
+114058,Stimulus,presented,13
+114358,Stimulus,presented,14
+117699,Stimulus,presented,0
+118198,Stimulus,presented,15
+118498,Stimulus,presented,16
+119226,Keyboard,received,114,check
+121483,Stimulus,presented,0
+121982,Stimulus,presented,17
+122282,Stimulus,presented,18
+125684,Stimulus,presented,0
+126183,Stimulus,presented,19
+126483,Stimulus,presented,20
+129681,Stimulus,presented,0
+130180,Stimulus,presented,21
+130480,Stimulus,presented,22
+133950,Stimulus,presented,0
+134449,Stimulus,presented,23
+134749,Stimulus,presented,24
+135427,Keyboard,received,114,check
+137917,Stimulus,presented,0
+138416,Stimulus,presented,25
+138716,Stimulus,presented,26
+141467,Stimulus,presented,0
+141479,Keyboard,received,114,check
+141966,Stimulus,presented,27
+142267,Stimulus,presented,28
+145825,Stimulus,presented,0
+146324,Stimulus,presented,29
+146624,Stimulus,presented,30
+149519,Stimulus,presented,0
+150019,Stimulus,presented,31
+150319,Stimulus,presented,32
+150905,Keyboard,received,114,check
+153531,Stimulus,presented,0
+154031,Stimulus,presented,33
+154331,Stimulus,presented,34
+157522,Stimulus,presented,0
+158021,Stimulus,presented,35
+158321,Stimulus,presented,36
+161800,Stimulus,presented,0
+162299,Stimulus,presented,37
+162599,Stimulus,presented,38
+165511,Stimulus,presented,0
+166010,Stimulus,presented,39
+166310,Stimulus,presented,40
+169755,Stimulus,presented,0
+170254,Stimulus,presented,41
+170554,Stimulus,presented,42
+173839,Stimulus,presented,0
+174338,Stimulus,presented,43
+174638,Stimulus,presented,44
+177464,Stimulus,presented,0
+177963,Stimulus,presented,45
+178263,Stimulus,presented,46
+181757,Stimulus,presented,0
+182256,Stimulus,presented,47
+182556,Stimulus,presented,48
+185769,Stimulus,presented,0
+186268,Stimulus,presented,49
+186568,Stimulus,presented,50
+189829,Stimulus,presented,0
+190328,Stimulus,presented,51
+190628,Stimulus,presented,52
+193627,Stimulus,presented,0
+194126,Stimulus,presented,53
+194426,Stimulus,presented,54
+197596,Stimulus,presented,0
+198095,Stimulus,presented,55
+198395,Stimulus,presented,56
+201692,Stimulus,presented,0
+202191,Stimulus,presented,57
+202491,Stimulus,presented,58
+205886,Stimulus,presented,0
+206385,Stimulus,presented,59
+206685,Stimulus,presented,60
+209502,Stimulus,presented,0
+210001,Stimulus,presented,61
+210301,Stimulus,presented,62
+213843,Stimulus,presented,0
+214342,Stimulus,presented,63
+214642,Stimulus,presented,64
+217648,Stimulus,presented,0
+218147,Stimulus,presented,65
+218447,Stimulus,presented,66
+221746,Stimulus,presented,0
+222246,Stimulus,presented,67
+222546,Stimulus,presented,68
+225771,Stimulus,presented,0
+226270,Stimulus,presented,69
+226570,Stimulus,presented,70
+229761,Stimulus,presented,0
+230260,Stimulus,presented,71
+230560,Stimulus,presented,72
+233747,Stimulus,presented,0
+234246,Stimulus,presented,73
+234546,Stimulus,presented,74
+237822,Stimulus,presented,0
+238321,Stimulus,presented,75
+238621,Stimulus,presented,76
+241508,Stimulus,presented,0
+242007,Stimulus,presented,77
+242307,Stimulus,presented,78
+245562,Stimulus,presented,0
+246061,Stimulus,presented,79
+246361,Stimulus,presented,80
+249724,Stimulus,presented,0
+250223,Stimulus,presented,81
+250523,Stimulus,presented,82
+253485,Stimulus,presented,0
+253984,Stimulus,presented,83
+254284,Stimulus,presented,84
+257841,Stimulus,presented,0
+258340,Stimulus,presented,85
+258640,Stimulus,presented,86
+261816,Stimulus,presented,0
+262315,Stimulus,presented,87
+262615,Stimulus,presented,88
+265771,Stimulus,presented,0
+266270,Stimulus,presented,89
+266570,Stimulus,presented,90
+269857,Stimulus,presented,0
+270356,Stimulus,presented,91
+270656,Stimulus,presented,92
+273768,Stimulus,presented,0
+274267,Stimulus,presented,93
+274567,Stimulus,presented,94
+277729,Stimulus,presented,0
+278228,Stimulus,presented,95
+278528,Stimulus,presented,96
+281597,Stimulus,presented,0
+282096,Stimulus,presented,97
+282396,Stimulus,presented,98
+282970,Keyboard,received,114,check
+285743,Stimulus,presented,0
+286242,Stimulus,presented,99
+286542,Stimulus,presented,100
+289649,Stimulus,presented,0
+290148,Stimulus,presented,101
+290448,Stimulus,presented,102
+293645,Stimulus,presented,0
+294144,Stimulus,presented,103
+294444,Stimulus,presented,104
+297493,Stimulus,presented,0
+297992,Stimulus,presented,105
+298292,Stimulus,presented,106
+298903,Keyboard,received,114,check
+301572,Stimulus,presented,0
+302071,Stimulus,presented,107
+302371,Stimulus,presented,108
+305744,Stimulus,presented,0
+306243,Stimulus,presented,109
+306543,Stimulus,presented,110
+309572,Stimulus,presented,0
+310071,Stimulus,presented,111
+310371,Stimulus,presented,112
+313825,Stimulus,presented,0
+314324,Stimulus,presented,113
+314624,Stimulus,presented,114
+317901,Stimulus,presented,0
+318400,Stimulus,presented,115
+318700,Stimulus,presented,116
+321796,Stimulus,presented,0
+322295,Stimulus,presented,117
+322595,Stimulus,presented,118
+325754,Stimulus,presented,0
+326253,Stimulus,presented,119
+326554,Stimulus,presented,120
+329901,Stimulus,presented,0
+330400,Stimulus,presented,121
+330700,Stimulus,presented,122
+333943,Stimulus,presented,0
+334442,Stimulus,presented,123
+334742,Stimulus,presented,124
+337491,Stimulus,presented,0
+337990,Stimulus,presented,125
+338290,Stimulus,presented,126
+341870,Stimulus,presented,0
+342369,Stimulus,presented,127
+342669,Stimulus,presented,128
+345517,Stimulus,presented,0
+346016,Stimulus,presented,129
+346316,Stimulus,presented,130
+349810,Stimulus,presented,0
+350309,Stimulus,presented,131
+350609,Stimulus,presented,132
+353911,Stimulus,presented,0
+354410,Stimulus,presented,133
+354710,Stimulus,presented,134
+357550,Stimulus,presented,0
+358049,Stimulus,presented,135
+358349,Stimulus,presented,136
+361582,Stimulus,presented,0
+362081,Stimulus,presented,137
+362381,Stimulus,presented,138
+365524,Stimulus,presented,0
+366023,Stimulus,presented,139
+366323,Stimulus,presented,140
+369557,Stimulus,presented,0
+370056,Stimulus,presented,141
+370356,Stimulus,presented,142
+373847,Stimulus,presented,0
+374346,Stimulus,presented,143
+374646,Stimulus,presented,144
+377836,Stimulus,presented,0
+378335,Stimulus,presented,145
+378635,Stimulus,presented,146
+381601,Stimulus,presented,0
+382100,Stimulus,presented,147
+382400,Stimulus,presented,148
+385909,Stimulus,presented,0
+386408,Stimulus,presented,149
+386708,Stimulus,presented,150
+389644,Stimulus,presented,0
+390143,Stimulus,presented,151
+390443,Stimulus,presented,152
+393894,Stimulus,presented,0
+394393,Stimulus,presented,153
+394693,Stimulus,presented,154
+397502,Stimulus,presented,0
+398001,Stimulus,presented,155
+398301,Stimulus,presented,156
+401875,Stimulus,presented,0
+402374,Stimulus,presented,157
+402674,Stimulus,presented,158
+405888,Stimulus,presented,0
+406387,Stimulus,presented,159
+406687,Stimulus,presented,160
+409533,Stimulus,presented,0
+410032,Stimulus,presented,161
+410332,Stimulus,presented,162
+413613,Stimulus,presented,0
+414112,Stimulus,presented,163
+414412,Stimulus,presented,164
+417883,Stimulus,presented,0
+418382,Stimulus,presented,165
+418682,Stimulus,presented,166
+419153,Keyboard,received,114,check
+421672,Stimulus,presented,0
+422171,Stimulus,presented,167
+422471,Stimulus,presented,168
+425646,Stimulus,presented,0
+426145,Stimulus,presented,169
+426445,Stimulus,presented,170
+429763,Stimulus,presented,0
+430262,Stimulus,presented,171
+430562,Stimulus,presented,172
+433571,Stimulus,presented,0
+434070,Stimulus,presented,173
+434370,Stimulus,presented,174
+437657,Stimulus,presented,0
+438156,Stimulus,presented,175
+438456,Stimulus,presented,176
+441722,Stimulus,presented,0
+442221,Stimulus,presented,177
+442521,Stimulus,presented,178
+445747,Stimulus,presented,0
+446246,Stimulus,presented,179
+446546,Stimulus,presented,180
+449652,Stimulus,presented,0
+450151,Stimulus,presented,181
+450451,Stimulus,presented,182
+453683,Stimulus,presented,0
+454182,Stimulus,presented,183
+454482,Stimulus,presented,184
+457640,Stimulus,presented,0
+458139,Stimulus,presented,185
+458439,Stimulus,presented,186
+461541,Stimulus,presented,0
+462041,Stimulus,presented,187
+462341,Stimulus,presented,188
+465888,Stimulus,presented,0
+466387,Stimulus,presented,189
+466687,Stimulus,presented,190
+469757,Stimulus,presented,0
+470256,Stimulus,presented,191
+470556,Stimulus,presented,192
+470945,Keyboard,received,114,check
+473820,Stimulus,presented,0
+474319,Stimulus,presented,193
+474619,Stimulus,presented,194
+477933,Stimulus,presented,0
+478432,Stimulus,presented,195
+478732,Stimulus,presented,196
+479191,Keyboard,received,114,check
+481667,Stimulus,presented,0
+482166,Stimulus,presented,197
+482466,Stimulus,presented,198
+482896,Keyboard,received,114,check
+485459,Stimulus,presented,0
+485958,Stimulus,presented,199
+486258,Stimulus,presented,200
+489779,Stimulus,presented,0
+490278,Stimulus,presented,201
+490578,Stimulus,presented,202
+493726,Stimulus,presented,0
+494225,Stimulus,presented,203
+494525,Stimulus,presented,204
+497806,Stimulus,presented,0
+498305,Stimulus,presented,205
+498605,Stimulus,presented,206
+501655,Stimulus,presented,0
+502154,Stimulus,presented,207
+502454,Stimulus,presented,208
+505861,Stimulus,presented,0
+506360,Stimulus,presented,209
+506660,Stimulus,presented,210
+509596,Stimulus,presented,0
+510095,Stimulus,presented,211
+510395,Stimulus,presented,212
+513558,Stimulus,presented,0
+514057,Stimulus,presented,213
+514357,Stimulus,presented,214
+517848,Stimulus,presented,0
+518347,Stimulus,presented,215
+518647,Stimulus,presented,216
+521656,Stimulus,presented,0
+522156,Stimulus,presented,217
+522456,Stimulus,presented,218
+525839,Stimulus,presented,0
+526338,Stimulus,presented,219
+526638,Stimulus,presented,220
+529464,Stimulus,presented,0
+529963,Stimulus,presented,221
+530263,Stimulus,presented,222
+533890,Stimulus,presented,0
+534389,Stimulus,presented,223
+534689,Stimulus,presented,224
+537653,Stimulus,presented,0
+538152,Stimulus,presented,225
+538452,Stimulus,presented,226
+541499,Stimulus,presented,0
+541998,Stimulus,presented,227
+542298,Stimulus,presented,228
+545527,Stimulus,presented,0
+546026,Stimulus,presented,229
+546326,Stimulus,presented,230
+549792,Stimulus,presented,0
+550291,Stimulus,presented,231
+550591,Stimulus,presented,232
+553619,Stimulus,presented,0
+554118,Stimulus,presented,233
+554418,Stimulus,presented,234
+554979,Keyboard,received,114,check
+557792,Stimulus,presented,0
+558291,Stimulus,presented,235
+558591,Stimulus,presented,236
+561701,Stimulus,presented,0
+562200,Stimulus,presented,237
+562500,Stimulus,presented,238
+565827,Stimulus,presented,0
+566326,Stimulus,presented,239
+566626,Stimulus,presented,240
+569791,Stimulus,presented,0
+570290,Stimulus,presented,241
+570590,Stimulus,presented,242
+573660,Stimulus,presented,0
+574159,Stimulus,presented,243
+574459,Stimulus,presented,244
+577693,Stimulus,presented,0
+578192,Stimulus,presented,245
+578492,Stimulus,presented,246
+581662,Stimulus,presented,0
+582161,Stimulus,presented,247
+582461,Stimulus,presented,248
+585700,Stimulus,presented,0
+586199,Stimulus,presented,249
+586499,Stimulus,presented,250
+589559,Stimulus,presented,0
+590058,Stimulus,presented,251
+590358,Stimulus,presented,252
+593487,Stimulus,presented,0
+593986,Stimulus,presented,253
+594286,Stimulus,presented,254
+595414,Keyboard,received,114,check
+597493,Stimulus,presented,0
+597992,Stimulus,presented,255
+598292,Stimulus,presented,256
+601708,Stimulus,presented,0
+602207,Stimulus,presented,257
+602507,Stimulus,presented,258
+605573,Stimulus,presented,0
+606072,Stimulus,presented,259
+606372,Stimulus,presented,260
+609678,Stimulus,presented,0
+610177,Stimulus,presented,261
+610477,Stimulus,presented,262
+613926,Stimulus,presented,0
+614425,Stimulus,presented,263
+614725,Stimulus,presented,264
+617461,Stimulus,presented,0
+617960,Stimulus,presented,265
+618260,Stimulus,presented,266
+621643,Stimulus,presented,0
+622143,Stimulus,presented,267
+622443,Stimulus,presented,268
+625614,Stimulus,presented,0
+626113,Stimulus,presented,269
+626413,Stimulus,presented,270
+629556,Stimulus,presented,0
+630055,Stimulus,presented,271
+630355,Stimulus,presented,272
+633726,Stimulus,presented,0
+634225,Stimulus,presented,273
+634525,Stimulus,presented,274
+637596,Stimulus,presented,0
+638095,Stimulus,presented,275
+638395,Stimulus,presented,276
+641566,Stimulus,presented,0
+642065,Stimulus,presented,277
+642365,Stimulus,presented,278
+645479,Stimulus,presented,0
+645978,Stimulus,presented,279
+646278,Stimulus,presented,280
+649806,Stimulus,presented,0
+650305,Stimulus,presented,281
+650605,Stimulus,presented,282
+653655,Stimulus,presented,0
+654154,Stimulus,presented,283
+654454,Stimulus,presented,284
+657689,Stimulus,presented,0
+658188,Stimulus,presented,285
+658488,Stimulus,presented,286
+661628,Stimulus,presented,0
+662127,Stimulus,presented,287
+662427,Stimulus,presented,288
+665611,Stimulus,presented,0
+666110,Stimulus,presented,289
+666410,Stimulus,presented,290
+666781,Keyboard,received,114,check
+669615,Stimulus,presented,0
+670114,Stimulus,presented,291
+670414,Stimulus,presented,292
+673686,Stimulus,presented,0
+674185,Stimulus,presented,293
+674485,Stimulus,presented,294
+677919,Stimulus,presented,0
+678418,Stimulus,presented,295
+678718,Stimulus,presented,296
+681573,Stimulus,presented,0
+682072,Stimulus,presented,297
+682372,Stimulus,presented,298
+682607,Keyboard,received,114,check
+685751,Stimulus,presented,0
+686250,Stimulus,presented,299
+686550,Stimulus,presented,300
+689795,Stimulus,presented,0
+690294,Stimulus,presented,301
+690594,Stimulus,presented,302
+693659,Stimulus,presented,0
+694158,Stimulus,presented,303
+694458,Stimulus,presented,304
+695030,Keyboard,received,114,check
+697741,Stimulus,presented,0
+698240,Stimulus,presented,305
+698540,Stimulus,presented,306
+701613,Stimulus,presented,0
+702112,Stimulus,presented,307
+702412,Stimulus,presented,308
+705636,Stimulus,presented,0
+706135,Stimulus,presented,309
+706435,Stimulus,presented,310
+709757,Stimulus,presented,0
+710256,Stimulus,presented,311
+710556,Stimulus,presented,312
+713538,Stimulus,presented,0
+714037,Stimulus,presented,313
+714337,Stimulus,presented,314
+714668,Keyboard,received,114,check
+717899,Stimulus,presented,0
+718398,Stimulus,presented,315
+718698,Stimulus,presented,316
+721936,Stimulus,presented,0
+722435,Stimulus,presented,317
+722735,Stimulus,presented,318
+725847,Stimulus,presented,0
+726346,Stimulus,presented,319
+726646,Stimulus,presented,320
+727251,Keyboard,received,114,check
+729888,Stimulus,presented,0
+730387,Stimulus,presented,321
+730687,Stimulus,presented,322
+733668,Stimulus,presented,0
+734168,Stimulus,presented,323
+734468,Stimulus,presented,324
+737495,Stimulus,presented,0
+737994,Stimulus,presented,325
+738294,Stimulus,presented,326
+741468,Stimulus,presented,0
+741967,Stimulus,presented,327
+742267,Stimulus,presented,328
+745851,Stimulus,presented,0
+746350,Stimulus,presented,329
+746650,Stimulus,presented,330
+749649,Stimulus,presented,0
+750148,Stimulus,presented,331
+750448,Stimulus,presented,332
+753824,Stimulus,presented,0
+754323,Stimulus,presented,333
+754623,Stimulus,presented,334
+757835,Stimulus,presented,0
+758334,Stimulus,presented,335
+758634,Stimulus,presented,336
+761512,Stimulus,presented,0
+762011,Stimulus,presented,337
+762311,Stimulus,presented,338
+765924,Stimulus,presented,0
+766423,Stimulus,presented,339
+766723,Stimulus,presented,340
+767133,Keyboard,received,114,check
+769936,Stimulus,presented,0
+770435,Stimulus,presented,341
+770735,Stimulus,presented,342
+773783,Stimulus,presented,0
+774282,Stimulus,presented,343
+774582,Stimulus,presented,344
+777469,Stimulus,presented,0
+777968,Stimulus,presented,345
+778268,Stimulus,presented,346
+781923,Stimulus,presented,0
+782422,Stimulus,presented,347
+782722,Stimulus,presented,348
+785601,Stimulus,presented,0
+786100,Stimulus,presented,349
+786400,Stimulus,presented,350
+789553,Stimulus,presented,0
+790053,Stimulus,presented,351
+790353,Stimulus,presented,352
+792553,Experiment,ended
+792568,Data,saved
+792571,Stimulus,presented,355

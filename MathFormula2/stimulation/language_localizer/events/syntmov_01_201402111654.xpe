@@ -1,0 +1,718 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Tue Feb 11 2014 16:54:44
+#display: size=(1920, 1200), window_mode=False, opengl=True
+#os: ('Linux', 'is146569', '3.2.0-58-generic', '#88-Ubuntu SMP Tue Dec 3 17:37:58 UTC 2013', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+5704,stdout,received,"{u'volatile2brk': u'/usr/share/fonts/truetype/aenigma/volatil2.ttf', u'jsmathcmmi10': u'/usr/share/fonts/truetype/jsmath/jsMath-cmmi10.ttf', u'liberationserif': u'/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf', u'editundolinebrk': u'/usr/share/fonts/truetype/aenigma/edunline.ttf', u'quarterlythinbrk': u'/usr/share/fonts/truetype/aenigma/quarthin.ttf', u'engebrechtreexpanded': u'/usr/share/fonts/truetype/larabie/engeexpa.ttf', u'elsewhere2brk': u'/usr/share/fonts/truetype/aenigma/elsewhe2.ttf', u'itwasntme': u'/usr/share/fonts/truetype/dustin/It_wasn_t_me.ttf', u'hackslashbrk': u'/usr/share/fonts/truetype/aenigma/hackslsh.ttf', u'deportees': u'/usr/share/fonts/truetype/larabie/deportee.ttf', u'frozendogtreats': u'/usr/share/fonts/truetype/larabie/frozen.ttf', u'progenisis': u'/usr/share/fonts/truetype/dustin/progenisis.ttf', u'systematicttbrk': u'/usr/share/fonts/truetype/aenigma/aesymatt.ttf', u'techniquebrk': u'/usr/share/fonts/truetype/aenigma/techniqu.ttf', u'tomsontalks': u'/usr/share/fonts/truetype/tomsontalks/TomsonTalks.ttf', u'plasmatic': u'/usr/share/fonts/truetype/larabie/plasmati.ttf', u'nanumgothic': u'/usr/share/fonts/truetype/nanum/NanumGothic.ttf', u'forgottenfuturistcollege': u'/usr/share/fonts/truetype/larabie/forgotty.ttf', u'couriernew': u'/usr/share/fonts/truetype/msttcorefonts/cour.ttf', u'tlwgmono': u'/usr/share/fonts/truetype/tlwg/TlwgMono.ttf', u'qbicle1brk': u'/usr/share/fonts/truetype/aenigma/qbicle1.ttf', u'quarterlythickbrk': u'/usr/share/fonts/truetype/aenigma/quarthck.ttf', u'darksidebrk': u'/usr/share/fonts/truetype/aenigma/darkside.ttf', u'minikalibersttbrk': u'/usr/share/fonts/truetype/aenigma/minikstt.ttf', u'unidings': u'/usr/share/fonts/truetype/ttf-ancient-scripts/Unidings605.ttf', u'tlwgtypewriter': u'/usr/share/fonts/truetype/tlwg/TlwgTypewriter.ttf', u'verdana': u'/usr/share/fonts/truetype/msttcorefonts/Verdana.ttf', u'kirbynokirakizzubrk': u'/usr/share/fonts/truetype/aenigma/kirbyss.ttf', u'instanttunes': u'/usr/share/fonts/truetype/larabie/instantt.ttf', u'bandwidthbandmessbrk': u'/usr/share/fonts/truetype/aenigma/bandmess.ttf', u'unanimousinvertedbrk': u'/usr/share/fonts/truetype/aenigma/unanimoi.ttf', u'vahika': u'/usr/share/fonts/truetype/larabie/vahika_.ttf', u'goudybookletter1911light': u'/usr/share/fonts/sortsmill/GoudyBookletter1911Light.ttf', u'khmeros': u'/usr/share/fonts/truetype/ttf-khmeros-core/KhmerOS.ttf', u'tetricidebrk': u'/usr/share/fonts/truetype/aenigma/tetri.ttf', u'gesturethinbrk': u'/usr/share/fonts/truetype/aenigma/gesturet.ttf', u'degrassi': u'/usr/share/fonts/truetype/larabie/degrassi.ttf', u'densmore': u'/usr/share/fonts/truetype/larabie/densmore.ttf', u'dblayer3brk': u'/usr/share/fonts/truetype/aenigma/dblayer3.ttf', u'underwhelmedoutlinebrk': u'/usr/share/fonts/truetype/aenigma/underwho.ttf', u'superglue': u'/usr/share/fonts/truetype/larabie/superglu.ttf', u'collectivesbrk': u'/usr/share/fonts/truetype/aenigma/collects.ttf', u'gumtuckey': u'/usr/share/fonts/truetype/larabie/gumtucke.ttf', u'shouldveknownshaded': u'/usr/share/fonts/truetype/larabie/shouldvs.ttf', u'revertbrk': u'/usr/share/fonts/truetype/aenigma/revert.ttf', u'breip': u'/usr/share/fonts/truetype/breip/breipfont.ttf', u'combustionplainbrk': u'/usr/share/fonts/truetype/aenigma/combuspl.ttf', u'kickinglimos': u'/usr/share/fonts/truetype/larabie/kickingl.ttf', u'gyrosebrk': u'/usr/share/fonts/truetype/aenigma/gyrose.ttf', u'mrykacstqurn': u'/usr/share/fonts/truetype/kacst/mry_KacstQurn.ttf', u'f500': u'/usr/share/fonts/truetype/f500/f500.ttf', u'anatolian': u'/usr/share/fonts/truetype/ttf-ancient-scripts/Anatolian306.ttf', u'screengem': u'/usr/share/fonts/truetype/larabie/screenge.ttf', u'steve': u'/usr/share/fonts/truetype/sjfonts/SteveHand.ttf', u'jargonbrk': u'/usr/share/fonts/truetype/aenigma/jargon.ttf', u'counterscraps': u'/usr/share/fonts/truetype/larabie/counters.ttf', u'biometricjoe': u'/usr/share/fonts/truetype/larabie/biometri.ttf', u'galvanizebrk': u'/usr/share/fonts/truetype/aenigma/galvaniz.ttf', u'perfectdarkbrk': u'/usr/share/fonts/truetype/aenigma/pdark.ttf', u'jawbreakerol2brk': u'/usr/share/fonts/truetype/aenigma/jawbrko2.ttf', u'saab': u'/usr/share/fonts/truetype/ttf-punjabi-fonts/Saab.ttf', u'slenderbrk': u'/usr/share/fonts/truetype/aenigma/slender.ttf', u'lightsoutbrk': u'/usr/share/fonts/truetype/aenigma/lightout.ttf', u'plasmadripbrk': u'/usr/share/fonts/truetype/aenigma/plasdrip.ttf', u'jsmatheufb10': u'/usr/share/fonts/truetype/jsmath/jsMath-eufb10.ttf', u'licoricestringsbrk': u'/usr/share/fonts/truetype/aenigma/licostrg.ttf', u'norasi': u'/usr/share/fonts/truetype/tlwg/Norasi.ttf', u'euterpe': u'/usr/share/fonts/truetype/euterpe/Euterpe.ttf', u'umepgothics4': u'/usr/share/fonts/truetype/horai-umefont/ume-pgs4.ttf', u'umepgothics5': u'/usr/share/fonts/truetype/horai-umefont/ume-pgs5.ttf', u'worldofwater': u'/usr/share/fonts/truetype/larabie/worldofw.ttf', u'dustismoroman': u'/usr/share/fonts/truetype/dustin/Dustismo_Roman.ttf', u'forgottenfuturist': u'/usr/share/fonts/truetype/larabie/forgotte.ttf', u'wincingbrk': u'/usr/share/fonts/truetype/aenigma/wincing.ttf', u'lucidtypeboutlinebrk': u'/usr/share/fonts/truetype/aenigma/lucid2o.ttf', u'lucidtypebbrk': u'/usr/share/fonts/truetype/aenigma/lucid2.ttf', u'luxiserif': u'/usr/share/fonts/truetype/ttf-xfree86-nonfree/luxirr.ttf', u'metallord': u'/usr/share/fonts/truetype/larabie/metalord.ttf', u'ataxiaoutlinebrk': u'/usr/share/fonts/truetype/aenigma/ataxiao.ttf', u'lunaurora': u'/usr/share/fonts/truetype/larabie/lunauror.ttf', u'welfarebrat': u'/usr/share/fonts/truetype/larabie/welfareb.ttf', u'slenderminibrk': u'/usr/share/fonts/truetype/aenigma/slenmini.ttf', u'stitchbitch': u'/usr/share/fonts/truetype/larabie/stitch.ttf', u'mishmashbrk': u'/usr/share/fonts/truetype/aenigma/mishmash.ttf', u'compliantconfuse1sbrk': u'/usr/share/fonts/truetype/aenigma/compc1s.ttf', u'konectoro2brk': u'/usr/share/fonts/truetype/aenigma/konecto2.ttf', u'pupcat': u'/usr/share/fonts/truetype/larabie/pupcat__.ttf', u'wildsewerage': u'/usr/share/fonts/truetype/larabie/wildsewe.ttf', u'denemo': u'/usr/share/fonts/truetype/denemo/Denemo.ttf', u'lohitpunjabi': u'/usr/share/fonts/truetype/ttf-punjabi-fonts/lohit_pa.ttf', u'lockergnome': u'/usr/share/fonts/truetype/larabie/lockergn.ttf', u'registrybrk': u'/usr/share/fonts/truetype/aenigma/registry.ttf', u'rehearsalcurvebrk': u'/usr/share/fonts/truetype/aenigma/rehearsc.ttf', u'unpilgi': u'/usr/share/fonts/truetype/unfonts-core/UnPilgi.ttf', u'visitortt1brk': u'/usr/share/fonts/truetype/aenigma/visitor1.ttf', u'stagnationbrk': u'/usr/share/fonts/truetype/aenigma/stagnati.ttf', u'overload': u'/usr/share/fonts/truetype/larabie/overload.ttf', u'freesans': u'/usr/share/fonts/truetype/freefont/FreeSans.ttf', u'typesourceextolsbrk': u'/usr/share/fonts/truetype/aenigma/tsextols.ttf', u'websterworld': u'/usr/share/fonts/truetype/larabie/websterw.ttf', u'loopybrk': u'/usr/share/fonts/truetype/aenigma/loopy.ttf', u'chintzycpushadowbrk': u'/usr/share/fonts/truetype/aenigma/chintzys.ttf', u'36daysagobrk': u'/usr/share/fonts/truetype/aenigma/36daysag.ttf', u'baveuse3d': u'/usr/share/fonts/truetype/larabie/baveuse3.ttf', u'acknowledgettbrk': u'/usr/share/fonts/truetype/aenigma/acknowtt.ttf', u'gardiner': u'/usr/share/fonts/truetype/ttf-ancient-scripts/Gardiner313.ttf', u'worthlessbum': u'/usr/share/fonts/truetype/larabie/worthles.ttf', u'droidsans': u'/usr/share/fonts/truetype/droid/DroidSansArabic.ttf', u'opiatedbrk': u'/usr/share/fonts/truetype/aenigma/opiated.ttf', u'karmasuture': u'/usr/share/fonts/truetype/larabie/karmasut.ttf', u'electorateboogaloo': u'/usr/share/fonts/truetype/larabie/electbgu.ttf', u'sybilgreen': u'/usr/share/fonts/truetype/larabie/sybig___.ttf', u'lesserconcern': u'/usr/share/fonts/truetype/larabie/lesserco.ttf', u'kustomkar': u'/usr/share/fonts/truetype/larabie/kustomka.ttf', u'arialblack': u'/usr/share/fonts/truetype/msttcorefonts/Arial_Black.ttf', u'inflammableage': u'/usr/share/fonts/truetype/larabie/inflamma.ttf', u'markedfool': u'/usr/share/fonts/truetype/dustin/MarkedFool.ttf', u'boron': u'/usr/share/fonts/truetype/larabie/boron2.ttf', u'kacstqurn': u'/usr/share/fonts/truetype/kacst/KacstQurn.ttf', u'jura': u'/usr/share/fonts/truetype/jura/Jura-Medium.ttf', u'fidgetybrk': u'/usr/share/fonts/truetype/aenigma/fidgety.ttf', u'kalibersolidbrk': u'/usr/share/fonts/truetype/aenigma/kalibers.ttf', u'loma': u'/usr/share/fonts/truetype/tlwg/Loma.ttf', u'xeroxmalfunctionbrk': u'/usr/share/fonts/truetype/aenigma/xeroxmal.ttf', u'wakebake': u'/usr/share/fonts/truetype/larabie/wakebake.ttf', u'gentiumalt': u'/usr/share/fonts/truetype/gentium/GenAR102.ttf', u'intersectbrk': u'/usr/share/fonts/truetype/aenigma/intersec.ttf', u'crackdowno1brk': u'/usr/share/fonts/truetype/aenigma/crkdwno1.ttf', u'typodermic': u'/usr/share/fonts/truetype/larabie/typoderm.ttf', u'joystix': u'/usr/share/fonts/truetype/larabie/joystix.ttf', u'mallige': u'/usr/share/fonts/truetype/ttf-indic-fonts-core/Malige-n.ttf', u'yellowpills': u'/usr/share/fonts/truetype/larabie/yellowpi.ttf', u'bluehighwaydtype': u'/usr/share/fonts/truetype/larabie/bluehigd.ttf', u'handmedownsbrk': u'/usr/share/fonts/truetype/aenigma/handmeds.ttf', u'amalgamateobrk': u'/usr/share/fonts/truetype/aenigma/amalgamo.ttf', u'bewilderthickbrk': u'/usr/share/fonts/truetype/aenigma/bewildet.ttf', u'pindownplainbrk': u'/usr/share/fonts/truetype/aenigma/pindownp.ttf', u'cmmi10': u'/usr/share/fonts/truetype/ttf-lyx/cmmi10.ttf', u'minya': u'/usr/share/fonts/truetype/larabie/minya.ttf', u'quinoline': u'/usr/share/fonts/truetype/larabie/quinolin.ttf', u'germanparticipants': u'/usr/share/fonts/truetype/larabie/germp___.ttf', u'genotypesbrk': u'/usr/share/fonts/truetype/aenigma/genotyps.ttf', u'quercus': u'/usr/share/fonts/truetype/linex/Quercus.ttf', u'umepgothicc5': u'/usr/share/fonts/truetype/horai-umefont/ume-pgc5.ttf', u'obloquyoutlinebrk': u'/usr/share/fonts/truetype/aenigma/obloquyo.ttf', u'slenderstubbybrk': u'/usr/share/fonts/truetype/aenigma/slenstub.ttf', u'classictrash1brk': u'/usr/share/fonts/truetype/aenigma/clasict1.ttf', u'spheroidsbrk': u'/usr/share/fonts/truetype/aenigma/spheroid.ttf', u'pakenham': u'/usr/share/fonts/truetype/larabie/pakenham.ttf', u'okolaksboldcondensed': u'/usr/share/fonts/truetype/okolaks/OkolaksBoldCondensed.ttf', u'yesterdaybrk': u'/usr/share/fonts/truetype/aenigma/yesterda.ttf', u'plaincred1978': u'/usr/share/fonts/truetype/larabie/plai1978.ttf', u'thiamine': u'/usr/share/fonts/truetype/larabie/thiamine.ttf', u'fluoridebeings': u'/usr/share/fonts/truetype/larabie/fluoride.ttf', u'ubuntucondensed': u'/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-C.ttf', u'jankenbrk': u'/usr/share/fonts/truetype/aenigma/janken.ttf', u'cranberrygin': u'/usr/share/fonts/truetype/larabie/cranberr.ttf', u'sofachrome': u'/usr/share/fonts/truetype/larabie/sofachro.ttf', u'bluehighway': u'/usr/share/fonts/truetype/larabie/bluehigh.ttf', u'compliantconfuse2obrk': u'/usr/share/fonts/truetype/aenigma/compc2o.ttf', u'embossingtape3brk': u'/usr/share/fonts/truetype/aenigma/embosst3.ttf', u'effloresceantique': u'/usr/share/fonts/truetype/larabie/efflanti.ttf', u'zurklezoutlinebrk': u'/usr/share/fonts/truetype/aenigma/zurklezo.ttf', u'ururma': u'/usr/share/fonts/truetype/larabie/ururma.ttf', u'tiresiassignfont': u'/usr/share/fonts/truetype/ttf-tiresias/tiresias_signfont.ttf', u'scritzy': u'/usr/share/fonts/truetype/larabie/scritzy.ttf', u'domesticmanners': u'/usr/share/fonts/truetype/dustin/Domestic_Manners.ttf', u'sudburybasin': u'/usr/share/fonts/truetype/larabie/sudbury.ttf', u'yoshisstorygametextbrk': u'/usr/share/fonts/truetype/aenigma/yoshisst.ttf', u'edmunds': u'/usr/share/fonts/truetype/larabie/edmunds.ttf', u'suprageniuslinesbrk': u'/usr/share/fonts/truetype/aenigma/supragl.ttf', u'contourgenerator': u'/usr/share/fonts/truetype/larabie/contourg.ttf', u'katalystinactivebrk': u'/usr/share/fonts/truetype/aenigma/katainac.ttf', u'libelsuit': u'/usr/share/fonts/truetype/larabie/libel.ttf', u'8bitlimitobrk': u'/usr/share/fonts/truetype/aenigma/8bitlimo.ttf', u'bpgelite': u'/usr/share/fonts/truetype/fonts-bpg-georgian/BPG_Elite.ttf', u'nasalization': u'/usr/share/fonts/truetype/larabie/nasaliza.ttf', u'eunjin': u'/usr/share/fonts/truetype/alee/Eunjin.ttf', u'collectiversbrk': u'/usr/share/fonts/truetype/aenigma/collecrs.ttf', u'glazkrak': u'/usr/share/fonts/truetype/larabie/glazkrak.ttf', u'teen': u'/usr/share/fonts/truetype/larabie/teen____.ttf', u'atarismallitalic': u'/usr/share/fonts/truetype/ttf-atarismall/AtariSmallItalic.ttf', u'waree': u'/usr/share/fonts/truetype/tlwg/Waree.ttf', u'duality': u'/usr/share/fonts/truetype/larabie/duality_.ttf', u'freakturbulencebrk': u'/usr/share/fonts/truetype/aenigma/freaktur.ttf', u'minikaliberottbrk': u'/usr/share/fonts/truetype/aenigma/minikott.ttf', u'snidely': u'/usr/share/fonts/truetype/larabie/snidely_.ttf', u'hammamammajamma': u'/usr/share/fonts/truetype/larabie/hammamam.ttf', u'almontesnow': u'/usr/share/fonts/truetype/larabie/almosnow.ttf', u'lilliputsteps': u'/usr/share/fonts/truetype/larabie/lilliput.ttf', u'meera': u'/usr/share/fonts/truetype/ttf-indic-fonts-core/Meera_04.ttf', u'3dletbrk': u'/usr/share/fonts/truetype/aenigma/3dlet.ttf', u'dustismo': u'/usr/share/fonts/truetype/dustin/Dustismo.ttf', u'quinquefoliolate': u'/usr/share/fonts/truetype/larabie/quinquef.ttf', u'encapsulateplainbrk': u'/usr/share/fonts/truetype/aenigma/encappln.ttf', u'madsscrawlbrk': u'/usr/share/fonts/truetype/aenigma/madscrwl.ttf', u'lynxbrk': u'/usr/share/fonts/truetype/aenigma/lynx.ttf', u'scalelinesmazebrk': u'/usr/share/fonts/truetype/aenigma/sclnmaze.ttf', u'dystorquebrk': u'/usr/share/fonts/truetype/aenigma/dystorqu.ttf', u'anklepants': u'/usr/share/fonts/truetype/larabie/anklepan.ttf', u'vantagebrk': u'/usr/share/fonts/truetype/aenigma/vantage.ttf', u'intersectcbrk': u'/usr/share/fonts/truetype/aenigma/intersc.ttf', u'gaposissolidbrk': u'/usr/share/fonts/truetype/aenigma/gaposiss.ttf', u'brassknucklessbrk': u'/usr/share/fonts/truetype/aenigma/bknuckss.ttf', u'streetcred': u'/usr/share/fonts/truetype/larabie/streetcr.ttf', u'switchingandeffects': u'/usr/share/fonts/truetype/larabie/switchin.ttf', u'xtraflexidisc': u'/usr/share/fonts/truetype/larabie/xtraflex.ttf', u'ybandtuner': u'/usr/share/fonts/truetype/larabie/ybandtun.ttf', u'yadou': u'/usr/share/fonts/truetype/larabie/yadou.ttf', u'ryukerbrk': u'/usr/share/fonts/truetype/aenigma/ryuker.ttf', u'syracusebrk': u'/usr/share/fonts/truetype/aenigma/syracuse.ttf', u'atari': u'/usr/share/fonts/truetype/ttf-atarismall/AtariSmall.ttf', u'qlumpybrk': u'/usr/share/fonts/truetype/aenigma/qlumpy.ttf', u'luckyape': u'/usr/share/fonts/truetype/larabie/luckyape.ttf', u'abecedario': u'/usr/share/fonts/truetype/linex/Abecedario.ttf', u'galapogosbrk': u'/usr/share/fonts/truetype/aenigma/galapogo.ttf', u'ennobledpet': u'/usr/share/fonts/truetype/larabie/ennobled.ttf', u'keyridgealtbrk': u'/usr/share/fonts/truetype/aenigma/keyrialt.ttf', u'shouldveknown': u'/usr/share/fonts/truetype/larabie/shouldve.ttf', u'umepmincho': u'/usr/share/fonts/truetype/horai-umefont/ume-pmo3.ttf', u'crackman': u'/usr/share/fonts/truetype/larabie/crackman.ttf', u'andika': u'/usr/share/fonts/opentype/andika/Andika-R.ttf', u'acidrefluxbrk': u'/usr/share/fonts/truetype/aenigma/acidrefl.ttf', u'misterfirley': u'/usr/share/fonts/truetype/larabie/misterfi.ttf', u'kacstbook': u'/usr/share/fonts/truetype/kacst/KacstBook.ttf', u'gianttigers': u'/usr/share/fonts/truetype/larabie/gianttig.ttf', u'squealer': u'/usr/share/fonts/truetype/larabie/squealer.ttf', u'bloxbrk': u'/usr/share/fonts/truetype/aenigma/Blox2.ttf', u'rothwell': u'/usr/share/fonts/truetype/larabie/rothwell.ttf', u'betsyflanagan': u'/usr/share/fonts/truetype/larabie/betsy.ttf', u'reasonbrk': u'/usr/share/fonts/truetype/aenigma/reason.ttf', u'yytriumdioxide': u'/usr/share/fonts/truetype/larabie/yytriumd.ttf', u'mishmashfusebrk': u'/usr/share/fonts/truetype/aenigma/mimafuse.ttf', u'unbatang': u'/usr/share/fonts/truetype/unfonts-core/UnBatang.ttf', u'jsmathcmmib10': u'/usr/share/fonts/truetype/jsmath/jsMath-cmmib10.ttf', u'encapsulatebrk': u'/usr/share/fonts/truetype/aenigma/encapsul.ttf', u'nanosecondthinbrk': u'/usr/share/fonts/truetype/aenigma/nsecthin.ttf', u'typesourceextolobrk': u'/usr/share/fonts/truetype/aenigma/tsextolo.ttf', u'crapola': u'/usr/share/fonts/truetype/larabie/crapola.ttf', u'motorcade': u'/usr/share/fonts/truetype/larabie/motorcad.ttf', u'babyjeepers': u'/usr/share/fonts/truetype/larabie/babyjeep.ttf', u'wenquanyizenheisharp': u'/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc', u'editundodotbrk': u'/usr/share/fonts/truetype/aenigma/edundot.ttf', u'zerovelocitybrk': u'/usr/share/fonts/truetype/aenigma/zerovelo.ttf', u'luxisans': u'/usr/share/fonts/truetype/ttf-xfree86-nonfree/luxisr.ttf', u'36daysagothickbrk': u'/usr/share/fonts/truetype/aenigma/36daythk.ttf', u'yearendbrk': u'/usr/share/fonts/truetype/aenigma/yearend.ttf', u'iciclecountry': u'/usr/share/fonts/truetype/larabie/icicleco.ttf', u'lunasequent': u'/usr/share/fonts/truetype/larabie/lunasequ.ttf', u'kinnari': u'/usr/share/fonts/truetype/tlwg/Kinnari.ttf', u'compliantconfuse3sbrk': u'/usr/share/fonts/truetype/aenigma/compc3s.ttf', u'kacstpen': u'/usr/share/fonts/truetype/kacst/KacstPen.ttf', u'gyroseshiftbrk': u'/usr/share/fonts/truetype/aenigma/gyroresh.ttf', u'jawbreakerhardbrk': u'/usr/share/fonts/truetype/aenigma/jawbhard.ttf', u'gyneric3dbrk': u'/usr/share/fonts/truetype/aenigma/gyneric3.ttf', u'unanimousbrk': u'/usr/share/fonts/truetype/aenigma/unanimo.ttf', u'deluxeducks': u'/usr/share/fonts/truetype/larabie/deluxedu.ttf', u'crackdowno2brk': u'/usr/share/fonts/truetype/aenigma/crkdwno2.ttf', u'larkspurbrk': u'/usr/share/fonts/truetype/aenigma/larkspur.ttf', u'nucleusbrk': u'/usr/share/fonts/truetype/aenigma/nucleus.ttf', u'goldengirdle': u'/usr/share/fonts/truetype/larabie/goldengi.ttf', u'frak': u'/usr/share/fonts/truetype/larabie/frak.ttf', u'unresponsivebrk': u'/usr/share/fonts/truetype/aenigma/unrespon.ttf', u'hydrogenwhiskey': u'/usr/share/fonts/truetype/larabie/hydrogen.ttf', u'vectroid': u'/usr/share/fonts/truetype/larabie/vectroid.ttf', u'thwartbrk': u'/usr/share/fonts/truetype/aenigma/thwart.ttf', u'timesnewroman': u'/usr/share/fonts/truetype/msttcorefonts/times.ttf', u'dazzleships': u'/usr/share/fonts/truetype/larabie/dazzlesh.ttf', u'anglepoiselampshade': u'/usr/share/fonts/truetype/larabie/anglepoi.ttf', u'unexploredgalaxieswbrk': u'/usr/share/fonts/truetype/aenigma/Unxgalaw.ttf', u'feta26': u'/usr/share/fonts/truetype/denemo/feta.ttf', u'umegothic': u'/usr/share/fonts/truetype/horai-umefont/ume-tgo4.ttf', u'nightporter': u'/usr/share/fonts/truetype/larabie/nightpor.ttf', u'conduit2italicsbrk': u'/usr/share/fonts/truetype/aenigma/Condui2i.ttf', u'minisystem': u'/usr/share/fonts/truetype/larabie/minisyst.ttf', u'irritatebrk': u'/usr/share/fonts/truetype/aenigma/irritate.ttf', u'binaryxchrbrk': u'/usr/share/fonts/truetype/aenigma/binxchr.ttf', u'popupfontio': u'/usr/share/fonts/truetype/larabie/popup.ttf', u'lyneouslinearbrk': u'/usr/share/fonts/truetype/aenigma/lyneousl.ttf', u'colaparticipants': u'/usr/share/fonts/truetype/larabie/colap___.ttf', u'neurochrome': u'/usr/share/fonts/truetype/larabie/neurochr.ttf', u'hurryup': u'/usr/share/fonts/truetype/larabie/hurryup.ttf', u'amplitudebrk': u'/usr/share/fonts/truetype/aenigma/amplitud.ttf', u'bocumabrk': u'/usr/share/fonts/truetype/aenigma/bocuma.ttf', u'symbola': u'/usr/share/fonts/truetype/ttf-ancient-scripts/Symbola605.ttf', u'shlop': u'/usr/share/fonts/truetype/larabie/shlop___.ttf', u'okolakscondensedcondensed': u'/usr/share/fonts/truetype/okolaks/OkolaksCondensedCondensed.ttf', u'knotbrk': u'/usr/share/fonts/truetype/aenigma/knot.ttf', u'hairballbrk': u'/usr/share/fonts/truetype/aenigma/hairball.ttf', u'sorundown': u'/usr/share/fonts/truetype/larabie/sorundow.ttf', u'gargi': u'/usr/share/fonts/truetype/ttf-indic-fonts-core/gargi.ttf', u'kacsttitle': u'/usr/share/fonts/truetype/kacst/KacstTitle.ttf', u'steelfish': u'/usr/share/fonts/truetype/larabie/steelfis.ttf', u'inkswipesbrk': u'/usr/share/fonts/truetype/aenigma/inkswipe.ttf', u'bpgrioni': u'/usr/share/fonts/truetype/fonts-bpg-georgian/BPG_Rioni.ttf', u'bullpen': u'/usr/share/fonts/truetype/larabie/bullpen_.ttf', u'radiosinmotion': u'/usr/share/fonts/truetype/larabie/radiosin.ttf', u'bend2squaresbrk': u'/usr/share/fonts/truetype/aenigma/b2sq.ttf', u'dejavusans': u'/usr/share/fonts/truetype/ttf-dejavu/DejaVuSansCondensed.ttf', u'omextras': u'/home/pallier/.fonts/omextras.ttf', u'airmolestripe': u'/usr/share/fonts/truetype/larabie/airmoleq.ttf', u'dragglebrk': u'/usr/share/fonts/truetype/aenigma/draggle.ttf', u'khmerossystem': u'/usr/share/fonts/truetype/ttf-khmeros-core/KhmerOSsys.ttf', u'falsepositivebrk': u'/usr/share/fonts/truetype/aenigma/falsepos.ttf', u'arial': u'/usr/share/fonts/truetype/msttcorefonts/Arial.ttf', u'ethnocentric': u'/usr/share/fonts/truetype/larabie/ethnocen.ttf', u'neuropolitical': u'/usr/share/fonts/truetype/larabie/neurpoli.ttf', u'ubuntutitle': u'/usr/share/fonts/truetype/ttf-ubuntu-title/Ubuntu-Title.ttf', u'astronboywonder': u'/usr/share/fonts/truetype/larabie/astronbw.ttf', u'stasmic': u'/usr/share/fonts/truetype/larabie/stasmic_.ttf', u'pneumaticswidebrk': u'/usr/share/fonts/truetype/aenigma/pneuwide.ttf', u'dejavusansmono': u'/usr/share/fonts/truetype/ttf-dejavu/DejaVuSansMono.ttf', u'cupolaunicode': u'/usr/share/fonts/truetype/ttf-georgewilliams/CUPOU___.TTF', u'doulossil': u'/usr/share/fonts/truetype/doulos/DoulosSILR.ttf', u'heavyheap': u'/usr/share/fonts/truetype/larabie/heavyhea.ttf', u'dblayer2brk': u'/usr/share/fonts/truetype/aenigma/dblayer2.ttf', u'summersby': u'/usr/share/fonts/truetype/ttf-summersby/summersby.ttf', u'stilltime': u'/usr/share/fonts/truetype/larabie/stilltim.ttf', u'abecedariopuntguiada': u'/usr/share/fonts/truetype/linex/AbecedarioPuntGuiada.ttf', u'conduitbrk': u'/usr/share/fonts/truetype/aenigma/conduit.ttf', u'jsmathwasy10': u'/usr/share/fonts/truetype/jsmath/jsMath-wasy10.ttf', u'livingbynumbers': u'/usr/share/fonts/truetype/larabie/livingby.ttf', u'misirlouday': u'/usr/share/fonts/truetype/larabie/misirlod.ttf', u'coolvetica': u'/usr/share/fonts/truetype/larabie/coolveti.ttf', u'compliantconfuse1obrk': u'/usr/share/fonts/truetype/aenigma/compc1o.ttf', u'wetpet': u'/usr/share/fonts/truetype/larabie/wetpet.ttf', u'enthusebrk': u'/usr/share/fonts/truetype/aenigma/enthuse.ttf', u'abecedarioguiada': u'/usr/share/fonts/truetype/linex/AbecedarioGuiada.ttf', u'earwigfactory': u'/usr/share/fonts/truetype/larabie/earwigfa.ttf', u'binaryxbrk': u'/usr/share/fonts/truetype/aenigma/binaryx.ttf', u'soulpapa': u'/usr/share/fonts/truetype/larabie/soulpapa.ttf', u'binaryx01sbrk': u'/usr/share/fonts/truetype/aenigma/binx01s.ttf', u'highwaytoheck': u'/usr/share/fonts/truetype/larabie/heck.ttf', u'unitedbrk': u'/usr/share/fonts/truetype/aenigma/united.ttf', u'joltofcaffeinebrk': u'/usr/share/fonts/truetype/aenigma/joltcaff.ttf', u'bitstreamverasans': u'/usr/share/fonts/truetype/ttf-bitstream-vera/Vera.ttf', u'pneumaticstallbrk': u'/usr/share/fonts/truetype/aenigma/pneutall.ttf', u'quadrangle': u'/usr/share/fonts/truetype/larabie/quadrang.ttf', u'vertigobrk': u'/usr/share/fonts/truetype/aenigma/vertigo.ttf', u'zephyreangustbrk': u'/usr/share/fonts/truetype/aenigma/zephyreg.ttf', u'liberationsans': u'/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf', u'arplumingtwmbe': u'/usr/share/fonts/truetype/arphic/uming.ttc', u'ocraitalic': u'/usr/share/fonts/truetype/ocr-a/OCRAItalic.ttf', u'offkilterlbrk': u'/usr/share/fonts/truetype/aenigma/offkiltl.ttf', u'engadget': u'/usr/share/fonts/truetype/engadget/Engadget.ttf', u'fabian': u'/usr/share/fonts/truetype/larabie/fabian__.ttf', u'axaxax': u'/usr/share/fonts/truetype/larabie/axaxax.ttf', u'dentedbrk': u'/usr/share/fonts/truetype/aenigma/dented.ttf', u'orbicularbrk': u'/usr/share/fonts/truetype/aenigma/orbicula.ttf', u'foreshadowolbrk': u'/usr/share/fonts/truetype/aenigma/4shadowo.ttf', u'vindictivebrk': u'/usr/share/fonts/truetype/aenigma/vindicti.ttf', u'zoetropebrk': u'/usr/share/fonts/truetype/aenigma/zoetrope.ttf', u'goudybookletter1911bold': u'/usr/share/fonts/sortsmill/GoudyBookletter1911Bold.ttf', u'bullpen3d': u'/usr/share/fonts/truetype/larabie/bullpen3.ttf', u'backlashbrk': u'/usr/share/fonts/truetype/aenigma/backlash.ttf', u'zirconiacubicbrk': u'/usr/share/fonts/truetype/aenigma/zirccube.ttf', u'simpletonbrk': u'/usr/share/fonts/truetype/aenigma/simplto2.ttf', u'blackoninautboldbrk': u'/usr/share/fonts/truetype/aenigma/blonibld.ttf', u'gyrussian': u'/usr/share/fonts/truetype/larabie/gyrussia.ttf', u'vademecum': u'/usr/share/fonts/truetype/larabie/vademecu.ttf', u'colourbars': u'/usr/share/fonts/truetype/larabie/colourba.ttf', u'sendcash': u'/usr/share/fonts/truetype/larabie/sendcash.ttf', u'fragilebombers': u'/usr/share/fonts/truetype/larabie/fragileb.ttf', u'sexsmith': u'/usr/share/fonts/truetype/larabie/sexsmith.ttf', u'knuckledown': u'/usr/share/fonts/truetype/larabie/knuckled.ttf', u'quantumtaperbrk': u'/usr/share/fonts/truetype/aenigma/quanttap.ttf', u'katalystactivebrk': u'/usr/share/fonts/truetype/aenigma/kataacti.ttf', u'vibrocentric': u'/usr/share/fonts/truetype/larabie/vibrocen.ttf', u'zenithbrk': u'/usr/share/fonts/truetype/aenigma/zenith.ttf', u'naughtsbrk': u'/usr/share/fonts/truetype/aenigma/naughts.ttf', u'okolaksbold': u'/usr/share/fonts/truetype/okolaks/OkolaksBold.ttf', u'effloresce': u'/usr/share/fonts/truetype/larabie/efflores.ttf', u'underscore2brk': u'/usr/share/fonts/truetype/aenigma/undrscr2.ttf', u'primeministerofcanada': u'/usr/share/fonts/truetype/larabie/primemin.ttf', u'dendriticvoltage': u'/usr/share/fonts/truetype/larabie/dendriti.ttf', u'neuropol': u'/usr/share/fonts/truetype/larabie/neuropol.ttf', u'exaggeratebrk': u'/usr/share/fonts/truetype/aenigma/exagger8.ttf', u'gunplay3d': u'/usr/share/fonts/truetype/larabie/gunplay3.ttf', u'octoville': u'/usr/share/fonts/truetype/larabie/octovill.ttf', u'euphoric3dbrk': u'/usr/share/fonts/truetype/aenigma/euphor3d.ttf', u'rachana': u'/usr/share/fonts/truetype/ttf-indic-fonts-core/Rachana_04.ttf', u'fasciiscragglybrk': u'/usr/share/fonts/truetype/aenigma/fasciisc.ttf', u'goodfish': u'/usr/share/fonts/truetype/larabie/goodfish.ttf', u'spasticbrk': u'/usr/share/fonts/truetype/aenigma/spastic2.ttf', u'induction': u'/usr/share/fonts/truetype/larabie/inductio.ttf', u'tonikbrk': u'/usr/share/fonts/truetype/aenigma/tonik.ttf', u'candystripebrk': u'/usr/share/fonts/truetype/aenigma/candystr.ttf', u'brigadoombrk': u'/usr/share/fonts/truetype/aenigma/brigadom.ttf', u'lohitbengali': u'/usr/share/fonts/truetype/ttf-indic-fonts-core/lohit_bn.ttf', u'bramaleabeauty': u'/usr/share/fonts/truetype/larabie/bramalea.ttf', u'linedingsbrk': u'/usr/share/fonts/truetype/aenigma/lineding.ttf', u'combustioniibrk': u'/usr/share/fonts/truetype/aenigma/combusii.ttf', u'arplukaitw': u'/usr/share/fonts/truetype/arphic/ukai.ttc', u'quantumroundbrk': u'/usr/share/fonts/truetype/aenigma/quantrnd.ttf', u'garuda': u'/usr/share/fonts/truetype/tlwg/Garuda.ttf', u'ocra': u'/usr/share/fonts/truetype/ocr-a/OCRA.ttf', u'freeserif': u'/usr/share/fonts/truetype/freefont/FreeSerif.ttf', u'tiresiaskeyfontv2': u'/usr/share/fonts/truetype/ttf-tiresias/tirekv__.ttf', u'delphine': u'/usr/share/fonts/truetype/sjfonts/Delphine.ttf', u'okolaksitaliccondensedcondensed': u'/usr/share/fonts/truetype/okolaks/OkolaksItalicCondensedCondensed.ttf', u'sawasdee': u'/usr/share/fonts/truetype/tlwg/Sawasdee.ttf', u'squealerembossed': u'/usr/share/fonts/truetype/larabie/squealem.ttf', u'zirconiabrk': u'/usr/share/fonts/truetype/aenigma/zirconia.ttf', u'euphoricbrk': u'/usr/share/fonts/truetype/aenigma/euphoric.ttf', u'gaposisoutlinebrk': u'/usr/share/fonts/truetype/aenigma/gaposiso.ttf', u'brassknucklestarbrk': u'/usr/share/fonts/truetype/aenigma/bknuckst.ttf', u'orangekid': u'/usr/share/fonts/truetype/larabie/orangeki.ttf', u'ubiquitybrk': u'/usr/share/fonts/truetype/aenigma/ubiquity.ttf', u'slenderwidebrk': u'/usr/share/fonts/truetype/aenigma/slenderw.ttf', u'unlearned2brk': u'/usr/share/fonts/truetype/aenigma/unlearn2.ttf', u'hawkeye': u'/usr/share/fonts/truetype/larabie/hawkeye_.ttf', u'borg9': u'/usr/share/fonts/truetype/larabie/borg9.ttf', u'irishparticipants': u'/usr/share/fonts/truetype/larabie/irisp___.ttf', u'msbm10': u'/usr/share/fonts/truetype/ttf-lyx/msbm10.ttf', u'omsign': u'/home/pallier/.fonts/omsign.ttf', u'pantspatrol': u'/usr/share/fonts/truetype/larabie/pantspat.ttf', u'lohithindi': u'/usr/share/fonts/truetype/ttf-indic-fonts-core/lohit_hi.ttf', u'riotact': u'/usr/share/fonts/truetype/larabie/riotact.ttf', u'mexcellent3d': u'/usr/share/fonts/truetype/larabie/mexcel3d.ttf', u'chineserocks': u'/usr/share/fonts/truetype/larabie/chineser.ttf', u'8bitlimitrbrk': u'/usr/share/fonts/truetype/aenigma/8bitlimr.ttf', u'fatboyslimbltcbrk': u'/usr/share/fonts/truetype/aenigma/fbsbltc.ttf', u'tiresiaspcfont': u'/usr/share/fonts/truetype/ttf-tiresias/tiresias_pcfont.ttf', u'blocktiltbrk': u'/usr/share/fonts/truetype/aenigma/bloktilt.ttf', u'kenyancoffee': u'/usr/share/fonts/truetype/larabie/kenyc___.ttf', u'conduit2brk': u'/usr/share/fonts/truetype/aenigma/conduit2.ttf', u'fasciicrossbrk': u'/usr/share/fonts/truetype/aenigma/fasciicr.ttf', u'goudybookletter1911tt': u'/usr/share/fonts/sortsmill/GoudyBookletter1911TT.ttf', u'kacstart': u'/usr/share/fonts/truetype/kacst/KacstArt.ttf', u'arplukaihk': u'/usr/share/fonts/truetype/arphic/ukai.ttc', u'yawnovision': u'/usr/share/fonts/truetype/larabie/yawnovis.ttf', u'obloquysolidbrk': u'/usr/share/fonts/truetype/aenigma/obloquys.ttf', u'forciblebrk': u'/usr/share/fonts/truetype/aenigma/forcible.ttf', u'pneumaticsbrk': u'/usr/share/fonts/truetype/aenigma/pneumati.ttf', u'gathergappedbrk': u'/usr/share/fonts/truetype/aenigma/gathrgap.ttf', u'dignityoflabour': u'/usr/share/fonts/truetype/larabie/dignity.ttf', u'jsmathbbold10': u'/usr/share/fonts/truetype/jsmath/jsMath-bbold10.ttf', u'entangledlayerbbrk': u'/usr/share/fonts/truetype/aenigma/entlayrb.ttf', u'gotnoheart': u'/usr/share/fonts/truetype/larabie/gotnohea.ttf', u'vertigoupright2brk': u'/usr/share/fonts/truetype/aenigma/vertiup2.ttf', u'weatheredbrk': u'/usr/share/fonts/truetype/aenigma/weatherd.ttf', u'zoidalbrk': u'/usr/share/fonts/truetype/aenigma/zoidal.ttf', u'rina': u'/usr/share/fonts/truetype/larabie/rina.ttf', u'pincersbrk': u'/usr/share/fonts/truetype/aenigma/pincers.ttf', u'kacstdigital': u'/usr/share/fonts/truetype/kacst/KacstDigital.ttf', u'maitai': u'/usr/share/fonts/truetype/larabie/maitai.ttf', u'skullcapzbrk': u'/usr/share/fonts/truetype/aenigma/skullcap.ttf', u'charissil': u'/usr/share/fonts/truetype/charis/CharisSILR.ttf', u'visitortt2brk': u'/usr/share/fonts/truetype/aenigma/visitor2.ttf', u'wargames': u'/usr/share/fonts/truetype/dustin/Wargames.ttf', u'hots': u'/usr/share/fonts/truetype/larabie/hots.ttf', u'fasciismudgebrk': u'/usr/share/fonts/truetype/aenigma/fasciism.ttf', u'styrofoamfeelings': u'/usr/share/fonts/truetype/larabie/styrofoa.ttf', u'vemana2000': u'/usr/share/fonts/truetype/ttf-indic-fonts-core/Vemana.ttf', u'relishgargler': u'/usr/share/fonts/truetype/larabie/relishga.ttf', u'elegante': u'/usr/share/fonts/truetype/linex/elegital.ttf', u'overheadbrk': u'/usr/share/fonts/truetype/aenigma/overhead.ttf', u'tlwgtypist': u'/usr/share/fonts/truetype/tlwg/TlwgTypist.ttf', u'compliantconfuse3obrk': u'/usr/share/fonts/truetype/aenigma/compc3o.ttf', u'homesweethome': u'/usr/share/fonts/truetype/larabie/homeswee.ttf', u'bpgcourier': u'/usr/share/fonts/truetype/fonts-bpg-georgian/BPG_Courier.ttf', u'comicsansms': u'/usr/share/fonts/truetype/msttcorefonts/Comic_Sans_MS.ttf', u'konectoro1brk': u'/usr/share/fonts/truetype/aenigma/konecto1.ttf', u'kickflipbrk': u'/usr/share/fonts/truetype/aenigma/kickflip.ttf', u'phorfeitslantbrk': u'/usr/share/fonts/truetype/aenigma/phorfeis.ttf', u'enthusesolidbrk': u'/usr/share/fonts/truetype/aenigma/enthuses.ttf', u'univox': u'/usr/share/fonts/truetype/larabie/univox.ttf', u'vanillawhale': u'/usr/share/fonts/truetype/larabie/vanilla.ttf', u'phetsarathot': u'/usr/share/fonts/truetype/lao/Phetsarath_OT.ttf', u'discordancebrk': u'/usr/share/fonts/truetype/aenigma/discorda.ttf', u'jsmathmsbm10': u'/usr/share/fonts/truetype/jsmath/jsMath-msbm10.ttf', u'undinaru': u'/usr/share/fonts/truetype/unfonts-core/UnDinaru.ttf', u'yourcomplexobrk': u'/usr/share/fonts/truetype/aenigma/urcompo.ttf', u'engebrechtre': u'/usr/share/fonts/truetype/larabie/engeregu.ttf', u'rehearsalpointbrk': u'/usr/share/fonts/truetype/aenigma/rehearsp.ttf', u'hookedup101': u'/usr/share/fonts/truetype/larabie/hooked.ttf', u'creditvalley': u'/usr/share/fonts/truetype/larabie/creditva.ttf', u'wigglysquigglybrk': u'/usr/share/fonts/truetype/aenigma/wigsquig.ttf', u'abecedariopautada': u'/usr/share/fonts/truetype/linex/AbecedarioPautada.ttf', u'dephunkedbrk': u'/usr/share/fonts/truetype/aenigma/dephun2.ttf', u'ouijadork': u'/usr/share/fonts/truetype/larabie/ouijador.ttf', u'bitingmynailsoutline': u'/usr/share/fonts/truetype/larabie/bitingou.ttf', u'ravagedbyyearsbrk': u'/usr/share/fonts/truetype/aenigma/ravaged2.ttf', u'granularbrk': u'/usr/share/fonts/truetype/aenigma/granular.ttf', u'zerohour': u'/usr/share/fonts/truetype/larabie/zerohour.ttf', u'ladystarlight': u'/usr/share/fonts/truetype/larabie/ladystar.ttf', u'bocumabattybrk': u'/usr/share/fonts/truetype/aenigma/bocumaba.ttf', u'peatloaf': u'/usr/share/fonts/truetype/larabie/peatloaf.ttf', u'rsfs10': u'/usr/share/fonts/truetype/ttf-lyx/rsfs10.ttf', u'opensymbol': u'/usr/share/fonts/truetype/openoffice/opens___.ttf', u'superheterodyne': u'/usr/share/fonts/truetype/larabie/superhet.ttf', u'airmoleantique': u'/usr/share/fonts/truetype/larabie/airmolea.ttf', u'hellolarry': u'/usr/share/fonts/truetype/larabie/hellolar.ttf', u'almonte': u'/usr/share/fonts/truetype/larabie/almonte.ttf', u'jekyllbrk': u'/usr/share/fonts/truetype/aenigma/jekyll.ttf', u'8bitlimitbrk': u'/usr/share/fonts/truetype/aenigma/8bitlim.ttf', u'hillockbrk': u'/usr/share/fonts/truetype/aenigma/hillock.ttf', u'jsmathcmti10': u'/usr/share/fonts/truetype/jsmath/jsMath-cmti10.ttf', u'syndromebrk': u'/usr/share/fonts/truetype/aenigma/syndrome.ttf', u'kirstyink': u'/usr/share/fonts/truetype/larabie/kirstyin.ttf', u'18holesbrk': u'/usr/share/fonts/truetype/aenigma/18holes.ttf', u'arplumingcn': u'/usr/share/fonts/truetype/arphic/uming.ttc', u'umeminchos3': u'/usr/share/fonts/truetype/horai-umefont/ume-tms3.ttf', u'ocrabold': u'/usr/share/fonts/truetype/ocr-a/OCRABold.ttf', u'tearfulbrk': u'/usr/share/fonts/truetype/aenigma/tearful.ttf', u'droidsansmono': u'/usr/share/fonts/truetype/droid/DroidSansMono.ttf', u'aegyptus': u'/usr/share/fonts/truetype/ttf-ancient-scripts/Aegyptus313.ttf', u'saunderbrk': u'/usr/share/fonts/truetype/aenigma/saunder.ttf', u'lucidtypeabrk': u'/usr/share/fonts/truetype/aenigma/lucid.ttf', u'muktinarrow': u'/usr/share/fonts/truetype/ttf-indic-fonts-core/MuktiNarrow.ttf', u'newbrilliant': u'/usr/share/fonts/truetype/larabie/newbrill.ttf', u'unexploredgalaxieswobrk': u'/usr/share/fonts/truetype/aenigma/Unxgalwo.ttf', u'alianna': u'/usr/share/fonts/truetype/larabie/alianna.ttf', u'biohazardparticipants': u'/usr/share/fonts/truetype/larabie/biohp___.ttf', u'frizzedbrk': u'/usr/share/fonts/truetype/aenigma/frizzed.ttf', u'okolaksboldcondensedcondensed': u'/usr/share/fonts/truetype/okolaks/OkolaksBoldCondensedCondensed.ttf', u'robokoz': u'/usr/share/fonts/truetype/larabie/robokoz.ttf', u'droid': u'/usr/share/fonts/truetype/larabie/droid___.ttf', u'konectorbrk': u'/usr/share/fonts/truetype/aenigma/konector.ttf', u'joycircuit': u'/usr/share/fonts/truetype/larabie/joycircu.ttf', u'letseat': u'/usr/share/fonts/truetype/larabie/let_seat.ttf', u'unispace': u'/usr/share/fonts/truetype/larabie/unispace.ttf', u'bpgchveulebrivi': u'/usr/share/fonts/truetype/fonts-bpg-georgian/BPG_Chveulebrivi.ttf', u'underwhelmedbrk': u'/usr/share/fonts/truetype/aenigma/underwhe.ttf', u'numskullbrk': u'/usr/share/fonts/truetype/aenigma/numskull.ttf', u'graveyardbrk': u'/usr/share/fonts/truetype/aenigma/graveyrd.ttf', u'umegothics4': u'/usr/share/fonts/truetype/horai-umefont/ume-tgs4.ttf', u'hyperionsunsetbrk': u'/usr/share/fonts/truetype/aenigma/hyperion.ttf', u'crystalradiokit': u'/usr/share/fonts/truetype/larabie/crystalr.ttf', u'seniorservice': u'/usr/share/fonts/truetype/larabie/srservic.ttf', u'jaspersolidbrk': u'/usr/share/fonts/truetype/aenigma/jaspers.ttf', u'jsmathstmary10': u'/usr/share/fonts/truetype/jsmath/jsMath-stmary10.ttf', u'barbatrick': u'/usr/share/fonts/truetype/larabie/barbatri.ttf', u'kaliberroundbrk': u'/usr/share/fonts/truetype/aenigma/kaliberr.ttf', u'umepminchos3': u'/usr/share/fonts/truetype/horai-umefont/ume-pms3.ttf', u'jsmathcmbsy10': u'/usr/share/fonts/truetype/jsmath/jsMath-cmbsy10.ttf', u'reasonshadowbrk': u'/usr/share/fonts/truetype/aenigma/reasonsh.ttf', u'droidserif': u'/usr/share/fonts/truetype/droid/DroidSerif-Regular.ttf', u'britishparticipants': u'/usr/share/fonts/truetype/larabie/britp___.ttf', u'electroharmonix': u'/usr/share/fonts/truetype/larabie/electroh.ttf', u'apiphontique': u'/usr/share/fonts/truetype/linex/apiregul.ttf', u'caslon': u'/usr/share/fonts/truetype/ttf-georgewilliams/CaslonRoman.ttf', u'pothana2000': u'/usr/share/fonts/truetype/ttf-indic-fonts-core/Pothana2000.ttf', u'poke': u'/usr/share/fonts/truetype/larabie/poke.ttf', u'embossingtape1brk': u'/usr/share/fonts/truetype/aenigma/embosst1.ttf', u'fauxsnowbrk': u'/usr/share/fonts/truetype/aenigma/fauxsnow.ttf', u'deltaheymaxnine': u'/usr/share/fonts/truetype/larabie/deltahey.ttf', u'bendablebrk': u'/usr/share/fonts/truetype/aenigma/bendable.ttf', u'tommygun': u'/usr/share/fonts/truetype/larabie/tommygun.ttf', u'quarantinebrk': u'/usr/share/fonts/truetype/aenigma/quaranti.ttf', u'symmetrybrk': u'/usr/share/fonts/truetype/aenigma/symmetry.ttf', u'astronboyvideo': u'/usr/share/fonts/truetype/larabie/astronbv.ttf', u'kinkaidbrk': u'/usr/share/fonts/truetype/aenigma/kinkaid.ttf', u'qbicle4brk': u'/usr/share/fonts/truetype/aenigma/qbicle4.ttf', u'plasmadripemptybrk': u'/usr/share/fonts/truetype/aenigma/plasdrpe.ttf', u'deftonestylus': u'/usr/share/fonts/truetype/larabie/deftone.ttf', u'qbicle3brk': u'/usr/share/fonts/truetype/aenigma/qbicle3.ttf', u'sandoval': u'/usr/share/fonts/truetype/larabie/sandoval.ttf', u'wintermute': u'/usr/share/fonts/truetype/larabie/wintermu.ttf', u'okolaksitalic': u'/usr/share/fonts/truetype/okolaks/OkolaksItalic.ttf', u'radiosinmotionhard': u'/usr/share/fonts/truetype/larabie/radiohar.ttf', u'chumblybrk': u'/usr/share/fonts/truetype/aenigma/chumbly.ttf', u'xhumebrk': u'/usr/share/fonts/truetype/aenigma/xhume.ttf', u'urkeliantelevisiondynasty': u'/usr/share/fonts/truetype/larabie/urkelian.ttf', u'cretino': u'/usr/share/fonts/truetype/larabie/cretino_.ttf', u'velvendamegablack': u'/usr/share/fonts/truetype/larabie/velvenda.ttf', u'freemono': u'/usr/share/fonts/truetype/freefont/FreeMono.ttf', u'bend2squaresol1brk': u'/usr/share/fonts/truetype/aenigma/b2sqol1.ttf', u'charlesincharge': u'/usr/share/fonts/truetype/larabie/charlesi.ttf', u'whateverbrk': u'/usr/share/fonts/truetype/aenigma/whatever.ttf', u'extractionbrk': u'/usr/share/fonts/truetype/aenigma/extracti.ttf', u'mgopencosmetica': u'/usr/share/fonts/truetype/mgopen/MgOpenCosmeticaRegular.ttf', u'syntheticbrk': u'/usr/share/fonts/truetype/aenigma/syntheti.ttf', u'whippersnapperbrk': u'/usr/share/fonts/truetype/aenigma/whipsnap.ttf', u'vanishinggirl': u'/usr/share/fonts/truetype/larabie/vanishin.ttf', u'betecknalowercase': u'/usr/share/fonts/truetype/beteckna/BetecknaLowerCase.ttf', u'wyvernwingsbrk': u'/usr/share/fonts/truetype/aenigma/wyvernwi.ttf', u'mobconcrete': u'/usr/share/fonts/truetype/larabie/mobconcr.ttf', u'satanicparticipants': u'/usr/share/fonts/truetype/larabie/satap___.ttf', u'gentiumbookbasic': u'/usr/share/fonts/truetype/gentium-basic/GenBkBasR.ttf', u'junkyard': u'/usr/share/fonts/truetype/dustin/Junkyard.ttf', u'notquiterightbrk': u'/usr/share/fonts/truetype/aenigma/notqr.ttf', u'impact': u'/usr/share/fonts/truetype/msttcorefonts/Impact.ttf', u'chintzycpubrk': u'/usr/share/fonts/truetype/aenigma/chintzy.ttf', u'detonatebrk': u'/usr/share/fonts/truetype/aenigma/detonate.ttf', u'quadraticbrk': u'/usr/share/fonts/truetype/aenigma/quadrtic.ttf', u'kimberley': u'/usr/share/fonts/truetype/larabie/kimberle.ttf', u'savedbyzero': u'/usr/share/fonts/truetype/larabie/savedbyz.ttf', u'zephyreanbrk': u'/usr/share/fonts/truetype/aenigma/zephyrea.ttf', u'umepgothicc4': u'/usr/share/fonts/truetype/horai-umefont/ume-pgc4.ttf', u'arnprior': u'/usr/share/fonts/truetype/larabie/arnprior.ttf', u'youregone': u'/usr/share/fonts/truetype/larabie/youregon.ttf', u'fasciitwigsbrk': u'/usr/share/fonts/truetype/aenigma/fasciitw.ttf', u'neuralbrk': u'/usr/share/fonts/truetype/aenigma/neural.ttf', u'horsepower': u'/usr/share/fonts/truetype/larabie/horspowr.ttf', u'mgopenmoderna': u'/usr/share/fonts/truetype/mgopen/MgOpenModernaRegular.ttf', u'alfabeta': u'/usr/share/fonts/truetype/linex/alfa-beta.ttf', u'draggleoverkernedbrk': u'/usr/share/fonts/truetype/aenigma/draggleo.ttf', u'jsmathcmr10': u'/usr/share/fonts/truetype/jsmath/jsMath-cmr10.ttf', u'waywardbrk': u'/usr/share/fonts/truetype/aenigma/wayward.ttf', u'arthritisbrk': u'/usr/share/fonts/truetype/aenigma/arthriti.ttf', u'graffititreat': u'/usr/share/fonts/truetype/larabie/graffiti.ttf', u'gaspingbrk': u'/usr/share/fonts/truetype/aenigma/gasping.ttf', u'groovyghosties': u'/usr/share/fonts/truetype/larabie/groovygh.ttf', u'jasperbrk': u'/usr/share/fonts/truetype/aenigma/jasper.ttf', u'monkeyphonicsbrk': u'/usr/share/fonts/truetype/aenigma/monkphon.ttf', u'arplukaitwmbe': u'/usr/share/fonts/truetype/arphic/ukai.ttc', u'hasslebrk': u'/usr/share/fonts/truetype/aenigma/hassle.ttf', u'jsmathwasyb10': u'/usr/share/fonts/truetype/jsmath/jsMath-wasyb10.ttf', u'beatmyguest': u'/usr/share/fonts/truetype/larabie/beatmygu.ttf', u'brassknucklebrk': u'/usr/share/fonts/truetype/aenigma/brassknu.ttf', u'mincerbrk': u'/usr/share/fonts/truetype/aenigma/mincer.ttf', u'pindownbrk': u'/usr/share/fonts/truetype/aenigma/pindown.ttf', u'lethargicbrk': u'/usr/share/fonts/truetype/aenigma/lethargi.ttf', u'yonderbrk': u'/usr/share/fonts/truetype/aenigma/yonder.ttf', u'doublebogeybrk': u'/usr/share/fonts/truetype/aenigma/dblbogey.ttf', u'goosebumpsiibrk': u'/usr/share/fonts/truetype/aenigma/gosebmp2.ttf', u'astronboy': u'/usr/share/fonts/truetype/larabie/astronbo.ttf', u'atarismallbold': u'/usr/share/fonts/truetype/ttf-atarismall/AtariSmallBold.ttf', u'zodillinstrisstirust': u'/usr/share/fonts/truetype/larabie/zodillin.ttf', u'vertigouprightbrk': u'/usr/share/fonts/truetype/aenigma/vertigup.ttf', u'dyspepsia': u'/usr/share/fonts/truetype/larabie/dyspepsi.ttf', u'tragicbrk': u'/usr/share/fonts/truetype/aenigma/Tragic2.ttf', u'nightcourt': u'/usr/share/fonts/truetype/larabie/nightcou.ttf', u'corpulentcapsshadowbrk': u'/usr/share/fonts/truetype/aenigma/ccapshad.ttf', u'junicode': u'/usr/share/fonts/truetype/junicode/Junicode-Regular.ttf', u'binary01sbrk': u'/usr/share/fonts/truetype/aenigma/bin01st.ttf', u'grudge2brk': u'/usr/share/fonts/truetype/aenigma/grudge2.ttf', u'lewinsky': u'/usr/share/fonts/truetype/larabie/lewinsky.ttf', u'lucidtypeaoutlinebrk': u'/usr/share/fonts/truetype/aenigma/lucido.ttf', u'kacstdecorative': u'/usr/share/fonts/truetype/kacst/KacstDecorative.ttf', u'compliantconfuse2sbrk': u'/usr/share/fonts/truetype/aenigma/compc2s.ttf', u'teenlight': u'/usr/share/fonts/truetype/larabie/teenlite.ttf', u'setbackttbrk': u'/usr/share/fonts/truetype/aenigma/setbackt.ttf', u'embossingtape2brk': u'/usr/share/fonts/truetype/aenigma/embosst2.ttf', u'neuraloutlinebrk': u'/usr/share/fonts/truetype/aenigma/neuralol.ttf', u'luximono': u'/usr/share/fonts/truetype/ttf-xfree86-nonfree/luximr.ttf', u'quadaptor': u'/usr/share/fonts/truetype/larabie/quadapto.ttf', u'braesidelumberboy': u'/usr/share/fonts/truetype/larabie/braeside.ttf', u'emmentaler': u'/usr/share/fonts/truetype/denemo/emmentaler.ttf', u'pyrite': u'/usr/share/fonts/truetype/larabie/pyrite.ttf', u'dreamorphans': u'/usr/share/fonts/truetype/larabie/dreamorp.ttf', u'tiresiaspcfontz': u'/usr/share/fonts/truetype/ttf-tiresias/tiresias_pcfontz.ttf', u'jigsawtrouserdrop': u'/usr/share/fonts/truetype/larabie/jigsawtr.ttf', u'modelworker': u'/usr/share/fonts/truetype/larabie/modelwor.ttf', u'tiresiaslpfont': u'/usr/share/fonts/truetype/ttf-tiresias/tiresias_lpfont.ttf', u'babelunicode': u'/usr/share/fonts/truetype/linex/BABELreg.ttf', u'wobblybrk': u'/usr/share/fonts/truetype/aenigma/wobbly.ttf', u'ipauigothic': u'/usr/share/fonts/truetype/ipafont-nonfree-uigothic/ipagui.ttf', u'techniqueolbrk': u'/usr/share/fonts/truetype/aenigma/techniqo.ttf', u'jawbreakerbrk': u'/usr/share/fonts/truetype/aenigma/jawbreak.ttf', u'gesturebrk': u'/usr/share/fonts/truetype/aenigma/gesture.ttf', u'wenquanyizenheimono': u'/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc', u'quandarybrk': u'/usr/share/fonts/truetype/aenigma/quandary.ttf', u'plasticbag': u'/usr/share/fonts/truetype/larabie/plasticb.ttf', u'trapperjohn': u'/usr/share/fonts/truetype/larabie/trapperj.ttf', u'kleptocracy': u'/usr/share/fonts/truetype/larabie/kleptocr.ttf', u'genotypersbrk': u'/usr/share/fonts/truetype/aenigma/genotyrs.ttf', u'failedattempt': u'/usr/share/fonts/truetype/larabie/failed.ttf', u'fullycompletelybrk': u'/usr/share/fonts/truetype/aenigma/fullcomp.ttf', u'marvosym': u'/usr/share/fonts/truetype/ttf-marvosym/marvosym.ttf', u'caliban': u'/usr/share/fonts/truetype/ttf-georgewilliams/Caliban.ttf', u'arpluminghk': u'/usr/share/fonts/truetype/arphic/uming.ttc', u'umegothico5': u'/usr/share/fonts/truetype/horai-umefont/ume-tgo5.ttf', u'impossibiliumbrk': u'/usr/share/fonts/truetype/aenigma/imposs.ttf', u'christianparticipants': u'/usr/share/fonts/truetype/larabie/chrip___.ttf', u'kredit': u'/usr/share/fonts/truetype/larabie/kredit1.ttf', u'combustionwidebrk': u'/usr/share/fonts/truetype/aenigma/combustw.ttf', u'claw2brk': u'/usr/share/fonts/truetype/aenigma/claw2.ttf', u'alphabetabrk': u'/usr/share/fonts/truetype/aenigma/alphbeta.ttf', u'jeopardizethickbrk': u'/usr/share/fonts/truetype/aenigma/jeopardt.ttf', u'baltar': u'/usr/share/fonts/truetype/larabie/baltar.ttf', u'decrepitbrk': u'/usr/share/fonts/truetype/aenigma/decrepit.ttf', u'ecolierlignescourt': u'/usr/share/fonts/truetype/ecolier-lignes-court/Ecolier-lignes-court.ttf', u'kacstposter': u'/usr/share/fonts/truetype/kacst/KacstPoster.ttf', u'kedage': u'/usr/share/fonts/truetype/ttf-indic-fonts-core/Kedage-n.ttf', u'omicron': u'/home/pallier/.fonts/omicron.ttf', u'quacksalverbrk': u'/usr/share/fonts/truetype/aenigma/quacksal.ttf', u'bobcaygeonbrk': u'/usr/share/fonts/truetype/aenigma/bobcayge.ttf', u'pseudobrk': u'/usr/share/fonts/truetype/aenigma/pseudo.ttf', u'kingrichard': u'/usr/share/fonts/truetype/larabie/kingrich.ttf', u'jupitercrashbrk': u'/usr/share/fonts/truetype/aenigma/jupiterc.ttf', u'kacstnaskh': u'/usr/share/fonts/truetype/kacst/KacstNaskh.ttf', u'xenowort': u'/usr/share/fonts/truetype/larabie/xenowort.ttf', u'xtrusionbrk': u'/usr/share/fonts/truetype/aenigma/xtrusion.ttf', u'dyphusionbrk': u'/usr/share/fonts/truetype/aenigma/dyphusio.ttf', u'mlurmlry': u'/usr/share/fonts/truetype/larabie/mlurmlry.ttf', u'swift': u'/usr/share/fonts/truetype/dustin/Swift.ttf', u'tinsnips': u'/usr/share/fonts/truetype/larabie/tinsnips.ttf', u'turkishparticipants': u'/usr/share/fonts/truetype/larabie/turkp___.ttf', u'carbonphyber': u'/usr/share/fonts/truetype/larabie/carbonph.ttf', u'wagerlostbrk': u'/usr/share/fonts/truetype/aenigma/wagerlos.ttf', u'qswitchax': u'/usr/share/fonts/truetype/larabie/qswitcha.ttf', u'umeuigothico5': u'/usr/share/fonts/truetype/horai-umefont/ume-ugo5.ttf', u'nostalgiabrk': u'/usr/share/fonts/truetype/aenigma/nostalgi.ttf', u'primerprint': u'/usr/share/fonts/truetype/larabie/primer.ttf', u'inevitablebrk': u'/usr/share/fonts/truetype/aenigma/inevitab.ttf', u'jsmathrsfs10': u'/usr/share/fonts/truetype/jsmath/jsMath-rsfs10.ttf', u'fakereceipt': u'/usr/share/fonts/truetype/larabie/fakerece.ttf', u'nominalbrk': u'/usr/share/fonts/truetype/aenigma/nominal.ttf', u'bpgglaho': u'/usr/share/fonts/truetype/fonts-bpg-georgian/BPG_Glaho.ttf', u'abecedariopuntpautada': u'/usr/share/fonts/truetype/linex/AbecedarioPuntPautada.ttf', u'takaopgothic': u'/usr/share/fonts/truetype/takao-gothic/TakaoPGothic.ttf', u'capacitor': u'/usr/share/fonts/truetype/larabie/capacitr.ttf', u'almontewoodgrain': u'/usr/share/fonts/truetype/larabie/almontew.ttf', u'jawbreakerol1brk': u'/usr/share/fonts/truetype/aenigma/jawbrko1.ttf', u'nymonakbrk': u'/usr/share/fonts/truetype/aenigma/nymonak.ttf', u'editundobrk': u'/usr/share/fonts/truetype/aenigma/editundo.ttf', u'ubuntu': u'/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-L.ttf', u'mishmash4x4obrk': u'/usr/share/fonts/truetype/aenigma/mima4x4o.ttf', u'qbicle2brk': u'/usr/share/fonts/truetype/aenigma/qbicle2.ttf', u'dynamicbrk': u'/usr/share/fonts/truetype/aenigma/dynamic.ttf', u'headdingmakerbrk': u'/usr/share/fonts/truetype/aenigma/hdmaker.ttf', u'vdub': u'/usr/share/fonts/truetype/larabie/vdub.ttf', u'tork': u'/usr/share/fonts/truetype/larabie/tork____.ttf', u'snailetsbrk': u'/usr/share/fonts/truetype/aenigma/snailets.ttf', u'cuomotype': u'/usr/share/fonts/truetype/larabie/cuomotyp.ttf', u'umpush': u'/usr/share/fonts/truetype/tlwg/Umpush-Light.ttf', u'primerapples': u'/usr/share/fonts/truetype/larabie/prima___.ttf', u'corpulentcapsbrk': u'/usr/share/fonts/truetype/aenigma/ccaps.ttf', u'fatboyslimbltc2brk': u'/usr/share/fonts/truetype/aenigma/fbsbltc2.ttf', u'angostura': u'/usr/share/fonts/truetype/larabie/angostur.ttf', u'umepgothico5': u'/usr/share/fonts/truetype/horai-umefont/ume-pgo5.ttf', u'edenmills': u'/usr/share/fonts/truetype/larabie/edenm___.ttf', u'dienasty': u'/usr/share/fonts/truetype/larabie/dienasty.ttf', u'liberationsansnarrow': u'/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Regular.ttf', u'adriator': u'/usr/share/fonts/truetype/larabie/adriator.ttf', u'kirsty': u'/usr/share/fonts/truetype/larabie/kirsty__.ttf', u'moronicmisfirebrk': u'/usr/share/fonts/truetype/aenigma/moronmis.ttf', u'hurontario': u'/usr/share/fonts/truetype/larabie/hurontar.ttf', u'jingopop': u'/usr/share/fonts/truetype/larabie/jingopop.ttf', u'euphorigenic': u'/usr/share/fonts/truetype/larabie/euphorig.ttf', u'abberancy': u'/usr/share/fonts/truetype/larabie/abberanc.ttf', u'obstaclelinesbrk': u'/usr/share/fonts/truetype/aenigma/obstacll.ttf', u'jsmathlasyb10': u'/usr/share/fonts/truetype/jsmath/jsMath-lasyb10.ttf', u'quillexperimentalobrk': u'/usr/share/fonts/truetype/aenigma/quillexo.ttf', u'budmojiggler': u'/usr/share/fonts/truetype/larabie/budmo.ttf', u'endlessshowroom': u'/usr/share/fonts/truetype/larabie/endless.ttf', u'zerotwos': u'/usr/share/fonts/truetype/larabie/zerotwos.ttf', u'vigilancebrk': u'/usr/share/fonts/truetype/aenigma/vigilanc.ttf', u'dastardlybrk': u'/usr/share/fonts/truetype/aenigma/dastardl.ttf', u'tiresiassignfontz': u'/usr/share/fonts/truetype/ttf-tiresias/tiresias_signfontz.ttf', u'bend2squaresol2brk': u'/usr/share/fonts/truetype/aenigma/b2sqol2.ttf', u'greenfuz': u'/usr/share/fonts/truetype/larabie/greenfuz.ttf', u'volatile1brk': u'/usr/share/fonts/truetype/aenigma/volatil1.ttf', u'edmundsdistressed': u'/usr/share/fonts/truetype/larabie/edmundis.ttf', u'okolakscondensed': u'/usr/share/fonts/truetype/okolaks/OkolaksCondensed.ttf', u'holysmokes': u'/usr/share/fonts/truetype/larabie/holysmok.ttf', u'berylium': u'/usr/share/fonts/truetype/larabie/berylium.ttf', u'eufm10': u'/usr/share/fonts/truetype/ttf-lyx/eufm10.ttf', u'gyparody': u'/usr/share/fonts/truetype/larabie/gyparody.ttf', u'ghostmeat': u'/usr/share/fonts/truetype/larabie/ghostmea.ttf', u'qlumpyshadowbrk': u'/usr/share/fonts/truetype/aenigma/qlumpysh.ttf', u'ungraphic': u'/usr/share/fonts/truetype/unfonts-core/UnGraphic.ttf', u'georgia': u'/usr/share/fonts/truetype/msttcorefonts/Georgia.ttf', u'americanparticipants': u'/usr/share/fonts/truetype/larabie/amerp___.ttf', u'topbond': u'/usr/share/fonts/truetype/larabie/topbond.ttf', u'bandwidthbrk': u'/usr/share/fonts/truetype/aenigma/bandwdth.ttf', u'yourcomplexibrk': u'/usr/share/fonts/truetype/aenigma/urcompi.ttf', u'winks': u'/usr/share/fonts/truetype/dustin/Winks.ttf', u'mapofyou': u'/usr/share/fonts/truetype/larabie/mapofyou.ttf', u'kacstfarsi': u'/usr/share/fonts/truetype/kacst/KacstFarsi.ttf', u'goosebumpsbrk': u'/usr/share/fonts/truetype/aenigma/gosebmps.ttf', u'scalelinesbrk': u'/usr/share/fonts/truetype/aenigma/scalines.ttf', u'mishmashalt2brk': u'/usr/share/fonts/truetype/aenigma/mimaalt2.ttf', u'greatheightsbrk': u'/usr/share/fonts/truetype/aenigma/gr8higts.ttf', u'weaverbrk': u'/usr/share/fonts/truetype/aenigma/weaver.ttf', u'esint10': u'/usr/share/fonts/truetype/ttf-lyx/esint10.ttf', u'wenquanyimicrohei': u'/usr/share/fonts/truetype/wqy/wqy-microhei.ttc', u'brigadoomwidebrk': u'/usr/share/fonts/truetype/aenigma/brigadow.ttf', u'elabogadoloco': u'/usr/share/fonts/truetype/dustin/El_Abogado_Loco.ttf', u'handmedownobrk': u'/usr/share/fonts/truetype/aenigma/handmedo.ttf', u'jsmathcmss10': u'/usr/share/fonts/truetype/jsmath/jsMath-cmss10.ttf', u'naftalene': u'/usr/share/fonts/truetype/larabie/nafta.ttf', u'aegean': u'/usr/share/fonts/truetype/ttf-ancient-scripts/Aegean600.ttf', u'vipnagorgialla': u'/usr/share/fonts/truetype/larabie/vipnagor.ttf', u'amalgamatebrk': u'/usr/share/fonts/truetype/aenigma/amalgama.ttf', u'1015saturdaynightrbrk': u'/usr/share/fonts/truetype/aenigma/1015snr.ttf', u'spaciousbrk': u'/usr/share/fonts/truetype/aenigma/spacious.ttf', u'ellhnikh': u'/usr/share/fonts/truetype/linex/ellenike.ttf', u'swirledbrk': u'/usr/share/fonts/truetype/aenigma/Swirled2.ttf', u'yourcomplexbrk': u'/usr/share/fonts/truetype/aenigma/yourcomp.ttf', u'mysteronsbrk': u'/usr/share/fonts/truetype/aenigma/mysteron.ttf', u'forgottenfuturistshadow': u'/usr/share/fonts/truetype/larabie/forgotts.ttf', u'sidewaysbrk': u'/usr/share/fonts/truetype/aenigma/sideways.ttf', u'bobcaygeonplainbrk': u'/usr/share/fonts/truetype/aenigma/bobcaygr.ttf', u'jsmatheusm10': u'/usr/share/fonts/truetype/jsmath/jsMath-eusm10.ttf', u'chr32': u'/usr/share/fonts/truetype/larabie/chr32.ttf', u'atarismallcondensed': u'/usr/share/fonts/truetype/ttf-atarismall/AtariSmallCondensed.ttf', u'edgewater': u'/usr/share/fonts/truetype/larabie/edgewate.ttf', u'genotypehbrk': u'/usr/share/fonts/truetype/aenigma/genotyph.ttf', u'cleavedttrbrk': u'/usr/share/fonts/truetype/aenigma/cleavttr.ttf', u'unsteadyoversteer': u'/usr/share/fonts/truetype/larabie/unsteady.ttf', u'ramblingbrk': u'/usr/share/fonts/truetype/aenigma/rambling.ttf', u'xmaslightsbrk': u'/usr/share/fonts/truetype/aenigma/xmaslght.ttf', u'waywardshadowbrk': u'/usr/share/fonts/truetype/aenigma/waywards.ttf', u'baileyscar': u'/usr/share/fonts/truetype/larabie/baileysc.ttf', u'arplumingtw': u'/usr/share/fonts/truetype/arphic/uming.ttc', u'triacseventyone': u'/usr/share/fonts/truetype/larabie/triacsev.ttf', u'umeuigothic': u'/usr/share/fonts/truetype/horai-umefont/ume-ugo4.ttf', u'quantumroundhollowbrk': u'/usr/share/fonts/truetype/aenigma/quantrh.ttf', u'fasciibrk': u'/usr/share/fonts/truetype/aenigma/fascii.ttf', u'telephasicbrk': u'/usr/share/fonts/truetype/aenigma/telephas.ttf', u'essays1743': u'/usr/share/fonts/truetype/ttf-essays/Essays1743.ttf', u'vertigo2brk': u'/usr/share/fonts/truetype/aenigma/vertigo2.ttf', u'jsmatheurm10': u'/usr/share/fonts/truetype/jsmath/jsMath-eurm10.ttf', u'dirtybakersdozen': u'/usr/share/fonts/truetype/larabie/dirtydoz.ttf', u'monofonto': u'/usr/share/fonts/truetype/larabie/monofont.ttf', u'queasyoutlinebrk': u'/usr/share/fonts/truetype/aenigma/queasyol.ttf', u'paraaminobenzoic': u'/usr/share/fonts/truetype/larabie/paraamin.ttf', u'inktankbrk': u'/usr/share/fonts/truetype/aenigma/inktank.ttf', u'mgopencanonica': u'/usr/share/fonts/truetype/mgopen/MgOpenCanonicaRegular.ttf', u'jsmathlasy10': u'/usr/share/fonts/truetype/jsmath/jsMath-lasy10.ttf', u'commerciality': u'/usr/share/fonts/truetype/larabie/commlity.ttf', u'ecoliercourt': u'/usr/share/fonts/truetype/ecolier-court/Ecolier-court.ttf', u'hookedonbooze': u'/usr/share/fonts/truetype/larabie/hookedon.ttf', u'collectiverobrk': u'/usr/share/fonts/truetype/aenigma/collecro.ttf', u'bleaksegmentsbrk': u'/usr/share/fonts/truetype/aenigma/bleakseg.ttf', u'kacstone': u'/usr/share/fonts/truetype/kacst-one/KacstOne.ttf', u'grazebrk': u'/usr/share/fonts/truetype/aenigma/graze.ttf', u'johnnymacscrawlbrk': u'/usr/share/fonts/truetype/aenigma/jmacscrl.ttf', u'grudgebrk': u'/usr/share/fonts/truetype/aenigma/grudge.ttf', u'untitled1': u'/usr/share/fonts/truetype/freefont/Untitled1.ttf', u'heavybevelbrk': u'/usr/share/fonts/truetype/aenigma/hbevel.ttf', u'iomanoid': u'/usr/share/fonts/truetype/larabie/iomanoid.ttf', u'unifont': u'/usr/share/fonts/truetype/unifont/unifont.ttf', u'echeloncondensed': u'/usr/share/fonts/truetype/larabie/echec___.ttf', u'manchu': u'/usr/share/fonts/truetype/manchufont/ManchuFont.ttf', u'entangledbrk': u'/usr/share/fonts/truetype/aenigma/entangle.ttf', u'grotesquebrk': u'/usr/share/fonts/truetype/aenigma/grotesq.ttf', u'forgottenfuturistrotten': u'/usr/share/fonts/truetype/larabie/forgottr.ttf', u'nanummyeongjo': u'/usr/share/fonts/truetype/nanum/NanumMyeongjo.ttf', u'revertroundbrk': u'/usr/share/fonts/truetype/aenigma/revertro.ttf', u'flipsidebrk': u'/usr/share/fonts/truetype/aenigma/flipside.ttf', u'bitstreamveraserif': u'/usr/share/fonts/truetype/ttf-bitstream-vera/VeraSe.ttf', u'lunasol': u'/usr/share/fonts/truetype/larabie/lunasol.ttf', u'hydebrk': u'/usr/share/fonts/truetype/aenigma/hyde.ttf', u'quantumflathollowbrk': u'/usr/share/fonts/truetype/aenigma/quantfh.ttf', u'mexcellent': u'/usr/share/fonts/truetype/larabie/mexcelle.ttf', u'vanishedbrk': u'/usr/share/fonts/truetype/aenigma/vanished.ttf', u'ataxiabrk': u'/usr/share/fonts/truetype/aenigma/ataxia.ttf', u'abecedariopunteada': u'/usr/share/fonts/truetype/linex/AbecedarioPuntos.ttf', u'falsepositiveroundbrk': u'/usr/share/fonts/truetype/aenigma/falsposr.ttf', u'baveuse': u'/usr/share/fonts/truetype/larabie/baveuse.ttf', u'birdlandaeroplane': u'/usr/share/fonts/truetype/larabie/birdland.ttf', u'circulatebrk': u'/usr/share/fonts/truetype/aenigma/circulat.ttf', u'lakeshorebrk': u'/usr/share/fonts/truetype/aenigma/lakeshor.ttf', u'jeopardizebrk': u'/usr/share/fonts/truetype/aenigma/jeopardi.ttf', u'hippyparticipants': u'/usr/share/fonts/truetype/larabie/hippp___.ttf', u'quixotic': u'/usr/share/fonts/truetype/larabie/quixotic.ttf', u'kacstletter': u'/usr/share/fonts/truetype/kacst/KacstLetter.ttf', u'gravitatebrk': u'/usr/share/fonts/truetype/aenigma/gravitat.ttf', u'emeritalatina': u'/usr/share/fonts/truetype/linex/emerita_latina.ttf', u'dejavuserif': u'/usr/share/fonts/truetype/ttf-dejavu/DejaVuSerifCondensed.ttf', u'roughdaybrk': u'/usr/share/fonts/truetype/aenigma/roughday.ttf', u'binarybrk': u'/usr/share/fonts/truetype/aenigma/binaryt.ttf', u'burnstowndam': u'/usr/share/fonts/truetype/larabie/burnstow.ttf', u'bocumaanglebrk': u'/usr/share/fonts/truetype/aenigma/bocumang.ttf', u'upraisebrk': u'/usr/share/fonts/truetype/aenigma/upraise.ttf', u'isabella': u'/usr/share/fonts/truetype/ttf-isabella/Isabella.ttf', u'trollbait': u'/usr/share/fonts/truetype/larabie/trollbai.ttf', u'butterbelly': u'/usr/share/fonts/truetype/larabie/butterbe.ttf', u'goodtimes': u'/usr/share/fonts/truetype/larabie/goodtime.ttf', u'combustionibrk': u'/usr/share/fonts/truetype/aenigma/combusti.ttf', u'lamebrainbrk': u'/usr/share/fonts/truetype/aenigma/lamebrai.ttf', u'sadfilms': u'/usr/share/fonts/truetype/larabie/sadfilms.ttf', u'quantumflatbrk': u'/usr/share/fonts/truetype/aenigma/quantflt.ttf', u'cmsy10': u'/usr/share/fonts/truetype/ttf-lyx/cmsy10.ttf', u'gentiumbasic': u'/usr/share/fonts/truetype/gentium-basic/GenBasR.ttf', u'strandedbrk': u'/usr/share/fonts/truetype/aenigma/Strande2.ttf', u'venusrising': u'/usr/share/fonts/truetype/larabie/venusris.ttf', u'chemicalreactionbbrk': u'/usr/share/fonts/truetype/aenigma/chemreb.ttf', u'rekha': u'/usr/share/fonts/truetype/ttf-indic-fonts-core/Rekha.ttf', u'hebrewparticipants': u'/usr/share/fonts/truetype/larabie/hebrp___.ttf', u'sarcasticbrk': u'/usr/share/fonts/truetype/aenigma/sarcasti.ttf', u'operationalamplifier': u'/usr/share/fonts/truetype/larabie/operatio.ttf', u'ori1uni': u'/usr/share/fonts/truetype/ttf-indic-fonts-core/utkal.ttf', u'itlivesintheswampbrk': u'/usr/share/fonts/truetype/aenigma/ilits.ttf', u'jara': u'/usr/share/fonts/truetype/linex/Jara.ttf', u'guseul': u'/usr/share/fonts/truetype/alee/Guseul.ttf', u'terylenetop': u'/usr/share/fonts/truetype/larabie/terylene.ttf', u'aircut': u'/usr/share/fonts/truetype/larabie/aircut.ttf', u'guanine': u'/usr/share/fonts/truetype/larabie/guanine_.ttf', u'ipaphonetics': u'/usr/share/fonts/truetype/linex/iparegul.ttf', u'tuffy': u'/usr/share/fonts/truetype/ttf-tuffy/tuffy_regular.ttf', u'nanosecondthickbrk': u'/usr/share/fonts/truetype/aenigma/nsecthck.ttf', u'bpgunicodestandard': u'/usr/share/fonts/truetype/fonts-bpg-georgian/BPG_Unicode_Standard.ttf', u'yonderrecoil': u'/usr/share/fonts/truetype/larabie/yonderre.ttf', u'jsmatheusb10': u'/usr/share/fonts/truetype/jsmath/jsMath-eusb10.ttf', u'gynericbrk': u'/usr/share/fonts/truetype/aenigma/gyneric.ttf', u'huskystash': u'/usr/share/fonts/truetype/larabie/huskysta.ttf', u'ungungseo': u'/usr/share/fonts/truetype/unfonts-core/UnGungseo.ttf', u'redundantbrk': u'/usr/share/fonts/truetype/aenigma/redundan.ttf', u'walshesoutline': u'/usr/share/fonts/truetype/larabie/walsheso.ttf', u'maya': u'/usr/share/fonts/truetype/ttf-ancient-scripts/Maya106.ttf', u'elsewherebrk': u'/usr/share/fonts/truetype/aenigma/elsewher.ttf', u'mobilizebrk': u'/usr/share/fonts/truetype/aenigma/mobilize.ttf', u'rehearsaloffsetbrk': u'/usr/share/fonts/truetype/aenigma/rehearso.ttf', u'canadianparticipants': u'/usr/share/fonts/truetype/larabie/canap___.ttf', u'airmole': u'/usr/share/fonts/truetype/larabie/airmole.ttf', u'skeletorstance': u'/usr/share/fonts/truetype/larabie/skeletor.ttf', u'tiresiasinfofont': u'/usr/share/fonts/truetype/ttf-tiresias/tiresias_infofont.ttf', u'90starsbrk': u'/usr/share/fonts/truetype/aenigma/90stars.ttf', u'codeoflifebrk': u'/usr/share/fonts/truetype/aenigma/codelife.ttf', u'electorateblue': u'/usr/share/fonts/truetype/larabie/electblu.ttf', u'dblayer1brk': u'/usr/share/fonts/truetype/aenigma/dblayer1.ttf', u'zekton': u'/usr/share/fonts/truetype/larabie/zekton__.ttf', u'abandonedbitplane': u'/usr/share/fonts/truetype/larabie/abandone.ttf', u'umegothics5': u'/usr/share/fonts/truetype/horai-umefont/ume-tgs5.ttf', u'mailraystuff': u'/usr/share/fonts/truetype/larabie/mailrays.ttf', u'moldpapa': u'/usr/share/fonts/truetype/larabie/moldpapa.ttf', u'tiresiasinfofontz': u'/usr/share/fonts/truetype/ttf-tiresias/tiresias_infofontz.ttf', u'creditriver': u'/usr/share/fonts/truetype/larabie/creditri.ttf', u'tobintax': u'/usr/share/fonts/truetype/larabie/tobintax.ttf', u'zerothrees': u'/usr/share/fonts/truetype/larabie/zerothre.ttf', u'subpear': u'/usr/share/fonts/truetype/larabie/subpear_.ttf', u'minyanouvelle': u'/usr/share/fonts/truetype/larabie/minyn___.ttf', u'gyrosesqueezebrk': u'/usr/share/fonts/truetype/aenigma/gyrosesq.ttf', u'zrnic': u'/usr/share/fonts/truetype/larabie/zrnic___.ttf', u'mgopenmodata': u'/usr/share/fonts/truetype/mgopen/MgOpenModataRegular.ttf', u'entangledlayerabrk': u'/usr/share/fonts/truetype/aenigma/entlayra.ttf', u'quinine': u'/usr/share/fonts/truetype/larabie/quinine.ttf', u'dkghandwriting': u'/usr/share/fonts/truetype/fifthhorseman/dkg.ttf', u'unexploredgalaxiesbrk': u'/usr/share/fonts/truetype/aenigma/Unxgala.ttf', u'variancebrk': u'/usr/share/fonts/truetype/aenigma/variance.ttf', u'claw1brk': u'/usr/share/fonts/truetype/aenigma/claw1.ttf', u'planetbenson2': u'/usr/share/fonts/truetype/larabie/planetbe.ttf', u'jaggedbrk': u'/usr/share/fonts/truetype/aenigma/jagged.ttf', u'undotum': u'/usr/share/fonts/truetype/unfonts-core/UnDotum.ttf', u'spongy': u'/usr/share/fonts/truetype/larabie/spongy.ttf', u'weatheredsolidbrk': u'/usr/share/fonts/truetype/aenigma/weathers.ttf', u'kacstscreen': u'/usr/share/fonts/truetype/kacst/KacstScreen.ttf', u'bocumaangledentbrk': u'/usr/share/fonts/truetype/aenigma/bocumaad.ttf', u'quadraticcalbrk': u'/usr/share/fonts/truetype/aenigma/quadrcal.ttf', u'hemihead426': u'/usr/share/fonts/truetype/larabie/hemihead.ttf', u'relapsebrk': u'/usr/share/fonts/truetype/aenigma/relapse.ttf', u'oliversbarney': u'/usr/share/fonts/truetype/larabie/oliversb.ttf', u'blackoninautbrk': u'/usr/share/fonts/truetype/aenigma/blackoni.ttf', u'fielddayfilter': u'/usr/share/fonts/truetype/larabie/fieldday.ttf', u'nanosecondwidebrk': u'/usr/share/fonts/truetype/aenigma/nanosecw.ttf', u'siliconcarne': u'/usr/share/fonts/truetype/larabie/siliconc.ttf', u'okolaks': u'/usr/share/fonts/truetype/okolaks/Okolaks.ttf', u'carbonblock': u'/usr/share/fonts/truetype/larabie/carbonbl.ttf', u'aspartamebrk': u'/usr/share/fonts/truetype/aenigma/aspartam.ttf', u'penguinattack': u'/usr/share/fonts/truetype/dustin/PenguinAttack.ttf', u'unlearnedbrk': u'/usr/share/fonts/truetype/aenigma/unlearne.ttf', u'stereofidelic': u'/usr/share/fonts/truetype/larabie/stereofi.ttf', u'eyerhyme': u'/usr/share/fonts/truetype/larabie/eyerhyme.ttf', u'phorfeitregularbrk': u'/usr/share/fonts/truetype/aenigma/phorfeir.ttf', u'whitelake': u'/usr/share/fonts/truetype/larabie/whitelak.ttf', u'umepgothic': u'/usr/share/fonts/truetype/horai-umefont/ume-pgo4.ttf', u'shiftychica': u'/usr/share/fonts/truetype/larabie/shifty.ttf', u'gesturethinslantbrk': u'/usr/share/fonts/truetype/aenigma/gesturts.ttf', u'jsmatheurb10': u'/usr/share/fonts/truetype/jsmath/jsMath-eurb10.ttf', u'nigmascrawl4brk': u'/usr/share/fonts/truetype/aenigma/aescrawl.ttf', u'airmoleshaded': u'/usr/share/fonts/truetype/larabie/airmoles.ttf', u'turmoilbrk': u'/usr/share/fonts/truetype/aenigma/turmoil.ttf', u'nasal': u'/usr/share/fonts/truetype/larabie/nasal.ttf', u'malachecrunch': u'/usr/share/fonts/truetype/larabie/malache.ttf', u'andalemono': u'/usr/share/fonts/truetype/msttcorefonts/andalemo.ttf', u'macropsiabrk': u'/usr/share/fonts/truetype/aenigma/macropsi.ttf', u'offkilterrbrk': u'/usr/share/fonts/truetype/aenigma/offkiltr.ttf', u'pixelkrudbrk': u'/usr/share/fonts/truetype/aenigma/pixlkrud.ttf', u'bluehighwaylinocut': u'/usr/share/fonts/truetype/larabie/bluehigl.ttf', u'kacstoffice': u'/usr/share/fonts/truetype/kacst/KacstOffice.ttf', u'jsmatheufm10': u'/usr/share/fonts/truetype/jsmath/jsMath-eufm10.ttf', u'blackoninautreduxbrk': u'/usr/share/fonts/truetype/aenigma/blonirex.ttf', u'balker': u'/usr/share/fonts/truetype/dustin/Balker.ttf', u'fadgod': u'/usr/share/fonts/truetype/larabie/fadgod.ttf', u'staypuft': u'/usr/share/fonts/truetype/ttf-staypuft/StayPuft.ttf', u'frenchparticipants': u'/usr/share/fonts/truetype/larabie/frenp___.ttf', u'bitstreamverasansmono': u'/home/pallier/.fonts/VeraMono.ttf', u'zurklezsolidbrk': u'/usr/share/fonts/truetype/aenigma/zurklezs.ttf', u'flatline': u'/usr/share/fonts/truetype/dustin/flatline.ttf', u'gravitatesegmentsbrk': u'/usr/share/fonts/truetype/aenigma/graviseg.ttf', u'dashdotbrk': u'/usr/share/fonts/truetype/aenigma/dashdot.ttf', u'bandal': u'/usr/share/fonts/truetype/alee/Bandal.ttf', u'genotyperhbrk': u'/usr/share/fonts/truetype/aenigma/genotyrh.ttf', u'gatherbrk': u'/usr/share/fonts/truetype/aenigma/gather.ttf', u'spaciousoutlinebrk': u'/usr/share/fonts/truetype/aenigma/spaciouo.ttf', u'sudburybasin3d': u'/usr/share/fonts/truetype/larabie/sudbury3.ttf', u'soulmama': u'/usr/share/fonts/truetype/larabie/soulmama.ttf', u'spheroidsxbrk': u'/usr/share/fonts/truetype/aenigma/spheroix.ttf', u'purisa': u'/usr/share/fonts/truetype/tlwg/Purisa.ttf', u'balconyangels': u'/usr/share/fonts/truetype/larabie/balconya.ttf', u'marqueemoon': u'/usr/share/fonts/truetype/larabie/marqueem.ttf', u'unexploredgalaxiesobrk': u'/usr/share/fonts/truetype/aenigma/Unxgalo.ttf', u'aftermathbrk': u'/usr/share/fonts/truetype/aenigma/aftermat.ttf', u'underscorebrk': u'/usr/share/fonts/truetype/aenigma/underscr.ttf', u'pobeef': u'/usr/share/fonts/truetype/larabie/pobeef.ttf', u'mishmashalt1brk': u'/usr/share/fonts/truetype/aenigma/mimaalt1.ttf', u'msam10': u'/usr/share/fonts/truetype/ttf-lyx/msam10.ttf', u'tofu': u'/usr/share/fonts/truetype/larabie/tofu.ttf', u'paintboy': u'/usr/share/fonts/truetype/larabie/paintboy.ttf', u'trebuchetms': u'/usr/share/fonts/truetype/msttcorefonts/Trebuchet_MS.ttf', u'pastorofmuppets': u'/usr/share/fonts/truetype/larabie/pastorof.ttf', u'mufferaw': u'/usr/share/fonts/truetype/larabie/mufferaw.ttf', u'cmr10': u'/usr/share/fonts/truetype/ttf-lyx/cmr10.ttf', u'entangledplainbrk': u'/usr/share/fonts/truetype/aenigma/entplain.ttf', u'bangwool': u'/usr/share/fonts/truetype/alee/Bangwool.ttf', u'lohitgujarati': u'/usr/share/fonts/truetype/ttf-indic-fonts-core/lohit_gu.ttf', u'heartsbrk': u'/usr/share/fonts/truetype/aenigma/hearts.ttf', u'regeneratebrk': u'/usr/share/fonts/truetype/aenigma/regenera.ttf', u'arplukaicn': u'/usr/share/fonts/truetype/arphic/ukai.ttc', u'outrighttelevism': u'/usr/share/fonts/truetype/larabie/outright.ttf', u'jsmathcmsy10': u'/usr/share/fonts/truetype/jsmath/jsMath-cmsy10.ttf', u'pindownxplainbrk': u'/usr/share/fonts/truetype/aenigma/pindwnxp.ttf', u'jsmathmsam10': u'/usr/share/fonts/truetype/jsmath/jsMath-msam10.ttf', u'atarismalllight': u'/usr/share/fonts/truetype/ttf-atarismall/AtariSmallLight.ttf', u'pricedown': u'/usr/share/fonts/truetype/larabie/pricedow.ttf', u'splatzbrk': u'/usr/share/fonts/truetype/aenigma/Splatz2.ttf', u'queasybrk': u'/usr/share/fonts/truetype/aenigma/queasy.ttf', u'wenquanyizenhei': u'/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc', u'bocumadentbrk': u'/usr/share/fonts/truetype/aenigma/bocumade.ttf', u'withstandbrk': u'/usr/share/fonts/truetype/aenigma/withstan.ttf', u'outersiderbrk': u'/usr/share/fonts/truetype/aenigma/outersid.ttf', u'stupefaction': u'/usr/share/fonts/truetype/larabie/stupefac.ttf', u'suprageniuscurvesbrk': u'/usr/share/fonts/truetype/aenigma/supragc.ttf', u'lettersetb': u'/usr/share/fonts/truetype/larabie/letterb.ttf', u'lettersetc': u'/usr/share/fonts/truetype/larabie/letterc.ttf', u'letterseta': u'/usr/share/fonts/truetype/larabie/lettera.ttf', u'bewilderbrk': u'/usr/share/fonts/truetype/aenigma/bewilder.ttf', u'misirlou': u'/usr/share/fonts/truetype/larabie/misirlou.ttf', u'larabiefont': u'/usr/share/fonts/truetype/larabie/larabief.ttf', u'inertiabrk': u'/usr/share/fonts/truetype/aenigma/inertia.ttf', u'foreshadowbrk': u'/usr/share/fonts/truetype/aenigma/4shadow.ttf', u'walshes': u'/usr/share/fonts/truetype/larabie/walshes.ttf', u'lyneousbrk': u'/usr/share/fonts/truetype/aenigma/lyneous.ttf', u'quantity': u'/usr/share/fonts/truetype/larabie/quantity.ttf', u'automaticabrk': u'/usr/share/fonts/truetype/aenigma/automati.ttf', u'portcredit': u'/usr/share/fonts/truetype/larabie/portcred.ttf', u'combustiontallbrk': u'/usr/share/fonts/truetype/aenigma/combustt.ttf', u'intersectobrk': u'/usr/share/fonts/truetype/aenigma/interso.ttf', u'johnnyfever': u'/usr/share/fonts/truetype/larabie/johnnyfe.ttf', u'lunaeclipsed': u'/usr/share/fonts/truetype/larabie/luneclps.ttf', u'presidentgas': u'/usr/share/fonts/truetype/larabie/presgrg.ttf', u'strenuous': u'/usr/share/fonts/truetype/larabie/strenuou.ttf', u'wagerwonbrk': u'/usr/share/fonts/truetype/aenigma/wagerwon.ttf', u'ravenouscaterpillarbrk': u'/usr/share/fonts/truetype/aenigma/ravcater.ttf', u'gestureslantbrk': u'/usr/share/fonts/truetype/aenigma/gestures.ttf', u'zeldadxttbrk': u'/usr/share/fonts/truetype/aenigma/zeldadxt.ttf', u'embargo': u'/usr/share/fonts/truetype/larabie/embargo.ttf', u'raydiatebrk': u'/usr/share/fonts/truetype/aenigma/raydiat2.ttf', u'sloeginrickey': u'/usr/share/fonts/truetype/larabie/sloegin.ttf', u'radissans': u'/usr/share/fonts/truetype/ttf-radisnoir/RadisSans-medium.ttf', u'goudybookletter1911italic': u'/usr/share/fonts/sortsmill/GoudyBookletter1911Italic.ttf', u'rotundbrk': u'/usr/share/fonts/truetype/aenigma/rotund.ttf', u'ocracondensed': u'/usr/share/fonts/truetype/ocr-a/OCRACondensed.ttf', u'chickenwirelady': u'/usr/share/fonts/truetype/larabie/chickenw.ttf', u'jsmathcmbx10': u'/usr/share/fonts/truetype/jsmath/jsMath-cmbx10.ttf', u'technooverloadbrk': u'/usr/share/fonts/truetype/aenigma/techover.ttf', u'lohittamil': u'/usr/share/fonts/truetype/ttf-indic-fonts-core/lohit_ta.ttf', u'ubuntumono': u'/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-R.ttf', u'crackdownrbrk': u'/usr/share/fonts/truetype/aenigma/crkdownr.ttf', u'rustproofbody': u'/usr/share/fonts/truetype/larabie/rustproo.ttf', u'kurvaturebrk': u'/usr/share/fonts/truetype/aenigma/kurvatur.ttf', u'eclipticbrk': u'/usr/share/fonts/truetype/aenigma/ecliptic.ttf', u'liberationmono': u'/usr/share/fonts/truetype/liberation/LiberationMono-Regular.ttf', u'mississauga': u'/usr/share/fonts/truetype/larabie/mississa.ttf', u'gentium': u'/usr/share/fonts/truetype/gentium/GenR102.ttf', u'kacsttitlel': u'/usr/share/fonts/truetype/kacst/KacstTitleL.ttf', u'tlwgtypo': u'/usr/share/fonts/truetype/tlwg/TlwgTypo.ttf', u'interplanetarycrap': u'/usr/share/fonts/truetype/larabie/interpla.ttf', u'wenquanyimicroheimono': u'/usr/share/fonts/truetype/wqy/wqy-microhei.ttc', u'omheads': u'/home/pallier/.fonts/omheads.ttf', u'bitingmynails': u'/usr/share/fonts/truetype/larabie/biting.ttf', u'umegothicc5': u'/usr/share/fonts/truetype/horai-umefont/ume-tgc5.ttf', u'umegothicc4': u'/usr/share/fonts/truetype/horai-umefont/ume-tgc4.ttf', u'wyvernwingswydebrk': u'/usr/share/fonts/truetype/aenigma/wyvernww.ttf', u'quillexperimentalsbrk': u'/usr/share/fonts/truetype/aenigma/quillexs.ttf', u'mishmash4x4ibrk': u'/usr/share/fonts/truetype/aenigma/mima4x4i.ttf', u'okolaksitaliccondensed': u'/usr/share/fonts/truetype/okolaks/OkolaksItalicCondensed.ttf', u'firstblind': u'/usr/share/fonts/truetype/larabie/firstbli.ttf', u'persuasionbrk': u'/usr/share/fonts/truetype/aenigma/persuasi.ttf', u'suigeneris': u'/usr/share/fonts/truetype/larabie/suigener.ttf', u'rotundoutlinebrk': u'/usr/share/fonts/truetype/aenigma/rotundo.ttf', u'squareroutebrk': u'/usr/share/fonts/truetype/aenigma/sqroute.ttf', u'electorateboogie': u'/usr/share/fonts/truetype/larabie/electbgi.ttf', u'pindownxbrk': u'/usr/share/fonts/truetype/aenigma/pindwnx.ttf', u'bumpedbrk': u'/usr/share/fonts/truetype/aenigma/bumped.ttf', u'angosturablack': u'/usr/share/fonts/truetype/larabie/angostub.ttf', u'grapplebrk': u'/usr/share/fonts/truetype/aenigma/grapple.ttf', u'classictrash2brk': u'/usr/share/fonts/truetype/aenigma/clasict2.ttf', u'jsmathcmex10': u'/usr/share/fonts/truetype/jsmath/jsMath-cmex10.ttf', u'chemicalreactionabrk': u'/usr/share/fonts/truetype/aenigma/chemrea.ttf', u'radiostars': u'/usr/share/fonts/truetype/larabie/radiosta.ttf', u'dblayer4brk': u'/usr/share/fonts/truetype/aenigma/dblayer4.ttf', u'keyridgebrk': u'/usr/share/fonts/truetype/aenigma/keyridge.ttf', u'yieldingbrk': u'/usr/share/fonts/truetype/aenigma/yielding.ttf', u'plaincred': u'/usr/share/fonts/truetype/larabie/plaincre.ttf', u'powderworksbrk': u'/usr/share/fonts/truetype/aenigma/powdwrk5.ttf', u'wasy10': u'/usr/share/fonts/truetype/ttf-lyx/wasy10.ttf', u'homespunttbrk': u'/usr/share/fonts/truetype/aenigma/homespun.ttf', u'collectiveobrk': u'/usr/share/fonts/truetype/aenigma/collecto.ttf', u'binarychrbrk': u'/usr/share/fonts/truetype/aenigma/binchrt.ttf', u'bluehighwaycondensed': u'/usr/share/fonts/truetype/larabie/bluecond.ttf', u'waverbrk': u'/usr/share/fonts/truetype/aenigma/waver.ttf', u'gunplay': u'/usr/share/fonts/truetype/larabie/gunplay.ttf', u'umemincho': u'/usr/share/fonts/truetype/horai-umefont/ume-tmo3.ttf', u'xipitalbrk': u'/usr/share/fonts/truetype/aenigma/xipital.ttf', u'crackdownr2brk': u'/usr/share/fonts/truetype/aenigma/crackdr2.ttf', u'bandwidthbandlessbrk': u'/usr/share/fonts/truetype/aenigma/bandless.ttf', u'massiveretaliation': u'/usr/share/fonts/truetype/larabie/massiver.ttf', u'bitblocksttfbrk': u'/usr/share/fonts/truetype/aenigma/bitbttf.ttf', u'cmex10': u'/usr/share/fonts/truetype/ttf-lyx/cmex10.ttf', u'kaliberxtremebrk': u'/usr/share/fonts/truetype/aenigma/kaliberx.ttf', u'obstaclebrk': u'/usr/share/fonts/truetype/aenigma/obstacle.ttf', u'zektondots': u'/usr/share/fonts/truetype/larabie/zektondo.ttf', u'8bitlimitrobrk': u'/usr/share/fonts/truetype/aenigma/8blimro.ttf', u'radiationparticipants': u'/usr/share/fonts/truetype/larabie/radip___.ttf', u'webdings': u'/usr/share/fonts/truetype/msttcorefonts/Webdings.ttf', u'konectoreeriebrk': u'/usr/share/fonts/truetype/aenigma/koneerie.ttf', u'vacantcapzbrk': u'/usr/share/fonts/truetype/aenigma/vacantz.ttf', u'pulsestate': u'/usr/share/fonts/truetype/larabie/pulsesta.ttf', u'wagerbrk': u'/usr/share/fonts/truetype/aenigma/wager.ttf', u'upheavalttbrk': u'/usr/share/fonts/truetype/aenigma/upheavtt.ttf', u'unioncityblue': u'/usr/share/fonts/truetype/larabie/unioncit.ttf', u'stompzeroes': u'/usr/share/fonts/truetype/larabie/zeroes__.ttf', u'xolto': u'/usr/share/fonts/truetype/larabie/xolto.ttf', u'razorkeen': u'/usr/share/fonts/truetype/larabie/razorkee.ttf', u'eunjinnakseo': u'/usr/share/fonts/truetype/alee/EunjinNakseo.ttf', u'lowdownbrk': u'/usr/share/fonts/truetype/aenigma/lowdown.ttf', u'sequencebrk': u'/usr/share/fonts/truetype/aenigma/sequence.ttf', u'1015saturdaynightbrk': u'/usr/share/fonts/truetype/aenigma/1015sn.ttf'}"
+5709,stdout,received,'(196, 29)'
+5714,stdout,received,'(266, 29)'
+5718,stdout,received,'(210, 29)'
+5720,stdout,received,'(196, 29)'
+5721,stdout,received,'(196, 29)'
+5723,stdout,received,'(196, 29)'
+5724,stdout,received,'(252, 29)'
+5725,stdout,received,'(196, 29)'
+5727,stdout,received,'(111, 29)'
+5728,stdout,received,'(196, 29)'
+5729,stdout,received,'(294, 29)'
+5731,stdout,received,'(252, 29)'
+5732,stdout,received,'(140, 29)'
+5733,stdout,received,'(252, 29)'
+5735,stdout,received,'(167, 29)'
+5736,stdout,received,'(153, 29)'
+5737,stdout,received,'(279, 29)'
+5739,stdout,received,'(224, 29)'
+5740,stdout,received,'(181, 29)'
+5741,stdout,received,'(225, 29)'
+5743,stdout,received,'(252, 29)'
+5744,stdout,received,'(209, 29)'
+5746,stdout,received,'(167, 29)'
+5747,stdout,received,'(223, 29)'
+5749,stdout,received,'(237, 29)'
+5750,stdout,received,'(154, 29)'
+5751,stdout,received,'(196, 29)'
+5753,stdout,received,'(224, 29)'
+5754,stdout,received,'(210, 29)'
+5756,stdout,received,'(252, 29)'
+5757,stdout,received,'(140, 29)'
+5758,stdout,received,'(168, 29)'
+5760,stdout,received,'(196, 29)'
+5761,stdout,received,'(167, 29)'
+5762,stdout,received,'(140, 29)'
+5764,stdout,received,'(112, 29)'
+5765,stdout,received,'(196, 29)'
+5766,stdout,received,'(140, 29)'
+5768,stdout,received,'(252, 29)'
+5769,stdout,received,'(238, 29)'
+5771,stdout,received,'(224, 29)'
+5772,stdout,received,'(252, 29)'
+5773,stdout,received,'(210, 29)'
+5775,stdout,received,'(168, 29)'
+5776,stdout,received,'(126, 29)'
+5777,stdout,received,'(154, 29)'
+5779,stdout,received,'(238, 29)'
+5780,stdout,received,'(111, 29)'
+5781,stdout,received,'(140, 29)'
+5782,stdout,received,'(195, 29)'
+5784,stdout,received,'(168, 29)'
+5785,stdout,received,'(252, 29)'
+5786,stdout,received,'(126, 29)'
+5788,stdout,received,'(224, 29)'
+5789,stdout,received,'(210, 29)'
+5790,stdout,received,'(154, 29)'
+5792,stdout,received,'(266, 29)'
+5793,stdout,received,'(251, 29)'
+5795,stdout,received,'(223, 29)'
+5796,stdout,received,'(196, 29)'
+5797,stdout,received,'(111, 29)'
+5799,stdout,received,'(224, 29)'
+5800,stdout,received,'(154, 29)'
+5801,stdout,received,'(154, 29)'
+5803,stdout,received,'(238, 29)'
+5804,stdout,received,'(181, 29)'
+5805,stdout,received,'(252, 29)'
+5807,stdout,received,'(210, 29)'
+5808,stdout,received,'(266, 29)'
+5810,stdout,received,'(294, 29)'
+5811,stdout,received,'(111, 29)'
+5812,stdout,received,'(196, 29)'
+5814,stdout,received,'(252, 29)'
+5815,stdout,received,'(224, 29)'
+5817,stdout,received,'(252, 29)'
+5819,stdout,received,'(266, 29)'
+5820,stdout,received,'(182, 29)'
+5822,stdout,received,'(196, 29)'
+5823,stdout,received,'(238, 29)'
+5824,stdout,received,'(266, 29)'
+5826,stdout,received,'(182, 29)'
+5827,stdout,received,'(266, 29)'
+5829,stdout,received,'(308, 29)'
+5830,stdout,received,'(224, 29)'
+5831,stdout,received,'(182, 29)'
+5833,stdout,received,'(111, 29)'
+5834,stdout,received,'(209, 29)'
+5835,stdout,received,'(280, 29)'
+5837,stdout,received,'(182, 29)'
+5838,stdout,received,'(182, 29)'
+5840,stdout,received,'(280, 29)'
+5841,stdout,received,'(224, 29)'
+5842,stdout,received,'(140, 29)'
+5844,stdout,received,'(252, 29)'
+5845,stdout,received,'(252, 29)'
+5846,stdout,received,'(181, 29)'
+5848,stdout,received,'(196, 29)'
+5849,stdout,received,'(294, 29)'
+5851,stdout,received,'(224, 29)'
+5852,stdout,received,'(252, 29)'
+5853,stdout,received,'(154, 29)'
+5855,stdout,received,'(195, 29)'
+5856,stdout,received,'(210, 29)'
+5857,stdout,received,'(195, 29)'
+5859,stdout,received,'(154, 29)'
+5860,stdout,received,'(294, 29)'
+5862,stdout,received,'(251, 29)'
+5863,stdout,received,'(280, 29)'
+5864,stdout,received,'(196, 29)'
+5866,stdout,received,'(195, 29)'
+5867,stdout,received,'(154, 29)'
+5868,stdout,received,'(111, 29)'
+5869,stdout,received,'(224, 29)'
+5871,stdout,received,'(182, 29)'
+5872,stdout,received,'(196, 29)'
+5873,stdout,received,'(195, 29)'
+5875,stdout,received,'(237, 29)'
+137101,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 0,0,5,5
+#design: 0,0,6,6
+#design: 0,0,7,7
+#design: 0,0,8,8
+#design: 0,0,9,9
+#design: 0,0,10,10
+#design: 0,0,11,11
+#design: 0,0,12,12
+#design: 0,0,13,13
+#design: 0,0,14,14
+#design: 0,0,15,15
+#design: 0,0,16,16
+#design: 0,0,17,17
+#design: 0,0,18,18
+#design: 0,0,19,19
+#design: 0,0,20,20
+#design: 0,0,21,21
+#design: 0,0,22,22
+#design: 0,0,23,23
+#design: 0,0,24,24
+#design: 0,0,25,25
+#design: 0,0,26,26
+#design: 0,0,27,27
+#design: 0,0,28,28
+#design: 0,0,29,29
+#design: 0,0,30,30
+#design: 0,0,31,31
+#design: 0,0,32,32
+#design: 0,0,33,33
+#design: 0,0,34,34
+#design: 0,0,35,35
+#design: 0,0,36,36
+#design: 0,0,37,37
+#design: 0,0,38,38
+#design: 0,0,39,39
+#design: 0,0,40,40
+#design: 0,0,41,41
+#design: 0,0,42,42
+#design: 0,0,43,43
+#design: 0,0,44,44
+#design: 0,0,45,45
+#design: 0,0,46,46
+#design: 0,0,47,47
+#design: 0,0,48,48
+#design: 0,0,49,49
+#design: 0,0,50,50
+#design: 0,0,51,51
+#design: 0,0,52,52
+#design: 0,0,53,53
+#design: 0,0,54,54
+#design: 0,0,55,55
+#design: 0,0,56,56
+#design: 0,0,57,57
+#design: 0,0,58,58
+#design: 0,0,59,59
+#design: 0,0,60,60
+#design: 0,0,61,61
+#design: 0,0,62,62
+#design: 0,0,63,63
+#design: 0,0,64,64
+#design: 0,0,65,65
+#design: 0,0,66,66
+#design: 0,0,67,67
+#design: 0,0,68,68
+#design: 0,0,69,69
+#design: 0,0,70,70
+#design: 0,0,71,71
+#design: 0,0,72,72
+#design: 0,0,73,73
+#design: 0,0,74,74
+#design: 0,0,75,75
+#design: 0,0,76,76
+#design: 0,0,77,77
+#design: 0,0,78,78
+#design: 0,0,79,79
+#design: 0,0,80,80
+#design: 0,0,81,81
+#design: 0,0,82,82
+#design: 0,0,83,83
+#design: 0,0,84,84
+#design: 0,0,85,85
+#design: 0,0,86,86
+#design: 0,0,87,87
+#design: 0,0,88,88
+#design: 0,0,89,89
+#design: 0,0,90,90
+#design: 0,0,91,91
+#design: 0,0,92,92
+#design: 0,0,93,93
+#design: 0,0,94,94
+#design: 0,0,95,95
+#design: 0,0,96,96
+#design: 0,0,97,97
+#design: 0,0,98,98
+#design: 0,0,99,99
+#design: 0,0,100,100
+#design: 0,0,101,101
+#design: 0,0,102,102
+#design: 0,0,103,103
+#design: 0,0,104,104
+#design: 0,0,105,105
+#design: 0,0,106,106
+#design: 0,0,107,107
+#design: 0,0,108,108
+#design: 0,0,109,109
+#design: 0,0,110,110
+#design: 0,0,111,111
+#design: 0,0,112,112
+#design: 0,0,113,113
+#design: 0,0,114,114
+#design: 0,0,115,115
+#design: 0,0,116,116
+137103,design,logged,
+137103,Experiment,started
+137105,Stimulus,presented,0
+139541,Keyboard,received,s,wait_char
+144253,Stimulus,presented,118
+144257,Stimulus,presented,119
+144562,Stimulus,presented,0
+144765,Stimulus,presented,1
+148279,Stimulus,presented,118
+148295,Stimulus,presented,119
+148601,Stimulus,presented,0
+148804,Stimulus,presented,2
+153016,Stimulus,presented,118
+153017,Stimulus,presented,119
+153323,Stimulus,presented,0
+153528,Stimulus,presented,3
+157592,Stimulus,presented,118
+157605,Stimulus,presented,119
+157912,Stimulus,presented,0
+158117,Stimulus,presented,4
+162033,Stimulus,presented,118
+162045,Stimulus,presented,119
+162351,Stimulus,presented,0
+162553,Stimulus,presented,5
+166344,Stimulus,presented,118
+166351,Stimulus,presented,119
+166657,Stimulus,presented,0
+166862,Stimulus,presented,6
+170970,Stimulus,presented,118
+170973,Stimulus,presented,119
+171279,Stimulus,presented,0
+171482,Stimulus,presented,7
+175415,Stimulus,presented,118
+175429,Stimulus,presented,119
+175735,Stimulus,presented,0
+175937,Stimulus,presented,8
+179822,Stimulus,presented,118
+179835,Stimulus,presented,119
+180141,Stimulus,presented,0
+180345,Stimulus,presented,9
+184791,Stimulus,presented,118
+184806,Stimulus,presented,119
+185112,Stimulus,presented,0
+185315,Stimulus,presented,10
+189410,Stimulus,presented,118
+189411,Stimulus,presented,119
+189718,Stimulus,presented,0
+189923,Stimulus,presented,11
+193219,Stimulus,presented,118
+193235,Stimulus,presented,119
+193542,Stimulus,presented,0
+193745,Stimulus,presented,12
+197901,Stimulus,presented,118
+197907,Stimulus,presented,119
+198214,Stimulus,presented,0
+198416,Stimulus,presented,13
+202303,Stimulus,presented,118
+202313,Stimulus,presented,119
+202620,Stimulus,presented,0
+202823,Stimulus,presented,14
+207018,Stimulus,presented,118
+207035,Stimulus,presented,119
+207341,Stimulus,presented,0
+207544,Stimulus,presented,15
+211336,Stimulus,presented,118
+211341,Stimulus,presented,119
+211648,Stimulus,presented,0
+211851,Stimulus,presented,16
+216036,Stimulus,presented,118
+216046,Stimulus,presented,119
+216353,Stimulus,presented,0
+216556,Stimulus,presented,17
+220826,Stimulus,presented,118
+220835,Stimulus,presented,119
+221141,Stimulus,presented,0
+221344,Stimulus,presented,18
+225448,Stimulus,presented,118
+225457,Stimulus,presented,119
+225763,Stimulus,presented,0
+225968,Stimulus,presented,19
+229176,Stimulus,presented,118
+229181,Stimulus,presented,119
+229487,Stimulus,presented,0
+229690,Stimulus,presented,20
+234406,Stimulus,presented,118
+234418,Stimulus,presented,119
+234725,Stimulus,presented,0
+234928,Stimulus,presented,21
+238809,Stimulus,presented,118
+238824,Stimulus,presented,119
+239131,Stimulus,presented,0
+239336,Stimulus,presented,22
+243322,Stimulus,presented,118
+243330,Stimulus,presented,119
+243636,Stimulus,presented,0
+243841,Stimulus,presented,23
+247983,Stimulus,presented,118
+247985,Stimulus,presented,119
+248291,Stimulus,presented,0
+248494,Stimulus,presented,24
+251702,Stimulus,presented,118
+251709,Stimulus,presented,119
+252016,Stimulus,presented,0
+252219,Stimulus,presented,25
+256494,Stimulus,presented,118
+256498,Stimulus,presented,119
+256804,Stimulus,presented,0
+257007,Stimulus,presented,26
+260593,Stimulus,presented,118
+260604,Stimulus,presented,119
+260911,Stimulus,presented,0
+261114,Stimulus,presented,27
+265212,Stimulus,presented,118
+265226,Stimulus,presented,119
+265533,Stimulus,presented,0
+265738,Stimulus,presented,28
+269726,Stimulus,presented,118
+269732,Stimulus,presented,119
+270039,Stimulus,presented,0
+270242,Stimulus,presented,29
+274109,Stimulus,presented,118
+274121,Stimulus,presented,119
+274428,Stimulus,presented,0
+274631,Stimulus,presented,30
+279073,Stimulus,presented,118
+279076,Stimulus,presented,119
+279382,Stimulus,presented,0
+279587,Stimulus,presented,31
+283546,Stimulus,presented,118
+283548,Stimulus,presented,119
+283855,Stimulus,presented,0
+284057,Stimulus,presented,32
+288167,Stimulus,presented,118
+288170,Stimulus,presented,119
+288477,Stimulus,presented,0
+288682,Stimulus,presented,33
+292056,Stimulus,presented,118
+292061,Stimulus,presented,119
+292367,Stimulus,presented,0
+292570,Stimulus,presented,34
+296671,Stimulus,presented,118
+296683,Stimulus,presented,119
+296989,Stimulus,presented,0
+297192,Stimulus,presented,35
+301156,Stimulus,presented,118
+301172,Stimulus,presented,119
+301479,Stimulus,presented,0
+301683,Stimulus,presented,36
+306005,Stimulus,presented,118
+306010,Stimulus,presented,119
+306317,Stimulus,presented,0
+306521,Stimulus,presented,37
+310092,Stimulus,presented,118
+310100,Stimulus,presented,119
+310407,Stimulus,presented,0
+310612,Stimulus,presented,38
+315501,Stimulus,presented,118
+315504,Stimulus,presented,119
+315810,Stimulus,presented,0
+316013,Stimulus,presented,39
+319599,Stimulus,presented,118
+319610,Stimulus,presented,119
+319917,Stimulus,presented,0
+320120,Stimulus,presented,40
+323832,Stimulus,presented,118
+323834,Stimulus,presented,119
+324140,Stimulus,presented,0
+324345,Stimulus,presented,41
+328777,Stimulus,presented,118
+328788,Stimulus,presented,119
+329095,Stimulus,presented,0
+329298,Stimulus,presented,42
+333355,Stimulus,presented,118
+333360,Stimulus,presented,119
+333667,Stimulus,presented,0
+333870,Stimulus,presented,43
+337461,Stimulus,presented,118
+337467,Stimulus,presented,119
+337773,Stimulus,presented,0
+337978,Stimulus,presented,44
+342241,Stimulus,presented,118
+342255,Stimulus,presented,119
+342562,Stimulus,presented,0
+342764,Stimulus,presented,45
+346358,Stimulus,presented,118
+346362,Stimulus,presented,119
+346668,Stimulus,presented,0
+346871,Stimulus,presented,46
+351345,Stimulus,presented,118
+351350,Stimulus,presented,119
+351656,Stimulus,presented,0
+351859,Stimulus,presented,47
+355167,Stimulus,presented,118
+355174,Stimulus,presented,119
+355480,Stimulus,presented,0
+355682,Stimulus,presented,48
+360163,Stimulus,presented,118
+360178,Stimulus,presented,119
+360485,Stimulus,presented,0
+360690,Stimulus,presented,49
+364382,Stimulus,presented,118
+364385,Stimulus,presented,119
+364691,Stimulus,presented,0
+364894,Stimulus,presented,50
+369094,Stimulus,presented,118
+369106,Stimulus,presented,119
+369413,Stimulus,presented,0
+369618,Stimulus,presented,51
+373180,Stimulus,presented,118
+373197,Stimulus,presented,119
+373503,Stimulus,presented,0
+373709,Stimulus,presented,52
+377989,Stimulus,presented,118
+378001,Stimulus,presented,119
+378308,Stimulus,presented,0
+378510,Stimulus,presented,53
+382143,Stimulus,presented,118
+382158,Stimulus,presented,119
+382464,Stimulus,presented,0
+382667,Stimulus,presented,54
+386648,Stimulus,presented,118
+386664,Stimulus,presented,119
+386970,Stimulus,presented,0
+387173,Stimulus,presented,55
+392023,Stimulus,presented,118
+392034,Stimulus,presented,119
+392340,Stimulus,presented,0
+392545,Stimulus,presented,56
+395801,Stimulus,presented,118
+395808,Stimulus,presented,119
+396115,Stimulus,presented,0
+396318,Stimulus,presented,57
+400250,Stimulus,presented,118
+400264,Stimulus,presented,119
+400570,Stimulus,presented,0
+400773,Stimulus,presented,58
+404665,Stimulus,presented,118
+404670,Stimulus,presented,119
+404976,Stimulus,presented,0
+405179,Stimulus,presented,59
+409058,Stimulus,presented,118
+409059,Stimulus,presented,119
+409366,Stimulus,presented,0
+409569,Stimulus,presented,60
+414354,Stimulus,presented,118
+414363,Stimulus,presented,119
+414669,Stimulus,presented,0
+414873,Stimulus,presented,61
+418302,Stimulus,presented,118
+418303,Stimulus,presented,119
+418610,Stimulus,presented,0
+418813,Stimulus,presented,62
+423009,Stimulus,presented,118
+423025,Stimulus,presented,119
+423332,Stimulus,presented,0
+423537,Stimulus,presented,63
+427858,Stimulus,presented,118
+427863,Stimulus,presented,119
+428170,Stimulus,presented,0
+428373,Stimulus,presented,64
+432515,Stimulus,presented,118
+432518,Stimulus,presented,119
+432825,Stimulus,presented,0
+433028,Stimulus,presented,65
+436468,Stimulus,presented,118
+436476,Stimulus,presented,119
+436782,Stimulus,presented,0
+436985,Stimulus,presented,66
+440957,Stimulus,presented,118
+440965,Stimulus,presented,119
+441271,Stimulus,presented,0
+441474,Stimulus,presented,67
+445428,Stimulus,presented,118
+445437,Stimulus,presented,119
+445744,Stimulus,presented,0
+445947,Stimulus,presented,68
+450490,Stimulus,presented,118
+450491,Stimulus,presented,119
+450798,Stimulus,presented,0
+451002,Stimulus,presented,69
+454920,Stimulus,presented,118
+454931,Stimulus,presented,119
+455237,Stimulus,presented,0
+455443,Stimulus,presented,70
+459176,Stimulus,presented,118
+459187,Stimulus,presented,119
+459493,Stimulus,presented,0
+459695,Stimulus,presented,71
+463659,Stimulus,presented,118
+463660,Stimulus,presented,119
+463966,Stimulus,presented,0
+464170,Stimulus,presented,72
+468359,Stimulus,presented,118
+468365,Stimulus,presented,119
+468671,Stimulus,presented,0
+468874,Stimulus,presented,73
+472505,Stimulus,presented,118
+472521,Stimulus,presented,119
+472828,Stimulus,presented,0
+473031,Stimulus,presented,74
+477212,Stimulus,presented,118
+477226,Stimulus,presented,119
+477533,Stimulus,presented,0
+477739,Stimulus,presented,75
+481165,Stimulus,presented,118
+481167,Stimulus,presented,119
+481473,Stimulus,presented,0
+481676,Stimulus,presented,76
+485837,Stimulus,presented,118
+485839,Stimulus,presented,119
+486145,Stimulus,presented,0
+486348,Stimulus,presented,77
+490114,Stimulus,presented,118
+490128,Stimulus,presented,119
+490435,Stimulus,presented,0
+490638,Stimulus,presented,78
+495537,Stimulus,presented,118
+495548,Stimulus,presented,119
+495855,Stimulus,presented,0
+496058,Stimulus,presented,79
+499804,Stimulus,presented,118
+499806,Stimulus,presented,119
+500111,Stimulus,presented,0
+500314,Stimulus,presented,80
+503684,Stimulus,presented,118
+503695,Stimulus,presented,119
+504001,Stimulus,presented,0
+504204,Stimulus,presented,81
+508067,Stimulus,presented,118
+508068,Stimulus,presented,119
+508374,Stimulus,presented,0
+508577,Stimulus,presented,82
+513100,Stimulus,presented,118
+513105,Stimulus,presented,119
+513412,Stimulus,presented,0
+513615,Stimulus,presented,83
+517787,Stimulus,presented,118
+517794,Stimulus,presented,119
+518100,Stimulus,presented,0
+518303,Stimulus,presented,84
+521644,Stimulus,presented,118
+521651,Stimulus,presented,119
+521958,Stimulus,presented,0
+522161,Stimulus,presented,85
+526530,Stimulus,presented,118
+526539,Stimulus,presented,119
+526846,Stimulus,presented,0
+527048,Stimulus,presented,86
+531422,Stimulus,presented,118
+531427,Stimulus,presented,119
+531734,Stimulus,presented,0
+531937,Stimulus,presented,87
+535871,Stimulus,presented,118
+535883,Stimulus,presented,119
+536190,Stimulus,presented,0
+536393,Stimulus,presented,88
+540270,Stimulus,presented,118
+540273,Stimulus,presented,119
+540579,Stimulus,presented,0
+540782,Stimulus,presented,89
+544213,Stimulus,presented,118
+544230,Stimulus,presented,119
+544536,Stimulus,presented,0
+544739,Stimulus,presented,90
+549364,Stimulus,presented,118
+549367,Stimulus,presented,119
+549673,Stimulus,presented,0
+549876,Stimulus,presented,91
+553876,Stimulus,presented,118
+553889,Stimulus,presented,119
+554196,Stimulus,presented,0
+554402,Stimulus,presented,92
+558520,Stimulus,presented,118
+558528,Stimulus,presented,119
+558834,Stimulus,presented,0
+559039,Stimulus,presented,93
+562964,Stimulus,presented,118
+562967,Stimulus,presented,119
+563274,Stimulus,presented,0
+563479,Stimulus,presented,94
+567503,Stimulus,presented,118
+567506,Stimulus,presented,119
+567813,Stimulus,presented,0
+568016,Stimulus,presented,95
+571224,Stimulus,presented,118
+571230,Stimulus,presented,119
+571537,Stimulus,presented,0
+571740,Stimulus,presented,96
+576050,Stimulus,presented,118
+576052,Stimulus,presented,119
+576358,Stimulus,presented,0
+576561,Stimulus,presented,97
+580255,Stimulus,presented,118
+580258,Stimulus,presented,119
+580565,Stimulus,presented,0
+580768,Stimulus,presented,98
+584757,Stimulus,presented,118
+584764,Stimulus,presented,119
+585071,Stimulus,presented,0
+585274,Stimulus,presented,99
+589887,Stimulus,presented,118
+589902,Stimulus,presented,119
+590208,Stimulus,presented,0
+590411,Stimulus,presented,100
+594289,Stimulus,presented,118
+594291,Stimulus,presented,119
+594597,Stimulus,presented,0
+594802,Stimulus,presented,101
+598565,Stimulus,presented,118
+598580,Stimulus,presented,119
+598887,Stimulus,presented,0
+599090,Stimulus,presented,102
+603072,Stimulus,presented,118
+603086,Stimulus,presented,119
+603393,Stimulus,presented,0
+603596,Stimulus,presented,103
+607676,Stimulus,presented,118
+607691,Stimulus,presented,119
+607998,Stimulus,presented,0
+608201,Stimulus,presented,104
+611814,Stimulus,presented,118
+611815,Stimulus,presented,119
+612121,Stimulus,presented,0
+612323,Stimulus,presented,105
+616516,Stimulus,presented,118
+616520,Stimulus,presented,119
+616826,Stimulus,presented,0
+617029,Stimulus,presented,106
+620898,Stimulus,presented,118
+620909,Stimulus,presented,119
+621216,Stimulus,presented,0
+621419,Stimulus,presented,107
+625847,Stimulus,presented,118
+625864,Stimulus,presented,119
+626170,Stimulus,presented,0
+626373,Stimulus,presented,108
+630041,Stimulus,presented,118
+630054,Stimulus,presented,119
+630360,Stimulus,presented,0
+630563,Stimulus,presented,109
+634166,Stimulus,presented,118
+634177,Stimulus,presented,119
+634483,Stimulus,presented,0
+634685,Stimulus,presented,110
+639452,Stimulus,presented,118
+639464,Stimulus,presented,119
+639770,Stimulus,presented,0
+639973,Stimulus,presented,111
+643187,Stimulus,presented,118
+643188,Stimulus,presented,119
+643495,Stimulus,presented,0
+643697,Stimulus,presented,112
+647788,Stimulus,presented,118
+647794,Stimulus,presented,119
+648100,Stimulus,presented,0
+648303,Stimulus,presented,113
+652657,Stimulus,presented,118
+652665,Stimulus,presented,119
+652972,Stimulus,presented,0
+653175,Stimulus,presented,114
+657099,Stimulus,presented,118
+657104,Stimulus,presented,119
+657411,Stimulus,presented,0
+657616,Stimulus,presented,115
+661439,Stimulus,presented,118
+661444,Stimulus,presented,119
+661750,Stimulus,presented,0
+661953,Stimulus,presented,116
+665893,Stimulus,presented,118
+665900,Stimulus,presented,119
+666206,Stimulus,presented,0
+666409,Stimulus,presented,117
+669616,Experiment,ended
+669616,Data,saved
+669619,Stimulus,presented,121

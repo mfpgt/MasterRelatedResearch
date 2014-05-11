@@ -1,0 +1,62 @@
+\documentclass{article}
+\begin{document}
+
+\title{Examples of formulas}
+\author{C. Pallier}
+\maketitle
+
+Trying to evaluate the complexity of formula... 
+The Tree structures I propose are debatale. Also, I define complexity as a number of nodes, but it is not 100\% clear how I should treat monaadic functions as $\sin a$.
+
+\setlength{\tabcolsep}{18pt}
+
+\begin{tabular}{ccc}
+Formula             & Tree                         & Complexity \\ \hline
+
+$ \sin a + \cos b $ & (+ (sin a) (sin b))     & 3 (or 5)$\dag$ \\
+
+$\tan^{-1} b$       & (atan b)                & 1 (or 2)$\dag$\\
+
+$\arctan b + c$     & (+ (atan b) c)          & 3 (or 4)$\dag$\\
+
+$a + b + c + d$     & (+ a b c d)         & 5? \\
+
+$ a . \arctan b $   & (* a (atan b))      & 3 (or 4)\\
+
+$ (a+b)(c+d) $      & (* (+ a b) (+ c d))  & 7? \\
+
+$ (ab)\sin(c) $     & (* (* a b) (sin c)) & 5 (or 6)\\
+
+$ 2ab + b^2 c $     & (+ (*2 (* a b)) (* (**2 b) c)) & 9\\
+
+$ \mathrm{e}^{1-x^2} $ & (exp (- (1 (**2 x)))) & 5\\
+
+$ \frac{1}{x}+\frac{1}{y} $ & (+ (1/ x) (1/ y)) & 5\\
+
+$ \frac{1}{x+y} $ & (1/ (+ x y)) & 4\\
+
+$ \cos^2 \theta - \sin^2 \theta $ & (- (**2 (cos a) (**2 (sin a)))) & 5 \\ 
+
+$ \sqrt{1+x+x^2} $ & (sqrt (+ 1 x (**2 x))) &  6 \\
+
+$ \sqrt{1}+\sqrt{x}+\sqrt{x^2}$ & (+ (sqrt 1) (sqrt x) (sqrt (**2 x))) & 6?\\
+\hline
+
+\end{tabular}
+$\dag$ Depending on whether we consider \texttt{(sin a)} a single node or two nodes...
+
+
+Other symbolic expressions...
+
+
+$ A \oplus (C \oplus D) $
+
+$ X \cup B \cap D $
+
+$ \int y\, \mathrm{d}x$
+
+$ \forall x \in X, \exists y \leq \epsilon$
+
+
+
+\end{document}

@@ -1,0 +1,14 @@
+[Object0]
+Name=SessionProc
+WindowState=0
+Left=-32000
+Top=-32000
+Width=112
+Height=27
+[Object1]
+Name=stimproc
+WindowState=0
+Left=-32000
+Top=-32000
+Width=112
+Height=27

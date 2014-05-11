@@ -1,0 +1,709 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.4.14)  24 MAR 2014 10:21
+entering extended mode
+ %&-line parsing enabled.
+**./images.tex
+(./images.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, french, basque, loaded.
+
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/share/texmf-texlive/tex/latex/qtree/qtree.sty
+Package: 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
+Package: qtree 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
+(/usr/share/texmf-texlive/tex/latex/pict2e/pict2e.sty
+Package: pict2e 2009/08/05 v0.2x Improved picture commands (HjG,RN,JT)
+(/etc/texmf/tex/latex/pict2e/pict2e.cfg
+File: pict2e.cfg 2009/08/05 v0.1s pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: dvips.def on input line 101.
+(/usr/share/texmf-texlive/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+)
+Package pict2e Info: Driver file for pict2e: p2e-dvips.def on input line 103.
+(/usr/share/texmf-texlive/tex/latex/pict2e/p2e-dvips.def
+File: p2e-dvips.def 2009/08/05 v0.1s Driver-dependant file (RN,HjG,JT)
+) (/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+\pIIe@GRAPH=\toks14
+\@arclen=\dimen103
+\@arcrad=\dimen104
+\@tempdimd=\dimen105
+)
+\c@treecount=\count87
+\c@branchcount=\count88
+\parentbox=\box26
+\treebox=\box27
+\treeboxone=\box28
+\treeboxtwo=\box29
+\treeboxthree=\box30
+\treeboxfour=\box31
+\treeboxfive=\box32
+\treeboxsix=\box33
+\treeboxseven=\box34
+\treeboxeight=\box35
+\treeboxnine=\box36
+\treeboxten=\box37
+\treeboxeleven=\box38
+\treeboxtwelve=\box39
+\treeboxthirteen=\box40
+\treeboxfourteen=\box41
+\treeboxfifteen=\box42
+\treeboxsixteen=\box43
+\treeboxseventeen=\box44
+\treeboxeighteen=\box45
+\treeboxnineteen=\box46
+\treeboxtwenty=\box47
+\treeoffsetone=\skip43
+\treeoffsettwo=\skip44
+\treeoffsetthree=\skip45
+\treeoffsetfour=\skip46
+\treeoffsetfive=\skip47
+\treeoffsetsix=\skip48
+\treeoffsetseven=\skip49
+\treeoffseteight=\skip50
+\treeoffsetnine=\skip51
+\treeoffsetten=\skip52
+\treeoffseteleven=\skip53
+\treeoffsettwelve=\skip54
+\treeoffsetthirteen=\skip55
+\treeoffsetfourteen=\skip56
+\treeoffsetfifteen=\skip57
+\treeoffsetsixteen=\skip58
+\treeoffsetseventeen=\skip59
+\treeoffseteighteen=\skip60
+\treeoffsetnineteen=\skip61
+\treeoffsettwenty=\skip62
+\treeshiftone=\skip63
+\treeshifttwo=\skip64
+\treeshiftthree=\skip65
+\treeshiftfour=\skip66
+\treeshiftfive=\skip67
+\treeshiftsix=\skip68
+\treeshiftseven=\skip69
+\treeshifteight=\skip70
+\treeshiftnine=\skip71
+\treeshiftten=\skip72
+\treeshifteleven=\skip73
+\treeshifttwelve=\skip74
+\treeshiftthirteen=\skip75
+\treeshiftfourteen=\skip76
+\treeshiftfifteen=\skip77
+\treeshiftsixteen=\skip78
+\treeshiftseventeen=\skip79
+\treeshifteighteen=\skip80
+\treeshiftnineteen=\skip81
+\treeshifttwenty=\skip82
+\treewidthone=\skip83
+\treewidthtwo=\skip84
+\treewidththree=\skip85
+\treewidthfour=\skip86
+\treewidthfive=\skip87
+\treewidthsix=\skip88
+\treewidthseven=\skip89
+\treewidtheight=\skip90
+\treewidthnine=\skip91
+\treewidthten=\skip92
+\treewidtheleven=\skip93
+\treewidthtwelve=\skip94
+\treewidththirteen=\skip95
+\treewidthfourteen=\skip96
+\treewidthfifteen=\skip97
+\treewidthsixteen=\skip98
+\treewidthseventeen=\skip99
+\treewidtheighteen=\skip100
+\treewidthnineteen=\skip101
+\treewidthtwenty=\skip102
+\daughteroffsetone=\skip103
+\daughteroffsettwo=\skip104
+\daughteroffsetthree=\skip105
+\daughteroffsetfour=\skip106
+\branchwidthone=\skip107
+\branchwidthtwo=\skip108
+\branchwidththree=\skip109
+\branchwidthfour=\skip110
+\parentoffset=\skip111
+\treeoffset=\skip112
+\daughteroffset=\skip113
+\branchwidth=\skip114
+\parentwidth=\skip115
+\treewidth=\skip116
+\qta=\toks15
+\qtb=\toks16
+\nbranches=\count89
+\qroofx=\count90
+\qroofy=\count91
+\@qrscratchbox=\box48
+) (/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: dvips.def on input line 130.
+(/usr/share/texmf-texlive/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+)) (/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+\sizebox=\box49
+\lthtmlwrite=\write3
+(./images.aux)
+\openout1 = `images.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+
+latex2htmlLength hsize=349.0pt
+
+latex2htmlLength vsize=632.5pt
+
+latex2htmlLength hoffset=0.0pt
+
+latex2htmlLength voffset=0.0pt
+
+latex2htmlLength topmargin=0.0pt
+
+latex2htmlLength topskip=0.00003pt
+
+latex2htmlLength headheight=0.0pt
+
+latex2htmlLength headsep=0.0pt
+
+latex2htmlLength parskip=0.0pt plus 1.0pt
+
+latex2htmlLength oddsidemargin=39.0pt
+
+latex2htmlLength evensidemargin=39.0pt
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <20> not available
+(Font)              size <20.74> substituted on input line 145.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <20> not available
+(Font)              size <20.74> substituted on input line 145.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <20> not available
+(Font)              size <20.74> substituted on input line 145.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <20> on input line 145.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14> on input line 145.
+l2hSize :tex2html_wrap_inline16:16.03633pt::16.03633pt::98.39113pt.
+[1
+
+
+
+]
+l2hSize :tex2html_wrap_inline18:16.03633pt::16.03633pt::84.6949pt.
+[2
+
+
+]
+l2hSize :tex2html_wrap_inline20:16.03633pt::16.03633pt::101.9762pt.
+[3
+
+
+]
+l2hSize :tex2html_wrap_inline22:16.03633pt::16.03633pt::45.07231pt.
+[4
+
+
+]
+l2hSize :tex2html_wrap_inline24:16.03633pt::16.03633pt::82.28781pt.
+[5
+
+
+]
+l2hSize :tex2html_wrap_inline26:16.03633pt::16.03633pt::95.75652pt.
+[6
+
+
+]
+l2hSize :tex2html_wrap_inline28:16.03633pt::16.03633pt::42.58986pt.
+[7
+
+
+]
+l2hSize :tex2html_wrap_inline30:16.03633pt::16.03633pt::63.57848pt.
+[8
+
+
+]
+l2hSize :tex2html_wrap_inline32:16.03633pt::16.03633pt::105.16943pt.
+[9
+
+
+]
+l2hSize :tex2html_wrap_inline34:9.42973pt::9.42973pt::27.23239pt.
+[10
+
+
+]
+l2hSize :tex2html_wrap_inline36:14.90276pt::14.90276pt::63.99388pt.
+[11
+
+
+]
+l2hSize :tex2html_wrap_inline38:14.90276pt::14.90276pt::48.88914pt.
+[12
+
+
+]
+l2hSize :tex2html_wrap_inline40:12.59834pt::12.59834pt::84.13628pt.
+[13
+
+
+]
+l2hSize :tex2html_wrap_inline42:14.90276pt::14.90276pt::51.59955pt.
+[14
+
+
+]
+l2hSize :tex2html_wrap_inline44:14.90276pt::14.90276pt::65.1761pt.
+[15
+
+
+]
+l2hSize :tex2html_wrap_inline46:14.90276pt::14.90276pt::50.3978pt.
+[16
+
+
+]
+l2hSize :tex2html_wrap_inline48:16.03633pt::16.03633pt::51.31577pt.
+[17
+
+
+]
+l2hSize :tex2html_wrap_inline50:16.03633pt::16.03633pt::62.52383pt.
+[18
+
+
+]
+l2hSize :tex2html_wrap_inline52:16.03633pt::16.03633pt::41.69566pt.
+[19
+
+
+]
+l2hSize :tex2html_wrap_inline54:16.03633pt::16.03633pt::78.81079pt.
+[20
+
+
+]
+l2hSize :tex2html_wrap_inline56:16.03633pt::16.03633pt::113.51494pt.
+[21
+
+
+]
+l2hSize :tex2html_wrap_inline58:16.03633pt::16.03633pt::66.28888pt.
+[22
+
+
+]
+l2hSize :tex2html_wrap_inline60:16.03633pt::16.03633pt::46.58096pt.
+[23
+
+
+]
+l2hSize :tex2html_wrap_inline62:12.18553pt::12.18553pt::65.32256pt.
+[24
+
+
+]
+l2hSize :tex2html_wrap_inline64:14.90276pt::14.90276pt::66.39673pt.
+[25
+
+
+]
+l2hSize :tex2html_wrap_inline66:14.90276pt::14.90276pt::86.10464pt.
+[26
+
+
+]
+l2hSize :tex2html_wrap_inline68:16.03633pt::16.03633pt::96.06342pt.
+[27
+
+
+]
+l2hSize :tex2html_wrap_inline70:14.90276pt::14.90276pt::84.596pt.
+[28
+
+
+]
+l2hSize :tex2html_wrap_inline72:16.03633pt::16.03633pt::104.86253pt.
+[29
+
+
+]
+l2hSize :tex2html_wrap_inline74:16.03633pt::16.03633pt::60.61153pt.
+[30
+
+
+]
+l2hSize :tex2html_wrap_inline76:16.03633pt::16.03633pt::77.40251pt.
+[31
+
+
+]
+l2hSize :tex2html_wrap_inline78:16.03633pt::16.03633pt::79.57741pt.
+[32
+
+
+]
+l2hSize :tex2html_wrap_inline80:16.03633pt::16.03633pt::81.06718pt.
+[33
+
+
+]
+l2hSize :tex2html_wrap_inline82:16.03633pt::16.03633pt::97.31696pt.
+[34
+
+
+]
+l2hSize :tex2html_wrap_inline84:14.90276pt::14.90276pt::67.57895pt.
+[35
+
+
+]
+l2hSize :tex2html_wrap_inline86:16.03633pt::16.03633pt::80.77916pt.
+[36
+
+
+]
+l2hSize :tex2html_wrap_inline88:16.03633pt::16.03633pt::77.60904pt.
+[37
+
+
+]
+l2hSize :tex2html_wrap_inline90:12.18553pt::12.18553pt::45.73856pt.
+[38
+
+
+]
+l2hSize :tex2html_wrap_inline94:16.03633pt::16.03633pt::81.50166pt.
+[39
+
+
+]
+l2hSize :tex2html_wrap_inline96:16.03633pt::16.03633pt::99.57335pt.
+[40
+
+
+]
+l2hSize :tex2html_wrap_inline98:16.03633pt::16.03633pt::65.2147pt.
+[41
+
+
+]
+l2hSize :tex2html_wrap_inline100:16.03633pt::16.03633pt::83.47003pt.
+[42
+
+
+]
+l2hSize :tex2html_wrap_inline102:16.03633pt::16.03633pt::79.57741pt.
+[43
+
+
+]
+l2hSize :tex2html_wrap_inline104:16.03633pt::16.03633pt::62.81186pt.
+[44
+
+
+]
+l2hSize :tex2html_wrap_inline106:14.90276pt::14.90276pt::29.20076pt.
+[45
+
+
+]
+l2hSize :tex2html_wrap_inline108:16.03633pt::16.03633pt::61.6101pt.
+[46
+
+
+]
+l2hSize :tex2html_wrap_inline110:16.03633pt::16.03633pt::79.6109pt.
+[47
+
+
+]
+l2hSize :tex2html_wrap_inline112:14.90276pt::14.90276pt::47.99495pt.
+[48
+
+
+]
+l2hSize :tex2html_wrap_inline114:14.90276pt::14.90276pt::31.89163pt.
+[49
+
+
+]
+l2hSize :tex2html_wrap_inline116:12.18553pt::12.18553pt::64.42836pt.
+[50
+
+
+]
+l2hSize :tex2html_wrap_inline118:16.03633pt::16.03633pt::82.26828pt.
+[51
+
+
+]
+l2hSize :tex2html_wrap_inline120:16.03633pt::16.03633pt::80.31944pt.
+[52
+
+
+]
+l2hSize :tex2html_wrap_inline122:16.03633pt::16.03633pt::80.09338pt.
+[53
+
+
+]
+l2hSize :tex2html_wrap_inline124:16.03633pt::16.03633pt::71.00714pt.
+[54
+
+
+]
+l2hSize :tex2html_wrap_inline126:16.03633pt::16.03633pt::62.83073pt.
+[55
+
+
+]
+l2hSize :tex2html_wrap_inline130:16.03633pt::16.03633pt::101.99573pt.
+[56
+
+
+]
+l2hSize :tex2html_wrap_inline132:9.42973pt::9.42973pt::29.92326pt.
+[57
+
+
+]
+l2hSize :tex2html_wrap_inline134:16.03633pt::16.03633pt::102.69547pt.
+[58
+
+
+]
+l2hSize :tex2html_wrap_inline136:12.59834pt::12.59834pt::50.52538pt.
+[59
+
+
+]
+l2hSize :tex2html_wrap_inline138:16.03633pt::16.03633pt::78.81079pt.
+[60
+
+
+]
+l2hSize :tex2html_wrap_inline140:16.03633pt::16.03633pt::93.29294pt.
+[61
+
+
+]
+l2hSize :tex2html_wrap_inline142:16.03633pt::16.03633pt::41.92172pt.
+[62
+
+
+]
+l2hSize :tex2html_wrap_inline144:16.03633pt::16.03633pt::102.76659pt.
+[63
+
+
+]
+l2hSize :tex2html_wrap_inline146:16.03633pt::16.03633pt::80.01189pt.
+[64
+
+
+]
+l2hSize :tex2html_wrap_inline148:16.03633pt::16.03633pt::66.28888pt.
+[65
+
+
+]
+l2hSize :tex2html_wrap_inline150:16.03633pt::16.03633pt::62.86792pt.
+[66
+
+
+]
+l2hSize :tex2html_wrap_inline152:16.03633pt::16.03633pt::102.23575pt.
+[67
+
+
+]
+l2hSize :tex2html_wrap_inline154:16.03633pt::16.03633pt::95.75652pt.
+[68
+
+
+]
+l2hSize :tex2html_wrap_inline156:16.03633pt::16.03633pt::65.08713pt.
+[69
+
+
+]
+l2hSize :tex2html_wrap_inline158:16.03633pt::16.03633pt::86.71506pt.
+[70
+
+
+]
+l2hSize :tex2html_wrap_inline160:16.03633pt::16.03633pt::79.57741pt.
+[71
+
+
+]
+l2hSize :tex2html_wrap_inline162:16.03633pt::16.03633pt::84.47585pt.
+[72
+
+
+]
+l2hSize :tex2html_wrap_inline164:12.18553pt::12.18553pt::48.42943pt.
+[73
+
+
+]
+l2hSize :tex2html_wrap_inline166:16.03633pt::16.03633pt::79.88496pt.
+[74
+
+
+]
+l2hSize :tex2html_wrap_inline168:14.90276pt::14.90276pt::83.7018pt.
+[75
+
+
+]
+l2hSize :tex2html_wrap_inline170:16.03633pt::16.03633pt::61.6101pt.
+[76
+
+
+]
+l2hSize :tex2html_wrap_inline172:16.03633pt::16.03633pt::81.21364pt.
+[77
+
+
+]
+l2hSize :tex2html_wrap_inline176:16.03633pt::16.03633pt::64.03249pt.
+[78
+
+
+]
+l2hSize :tex2html_wrap_inline178:16.03633pt::16.03633pt::100.7751pt.
+[79
+
+
+]
+l2hSize :tex2html_wrap_inline180:16.03633pt::16.03633pt::79.86543pt.
+[80
+
+
+]
+l2hSize :tex2html_wrap_inline182:16.03633pt::16.03633pt::116.66553pt.
+[81
+
+
+]
+l2hSize :tex2html_wrap_inline184:16.03633pt::16.03633pt::112.00629pt.
+[82
+
+
+]
+l2hSize :tex2html_wrap_inline186:16.03633pt::16.03633pt::101.99573pt.
+[83
+
+
+]
+l2hSize :tex2html_wrap_inline188:16.03633pt::16.03633pt::99.7198pt.
+[84
+
+
+]
+l2hSize :tex2html_wrap_inline190:16.03633pt::16.03633pt::101.51324pt.
+[85
+
+
+]
+l2hSize :tex2html_wrap_inline192:16.03633pt::16.03633pt::50.0429pt.
+[86
+
+
+]
+l2hSize :tex2html_wrap_inline194:14.90276pt::14.90276pt::49.1967pt.
+[87
+
+
+]
+l2hSize :tex2html_wrap_inline196:16.03633pt::16.03633pt::99.59288pt.
+[88
+
+
+]
+l2hSize :tex2html_wrap_inline198:16.03633pt::16.03633pt::93.50012pt.
+[89
+
+
+]
+l2hSize :tex2html_wrap_inline200:12.59834pt::12.59834pt::82.62762pt.
+[90
+
+
+]
+l2hSize :tex2html_wrap_inline202:16.03633pt::16.03633pt::94.55476pt.
+[91
+
+
+]
+l2hSize :tex2html_wrap_inline206:12.18553pt::12.18553pt::64.42836pt.
+[92
+
+
+]
+l2hSize :tex2html_wrap_inline210:16.03633pt::16.03633pt::51.02774pt.
+[93
+
+
+]
+l2hSize :tex2html_wrap_inline212:16.03633pt::16.03633pt::92.29837pt.
+[94
+
+
+] (./images.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.74pt have occurred.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 986 strings out of 495029
+ 12635 string characters out of 1181252
+ 59736 words of memory out of 3000000
+ 4219 multiletter control sequences out of 15000+50000
+ 5765 words of font info for 21 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 25i,5n,19p,189b,147s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on images.dvi (94 pages, 21272 bytes).

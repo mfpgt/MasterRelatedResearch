@@ -1,0 +1,1725 @@
+'
+'
+'
+'	D:\Experiences_EPrime\MathFormula\Sub02\MathFormula_fMRI_Seq_R2.ebs
+'	Generated on: 7/16/2009	11:04:44
+'
+'
+'	This file generated with E-Studio interface.
+'	E-Prime Copyright © 2002 Psychology Software Tools.
+'	ALL RIGHTS RESERVED
+'
+'	Legal use of this experiment script requires a full E-Prime or Runtime License.
+'
+'
+'	Author:
+'		  (INSERM U562)
+'
+'
+'
+'
+
+Option CStrings On
+Dim ebContext as Context
+
+
+'--------------------------------------------------------------------------
+' Class Declarations
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+'InitTextDisplayDefaults
+'--------------------------------------------------------------------------
+Sub InitTextDisplayDefaults(theTextDisplay As TextDisplay)
+
+	If theTextDisplay Is Nothing Then Exit Sub
+
+	theTextDisplay.X = "center"
+	theTextDisplay.Y = "center"
+	theTextDisplay.Width = "100%"
+	theTextDisplay.Height = "100%"
+	theTextDisplay.ForeColor = CColor("black")
+	theTextDisplay.BackColor = CColor("white")
+	theTextDisplay.BackStyle = "opaque"
+	theTextDisplay.BorderColor = CColor("black")
+	theTextDisplay.BorderWidth = CLng("0")
+	theTextDisplay.XAlign = "center"
+	theTextDisplay.YAlign = "center"
+	theTextDisplay.AlignHorizontal = "center"
+	theTextDisplay.AlignVertical = "center"
+	theTextDisplay.WordWrap = True
+	theTextDisplay.ClearAfter = CLogical("No")
+	theTextDisplay.FontName = "Courier New"
+	theTextDisplay.FontSize = "18"
+	theTextDisplay.FontBold = CLogical("Yes")
+	theTextDisplay.FontItalic = CLogical("No")
+	theTextDisplay.FontUnderline = CLogical("No")
+	theTextDisplay.FontStrikeout = CLogical("No")
+
+End Sub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'--------------------------------------------------------------------------
+'InitSlideStateDefaults
+'--------------------------------------------------------------------------
+Sub InitSlideStateDefaults(theSlideState As SlideState)
+
+	If theSlideState Is Nothing Then Exit Sub
+
+	theSlideState.X = "center"
+	theSlideState.Y = "center"
+	theSlideState.Width = "100%"
+	theSlideState.Height = "100%"
+	theSlideState.BackColor = CColor("white")
+	theSlideState.BackStyle = "opaque"
+	theSlideState.BorderColor = CColor("black")
+	theSlideState.BorderWidth = CLng("0")
+	theSlideState.XAlign = "center"
+	theSlideState.YAlign = "center"
+	theSlideState.ClearAfter = CLogical("No")
+	theSlideState.Enabled = CLogical("Yes")
+
+End Sub
+
+'--------------------------------------------------------------------------
+'InitSlideVisualStimDefaults
+'--------------------------------------------------------------------------
+Sub InitSlideVisualStimDefaults(theSlideVisualStim As SlideVisualStim)
+
+	If theSlideVisualStim Is Nothing Then Exit Sub
+
+	theSlideVisualStim.X = "center"
+	theSlideVisualStim.Y = "center"
+	theSlideVisualStim.Width = "25%"
+	theSlideVisualStim.Height = "25%"
+	theSlideVisualStim.ForeColor = CColor("black")
+	theSlideVisualStim.BackColor = CColor("white")
+	theSlideVisualStim.BackStyle = "opaque"
+	theSlideVisualStim.BorderColor = CColor("black")
+	theSlideVisualStim.BorderWidth = CLng("0")
+	theSlideVisualStim.XAlign = "center"
+	theSlideVisualStim.YAlign = "center"
+	theSlideVisualStim.AlignHorizontal = "center"
+	theSlideVisualStim.AlignVertical = "center"
+
+End Sub
+
+'--------------------------------------------------------------------------
+'InitSlideTextDefaults
+'--------------------------------------------------------------------------
+Sub InitSlideTextDefaults(theSlideText As SlideText)
+
+	If theSlideText Is Nothing Then Exit Sub
+
+	InitSlideVisualStimDefaults theSlideText
+
+	theSlideText.WordWrap = True
+	theSlideText.FontName = "Courier New"
+	theSlideText.FontSize = "18"
+	theSlideText.FontBold = CLogical("Yes")
+	theSlideText.FontItalic = CLogical("No")
+	theSlideText.FontUnderline = CLogical("No")
+	theSlideText.FontStrikeout = CLogical("No")
+
+End Sub
+
+'--------------------------------------------------------------------------
+'InitSlideImageDefaults
+'--------------------------------------------------------------------------
+Sub InitSlideImageDefaults(theSlideImage As SlideImage)
+
+	If theSlideImage Is Nothing Then Exit Sub
+
+	InitSlideVisualStimDefaults theSlideImage
+
+	theSlideImage.Stretch = CLogical("No")
+	theSlideImage.MirrorLeftRight = CLogical("No")
+	theSlideImage.MirrorUpDown = CLogical("No")
+	theSlideImage.UseSourceColorKey = CLogical("No")
+	theSlideImage.SourceColorKey = CColor("black")
+
+End Sub
+
+'--------------------------------------------------------------------------
+'InitSlideSoundBufferDefaults
+'--------------------------------------------------------------------------
+Sub InitSlideSoundBufferDefaults(theSoundBuffer As SoundBuffer)
+
+	If theSoundBuffer Is Nothing Then Exit Sub
+
+	theSoundBuffer.Loop = CLogical("No")
+	theSoundBuffer.StopAfter = CLogical("Yes")
+	theSoundBuffer.StartOffset = "0"
+	theSoundBuffer.StopOffset = "0"
+
+End Sub
+
+
+
+
+
+
+
+
+'--------------------------------------------------------------------------
+' Instance Declarations
+'--------------------------------------------------------------------------
+Dim Display As DisplayDevice
+Dim Sound As SoundDevice
+Dim Keyboard As KeyboardDevice
+Dim Mouse As MouseDevice
+Dim Port As PortDevice
+Dim SessionProc As Procedure
+
+Dim List1 As List
+
+Dim stimproc As Procedure
+
+Dim Instructions As TextDisplay
+Dim InstructionsEchoClients As EchoClientCollection
+
+Dim Symbol11 As TextDisplay
+
+Dim Symbol10 As TextDisplay
+
+Dim TaskExpression As TextDisplay
+Dim TaskExpressionEchoClients As EchoClientCollection
+
+Dim Symbol9 As TextDisplay
+
+Dim Symbol8 As TextDisplay
+
+Dim Symbol7 As TextDisplay
+
+Dim Symbol6 As TextDisplay
+
+Dim Symbol5 As TextDisplay
+
+Dim Symbol4 As TextDisplay
+
+Dim Symbol3 As TextDisplay
+
+Dim Symbol2 As TextDisplay
+
+Dim Symbol1 As TextDisplay
+
+Dim FixationBefore As TextDisplay
+
+Dim FixationAfter As TextDisplay
+
+Dim FeedbackTrial As FeedbackDisplay
+Dim FeedbackTrial_State As SlideState
+Dim FeedbackTrial_SlideSoundOut As SlideSoundOut
+Dim FeedbackTrial_SoundBuffer As SoundBuffer
+Dim FeedbackTrial_SoundBufferInfo As SoundBufferInfo
+
+Dim FeedbackTotalPerformance As TextDisplay
+
+Dim WaitTTL As TextDisplay
+Dim WaitTTLEchoClients As EchoClientCollection
+
+Dim BaselineBefore As TextDisplay
+
+Dim BaselineAfter As TextDisplay
+
+
+
+'--------------------------------------------------------------------------
+' Package Declare Script
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+' User Script
+'--------------------------------------------------------------------------
+Dim perf, TotalTrial, Duration as integer
+
+
+'--------------------------------------------------------------------------
+' Package Global Script
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+' Package Routines
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+' Implementation
+'--------------------------------------------------------------------------
+Sub SessionProc_Run(c as Context)
+	
+	
+	Instructions.InputMasks.Reset
+	
+	InstructionsEchoClients.RemoveAll
+	Instructions.InputMasks.Add Keyboard.CreateInputMask("{ANY}", "", CLng(Instructions.Duration), CLng("1"), ebEndResponseActionTerminate, CLogical("Yes"), "", "", "ResponseMode:All ProcessBackspace:Yes")
+
+	
+	Instructions.Run
+	c.SetAttrib "Instructions.Duration", Instructions.Duration
+	c.SetAttrib "Instructions.FinishTime", Instructions.FinishTime
+	
+	
+	
+	WaitTTL.InputMasks.Reset
+	
+	WaitTTLEchoClients.RemoveAll
+	WaitTTL.InputMasks.Add Keyboard.CreateInputMask("s", "", CLng(WaitTTL.Duration), CLng("1"), ebEndResponseActionTerminate, CLogical("Yes"), "", "", "ResponseMode:All ProcessBackspace:Yes")
+
+	
+	WaitTTLEchoClients.RemoveAll
+	WaitTTL.InputMasks.Add Port.CreateInputMask("6", "", CLng(WaitTTL.Duration), CLng("1"), ebEndResponseActionTerminate, CLogical("Yes"), "", "", "")
+
+	
+	WaitTTL.Run
+	c.SetAttrib "WaitTTL.OnsetDelay", WaitTTL.OnsetDelay
+	c.SetAttrib "WaitTTL.OnsetTime", WaitTTL.OnsetTime
+	c.SetAttrib "WaitTTL.DurationError", WaitTTL.DurationError
+	c.SetAttrib "WaitTTL.RTTime", WaitTTL.RTTime
+	c.SetAttrib "WaitTTL.RT", WaitTTL.RT
+	c.SetAttrib "WaitTTL.Tag", WaitTTL.Tag
+	
+	
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - Initialization BEGIN
+	'''''''''''''''''''''''''''''''''''''''''''''
+	perf = 0
+
+TotalTrial = 0
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - Initialization END
+	'''''''''''''''''''''''''''''''''''''''''''''
+	
+	
+	BaselineBefore.Run
+	c.SetAttrib "BaselineBefore.OnsetDelay", BaselineBefore.OnsetDelay
+	c.SetAttrib "BaselineBefore.OnsetTime", BaselineBefore.OnsetTime
+	c.SetAttrib "BaselineBefore.DurationError", BaselineBefore.DurationError
+	c.SetAttrib "BaselineBefore.RTTime", BaselineBefore.RTTime
+	c.SetAttrib "BaselineBefore.RT", BaselineBefore.RT
+	c.SetAttrib "BaselineBefore.Tag", BaselineBefore.Tag
+	
+	List1.Run c
+	
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - PerformanceSummary BEGIN
+	'''''''''''''''''''''''''''''''''''''''''''''
+	perf = perf*100/TotalTrial
+
+c.SetAttrib "Perf" , perf
+
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - PerformanceSummary END
+	'''''''''''''''''''''''''''''''''''''''''''''
+	
+	
+	BaselineAfter.Run
+	
+	FeedbackTotalPerformance.Text = "La session 1/2 est terminée.\n\nPourcentage de réponses correctes: " &_ 
+				c.GetAttrib("Perf") &_ 
+				"% \n \nVous pouvez vous reposer."
+	FeedbackTotalPerformance.Run
+	c.SetAttrib "Instructions.Duration", Instructions.Duration
+	c.SetAttrib "Instructions.FinishTime", Instructions.FinishTime
+	
+	c.SetAttrib "WaitTTL.OnsetDelay", WaitTTL.OnsetDelay
+	c.SetAttrib "WaitTTL.OnsetTime", WaitTTL.OnsetTime
+	c.SetAttrib "WaitTTL.DurationError", WaitTTL.DurationError
+	c.SetAttrib "WaitTTL.RTTime", WaitTTL.RTTime
+	c.SetAttrib "WaitTTL.RT", WaitTTL.RT
+	c.SetAttrib "WaitTTL.Tag", WaitTTL.Tag
+	
+	c.SetAttrib "BaselineBefore.OnsetDelay", BaselineBefore.OnsetDelay
+	c.SetAttrib "BaselineBefore.OnsetTime", BaselineBefore.OnsetTime
+	c.SetAttrib "BaselineBefore.DurationError", BaselineBefore.DurationError
+	c.SetAttrib "BaselineBefore.RTTime", BaselineBefore.RTTime
+	c.SetAttrib "BaselineBefore.RT", BaselineBefore.RT
+	c.SetAttrib "BaselineBefore.Tag", BaselineBefore.Tag
+	
+
+	c.Log
+End Sub
+
+Sub stimproc_Run(c as Context)
+	
+	FixationBefore.Run
+	
+	Symbol1.Text = c.GetAttrib("Symbol1")
+	Symbol1.Run
+	c.SetAttrib "Symbol1.OnsetDelay", Symbol1.OnsetDelay
+	c.SetAttrib "Symbol1.OnsetTime", Symbol1.OnsetTime
+	c.SetAttrib "Symbol1.DurationError", Symbol1.DurationError
+	c.SetAttrib "Symbol1.Duration", Symbol1.Duration
+	c.SetAttrib "Symbol1.OffsetTime", Symbol1.OffsetTime
+	c.SetAttrib "Symbol1.FinishTime", Symbol1.FinishTime
+	c.SetAttrib "Symbol1.OffsetDelay", Symbol1.OffsetDelay
+	c.SetAttrib "Symbol1.RTTime", Symbol1.RTTime
+	c.SetAttrib "Symbol1.ACC", Symbol1.ACC
+	c.SetAttrib "Symbol1.RT", Symbol1.RT
+	c.SetAttrib "Symbol1.RESP", Symbol1.RESP
+	c.SetAttrib "Symbol1.CRESP", Symbol1.CRESP
+	
+	
+	Symbol2.Text = c.GetAttrib("Symbol2")
+	Symbol2.Run
+	c.SetAttrib "Symbol2.OnsetDelay", Symbol2.OnsetDelay
+	c.SetAttrib "Symbol2.OnsetTime", Symbol2.OnsetTime
+	c.SetAttrib "Symbol2.DurationError", Symbol2.DurationError
+	c.SetAttrib "Symbol2.Duration", Symbol2.Duration
+	c.SetAttrib "Symbol2.OffsetTime", Symbol2.OffsetTime
+	c.SetAttrib "Symbol2.FinishTime", Symbol2.FinishTime
+	c.SetAttrib "Symbol2.OffsetDelay", Symbol2.OffsetDelay
+	c.SetAttrib "Symbol2.RTTime", Symbol2.RTTime
+	c.SetAttrib "Symbol2.ACC", Symbol2.ACC
+	c.SetAttrib "Symbol2.RT", Symbol2.RT
+	c.SetAttrib "Symbol2.RESP", Symbol2.RESP
+	c.SetAttrib "Symbol2.CRESP", Symbol2.CRESP
+	
+	
+	Symbol3.Text = c.GetAttrib("Symbol3")
+	Symbol3.Run
+	c.SetAttrib "Symbol3.OnsetDelay", Symbol3.OnsetDelay
+	c.SetAttrib "Symbol3.OnsetTime", Symbol3.OnsetTime
+	c.SetAttrib "Symbol3.DurationError", Symbol3.DurationError
+	c.SetAttrib "Symbol3.Duration", Symbol3.Duration
+	c.SetAttrib "Symbol3.OffsetTime", Symbol3.OffsetTime
+	c.SetAttrib "Symbol3.FinishTime", Symbol3.FinishTime
+	c.SetAttrib "Symbol3.OffsetDelay", Symbol3.OffsetDelay
+	c.SetAttrib "Symbol3.RTTime", Symbol3.RTTime
+	c.SetAttrib "Symbol3.ACC", Symbol3.ACC
+	c.SetAttrib "Symbol3.RT", Symbol3.RT
+	c.SetAttrib "Symbol3.RESP", Symbol3.RESP
+	c.SetAttrib "Symbol3.CRESP", Symbol3.CRESP
+	
+	
+	Symbol4.Text = c.GetAttrib("Symbol4")
+	Symbol4.Run
+	c.SetAttrib "Symbol4.OnsetDelay", Symbol4.OnsetDelay
+	c.SetAttrib "Symbol4.OnsetTime", Symbol4.OnsetTime
+	c.SetAttrib "Symbol4.DurationError", Symbol4.DurationError
+	c.SetAttrib "Symbol4.Duration", Symbol4.Duration
+	c.SetAttrib "Symbol4.OffsetTime", Symbol4.OffsetTime
+	c.SetAttrib "Symbol4.FinishTime", Symbol4.FinishTime
+	c.SetAttrib "Symbol4.OffsetDelay", Symbol4.OffsetDelay
+	c.SetAttrib "Symbol4.RTTime", Symbol4.RTTime
+	c.SetAttrib "Symbol4.ACC", Symbol4.ACC
+	c.SetAttrib "Symbol4.RT", Symbol4.RT
+	c.SetAttrib "Symbol4.RESP", Symbol4.RESP
+	c.SetAttrib "Symbol4.CRESP", Symbol4.CRESP
+	
+	
+	Symbol5.Text = c.GetAttrib("Symbol5")
+	Symbol5.Run
+	c.SetAttrib "Symbol5.OnsetDelay", Symbol5.OnsetDelay
+	c.SetAttrib "Symbol5.OnsetTime", Symbol5.OnsetTime
+	c.SetAttrib "Symbol5.DurationError", Symbol5.DurationError
+	c.SetAttrib "Symbol5.Duration", Symbol5.Duration
+	c.SetAttrib "Symbol5.OffsetTime", Symbol5.OffsetTime
+	c.SetAttrib "Symbol5.FinishTime", Symbol5.FinishTime
+	c.SetAttrib "Symbol5.OffsetDelay", Symbol5.OffsetDelay
+	c.SetAttrib "Symbol5.RTTime", Symbol5.RTTime
+	c.SetAttrib "Symbol5.ACC", Symbol5.ACC
+	c.SetAttrib "Symbol5.RT", Symbol5.RT
+	c.SetAttrib "Symbol5.RESP", Symbol5.RESP
+	c.SetAttrib "Symbol5.CRESP", Symbol5.CRESP
+	
+	
+	Symbol6.Text = c.GetAttrib("Symbol6")
+	Symbol6.Run
+	c.SetAttrib "Symbol6.OnsetDelay", Symbol6.OnsetDelay
+	c.SetAttrib "Symbol6.OnsetTime", Symbol6.OnsetTime
+	c.SetAttrib "Symbol6.DurationError", Symbol6.DurationError
+	c.SetAttrib "Symbol6.Duration", Symbol6.Duration
+	c.SetAttrib "Symbol6.OffsetTime", Symbol6.OffsetTime
+	c.SetAttrib "Symbol6.FinishTime", Symbol6.FinishTime
+	c.SetAttrib "Symbol6.OffsetDelay", Symbol6.OffsetDelay
+	c.SetAttrib "Symbol6.RTTime", Symbol6.RTTime
+	c.SetAttrib "Symbol6.ACC", Symbol6.ACC
+	c.SetAttrib "Symbol6.RT", Symbol6.RT
+	c.SetAttrib "Symbol6.RESP", Symbol6.RESP
+	c.SetAttrib "Symbol6.CRESP", Symbol6.CRESP
+	
+	
+	Symbol7.Text = c.GetAttrib("Symbol7")
+	Symbol7.Run
+	c.SetAttrib "Symbol7.OnsetDelay", Symbol7.OnsetDelay
+	c.SetAttrib "Symbol7.OnsetTime", Symbol7.OnsetTime
+	c.SetAttrib "Symbol7.DurationError", Symbol7.DurationError
+	c.SetAttrib "Symbol7.Duration", Symbol7.Duration
+	c.SetAttrib "Symbol7.OffsetTime", Symbol7.OffsetTime
+	c.SetAttrib "Symbol7.FinishTime", Symbol7.FinishTime
+	c.SetAttrib "Symbol7.OffsetDelay", Symbol7.OffsetDelay
+	c.SetAttrib "Symbol7.RTTime", Symbol7.RTTime
+	c.SetAttrib "Symbol7.ACC", Symbol7.ACC
+	c.SetAttrib "Symbol7.RT", Symbol7.RT
+	c.SetAttrib "Symbol7.RESP", Symbol7.RESP
+	c.SetAttrib "Symbol7.CRESP", Symbol7.CRESP
+	
+	
+	Symbol8.Text = c.GetAttrib("Symbol8")
+	Symbol8.Run
+	c.SetAttrib "Symbol8.OnsetDelay", Symbol8.OnsetDelay
+	c.SetAttrib "Symbol8.OnsetTime", Symbol8.OnsetTime
+	c.SetAttrib "Symbol8.DurationError", Symbol8.DurationError
+	c.SetAttrib "Symbol8.Duration", Symbol8.Duration
+	c.SetAttrib "Symbol8.OffsetTime", Symbol8.OffsetTime
+	c.SetAttrib "Symbol8.FinishTime", Symbol8.FinishTime
+	c.SetAttrib "Symbol8.OffsetDelay", Symbol8.OffsetDelay
+	c.SetAttrib "Symbol8.RTTime", Symbol8.RTTime
+	c.SetAttrib "Symbol8.ACC", Symbol8.ACC
+	c.SetAttrib "Symbol8.RT", Symbol8.RT
+	c.SetAttrib "Symbol8.RESP", Symbol8.RESP
+	c.SetAttrib "Symbol8.CRESP", Symbol8.CRESP
+	
+	
+	Symbol9.Text = c.GetAttrib("Symbol9")
+	Symbol9.Run
+	c.SetAttrib "Symbol9.OnsetDelay", Symbol9.OnsetDelay
+	c.SetAttrib "Symbol9.OnsetTime", Symbol9.OnsetTime
+	c.SetAttrib "Symbol9.DurationError", Symbol9.DurationError
+	c.SetAttrib "Symbol9.Duration", Symbol9.Duration
+	c.SetAttrib "Symbol9.OffsetTime", Symbol9.OffsetTime
+	c.SetAttrib "Symbol9.FinishTime", Symbol9.FinishTime
+	c.SetAttrib "Symbol9.OffsetDelay", Symbol9.OffsetDelay
+	c.SetAttrib "Symbol9.RTTime", Symbol9.RTTime
+	c.SetAttrib "Symbol9.ACC", Symbol9.ACC
+	c.SetAttrib "Symbol9.RT", Symbol9.RT
+	c.SetAttrib "Symbol9.RESP", Symbol9.RESP
+	c.SetAttrib "Symbol9.CRESP", Symbol9.CRESP
+	
+	
+	Symbol10.Text = c.GetAttrib("Symbol10")
+	Symbol10.Run
+	c.SetAttrib "Symbol10.OnsetDelay", Symbol10.OnsetDelay
+	c.SetAttrib "Symbol10.OnsetTime", Symbol10.OnsetTime
+	c.SetAttrib "Symbol10.DurationError", Symbol10.DurationError
+	c.SetAttrib "Symbol10.Duration", Symbol10.Duration
+	c.SetAttrib "Symbol10.OffsetTime", Symbol10.OffsetTime
+	c.SetAttrib "Symbol10.FinishTime", Symbol10.FinishTime
+	c.SetAttrib "Symbol10.OffsetDelay", Symbol10.OffsetDelay
+	c.SetAttrib "Symbol10.RTTime", Symbol10.RTTime
+	c.SetAttrib "Symbol10.ACC", Symbol10.ACC
+	c.SetAttrib "Symbol10.RT", Symbol10.RT
+	c.SetAttrib "Symbol10.RESP", Symbol10.RESP
+	c.SetAttrib "Symbol10.CRESP", Symbol10.CRESP
+	
+	
+	Symbol11.Text = c.GetAttrib("Symbol11")
+	Symbol11.Run
+	c.SetAttrib "Symbol11.OnsetDelay", Symbol11.OnsetDelay
+	c.SetAttrib "Symbol11.OnsetTime", Symbol11.OnsetTime
+	c.SetAttrib "Symbol11.DurationError", Symbol11.DurationError
+	c.SetAttrib "Symbol11.Duration", Symbol11.Duration
+	c.SetAttrib "Symbol11.OffsetTime", Symbol11.OffsetTime
+	c.SetAttrib "Symbol11.FinishTime", Symbol11.FinishTime
+	c.SetAttrib "Symbol11.OffsetDelay", Symbol11.OffsetDelay
+	c.SetAttrib "Symbol11.RTTime", Symbol11.RTTime
+	c.SetAttrib "Symbol11.ACC", Symbol11.ACC
+	c.SetAttrib "Symbol11.RT", Symbol11.RT
+	c.SetAttrib "Symbol11.RESP", Symbol11.RESP
+	c.SetAttrib "Symbol11.CRESP", Symbol11.CRESP
+	
+	
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - RandomPeriod1 BEGIN
+	'''''''''''''''''''''''''''''''''''''''''''''
+	Duration = Random(1500,4500)
+
+c.SetAttrib "Duration", Duration
+
+
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - RandomPeriod1 END
+	'''''''''''''''''''''''''''''''''''''''''''''
+	
+	
+	FixationAfter.Duration = CLng(c.GetAttrib("Duration"))
+	FixationAfter.Run
+	c.SetAttrib "FixationAfter.Duration", FixationAfter.Duration
+	
+	
+	TaskExpression.Text = c.GetAttrib("TaskExpression")
+	
+	TaskExpression.InputMasks.Reset
+	
+	TaskExpressionEchoClients.RemoveAll
+	TaskExpression.InputMasks.Add Mouse.CreateInputMask("12", "", CLng(TaskExpression.Duration), CLng("1"), ebEndResponseActionNone, CLogical("Yes"), "", "", "")
+
+	
+	TaskExpressionEchoClients.RemoveAll
+	TaskExpression.InputMasks.Add Port.CreateInputMask("45", "", CLng(TaskExpression.Duration), CLng("1"), ebEndResponseActionNone, CLogical("Yes"), "", "", "")
+
+	
+	TaskExpression.Run
+	c.SetAttrib "TaskExpression.OnsetDelay", TaskExpression.OnsetDelay
+	c.SetAttrib "TaskExpression.OnsetTime", TaskExpression.OnsetTime
+	c.SetAttrib "TaskExpression.DurationError", TaskExpression.DurationError
+	c.SetAttrib "TaskExpression.Duration", TaskExpression.Duration
+	c.SetAttrib "TaskExpression.OffsetTime", TaskExpression.OffsetTime
+	c.SetAttrib "TaskExpression.FinishTime", TaskExpression.FinishTime
+	c.SetAttrib "TaskExpression.OffsetDelay", TaskExpression.OffsetDelay
+	c.SetAttrib "TaskExpression.RTTime", TaskExpression.RTTime
+	c.SetAttrib "TaskExpression.ACC", TaskExpression.ACC
+	c.SetAttrib "TaskExpression.RT", TaskExpression.RT
+	c.SetAttrib "TaskExpression.RESP", TaskExpression.RESP
+	c.SetAttrib "TaskExpression.CRESP", TaskExpression.CRESP
+	
+	
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - RandomPeriod2 BEGIN
+	'''''''''''''''''''''''''''''''''''''''''''''
+	Duration = Random(1500,4500)
+
+c.SetAttrib "Duration", Duration
+
+if Len(TaskExpression.RESP) > 0 Then
+	if c.GetAttrib("TaskAns") = 1 then
+		if TaskExpression.RESP = 1 or TaskExpression.RESP = 5 then
+			TaskExpression.ACC = 1
+			c.SetAttrib "Objperformance", 1
+		else
+			TaskExpression.ACC = 0
+			c.SetAttrib "Objperformance", 0
+		end if
+	elseif c.GetAttrib("TaskAns") = 2 then
+		if TaskExpression.RESP = 2 or TaskExpression.RESP = 4 then
+			TaskExpression.ACC = 1
+			c.SetAttrib "Objperformance", 1
+		else
+			TaskExpression.ACC = 0
+			c.SetAttrib "Objperformance", 0
+		end if
+	end if
+else
+	c.SetAttrib "Objperformance", 0
+end if
+
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - RandomPeriod2 END
+	'''''''''''''''''''''''''''''''''''''''''''''
+	
+	
+	
+	If TaskExpression.ACC = 1 Then
+		'Set the ActiveState to Correct
+		FeedbackTrial.ActiveState = "Correct"
+
+		'Add an observation to the accuracy stats
+		FeedbackTrial.AccStats.AddObservation TaskExpression.Acc
+
+		'Add an observation to the response time stats
+		' unless the user did not respond and the author
+		' does not want us to add the no response RT
+		If Len(TaskExpression.RESP) > 0 Then
+			FeedbackTrial.RTStats.AddObservation TaskExpression.RT
+			FeedbackTrial.CorrectRTStats.AddObservation TaskExpression.RT
+		End If
+	Else
+		'Is it incorrect or no response?
+		If Len(TaskExpression.RESP) > 0 Then
+			'Set the ActiveState to Incorrect
+			FeedbackTrial.ActiveState = "Incorrect"
+
+			'Set the accuracy stats
+			FeedbackTrial.AccStats.AddObservation TaskExpression.Acc
+
+			'Set the RT stats
+			FeedbackTrial.RTStats.AddObservation TaskExpression.RT
+			FeedbackTrial.IncorrectRTStats.AddObservation TaskExpression.RT
+		Else
+			'Set the ActiveState to NoResponse
+			FeedbackTrial.ActiveState = "NoResponse"
+
+			'Does the author want to consider a NoResponse
+			' to sum as an incorrect response in the ACC stats?
+			If FeedbackTrial.CollectNoRespACCStats = True Then
+				FeedbackTrial.AccStats.AddObservation TaskExpression.Acc
+			End If
+		End If
+	End If
+
+	Select Case FeedbackTrial.ActiveState
+		Case "Correct"
+
+
+			Set FeedbackTrial_SlideSoundOut = CSlideSoundOut(FeedbackTrial.States.Item("Correct").Objects(1))
+			Set FeedbackTrial_SoundBuffer = FeedbackTrial_SlideSoundOut.Buffers(1)
+			Set FeedbackTrial_SoundBuffer = Nothing
+			Set FeedbackTrial_SlideSoundOut = Nothing
+		Case "Incorrect"
+
+
+			Set FeedbackTrial_SlideSoundOut = CSlideSoundOut(FeedbackTrial.States.Item("Incorrect").Objects(1))
+			Set FeedbackTrial_SoundBuffer = FeedbackTrial_SlideSoundOut.Buffers(1)
+			Set FeedbackTrial_SoundBuffer = Nothing
+			Set FeedbackTrial_SlideSoundOut = Nothing
+		Case "NoResponse"
+
+
+			Set FeedbackTrial_SlideSoundOut = CSlideSoundOut(FeedbackTrial.States.Item("NoResponse").Objects(1))
+			Set FeedbackTrial_SoundBuffer = FeedbackTrial_SlideSoundOut.Buffers(1)
+			Set FeedbackTrial_SoundBuffer = Nothing
+			Set FeedbackTrial_SlideSoundOut = Nothing
+		Case "Pending"
+
+	End Select
+
+	FeedbackTrial.Duration = CLng(c.GetAttrib("Duration"))
+	
+
+	FeedbackTrial.Run
+
+	
+	c.SetAttrib "FeedbackTrial.Duration", FeedbackTrial.Duration
+	
+	
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - ButtonPressCount BEGIN
+	'''''''''''''''''''''''''''''''''''''''''''''
+	perf = perf + c.GetAttrib("Objperformance")
+TotalTrial = TotalTrial + 1
+
+c.SetAttrib "Perf" , perf
+c.SetAttrib "TotalTrial" , TotalTrial
+
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - ButtonPressCount END
+	'''''''''''''''''''''''''''''''''''''''''''''
+	
+	c.SetAttrib "Symbol1.OnsetDelay", Symbol1.OnsetDelay
+	c.SetAttrib "Symbol1.OnsetTime", Symbol1.OnsetTime
+	c.SetAttrib "Symbol1.DurationError", Symbol1.DurationError
+	c.SetAttrib "Symbol1.Duration", Symbol1.Duration
+	c.SetAttrib "Symbol1.OffsetTime", Symbol1.OffsetTime
+	c.SetAttrib "Symbol1.FinishTime", Symbol1.FinishTime
+	c.SetAttrib "Symbol1.OffsetDelay", Symbol1.OffsetDelay
+	c.SetAttrib "Symbol1.RTTime", Symbol1.RTTime
+	c.SetAttrib "Symbol1.ACC", Symbol1.ACC
+	c.SetAttrib "Symbol1.RT", Symbol1.RT
+	c.SetAttrib "Symbol1.RESP", Symbol1.RESP
+	c.SetAttrib "Symbol1.CRESP", Symbol1.CRESP
+	
+	c.SetAttrib "Symbol2.OnsetDelay", Symbol2.OnsetDelay
+	c.SetAttrib "Symbol2.OnsetTime", Symbol2.OnsetTime
+	c.SetAttrib "Symbol2.DurationError", Symbol2.DurationError
+	c.SetAttrib "Symbol2.Duration", Symbol2.Duration
+	c.SetAttrib "Symbol2.OffsetTime", Symbol2.OffsetTime
+	c.SetAttrib "Symbol2.FinishTime", Symbol2.FinishTime
+	c.SetAttrib "Symbol2.OffsetDelay", Symbol2.OffsetDelay
+	c.SetAttrib "Symbol2.RTTime", Symbol2.RTTime
+	c.SetAttrib "Symbol2.ACC", Symbol2.ACC
+	c.SetAttrib "Symbol2.RT", Symbol2.RT
+	c.SetAttrib "Symbol2.RESP", Symbol2.RESP
+	c.SetAttrib "Symbol2.CRESP", Symbol2.CRESP
+	
+	c.SetAttrib "Symbol3.OnsetDelay", Symbol3.OnsetDelay
+	c.SetAttrib "Symbol3.OnsetTime", Symbol3.OnsetTime
+	c.SetAttrib "Symbol3.DurationError", Symbol3.DurationError
+	c.SetAttrib "Symbol3.Duration", Symbol3.Duration
+	c.SetAttrib "Symbol3.OffsetTime", Symbol3.OffsetTime
+	c.SetAttrib "Symbol3.FinishTime", Symbol3.FinishTime
+	c.SetAttrib "Symbol3.OffsetDelay", Symbol3.OffsetDelay
+	c.SetAttrib "Symbol3.RTTime", Symbol3.RTTime
+	c.SetAttrib "Symbol3.ACC", Symbol3.ACC
+	c.SetAttrib "Symbol3.RT", Symbol3.RT
+	c.SetAttrib "Symbol3.RESP", Symbol3.RESP
+	c.SetAttrib "Symbol3.CRESP", Symbol3.CRESP
+	
+	c.SetAttrib "Symbol4.OnsetDelay", Symbol4.OnsetDelay
+	c.SetAttrib "Symbol4.OnsetTime", Symbol4.OnsetTime
+	c.SetAttrib "Symbol4.DurationError", Symbol4.DurationError
+	c.SetAttrib "Symbol4.Duration", Symbol4.Duration
+	c.SetAttrib "Symbol4.OffsetTime", Symbol4.OffsetTime
+	c.SetAttrib "Symbol4.FinishTime", Symbol4.FinishTime
+	c.SetAttrib "Symbol4.OffsetDelay", Symbol4.OffsetDelay
+	c.SetAttrib "Symbol4.RTTime", Symbol4.RTTime
+	c.SetAttrib "Symbol4.ACC", Symbol4.ACC
+	c.SetAttrib "Symbol4.RT", Symbol4.RT
+	c.SetAttrib "Symbol4.RESP", Symbol4.RESP
+	c.SetAttrib "Symbol4.CRESP", Symbol4.CRESP
+	
+	c.SetAttrib "Symbol5.OnsetDelay", Symbol5.OnsetDelay
+	c.SetAttrib "Symbol5.OnsetTime", Symbol5.OnsetTime
+	c.SetAttrib "Symbol5.DurationError", Symbol5.DurationError
+	c.SetAttrib "Symbol5.Duration", Symbol5.Duration
+	c.SetAttrib "Symbol5.OffsetTime", Symbol5.OffsetTime
+	c.SetAttrib "Symbol5.FinishTime", Symbol5.FinishTime
+	c.SetAttrib "Symbol5.OffsetDelay", Symbol5.OffsetDelay
+	c.SetAttrib "Symbol5.RTTime", Symbol5.RTTime
+	c.SetAttrib "Symbol5.ACC", Symbol5.ACC
+	c.SetAttrib "Symbol5.RT", Symbol5.RT
+	c.SetAttrib "Symbol5.RESP", Symbol5.RESP
+	c.SetAttrib "Symbol5.CRESP", Symbol5.CRESP
+	
+	c.SetAttrib "Symbol6.OnsetDelay", Symbol6.OnsetDelay
+	c.SetAttrib "Symbol6.OnsetTime", Symbol6.OnsetTime
+	c.SetAttrib "Symbol6.DurationError", Symbol6.DurationError
+	c.SetAttrib "Symbol6.Duration", Symbol6.Duration
+	c.SetAttrib "Symbol6.OffsetTime", Symbol6.OffsetTime
+	c.SetAttrib "Symbol6.FinishTime", Symbol6.FinishTime
+	c.SetAttrib "Symbol6.OffsetDelay", Symbol6.OffsetDelay
+	c.SetAttrib "Symbol6.RTTime", Symbol6.RTTime
+	c.SetAttrib "Symbol6.ACC", Symbol6.ACC
+	c.SetAttrib "Symbol6.RT", Symbol6.RT
+	c.SetAttrib "Symbol6.RESP", Symbol6.RESP
+	c.SetAttrib "Symbol6.CRESP", Symbol6.CRESP
+	
+	c.SetAttrib "Symbol7.OnsetDelay", Symbol7.OnsetDelay
+	c.SetAttrib "Symbol7.OnsetTime", Symbol7.OnsetTime
+	c.SetAttrib "Symbol7.DurationError", Symbol7.DurationError
+	c.SetAttrib "Symbol7.Duration", Symbol7.Duration
+	c.SetAttrib "Symbol7.OffsetTime", Symbol7.OffsetTime
+	c.SetAttrib "Symbol7.FinishTime", Symbol7.FinishTime
+	c.SetAttrib "Symbol7.OffsetDelay", Symbol7.OffsetDelay
+	c.SetAttrib "Symbol7.RTTime", Symbol7.RTTime
+	c.SetAttrib "Symbol7.ACC", Symbol7.ACC
+	c.SetAttrib "Symbol7.RT", Symbol7.RT
+	c.SetAttrib "Symbol7.RESP", Symbol7.RESP
+	c.SetAttrib "Symbol7.CRESP", Symbol7.CRESP
+	
+	c.SetAttrib "Symbol8.OnsetDelay", Symbol8.OnsetDelay
+	c.SetAttrib "Symbol8.OnsetTime", Symbol8.OnsetTime
+	c.SetAttrib "Symbol8.DurationError", Symbol8.DurationError
+	c.SetAttrib "Symbol8.Duration", Symbol8.Duration
+	c.SetAttrib "Symbol8.OffsetTime", Symbol8.OffsetTime
+	c.SetAttrib "Symbol8.FinishTime", Symbol8.FinishTime
+	c.SetAttrib "Symbol8.OffsetDelay", Symbol8.OffsetDelay
+	c.SetAttrib "Symbol8.RTTime", Symbol8.RTTime
+	c.SetAttrib "Symbol8.ACC", Symbol8.ACC
+	c.SetAttrib "Symbol8.RT", Symbol8.RT
+	c.SetAttrib "Symbol8.RESP", Symbol8.RESP
+	c.SetAttrib "Symbol8.CRESP", Symbol8.CRESP
+	
+	c.SetAttrib "Symbol9.OnsetDelay", Symbol9.OnsetDelay
+	c.SetAttrib "Symbol9.OnsetTime", Symbol9.OnsetTime
+	c.SetAttrib "Symbol9.DurationError", Symbol9.DurationError
+	c.SetAttrib "Symbol9.Duration", Symbol9.Duration
+	c.SetAttrib "Symbol9.OffsetTime", Symbol9.OffsetTime
+	c.SetAttrib "Symbol9.FinishTime", Symbol9.FinishTime
+	c.SetAttrib "Symbol9.OffsetDelay", Symbol9.OffsetDelay
+	c.SetAttrib "Symbol9.RTTime", Symbol9.RTTime
+	c.SetAttrib "Symbol9.ACC", Symbol9.ACC
+	c.SetAttrib "Symbol9.RT", Symbol9.RT
+	c.SetAttrib "Symbol9.RESP", Symbol9.RESP
+	c.SetAttrib "Symbol9.CRESP", Symbol9.CRESP
+	
+	c.SetAttrib "Symbol10.OnsetDelay", Symbol10.OnsetDelay
+	c.SetAttrib "Symbol10.OnsetTime", Symbol10.OnsetTime
+	c.SetAttrib "Symbol10.DurationError", Symbol10.DurationError
+	c.SetAttrib "Symbol10.Duration", Symbol10.Duration
+	c.SetAttrib "Symbol10.OffsetTime", Symbol10.OffsetTime
+	c.SetAttrib "Symbol10.FinishTime", Symbol10.FinishTime
+	c.SetAttrib "Symbol10.OffsetDelay", Symbol10.OffsetDelay
+	c.SetAttrib "Symbol10.RTTime", Symbol10.RTTime
+	c.SetAttrib "Symbol10.ACC", Symbol10.ACC
+	c.SetAttrib "Symbol10.RT", Symbol10.RT
+	c.SetAttrib "Symbol10.RESP", Symbol10.RESP
+	c.SetAttrib "Symbol10.CRESP", Symbol10.CRESP
+	
+	c.SetAttrib "Symbol11.OnsetDelay", Symbol11.OnsetDelay
+	c.SetAttrib "Symbol11.OnsetTime", Symbol11.OnsetTime
+	c.SetAttrib "Symbol11.DurationError", Symbol11.DurationError
+	c.SetAttrib "Symbol11.Duration", Symbol11.Duration
+	c.SetAttrib "Symbol11.OffsetTime", Symbol11.OffsetTime
+	c.SetAttrib "Symbol11.FinishTime", Symbol11.FinishTime
+	c.SetAttrib "Symbol11.OffsetDelay", Symbol11.OffsetDelay
+	c.SetAttrib "Symbol11.RTTime", Symbol11.RTTime
+	c.SetAttrib "Symbol11.ACC", Symbol11.ACC
+	c.SetAttrib "Symbol11.RT", Symbol11.RT
+	c.SetAttrib "Symbol11.RESP", Symbol11.RESP
+	c.SetAttrib "Symbol11.CRESP", Symbol11.CRESP
+	
+	c.SetAttrib "FixationAfter.Duration", FixationAfter.Duration
+	
+	c.SetAttrib "TaskExpression.OnsetDelay", TaskExpression.OnsetDelay
+	c.SetAttrib "TaskExpression.OnsetTime", TaskExpression.OnsetTime
+	c.SetAttrib "TaskExpression.DurationError", TaskExpression.DurationError
+	c.SetAttrib "TaskExpression.Duration", TaskExpression.Duration
+	c.SetAttrib "TaskExpression.OffsetTime", TaskExpression.OffsetTime
+	c.SetAttrib "TaskExpression.FinishTime", TaskExpression.FinishTime
+	c.SetAttrib "TaskExpression.OffsetDelay", TaskExpression.OffsetDelay
+	c.SetAttrib "TaskExpression.RTTime", TaskExpression.RTTime
+	c.SetAttrib "TaskExpression.ACC", TaskExpression.ACC
+	c.SetAttrib "TaskExpression.RT", TaskExpression.RT
+	c.SetAttrib "TaskExpression.RESP", TaskExpression.RESP
+	c.SetAttrib "TaskExpression.CRESP", TaskExpression.CRESP
+	
+	c.SetAttrib "FeedbackTrial.Duration", FeedbackTrial.Duration
+	
+
+	c.Log
+End Sub
+
+
+
+
+
+'--------------------------------------------------------------------------
+' InitDevices
+'
+'--------------------------------------------------------------------------
+Sub InitDevices(c As Context)
+
+
+
+	SetOSThreadPriority 3
+
+
+	Set Display = New DisplayDevice
+	Display.Name = "Display"
+
+	Dim DisplayDisplayDeviceInfo As DisplayDeviceInfo
+	DisplayDisplayDeviceInfo.XRes = 1024
+	DisplayDisplayDeviceInfo.YRes = 768
+	DisplayDisplayDeviceInfo.ColorDepth = 16
+	DisplayDisplayDeviceInfo.RefreshRate = 0
+	DisplayDisplayDeviceInfo.NumPages = 0
+
+	Display.Open DisplayDisplayDeviceInfo
+	c.SetAttrib "Display.RefreshRate", Format$(Display.CalculatedRefreshRate, "0.000")
+
+	Set Sound = New SoundDevice
+	Sound.Name = "Sound"
+
+	Dim SoundSoundOutDeviceInfo As SoundDeviceInfo
+	SoundSoundOutDeviceInfo.Channels = 2
+	SoundSoundOutDeviceInfo.SamplesPerSecond = 44100
+	SoundSoundOutDeviceInfo.BitsPerSample = 16
+	Sound.Open SoundSoundOutDeviceInfo
+
+	Set Keyboard = New KeyboardDevice
+	Keyboard.Name = "Keyboard"
+
+	Dim KeyboardKeyboardDeviceInfo as KeyboardDeviceInfo
+	KeyboardKeyboardDeviceInfo.CollectionMode = ebPressesOnly
+	KeyboardKeyboardDeviceInfo.CapsLock = ebCapsLockOff
+	KeyboardKeyboardDeviceInfo.NumLock = ebNumLockOn
+	Keyboard.Open KeyboardKeyboardDeviceInfo
+	
+	Set Mouse = New MouseDevice
+	Mouse.Name = "Mouse"
+
+	Dim MouseMouseDeviceInfo as MouseDeviceInfo
+	MouseMouseDeviceInfo.OpenMode = ebMouseOpenModeDirect
+	MouseMouseDeviceInfo.CollectionMode = ebPressesOnly
+	MouseMouseDeviceInfo.ShowCursor = False
+	Mouse.Open MouseMouseDeviceInfo
+
+	Set Port = New PortDevice
+	Port.Name = "Port"
+	Dim PortPortDeviceInfo As PortDeviceInfo
+	PortPortDeviceInfo.CollectionMode = ebPressesOnly
+	PortPortDeviceInfo.Address = &HE801
+	PortPortDeviceInfo.Size = 8
+	PortPortDeviceInfo.Invert = CLogical("No")
+	PortPortDeviceInfo.Mask = -1
+	Port.Open PortPortDeviceInfo
+
+
+	SetOSThreadPriority 0
+
+End Sub
+
+
+
+'--------------------------------------------------------------------------
+' InitObjects
+'
+'--------------------------------------------------------------------------
+Sub InitObjects(c As Context)
+
+	Set SessionProc = New Procedure
+	SessionProc.Name = "SessionProc"
+	SessionProc.Tag = ""
+	SessionProc.Subroutine = "SessionProc_Run"
+
+	Set List1 = New List
+	List1.Name = "List1"
+	List1.Tag = ""
+
+	'Initialization for List1
+	
+	Set List1.Order = New RandomOrder
+	Set List1.Deletion = NoDeletion
+	List1.ResetEveryRun = False
+
+	' Create the column headings
+	List1.AddAttrib "Level"
+	List1.AddAttrib "BranchSide"
+	List1.AddAttrib "Symbol1"
+	List1.AddAttrib "Symbol2"
+	List1.AddAttrib "Symbol3"
+	List1.AddAttrib "Symbol4"
+	List1.AddAttrib "Symbol5"
+	List1.AddAttrib "Symbol6"
+	List1.AddAttrib "Symbol7"
+	List1.AddAttrib "Symbol8"
+	List1.AddAttrib "Symbol9"
+	List1.AddAttrib "Symbol10"
+	List1.AddAttrib "Symbol11"
+	List1.AddAttrib "TaskExpression"
+	List1.AddAttrib "TaskAns"
+	List1.AddAttrib "Level2"
+	List1.AddAttrib "NonmatchN"
+	List1.AddAttrib "Trigger"
+	List1.Filename = "Strings\\MathFormula_MEG_Seq_Run2.txt"
+	List1.LoadMethod = ebLoadMethodFile
+
+	List1.Load
+	List1.Reset
+	
+	Set List1.TerminateCondition = Cycles(1)
+	Set List1.ResetCondition = Samples(List1.Deletion.Count)
+	
+	Set stimproc = New Procedure
+	stimproc.Name = "stimproc"
+	stimproc.Tag = ""
+	stimproc.Subroutine = "stimproc_Run"
+
+	Set Instructions = New TextDisplay
+	Instructions.Name = "Instructions"
+	Instructions.Tag = ""
+
+	Set InstructionsEchoClients = New EchoClientCollection
+
+	InitTextDisplayDefaults Instructions
+
+	Instructions.Text = "\nUn caractère est présenté un par un, puis vous \n       allez voir une série de caractères \nAppuyer sur le bouton droit rapidement, \n         si c" &_ 
+				"ette série est identique\naux caractères isolés sinon appuyez à gauche\n \nMerci de ne pas bouger la tête pendant l'acquisition"
+	Instructions.BackColor = CColor("black")
+	Instructions.ForeColor = CColor("white")
+	Instructions.FontName = "Verdana"
+	Instructions.FontBold = CLogical("No")
+	Instructions.ClearAfter = CLogical("Yes")
+	Instructions.Duration = CLng("-1")
+	Instructions.TimingMode = ebTimingModeEvent
+	Instructions.PreRelease = Val("50")
+
+	Instructions.OnsetSync = 1
+	Instructions.OffsetSync = 0
+
+	Set Symbol11 = New TextDisplay
+	Symbol11.Name = "Symbol11"
+	Symbol11.Tag = ""
+
+	InitTextDisplayDefaults Symbol11
+
+	Symbol11.BackColor = CColor("black")
+	Symbol11.ForeColor = CColor("white")
+	Symbol11.FontName = "Lucida Console"
+	Symbol11.FontSize = "22"
+	Symbol11.FontBold = CLogical("No")
+	Symbol11.Duration = CLng("300")
+	Symbol11.TimingMode = ebTimingModeCumulative
+	Symbol11.PreRelease = Val("60")
+
+	Symbol11.OnsetSync = 1
+	Symbol11.OffsetSync = 0
+
+	Set Symbol10 = New TextDisplay
+	Symbol10.Name = "Symbol10"
+	Symbol10.Tag = ""
+
+	InitTextDisplayDefaults Symbol10
+
+	Symbol10.BackColor = CColor("black")
+	Symbol10.ForeColor = CColor("white")
+	Symbol10.FontName = "Lucida Console"
+	Symbol10.FontSize = "22"
+	Symbol10.FontBold = CLogical("No")
+	Symbol10.Duration = CLng("300")
+	Symbol10.TimingMode = ebTimingModeCumulative
+	Symbol10.PreRelease = Val("60")
+
+	Symbol10.OnsetSync = 1
+	Symbol10.OffsetSync = 0
+
+	Set TaskExpression = New TextDisplay
+	TaskExpression.Name = "TaskExpression"
+	TaskExpression.Tag = ""
+
+	Set TaskExpressionEchoClients = New EchoClientCollection
+
+	InitTextDisplayDefaults TaskExpression
+
+	TaskExpression.BackColor = CColor("black")
+	TaskExpression.ForeColor = CColor("white")
+	TaskExpression.FontName = "Lucida Console"
+	TaskExpression.FontSize = "22"
+	TaskExpression.FontBold = CLogical("No")
+	TaskExpression.Duration = CLng("1500")
+	TaskExpression.TimingMode = ebTimingModeCumulative
+	TaskExpression.PreRelease = Val("60")
+
+	TaskExpression.OnsetSync = 1
+	TaskExpression.OffsetSync = 0
+
+	Set Symbol9 = New TextDisplay
+	Symbol9.Name = "Symbol9"
+	Symbol9.Tag = ""
+
+	InitTextDisplayDefaults Symbol9
+
+	Symbol9.BackColor = CColor("black")
+	Symbol9.ForeColor = CColor("white")
+	Symbol9.FontName = "Lucida Console"
+	Symbol9.FontSize = "22"
+	Symbol9.FontBold = CLogical("No")
+	Symbol9.Duration = CLng("300")
+	Symbol9.TimingMode = ebTimingModeCumulative
+	Symbol9.PreRelease = Val("60")
+
+	Symbol9.OnsetSync = 1
+	Symbol9.OffsetSync = 0
+
+	Set Symbol8 = New TextDisplay
+	Symbol8.Name = "Symbol8"
+	Symbol8.Tag = ""
+
+	InitTextDisplayDefaults Symbol8
+
+	Symbol8.BackColor = CColor("black")
+	Symbol8.ForeColor = CColor("white")
+	Symbol8.FontName = "Lucida Console"
+	Symbol8.FontSize = "22"
+	Symbol8.FontBold = CLogical("No")
+	Symbol8.Duration = CLng("300")
+	Symbol8.TimingMode = ebTimingModeCumulative
+	Symbol8.PreRelease = Val("60")
+
+	Symbol8.OnsetSync = 1
+	Symbol8.OffsetSync = 0
+
+	Set Symbol7 = New TextDisplay
+	Symbol7.Name = "Symbol7"
+	Symbol7.Tag = ""
+
+	InitTextDisplayDefaults Symbol7
+
+	Symbol7.BackColor = CColor("black")
+	Symbol7.ForeColor = CColor("white")
+	Symbol7.FontName = "Lucida Console"
+	Symbol7.FontSize = "22"
+	Symbol7.FontBold = CLogical("No")
+	Symbol7.Duration = CLng("300")
+	Symbol7.TimingMode = ebTimingModeCumulative
+	Symbol7.PreRelease = Val("60")
+
+	Symbol7.OnsetSync = 1
+	Symbol7.OffsetSync = 0
+
+	Set Symbol6 = New TextDisplay
+	Symbol6.Name = "Symbol6"
+	Symbol6.Tag = ""
+
+	InitTextDisplayDefaults Symbol6
+
+	Symbol6.BackColor = CColor("black")
+	Symbol6.ForeColor = CColor("white")
+	Symbol6.FontName = "Lucida Console"
+	Symbol6.FontSize = "22"
+	Symbol6.FontBold = CLogical("No")
+	Symbol6.Duration = CLng("300")
+	Symbol6.TimingMode = ebTimingModeCumulative
+	Symbol6.PreRelease = Val("60")
+
+	Symbol6.OnsetSync = 1
+	Symbol6.OffsetSync = 0
+
+	Set Symbol5 = New TextDisplay
+	Symbol5.Name = "Symbol5"
+	Symbol5.Tag = ""
+
+	InitTextDisplayDefaults Symbol5
+
+	Symbol5.BackColor = CColor("black")
+	Symbol5.ForeColor = CColor("white")
+	Symbol5.FontName = "Lucida Console"
+	Symbol5.FontSize = "22"
+	Symbol5.FontBold = CLogical("No")
+	Symbol5.Duration = CLng("300")
+	Symbol5.TimingMode = ebTimingModeCumulative
+	Symbol5.PreRelease = Val("60")
+
+	Symbol5.OnsetSync = 1
+	Symbol5.OffsetSync = 0
+
+	Set Symbol4 = New TextDisplay
+	Symbol4.Name = "Symbol4"
+	Symbol4.Tag = ""
+
+	InitTextDisplayDefaults Symbol4
+
+	Symbol4.BackColor = CColor("black")
+	Symbol4.ForeColor = CColor("white")
+	Symbol4.FontName = "Lucida Console"
+	Symbol4.FontSize = "22"
+	Symbol4.FontBold = CLogical("No")
+	Symbol4.Duration = CLng("300")
+	Symbol4.TimingMode = ebTimingModeCumulative
+	Symbol4.PreRelease = Val("60")
+
+	Symbol4.OnsetSync = 1
+	Symbol4.OffsetSync = 0
+
+	Set Symbol3 = New TextDisplay
+	Symbol3.Name = "Symbol3"
+	Symbol3.Tag = ""
+
+	InitTextDisplayDefaults Symbol3
+
+	Symbol3.BackColor = CColor("black")
+	Symbol3.ForeColor = CColor("white")
+	Symbol3.FontName = "Lucida Console"
+	Symbol3.FontSize = "22"
+	Symbol3.FontBold = CLogical("No")
+	Symbol3.Duration = CLng("300")
+	Symbol3.TimingMode = ebTimingModeCumulative
+	Symbol3.PreRelease = Val("60")
+
+	Symbol3.OnsetSync = 1
+	Symbol3.OffsetSync = 0
+
+	Set Symbol2 = New TextDisplay
+	Symbol2.Name = "Symbol2"
+	Symbol2.Tag = ""
+
+	InitTextDisplayDefaults Symbol2
+
+	Symbol2.BackColor = CColor("black")
+	Symbol2.ForeColor = CColor("white")
+	Symbol2.FontName = "Lucida Console"
+	Symbol2.FontSize = "22"
+	Symbol2.FontBold = CLogical("No")
+	Symbol2.Duration = CLng("300")
+	Symbol2.TimingMode = ebTimingModeCumulative
+	Symbol2.PreRelease = Val("60")
+
+	Symbol2.OnsetSync = 1
+	Symbol2.OffsetSync = 0
+
+	Set Symbol1 = New TextDisplay
+	Symbol1.Name = "Symbol1"
+	Symbol1.Tag = ""
+
+	InitTextDisplayDefaults Symbol1
+
+	Symbol1.BackColor = CColor("black")
+	Symbol1.ForeColor = CColor("white")
+	Symbol1.FontName = "Lucida Console"
+	Symbol1.FontSize = "22"
+	Symbol1.FontBold = CLogical("No")
+	Symbol1.Duration = CLng("300")
+	Symbol1.TimingMode = ebTimingModeCumulative
+	Symbol1.PreRelease = Val("60")
+
+	Symbol1.OnsetSync = 1
+	Symbol1.OffsetSync = 0
+
+	Set FixationBefore = New TextDisplay
+	FixationBefore.Name = "FixationBefore"
+	FixationBefore.Tag = ""
+
+	InitTextDisplayDefaults FixationBefore
+
+	FixationBefore.Text = "·"
+	FixationBefore.BackColor = CColor("black")
+	FixationBefore.ForeColor = CColor("white")
+	FixationBefore.FontName = "Verdana"
+	FixationBefore.FontSize = "8"
+	FixationBefore.FontBold = CLogical("No")
+	FixationBefore.Duration = CLng("800")
+	FixationBefore.TimingMode = ebTimingModeCumulative
+	FixationBefore.PreRelease = Val("60")
+
+	FixationBefore.OnsetSync = 1
+	FixationBefore.OffsetSync = 0
+
+	Set FixationAfter = New TextDisplay
+	FixationAfter.Name = "FixationAfter"
+	FixationAfter.Tag = ""
+
+	InitTextDisplayDefaults FixationAfter
+
+	FixationAfter.Text = "·"
+	FixationAfter.BackColor = CColor("black")
+	FixationAfter.ForeColor = CColor("white")
+	FixationAfter.FontName = "Verdana"
+	FixationAfter.FontSize = "8"
+	FixationAfter.FontBold = CLogical("No")
+	FixationAfter.TimingMode = ebTimingModeCumulative
+	FixationAfter.PreRelease = Val("60")
+
+	FixationAfter.OnsetSync = 1
+	FixationAfter.OffsetSync = 0
+
+	Set FeedbackTrial = New FeedbackDisplay
+	FeedbackTrial.Name = "FeedbackTrial"
+	FeedbackTrial.Tag = ""
+
+	FeedbackTrial.ACCDivisor = "1.0"
+	FeedbackTrial.ACCFormat = "Percent"
+	FeedbackTrial.RTDivisor = "1000.0"
+	FeedbackTrial.RTFormat = "###0.000"
+	FeedbackTrial.CorrectRTDivisor = "1000.0"
+	FeedbackTrial.CorrectRTFormat = "###0.000"
+	FeedbackTrial.IncorrectRTDivisor = "1000.0"
+	FeedbackTrial.IncorrectRTFormat = "###0.000"
+	FeedbackTrial.CollectNoRespACCStats = True
+	FeedbackTrial.TimingMode = ebTimingModeCumulative
+	FeedbackTrial.PreRelease = Val("60")
+
+	FeedbackTrial.OnsetSync = 1
+	FeedbackTrial.OffsetSync = 0
+
+	Set FeedbackTrial_State = New SlideState
+	FeedbackTrial_State.Name = "Correct"
+
+	InitSlideStateDefaults FeedbackTrial_State
+
+	FeedbackTrial_State.BackColor = CColor("black")
+
+	FeedbackTrial.States.Add FeedbackTrial_State, "Correct"
+
+
+	Set FeedbackTrial_SlideSoundOut = New SlideSoundOut
+	FeedbackTrial_SlideSoundOut.Name = "SoundOut1"
+	FeedbackTrial_SoundBufferInfo.MaxLength = 5000
+	FeedbackTrial_SoundBufferInfo.VolumeControl = CLogical("no")
+	FeedbackTrial_SoundBufferInfo.PanControl = CLogical("no")
+	Set FeedbackTrial_SoundBuffer = Sound.CreateBuffer(FeedbackTrial_SoundBufferInfo)
+	FeedbackTrial_SlideSoundOut.Buffers.Add FeedbackTrial_SoundBuffer
+	FeedbackTrial.States.Item("Correct").Objects.Add FeedbackTrial_SlideSoundOut, "SoundOut1"
+
+	FeedbackTrial_SoundBuffer.Filename = "Sound\\Reward2_Amplify.wav"
+	FeedbackTrial_SoundBuffer.Load
+
+	InitSlideSoundBufferDefaults FeedbackTrial_SoundBuffer
+
+	FeedbackTrial_SoundBuffer.EndSoundAction = 0
+	Set FeedbackTrial_SoundBuffer = Nothing
+
+	Set FeedbackTrial_State = New SlideState
+	FeedbackTrial_State.Name = "Incorrect"
+
+	InitSlideStateDefaults FeedbackTrial_State
+
+	FeedbackTrial_State.BackColor = CColor("black")
+
+	FeedbackTrial.States.Add FeedbackTrial_State, "Incorrect"
+
+
+	Set FeedbackTrial_SlideSoundOut = New SlideSoundOut
+	FeedbackTrial_SlideSoundOut.Name = "SoundOut2"
+	FeedbackTrial_SoundBufferInfo.MaxLength = 5000
+	FeedbackTrial_SoundBufferInfo.VolumeControl = CLogical("no")
+	FeedbackTrial_SoundBufferInfo.PanControl = CLogical("no")
+	Set FeedbackTrial_SoundBuffer = Sound.CreateBuffer(FeedbackTrial_SoundBufferInfo)
+	FeedbackTrial_SlideSoundOut.Buffers.Add FeedbackTrial_SoundBuffer
+	FeedbackTrial.States.Item("Incorrect").Objects.Add FeedbackTrial_SlideSoundOut, "SoundOut2"
+
+	FeedbackTrial_SoundBuffer.Filename = "Sound\\Beep2_Amplify.wav"
+	FeedbackTrial_SoundBuffer.Load
+
+	InitSlideSoundBufferDefaults FeedbackTrial_SoundBuffer
+
+	FeedbackTrial_SoundBuffer.EndSoundAction = 0
+	Set FeedbackTrial_SoundBuffer = Nothing
+
+	Set FeedbackTrial_State = New SlideState
+	FeedbackTrial_State.Name = "NoResponse"
+
+	InitSlideStateDefaults FeedbackTrial_State
+
+	FeedbackTrial_State.BackColor = CColor("black")
+
+	FeedbackTrial.States.Add FeedbackTrial_State, "NoResponse"
+
+
+	Set FeedbackTrial_SlideSoundOut = New SlideSoundOut
+	FeedbackTrial_SlideSoundOut.Name = "SoundOut1"
+	FeedbackTrial_SoundBufferInfo.MaxLength = 5000
+	FeedbackTrial_SoundBufferInfo.VolumeControl = CLogical("no")
+	FeedbackTrial_SoundBufferInfo.PanControl = CLogical("no")
+	Set FeedbackTrial_SoundBuffer = Sound.CreateBuffer(FeedbackTrial_SoundBufferInfo)
+	FeedbackTrial_SlideSoundOut.Buffers.Add FeedbackTrial_SoundBuffer
+	FeedbackTrial.States.Item("NoResponse").Objects.Add FeedbackTrial_SlideSoundOut, "SoundOut1"
+
+	FeedbackTrial_SoundBuffer.Filename = "Sound\\Beep1_Amplify.wav"
+	FeedbackTrial_SoundBuffer.Load
+
+	InitSlideSoundBufferDefaults FeedbackTrial_SoundBuffer
+
+	FeedbackTrial_SoundBuffer.EndSoundAction = 0
+	Set FeedbackTrial_SoundBuffer = Nothing
+
+	Set FeedbackTrial_State = New SlideState
+	FeedbackTrial_State.Name = "Pending"
+
+	InitSlideStateDefaults FeedbackTrial_State
+
+
+	FeedbackTrial.States.Add FeedbackTrial_State, "Pending"
+
+
+	Set FeedbackTotalPerformance = New TextDisplay
+	FeedbackTotalPerformance.Name = "FeedbackTotalPerformance"
+	FeedbackTotalPerformance.Tag = ""
+
+	InitTextDisplayDefaults FeedbackTotalPerformance
+
+	FeedbackTotalPerformance.BackColor = CColor("black")
+	FeedbackTotalPerformance.ForeColor = CColor("white")
+	FeedbackTotalPerformance.FontName = "Verdana"
+	FeedbackTotalPerformance.FontBold = CLogical("No")
+	FeedbackTotalPerformance.Duration = CLng("5000")
+	FeedbackTotalPerformance.TimingMode = ebTimingModeCumulative
+	FeedbackTotalPerformance.PreRelease = Val("60")
+
+	FeedbackTotalPerformance.OnsetSync = 1
+	FeedbackTotalPerformance.OffsetSync = 0
+
+	Set WaitTTL = New TextDisplay
+	WaitTTL.Name = "WaitTTL"
+	WaitTTL.Tag = ""
+
+	Set WaitTTLEchoClients = New EchoClientCollection
+
+	InitTextDisplayDefaults WaitTTL
+
+	WaitTTL.Text = "Waiting for fMRI trigger... (or press 's' to start)"
+	WaitTTL.BackColor = CColor("black")
+	WaitTTL.ForeColor = CColor("white")
+	WaitTTL.Duration = CLng("-1")
+	WaitTTL.TimingMode = ebTimingModeEvent
+	WaitTTL.PreRelease = Val("0")
+
+	WaitTTL.OnsetSync = 1
+	WaitTTL.OffsetSync = 0
+
+	Set BaselineBefore = New TextDisplay
+	BaselineBefore.Name = "BaselineBefore"
+	BaselineBefore.Tag = ""
+
+	InitTextDisplayDefaults BaselineBefore
+
+	BaselineBefore.Text = ""
+	BaselineBefore.BackColor = CColor("black")
+	BaselineBefore.ForeColor = CColor("white")
+	BaselineBefore.FontName = "Verdana"
+	BaselineBefore.FontSize = "8"
+	BaselineBefore.FontBold = CLogical("No")
+	BaselineBefore.Duration = CLng("2000")
+	BaselineBefore.TimingMode = ebTimingModeCumulative
+	BaselineBefore.PreRelease = Val("60")
+
+	BaselineBefore.OnsetSync = 1
+	BaselineBefore.OffsetSync = 0
+
+	Set BaselineAfter = New TextDisplay
+	BaselineAfter.Name = "BaselineAfter"
+	BaselineAfter.Tag = ""
+
+	InitTextDisplayDefaults BaselineAfter
+
+	BaselineAfter.Text = ""
+	BaselineAfter.BackColor = CColor("black")
+	BaselineAfter.ForeColor = CColor("white")
+	BaselineAfter.FontName = "Verdana"
+	BaselineAfter.FontSize = "8"
+	BaselineAfter.FontBold = CLogical("No")
+	BaselineAfter.Duration = CLng("10000")
+	BaselineAfter.TimingMode = ebTimingModeCumulative
+	BaselineAfter.PreRelease = Val("60")
+
+	BaselineAfter.OnsetSync = 1
+	BaselineAfter.OffsetSync = 0
+
+
+End Sub
+
+
+'--------------------------------------------------------------------------
+' InitPackages
+'
+'--------------------------------------------------------------------------
+Sub InitPackages(c As Context)
+
+End Sub
+
+
+
+'--------------------------------------------------------------------------
+'--------------------------------------------------------------------------
+' UnInitDevices
+'--------------------------------------------------------------------------
+Sub UnInitDevices()
+	Display.Close
+	Set Display = Nothing
+	Sound.Close
+
+	Keyboard.Close
+	Set Keyboard = Nothing
+
+	Mouse.Close
+	Set Mouse = Nothing
+
+
+	Port.Close
+	End Sub
+
+
+'--------------------------------------------------------------------------
+'--------------------------------------------------------------------------
+' UnInitPackages
+'--------------------------------------------------------------------------
+Sub UnInitPackages()
+End Sub
+
+
+'--------------------------------------------------------------------------
+' UnInitObjects
+'
+'--------------------------------------------------------------------------
+Sub UnInitObjects()
+
+	Set SessionProc = Nothing
+
+	Set List1 = Nothing
+
+	Set stimproc = Nothing
+
+	Set Instructions = Nothing
+
+	Set InstructionsEchoClients = Nothing
+
+	Set Symbol11 = Nothing
+
+	Set Symbol10 = Nothing
+
+	Set TaskExpression = Nothing
+
+	Set TaskExpressionEchoClients = Nothing
+
+	Set Symbol9 = Nothing
+
+	Set Symbol8 = Nothing
+
+	Set Symbol7 = Nothing
+
+	Set Symbol6 = Nothing
+
+	Set Symbol5 = Nothing
+
+	Set Symbol4 = Nothing
+
+	Set Symbol3 = Nothing
+
+	Set Symbol2 = Nothing
+
+	Set Symbol1 = Nothing
+
+	Set FixationBefore = Nothing
+
+	Set FixationAfter = Nothing
+
+	Set FeedbackTrial = Nothing
+
+	Set FeedbackTotalPerformance = Nothing
+
+	Set WaitTTL = Nothing
+
+	Set WaitTTLEchoClients = Nothing
+
+	Set BaselineBefore = Nothing
+
+	Set BaselineAfter = Nothing
+
+
+End Sub
+
+
+'--------------------------------------------------------------------------
+' Main
+'
+'--------------------------------------------------------------------------
+Sub Main()
+
+	CreateDefaultPort
+
+	' Create and initialize the default context, data file,
+	' and provide global access to the context.
+	Dim c As Context
+	Set c = New Context
+	Set c.DataFile = New DataFile
+	c.PushNewFrame
+	Set ebContext = c
+
+	' Set the log level names
+	c.SetLogLevelName 1, "Session"
+	c.SetLogLevelName 2, "Block"
+	c.SetLogLevelName 3, "Trial"
+	c.SetLogLevelName 4, "SubTrial"
+	c.SetLogLevelName 5, "LogLevel5"
+	c.SetLogLevelName 6, "LogLevel6"
+	c.SetLogLevelName 7, "LogLevel7"
+	c.SetLogLevelName 8, "LogLevel8"
+	c.SetLogLevelName 9, "LogLevel9"
+	c.SetLogLevelName 10, "LogLevel10"
+
+	' Set standard logging items
+	ebContext.SetAttrib "Experiment", "MathFormula_fMRI_Seq_R2"
+	ebContext.SetAttrib "SessionDate", Date$
+	ebContext.SetAttrib "SessionTime", Time$
+	ebContext.SetAttrib "RandomSeed", PRNG.GetSeed()
+
+	If Basic.OS = ebWin32 Then
+		WinActivate "E-Run Experiment Window"
+	End If
+
+	' Get the StartupInfo
+	' Set default for GroupNumber
+	c.SetAttrib "Group", "1"
+
+
+	' Set the defaults for all of the StartupInfo
+	c.SetAttrib "Subject", "1"
+	c.SetAttrib "Session", "1"
+
+	Dim vAnswer As Variant
+StartupInfo_Begin:
+
+StartupInfoPrompt_Subject:
+	vAnswer = AskBox("Please enter the Subject Number (1-32767, 0=No Data Logging):", c.GetAttrib("Subject"))
+	If Not IsEmpty(vAnswer) then
+		If Not IsNumeric(vAnswer) then
+			MsgBox "Please enter an integer value"
+			GoTo StartupInfoPrompt_Subject
+		ElseIf CLng(vAnswer) < 0 Then
+			MsgBox "The value for Subject must not be less than 0"
+			GoTo StartupInfoPrompt_Subject
+		ElseIf CLng(vAnswer) > 32767 Then
+			MsgBox "The value for Subject must be not be greater than 32767"
+			GoTo StartupInfoPrompt_Subject
+		End If
+	Else
+		GoTo ExperimentAbort
+	End if
+
+	c.SetAttrib "Subject", CStr(vAnswer)
+
+StartupInfoPrompt_Session:
+	vAnswer = AskBox("Please enter the Session Number (1-32767):", c.GetAttrib("Session"))
+	If Not IsEmpty(vAnswer) then
+		If Not IsNumeric(vAnswer) then
+			MsgBox "Please enter an integer value"
+			GoTo StartupInfoPrompt_Session
+		ElseIf CLng(vAnswer) < 1 Then
+			MsgBox "The value for Session must not be less than 1"
+			GoTo StartupInfoPrompt_Session
+		ElseIf CLng(vAnswer) > 32767 Then
+			MsgBox "The value for Session must be not be greater than 32767"
+			GoTo StartupInfoPrompt_Session
+		End If
+	Else
+		GoTo ExperimentAbort
+	End if
+
+	c.SetAttrib "Session", CStr(vAnswer)
+
+	' Display the summary
+	Dim strSummary As String
+	strSummary = "Subject:    " & c.GetAttrib("Subject") & "\n"
+	strSummary = strSummary & "Session:    " & c.GetAttrib("Session") & "\n"
+	strSummary = strSummary & "\nContinue with the above startup info?"
+
+	Dim nSummaryAnswer As Integer
+	nSummaryAnswer = MsgBox(strSummary, ebYesNoCancel + ebQuestion, "Summary of Startup Info")
+	If nSummaryAnswer = ebNo Then
+		GoTo StartupInfo_Begin
+	ElseIf nSummaryAnswer = ebCancel Then
+		GoTo ExperimentAbort
+	End If
+
+
+	' Set the default Data Filename
+	c.DataFile.Filename = CStr(c.GetAttrib("Experiment")) & "-" & CStr(c.GetAttrib("Subject")) & "-" & CStr(c.GetAttrib("Session")) & ".txt"
+
+	' If we are logging data, then prompt to overwrite the data file if it exists
+	If CLng(c.GetAttrib("Subject")) <> 0 Then
+		If FileExists(c.DataFile.Filename) Then
+			If ebYes <> MsgBox("WARNING: The data file and/or recovery file already exists:\nFILE: " & c.DataFile.Filename & "\n\nDo you want to overwrite?", ebYesNo + ebQuestion) Then
+				GoTo ExperimentAbort
+			End If
+		End If
+	End If
+
+	' Initialize all system devices, packages, and objects
+	InitDevices c
+	InitPackages c
+	InitObjects c
+
+	' If we are logging data, then open the datafile
+	If CLng(c.GetAttrib("Subject")) <> 0 Then
+		c.DataFile.Open
+		c.LogHeader
+	End If
+
+	' Start the running of the Experiment
+	SessionProc.Run c
+
+	' Clean up the context and close the datafile
+	If CLng(c.GetAttrib("Subject")) <> 0 Then
+		c.DataFile.Close
+		' Attempt to convert the recovery file into a data file
+		Dim nConvert As Long
+		nConvert = c.DataFile.Convert(ebProgressSimple)
+		If nConvert = 0 Then
+			' Settings in E-Studio are set to not remove E-Recovery file
+		Else
+			' The datafile failed to convert!
+			MsgBox "ERROR: The datafile did not convert!\nFILE: " & c.DataFile.Filename & "\n\nIt is recommended that you recover your data with the E-Recovery utility"
+			MsgBox c.DataFile.GetLastErrorMessage()
+		End If
+	End If
+ExperimentFinish:
+
+	UnInitObjects
+
+	UnInitPackages
+	UnInitDevices
+
+ExperimentAbort:
+
+	' Clean up the context
+	c.PopFrame
+	Set c = Nothing
+	Set ebContext = Nothing
+
+	DestroyDefaultPort
+
+End Sub

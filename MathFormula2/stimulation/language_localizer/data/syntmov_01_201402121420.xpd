@@ -1,0 +1,17 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpd-file
+#date: Wed Feb 12 2014 14:20:25
+#--EXPERIMENT INFO
+#e mainfile: syntmov.py
+#e Experiment: 'First Experiment'
+#e no between subject factors
+#e Block 0: block1
+#e     block factors: 
+#e     n trials: 117
+#e     trial factors:
+#--SUBJECT INFO
+#s id: 1
+subject_id,
+1,4709
+1,4709
+1,11_Unacc_Decl_NP_Cl1_2Arg_loc
+1,Tu y circules.

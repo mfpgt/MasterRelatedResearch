@@ -1,0 +1,35 @@
+condition,t1,t2,prime,target
+
+same,1,1,    a * sin(b),   x + log(y)     
+diff,2,1,    sin(a * b),   x + log(y)      
+
+same,1,1,    x + tan(y),   a * sin(b)
+diff,2,1,    log(x + y),   a * sin(b)  
+
+same,2,2,    sin(a * b),   log(x + y)     
+diff,1,2,    a * sin(b),   log(x + y)
+
+same,2,2,    log(x * y),   sin(a * b)
+diff,3,2,    log(x) + y,   sin(a * b)
+
+same,3,3,    sin(a) * b,   log(x) + y
+diff,2,3,    sin(a * b),   log(x) + y
+
+same,4,4,    sin(y),      log(x)
+diff,5,4,    (x + y),     log(x)        
+
+diff,4,5,    sin(a),    (x + y)       
+same,5,5,    (a * b),   (x + y)        
+
+same,6,6,     x)(log,   x)(log 	 
+same,6,6,     )x(log,   )x(log
+
+same,7,7,    y )x (+,    y )x (+  
+same,7,7,    )x ( y+,    )x ( y+
+
+same,8,8,   x) log+ y(,  x) log+ y(
+same,8,8,   log) xy (*,  log) xy (*
+same,8,8,   * a sin)b(,  * a sin)b(
+same,8,8,   *sin )a( b,  *sin )a( b
+
+

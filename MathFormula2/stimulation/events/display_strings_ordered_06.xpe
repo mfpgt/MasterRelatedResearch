@@ -1,0 +1,80 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Wed Apr 02 2014 21:03:53
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-60-generic', '#91-Ubuntu SMP Wed Feb 19 03:54:44 UTC 2014', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+354,stdout,received,"['log(c)-y', 'sin(x)+z', '50']"
+357,stdout,received,"['c-tan(y)', 'sin(x)+z', '50']"
+358,stdout,received,"['tan(a-b)', 'sin(x)+z', '50']"
+359,stdout,received,"['x+tan(a))', 'z^sin(b))', '50']"
+360,stdout,received,"['log(a)-x', 'z^sin(b))', '50']"
+360,stdout,received,"['log(c+x)', 'z^sin(b))', '50']"
+361,stdout,received,"['log(z^x)', 'sin(a-b)', '50']"
+362,stdout,received,"['y*tan(c)', 'sin(a-b)', '50']"
+363,stdout,received,"['cos(z)+y', 'sin(a-b)', '50']"
+364,stdout,received,"['log(z)', 'tan(c)', '50']"
+365,stdout,received,"['(y+x)', 'tan(c)', '50']"
+366,stdout,received,"['(z-x)', '(c+a)', '50']"
+367,stdout,received,"['cos(x)', '(c+a)', '50']"
+368,stdout,received,"['cos(z)+x', 'y)sin^a(', '50']"
+369,stdout,received,"['b*log(x)', 'y)sin^a(', '50']"
+370,stdout,received,"['cos(c+x)', 'y)sin^a(', '50']"
+371,stdout,received,"['(b+a)', 'c)(sin', '50']"
+371,stdout,received,"['sin(x)', 'b)c(-', '50']"
+2021,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 0,0,5,5
+#design: 0,0,6,6
+#design: 0,0,7,7
+#design: 0,0,8,8
+#design: 0,0,9,9
+#design: 0,0,10,10
+#design: 0,0,11,11
+#design: 0,0,12,12
+#design: 0,0,13,13
+#design: 0,0,14,14
+#design: 0,0,15,15
+#design: 0,0,16,16
+#design: 0,0,17,17
+2021,design,logged,
+2021,Experiment,started
+2024,Stimulus,presented,37
+3277,Keyboard,received,s,wait_char
+3279,Stimulus,presented,0
+3780,Stimulus,presented,2
+4032,Stimulus,presented,1
+7218,stdout,received,'[]'
+7218,Stimulus,presented,0
+7720,Stimulus,presented,4
+7972,Stimulus,presented,3
+10995,stdout,received,'[]'
+10995,Stimulus,presented,0
+11497,Stimulus,presented,6
+11749,Stimulus,presented,5
+14527,stdout,received,'[]'
+14527,Stimulus,presented,0
+15028,Stimulus,presented,8
+15280,Stimulus,presented,7
+17692,stdout,received,'[]'
+17692,Stimulus,presented,0
+18194,Stimulus,presented,10
+18446,Stimulus,presented,9
+21336,stdout,received,'[]'
+21336,Stimulus,presented,0
+21837,Stimulus,presented,12
+22089,Stimulus,presented,11
+25111,stdout,received,'[113]'
+25111,Stimulus,presented,0
+25613,Stimulus,presented,14
+25865,Stimulus,presented,13
+29160,Experiment,paused
+29161,Stimulus,presented,38
+30387,Keyboard,received,y,wait_char
+30387,Experiment,ended
+30393,Stimulus,presented,38

@@ -1,0 +1,53 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Mon Mar 24 2014 10:52:19
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-60-generic', '#91-Ubuntu SMP Wed Feb 19 03:54:44 UTC 2014', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+482,Picture,loaded,chris_formulas/create_fBB/img866.png
+483,Picture,loaded,chris_formulas/create_fBB/img80.png
+484,Picture,loaded,chris_formulas/create_fBU/img493.png
+484,Picture,loaded,chris_formulas/create_fB/img97.png
+485,Picture,loaded,chris_formulas/create_fUU/img8.png
+486,Picture,loaded,chris_formulas/create_fUU/img23.png
+487,Picture,loaded,chris_formulas/create_fBU/img447.png
+488,Picture,loaded,chris_formulas/create_fBU/img195.png
+488,Picture,loaded,chris_formulas/create_fU/img10.png
+489,Picture,loaded,chris_formulas/create_fBB/img1016.png
+490,Picture,loaded,chris_formulas/create_fU/img2.png
+492,Picture,loaded,chris_formulas/create_fBU/img234.png
+493,Picture,loaded,chris_formulas/create_fBB/img1392.png
+494,Picture,loaded,chris_formulas/create_fBU/img569.png
+494,Picture,loaded,chris_formulas/create_fBU/img298.png
+495,Picture,loaded,chris_formulas/create_fU/img11.png
+495,Picture,loaded,chris_formulas/create_fB/img19.png
+496,Picture,loaded,chris_formulas/create_fB/img20.png
+496,Picture,loaded,chris_formulas/create_fBB/img896.png
+497,Picture,loaded,chris_formulas/create_fBB/img1680.png
+498,Picture,loaded,chris_formulas/create_fU/img14.png
+498,Picture,loaded,chris_formulas/create_fU/img7.png
+499,Picture,loaded,chris_formulas/create_fB/img16.png
+500,Picture,loaded,chris_formulas/create_fBU/img581.png
+500,Picture,loaded,chris_formulas/create_fBB/img791.png
+501,Picture,loaded,chris_formulas/create_fBB/img910.png
+502,Picture,loaded,chris_formulas/create_fU/img4.png
+502,Picture,loaded,chris_formulas/create_fUU/img1.png
+503,Picture,loaded,chris_formulas/create_fUU/img22.png
+504,Picture,loaded,chris_formulas/create_fB/img39.png
+504,Picture,loaded,chris_formulas/create_fBB/img1162.png
+505,Picture,loaded,chris_formulas/create_fU/img15.png
+506,Picture,loaded,chris_formulas/create_fUU/img4.png
+507,Picture,loaded,chris_formulas/create_fBU/img582.png
+511,Picture,loaded,chris_formulas/create_fB/img4.png
+511,Picture,loaded,chris_formulas/create_fUU/img24.png
+512,Picture,loaded,chris_formulas/create_fU/img3.png
+513,Picture,loaded,chris_formulas/create_fU/img8.png
+513,Picture,loaded,chris_formulas/create_fB/img53.png
+514,Picture,loaded,chris_formulas/create_fB/img24.png
+514,Picture,loaded,chris_formulas/create_fB/img70.png
+515,Picture,loaded,chris_formulas/create_fU/img12.png
+516,stderr,received,'Traceback (most recent call last):'
+516,stderr,received,'  File "showimageformulas.py", line 49, in <module>'
+516,stderr,received,'    stim = stimuli.Picture(path)'
+516,stderr,received,'  File "/usr/local/lib/python2.7/dist-packages/expyriment/stimuli/_picture.py", line 52, in __init__'
+516,stderr,received,'    filename))'
+516,stderr,received,"IOError: The picture file '' does not exist"

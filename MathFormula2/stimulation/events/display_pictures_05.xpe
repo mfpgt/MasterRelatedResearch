@@ -1,0 +1,1214 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Mon Mar 24 2014 15:55:24
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-60-generic', '#91-Ubuntu SMP Wed Feb 19 03:54:44 UTC 2014', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+329,Picture,loaded,formulasPure/img136.png
+329,Picture,loaded,formulasPure/img83.png
+329,Picture,loaded,formulasPure/img142.png
+329,Picture,loaded,formulasPure/img60.png
+330,Picture,loaded,formulasPure/img44.png
+330,Picture,loaded,formulasPure/img43.png
+330,Picture,loaded,formulasPure/img64.png
+330,Picture,loaded,formulasPure/img90.png
+331,Picture,loaded,formulasPure/img56.png
+331,Picture,loaded,formulasPure/img19.png
+331,Picture,loaded,formulasPure/img43.png
+331,Picture,loaded,formulasPure/img46.png
+332,Picture,loaded,formulasPure/img53.png
+332,Picture,loaded,formulasPure/img78.png
+332,Picture,loaded,formulasPure/img1.png
+332,Picture,loaded,formulasPure/img21.png
+332,Picture,loaded,formulasPure/img93.png
+333,Picture,loaded,formulasPure/img38.png
+333,Picture,loaded,formulasPure/img109.png
+333,Picture,loaded,formulasPure/img30.png
+333,Picture,loaded,formulasPure/img96.png
+334,Picture,loaded,formulasPure/img138.png
+334,Picture,loaded,formulasPure/img23.png
+334,Picture,loaded,formulasPure/img82.png
+334,Picture,loaded,formulasPure/img33.png
+335,Picture,loaded,formulasPure/img135.png
+335,Picture,loaded,formulasPure/img22.png
+335,Picture,loaded,formulasPure/img36.png
+335,Picture,loaded,formulasPure/img3.png
+336,Picture,loaded,formulasPure/img61.png
+336,Picture,loaded,formulasPure/img132.png
+336,Picture,loaded,formulasPure/img56.png
+336,Picture,loaded,formulasPure/img40.png
+337,Picture,loaded,formulasPure/img40.png
+337,Picture,loaded,formulasPure/img27.png
+337,Picture,loaded,formulasPure/img12.png
+338,Picture,loaded,formulasPure/img92.png
+338,Picture,loaded,formulasPure/img22.png
+338,Picture,loaded,formulasPure/img42.png
+338,Picture,loaded,formulasPure/img134.png
+339,Picture,loaded,formulasPure/img72.png
+339,Picture,loaded,formulasPure/img59.png
+339,Picture,loaded,formulasPure/img111.png
+339,Picture,loaded,formulasPure/img143.png
+340,Picture,loaded,formulasPure/img11.png
+340,Picture,loaded,formulasPure/img22.png
+340,Picture,loaded,formulasPure/img41.png
+340,Picture,loaded,formulasPure/img4.png
+341,Picture,loaded,formulasPure/img59.png
+341,Picture,loaded,formulasPure/img54.png
+341,Picture,loaded,formulasPure/img71.png
+341,Picture,loaded,formulasPure/img68.png
+342,Picture,loaded,formulasPure/img19.png
+342,Picture,loaded,formulasPure/img7.png
+342,Picture,loaded,formulasPure/img10.png
+342,Picture,loaded,formulasPure/img48.png
+343,Picture,loaded,formulasPure/img57.png
+343,Picture,loaded,formulasPure/img19.png
+343,Picture,loaded,formulasPure/img7.png
+344,Picture,loaded,formulasPure/img1.png
+344,Picture,loaded,formulasPure/img70.png
+344,Picture,loaded,formulasPure/img133.png
+344,Picture,loaded,formulasPure/img47.png
+345,Picture,loaded,formulasPure/img102.png
+345,Picture,loaded,formulasPure/img58.png
+345,Picture,loaded,formulasPure/img34.png
+345,Picture,loaded,formulasPure/img32.png
+346,Picture,loaded,formulasPure/img88.png
+346,Picture,loaded,formulasPure/img120.png
+347,Picture,loaded,formulasPure/img120.png
+347,Picture,loaded,formulasPure/img28.png
+347,Picture,loaded,formulasPure/img1.png
+347,Picture,loaded,formulasPure/img9.png
+348,Picture,loaded,formulasPure/img93.png
+348,Picture,loaded,formulasPure/img77.png
+348,Picture,loaded,formulasPure/img80.png
+348,Picture,loaded,formulasPure/img65.png
+349,Picture,loaded,formulasPure/img86.png
+349,Picture,loaded,formulasPure/img47.png
+349,Picture,loaded,formulasPure/img76.png
+349,Picture,loaded,formulasPure/img123.png
+349,Picture,loaded,formulasPure/img88.png
+350,Picture,loaded,formulasPure/img110.png
+350,Picture,loaded,formulasPure/img42.png
+350,Picture,loaded,formulasPure/img91.png
+350,Picture,loaded,formulasPure/img50.png
+351,Picture,loaded,formulasPure/img113.png
+351,Picture,loaded,formulasPure/img38.png
+351,Picture,loaded,formulasPure/img5.png
+351,Picture,loaded,formulasPure/img140.png
+351,Picture,loaded,formulasPure/img119.png
+352,Picture,loaded,formulasPure/img40.png
+352,Picture,loaded,formulasPure/img46.png
+352,Picture,loaded,formulasPure/img98.png
+352,Picture,loaded,formulasPure/img3.png
+353,Picture,loaded,formulasPure/img102.png
+353,Picture,loaded,formulasPure/img39.png
+353,Picture,loaded,formulasPure/img81.png
+353,Picture,loaded,formulasPure/img114.png
+353,Picture,loaded,formulasPure/img14.png
+354,Picture,loaded,formulasPure/img44.png
+354,Picture,loaded,formulasPure/img8.png
+354,Picture,loaded,formulasPure/img65.png
+354,Picture,loaded,formulasPure/img39.png
+355,Picture,loaded,formulasPure/img58.png
+355,Picture,loaded,formulasPure/img126.png
+355,Picture,loaded,formulasPure/img25.png
+355,Picture,loaded,formulasPure/img128.png
+356,Picture,loaded,formulasPure/img5.png
+356,Picture,loaded,formulasPure/img34.png
+356,Picture,loaded,formulasPure/img40.png
+356,Picture,loaded,formulasPure/img4.png
+356,Picture,loaded,formulasPure/img1.png
+357,Picture,loaded,formulasPure/img46.png
+357,Picture,loaded,formulasPure/img101.png
+357,Picture,loaded,formulasPure/img35.png
+358,Picture,loaded,formulasPure/img69.png
+358,Picture,loaded,formulasPure/img20.png
+358,Picture,loaded,formulasPure/img42.png
+358,Picture,loaded,formulasPure/img108.png
+358,Picture,loaded,formulasPure/img18.png
+359,Picture,loaded,formulasPure/img53.png
+359,Picture,loaded,formulasPure/img118.png
+359,Picture,loaded,formulasPure/img42.png
+359,Picture,loaded,formulasPure/img139.png
+360,Picture,loaded,formulasPure/img90.png
+360,Picture,loaded,formulasPure/img99.png
+360,Picture,loaded,formulasPure/img31.png
+360,Picture,loaded,formulasPure/img111.png
+361,Picture,loaded,formulasPure/img30.png
+361,Picture,loaded,formulasPure/img127.png
+361,Picture,loaded,formulasPure/img9.png
+361,Picture,loaded,formulasPure/img107.png
+362,Picture,loaded,formulasPure/img17.png
+362,Picture,loaded,formulasPure/img79.png
+362,Picture,loaded,formulasPure/img94.png
+362,Picture,loaded,formulasPure/img89.png
+363,Picture,loaded,formulasPure/img13.png
+363,Picture,loaded,formulasPure/img40.png
+363,Picture,loaded,formulasPure/img16.png
+363,Picture,loaded,formulasPure/img15.png
+363,Picture,loaded,formulasPure/img35.png
+364,Picture,loaded,formulasPure/img10.png
+364,Picture,loaded,formulasPure/img51.png
+364,Picture,loaded,formulasPure/img42.png
+364,Picture,loaded,formulasPure/img100.png
+365,Picture,loaded,formulasPure/img27.png
+365,Picture,loaded,formulasPure/img17.png
+365,Picture,loaded,formulasPure/img29.png
+365,Picture,loaded,formulasPure/img42.png
+365,Picture,loaded,formulasPure/img67.png
+366,Picture,loaded,formulasPure/img54.png
+366,Picture,loaded,formulasPure/img79.png
+366,Picture,loaded,formulasPure/img74.png
+366,Picture,loaded,formulasPure/img39.png
+367,Picture,loaded,formulasPure/img57.png
+367,Picture,loaded,formulasPure/img141.png
+367,Picture,loaded,formulasPure/img121.png
+367,Picture,loaded,formulasPure/img115.png
+368,Picture,loaded,formulasPure/img10.png
+368,Picture,loaded,formulasPure/img102.png
+368,Picture,loaded,formulasPure/img2.png
+368,Picture,loaded,formulasPure/img95.png
+368,Picture,loaded,formulasPure/img6.png
+369,Picture,loaded,formulasPure/img21.png
+369,Picture,loaded,formulasPure/img73.png
+369,Picture,loaded,formulasPure/img30.png
+369,Picture,loaded,formulasPure/img38.png
+370,Picture,loaded,formulasPure/img116.png
+370,Picture,loaded,formulasPure/img53.png
+370,Picture,loaded,formulasPure/img125.png
+370,Picture,loaded,formulasPure/img3.png
+371,Picture,loaded,formulasPure/img37.png
+371,Picture,loaded,formulasPure/img41.png
+371,Picture,loaded,formulasPure/img30.png
+371,Picture,loaded,formulasPure/img4.png
+372,Picture,loaded,formulasPure/img124.png
+372,Picture,loaded,formulasPure/img77.png
+372,Picture,loaded,formulasPure/img87.png
+372,Picture,loaded,formulasPure/img20.png
+373,Picture,loaded,formulasPure/img39.png
+373,Picture,loaded,formulasPure/img105.png
+373,Picture,loaded,formulasPure/img9.png
+373,Picture,loaded,formulasPure/img2.png
+373,Picture,loaded,formulasPure/img85.png
+374,Picture,loaded,formulasPure/img46.png
+374,Picture,loaded,formulasPure/img21.png
+374,Picture,loaded,formulasPure/img67.png
+374,Picture,loaded,formulasPure/img64.png
+375,Picture,loaded,formulasPure/img80.png
+375,Picture,loaded,formulasPure/img53.png
+375,Picture,loaded,formulasPure/img4.png
+375,Picture,loaded,formulasPure/img39.png
+376,Picture,loaded,formulasPure/img84.png
+376,Picture,loaded,formulasPure/img52.png
+376,Picture,loaded,formulasPure/img97.png
+376,Picture,loaded,formulasPure/img131.png
+377,Picture,loaded,formulasPure/img45.png
+377,Picture,loaded,formulasPure/img46.png
+377,Picture,loaded,formulasPure/img5.png
+377,Picture,loaded,formulasPure/img50.png
+378,Picture,loaded,formulasPure/img63.png
+378,Picture,loaded,formulasPure/img15.png
+378,Picture,loaded,formulasPure/img40.png
+378,Picture,loaded,formulasPure/img24.png
+378,Picture,loaded,formulasPure/img66.png
+379,Picture,loaded,formulasPure/img104.png
+379,Picture,loaded,formulasPure/img106.png
+379,Picture,loaded,formulasPure/img129.png
+379,Picture,loaded,formulasPure/img39.png
+380,Picture,loaded,formulasPure/img21.png
+380,Picture,loaded,formulasPure/img55.png
+380,Picture,loaded,formulasPure/img3.png
+380,Picture,loaded,formulasPure/img9.png
+381,Picture,loaded,formulasPure/img17.png
+381,Picture,loaded,formulasPure/img128.png
+381,Picture,loaded,formulasPure/img62.png
+381,Picture,loaded,formulasPure/img60.png
+381,Picture,loaded,formulasPure/img2.png
+382,Picture,loaded,formulasPure/img141.png
+382,Picture,loaded,formulasPure/img26.png
+382,Picture,loaded,formulasPure/img49.png
+382,Picture,loaded,formulasPure/img75.png
+383,Picture,loaded,formulasPure/img103.png
+383,Picture,loaded,formulasPure/img130.png
+383,Picture,loaded,formulasPure/img112.png
+383,Picture,loaded,formulasPure/img122.png
+384,Picture,loaded,formulasPure/img2.png
+384,Picture,loaded,formulasPure/img43.png
+384,Picture,loaded,formulasPure/img29.png
+384,Picture,loaded,formulasPure/img30.png
+384,Picture,loaded,formulasPure/img41.png
+385,Picture,loaded,formulasPure/img38.png
+385,Picture,loaded,formulasPure/img25.png
+385,Picture,loaded,formulasPure/img60.png
+385,Picture,loaded,formulasPure/img117.png
+386,Picture,loaded,formulasPure/img6.png
+386,Picture,loaded,formulasPure/img6.png
+386,Picture,loaded,formulasPure/img137.png
+386,Picture,loaded,formulasPure/img1.png
+5360,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 0,0,5,5
+#design: 0,0,6,6
+#design: 0,0,7,7
+#design: 0,0,8,8
+#design: 0,0,9,9
+#design: 0,0,10,10
+#design: 0,0,11,11
+#design: 0,0,12,12
+#design: 0,0,13,13
+#design: 0,0,14,14
+#design: 0,0,15,15
+#design: 0,0,16,16
+#design: 0,0,17,17
+#design: 0,0,18,18
+#design: 0,0,19,19
+#design: 0,0,20,20
+#design: 0,0,21,21
+#design: 0,0,22,22
+#design: 0,0,23,23
+#design: 0,0,24,24
+#design: 0,0,25,25
+#design: 0,0,26,26
+#design: 0,0,27,27
+#design: 0,0,28,28
+#design: 0,0,29,29
+#design: 0,0,30,30
+#design: 0,0,31,31
+#design: 0,0,32,32
+#design: 0,0,33,33
+#design: 0,0,34,34
+#design: 0,0,35,35
+#design: 0,0,36,36
+#design: 0,0,37,37
+#design: 0,0,38,38
+#design: 0,0,39,39
+#design: 0,0,40,40
+#design: 0,0,41,41
+#design: 0,0,42,42
+#design: 0,0,43,43
+#design: 0,0,44,44
+#design: 0,0,45,45
+#design: 0,0,46,46
+#design: 0,0,47,47
+#design: 0,0,48,48
+#design: 0,0,49,49
+#design: 0,0,50,50
+#design: 0,0,51,51
+#design: 0,0,52,52
+#design: 0,0,53,53
+#design: 0,0,54,54
+#design: 0,0,55,55
+#design: 0,0,56,56
+#design: 0,0,57,57
+#design: 0,0,58,58
+#design: 0,0,59,59
+#design: 0,0,60,60
+#design: 0,0,61,61
+#design: 0,0,62,62
+#design: 0,0,63,63
+#design: 0,0,64,64
+#design: 0,0,65,65
+#design: 0,0,66,66
+#design: 0,0,67,67
+#design: 0,0,68,68
+#design: 0,0,69,69
+#design: 0,0,70,70
+#design: 0,0,71,71
+#design: 0,0,72,72
+#design: 0,0,73,73
+#design: 0,0,74,74
+#design: 0,0,75,75
+#design: 0,0,76,76
+#design: 0,0,77,77
+#design: 0,0,78,78
+#design: 0,0,79,79
+#design: 0,0,80,80
+#design: 0,0,81,81
+#design: 0,0,82,82
+#design: 0,0,83,83
+#design: 0,0,84,84
+#design: 0,0,85,85
+#design: 0,0,86,86
+#design: 0,0,87,87
+#design: 0,0,88,88
+#design: 0,0,89,89
+#design: 0,0,90,90
+#design: 0,0,91,91
+#design: 0,0,92,92
+#design: 0,0,93,93
+#design: 0,0,94,94
+#design: 0,0,95,95
+#design: 0,0,96,96
+#design: 0,0,97,97
+#design: 0,0,98,98
+#design: 0,0,99,99
+#design: 0,0,100,100
+#design: 0,0,101,101
+#design: 0,0,102,102
+#design: 0,0,103,103
+#design: 0,0,104,104
+#design: 0,0,105,105
+#design: 0,0,106,106
+#design: 0,0,107,107
+#design: 0,0,108,108
+#design: 0,0,109,109
+#design: 0,0,110,110
+#design: 0,0,111,111
+#design: 0,0,112,112
+#design: 0,0,113,113
+#design: 0,0,114,114
+#design: 0,0,115,115
+#design: 0,0,116,116
+#design: 0,0,117,117
+#design: 0,0,118,118
+#design: 0,0,119,119
+#design: 0,0,120,120
+#design: 0,0,121,121
+#design: 0,0,122,122
+#design: 0,0,123,123
+#design: 0,0,124,124
+#design: 0,0,125,125
+#design: 0,0,126,126
+#design: 0,0,127,127
+#design: 0,0,128,128
+#design: 0,0,129,129
+#design: 0,0,130,130
+#design: 0,0,131,131
+#design: 0,0,132,132
+#design: 0,0,133,133
+#design: 0,0,134,134
+#design: 0,0,135,135
+#design: 0,0,136,136
+#design: 0,0,137,137
+#design: 0,0,138,138
+#design: 0,0,139,139
+#design: 0,0,140,140
+#design: 0,0,141,141
+#design: 0,0,142,142
+#design: 0,0,143,143
+#design: 0,0,144,144
+#design: 0,0,145,145
+#design: 0,0,146,146
+#design: 0,0,147,147
+#design: 0,0,148,148
+#design: 0,0,149,149
+#design: 0,0,150,150
+#design: 0,0,151,151
+#design: 0,0,152,152
+#design: 0,0,153,153
+#design: 0,0,154,154
+#design: 0,0,155,155
+#design: 0,0,156,156
+#design: 0,0,157,157
+#design: 0,0,158,158
+#design: 0,0,159,159
+#design: 0,0,160,160
+#design: 0,0,161,161
+#design: 0,0,162,162
+#design: 0,0,163,163
+#design: 0,0,164,164
+#design: 0,0,165,165
+#design: 0,0,166,166
+#design: 0,0,167,167
+#design: 0,0,168,168
+#design: 0,0,169,169
+#design: 0,0,170,170
+#design: 0,0,171,171
+#design: 0,0,172,172
+#design: 0,0,173,173
+#design: 0,0,174,174
+#design: 0,0,175,175
+#design: 0,0,176,176
+#design: 0,0,177,177
+#design: 0,0,178,178
+#design: 0,0,179,179
+#design: 0,0,180,180
+#design: 0,0,181,181
+#design: 0,0,182,182
+#design: 0,0,183,183
+#design: 0,0,184,184
+#design: 0,0,185,185
+#design: 0,0,186,186
+#design: 0,0,187,187
+#design: 0,0,188,188
+#design: 0,0,189,189
+#design: 0,0,190,190
+#design: 0,0,191,191
+#design: 0,0,192,192
+#design: 0,0,193,193
+#design: 0,0,194,194
+#design: 0,0,195,195
+#design: 0,0,196,196
+#design: 0,0,197,197
+#design: 0,0,198,198
+#design: 0,0,199,199
+#design: 0,0,200,200
+#design: 0,0,201,201
+#design: 0,0,202,202
+#design: 0,0,203,203
+#design: 0,0,204,204
+#design: 0,0,205,205
+#design: 0,0,206,206
+#design: 0,0,207,207
+#design: 0,0,208,208
+#design: 0,0,209,209
+#design: 0,0,210,210
+#design: 0,0,211,211
+#design: 0,0,212,212
+#design: 0,0,213,213
+#design: 0,0,214,214
+#design: 0,0,215,215
+#design: 0,0,216,216
+#design: 0,0,217,217
+#design: 0,0,218,218
+#design: 0,0,219,219
+#design: 0,0,220,220
+#design: 0,0,221,221
+#design: 0,0,222,222
+#design: 0,0,223,223
+#design: 0,0,224,224
+#design: 0,0,225,225
+#design: 0,0,226,226
+#design: 0,0,227,227
+#design: 0,0,228,228
+#design: 0,0,229,229
+#design: 0,0,230,230
+#design: 0,0,231,231
+#design: 0,0,232,232
+#design: 0,0,233,233
+#design: 0,0,234,234
+#design: 0,0,235,235
+#design: 0,0,236,236
+#design: 0,0,237,237
+#design: 0,0,238,238
+#design: 0,0,239,239
+5363,design,logged,
+5363,Experiment,started
+5367,Stimulus,presented,241
+6385,Keyboard,received,s,wait_char
+6386,Stimulus,presented,0
+6887,Stimulus,presented,1
+9445,stdout,received,'[]'
+9445,Stimulus,presented,0
+9947,Stimulus,presented,2
+13410,stdout,received,'[]'
+13410,Stimulus,presented,0
+13911,Stimulus,presented,3
+16486,stdout,received,'[]'
+16486,Stimulus,presented,0
+16987,Stimulus,presented,4
+19618,stdout,received,'[]'
+19618,Stimulus,presented,0
+20119,Stimulus,presented,5
+23188,stdout,received,'[]'
+23188,Stimulus,presented,0
+23689,Stimulus,presented,6
+26549,stdout,received,'[]'
+26549,Stimulus,presented,0
+27050,Stimulus,presented,7
+29949,stdout,received,'[]'
+29949,Stimulus,presented,0
+30450,Stimulus,presented,8
+33753,stdout,received,'[]'
+33753,Stimulus,presented,0
+34254,Stimulus,presented,9
+37547,stdout,received,'[]'
+37547,Stimulus,presented,0
+38048,Stimulus,presented,10
+40926,stdout,received,'[]'
+40926,Stimulus,presented,0
+41427,Stimulus,presented,11
+44832,stdout,received,'[]'
+44832,Stimulus,presented,0
+45333,Stimulus,presented,12
+48820,stdout,received,'[]'
+48820,Stimulus,presented,0
+49321,Stimulus,presented,13
+52601,stdout,received,'[]'
+52601,Stimulus,presented,0
+53102,Stimulus,presented,14
+56116,stdout,received,'[]'
+56116,Stimulus,presented,0
+56617,Stimulus,presented,15
+60046,stdout,received,'[]'
+60046,Stimulus,presented,0
+60547,Stimulus,presented,16
+63139,stdout,received,'[]'
+63139,Stimulus,presented,0
+63640,Stimulus,presented,17
+66730,stdout,received,'[]'
+66730,Stimulus,presented,0
+67231,Stimulus,presented,18
+69918,stdout,received,'[]'
+69918,Stimulus,presented,0
+70419,Stimulus,presented,19
+73889,stdout,received,'[]'
+73889,Stimulus,presented,0
+74390,Stimulus,presented,20
+76950,stdout,received,'[]'
+76950,Stimulus,presented,0
+77451,Stimulus,presented,21
+80733,stdout,received,'[]'
+80733,Stimulus,presented,0
+81234,Stimulus,presented,22
+84417,stdout,received,'[]'
+84417,Stimulus,presented,0
+84918,Stimulus,presented,23
+87882,stdout,received,'[]'
+87882,Stimulus,presented,0
+88383,Stimulus,presented,24
+91711,stdout,received,'[]'
+91711,Stimulus,presented,0
+92212,Stimulus,presented,25
+95675,stdout,received,'[]'
+95675,Stimulus,presented,0
+96176,Stimulus,presented,26
+99322,stdout,received,'[]'
+99322,Stimulus,presented,0
+99823,Stimulus,presented,27
+102648,stdout,received,'[]'
+102648,Stimulus,presented,0
+103149,Stimulus,presented,28
+106392,stdout,received,'[]'
+106392,Stimulus,presented,0
+106893,Stimulus,presented,29
+109665,stdout,received,'[]'
+109665,Stimulus,presented,0
+110166,Stimulus,presented,30
+113619,stdout,received,'[]'
+113619,Stimulus,presented,0
+114120,Stimulus,presented,31
+116716,stdout,received,'[]'
+116716,Stimulus,presented,0
+117217,Stimulus,presented,32
+119838,stdout,received,'[]'
+119838,Stimulus,presented,0
+120339,Stimulus,presented,33
+123418,stdout,received,'[]'
+123418,Stimulus,presented,0
+123919,Stimulus,presented,34
+126829,stdout,received,'[]'
+126829,Stimulus,presented,0
+127330,Stimulus,presented,35
+129962,stdout,received,'[]'
+129962,Stimulus,presented,0
+130463,Stimulus,presented,36
+133860,stdout,received,'[]'
+133860,Stimulus,presented,0
+134361,Stimulus,presented,37
+137134,stdout,received,'[]'
+137134,Stimulus,presented,0
+137635,Stimulus,presented,38
+141102,stdout,received,'[]'
+141102,Stimulus,presented,0
+141603,Stimulus,presented,39
+144763,stdout,received,'[]'
+144763,Stimulus,presented,0
+145264,Stimulus,presented,40
+148305,stdout,received,'[]'
+148305,Stimulus,presented,0
+148806,Stimulus,presented,41
+151445,stdout,received,'[]'
+151445,Stimulus,presented,0
+151946,Stimulus,presented,42
+155103,stdout,received,'[]'
+155103,Stimulus,presented,0
+155604,Stimulus,presented,43
+158343,stdout,received,'[]'
+158343,Stimulus,presented,0
+158845,Stimulus,presented,44
+161387,stdout,received,'[]'
+161387,Stimulus,presented,0
+161888,Stimulus,presented,45
+164725,stdout,received,'[]'
+164725,Stimulus,presented,0
+165226,Stimulus,presented,46
+168330,stdout,received,'[]'
+168330,Stimulus,presented,0
+168831,Stimulus,presented,47
+171468,stdout,received,'[]'
+171468,Stimulus,presented,0
+171969,Stimulus,presented,48
+174580,stdout,received,'[]'
+174580,Stimulus,presented,0
+175081,Stimulus,presented,49
+177869,stdout,received,'[]'
+177869,Stimulus,presented,0
+178370,Stimulus,presented,50
+181656,stdout,received,'[]'
+181656,Stimulus,presented,0
+182157,Stimulus,presented,51
+185085,stdout,received,'[]'
+185085,Stimulus,presented,0
+185586,Stimulus,presented,52
+188442,stdout,received,'[]'
+188442,Stimulus,presented,0
+188943,Stimulus,presented,53
+192396,stdout,received,'[]'
+192396,Stimulus,presented,0
+192897,Stimulus,presented,54
+196105,stdout,received,'[]'
+196105,Stimulus,presented,0
+196606,Stimulus,presented,55
+200105,stdout,received,'[]'
+200105,Stimulus,presented,0
+200606,Stimulus,presented,56
+203436,stdout,received,'[]'
+203436,Stimulus,presented,0
+203937,Stimulus,presented,57
+206640,stdout,received,'[]'
+206640,Stimulus,presented,0
+207141,Stimulus,presented,58
+210370,stdout,received,'[]'
+210370,Stimulus,presented,0
+210871,Stimulus,presented,59
+213375,stdout,received,'[]'
+213375,Stimulus,presented,0
+213876,Stimulus,presented,60
+216859,stdout,received,'[]'
+216859,Stimulus,presented,0
+217360,Stimulus,presented,61
+220597,stdout,received,'[]'
+220597,Stimulus,presented,0
+221098,Stimulus,presented,62
+223985,stdout,received,'[]'
+223985,Stimulus,presented,0
+224486,Stimulus,presented,63
+227525,stdout,received,'[]'
+227525,Stimulus,presented,0
+228026,Stimulus,presented,64
+231404,stdout,received,'[]'
+231404,Stimulus,presented,0
+231905,Stimulus,presented,65
+234866,stdout,received,'[]'
+234866,Stimulus,presented,0
+235367,Stimulus,presented,66
+238551,stdout,received,'[]'
+238551,Stimulus,presented,0
+239052,Stimulus,presented,67
+242056,stdout,received,'[]'
+242056,Stimulus,presented,0
+242557,Stimulus,presented,68
+245120,stdout,received,'[]'
+245120,Stimulus,presented,0
+245621,Stimulus,presented,69
+248131,stdout,received,'[]'
+248131,Stimulus,presented,0
+248632,Stimulus,presented,70
+251219,stdout,received,'[]'
+251219,Stimulus,presented,0
+251720,Stimulus,presented,71
+254453,stdout,received,'[]'
+254453,Stimulus,presented,0
+254954,Stimulus,presented,72
+258363,stdout,received,'[]'
+258363,Stimulus,presented,0
+258864,Stimulus,presented,73
+262154,stdout,received,'[]'
+262154,Stimulus,presented,0
+262655,Stimulus,presented,74
+265284,stdout,received,'[]'
+265284,Stimulus,presented,0
+265785,Stimulus,presented,75
+268618,stdout,received,'[]'
+268618,Stimulus,presented,0
+269119,Stimulus,presented,76
+272549,stdout,received,'[]'
+272549,Stimulus,presented,0
+273050,Stimulus,presented,77
+276252,stdout,received,'[]'
+276252,Stimulus,presented,0
+276753,Stimulus,presented,78
+280143,stdout,received,'[]'
+280143,Stimulus,presented,0
+280644,Stimulus,presented,79
+283253,stdout,received,'[]'
+283253,Stimulus,presented,0
+283754,Stimulus,presented,80
+286884,stdout,received,'[]'
+286884,Stimulus,presented,0
+287385,Stimulus,presented,81
+290439,stdout,received,'[]'
+290439,Stimulus,presented,0
+290940,Stimulus,presented,82
+293565,stdout,received,'[]'
+293565,Stimulus,presented,0
+294066,Stimulus,presented,83
+297300,stdout,received,'[]'
+297300,Stimulus,presented,0
+297801,Stimulus,presented,84
+300894,stdout,received,'[]'
+300894,Stimulus,presented,0
+301395,Stimulus,presented,85
+304622,stdout,received,'[]'
+304622,Stimulus,presented,0
+305123,Stimulus,presented,86
+308518,stdout,received,'[]'
+308518,Stimulus,presented,0
+309019,Stimulus,presented,87
+312122,stdout,received,'[]'
+312122,Stimulus,presented,0
+312623,Stimulus,presented,88
+315177,stdout,received,'[]'
+315177,Stimulus,presented,0
+315678,Stimulus,presented,89
+318965,stdout,received,'[]'
+318965,Stimulus,presented,0
+319466,Stimulus,presented,90
+322219,stdout,received,'[]'
+322219,Stimulus,presented,0
+322720,Stimulus,presented,91
+325379,stdout,received,'[]'
+325379,Stimulus,presented,0
+325880,Stimulus,presented,92
+328735,stdout,received,'[]'
+328735,Stimulus,presented,0
+329236,Stimulus,presented,93
+332039,stdout,received,'[]'
+332039,Stimulus,presented,0
+332540,Stimulus,presented,94
+335232,stdout,received,'[]'
+335232,Stimulus,presented,0
+335733,Stimulus,presented,95
+339167,stdout,received,'[]'
+339167,Stimulus,presented,0
+339668,Stimulus,presented,96
+342937,stdout,received,'[]'
+342937,Stimulus,presented,0
+343438,Stimulus,presented,97
+346737,stdout,received,'[]'
+346737,Stimulus,presented,0
+347238,Stimulus,presented,98
+349895,stdout,received,'[]'
+349895,Stimulus,presented,0
+350396,Stimulus,presented,99
+353033,stdout,received,'[]'
+353033,Stimulus,presented,0
+353534,Stimulus,presented,100
+356587,stdout,received,'[]'
+356587,Stimulus,presented,0
+357088,Stimulus,presented,101
+359917,stdout,received,'[]'
+359917,Stimulus,presented,0
+360418,Stimulus,presented,102
+363519,stdout,received,'[]'
+363519,Stimulus,presented,0
+364020,Stimulus,presented,103
+367293,stdout,received,'[]'
+367293,Stimulus,presented,0
+367794,Stimulus,presented,104
+370929,stdout,received,'[]'
+370929,Stimulus,presented,0
+371430,Stimulus,presented,105
+374521,stdout,received,'[]'
+374521,Stimulus,presented,0
+375022,Stimulus,presented,106
+378028,stdout,received,'[]'
+378028,Stimulus,presented,0
+378529,Stimulus,presented,107
+381169,stdout,received,'[]'
+381169,Stimulus,presented,0
+381670,Stimulus,presented,108
+384514,stdout,received,'[]'
+384514,Stimulus,presented,0
+385015,Stimulus,presented,109
+387945,stdout,received,'[]'
+387945,Stimulus,presented,0
+388446,Stimulus,presented,110
+391620,stdout,received,'[]'
+391620,Stimulus,presented,0
+392121,Stimulus,presented,111
+395219,stdout,received,'[]'
+395219,Stimulus,presented,0
+395720,Stimulus,presented,112
+398335,stdout,received,'[]'
+398335,Stimulus,presented,0
+398836,Stimulus,presented,113
+402107,stdout,received,'[]'
+402107,Stimulus,presented,0
+402608,Stimulus,presented,114
+405568,stdout,received,'[]'
+405568,Stimulus,presented,0
+406069,Stimulus,presented,115
+408722,stdout,received,'[]'
+408722,Stimulus,presented,0
+409223,Stimulus,presented,116
+412247,stdout,received,'[]'
+412247,Stimulus,presented,0
+412748,Stimulus,presented,117
+415865,stdout,received,'[]'
+415865,Stimulus,presented,0
+416366,Stimulus,presented,118
+419379,stdout,received,'[]'
+419379,Stimulus,presented,0
+419880,Stimulus,presented,119
+422566,stdout,received,'[]'
+422566,Stimulus,presented,0
+423067,Stimulus,presented,120
+426398,stdout,received,'[]'
+426398,Stimulus,presented,0
+426899,Stimulus,presented,121
+429531,stdout,received,'[]'
+429531,Stimulus,presented,0
+430032,Stimulus,presented,122
+433194,stdout,received,'[]'
+433194,Stimulus,presented,0
+433695,Stimulus,presented,123
+437159,stdout,received,'[]'
+437159,Stimulus,presented,0
+437660,Stimulus,presented,124
+440629,stdout,received,'[]'
+440629,Stimulus,presented,0
+441130,Stimulus,presented,125
+444398,stdout,received,'[]'
+444398,Stimulus,presented,0
+444899,Stimulus,presented,126
+448161,stdout,received,'[]'
+448161,Stimulus,presented,0
+448662,Stimulus,presented,127
+451607,stdout,received,'[]'
+451607,Stimulus,presented,0
+452108,Stimulus,presented,128
+454695,stdout,received,'[]'
+454695,Stimulus,presented,0
+455196,Stimulus,presented,129
+458168,stdout,received,'[]'
+458168,Stimulus,presented,0
+458669,Stimulus,presented,130
+462131,stdout,received,'[]'
+462131,Stimulus,presented,0
+462632,Stimulus,presented,131
+465372,stdout,received,'[]'
+465372,Stimulus,presented,0
+465873,Stimulus,presented,132
+468705,stdout,received,'[]'
+468705,Stimulus,presented,0
+469206,Stimulus,presented,133
+471797,stdout,received,'[]'
+471797,Stimulus,presented,0
+472298,Stimulus,presented,134
+474967,stdout,received,'[]'
+474967,Stimulus,presented,0
+475468,Stimulus,presented,135
+478084,stdout,received,'[]'
+478084,Stimulus,presented,0
+478585,Stimulus,presented,136
+481241,stdout,received,'[]'
+481241,Stimulus,presented,0
+481742,Stimulus,presented,137
+484816,stdout,received,'[]'
+484816,Stimulus,presented,0
+485317,Stimulus,presented,138
+488547,stdout,received,'[]'
+488547,Stimulus,presented,0
+489048,Stimulus,presented,139
+492022,stdout,received,'[]'
+492022,Stimulus,presented,0
+492523,Stimulus,presented,140
+495542,stdout,received,'[]'
+495542,Stimulus,presented,0
+496043,Stimulus,presented,141
+498881,stdout,received,'[]'
+498881,Stimulus,presented,0
+499382,Stimulus,presented,142
+502677,stdout,received,'[]'
+502677,Stimulus,presented,0
+503178,Stimulus,presented,143
+505930,stdout,received,'[]'
+505930,Stimulus,presented,0
+506431,Stimulus,presented,144
+509691,stdout,received,'[]'
+509691,Stimulus,presented,0
+510192,Stimulus,presented,145
+513387,stdout,received,'[]'
+513387,Stimulus,presented,0
+513888,Stimulus,presented,146
+517314,stdout,received,'[]'
+517314,Stimulus,presented,0
+517815,Stimulus,presented,147
+520491,stdout,received,'[]'
+520491,Stimulus,presented,0
+520992,Stimulus,presented,148
+523640,stdout,received,'[]'
+523640,Stimulus,presented,0
+524141,Stimulus,presented,149
+527379,stdout,received,'[]'
+527379,Stimulus,presented,0
+527880,Stimulus,presented,150
+531086,stdout,received,'[]'
+531086,Stimulus,presented,0
+531587,Stimulus,presented,151
+534311,stdout,received,'[]'
+534311,Stimulus,presented,0
+534812,Stimulus,presented,152
+537764,stdout,received,'[]'
+537764,Stimulus,presented,0
+538265,Stimulus,presented,153
+540973,stdout,received,'[]'
+540973,Stimulus,presented,0
+541474,Stimulus,presented,154
+544373,stdout,received,'[]'
+544373,Stimulus,presented,0
+544874,Stimulus,presented,155
+548050,stdout,received,'[]'
+548050,Stimulus,presented,0
+548551,Stimulus,presented,156
+551195,stdout,received,'[]'
+551195,Stimulus,presented,0
+551696,Stimulus,presented,157
+555000,stdout,received,'[]'
+555000,Stimulus,presented,0
+555501,Stimulus,presented,158
+558526,stdout,received,'[]'
+558526,Stimulus,presented,0
+559027,Stimulus,presented,159
+562354,stdout,received,'[]'
+562354,Stimulus,presented,0
+562855,Stimulus,presented,160
+566284,stdout,received,'[]'
+566284,Stimulus,presented,0
+566785,Stimulus,presented,161
+570081,stdout,received,'[]'
+570081,Stimulus,presented,0
+570582,Stimulus,presented,162
+573431,stdout,received,'[]'
+573431,Stimulus,presented,0
+573932,Stimulus,presented,163
+576586,stdout,received,'[]'
+576586,Stimulus,presented,0
+577087,Stimulus,presented,164
+579812,stdout,received,'[]'
+579812,Stimulus,presented,0
+580313,Stimulus,presented,165
+583746,stdout,received,'[]'
+583746,Stimulus,presented,0
+584247,Stimulus,presented,166
+586901,stdout,received,'[]'
+586901,Stimulus,presented,0
+587402,Stimulus,presented,167
+590022,stdout,received,'[]'
+590022,Stimulus,presented,0
+590523,Stimulus,presented,168
+593568,stdout,received,'[]'
+593568,Stimulus,presented,0
+594069,Stimulus,presented,169
+597083,stdout,received,'[]'
+597083,Stimulus,presented,0
+597584,Stimulus,presented,170
+600493,stdout,received,'[]'
+600493,Stimulus,presented,0
+600994,Stimulus,presented,171
+603676,stdout,received,'[]'
+603676,Stimulus,presented,0
+604177,Stimulus,presented,172
+607547,stdout,received,'[]'
+607547,Stimulus,presented,0
+608048,Stimulus,presented,173
+610907,stdout,received,'[]'
+610907,Stimulus,presented,0
+611408,Stimulus,presented,174
+614492,stdout,received,'[]'
+614492,Stimulus,presented,0
+614993,Stimulus,presented,175
+618370,stdout,received,'[]'
+618370,Stimulus,presented,0
+618871,Stimulus,presented,176
+621814,stdout,received,'[]'
+621814,Stimulus,presented,0
+622315,Stimulus,presented,177
+625202,stdout,received,'[]'
+625202,Stimulus,presented,0
+625703,Stimulus,presented,178
+628590,stdout,received,'[]'
+628590,Stimulus,presented,0
+629091,Stimulus,presented,179
+631998,stdout,received,'[]'
+631998,Stimulus,presented,0
+632499,Stimulus,presented,180
+635003,stdout,received,'[]'
+635003,Stimulus,presented,0
+635504,Stimulus,presented,181
+638430,stdout,received,'[]'
+638430,Stimulus,presented,0
+638931,Stimulus,presented,182
+641530,stdout,received,'[]'
+641530,Stimulus,presented,0
+642031,Stimulus,presented,183
+644620,stdout,received,'[]'
+644620,Stimulus,presented,0
+645121,Stimulus,presented,184
+647863,stdout,received,'[]'
+647863,Stimulus,presented,0
+648364,Stimulus,presented,185
+651614,stdout,received,'[]'
+651614,Stimulus,presented,0
+652115,Stimulus,presented,186
+655248,stdout,received,'[]'
+655248,Stimulus,presented,0
+655749,Stimulus,presented,187
+658582,stdout,received,'[]'
+658582,Stimulus,presented,0
+659083,Stimulus,presented,188
+662284,stdout,received,'[]'
+662284,Stimulus,presented,0
+662785,Stimulus,presented,189
+665347,stdout,received,'[]'
+665347,Stimulus,presented,0
+665848,Stimulus,presented,190
+669321,stdout,received,'[]'
+669321,Stimulus,presented,0
+669822,Stimulus,presented,191
+672998,stdout,received,'[]'
+672998,Stimulus,presented,0
+673499,Stimulus,presented,192
+676976,stdout,received,'[]'
+676976,Stimulus,presented,0
+677477,Stimulus,presented,193
+680418,stdout,received,'[]'
+680418,Stimulus,presented,0
+680919,Stimulus,presented,194
+683708,stdout,received,'[]'
+683708,Stimulus,presented,0
+684209,Stimulus,presented,195
+686798,stdout,received,'[]'
+686798,Stimulus,presented,0
+687299,Stimulus,presented,196
+689913,stdout,received,'[]'
+689913,Stimulus,presented,0
+690414,Stimulus,presented,197
+693831,stdout,received,'[]'
+693831,Stimulus,presented,0
+694332,Stimulus,presented,198
+697678,stdout,received,'[]'
+697678,Stimulus,presented,0
+698179,Stimulus,presented,199
+700851,stdout,received,'[]'
+700851,Stimulus,presented,0
+701352,Stimulus,presented,200
+704458,stdout,received,'[]'
+704458,Stimulus,presented,0
+704959,Stimulus,presented,201
+708014,stdout,received,'[]'
+708014,Stimulus,presented,0
+708515,Stimulus,presented,202
+711808,stdout,received,'[]'
+711808,Stimulus,presented,0
+712309,Stimulus,presented,203
+715162,stdout,received,'[]'
+715162,Stimulus,presented,0
+715663,Stimulus,presented,204
+718944,stdout,received,'[]'
+718944,Stimulus,presented,0
+719445,Stimulus,presented,205
+722334,stdout,received,'[]'
+722334,Stimulus,presented,0
+722835,Stimulus,presented,206
+725595,stdout,received,'[]'
+725595,Stimulus,presented,0
+726096,Stimulus,presented,207
+728602,stdout,received,'[]'
+728602,Stimulus,presented,0
+729103,Stimulus,presented,208
+732067,stdout,received,'[]'
+732067,Stimulus,presented,0
+732568,Stimulus,presented,209
+735349,stdout,received,'[]'
+735349,Stimulus,presented,0
+735850,Stimulus,presented,210
+738938,stdout,received,'[]'
+738938,Stimulus,presented,0
+739439,Stimulus,presented,211
+742148,stdout,received,'[]'
+742148,Stimulus,presented,0
+742649,Stimulus,presented,212
+745737,stdout,received,'[]'
+745737,Stimulus,presented,0
+746238,Stimulus,presented,213
+749010,stdout,received,'[]'
+749010,Stimulus,presented,0
+749511,Stimulus,presented,214
+752292,stdout,received,'[]'
+752292,Stimulus,presented,0
+752793,Stimulus,presented,215
+755757,stdout,received,'[]'
+755757,Stimulus,presented,0
+756258,Stimulus,presented,216
+759387,stdout,received,'[]'
+759387,Stimulus,presented,0
+759888,Stimulus,presented,217
+762763,stdout,received,'[]'
+762763,Stimulus,presented,0
+763264,Stimulus,presented,218
+766186,stdout,received,'[]'
+766186,Stimulus,presented,0
+766687,Stimulus,presented,219
+770077,stdout,received,'[]'
+770077,Stimulus,presented,0
+770578,Stimulus,presented,220
+773590,stdout,received,'[]'
+773590,Stimulus,presented,0
+774091,Stimulus,presented,221
+776766,stdout,received,'[]'
+776766,Stimulus,presented,0
+777267,Stimulus,presented,222
+780142,stdout,received,'[]'
+780142,Stimulus,presented,0
+780643,Stimulus,presented,223
+783817,stdout,received,'[]'
+783817,Stimulus,presented,0
+784318,Stimulus,presented,224
+787259,stdout,received,'[]'
+787259,Stimulus,presented,0
+787760,Stimulus,presented,225
+790517,stdout,received,'[]'
+790517,Stimulus,presented,0
+791018,Stimulus,presented,226
+793607,stdout,received,'[]'
+793607,Stimulus,presented,0
+794108,Stimulus,presented,227
+796692,stdout,received,'[]'
+796692,Stimulus,presented,0
+797193,Stimulus,presented,228
+800489,stdout,received,'[]'
+800489,Stimulus,presented,0
+800990,Stimulus,presented,229
+803792,stdout,received,'[]'
+803792,Stimulus,presented,0
+804293,Stimulus,presented,230
+806975,stdout,received,'[]'
+806975,Stimulus,presented,0
+807476,Stimulus,presented,231
+810199,stdout,received,'[]'
+810199,Stimulus,presented,0
+810700,Stimulus,presented,232
+813288,stdout,received,'[]'
+813288,Stimulus,presented,0
+813789,Stimulus,presented,233
+816740,stdout,received,'[]'
+816740,Stimulus,presented,0
+817241,Stimulus,presented,234
+820168,stdout,received,'[]'
+820168,Stimulus,presented,0
+820669,Stimulus,presented,235
+823413,stdout,received,'[]'
+823413,Stimulus,presented,0
+823914,Stimulus,presented,236
+826625,stdout,received,'[]'
+826625,Stimulus,presented,0
+827126,Stimulus,presented,237
+829946,stdout,received,'[]'
+829946,Stimulus,presented,0
+830447,Stimulus,presented,238
+833511,stdout,received,'[]'
+833511,Stimulus,presented,0
+834012,Stimulus,presented,239
+837215,stdout,received,'[]'
+837215,Stimulus,presented,0
+837716,Stimulus,presented,240
+840240,stdout,received,'[]'
+840240,Experiment,ended
+840245,Stimulus,presented,242

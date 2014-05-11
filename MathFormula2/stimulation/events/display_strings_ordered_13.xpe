@@ -1,0 +1,86 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Wed Apr 02 2014 22:14:48
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-60-generic', '#91-Ubuntu SMP Wed Feb 19 03:54:44 UTC 2014', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+262,stdout,received,"['diff', '4', '5', '    sin(a)', '    (x + y)       ']"
+263,stdout,received,"['same', '8', '8', '   x) log+ y(', '  x) log+ y(']"
+264,stdout,received,"['same', '8', '8', '   * a sin)b(', '  * a sin)b(']"
+265,stdout,received,"['condition', 't1', 't2', 'prime', 'target']"
+267,stdout,received,"['same', '8', '8', '   log) xy (*', '  log) xy (*']"
+268,stdout,received,"['same', '7', '7', '    y )x (+', '    y )x (+  ']"
+269,stdout,received,"['same', '4', '4', '    sin(y)', '      log(x)']"
+270,stdout,received,"['same', '6', '6', '     x)(log', '   x)(log \\t ']"
+271,stdout,received,"['same', '6', '6', '     )x(log', '   )x(log']"
+272,stdout,received,"['same', '8', '8', '   *sin )a( b', '  *sin )a( b']"
+272,stdout,received,"['same', '1', '1', '    x + tan(y)', '   a * sin(b)']"
+273,stdout,received,"['same', '1', '1', '    a * sin(b)', '   x + log(y)     ']"
+273,stdout,received,"['same', '3', '3', '    sin(a) * b', '   log(x) + y']"
+274,stdout,received,"['diff', '2', '1', '    log(x + y)', '   a * sin(b)  ']"
+275,stdout,received,"['same', '2', '2', '    log(x * y)', '   sin(a * b)']"
+275,stdout,received,"['same', '7', '7', '    )x ( y+', '    )x ( y+']"
+276,stdout,received,"['diff', '2', '3', '    sin(a * b)', '   log(x) + y']"
+276,stdout,received,"['same', '2', '2', '    sin(a * b)', '   log(x + y)     ']"
+277,stdout,received,"['diff', '1', '2', '    a * sin(b)', '   log(x + y)']"
+277,stdout,received,"['same', '5', '5', '    (a * b)', '   (x + y)        ']"
+278,stdout,received,"['diff', '5', '4', '    (x + y)', '     log(x)        ']"
+279,stdout,received,"['diff', '3', '2', '    log(x) + y', '   sin(a * b)']"
+279,stdout,received,"['diff', '2', '1', '    sin(a * b)', '   x + log(y)      ']"
+1290,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 0,0,5,5
+#design: 0,0,6,6
+#design: 0,0,7,7
+#design: 0,0,8,8
+#design: 0,0,9,9
+#design: 0,0,10,10
+#design: 0,0,11,11
+#design: 0,0,12,12
+#design: 0,0,13,13
+#design: 0,0,14,14
+#design: 0,0,15,15
+#design: 0,0,16,16
+#design: 0,0,17,17
+#design: 0,0,18,18
+#design: 0,0,19,19
+#design: 0,0,20,20
+#design: 0,0,21,21
+#design: 0,0,22,22
+1290,design,logged,
+1290,Experiment,started
+1294,Stimulus,presented,47
+2208,Keyboard,received,s,wait_char
+2209,Stimulus,presented,0
+2911,Stimulus,presented,2
+3913,Stimulus,presented,1
+8713,stdout,received,'[]'
+8713,Stimulus,presented,0
+9414,Stimulus,presented,4
+10416,Stimulus,presented,3
+14980,stdout,received,'[]'
+14980,Stimulus,presented,0
+15682,Stimulus,presented,6
+16684,Stimulus,presented,5
+20756,stdout,received,'[]'
+20756,Stimulus,presented,0
+21457,Stimulus,presented,8
+22459,Stimulus,presented,7
+27103,stdout,received,'[]'
+27103,Stimulus,presented,0
+27804,Stimulus,presented,10
+28806,Stimulus,presented,9
+33092,stdout,received,'[]'
+33092,Stimulus,presented,0
+33794,Stimulus,presented,12
+34796,Stimulus,presented,11
+39399,Experiment,paused
+39401,Stimulus,presented,48
+40396,Keyboard,received,y,wait_char
+40396,Experiment,ended
+40403,Stimulus,presented,48

@@ -1,0 +1,1147 @@
+'
+'
+'
+'	D:\Experiences_EPrime\MathFormula\Sub01\MathFormula_fMRI_Sim_Mod.ebs
+'	Generated on: 6/8/2009	14:22:22
+'
+'
+'	This file generated with E-Studio interface.
+'	E-Prime Copyright © 2002 Psychology Software Tools.
+'	ALL RIGHTS RESERVED
+'
+'	Legal use of this experiment script requires a full E-Prime or Runtime License.
+'
+'
+'	Author:
+'		  (INSERM)
+'
+'
+'
+'
+
+Option CStrings On
+Dim ebContext as Context
+
+
+'--------------------------------------------------------------------------
+' Class Declarations
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+'InitTextDisplayDefaults
+'--------------------------------------------------------------------------
+Sub InitTextDisplayDefaults(theTextDisplay As TextDisplay)
+
+	If theTextDisplay Is Nothing Then Exit Sub
+
+	theTextDisplay.X = "center"
+	theTextDisplay.Y = "center"
+	theTextDisplay.Width = "100%"
+	theTextDisplay.Height = "100%"
+	theTextDisplay.ForeColor = CColor("black")
+	theTextDisplay.BackColor = CColor("white")
+	theTextDisplay.BackStyle = "opaque"
+	theTextDisplay.BorderColor = CColor("black")
+	theTextDisplay.BorderWidth = CLng("0")
+	theTextDisplay.XAlign = "center"
+	theTextDisplay.YAlign = "center"
+	theTextDisplay.AlignHorizontal = "center"
+	theTextDisplay.AlignVertical = "center"
+	theTextDisplay.WordWrap = True
+	theTextDisplay.ClearAfter = CLogical("No")
+	theTextDisplay.FontName = "Courier New"
+	theTextDisplay.FontSize = "18"
+	theTextDisplay.FontBold = CLogical("Yes")
+	theTextDisplay.FontItalic = CLogical("No")
+	theTextDisplay.FontUnderline = CLogical("No")
+	theTextDisplay.FontStrikeout = CLogical("No")
+
+End Sub
+
+
+
+
+
+'--------------------------------------------------------------------------
+'InitSlideStateDefaults
+'--------------------------------------------------------------------------
+Sub InitSlideStateDefaults(theSlideState As SlideState)
+
+	If theSlideState Is Nothing Then Exit Sub
+
+	theSlideState.X = "center"
+	theSlideState.Y = "center"
+	theSlideState.Width = "100%"
+	theSlideState.Height = "100%"
+	theSlideState.BackColor = CColor("white")
+	theSlideState.BackStyle = "opaque"
+	theSlideState.BorderColor = CColor("black")
+	theSlideState.BorderWidth = CLng("0")
+	theSlideState.XAlign = "center"
+	theSlideState.YAlign = "center"
+	theSlideState.ClearAfter = CLogical("No")
+	theSlideState.Enabled = CLogical("Yes")
+
+End Sub
+
+'--------------------------------------------------------------------------
+'InitSlideVisualStimDefaults
+'--------------------------------------------------------------------------
+Sub InitSlideVisualStimDefaults(theSlideVisualStim As SlideVisualStim)
+
+	If theSlideVisualStim Is Nothing Then Exit Sub
+
+	theSlideVisualStim.X = "center"
+	theSlideVisualStim.Y = "center"
+	theSlideVisualStim.Width = "25%"
+	theSlideVisualStim.Height = "25%"
+	theSlideVisualStim.ForeColor = CColor("black")
+	theSlideVisualStim.BackColor = CColor("white")
+	theSlideVisualStim.BackStyle = "opaque"
+	theSlideVisualStim.BorderColor = CColor("black")
+	theSlideVisualStim.BorderWidth = CLng("0")
+	theSlideVisualStim.XAlign = "center"
+	theSlideVisualStim.YAlign = "center"
+	theSlideVisualStim.AlignHorizontal = "center"
+	theSlideVisualStim.AlignVertical = "center"
+
+End Sub
+
+'--------------------------------------------------------------------------
+'InitSlideTextDefaults
+'--------------------------------------------------------------------------
+Sub InitSlideTextDefaults(theSlideText As SlideText)
+
+	If theSlideText Is Nothing Then Exit Sub
+
+	InitSlideVisualStimDefaults theSlideText
+
+	theSlideText.WordWrap = True
+	theSlideText.FontName = "Courier New"
+	theSlideText.FontSize = "18"
+	theSlideText.FontBold = CLogical("Yes")
+	theSlideText.FontItalic = CLogical("No")
+	theSlideText.FontUnderline = CLogical("No")
+	theSlideText.FontStrikeout = CLogical("No")
+
+End Sub
+
+'--------------------------------------------------------------------------
+'InitSlideImageDefaults
+'--------------------------------------------------------------------------
+Sub InitSlideImageDefaults(theSlideImage As SlideImage)
+
+	If theSlideImage Is Nothing Then Exit Sub
+
+	InitSlideVisualStimDefaults theSlideImage
+
+	theSlideImage.Stretch = CLogical("No")
+	theSlideImage.MirrorLeftRight = CLogical("No")
+	theSlideImage.MirrorUpDown = CLogical("No")
+	theSlideImage.UseSourceColorKey = CLogical("No")
+	theSlideImage.SourceColorKey = CColor("black")
+
+End Sub
+
+'--------------------------------------------------------------------------
+'InitSlideSoundBufferDefaults
+'--------------------------------------------------------------------------
+Sub InitSlideSoundBufferDefaults(theSoundBuffer As SoundBuffer)
+
+	If theSoundBuffer Is Nothing Then Exit Sub
+
+	theSoundBuffer.Loop = CLogical("No")
+	theSoundBuffer.StopAfter = CLogical("Yes")
+	theSoundBuffer.StartOffset = "0"
+	theSoundBuffer.StopOffset = "0"
+
+End Sub
+
+
+
+
+
+
+
+
+
+'--------------------------------------------------------------------------
+' Instance Declarations
+'--------------------------------------------------------------------------
+Dim Display As DisplayDevice
+Dim Sound As SoundDevice
+Dim Keyboard As KeyboardDevice
+Dim Mouse As MouseDevice
+Dim Port As PortDevice
+Dim MainProc As Procedure
+
+Dim ListOfTrials As List
+
+Dim GoodBye As TextDisplay
+
+Dim TaskInstructions As Slide
+Dim TaskInstructionsEchoClients As EchoClientCollection
+Dim TaskInstructions_State As SlideState
+Dim TaskInstructions_SlideText As SlideText
+
+Dim TrialProc As Procedure
+
+Dim Fixation As Slide
+Dim FixationEchoClients As EchoClientCollection
+Dim Fixation_State As SlideState
+Dim Fixation_SlideText As SlideText
+
+Dim MathString As Slide
+Dim MathStringEchoClients As EchoClientCollection
+Dim MathString_State As SlideState
+Dim MathString_SlideText As SlideText
+
+Dim BaselineBefore As Slide
+Dim BaselineBefore_State As SlideState
+Dim BaselineBefore_SlideText As SlideText
+
+Dim waitforscannerTTL As TextDisplay
+Dim waitforscannerTTLEchoClients As EchoClientCollection
+
+Dim BaselineAfter As Slide
+Dim BaselineAfter_State As SlideState
+Dim BaselineAfter_SlideText As SlideText
+
+
+
+'--------------------------------------------------------------------------
+' Package Declare Script
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+' User Script
+'--------------------------------------------------------------------------
+dim laststim as string
+dim fMRIttl, perf, TotalTrial as integer
+
+
+'--------------------------------------------------------------------------
+' Package Global Script
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+' Package Routines
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+' Implementation
+'--------------------------------------------------------------------------
+Sub MainProc_Run(c as Context)
+	
+	
+	Select Case TaskInstructions.ActiveState
+		Case "Default"
+
+
+			Set TaskInstructions_SlideText = CSlideText(TaskInstructions.States.Item("Default").Objects(1))
+			Set TaskInstructions_SlideText = Nothing
+	End Select
+
+	
+	TaskInstructions.InputMasks.Reset
+	
+	TaskInstructionsEchoClients.RemoveAll
+	TaskInstructions.InputMasks.Add Keyboard.CreateInputMask("{ANY}", "", CLng(TaskInstructions.Duration), CLng("1"), ebEndResponseActionTerminate, CLogical("Yes"), "", "", "ResponseMode:All ProcessBackspace:Yes")
+
+	
+	TaskInstructions.Run
+	
+	c.SetAttrib "TaskInstructions.OnsetDelay", TaskInstructions.OnsetDelay
+	c.SetAttrib "TaskInstructions.OnsetTime", TaskInstructions.OnsetTime
+	c.SetAttrib "TaskInstructions.DurationError", TaskInstructions.DurationError
+	
+	
+	
+	waitforscannerTTL.InputMasks.Reset
+	
+	waitforscannerTTLEchoClients.RemoveAll
+	waitforscannerTTL.InputMasks.Add Keyboard.CreateInputMask("s", "", CLng(waitforscannerTTL.Duration), CLng("1"), ebEndResponseActionTerminate, CLogical("Yes"), "", "", "ResponseMode:All ProcessBackspace:Yes")
+
+	
+	waitforscannerTTLEchoClients.RemoveAll
+	waitforscannerTTL.InputMasks.Add Port.CreateInputMask("6", "", CLng(waitforscannerTTL.Duration), CLng("1"), ebEndResponseActionTerminate, CLogical("Yes"), "", "", "")
+
+	
+	waitforscannerTTL.Run
+	c.SetAttrib "waitforscannerTTL.OnsetDelay", waitforscannerTTL.OnsetDelay
+	c.SetAttrib "waitforscannerTTL.OnsetTime", waitforscannerTTL.OnsetTime
+	c.SetAttrib "waitforscannerTTL.DurationError", waitforscannerTTL.DurationError
+	c.SetAttrib "waitforscannerTTL.RTTime", waitforscannerTTL.RTTime
+	c.SetAttrib "waitforscannerTTL.ACC", waitforscannerTTL.ACC
+	c.SetAttrib "waitforscannerTTL.RT", waitforscannerTTL.RT
+	c.SetAttrib "waitforscannerTTL.RESP", waitforscannerTTL.RESP
+	c.SetAttrib "waitforscannerTTL.CRESP", waitforscannerTTL.CRESP
+	
+	
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - DispSetting BEGIN
+	'''''''''''''''''''''''''''''''''''''''''''''
+	
+
+c.setAttrib "Police", "Lucida Console"
+c.setAttrib "Stimsize", 18
+c.setAttrib "Stimcolor", "160,160,160"
+c.setAttrib "Stimbold", "no"
+
+
+
+c.setAttrib "FixCar", "·"
+c.setAttrib "Fixsize", 12
+c.setAttrib "FixFont", "Courier New"
+c.setAttrib "FixY", "center"
+c.setAttrib "FixColor", "white"
+c.setAttrib "Fixbold", "gray"
+
+
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - DispSetting END
+	'''''''''''''''''''''''''''''''''''''''''''''
+	
+	
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - Initialization BEGIN
+	'''''''''''''''''''''''''''''''''''''''''''''
+	perf=0
+TotalTrial=0
+
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - Initialization END
+	'''''''''''''''''''''''''''''''''''''''''''''
+	
+	
+	
+	Select Case BaselineBefore.ActiveState
+		Case "Default"
+
+
+			Set BaselineBefore_SlideText = CSlideText(BaselineBefore.States.Item("Default").Objects(1))
+			BaselineBefore_SlideText.Text = c.GetAttrib("FixCar")
+			BaselineBefore_SlideText.Y = c.GetAttrib("FixY")
+			BaselineBefore_SlideText.ForeColor = CColor(c.GetAttrib("Fixcolor"))
+			BaselineBefore_SlideText.FontName = c.GetAttrib("FixFont")
+			BaselineBefore_SlideText.FontSize = c.GetAttrib("Fixsize")
+			BaselineBefore_SlideText.FontBold = CLogical(c.GetAttrib("Fixbold"))
+			Set BaselineBefore_SlideText = Nothing
+	End Select
+
+	BaselineBefore.Run
+	
+	c.SetAttrib "BaselineBefore.OnsetDelay", BaselineBefore.OnsetDelay
+	c.SetAttrib "BaselineBefore.OnsetTime", BaselineBefore.OnsetTime
+	c.SetAttrib "BaselineBefore.DurationError", BaselineBefore.DurationError
+	c.SetAttrib "BaselineBefore.RTTime", BaselineBefore.RTTime
+	c.SetAttrib "BaselineBefore.ACC", BaselineBefore.ACC
+	c.SetAttrib "BaselineBefore.RT", BaselineBefore.RT
+	c.SetAttrib "BaselineBefore.RESP", BaselineBefore.RESP
+	c.SetAttrib "BaselineBefore.CRESP", BaselineBefore.CRESP
+	
+	ListOfTrials.Run c
+	
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - PerformSummary BEGIN
+	'''''''''''''''''''''''''''''''''''''''''''''
+	perf = perf*100/TotalTrial
+
+c.SetAttrib "Perf" , perf
+
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - PerformSummary END
+	'''''''''''''''''''''''''''''''''''''''''''''
+	
+	
+	
+	Select Case BaselineAfter.ActiveState
+		Case "Default"
+
+
+			Set BaselineAfter_SlideText = CSlideText(BaselineAfter.States.Item("Default").Objects(1))
+			BaselineAfter_SlideText.Text = c.GetAttrib("FixCar")
+			BaselineAfter_SlideText.Y = c.GetAttrib("FixY")
+			BaselineAfter_SlideText.ForeColor = CColor(c.GetAttrib("Fixcolor"))
+			BaselineAfter_SlideText.FontName = c.GetAttrib("FixFont")
+			BaselineAfter_SlideText.FontSize = c.GetAttrib("Fixsize")
+			BaselineAfter_SlideText.FontBold = CLogical(c.GetAttrib("Fixbold"))
+			Set BaselineAfter_SlideText = Nothing
+	End Select
+
+	BaselineAfter.Run
+	
+	c.SetAttrib "BaselineAfter.OnsetDelay", BaselineAfter.OnsetDelay
+	c.SetAttrib "BaselineAfter.OnsetTime", BaselineAfter.OnsetTime
+	c.SetAttrib "BaselineAfter.DurationError", BaselineAfter.DurationError
+	c.SetAttrib "BaselineAfter.RTTime", BaselineAfter.RTTime
+	c.SetAttrib "BaselineAfter.ACC", BaselineAfter.ACC
+	c.SetAttrib "BaselineAfter.RT", BaselineAfter.RT
+	c.SetAttrib "BaselineAfter.RESP", BaselineAfter.RESP
+	c.SetAttrib "BaselineAfter.CRESP", BaselineAfter.CRESP
+	
+	
+	GoodBye.Text = "1/2 session has been finished.\n\nCorrect response: " &_ 
+				c.GetAttrib("perf") &_ 
+				"%\n \nPlease relax."
+	GoodBye.Run
+	c.SetAttrib "TaskInstructions.OnsetDelay", TaskInstructions.OnsetDelay
+	c.SetAttrib "TaskInstructions.OnsetTime", TaskInstructions.OnsetTime
+	c.SetAttrib "TaskInstructions.DurationError", TaskInstructions.DurationError
+	
+	c.SetAttrib "waitforscannerTTL.OnsetDelay", waitforscannerTTL.OnsetDelay
+	c.SetAttrib "waitforscannerTTL.OnsetTime", waitforscannerTTL.OnsetTime
+	c.SetAttrib "waitforscannerTTL.DurationError", waitforscannerTTL.DurationError
+	c.SetAttrib "waitforscannerTTL.RTTime", waitforscannerTTL.RTTime
+	c.SetAttrib "waitforscannerTTL.ACC", waitforscannerTTL.ACC
+	c.SetAttrib "waitforscannerTTL.RT", waitforscannerTTL.RT
+	c.SetAttrib "waitforscannerTTL.RESP", waitforscannerTTL.RESP
+	c.SetAttrib "waitforscannerTTL.CRESP", waitforscannerTTL.CRESP
+	
+	c.SetAttrib "BaselineBefore.OnsetDelay", BaselineBefore.OnsetDelay
+	c.SetAttrib "BaselineBefore.OnsetTime", BaselineBefore.OnsetTime
+	c.SetAttrib "BaselineBefore.DurationError", BaselineBefore.DurationError
+	c.SetAttrib "BaselineBefore.RTTime", BaselineBefore.RTTime
+	c.SetAttrib "BaselineBefore.ACC", BaselineBefore.ACC
+	c.SetAttrib "BaselineBefore.RT", BaselineBefore.RT
+	c.SetAttrib "BaselineBefore.RESP", BaselineBefore.RESP
+	c.SetAttrib "BaselineBefore.CRESP", BaselineBefore.CRESP
+	
+	c.SetAttrib "BaselineAfter.OnsetDelay", BaselineAfter.OnsetDelay
+	c.SetAttrib "BaselineAfter.OnsetTime", BaselineAfter.OnsetTime
+	c.SetAttrib "BaselineAfter.DurationError", BaselineAfter.DurationError
+	c.SetAttrib "BaselineAfter.RTTime", BaselineAfter.RTTime
+	c.SetAttrib "BaselineAfter.ACC", BaselineAfter.ACC
+	c.SetAttrib "BaselineAfter.RT", BaselineAfter.RT
+	c.SetAttrib "BaselineAfter.RESP", BaselineAfter.RESP
+	c.SetAttrib "BaselineAfter.CRESP", BaselineAfter.CRESP
+	
+
+	c.Log
+End Sub
+
+
+
+Sub TrialProc_Run(c as Context)
+	
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - PeriodSetting BEGIN
+	'''''''''''''''''''''''''''''''''''''''''''''
+	if c.GetAttrib("duration") = 2 then
+	c.setAttrib "Dur" , 200
+	c.setAttrib "Fix" , 1800
+else
+	c.setAttrib "Dur" , 200
+	c.setAttrib "Fix" , c.GetAttrib("duration")*1000 - 200
+end if
+
+
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - PeriodSetting END
+	'''''''''''''''''''''''''''''''''''''''''''''
+	
+	
+	
+	Select Case MathString.ActiveState
+		Case "Default"
+
+
+			Set MathString_SlideText = CSlideText(MathString.States.Item("Default").Objects(1))
+			MathString_SlideText.Text = c.GetAttrib("FixCar")
+			MathString_SlideText.Y = c.GetAttrib("FixY")
+			MathString_SlideText.ForeColor = CColor(c.GetAttrib("Fixcolor"))
+			MathString_SlideText.FontName = c.GetAttrib("FixFont")
+			MathString_SlideText.FontSize = c.GetAttrib("Fixsize")
+			MathString_SlideText.FontBold = CLogical(c.GetAttrib("Fixbold"))
+			Set MathString_SlideText = Nothing
+
+			Set MathString_SlideText = CSlideText(MathString.States.Item("Default").Objects(2))
+			MathString_SlideText.Text = c.GetAttrib("Stim")
+			MathString_SlideText.ForeColor = CColor(c.GetAttrib("Stimcolor"))
+			MathString_SlideText.FontName = c.GetAttrib("police")
+			MathString_SlideText.FontSize = c.GetAttrib("Stimsize")
+			MathString_SlideText.FontBold = CLogical(c.GetAttrib("Stimbold"))
+			Set MathString_SlideText = Nothing
+	End Select
+
+	MathString.Duration = CLng(c.GetAttrib("Dur"))
+	
+	MathString.InputMasks.Reset
+	
+	MathStringEchoClients.RemoveAll
+	MathString.InputMasks.Add Port.CreateInputMask("4", "", CLng("800"), CLng("1"), ebEndResponseActionNone, CLogical("Yes"), "", "", "")
+
+	
+	MathStringEchoClients.RemoveAll
+	MathString.InputMasks.Add Mouse.CreateInputMask("2", "", CLng("800"), CLng("1"), ebEndResponseActionNone, CLogical("Yes"), "", "", "")
+
+	
+	MathString.Run
+	
+	c.SetAttrib "MathString.OnsetDelay", MathString.OnsetDelay
+	c.SetAttrib "MathString.OnsetTime", MathString.OnsetTime
+	c.SetAttrib "MathString.DurationError", MathString.DurationError
+	c.SetAttrib "MathString.RTTime", MathString.RTTime
+	c.SetAttrib "MathString.ACC", MathString.ACC
+	c.SetAttrib "MathString.RT", MathString.RT
+	c.SetAttrib "MathString.RESP", MathString.RESP
+	c.SetAttrib "MathString.CRESP", MathString.CRESP
+	
+	
+	
+	Select Case Fixation.ActiveState
+		Case "Default"
+
+
+			Set Fixation_SlideText = CSlideText(Fixation.States.Item("Default").Objects(1))
+			Fixation_SlideText.Text = c.GetAttrib("FixCar")
+			Fixation_SlideText.Y = c.GetAttrib("FixY")
+			Fixation_SlideText.ForeColor = CColor(c.GetAttrib("Fixcolor"))
+			Fixation_SlideText.FontName = c.GetAttrib("FixFont")
+			Fixation_SlideText.FontSize = c.GetAttrib("Fixsize")
+			Fixation_SlideText.FontBold = CLogical(c.GetAttrib("Fixbold"))
+			Set Fixation_SlideText = Nothing
+	End Select
+
+	Fixation.Duration = CLng(c.GetAttrib("Fix"))
+	
+	Fixation.InputMasks.Reset
+	
+	FixationEchoClients.RemoveAll
+	Fixation.InputMasks.Add Port.CreateInputMask("4", "", CLng("800"), CLng("1"), ebEndResponseActionNone, CLogical("Yes"), "", "", "")
+
+	
+	FixationEchoClients.RemoveAll
+	Fixation.InputMasks.Add Mouse.CreateInputMask("2", "", CLng("800"), CLng("1"), ebEndResponseActionNone, CLogical("Yes"), "", "", "")
+
+	
+	Fixation.Run
+	
+	c.SetAttrib "Fixation.OnsetDelay", Fixation.OnsetDelay
+	c.SetAttrib "Fixation.OnsetTime", Fixation.OnsetTime
+	c.SetAttrib "Fixation.DurationError", Fixation.DurationError
+	c.SetAttrib "Fixation.RTTime", Fixation.RTTime
+	c.SetAttrib "Fixation.ACC", Fixation.ACC
+	c.SetAttrib "Fixation.RT", Fixation.RT
+	c.SetAttrib "Fixation.RESP", Fixation.RESP
+	c.SetAttrib "Fixation.CRESP", Fixation.CRESP
+	
+	
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - BtnPressDetect BEGIN
+	'''''''''''''''''''''''''''''''''''''''''''''
+	if c.GetAttrib("Stim") = "###########" then
+	if c.GetAttrib("MathString.RESP") = "2" or c.GetAttrib("MathString.RESP") = "4" then
+		c.SetAttrib "Objperformance", 1
+	elseif c.GetAttrib("Fixation.RESP") = "2" or c.GetAttrib("Fixation.RESP") = "4" then
+		c.SetAttrib "Objperformance", 1
+	else
+		c.SetAttrib "Objperformance", 0
+	end if
+	perf = perf + c.GetAttrib("Objperformance")
+	TotalTrial = TotalTrial + 1
+end if
+
+c.SetAttrib "Perf" , perf
+c.SetAttrib "TotalTrial" , TotalTrial
+
+
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - BtnPressDetect END
+	'''''''''''''''''''''''''''''''''''''''''''''
+	
+	c.SetAttrib "MathString.OnsetDelay", MathString.OnsetDelay
+	c.SetAttrib "MathString.OnsetTime", MathString.OnsetTime
+	c.SetAttrib "MathString.DurationError", MathString.DurationError
+	c.SetAttrib "MathString.RTTime", MathString.RTTime
+	c.SetAttrib "MathString.ACC", MathString.ACC
+	c.SetAttrib "MathString.RT", MathString.RT
+	c.SetAttrib "MathString.RESP", MathString.RESP
+	c.SetAttrib "MathString.CRESP", MathString.CRESP
+	
+	c.SetAttrib "Fixation.OnsetDelay", Fixation.OnsetDelay
+	c.SetAttrib "Fixation.OnsetTime", Fixation.OnsetTime
+	c.SetAttrib "Fixation.DurationError", Fixation.DurationError
+	c.SetAttrib "Fixation.RTTime", Fixation.RTTime
+	c.SetAttrib "Fixation.ACC", Fixation.ACC
+	c.SetAttrib "Fixation.RT", Fixation.RT
+	c.SetAttrib "Fixation.RESP", Fixation.RESP
+	c.SetAttrib "Fixation.CRESP", Fixation.CRESP
+	
+
+	c.Log
+End Sub
+
+
+
+
+
+
+
+
+
+
+
+'--------------------------------------------------------------------------
+' InitDevices
+'
+'--------------------------------------------------------------------------
+Sub InitDevices(c As Context)
+
+
+
+	SetOSThreadPriority 3
+
+
+	Set Display = New DisplayDevice
+	Display.Name = "Display"
+
+	Dim DisplayDisplayDeviceInfo As DisplayDeviceInfo
+	DisplayDisplayDeviceInfo.XRes = 1024
+	DisplayDisplayDeviceInfo.YRes = 768
+	DisplayDisplayDeviceInfo.ColorDepth = 16
+	DisplayDisplayDeviceInfo.RefreshRate = 0
+	DisplayDisplayDeviceInfo.NumPages = 0
+
+	Display.Open DisplayDisplayDeviceInfo
+	c.SetAttrib "Display.RefreshRate", Format$(Display.CalculatedRefreshRate, "0.000")
+
+	Set Sound = New SoundDevice
+	Sound.Name = "Sound"
+
+	Dim SoundSoundOutDeviceInfo As SoundDeviceInfo
+	SoundSoundOutDeviceInfo.Channels = 2
+	SoundSoundOutDeviceInfo.SamplesPerSecond = 22050
+	SoundSoundOutDeviceInfo.BitsPerSample = 16
+	Sound.Open SoundSoundOutDeviceInfo
+
+	Set Keyboard = New KeyboardDevice
+	Keyboard.Name = "Keyboard"
+
+	Dim KeyboardKeyboardDeviceInfo as KeyboardDeviceInfo
+	KeyboardKeyboardDeviceInfo.CollectionMode = ebPressesOnly
+	KeyboardKeyboardDeviceInfo.CapsLock = ebCapsLockOff
+	KeyboardKeyboardDeviceInfo.NumLock = ebNumLockOn
+	Keyboard.Open KeyboardKeyboardDeviceInfo
+	
+	Set Mouse = New MouseDevice
+	Mouse.Name = "Mouse"
+
+	Dim MouseMouseDeviceInfo as MouseDeviceInfo
+	MouseMouseDeviceInfo.OpenMode = ebMouseOpenModeDirect
+	MouseMouseDeviceInfo.CollectionMode = ebPressesOnly
+	MouseMouseDeviceInfo.ShowCursor = False
+	Mouse.Open MouseMouseDeviceInfo
+
+	Set Port = New PortDevice
+	Port.Name = "Port"
+	Dim PortPortDeviceInfo As PortDeviceInfo
+	PortPortDeviceInfo.CollectionMode = ebPressesOnly
+	PortPortDeviceInfo.Address = &HE801
+	PortPortDeviceInfo.Size = 8
+	PortPortDeviceInfo.Invert = CLogical("No")
+	PortPortDeviceInfo.Mask = -1
+	Port.Open PortPortDeviceInfo
+
+
+	SetOSThreadPriority 0
+
+End Sub
+
+
+
+'--------------------------------------------------------------------------
+' InitObjects
+'
+'--------------------------------------------------------------------------
+Sub InitObjects(c As Context)
+
+	Set MainProc = New Procedure
+	MainProc.Name = "MainProc"
+	MainProc.Tag = ""
+	MainProc.Subroutine = "MainProc_Run"
+
+	Set ListOfTrials = New List
+	ListOfTrials.Name = "ListOfTrials"
+	ListOfTrials.Tag = ""
+
+	'Initialization for ListOfTrials
+	
+	Set ListOfTrials.Order = New SequentialOrder
+	Set ListOfTrials.Deletion = NoDeletion
+	ListOfTrials.ResetEveryRun = False
+
+	' Create the column headings
+	ListOfTrials.AddAttrib "Stim"
+	ListOfTrials.AddAttrib "BranchSide"
+	ListOfTrials.AddAttrib "duration"
+	ListOfTrials.AddAttrib "Type"
+	ListOfTrials.Filename = "Strings\\MathFormula_fMRI_Sim_Run1.txt"
+	ListOfTrials.LoadMethod = ebLoadMethodFile
+
+	ListOfTrials.Load
+	ListOfTrials.Reset
+	
+	Set ListOfTrials.TerminateCondition = Cycles(1)
+	Set ListOfTrials.ResetCondition = Samples(ListOfTrials.Deletion.Count)
+	
+	Set GoodBye = New TextDisplay
+	GoodBye.Name = "GoodBye"
+	GoodBye.Tag = ""
+
+	InitTextDisplayDefaults GoodBye
+
+	GoodBye.BackColor = CColor("black")
+	GoodBye.ForeColor = CColor("white")
+	GoodBye.FontName = "Century"
+	GoodBye.Duration = CLng("5000")
+	GoodBye.TimingMode = ebTimingModeCumulative
+	GoodBye.PreRelease = Val("100")
+
+	GoodBye.OnsetSync = 1
+	GoodBye.OffsetSync = 0
+
+	Set TaskInstructions = New Slide
+	TaskInstructions.Name = "TaskInstructions"
+	TaskInstructions.Tag = ""
+
+	Set TaskInstructionsEchoClients = New EchoClientCollection
+	TaskInstructions.Duration = CLng("-1")
+	TaskInstructions.TimingMode = ebTimingModeCumulative
+	TaskInstructions.PreRelease = Val("100")
+
+	TaskInstructions.OnsetSync = 1
+	TaskInstructions.OffsetSync = 0
+
+	Set TaskInstructions_State = New SlideState
+	TaskInstructions_State.Name = "Default"
+
+	InitSlideStateDefaults TaskInstructions_State
+
+	TaskInstructions_State.BackColor = CColor("black")
+
+	TaskInstructions.States.Add TaskInstructions_State, "Default"
+
+
+	Set TaskInstructions_SlideText = New SlideText
+	TaskInstructions_SlideText.Name = "Text1"
+
+	InitSlideTextDefaults TaskInstructions_SlideText
+
+	TaskInstructions_SlideText.Text = "Vous allez voir des séries de formules mathématiques. \n\n\nAppuyez sur le bouton droit dès vous voyez '###########'\n\nMerci de ne pas bouger la tête" &_ 
+				" pendant l'acquisition.\n"
+	TaskInstructions_SlideText.X = "51%"
+	TaskInstructions_SlideText.Width = "75%"
+	TaskInstructions_SlideText.Height = "75%"
+	TaskInstructions_SlideText.ForeColor = CColor("white")
+	TaskInstructions_SlideText.BackColor = CColor("black")
+	TaskInstructions_SlideText.BackStyle = "transparent"
+	TaskInstructions.States.Item("Default").Objects.Add TaskInstructions_SlideText, "Text1"
+	TaskInstructions.ActiveState = "Default"
+
+	Set TrialProc = New Procedure
+	TrialProc.Name = "TrialProc"
+	TrialProc.Tag = ""
+	TrialProc.Subroutine = "TrialProc_Run"
+
+	Set Fixation = New Slide
+	Fixation.Name = "Fixation"
+	Fixation.Tag = "0000"
+
+	Set FixationEchoClients = New EchoClientCollection
+	Fixation.TimingMode = ebTimingModeCumulative
+	Fixation.PreRelease = Val("100")
+
+	Fixation.OnsetSync = 1
+	Fixation.OffsetSync = 0
+
+	Set Fixation_State = New SlideState
+	Fixation_State.Name = "Default"
+
+	InitSlideStateDefaults Fixation_State
+
+	Fixation_State.BackColor = CColor("black")
+
+	Fixation.States.Add Fixation_State, "Default"
+
+
+	Set Fixation_SlideText = New SlideText
+	Fixation_SlideText.Name = "Text1"
+
+	InitSlideTextDefaults Fixation_SlideText
+
+	Fixation_SlideText.BackColor = CColor("black")
+	Fixation_SlideText.BackStyle = "transparent"
+	Fixation.States.Item("Default").Objects.Add Fixation_SlideText, "Text1"
+	Fixation.ActiveState = "Default"
+
+	Set MathString = New Slide
+	MathString.Name = "MathString"
+	MathString.Tag = "Slid"
+
+	Set MathStringEchoClients = New EchoClientCollection
+	MathString.TimingMode = ebTimingModeEvent
+	MathString.PreRelease = Val("60")
+
+	MathString.OnsetSync = 1
+	MathString.OffsetSync = 0
+
+	Set MathString_State = New SlideState
+	MathString_State.Name = "Default"
+
+	InitSlideStateDefaults MathString_State
+
+	MathString_State.BackColor = CColor("black")
+
+	MathString.States.Add MathString_State, "Default"
+
+
+	Set MathString_SlideText = New SlideText
+	MathString_SlideText.Name = "Text2"
+
+	InitSlideTextDefaults MathString_SlideText
+
+	MathString_SlideText.BackColor = CColor("black")
+	MathString_SlideText.BackStyle = "transparent"
+	MathString.States.Item("Default").Objects.Add MathString_SlideText, "Text2"
+
+	Set MathString_SlideText = New SlideText
+	MathString_SlideText.Name = "Text1"
+
+	InitSlideTextDefaults MathString_SlideText
+
+	MathString_SlideText.BackStyle = "transparent"
+	MathString.States.Item("Default").Objects.Add MathString_SlideText, "Text1"
+	MathString.ActiveState = "Default"
+
+	Set BaselineBefore = New Slide
+	BaselineBefore.Name = "BaselineBefore"
+	BaselineBefore.Tag = ""
+	BaselineBefore.Duration = CLng("2000")
+	BaselineBefore.TimingMode = ebTimingModeCumulative
+	BaselineBefore.PreRelease = Val("100")
+
+	BaselineBefore.OnsetSync = 1
+	BaselineBefore.OffsetSync = 0
+
+	Set BaselineBefore_State = New SlideState
+	BaselineBefore_State.Name = "Default"
+
+	InitSlideStateDefaults BaselineBefore_State
+
+	BaselineBefore_State.BackColor = CColor("black")
+
+	BaselineBefore.States.Add BaselineBefore_State, "Default"
+
+
+	Set BaselineBefore_SlideText = New SlideText
+	BaselineBefore_SlideText.Name = "Text2"
+
+	InitSlideTextDefaults BaselineBefore_SlideText
+
+	BaselineBefore_SlideText.BackColor = CColor("black")
+	BaselineBefore_SlideText.BackStyle = "transparent"
+	BaselineBefore.States.Item("Default").Objects.Add BaselineBefore_SlideText, "Text2"
+	BaselineBefore.ActiveState = "Default"
+
+	Set waitforscannerTTL = New TextDisplay
+	waitforscannerTTL.Name = "waitforscannerTTL"
+	waitforscannerTTL.Tag = ""
+
+	Set waitforscannerTTLEchoClients = New EchoClientCollection
+
+	InitTextDisplayDefaults waitforscannerTTL
+
+	waitforscannerTTL.Text = "Waiting for fMRI trigger... (or press 's' to start)"
+	waitforscannerTTL.BackColor = CColor("black")
+	waitforscannerTTL.ForeColor = CColor("white")
+	waitforscannerTTL.Duration = CLng("-1")
+	waitforscannerTTL.TimingMode = ebTimingModeCumulative
+	waitforscannerTTL.PreRelease = Val("100")
+
+	waitforscannerTTL.OnsetSync = 1
+	waitforscannerTTL.OffsetSync = 0
+
+	Set BaselineAfter = New Slide
+	BaselineAfter.Name = "BaselineAfter"
+	BaselineAfter.Tag = ""
+	BaselineAfter.Duration = CLng("10000")
+	BaselineAfter.TimingMode = ebTimingModeCumulative
+	BaselineAfter.PreRelease = Val("100")
+
+	BaselineAfter.OnsetSync = 1
+	BaselineAfter.OffsetSync = 0
+
+	Set BaselineAfter_State = New SlideState
+	BaselineAfter_State.Name = "Default"
+
+	InitSlideStateDefaults BaselineAfter_State
+
+	BaselineAfter_State.BackColor = CColor("black")
+
+	BaselineAfter.States.Add BaselineAfter_State, "Default"
+
+
+	Set BaselineAfter_SlideText = New SlideText
+	BaselineAfter_SlideText.Name = "Text2"
+
+	InitSlideTextDefaults BaselineAfter_SlideText
+
+	BaselineAfter_SlideText.BackColor = CColor("black")
+	BaselineAfter_SlideText.BackStyle = "transparent"
+	BaselineAfter.States.Item("Default").Objects.Add BaselineAfter_SlideText, "Text2"
+	BaselineAfter.ActiveState = "Default"
+
+
+End Sub
+
+
+'--------------------------------------------------------------------------
+' InitPackages
+'
+'--------------------------------------------------------------------------
+Sub InitPackages(c As Context)
+
+End Sub
+
+
+
+'--------------------------------------------------------------------------
+'--------------------------------------------------------------------------
+' UnInitDevices
+'--------------------------------------------------------------------------
+Sub UnInitDevices()
+	Display.Close
+	Set Display = Nothing
+	Sound.Close
+
+	Keyboard.Close
+	Set Keyboard = Nothing
+
+	Mouse.Close
+	Set Mouse = Nothing
+
+
+	Port.Close
+	End Sub
+
+
+'--------------------------------------------------------------------------
+'--------------------------------------------------------------------------
+' UnInitPackages
+'--------------------------------------------------------------------------
+Sub UnInitPackages()
+End Sub
+
+
+'--------------------------------------------------------------------------
+' UnInitObjects
+'
+'--------------------------------------------------------------------------
+Sub UnInitObjects()
+
+	Set MainProc = Nothing
+
+	Set ListOfTrials = Nothing
+
+	Set GoodBye = Nothing
+
+	Set TaskInstructions = Nothing
+
+	Set TaskInstructionsEchoClients = Nothing
+
+	Set TrialProc = Nothing
+
+	Set Fixation = Nothing
+
+	Set FixationEchoClients = Nothing
+
+	Set MathString = Nothing
+
+	Set MathStringEchoClients = Nothing
+
+	Set BaselineBefore = Nothing
+
+	Set waitforscannerTTL = Nothing
+
+	Set waitforscannerTTLEchoClients = Nothing
+
+	Set BaselineAfter = Nothing
+
+
+End Sub
+
+
+'--------------------------------------------------------------------------
+' Main
+'
+'--------------------------------------------------------------------------
+Sub Main()
+
+	CreateDefaultPort
+
+	' Create and initialize the default context, data file,
+	' and provide global access to the context.
+	Dim c As Context
+	Set c = New Context
+	Set c.DataFile = New DataFile
+	c.PushNewFrame
+	Set ebContext = c
+
+	' Set the log level names
+	c.SetLogLevelName 1, "Session"
+	c.SetLogLevelName 2, "Block"
+	c.SetLogLevelName 3, "Trial"
+	c.SetLogLevelName 4, "SubTrial"
+	c.SetLogLevelName 5, "LogLevel5"
+	c.SetLogLevelName 6, "LogLevel6"
+	c.SetLogLevelName 7, "LogLevel7"
+	c.SetLogLevelName 8, "LogLevel8"
+	c.SetLogLevelName 9, "LogLevel9"
+	c.SetLogLevelName 10, "LogLevel10"
+
+	' Set standard logging items
+	ebContext.SetAttrib "Experiment", "MathFormula_fMRI_Sim_Mod"
+	ebContext.SetAttrib "SessionDate", Date$
+	ebContext.SetAttrib "SessionTime", Time$
+	ebContext.SetAttrib "RandomSeed", PRNG.GetSeed()
+
+	If Basic.OS = ebWin32 Then
+		WinActivate "E-Run Experiment Window"
+	End If
+
+	' Get the StartupInfo
+	' Set default for GroupNumber
+	c.SetAttrib "Group", "1"
+
+
+	' Set the defaults for all of the StartupInfo
+	c.SetAttrib "Subject", "1"
+	c.SetAttrib "Session", "1"
+	c.SetAttrib "Name", ""
+	c.SetAttrib "Age", "0"
+	c.SetAttrib "Sex", "male"
+	c.SetAttrib "Handedness", "left"
+	c.SetAttrib "ResearcherID", "1"
+
+	Dim vAnswer As Variant
+StartupInfo_Begin:
+
+StartupInfoPrompt_Subject:
+	vAnswer = AskBox("Please enter the Subject Number (1-32767, 0=No Data Logging):", c.GetAttrib("Subject"))
+	If Not IsEmpty(vAnswer) then
+		If Not IsNumeric(vAnswer) then
+			MsgBox "Please enter an integer value"
+			GoTo StartupInfoPrompt_Subject
+		ElseIf CLng(vAnswer) < 0 Then
+			MsgBox "The value for Subject must not be less than 0"
+			GoTo StartupInfoPrompt_Subject
+		ElseIf CLng(vAnswer) > 32767 Then
+			MsgBox "The value for Subject must be not be greater than 32767"
+			GoTo StartupInfoPrompt_Subject
+		End If
+	Else
+		GoTo ExperimentAbort
+	End if
+
+	c.SetAttrib "Subject", CStr(vAnswer)
+
+StartupInfoPrompt_Session:
+	vAnswer = AskBox("Please enter the Session Number (1-32767):", c.GetAttrib("Session"))
+	If Not IsEmpty(vAnswer) then
+		If Not IsNumeric(vAnswer) then
+			MsgBox "Please enter an integer value"
+			GoTo StartupInfoPrompt_Session
+		ElseIf CLng(vAnswer) < 1 Then
+			MsgBox "The value for Session must not be less than 1"
+			GoTo StartupInfoPrompt_Session
+		ElseIf CLng(vAnswer) > 32767 Then
+			MsgBox "The value for Session must be not be greater than 32767"
+			GoTo StartupInfoPrompt_Session
+		End If
+	Else
+		GoTo ExperimentAbort
+	End if
+
+	c.SetAttrib "Session", CStr(vAnswer)
+
+	' Display the summary
+	Dim strSummary As String
+	strSummary = "Subject:    " & c.GetAttrib("Subject") & "\n"
+	strSummary = strSummary & "Session:    " & c.GetAttrib("Session") & "\n"
+	strSummary = strSummary & "\nContinue with the above startup info?"
+
+	Dim nSummaryAnswer As Integer
+	nSummaryAnswer = MsgBox(strSummary, ebYesNoCancel + ebQuestion, "Summary of Startup Info")
+	If nSummaryAnswer = ebNo Then
+		GoTo StartupInfo_Begin
+	ElseIf nSummaryAnswer = ebCancel Then
+		GoTo ExperimentAbort
+	End If
+
+
+	' Set the default Data Filename
+	c.DataFile.Filename = CStr(c.GetAttrib("Experiment")) & "-" & CStr(c.GetAttrib("Subject")) & "-" & CStr(c.GetAttrib("Session")) & ".txt"
+
+	' If we are logging data, then prompt to overwrite the data file if it exists
+	If CLng(c.GetAttrib("Subject")) <> 0 Then
+		If FileExists(c.DataFile.Filename) Then
+			If ebYes <> MsgBox("WARNING: The data file and/or recovery file already exists:\nFILE: " & c.DataFile.Filename & "\n\nDo you want to overwrite?", ebYesNo + ebQuestion) Then
+				GoTo ExperimentAbort
+			End If
+		End If
+	End If
+
+	' Initialize all system devices, packages, and objects
+	InitDevices c
+	InitPackages c
+	InitObjects c
+
+	' If we are logging data, then open the datafile
+	If CLng(c.GetAttrib("Subject")) <> 0 Then
+		c.DataFile.Open
+		c.LogHeader
+	End If
+
+	' Start the running of the Experiment
+	MainProc.Run c
+
+	' Clean up the context and close the datafile
+	If CLng(c.GetAttrib("Subject")) <> 0 Then
+		c.DataFile.Close
+		' Attempt to convert the recovery file into a data file
+		Dim nConvert As Long
+		nConvert = c.DataFile.Convert(ebProgressSimple)
+		If nConvert = 0 Then
+			' Settings in E-Studio are set to not remove E-Recovery file
+		Else
+			' The datafile failed to convert!
+			MsgBox "ERROR: The datafile did not convert!\nFILE: " & c.DataFile.Filename & "\n\nIt is recommended that you recover your data with the E-Recovery utility"
+			MsgBox c.DataFile.GetLastErrorMessage()
+		End If
+	End If
+ExperimentFinish:
+
+	UnInitObjects
+
+	UnInitPackages
+	UnInitDevices
+
+ExperimentAbort:
+
+	' Clean up the context
+	c.PopFrame
+	Set c = Nothing
+	Set ebContext = Nothing
+
+	DestroyDefaultPort
+
+End Sub

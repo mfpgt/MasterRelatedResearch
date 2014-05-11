@@ -1,0 +1,57 @@
+<h1 id="background">Background</h1>
+<p>Although written sentences in natural languages or mathematical expressions are typically represented by linear series of symbols, they are associated to <em>hierarchical tree structures</em>.</p>
+<p>Examples:</p>
+<pre><code>The little dogs slept -&gt; ((the litte dog) slept)
+The dog slept well -&gt; ((the dog) (slept well))
+
+I look at the girl with a telescope -&gt; I (look at (the girl (with a telescope)))
+I look at the girl with a telescope -&gt; I (look at (the girl)) (with a telescope)
+
+
+1 * 2 + 3  -&gt; (1*2)+3 
+1 + 3 * 2  -&gt; 1+(3*2)</code></pre>
+<p>Remarks:</p>
+<ul>
+<li><p>For sentences, classic arguments for the existence of such structures come from Linguistics (see, e.g. Chomsky <em>Syntactic structures</em>, Jackendoff. <em>Patterns in the mind</em>. Baker, <em>Atoms of language</em>).</p></li>
+<li><p>For Maths, the structure can (and sometimes <em>needs to</em>) be cued by parentheses. For <em>spoken utterances</em>, there is also some cueing of grouping of words by prosody, although it is important to know that there are mismatches between prosodic ans syntactic structures. See e.g. Nespor). For written text, commas can cue grouping of words, but they are often optional.</p></li>
+<li><p>We are focusing here on the <em>constituent structures</em> of sentences and expressions. Other types of representations certainly <em>coexist</em> (e.g. conceptual representations), with structures that may more or less parallel the constituent structure.</p></li>
+<li><p>These tree structures are associated to context free grammars: in a generative grammar framework, they represent the history of derivation of the sentence. It is therefore important to know about CFG grammars and the associated parsing strategies (bottom-up, top-down. See Jurafsky &amp; Martin. *Speech and Language Processing: An introduction to natural language processing, computational linguistics, and speech recognition.) Yet, it is important to realize that tree structures do not necessarily come from a generative CFG.</p></li>
+</ul>
+<h2 id="questions-of-interest">Questions of interest</h2>
+<ol style="list-style-type: decimal">
+<li><p>Are these constituant structures actually encoded in the brain? (note that this is debated; see e.g, Frank, S. L., and R. Bod. 2011. “Insensitivity of the Human Sentence-Processing System to Hierarchical Structure.” Psychological Science 22 (6): 829–834.).</p></li>
+<li><p>Are they automatically computed upon seeing a sentence or a formula?</p></li>
+<li><p>Which brain areas are involved in parsing sentences (e.g. the operation that assigns structure to a string)? Note that the minimal parsing operation is the merging, or unification, or composition of two words.</p></li>
+<li><p>Which brain areas are involved in parsing mathematical formula? Are they the same than for sentences parsing?</p></li>
+<li><p>How are these structures encoded by neural networks? How is the neural activity pattern associated to two merged symbols related to the activities elicited byindividual symbols?</p></li>
+</ol>
+<h1 id="directions">Directions</h1>
+<ol style="list-style-type: decimal">
+<li>Are these constituent structures actually encoded in the brain?</li>
+</ol>
+<p>It is a working hypothesis on our part that these structures exist in the brain (at least for the simple ones). As long as our experiments 'work', it is supporting the hypothesis.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Are these structures automatically computed upon seeing a sentence or a formula?</li>
+</ol>
+<ul>
+<li>In language, this is still an open question (from <em>my</em> point of view).</li>
+<li>Some psycholinguists argue against the notion of automatic and systematic computation of the syntactic structure (see, e.g. Townsend and Bever. Sentence Comprehension: The Integration of Habits and Rules.)</li>
+<li>We have evidence that may be taken against the view that automatic computation (Devauchelle, Pallier, Rizzi &amp; Dehaene, 2009; Pattamadilok, Dehaene &amp; Pallier, submitted).<br /></li>
+<li><p>I suspect that simple, local, structures may be computed automatically but not necessraily the ones spanning longer distances.</p></li>
+<li><p>What is the evidence for Maths?</p></li>
+</ul>
+<p>We could run a simple behavioral experiment on this issue: Asking Subjects to detect substrings &quot;2 + 3&quot; or &quot;3 * 5&quot; in an expression like &quot;2 + 3 * 5&quot;. If they rely on a strctured representation, they should be faster for 3 * 5 which is a phrasal constituant than for &quot;2 + 3&quot; which is not. This si actually more or less what Jansen et al. (Jansen, Marriot, Yelland (2000, Constituent Structure in Mathematics) did: they presented a formula for 2.5 se and 1 second later an expression that could be a phrasal constituent or not, or a fragment not matching the expression.</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Bemis &amp; Pylkkanen (2011) published an experiment on simple composisition that we tried to improve upon by:</li>
+</ol>
+<ul>
+<li>using an incremental design from 1 to 4 words.</li>
+<li>avoiding the block design with different tasks for composition and list. These data remain to be checked for quality (compare localizer between this experiment and dansestruct) and analysed.</li>
+</ul>
+<ol start="4" style="list-style-type: decimal">
+<li>Maruyama et al. (2012) presented more or less structured mathematical formulas manipulated the an experiment but that the short-term memory component may have hidden the parsing complexity.</li>
+</ol>
+<p>We want to: - rerun the Maruyama experiment without a taxing task and adding a condition with symbols replacing figures to diminish the potentiel role of automatic computations. - run another fMRI experiment, manipulating the complexity (rather than the legality) of syntactic trees, trying our best to equate visual complexity. - out of fMRI, find behavioral correlates of parsing complexity of Math formula.</p>
+<ol start="5" style="list-style-type: decimal">
+<li>There are few proposals for the encoding of symbolic structures in the neural networks (Smolensky. <em>The Harmonic Mind</em> and Plate, <em>Holographics Reduced Representations</em>). Can they be used to generate testable predictions for fMRI, MEG, EGG, in terms of syntactic complexity effects?</li>
+</ol>

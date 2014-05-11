@@ -1,0 +1,35 @@
+*** Header Start ***
+VersionPersist: 1
+LevelName: Session
+LevelName: Block
+LevelName: Trial
+LevelName: SubTrial
+LevelName: LogLevel5
+LevelName: LogLevel6
+LevelName: LogLevel7
+LevelName: LogLevel8
+LevelName: LogLevel9
+LevelName: LogLevel10
+Experiment: MathFormula_fMRI_RightSame_Training2
+SessionDate: 01-25-2010
+SessionTime: 16:06:25
+RandomSeed: -940199736
+Group: 1
+Subject: 10
+Session: 1
+Display.RefreshRate: 60.027
+*** Header End ***
+Level: 1
+*** LogFrame Start ***
+Experiment: MathFormula_fMRI_RightSame_Training2
+SessionDate: 01-25-2010
+SessionTime: 16:06:25
+RandomSeed: -940199736
+Group: 1
+Subject: 10
+Session: 1
+Display.RefreshRate: 60.027
+sessiondisp: 1
+Instructions.Duration: -1
+Instructions.FinishTime: 62300
+*** LogFrame End ***

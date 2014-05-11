@@ -1,0 +1,148 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Mon Mar 24 2014 14:09:12
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-60-generic', '#91-Ubuntu SMP Wed Feb 19 03:54:44 UTC 2014', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+276,Picture,loaded,chris_formulas/create_fB/img96.png
+277,Picture,loaded,chris_formulas/create_fU/img6.png
+278,Picture,loaded,chris_formulas/create_fU/img5.png
+278,Picture,loaded,chris_formulas/create_fBB/img965.png
+279,Picture,loaded,chris_formulas/create_fUB/img97.png
+280,Picture,loaded,chris_formulas/create_fUB/img91.png
+280,Picture,loaded,chris_formulas/create_fB/img93.png
+281,Picture,loaded,chris_formulas/create_fUU/img7.png
+282,Picture,loaded,chris_formulas/create_fBU/img91.png
+282,Picture,loaded,chris_formulas/create_fB/img99.png
+283,Picture,loaded,chris_formulas/create_fBB/img979.png
+283,Picture,loaded,chris_formulas/create_fBU/img95.png
+284,Picture,loaded,chris_formulas/create_fUU/img29.png
+285,Picture,loaded,chris_formulas/create_fBB/img915.png
+285,Picture,loaded,chris_formulas/create_fUU/img9.png
+286,Picture,loaded,chris_formulas/create_fUB/img94.png
+286,Picture,loaded,chris_formulas/create_fBU/img96.png
+287,Picture,loaded,chris_formulas/create_fU/img13.png
+288,Picture,loaded,chris_formulas/create_fBB/img925.png
+288,Picture,loaded,chris_formulas/create_fUU/img2.png
+289,Picture,loaded,chris_formulas/create_fUU/img8.png
+289,Picture,loaded,chris_formulas/create_fB/img94.png
+290,Picture,loaded,chris_formulas/create_fB/img92.png
+290,Picture,loaded,chris_formulas/create_fU/img15.png
+291,Picture,loaded,chris_formulas/create_fUB/img9.png
+291,Picture,loaded,chris_formulas/create_fBU/img9.png
+292,Picture,loaded,chris_formulas/create_fU/img7.png
+292,Picture,loaded,chris_formulas/create_fU/img8.png
+292,Picture,loaded,chris_formulas/create_fB/img98.png
+292,Picture,loaded,chris_formulas/create_fUU/img5.png
+293,Picture,loaded,chris_formulas/create_fUU/img3.png
+293,Picture,loaded,chris_formulas/create_fU/img1.png
+293,Picture,loaded,chris_formulas/create_fBB/img951.png
+293,Picture,loaded,chris_formulas/create_fUB/img99.png
+294,Picture,loaded,chris_formulas/create_fUB/img96.png
+294,Picture,loaded,chris_formulas/create_fUB/img95.png
+295,Picture,loaded,chris_formulas/create_fBB/img958.png
+295,Picture,loaded,chris_formulas/create_fBU/img94.png
+296,Picture,loaded,chris_formulas/create_fBB/img990.png
+296,Picture,loaded,chris_formulas/create_fBU/img93.png
+296,Picture,loaded,chris_formulas/create_fBU/img98.png
+297,Picture,loaded,chris_formulas/create_fB/img9.png
+297,Picture,loaded,chris_formulas/create_fU/img9.png
+298,Picture,loaded,chris_formulas/create_fUU/img6.png
+298,Picture,loaded,chris_formulas/create_fBU/img99.png
+298,Picture,loaded,chris_formulas/create_fBB/img981.png
+298,Picture,loaded,chris_formulas/create_fBB/img999.png
+299,Picture,loaded,chris_formulas/create_fUU/img4.png
+299,Picture,loaded,chris_formulas/create_fUB/img92.png
+299,Picture,loaded,chris_formulas/create_fB/img95.png
+300,Picture,loaded,chris_formulas/create_fB/img97.png
+300,Picture,loaded,chris_formulas/create_fUB/img98.png
+300,Picture,loaded,chris_formulas/create_fU/img14.png
+300,Picture,loaded,chris_formulas/create_fBU/img97.png
+301,Picture,loaded,chris_formulas/create_fB/img91.png
+301,Picture,loaded,chris_formulas/create_fUU/img30.png
+301,Picture,loaded,chris_formulas/create_fBB/img912.png
+301,Picture,loaded,chris_formulas/create_fUB/img93.png
+302,Picture,loaded,chris_formulas/create_fU/img12.png
+302,Picture,loaded,chris_formulas/create_fBU/img92.png
+4645,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 0,0,5,5
+#design: 0,0,6,6
+#design: 0,0,7,7
+#design: 0,0,8,8
+#design: 0,0,9,9
+#design: 0,0,10,10
+#design: 0,0,11,11
+#design: 0,0,12,12
+#design: 0,0,13,13
+#design: 0,0,14,14
+#design: 0,0,15,15
+#design: 0,0,16,16
+#design: 0,0,17,17
+#design: 0,0,18,18
+#design: 0,0,19,19
+#design: 0,0,20,20
+#design: 0,0,21,21
+#design: 0,0,22,22
+#design: 0,0,23,23
+#design: 0,0,24,24
+#design: 0,0,25,25
+#design: 0,0,26,26
+#design: 0,0,27,27
+#design: 0,0,28,28
+#design: 0,0,29,29
+#design: 0,0,30,30
+#design: 0,0,31,31
+#design: 0,0,32,32
+#design: 0,0,33,33
+#design: 0,0,34,34
+#design: 0,0,35,35
+#design: 0,0,36,36
+#design: 0,0,37,37
+#design: 0,0,38,38
+#design: 0,0,39,39
+#design: 0,0,40,40
+#design: 0,0,41,41
+#design: 0,0,42,42
+#design: 0,0,43,43
+#design: 0,0,44,44
+#design: 0,0,45,45
+#design: 0,0,46,46
+#design: 0,0,47,47
+#design: 0,0,48,48
+#design: 0,0,49,49
+#design: 0,0,50,50
+#design: 0,0,51,51
+#design: 0,0,52,52
+#design: 0,0,53,53
+#design: 0,0,54,54
+#design: 0,0,55,55
+#design: 0,0,56,56
+#design: 0,0,57,57
+#design: 0,0,58,58
+#design: 0,0,59,59
+4645,design,logged,
+4645,Experiment,started
+4648,Stimulus,presented,61
+5461,Keyboard,received,s,wait_char
+5462,Stimulus,presented,0
+5964,Stimulus,presented,1
+8841,stdout,received,'[]'
+8841,Stimulus,presented,0
+9342,Stimulus,presented,2
+12184,stdout,received,'[]'
+12184,Stimulus,presented,0
+12685,Stimulus,presented,3
+16085,stdout,received,'[]'
+16085,Stimulus,presented,0
+16586,Stimulus,presented,4
+19503,Experiment,paused
+19506,Stimulus,presented,62
+20221,Keyboard,received,y,wait_char
+20221,Experiment,ended
+20229,Stimulus,presented,62

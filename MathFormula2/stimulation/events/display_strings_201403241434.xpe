@@ -1,0 +1,11 @@
+#Expyriment 0.6.4 (Revision ff39d2489a7e; Python 2.7.3), .xpe-file
+#date: Mon Mar 24 2014 14:34:54
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is147103', '3.2.0-58-generic', '#88-Ubuntu SMP Tue Dec 3 17:37:58 UTC 2013', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+259,stderr,received,'Traceback (most recent call last):'
+259,stderr,received,'  File "display_strings.py", line 43, in <module>'
+259,stderr,received,"    text_size=28, text_font='Inconsolata.ttf')"
+259,stderr,received,'  File "/usr/local/lib/python2.7/dist-packages/expyriment/stimuli/_textline.py", line 87, in __init__'
+261,stderr,received,'    raise IOError("Font \'{0}\' not found!".format(text_font))'
+261,stderr,received,"IOError: Font 'Inconsolata.ttf' not found!"

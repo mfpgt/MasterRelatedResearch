@@ -1,0 +1,13 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Mon Mar 24 2014 10:57:24
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-60-generic', '#91-Ubuntu SMP Wed Feb 19 03:54:44 UTC 2014', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+427,stderr,received,'Traceback (most recent call last):'
+427,stderr,received,'  File "showimageformulas.py", line 50, in <module>'
+427,stderr,received,'    stim = stimuli.Picture(path)'
+427,stderr,received,'  File "/usr/local/lib/python2.7/dist-packages/expyriment/stimuli/_picture.py", line 44, in __init__'
+428,stderr,received,'    if not(os.path.isfile(self._filename)):'
+428,stderr,received,'  File "/usr/lib/python2.7/genericpath.py", line 29, in isfile'
+431,stderr,received,'    st = os.stat(path)'
+431,stderr,received,'TypeError: coercing to Unicode: need string or buffer, list found'

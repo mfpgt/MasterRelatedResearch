@@ -1,0 +1,9 @@
+#Expyriment 0.6.4 (Revision ff39d2489a7e; Python 2.7.3), .xpe-file
+#date: Mon Mar 31 2014 16:38:04
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is147103', '3.2.0-58-generic', '#88-Ubuntu SMP Tue Dec 3 17:37:58 UTC 2013', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+216,stderr,received,'Traceback (most recent call last):'
+216,stderr,received,'  File "display_strings_ordered.py", line 44, in <module>'
+216,stderr,received,"    stim = stimuli.TextLine(i.decode('utf-8'),"
+216,stderr,received,"AttributeError: 'list' object has no attribute 'decode'"

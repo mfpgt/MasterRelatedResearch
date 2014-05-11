@@ -1,0 +1,145 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Thu Apr 03 2014 15:00:01
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-60-generic', '#91-Ubuntu SMP Wed Feb 19 03:54:44 UTC 2014', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+325,stdout,received,"['diff', '2', '1', '    log(x + y)', '   a * sin(b)  ']"
+329,stdout,received,"['same', '3', '3', '    sin(a) * b', '   log(x) + y']"
+329,stdout,received,"['diff', '2', '1', '    sin(a * b)', '   x + log(y)      ']"
+330,stdout,received,"['diff', '3', '2', '    log(x) + y', '   sin(a * b)']"
+331,stdout,received,"['diff', '4', '5', '    sin(a)', '    (x + y)       ']"
+331,stdout,received,"['same', '1', '1', '    x + tan(y)', '   a * sin(b)']"
+332,stdout,received,"['diff', '2', '3', '    sin(a * b)', '   log(x) + y']"
+332,stdout,received,"['same', '6', '6', '     x)(log', '   x)(log \\t ']"
+333,stdout,received,"['same', '2', '2', '    log(x * y)', '   sin(a * b)']"
+334,stdout,received,"['same', '1', '1', '    a * sin(b)', '   x + log(y)     ']"
+334,stdout,received,"['same', '5', '5', '    (a * b)', '   (x + y)        ']"
+335,stdout,received,"['same', '6', '6', '     )x(log', '   )x(log']"
+335,stdout,received,"['same', '7', '7', '    )x ( y+', '    )x ( y+']"
+336,stdout,received,"['same', '8', '8', '   * a sin)b(', '  * a sin)b(']"
+337,stdout,received,"['same', '7', '7', '    y )x (+', '    y )x (+  ']"
+337,stdout,received,"['same', '8', '8', '   *sin )a( b', '  *sin )a( b']"
+338,stdout,received,"['same', '8', '8', '   x) log+ y(', '  x) log+ y(']"
+338,stdout,received,"['same', '8', '8', '   log) xy (*', '  log) xy (*']"
+339,stdout,received,"['diff', '5', '4', '    (x + y)', '     log(x)        ']"
+340,stdout,received,"['same', '2', '2', '    sin(a * b)', '   log(x + y)     ']"
+340,stdout,received,"['diff', '1', '2', '    a * sin(b)', '   log(x + y)']"
+341,stdout,received,"['same', '4', '4', '    sin(y)', '      log(x)']"
+1462,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 0,0,5,5
+#design: 0,0,6,6
+#design: 0,0,7,7
+#design: 0,0,8,8
+#design: 0,0,9,9
+#design: 0,0,10,10
+#design: 0,0,11,11
+#design: 0,0,12,12
+#design: 0,0,13,13
+#design: 0,0,14,14
+#design: 0,0,15,15
+#design: 0,0,16,16
+#design: 0,0,17,17
+#design: 0,0,18,18
+#design: 0,0,19,19
+#design: 0,0,20,20
+#design: 0,0,21,21
+1462,design,logged,
+1462,Experiment,started
+1466,Stimulus,presented,45
+1942,Keyboard,received,s,wait_char
+1943,Stimulus,presented,0
+2644,Stimulus,presented,2
+3646,Stimulus,presented,1
+8477,stdout,received,'[]'
+8477,Stimulus,presented,0
+9179,Stimulus,presented,4
+10181,Stimulus,presented,3
+15114,stdout,received,'[]'
+15114,Stimulus,presented,0
+15815,Stimulus,presented,6
+16817,Stimulus,presented,5
+21463,stdout,received,'[]'
+21463,Stimulus,presented,0
+22165,Stimulus,presented,8
+23167,Stimulus,presented,7
+27294,stdout,received,'[]'
+27294,Stimulus,presented,0
+27996,Stimulus,presented,10
+28998,Stimulus,presented,9
+33274,stdout,received,'[]'
+33274,Stimulus,presented,0
+33975,Stimulus,presented,12
+34977,Stimulus,presented,11
+39437,stdout,received,'[]'
+39437,Stimulus,presented,0
+40139,Stimulus,presented,14
+41141,Stimulus,presented,13
+45197,stdout,received,'[]'
+45197,Stimulus,presented,0
+45899,Stimulus,presented,16
+46901,Stimulus,presented,15
+51822,stdout,received,'[]'
+51822,Stimulus,presented,0
+52523,Stimulus,presented,18
+53525,Stimulus,presented,17
+58440,stdout,received,'[]'
+58440,Stimulus,presented,0
+59141,Stimulus,presented,20
+60143,Stimulus,presented,19
+65009,stdout,received,'[]'
+65009,Stimulus,presented,0
+65710,Stimulus,presented,22
+66712,Stimulus,presented,21
+71089,stdout,received,'[]'
+71089,Stimulus,presented,0
+71790,Stimulus,presented,24
+72792,Stimulus,presented,23
+77479,stdout,received,'[]'
+77479,Stimulus,presented,0
+78181,Stimulus,presented,26
+79183,Stimulus,presented,25
+84109,stdout,received,'[]'
+84109,Stimulus,presented,0
+84810,Stimulus,presented,28
+85812,Stimulus,presented,27
+90122,stdout,received,'[]'
+90122,Stimulus,presented,0
+90824,Stimulus,presented,30
+91826,Stimulus,presented,29
+96304,stdout,received,'[]'
+96304,Stimulus,presented,0
+97006,Stimulus,presented,32
+98008,Stimulus,presented,31
+102203,stdout,received,'[301, 113, 113]'
+102203,Stimulus,presented,0
+102904,Stimulus,presented,34
+103906,Stimulus,presented,33
+108536,stdout,received,'[113, 306, 99]'
+108536,Stimulus,presented,0
+109237,Stimulus,presented,36
+110240,Stimulus,presented,35
+115162,stdout,received,'[121]'
+115162,Stimulus,presented,0
+115864,Stimulus,presented,38
+116866,Stimulus,presented,37
+121028,Experiment,paused
+121029,Stimulus,presented,46
+141320,stderr,received,'Traceback (most recent call last):'
+141320,stderr,received,'  File "display_strings_ordered.py", line 103, in <module>'
+141320,stderr,received,'    keys = exp.keyboard.read_out_buffered_keys()'
+141321,stderr,received,'  File "/usr/local/lib/python2.7/dist-packages/expyriment/io/_keyboard.py", line 122, in read_out_buffered_keys'
+141322,stderr,received,'    Keyboard.process_control_keys(event)'
+141322,stderr,received,'  File "/usr/local/lib/python2.7/dist-packages/expyriment/io/_keyboard.py", line 66, in process_control_keys'
+141322,stderr,received,'    confirm = end_function(confirmation=True)'
+141323,stderr,received,'  File "/usr/local/lib/python2.7/dist-packages/expyriment/control/_experiment_control.py", line 224, in end'
+141323,stderr,received,'    char = Keyboard().wait_char(["y", "n"], check_for_control_keys=False)'
+141323,stderr,received,'  File "/usr/local/lib/python2.7/dist-packages/expyriment/io/_keyboard.py", line 273, in wait_char'
+141323,stderr,received,'    time.sleep(0.0005)'
+141323,stderr,received,'KeyboardInterrupt'

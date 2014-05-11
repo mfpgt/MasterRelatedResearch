@@ -1,0 +1,32 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpd-file
+#date: Fri Mar 14 2014 16:27:20
+#--EXPERIMENT INFO
+#e mainfile: gray_syntmov.py
+#e Experiment: 'First Experiment'
+#e no between subject factors
+#e Block 0: block1
+#e     block factors: 
+#e     n trials: 117
+#e     trial factors:
+#--SUBJECT INFO
+#s id: 5
+subject_id,onset,targetonset,cond,stim,resp
+5,5216,4709,11_Unacc_Decl_NP_Cl1_2Arg_loc,Tu y circules.,0
+5,9241,8735,10_Unacc_Qinv_NP_V_2Arg_loc,Affleure-t-elle là?,0
+5,13978,13472,14_Unacc_Q_NP_Wh_2Arg_loc,Où tu circules?,0
+5,18556,18048,9_Unacc_Qinv_NP_V_Wh_2Arg_loc,Où tombe-t-il?,0
+5,22995,22489,16_Trans_ynQ_2Arg_obj,Elle imite ça?,0
+5,27306,26800,11_Unacc_Decl_NP_Cl1_2Arg_loc,On y séjourne.,0
+5,31933,31426,26_transy_WhQinv_V_Wh_3Arg_obj_loc,Où soumet-elle ça?,0
+5,36383,35871,7_Unacc_Decl_NP_2Arg_loc,Tu survis ici.,0
+5,40784,40278,39_target,Appuyez!,0
+5,45754,45247,22_Trans_whQ_Wh_2Arg_obj,Qui tu trahis?,0
+5,50374,49866,29_transy_Qinv_V_Cl1obj_3Arg_obj_loc,Le presente-t-on ici?,0
+5,54182,53675,18_Trans_whQinv_V_Wh_2Arg_obj,Qui écoute-t-elle?,0
+5,58864,58357,4_Unerg_Decl_1Arg,Il tousse.,0
+5,63266,62759,10_Unacc_Qinv_NP_V_2Arg_loc,Réside-t-elle ici?,0
+5,67980,67474,1_Unacc_Decl_NP_1Arg,Elle bronze.,0
+5,72298,71792,6_Unerg_Qinv_V_1Arg,Bailles-tu?,0
+5,77011,76492,29_transy_Qinv_V_Cl1obj_3Arg_obj_loc,L'envoie-t-elle ici?,0
+5,81798,81282,12_Unacc_ynQ_NP_Cl1_2Arg_loc,Elle y affleure?,0
+5,86410,85904,20_Trans_ynQ_Cl1_2Arg_obj,Elle l'imite?,0

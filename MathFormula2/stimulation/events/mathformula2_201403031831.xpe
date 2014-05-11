@@ -1,0 +1,11 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Mon Mar 03 2014 18:31:19
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-59-generic', '#90-Ubuntu SMP Tue Jan 7 22:43:51 UTC 2014', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+316,stderr,received,'Traceback (most recent call last):'
+316,stderr,received,'  File "mathformula2.py", line 43, in <module>'
+316,stderr,received,"    text_size=32, text_font='Inconsolata', text_bold=True)"
+316,stderr,received,'  File "/usr/local/lib/python2.7/dist-packages/expyriment/stimuli/_textline.py", line 87, in __init__'
+316,stderr,received,'    raise IOError("Font \'{0}\' not found!".format(text_font))'
+316,stderr,received,"IOError: Font 'Inconsolata' not found!"

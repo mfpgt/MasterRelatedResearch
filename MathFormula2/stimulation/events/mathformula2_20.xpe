@@ -1,0 +1,62 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Mon Mar 24 2014 13:35:15
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-60-generic', '#91-Ubuntu SMP Wed Feb 19 03:54:44 UTC 2014', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+8965,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 0,0,5,5
+#design: 0,0,6,6
+#design: 0,0,7,7
+#design: 0,0,8,8
+#design: 0,0,9,9
+#design: 0,0,10,10
+#design: 0,0,11,11
+#design: 0,0,12,12
+#design: 0,0,13,13
+#design: 0,0,14,14
+#design: 0,0,15,15
+#design: 0,0,16,16
+#design: 0,0,17,17
+#design: 0,0,18,18
+#design: 0,0,19,19
+8966,design,logged,
+8966,Experiment,started
+8969,Stimulus,presented,21
+9774,Keyboard,received,s,wait_char
+9775,Stimulus,presented,0
+10276,Stimulus,presented,1
+13517,stdout,received,'[]'
+13517,Stimulus,presented,0
+14019,Stimulus,presented,2
+16498,stdout,received,'[]'
+16498,Stimulus,presented,0
+16999,Stimulus,presented,3
+19849,stdout,received,'[]'
+19850,Stimulus,presented,0
+20351,Stimulus,presented,4
+22906,stdout,received,'[]'
+22906,Stimulus,presented,0
+23407,Stimulus,presented,5
+26707,stdout,received,'[]'
+26707,Stimulus,presented,0
+27209,Stimulus,presented,6
+29680,stdout,received,'[]'
+29680,Stimulus,presented,0
+30181,Stimulus,presented,7
+33137,stdout,received,'[99]'
+33138,Stimulus,presented,0
+33446,stderr,received,'Traceback (most recent call last):'
+33446,stderr,received,'  File "mathformula2.py", line 73, in <module>'
+33446,stderr,received,'    exp.clock.wait(t_fixcross - exp.clock.stopwatch_time)'
+33446,stderr,received,'  File "/usr/local/lib/python2.7/dist-packages/expyriment/misc/_clock.py", line 115, in wait'
+33447,stderr,received,'    while (self.time < start + waiting_time):'
+33447,stderr,received,'  File "/usr/local/lib/python2.7/dist-packages/expyriment/misc/_clock.py", line 67, in time'
+33447,stderr,received,'    return int((self.__cpu_time() - self.__init_time) * 1000)'
+33447,stderr,received,'KeyboardInterrupt'

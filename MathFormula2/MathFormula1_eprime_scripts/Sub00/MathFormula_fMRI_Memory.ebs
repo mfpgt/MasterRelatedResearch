@@ -1,0 +1,2412 @@
+'
+'
+'
+'	D:\Experiences_EPrime\MathFormula\Sub00\MathFormula_fMRI_Memory.ebs
+'	Generated on: 1/8/2010	15:51:37
+'
+'
+'	This file generated with E-Studio interface.
+'	E-Prime Copyright © 2002 Psychology Software Tools.
+'	ALL RIGHTS RESERVED
+'
+'	Legal use of this experiment script requires a full E-Prime or Runtime License.
+'
+'
+'	Author:
+'		  (INSERM U562)
+'
+'
+'
+'
+
+Option CStrings On
+Dim ebContext as Context
+
+
+'--------------------------------------------------------------------------
+' Class Declarations
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+'InitTextDisplayDefaults
+'--------------------------------------------------------------------------
+Sub InitTextDisplayDefaults(theTextDisplay As TextDisplay)
+
+	If theTextDisplay Is Nothing Then Exit Sub
+
+	theTextDisplay.X = "center"
+	theTextDisplay.Y = "center"
+	theTextDisplay.Width = "100%"
+	theTextDisplay.Height = "100%"
+	theTextDisplay.ForeColor = CColor("black")
+	theTextDisplay.BackColor = CColor("white")
+	theTextDisplay.BackStyle = "opaque"
+	theTextDisplay.BorderColor = CColor("black")
+	theTextDisplay.BorderWidth = CLng("0")
+	theTextDisplay.XAlign = "center"
+	theTextDisplay.YAlign = "center"
+	theTextDisplay.AlignHorizontal = "center"
+	theTextDisplay.AlignVertical = "center"
+	theTextDisplay.WordWrap = True
+	theTextDisplay.ClearAfter = CLogical("No")
+	theTextDisplay.FontName = "Courier New"
+	theTextDisplay.FontSize = "18"
+	theTextDisplay.FontBold = CLogical("Yes")
+	theTextDisplay.FontItalic = CLogical("No")
+	theTextDisplay.FontUnderline = CLogical("No")
+	theTextDisplay.FontStrikeout = CLogical("No")
+
+End Sub
+
+
+
+
+
+
+
+'--------------------------------------------------------------------------
+'InitSlideStateDefaults
+'--------------------------------------------------------------------------
+Sub InitSlideStateDefaults(theSlideState As SlideState)
+
+	If theSlideState Is Nothing Then Exit Sub
+
+	theSlideState.X = "center"
+	theSlideState.Y = "center"
+	theSlideState.Width = "100%"
+	theSlideState.Height = "100%"
+	theSlideState.BackColor = CColor("white")
+	theSlideState.BackStyle = "opaque"
+	theSlideState.BorderColor = CColor("black")
+	theSlideState.BorderWidth = CLng("0")
+	theSlideState.XAlign = "center"
+	theSlideState.YAlign = "center"
+	theSlideState.ClearAfter = CLogical("No")
+	theSlideState.Enabled = CLogical("Yes")
+
+End Sub
+
+'--------------------------------------------------------------------------
+'InitSlideVisualStimDefaults
+'--------------------------------------------------------------------------
+Sub InitSlideVisualStimDefaults(theSlideVisualStim As SlideVisualStim)
+
+	If theSlideVisualStim Is Nothing Then Exit Sub
+
+	theSlideVisualStim.X = "center"
+	theSlideVisualStim.Y = "center"
+	theSlideVisualStim.Width = "25%"
+	theSlideVisualStim.Height = "25%"
+	theSlideVisualStim.ForeColor = CColor("black")
+	theSlideVisualStim.BackColor = CColor("white")
+	theSlideVisualStim.BackStyle = "opaque"
+	theSlideVisualStim.BorderColor = CColor("black")
+	theSlideVisualStim.BorderWidth = CLng("0")
+	theSlideVisualStim.XAlign = "center"
+	theSlideVisualStim.YAlign = "center"
+	theSlideVisualStim.AlignHorizontal = "center"
+	theSlideVisualStim.AlignVertical = "center"
+
+End Sub
+
+'--------------------------------------------------------------------------
+'InitSlideTextDefaults
+'--------------------------------------------------------------------------
+Sub InitSlideTextDefaults(theSlideText As SlideText)
+
+	If theSlideText Is Nothing Then Exit Sub
+
+	InitSlideVisualStimDefaults theSlideText
+
+	theSlideText.WordWrap = True
+	theSlideText.FontName = "Courier New"
+	theSlideText.FontSize = "18"
+	theSlideText.FontBold = CLogical("Yes")
+	theSlideText.FontItalic = CLogical("No")
+	theSlideText.FontUnderline = CLogical("No")
+	theSlideText.FontStrikeout = CLogical("No")
+
+End Sub
+
+'--------------------------------------------------------------------------
+'InitSlideImageDefaults
+'--------------------------------------------------------------------------
+Sub InitSlideImageDefaults(theSlideImage As SlideImage)
+
+	If theSlideImage Is Nothing Then Exit Sub
+
+	InitSlideVisualStimDefaults theSlideImage
+
+	theSlideImage.Stretch = CLogical("No")
+	theSlideImage.MirrorLeftRight = CLogical("No")
+	theSlideImage.MirrorUpDown = CLogical("No")
+	theSlideImage.UseSourceColorKey = CLogical("No")
+	theSlideImage.SourceColorKey = CColor("black")
+
+End Sub
+
+'--------------------------------------------------------------------------
+'InitSlideSoundBufferDefaults
+'--------------------------------------------------------------------------
+Sub InitSlideSoundBufferDefaults(theSoundBuffer As SoundBuffer)
+
+	If theSoundBuffer Is Nothing Then Exit Sub
+
+	theSoundBuffer.Loop = CLogical("No")
+	theSoundBuffer.StopAfter = CLogical("Yes")
+	theSoundBuffer.StartOffset = "0"
+	theSoundBuffer.StopOffset = "0"
+
+End Sub
+
+
+
+
+
+
+
+
+
+
+
+'--------------------------------------------------------------------------
+' Instance Declarations
+'--------------------------------------------------------------------------
+Dim Display As DisplayDevice
+Dim Sound As SoundDevice
+Dim Keyboard As KeyboardDevice
+Dim Mouse As MouseDevice
+Dim Port As PortDevice
+Dim Port2 As PortDevice
+Dim SessionProc As Procedure
+
+Dim List1 As List
+
+Dim stimproc As Procedure
+
+Dim Instructions As TextDisplay
+Dim InstructionsEchoClients As EchoClientCollection
+
+Dim FixationBefore As TextDisplay
+
+Dim FixationBtwn As TextDisplay
+
+Dim FeedbackTrial As FeedbackDisplay
+Dim FeedbackTrial_State As SlideState
+Dim FeedbackTrial_SlideText As SlideText
+Dim FeedbackTrial_SlideSoundOut As SlideSoundOut
+Dim FeedbackTrial_SoundBuffer As SoundBuffer
+Dim FeedbackTrial_SoundBufferInfo As SoundBufferInfo
+
+Dim FinishMessage As TextDisplay
+
+Dim WaitTTL As TextDisplay
+Dim WaitTTLEchoClients As EchoClientCollection
+
+Dim FixationAfter As TextDisplay
+Dim FixationAfterEchoClients As EchoClientCollection
+
+Dim TaskExpression As Slide
+Dim TaskExpression_State As SlideState
+Dim TaskExpression_SlideText As SlideText
+
+Dim MemoryExpression As Slide
+Dim MemoryExpression_State As SlideState
+Dim MemoryExpression_SlideText As SlideText
+
+Dim FixationStart As TextDisplay
+
+Dim FixationEnd As TextDisplay
+
+
+
+'--------------------------------------------------------------------------
+' Package Declare Script
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+' User Script
+'--------------------------------------------------------------------------
+Dim ButtonAns, perf, TotalTrial as integer
+Dim sessiondisp as string
+
+
+'--------------------------------------------------------------------------
+' Package Global Script
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+' Package Routines
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+' Implementation
+'--------------------------------------------------------------------------
+Sub SessionProc_Run(c as Context)
+	
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - Initialization BEGIN
+	'''''''''''''''''''''''''''''''''''''''''''''
+	perf = 0
+
+TotalTrial = 0
+
+List1.Filename = "Strings\MathFormula_fMRI_Run" &_
+c.GetAttrib("Session") & ".txt"
+
+c.SetAttrib "sessiondisp", c.GetAttrib("Session")
+
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - Initialization END
+	'''''''''''''''''''''''''''''''''''''''''''''
+	
+	
+	
+	Instructions.InputMasks.Reset
+	
+	InstructionsEchoClients.RemoveAll
+	Instructions.InputMasks.Add Keyboard.CreateInputMask("{ANY}", "", CLng(Instructions.Duration), CLng("1"), ebEndResponseActionTerminate, CLogical("Yes"), "", "", "ResponseMode:All ProcessBackspace:Yes")
+
+	
+	Instructions.Run
+	c.SetAttrib "Instructions.Duration", Instructions.Duration
+	c.SetAttrib "Instructions.FinishTime", Instructions.FinishTime
+	
+	
+	
+	WaitTTL.InputMasks.Reset
+	
+	WaitTTLEchoClients.RemoveAll
+	WaitTTL.InputMasks.Add Keyboard.CreateInputMask("s", "", CLng(WaitTTL.Duration), CLng("1"), ebEndResponseActionTerminate, CLogical("Yes"), "", "", "ResponseMode:All ProcessBackspace:Yes")
+
+	
+	WaitTTLEchoClients.RemoveAll
+	WaitTTL.InputMasks.Add Port.CreateInputMask("{ANY}", "6", CLng(WaitTTL.Duration), CLng("1"), ebEndResponseActionTerminate, CLogical("Yes"), "", "", "")
+
+	
+	WaitTTL.Run
+	c.SetAttrib "WaitTTL.OnsetDelay", WaitTTL.OnsetDelay
+	c.SetAttrib "WaitTTL.OnsetTime", WaitTTL.OnsetTime
+	c.SetAttrib "WaitTTL.DurationError", WaitTTL.DurationError
+	c.SetAttrib "WaitTTL.OffsetTime", WaitTTL.OffsetTime
+	c.SetAttrib "WaitTTL.FinishTime", WaitTTL.FinishTime
+	c.SetAttrib "WaitTTL.OffsetDelay", WaitTTL.OffsetDelay
+	c.SetAttrib "WaitTTL.RTTime", WaitTTL.RTTime
+	c.SetAttrib "WaitTTL.ACC", WaitTTL.ACC
+	c.SetAttrib "WaitTTL.RT", WaitTTL.RT
+	c.SetAttrib "WaitTTL.RESP", WaitTTL.RESP
+	c.SetAttrib "WaitTTL.CRESP", WaitTTL.CRESP
+	
+	
+	FixationStart.Run
+	c.SetAttrib "FixationStart.OnsetDelay", FixationStart.OnsetDelay
+	c.SetAttrib "FixationStart.OnsetTime", FixationStart.OnsetTime
+	c.SetAttrib "FixationStart.Duration", FixationStart.Duration
+	c.SetAttrib "FixationStart.OffsetTime", FixationStart.OffsetTime
+	c.SetAttrib "FixationStart.OffsetDelay", FixationStart.OffsetDelay
+	
+	List1.Run c
+	
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - PeformSummary BEGIN
+	'''''''''''''''''''''''''''''''''''''''''''''
+	perf = perf*100/TotalTrial
+
+c.SetAttrib "Perf" , perf
+
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - PeformSummary END
+	'''''''''''''''''''''''''''''''''''''''''''''
+	
+	
+	FixationEnd.Run
+	c.SetAttrib "FixationEnd.OnsetDelay", FixationEnd.OnsetDelay
+	c.SetAttrib "FixationEnd.OnsetTime", FixationEnd.OnsetTime
+	c.SetAttrib "FixationEnd.Duration", FixationEnd.Duration
+	c.SetAttrib "FixationEnd.OffsetTime", FixationEnd.OffsetTime
+	c.SetAttrib "FixationEnd.OffsetDelay", FixationEnd.OffsetDelay
+	
+	
+	FinishMessage.Text = "La session " &_ 
+				c.GetAttrib("sessiondisp") &_ 
+				"/8 est terminée.\n\nPourcentage de réponses correctes: " &_ 
+				c.GetAttrib("Perf") &_ 
+				"%\n\nRestez bien détendu et ne bougez pas la "
+	FinishMessage.Run
+	c.SetAttrib "Instructions.Duration", Instructions.Duration
+	c.SetAttrib "Instructions.FinishTime", Instructions.FinishTime
+	
+	c.SetAttrib "WaitTTL.OnsetDelay", WaitTTL.OnsetDelay
+	c.SetAttrib "WaitTTL.OnsetTime", WaitTTL.OnsetTime
+	c.SetAttrib "WaitTTL.DurationError", WaitTTL.DurationError
+	c.SetAttrib "WaitTTL.OffsetTime", WaitTTL.OffsetTime
+	c.SetAttrib "WaitTTL.FinishTime", WaitTTL.FinishTime
+	c.SetAttrib "WaitTTL.OffsetDelay", WaitTTL.OffsetDelay
+	c.SetAttrib "WaitTTL.RTTime", WaitTTL.RTTime
+	c.SetAttrib "WaitTTL.ACC", WaitTTL.ACC
+	c.SetAttrib "WaitTTL.RT", WaitTTL.RT
+	c.SetAttrib "WaitTTL.RESP", WaitTTL.RESP
+	c.SetAttrib "WaitTTL.CRESP", WaitTTL.CRESP
+	
+	c.SetAttrib "FixationStart.OnsetDelay", FixationStart.OnsetDelay
+	c.SetAttrib "FixationStart.OnsetTime", FixationStart.OnsetTime
+	c.SetAttrib "FixationStart.Duration", FixationStart.Duration
+	c.SetAttrib "FixationStart.OffsetTime", FixationStart.OffsetTime
+	c.SetAttrib "FixationStart.OffsetDelay", FixationStart.OffsetDelay
+	
+	c.SetAttrib "FixationEnd.OnsetDelay", FixationEnd.OnsetDelay
+	c.SetAttrib "FixationEnd.OnsetTime", FixationEnd.OnsetTime
+	c.SetAttrib "FixationEnd.Duration", FixationEnd.Duration
+	c.SetAttrib "FixationEnd.OffsetTime", FixationEnd.OffsetTime
+	c.SetAttrib "FixationEnd.OffsetDelay", FixationEnd.OffsetDelay
+	
+
+	c.Log
+End Sub
+
+Sub stimproc_Run(c as Context)
+	
+	FixationBefore.Run
+	c.SetAttrib "FixationBefore.OnsetDelay", FixationBefore.OnsetDelay
+	c.SetAttrib "FixationBefore.OnsetTime", FixationBefore.OnsetTime
+	c.SetAttrib "FixationBefore.Duration", FixationBefore.Duration
+	c.SetAttrib "FixationBefore.OffsetTime", FixationBefore.OffsetTime
+	c.SetAttrib "FixationBefore.OffsetDelay", FixationBefore.OffsetDelay
+	
+	
+	
+	Select Case MemoryExpression.ActiveState
+		Case "Default"
+
+
+			Set MemoryExpression_SlideText = CSlideText(MemoryExpression.States.Item("Default").Objects(1))
+			Set MemoryExpression_SlideText = Nothing
+
+			Set MemoryExpression_SlideText = CSlideText(MemoryExpression.States.Item("Default").Objects(2))
+			MemoryExpression_SlideText.Text = c.GetAttrib("MemoryExpression")
+			Set MemoryExpression_SlideText = Nothing
+	End Select
+
+	MemoryExpression.Run
+	
+	c.SetAttrib "MemoryExpression.OnsetDelay", MemoryExpression.OnsetDelay
+	c.SetAttrib "MemoryExpression.OnsetTime", MemoryExpression.OnsetTime
+	c.SetAttrib "MemoryExpression.Duration", MemoryExpression.Duration
+	c.SetAttrib "MemoryExpression.CustomOnsetTime", MemoryExpression.CustomOnsetTime
+	c.SetAttrib "MemoryExpression.CustomOffsetTime", MemoryExpression.CustomOffsetTime
+	
+	
+	FixationBtwn.Run
+	c.SetAttrib "FixationBtwn.OnsetDelay", FixationBtwn.OnsetDelay
+	c.SetAttrib "FixationBtwn.OnsetTime", FixationBtwn.OnsetTime
+	c.SetAttrib "FixationBtwn.Duration", FixationBtwn.Duration
+	c.SetAttrib "FixationBtwn.OffsetTime", FixationBtwn.OffsetTime
+	c.SetAttrib "FixationBtwn.OffsetDelay", FixationBtwn.OffsetDelay
+	
+	
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - CorrectButtonMEG BEGIN
+	'''''''''''''''''''''''''''''''''''''''''''''
+	if c.GetAttrib("TaskAns") = 1 then
+	ButtonAns = 5
+end if
+
+if c.GetAttrib("TaskAns") = 2 then
+	ButtonAns = 4
+end if
+
+c.SetAttrib "ButtonAns" , ButtonAns
+
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - CorrectButtonMEG END
+	'''''''''''''''''''''''''''''''''''''''''''''
+	
+	
+	
+	Select Case TaskExpression.ActiveState
+		Case "Default"
+
+
+			Set TaskExpression_SlideText = CSlideText(TaskExpression.States.Item("Default").Objects(1))
+			TaskExpression_SlideText.Text = c.GetAttrib("TaskExpression")
+			Set TaskExpression_SlideText = Nothing
+	End Select
+
+	TaskExpression.Run
+	
+	c.SetAttrib "TaskExpression.OnsetDelay", TaskExpression.OnsetDelay
+	c.SetAttrib "TaskExpression.OnsetTime", TaskExpression.OnsetTime
+	c.SetAttrib "TaskExpression.DurationError", TaskExpression.DurationError
+	c.SetAttrib "TaskExpression.OffsetTime", TaskExpression.OffsetTime
+	c.SetAttrib "TaskExpression.OffsetDelay", TaskExpression.OffsetDelay
+	c.SetAttrib "TaskExpression.RTTime", TaskExpression.RTTime
+	c.SetAttrib "TaskExpression.ACC", TaskExpression.ACC
+	c.SetAttrib "TaskExpression.RT", TaskExpression.RT
+	c.SetAttrib "TaskExpression.RESP", TaskExpression.RESP
+	c.SetAttrib "TaskExpression.CRESP", TaskExpression.CRESP
+	
+	
+	
+	FixationAfter.InputMasks.Reset
+	
+	FixationAfterEchoClients.RemoveAll
+	FixationAfter.InputMasks.Add Port.CreateInputMask("45", c.GetAttrib("ButtonAns"), CLng(FixationAfter.Duration), CLng("1"), ebEndResponseActionNone, CLogical("Yes"), "", "", "")
+
+	
+	FixationAfterEchoClients.RemoveAll
+	FixationAfter.InputMasks.Add Mouse.CreateInputMask("12", c.GetAttrib("TaskAns"), CLng(FixationAfter.Duration), CLng("1"), ebEndResponseActionNone, CLogical("Yes"), "", "", "")
+
+	
+	FixationAfter.Run
+	c.SetAttrib "FixationAfter.OnsetDelay", FixationAfter.OnsetDelay
+	c.SetAttrib "FixationAfter.OnsetTime", FixationAfter.OnsetTime
+	c.SetAttrib "FixationAfter.DurationError", FixationAfter.DurationError
+	c.SetAttrib "FixationAfter.Duration", FixationAfter.Duration
+	c.SetAttrib "FixationAfter.OffsetTime", FixationAfter.OffsetTime
+	c.SetAttrib "FixationAfter.OffsetDelay", FixationAfter.OffsetDelay
+	c.SetAttrib "FixationAfter.RTTime", FixationAfter.RTTime
+	c.SetAttrib "FixationAfter.ACC", FixationAfter.ACC
+	c.SetAttrib "FixationAfter.RT", FixationAfter.RT
+	c.SetAttrib "FixationAfter.RESP", FixationAfter.RESP
+	c.SetAttrib "FixationAfter.CRESP", FixationAfter.CRESP
+	
+	
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - PerformInteg BEGIN
+	'''''''''''''''''''''''''''''''''''''''''''''
+	if FixationAfter.RESP = c.GetAttrib("TaskAns") then
+c.SetAttrib "Objperformance", 1
+elseif FixationAfter.RESP = ButtonAns then
+c.SetAttrib "Objperformance", 1
+else
+c.SetAttrib "Objperformance", 0
+End if
+
+perf = perf + c.GetAttrib("Objperformance")
+TotalTrial = TotalTrial + 1
+
+c.SetAttrib "Perf" , perf
+c.SetAttrib "TotalTrial" , TotalTrial
+
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - PerformInteg END
+	'''''''''''''''''''''''''''''''''''''''''''''
+	
+	
+	
+	If FixationAfter.ACC = 1 Then
+		'Set the ActiveState to Correct
+		FeedbackTrial.ActiveState = "Correct"
+
+		'Add an observation to the accuracy stats
+		FeedbackTrial.AccStats.AddObservation FixationAfter.Acc
+
+		'Add an observation to the response time stats
+		' unless the user did not respond and the author
+		' does not want us to add the no response RT
+		If Len(FixationAfter.RESP) > 0 Then
+			FeedbackTrial.RTStats.AddObservation FixationAfter.RT
+			FeedbackTrial.CorrectRTStats.AddObservation FixationAfter.RT
+		End If
+	Else
+		'Is it incorrect or no response?
+		If Len(FixationAfter.RESP) > 0 Then
+			'Set the ActiveState to Incorrect
+			FeedbackTrial.ActiveState = "Incorrect"
+
+			'Set the accuracy stats
+			FeedbackTrial.AccStats.AddObservation FixationAfter.Acc
+
+			'Set the RT stats
+			FeedbackTrial.RTStats.AddObservation FixationAfter.RT
+			FeedbackTrial.IncorrectRTStats.AddObservation FixationAfter.RT
+		Else
+			'Set the ActiveState to NoResponse
+			FeedbackTrial.ActiveState = "NoResponse"
+
+			'Does the author want to consider a NoResponse
+			' to sum as an incorrect response in the ACC stats?
+			If FeedbackTrial.CollectNoRespACCStats = True Then
+				FeedbackTrial.AccStats.AddObservation FixationAfter.Acc
+			End If
+		End If
+	End If
+
+	Select Case FeedbackTrial.ActiveState
+		Case "Correct"
+
+
+			Set FeedbackTrial_SlideText = CSlideText(FeedbackTrial.States.Item("Correct").Objects(1))
+			Set FeedbackTrial_SlideText = Nothing
+
+			Set FeedbackTrial_SlideSoundOut = CSlideSoundOut(FeedbackTrial.States.Item("Correct").Objects(2))
+			Set FeedbackTrial_SoundBuffer = FeedbackTrial_SlideSoundOut.Buffers(1)
+			Set FeedbackTrial_SoundBuffer = Nothing
+			Set FeedbackTrial_SlideSoundOut = Nothing
+		Case "Incorrect"
+
+
+			Set FeedbackTrial_SlideText = CSlideText(FeedbackTrial.States.Item("Incorrect").Objects(1))
+			Set FeedbackTrial_SlideText = Nothing
+
+			Set FeedbackTrial_SlideSoundOut = CSlideSoundOut(FeedbackTrial.States.Item("Incorrect").Objects(2))
+			Set FeedbackTrial_SoundBuffer = FeedbackTrial_SlideSoundOut.Buffers(1)
+			Set FeedbackTrial_SoundBuffer = Nothing
+			Set FeedbackTrial_SlideSoundOut = Nothing
+		Case "NoResponse"
+
+
+			Set FeedbackTrial_SlideText = CSlideText(FeedbackTrial.States.Item("NoResponse").Objects(1))
+			Set FeedbackTrial_SlideText = Nothing
+
+			Set FeedbackTrial_SlideSoundOut = CSlideSoundOut(FeedbackTrial.States.Item("NoResponse").Objects(2))
+			Set FeedbackTrial_SoundBuffer = FeedbackTrial_SlideSoundOut.Buffers(1)
+			Set FeedbackTrial_SoundBuffer = Nothing
+			Set FeedbackTrial_SlideSoundOut = Nothing
+		Case "Pending"
+
+	End Select
+
+	FeedbackTrial.Duration = CLng(c.GetAttrib("RandPeriod"))
+	
+
+	FeedbackTrial.Run
+
+	
+	c.SetAttrib "FeedbackTrial.OnsetDelay", FeedbackTrial.OnsetDelay
+	c.SetAttrib "FeedbackTrial.OnsetTime", FeedbackTrial.OnsetTime
+	c.SetAttrib "FeedbackTrial.Duration", FeedbackTrial.Duration
+	c.SetAttrib "FeedbackTrial.OffsetTime", FeedbackTrial.OffsetTime
+	c.SetAttrib "FeedbackTrial.OffsetDelay", FeedbackTrial.OffsetDelay
+	
+	c.SetAttrib "FixationBefore.OnsetDelay", FixationBefore.OnsetDelay
+	c.SetAttrib "FixationBefore.OnsetTime", FixationBefore.OnsetTime
+	c.SetAttrib "FixationBefore.Duration", FixationBefore.Duration
+	c.SetAttrib "FixationBefore.OffsetTime", FixationBefore.OffsetTime
+	c.SetAttrib "FixationBefore.OffsetDelay", FixationBefore.OffsetDelay
+	
+	c.SetAttrib "MemoryExpression.OnsetDelay", MemoryExpression.OnsetDelay
+	c.SetAttrib "MemoryExpression.OnsetTime", MemoryExpression.OnsetTime
+	c.SetAttrib "MemoryExpression.Duration", MemoryExpression.Duration
+	c.SetAttrib "MemoryExpression.CustomOnsetTime", MemoryExpression.CustomOnsetTime
+	c.SetAttrib "MemoryExpression.CustomOffsetTime", MemoryExpression.CustomOffsetTime
+	
+	c.SetAttrib "FixationBtwn.OnsetDelay", FixationBtwn.OnsetDelay
+	c.SetAttrib "FixationBtwn.OnsetTime", FixationBtwn.OnsetTime
+	c.SetAttrib "FixationBtwn.Duration", FixationBtwn.Duration
+	c.SetAttrib "FixationBtwn.OffsetTime", FixationBtwn.OffsetTime
+	c.SetAttrib "FixationBtwn.OffsetDelay", FixationBtwn.OffsetDelay
+	
+	c.SetAttrib "TaskExpression.OnsetDelay", TaskExpression.OnsetDelay
+	c.SetAttrib "TaskExpression.OnsetTime", TaskExpression.OnsetTime
+	c.SetAttrib "TaskExpression.DurationError", TaskExpression.DurationError
+	c.SetAttrib "TaskExpression.OffsetTime", TaskExpression.OffsetTime
+	c.SetAttrib "TaskExpression.OffsetDelay", TaskExpression.OffsetDelay
+	c.SetAttrib "TaskExpression.RTTime", TaskExpression.RTTime
+	c.SetAttrib "TaskExpression.ACC", TaskExpression.ACC
+	c.SetAttrib "TaskExpression.RT", TaskExpression.RT
+	c.SetAttrib "TaskExpression.RESP", TaskExpression.RESP
+	c.SetAttrib "TaskExpression.CRESP", TaskExpression.CRESP
+	
+	c.SetAttrib "FixationAfter.OnsetDelay", FixationAfter.OnsetDelay
+	c.SetAttrib "FixationAfter.OnsetTime", FixationAfter.OnsetTime
+	c.SetAttrib "FixationAfter.DurationError", FixationAfter.DurationError
+	c.SetAttrib "FixationAfter.Duration", FixationAfter.Duration
+	c.SetAttrib "FixationAfter.OffsetTime", FixationAfter.OffsetTime
+	c.SetAttrib "FixationAfter.OffsetDelay", FixationAfter.OffsetDelay
+	c.SetAttrib "FixationAfter.RTTime", FixationAfter.RTTime
+	c.SetAttrib "FixationAfter.ACC", FixationAfter.ACC
+	c.SetAttrib "FixationAfter.RT", FixationAfter.RT
+	c.SetAttrib "FixationAfter.RESP", FixationAfter.RESP
+	c.SetAttrib "FixationAfter.CRESP", FixationAfter.CRESP
+	
+	c.SetAttrib "FeedbackTrial.OnsetDelay", FeedbackTrial.OnsetDelay
+	c.SetAttrib "FeedbackTrial.OnsetTime", FeedbackTrial.OnsetTime
+	c.SetAttrib "FeedbackTrial.Duration", FeedbackTrial.Duration
+	c.SetAttrib "FeedbackTrial.OffsetTime", FeedbackTrial.OffsetTime
+	c.SetAttrib "FeedbackTrial.OffsetDelay", FeedbackTrial.OffsetDelay
+	
+
+	c.Log
+End Sub
+
+
+
+
+
+
+
+
+
+'--------------------------------------------------------------------------
+' InitDevices
+'
+'--------------------------------------------------------------------------
+Sub InitDevices(c As Context)
+
+
+
+	SetOSThreadPriority 3
+
+
+	Set Display = New DisplayDevice
+	Display.Name = "Display"
+
+	Dim DisplayDisplayDeviceInfo As DisplayDeviceInfo
+	DisplayDisplayDeviceInfo.XRes = 1024
+	DisplayDisplayDeviceInfo.YRes = 768
+	DisplayDisplayDeviceInfo.ColorDepth = 16
+	DisplayDisplayDeviceInfo.RefreshRate = 0
+	DisplayDisplayDeviceInfo.NumPages = 0
+
+	Display.Open DisplayDisplayDeviceInfo
+	c.SetAttrib "Display.RefreshRate", Format$(Display.CalculatedRefreshRate, "0.000")
+
+	Set Sound = New SoundDevice
+	Sound.Name = "Sound"
+
+	Dim SoundSoundOutDeviceInfo As SoundDeviceInfo
+	SoundSoundOutDeviceInfo.Channels = 2
+	SoundSoundOutDeviceInfo.SamplesPerSecond = 44100
+	SoundSoundOutDeviceInfo.BitsPerSample = 16
+	Sound.Open SoundSoundOutDeviceInfo
+
+	Set Keyboard = New KeyboardDevice
+	Keyboard.Name = "Keyboard"
+
+	Dim KeyboardKeyboardDeviceInfo as KeyboardDeviceInfo
+	KeyboardKeyboardDeviceInfo.CollectionMode = ebPressesOnly
+	KeyboardKeyboardDeviceInfo.CapsLock = ebCapsLockOff
+	KeyboardKeyboardDeviceInfo.NumLock = ebNumLockOn
+	Keyboard.Open KeyboardKeyboardDeviceInfo
+	
+	Set Mouse = New MouseDevice
+	Mouse.Name = "Mouse"
+
+	Dim MouseMouseDeviceInfo as MouseDeviceInfo
+	MouseMouseDeviceInfo.OpenMode = ebMouseOpenModeDirect
+	MouseMouseDeviceInfo.CollectionMode = ebPressesOnly
+	MouseMouseDeviceInfo.ShowCursor = False
+	Mouse.Open MouseMouseDeviceInfo
+
+	Set Port = New PortDevice
+	Port.Name = "Port"
+	Dim PortPortDeviceInfo As PortDeviceInfo
+	PortPortDeviceInfo.CollectionMode = ebPressesOnly
+	PortPortDeviceInfo.Address = &HE801
+	PortPortDeviceInfo.Size = 8
+	PortPortDeviceInfo.Invert = CLogical("No")
+	PortPortDeviceInfo.Mask = -1
+	Port.Open PortPortDeviceInfo
+
+	Set Port2 = New PortDevice
+	Port2.Name = "Port2"
+
+
+	SetOSThreadPriority 0
+
+End Sub
+
+
+
+'--------------------------------------------------------------------------
+' InitObjects
+'
+'--------------------------------------------------------------------------
+Sub InitObjects(c As Context)
+
+	Set SessionProc = New Procedure
+	SessionProc.Name = "SessionProc"
+	SessionProc.Tag = ""
+	SessionProc.Subroutine = "SessionProc_Run"
+
+	Set List1 = New List
+	List1.Name = "List1"
+	List1.Tag = ""
+
+	'Initialization for List1
+	
+	Set List1.Order = New RandomOrder
+	Set List1.Deletion = NoDeletion
+	List1.ResetEveryRun = False
+
+	' Create the column headings
+	List1.AddAttrib "Level"
+	List1.AddAttrib "BranchSide"
+	List1.AddAttrib "MemoryExpression"
+	List1.AddAttrib "TaskExpression"
+	List1.AddAttrib "TaskAns"
+	List1.AddAttrib "DiffPosi1"
+	List1.AddAttrib "WithinCorrect1"
+	List1.AddAttrib "DiffPosi2"
+	List1.AddAttrib "WithinCorrect2"
+	List1.AddAttrib "ExchSymb"
+	List1.AddAttrib "Trigger"
+	List1.AddAttrib "RandPeriod"
+
+
+	' Add the Levels and fill their values
+	List1.AddLevel "1"
+	List1.SetWeight "1", "1"
+	List1.SetProc "1", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "1", "Level", "0"
+	List1.SetAttrib "1", "BranchSide", "B"
+	List1.SetAttrib "1", "MemoryExpression", "2+)3)-(+4(1"
+	List1.SetAttrib "1", "TaskExpression", "2+)4)-(+3(1"
+	List1.SetAttrib "1", "TaskAns", "1"
+	List1.SetAttrib "1", "DiffPosi1", "4"
+	List1.SetAttrib "1", "WithinCorrect1", "0"
+	List1.SetAttrib "1", "DiffPosi2", "9"
+	List1.SetAttrib "1", "WithinCorrect2", "0"
+	List1.SetAttrib "1", "ExchSymb", "1"
+	List1.SetAttrib "1", "Trigger", "1"
+	List1.SetAttrib "1", "RandPeriod", "4238"
+	List1.AddLevel "2"
+	List1.SetWeight "2", "1"
+	List1.SetProc "2", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "2", "Level", "1"
+	List1.SetAttrib "2", "BranchSide", "R"
+	List1.SetAttrib "2", "MemoryExpression", "-(2+))3+4(1"
+	List1.SetAttrib "2", "TaskExpression", "-(2+))3+1(4"
+	List1.SetAttrib "2", "TaskAns", "1"
+	List1.SetAttrib "2", "DiffPosi1", "9"
+	List1.SetAttrib "2", "WithinCorrect1", "1"
+	List1.SetAttrib "2", "DiffPosi2", "11"
+	List1.SetAttrib "2", "WithinCorrect2", "0"
+	List1.SetAttrib "2", "ExchSymb", "1"
+	List1.SetAttrib "2", "Trigger", "3"
+	List1.SetAttrib "2", "RandPeriod", "3714"
+	List1.AddLevel "3"
+	List1.SetWeight "3", "1"
+	List1.SetProc "3", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "3", "Level", "2"
+	List1.SetAttrib "3", "BranchSide", "R"
+	List1.SetAttrib "3", "MemoryExpression", "-1)2+(3+4)("
+	List1.SetAttrib "3", "TaskExpression", "-1)4+(3+2)("
+	List1.SetAttrib "3", "TaskAns", "1"
+	List1.SetAttrib "3", "DiffPosi1", "4"
+	List1.SetAttrib "3", "WithinCorrect1", "1"
+	List1.SetAttrib "3", "DiffPosi2", "9"
+	List1.SetAttrib "3", "WithinCorrect2", "1"
+	List1.SetAttrib "3", "ExchSymb", "1"
+	List1.SetAttrib "3", "Trigger", "5"
+	List1.SetAttrib "3", "RandPeriod", "3810"
+	List1.AddLevel "4"
+	List1.SetWeight "4", "1"
+	List1.SetProc "4", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "4", "Level", "3"
+	List1.SetAttrib "4", "BranchSide", "R"
+	List1.SetAttrib "4", "MemoryExpression", "1-(2+(3+4))"
+	List1.SetAttrib "4", "TaskExpression", "4-(2+(3+1))"
+	List1.SetAttrib "4", "TaskAns", "1"
+	List1.SetAttrib "4", "DiffPosi1", "1"
+	List1.SetAttrib "4", "WithinCorrect1", "1"
+	List1.SetAttrib "4", "DiffPosi2", "9"
+	List1.SetAttrib "4", "WithinCorrect2", "1"
+	List1.SetAttrib "4", "ExchSymb", "1"
+	List1.SetAttrib "4", "Trigger", "7"
+	List1.SetAttrib "4", "RandPeriod", "3048"
+	List1.AddLevel "5"
+	List1.SetWeight "5", "1"
+	List1.SetProc "5", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "5", "Level", "0"
+	List1.SetAttrib "5", "BranchSide", "B"
+	List1.SetAttrib "5", "MemoryExpression", ")2)3(4(+-1+"
+	List1.SetAttrib "5", "TaskExpression", ")2)3(1(+-4+"
+	List1.SetAttrib "5", "TaskAns", "1"
+	List1.SetAttrib "5", "DiffPosi1", "6"
+	List1.SetAttrib "5", "WithinCorrect1", "0"
+	List1.SetAttrib "5", "DiffPosi2", "10"
+	List1.SetAttrib "5", "WithinCorrect2", "0"
+	List1.SetAttrib "5", "ExchSymb", "1"
+	List1.SetAttrib "5", "Trigger", "1"
+	List1.SetAttrib "5", "RandPeriod", "4143"
+	List1.AddLevel "6"
+	List1.SetWeight "6", "1"
+	List1.SetProc "6", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "6", "Level", "1"
+	List1.SetAttrib "6", "BranchSide", "L"
+	List1.SetAttrib "6", "MemoryExpression", "1)2+3(+)4-("
+	List1.SetAttrib "6", "TaskExpression", "1)4+3(+)2-("
+	List1.SetAttrib "6", "TaskAns", "1"
+	List1.SetAttrib "6", "DiffPosi1", "3"
+	List1.SetAttrib "6", "WithinCorrect1", "1"
+	List1.SetAttrib "6", "DiffPosi2", "9"
+	List1.SetAttrib "6", "WithinCorrect2", "0"
+	List1.SetAttrib "6", "ExchSymb", "1"
+	List1.SetAttrib "6", "Trigger", "2"
+	List1.SetAttrib "6", "RandPeriod", "4190"
+	List1.AddLevel "7"
+	List1.SetWeight "7", "1"
+	List1.SetProc "7", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "7", "Level", "2"
+	List1.SetAttrib "7", "BranchSide", "L"
+	List1.SetAttrib "7", "MemoryExpression", ")(2+3)-1(+4"
+	List1.SetAttrib "7", "TaskExpression", ")(2+1)-3(+4"
+	List1.SetAttrib "7", "TaskAns", "1"
+	List1.SetAttrib "7", "DiffPosi1", "5"
+	List1.SetAttrib "7", "WithinCorrect1", "1"
+	List1.SetAttrib "7", "DiffPosi2", "8"
+	List1.SetAttrib "7", "WithinCorrect2", "1"
+	List1.SetAttrib "7", "ExchSymb", "1"
+	List1.SetAttrib "7", "Trigger", "4"
+	List1.SetAttrib "7", "RandPeriod", "4571"
+	List1.AddLevel "8"
+	List1.SetWeight "8", "1"
+	List1.SetProc "8", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "8", "Level", "3"
+	List1.SetAttrib "8", "BranchSide", "L"
+	List1.SetAttrib "8", "MemoryExpression", "((2+3)-1)+4"
+	List1.SetAttrib "8", "TaskExpression", "((2+4)-1)+3"
+	List1.SetAttrib "8", "TaskAns", "1"
+	List1.SetAttrib "8", "DiffPosi1", "5"
+	List1.SetAttrib "8", "WithinCorrect1", "1"
+	List1.SetAttrib "8", "DiffPosi2", "11"
+	List1.SetAttrib "8", "WithinCorrect2", "1"
+	List1.SetAttrib "8", "ExchSymb", "1"
+	List1.SetAttrib "8", "Trigger", "6"
+	List1.SetAttrib "8", "RandPeriod", "4524"
+	List1.AddLevel "9"
+	List1.SetWeight "9", "1"
+	List1.SetProc "9", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "9", "Level", "0"
+	List1.SetAttrib "9", "BranchSide", "B"
+	List1.SetAttrib "9", "MemoryExpression", "2+-3))+4((1"
+	List1.SetAttrib "9", "TaskExpression", "3+-2))+4((1"
+	List1.SetAttrib "9", "TaskAns", "1"
+	List1.SetAttrib "9", "DiffPosi1", "1"
+	List1.SetAttrib "9", "WithinCorrect1", "0"
+	List1.SetAttrib "9", "DiffPosi2", "4"
+	List1.SetAttrib "9", "WithinCorrect2", "0"
+	List1.SetAttrib "9", "ExchSymb", "1"
+	List1.SetAttrib "9", "Trigger", "1"
+	List1.SetAttrib "9", "RandPeriod", "2571"
+	List1.AddLevel "10"
+	List1.SetWeight "10", "1"
+	List1.SetProc "10", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "10", "Level", "1"
+	List1.SetAttrib "10", "BranchSide", "L"
+	List1.SetAttrib "10", "MemoryExpression", "3)1+4()2(+-"
+	List1.SetAttrib "10", "TaskExpression", "3)2+4()1(+-"
+	List1.SetAttrib "10", "TaskAns", "1"
+	List1.SetAttrib "10", "DiffPosi1", "3"
+	List1.SetAttrib "10", "WithinCorrect1", "1"
+	List1.SetAttrib "10", "DiffPosi2", "8"
+	List1.SetAttrib "10", "WithinCorrect2", "0"
+	List1.SetAttrib "10", "ExchSymb", "1"
+	List1.SetAttrib "10", "Trigger", "2"
+	List1.SetAttrib "10", "RandPeriod", "4714"
+	List1.AddLevel "11"
+	List1.SetWeight "11", "1"
+	List1.SetProc "11", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "11", "Level", "2"
+	List1.SetAttrib "11", "BranchSide", "L"
+	List1.SetAttrib "11", "MemoryExpression", ")(1+4)-2(+3"
+	List1.SetAttrib "11", "TaskExpression", ")(2+4)-1(+3"
+	List1.SetAttrib "11", "TaskAns", "1"
+	List1.SetAttrib "11", "DiffPosi1", "3"
+	List1.SetAttrib "11", "WithinCorrect1", "1"
+	List1.SetAttrib "11", "DiffPosi2", "8"
+	List1.SetAttrib "11", "WithinCorrect2", "1"
+	List1.SetAttrib "11", "ExchSymb", "1"
+	List1.SetAttrib "11", "Trigger", "4"
+	List1.SetAttrib "11", "RandPeriod", "4857"
+	List1.AddLevel "12"
+	List1.SetWeight "12", "1"
+	List1.SetProc "12", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "12", "Level", "3"
+	List1.SetAttrib "12", "BranchSide", "L"
+	List1.SetAttrib "12", "MemoryExpression", "((1+4)-2)+3"
+	List1.SetAttrib "12", "TaskExpression", "((1+4)-3)+2"
+	List1.SetAttrib "12", "TaskAns", "1"
+	List1.SetAttrib "12", "DiffPosi1", "8"
+	List1.SetAttrib "12", "WithinCorrect1", "1"
+	List1.SetAttrib "12", "DiffPosi2", "11"
+	List1.SetAttrib "12", "WithinCorrect2", "1"
+	List1.SetAttrib "12", "ExchSymb", "1"
+	List1.SetAttrib "12", "Trigger", "6"
+	List1.SetAttrib "12", "RandPeriod", "4381"
+	List1.AddLevel "13"
+	List1.SetWeight "13", "1"
+	List1.SetProc "13", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "13", "Level", "0"
+	List1.SetAttrib "13", "BranchSide", "B"
+	List1.SetAttrib "13", "MemoryExpression", "3(-)2+)+4(1"
+	List1.SetAttrib "13", "TaskExpression", "3(-)2+)+1(4"
+	List1.SetAttrib "13", "TaskAns", "1"
+	List1.SetAttrib "13", "DiffPosi1", "9"
+	List1.SetAttrib "13", "WithinCorrect1", "0"
+	List1.SetAttrib "13", "DiffPosi2", "11"
+	List1.SetAttrib "13", "WithinCorrect2", "0"
+	List1.SetAttrib "13", "ExchSymb", "1"
+	List1.SetAttrib "13", "Trigger", "1"
+	List1.SetAttrib "13", "RandPeriod", "3286"
+	List1.AddLevel "14"
+	List1.SetWeight "14", "1"
+	List1.SetProc "14", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "14", "Level", "1"
+	List1.SetAttrib "14", "BranchSide", "R"
+	List1.SetAttrib "14", "MemoryExpression", "2-+)()3+1(4"
+	List1.SetAttrib "14", "TaskExpression", "2-+)()4+1(3"
+	List1.SetAttrib "14", "TaskAns", "1"
+	List1.SetAttrib "14", "DiffPosi1", "7"
+	List1.SetAttrib "14", "WithinCorrect1", "1"
+	List1.SetAttrib "14", "DiffPosi2", "11"
+	List1.SetAttrib "14", "WithinCorrect2", "0"
+	List1.SetAttrib "14", "ExchSymb", "1"
+	List1.SetAttrib "14", "Trigger", "3"
+	List1.SetAttrib "14", "RandPeriod", "2381"
+	List1.AddLevel "15"
+	List1.SetWeight "15", "1"
+	List1.SetProc "15", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "15", "Level", "2"
+	List1.SetAttrib "15", "BranchSide", "R"
+	List1.SetAttrib "15", "MemoryExpression", "2-)4+(3+1)("
+	List1.SetAttrib "15", "TaskExpression", "3-)4+(2+1)("
+	List1.SetAttrib "15", "TaskAns", "1"
+	List1.SetAttrib "15", "DiffPosi1", "1"
+	List1.SetAttrib "15", "WithinCorrect1", "0"
+	List1.SetAttrib "15", "DiffPosi2", "7"
+	List1.SetAttrib "15", "WithinCorrect2", "1"
+	List1.SetAttrib "15", "ExchSymb", "1"
+	List1.SetAttrib "15", "Trigger", "5"
+	List1.SetAttrib "15", "RandPeriod", "2333"
+	List1.AddLevel "16"
+	List1.SetWeight "16", "1"
+	List1.SetProc "16", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "16", "Level", "3"
+	List1.SetAttrib "16", "BranchSide", "R"
+	List1.SetAttrib "16", "MemoryExpression", "2-(4+(3+1))"
+	List1.SetAttrib "16", "TaskExpression", "2-(3+(4+1))"
+	List1.SetAttrib "16", "TaskAns", "1"
+	List1.SetAttrib "16", "DiffPosi1", "4"
+	List1.SetAttrib "16", "WithinCorrect1", "1"
+	List1.SetAttrib "16", "DiffPosi2", "7"
+	List1.SetAttrib "16", "WithinCorrect2", "1"
+	List1.SetAttrib "16", "ExchSymb", "1"
+	List1.SetAttrib "16", "Trigger", "7"
+	List1.SetAttrib "16", "RandPeriod", "3381"
+	List1.AddLevel "17"
+	List1.SetWeight "17", "1"
+	List1.SetProc "17", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "17", "Level", "0"
+	List1.SetAttrib "17", "BranchSide", "B"
+	List1.SetAttrib "17", "MemoryExpression", "+))4(3-+1(2"
+	List1.SetAttrib "17", "TaskExpression", "-))4(3++1(2"
+	List1.SetAttrib "17", "TaskAns", "1"
+	List1.SetAttrib "17", "DiffPosi1", "7"
+	List1.SetAttrib "17", "WithinCorrect1", "0"
+	List1.SetAttrib "17", "DiffPosi2", "1"
+	List1.SetAttrib "17", "WithinCorrect2", "0"
+	List1.SetAttrib "17", "ExchSymb", "2"
+	List1.SetAttrib "17", "Trigger", "1"
+	List1.SetAttrib "17", "RandPeriod", "4619"
+	List1.AddLevel "18"
+	List1.SetWeight "18", "1"
+	List1.SetProc "18", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "18", "Level", "1"
+	List1.SetAttrib "18", "BranchSide", "L"
+	List1.SetAttrib "18", "MemoryExpression", "))2-3(1+(4+"
+	List1.SetAttrib "18", "TaskExpression", "))2+3(1-(4+"
+	List1.SetAttrib "18", "TaskAns", "1"
+	List1.SetAttrib "18", "DiffPosi1", "4"
+	List1.SetAttrib "18", "WithinCorrect1", "1"
+	List1.SetAttrib "18", "DiffPosi2", "8"
+	List1.SetAttrib "18", "WithinCorrect2", "0"
+	List1.SetAttrib "18", "ExchSymb", "2"
+	List1.SetAttrib "18", "Trigger", "2"
+	List1.SetAttrib "18", "RandPeriod", "2476"
+	List1.AddLevel "19"
+	List1.SetWeight "19", "1"
+	List1.SetProc "19", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "19", "Level", "2"
+	List1.SetAttrib "19", "BranchSide", "L"
+	List1.SetAttrib "19", "MemoryExpression", ")(2-3)+4(+1"
+	List1.SetAttrib "19", "TaskExpression", ")(2+3)+4(-1"
+	List1.SetAttrib "19", "TaskAns", "1"
+	List1.SetAttrib "19", "DiffPosi1", "4"
+	List1.SetAttrib "19", "WithinCorrect1", "1"
+	List1.SetAttrib "19", "DiffPosi2", "10"
+	List1.SetAttrib "19", "WithinCorrect2", "0"
+	List1.SetAttrib "19", "ExchSymb", "2"
+	List1.SetAttrib "19", "Trigger", "4"
+	List1.SetAttrib "19", "RandPeriod", "2429"
+	List1.AddLevel "20"
+	List1.SetWeight "20", "1"
+	List1.SetProc "20", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "20", "Level", "3"
+	List1.SetAttrib "20", "BranchSide", "L"
+	List1.SetAttrib "20", "MemoryExpression", "((2-3)+4)+1"
+	List1.SetAttrib "20", "TaskExpression", "((2+3)+4)-1"
+	List1.SetAttrib "20", "TaskAns", "1"
+	List1.SetAttrib "20", "DiffPosi1", "4"
+	List1.SetAttrib "20", "WithinCorrect1", "1"
+	List1.SetAttrib "20", "DiffPosi2", "10"
+	List1.SetAttrib "20", "WithinCorrect2", "1"
+	List1.SetAttrib "20", "ExchSymb", "2"
+	List1.SetAttrib "20", "Trigger", "6"
+	List1.SetAttrib "20", "RandPeriod", "4762"
+	List1.AddLevel "21"
+	List1.SetWeight "21", "1"
+	List1.SetProc "21", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "21", "Level", "0"
+	List1.SetAttrib "21", "BranchSide", "B"
+	List1.SetAttrib "21", "MemoryExpression", "3)2(-+4+)(1"
+	List1.SetAttrib "21", "TaskExpression", "3)2(+-4+)(1"
+	List1.SetAttrib "21", "TaskAns", "1"
+	List1.SetAttrib "21", "DiffPosi1", "5"
+	List1.SetAttrib "21", "WithinCorrect1", "0"
+	List1.SetAttrib "21", "DiffPosi2", "6"
+	List1.SetAttrib "21", "WithinCorrect2", "0"
+	List1.SetAttrib "21", "ExchSymb", "2"
+	List1.SetAttrib "21", "Trigger", "1"
+	List1.SetAttrib "21", "RandPeriod", "4810"
+	List1.AddLevel "22"
+	List1.SetWeight "22", "1"
+	List1.SetProc "22", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "22", "Level", "1"
+	List1.SetAttrib "22", "BranchSide", "R"
+	List1.SetAttrib "22", "MemoryExpression", "(1-+3)2+4()"
+	List1.SetAttrib "22", "TaskExpression", "(1+-3)2+4()"
+	List1.SetAttrib "22", "TaskAns", "1"
+	List1.SetAttrib "22", "DiffPosi1", "3"
+	List1.SetAttrib "22", "WithinCorrect1", "0"
+	List1.SetAttrib "22", "DiffPosi2", "4"
+	List1.SetAttrib "22", "WithinCorrect2", "0"
+	List1.SetAttrib "22", "ExchSymb", "2"
+	List1.SetAttrib "22", "Trigger", "3"
+	List1.SetAttrib "22", "RandPeriod", "4000"
+	List1.AddLevel "23"
+	List1.SetWeight "23", "1"
+	List1.SetProc "23", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "23", "Level", "2"
+	List1.SetAttrib "23", "BranchSide", "R"
+	List1.SetAttrib "23", "MemoryExpression", "-1)3+(2+4)("
+	List1.SetAttrib "23", "TaskExpression", "+1)3-(2+4)("
+	List1.SetAttrib "23", "TaskAns", "1"
+	List1.SetAttrib "23", "DiffPosi1", "1"
+	List1.SetAttrib "23", "WithinCorrect1", "0"
+	List1.SetAttrib "23", "DiffPosi2", "5"
+	List1.SetAttrib "23", "WithinCorrect2", "1"
+	List1.SetAttrib "23", "ExchSymb", "2"
+	List1.SetAttrib "23", "Trigger", "5"
+	List1.SetAttrib "23", "RandPeriod", "2238"
+	List1.AddLevel "24"
+	List1.SetWeight "24", "1"
+	List1.SetProc "24", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "24", "Level", "3"
+	List1.SetAttrib "24", "BranchSide", "R"
+	List1.SetAttrib "24", "MemoryExpression", "1-(3+(2+4))"
+	List1.SetAttrib "24", "TaskExpression", "1+(3+(2-4))"
+	List1.SetAttrib "24", "TaskAns", "1"
+	List1.SetAttrib "24", "DiffPosi1", "2"
+	List1.SetAttrib "24", "WithinCorrect1", "1"
+	List1.SetAttrib "24", "DiffPosi2", "8"
+	List1.SetAttrib "24", "WithinCorrect2", "1"
+	List1.SetAttrib "24", "ExchSymb", "2"
+	List1.SetAttrib "24", "Trigger", "7"
+	List1.SetAttrib "24", "RandPeriod", "2000"
+	List1.AddLevel "25"
+	List1.SetWeight "25", "1"
+	List1.SetProc "25", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "25", "Level", "0"
+	List1.SetAttrib "25", "BranchSide", "B"
+	List1.SetAttrib "25", "MemoryExpression", "1-+)3+)(2(4"
+	List1.SetAttrib "25", "TaskExpression", "1++)3-)(2(4"
+	List1.SetAttrib "25", "TaskAns", "1"
+	List1.SetAttrib "25", "DiffPosi1", "2"
+	List1.SetAttrib "25", "WithinCorrect1", "0"
+	List1.SetAttrib "25", "DiffPosi2", "6"
+	List1.SetAttrib "25", "WithinCorrect2", "0"
+	List1.SetAttrib "25", "ExchSymb", "2"
+	List1.SetAttrib "25", "Trigger", "1"
+	List1.SetAttrib "25", "RandPeriod", "2952"
+	List1.AddLevel "26"
+	List1.SetWeight "26", "1"
+	List1.SetProc "26", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "26", "Level", "1"
+	List1.SetAttrib "26", "BranchSide", "L"
+	List1.SetAttrib "26", "MemoryExpression", "3)1-2(+()+4"
+	List1.SetAttrib "26", "TaskExpression", "3)1+2(+()-4"
+	List1.SetAttrib "26", "TaskAns", "1"
+	List1.SetAttrib "26", "DiffPosi1", "4"
+	List1.SetAttrib "26", "WithinCorrect1", "1"
+	List1.SetAttrib "26", "DiffPosi2", "10"
+	List1.SetAttrib "26", "WithinCorrect2", "0"
+	List1.SetAttrib "26", "ExchSymb", "2"
+	List1.SetAttrib "26", "Trigger", "2"
+	List1.SetAttrib "26", "RandPeriod", "3238"
+	List1.AddLevel "27"
+	List1.SetWeight "27", "1"
+	List1.SetProc "27", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "27", "Level", "2"
+	List1.SetAttrib "27", "BranchSide", "L"
+	List1.SetAttrib "27", "MemoryExpression", ")(1-2)+3(+4"
+	List1.SetAttrib "27", "TaskExpression", ")(1+2)-3(+4"
+	List1.SetAttrib "27", "TaskAns", "1"
+	List1.SetAttrib "27", "DiffPosi1", "4"
+	List1.SetAttrib "27", "WithinCorrect1", "1"
+	List1.SetAttrib "27", "DiffPosi2", "7"
+	List1.SetAttrib "27", "WithinCorrect2", "1"
+	List1.SetAttrib "27", "ExchSymb", "2"
+	List1.SetAttrib "27", "Trigger", "4"
+	List1.SetAttrib "27", "RandPeriod", "3095"
+	List1.AddLevel "28"
+	List1.SetWeight "28", "1"
+	List1.SetProc "28", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "28", "Level", "3"
+	List1.SetAttrib "28", "BranchSide", "L"
+	List1.SetAttrib "28", "MemoryExpression", "((1-2)+3)+4"
+	List1.SetAttrib "28", "TaskExpression", "((1+2)+3)-4"
+	List1.SetAttrib "28", "TaskAns", "1"
+	List1.SetAttrib "28", "DiffPosi1", "4"
+	List1.SetAttrib "28", "WithinCorrect1", "1"
+	List1.SetAttrib "28", "DiffPosi2", "10"
+	List1.SetAttrib "28", "WithinCorrect2", "1"
+	List1.SetAttrib "28", "ExchSymb", "2"
+	List1.SetAttrib "28", "Trigger", "6"
+	List1.SetAttrib "28", "RandPeriod", "3429"
+	List1.AddLevel "29"
+	List1.SetWeight "29", "1"
+	List1.SetProc "29", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "29", "Level", "0"
+	List1.SetAttrib "29", "BranchSide", "B"
+	List1.SetAttrib "29", "MemoryExpression", "2)3+-(+1()4"
+	List1.SetAttrib "29", "TaskExpression", "2)3++(-1()4"
+	List1.SetAttrib "29", "TaskAns", "1"
+	List1.SetAttrib "29", "DiffPosi1", "5"
+	List1.SetAttrib "29", "WithinCorrect1", "0"
+	List1.SetAttrib "29", "DiffPosi2", "7"
+	List1.SetAttrib "29", "WithinCorrect2", "0"
+	List1.SetAttrib "29", "ExchSymb", "2"
+	List1.SetAttrib "29", "Trigger", "1"
+	List1.SetAttrib "29", "RandPeriod", "3905"
+	List1.AddLevel "30"
+	List1.SetWeight "30", "1"
+	List1.SetProc "30", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "30", "Level", "1"
+	List1.SetAttrib "30", "BranchSide", "R"
+	List1.SetAttrib "30", "MemoryExpression", "4()1+)3+2(-"
+	List1.SetAttrib "30", "TaskExpression", "4()1-)3+2(+"
+	List1.SetAttrib "30", "TaskAns", "1"
+	List1.SetAttrib "30", "DiffPosi1", "11"
+	List1.SetAttrib "30", "WithinCorrect1", "0"
+	List1.SetAttrib "30", "DiffPosi2", "5"
+	List1.SetAttrib "30", "WithinCorrect2", "0"
+	List1.SetAttrib "30", "ExchSymb", "2"
+	List1.SetAttrib "30", "Trigger", "3"
+	List1.SetAttrib "30", "RandPeriod", "3190"
+	List1.AddLevel "31"
+	List1.SetWeight "31", "1"
+	List1.SetProc "31", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "31", "Level", "2"
+	List1.SetAttrib "31", "BranchSide", "R"
+	List1.SetAttrib "31", "MemoryExpression", "1-)4+(3+2)("
+	List1.SetAttrib "31", "TaskExpression", "1+)4+(3-2)("
+	List1.SetAttrib "31", "TaskAns", "1"
+	List1.SetAttrib "31", "DiffPosi1", "2"
+	List1.SetAttrib "31", "WithinCorrect1", "0"
+	List1.SetAttrib "31", "DiffPosi2", "8"
+	List1.SetAttrib "31", "WithinCorrect2", "1"
+	List1.SetAttrib "31", "ExchSymb", "2"
+	List1.SetAttrib "31", "Trigger", "5"
+	List1.SetAttrib "31", "RandPeriod", "2762"
+	List1.AddLevel "32"
+	List1.SetWeight "32", "1"
+	List1.SetProc "32", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "32", "Level", "3"
+	List1.SetAttrib "32", "BranchSide", "R"
+	List1.SetAttrib "32", "MemoryExpression", "1-(4+(3+2))"
+	List1.SetAttrib "32", "TaskExpression", "1+(4+(3-2))"
+	List1.SetAttrib "32", "TaskAns", "1"
+	List1.SetAttrib "32", "DiffPosi1", "2"
+	List1.SetAttrib "32", "WithinCorrect1", "1"
+	List1.SetAttrib "32", "DiffPosi2", "8"
+	List1.SetAttrib "32", "WithinCorrect2", "1"
+	List1.SetAttrib "32", "ExchSymb", "2"
+	List1.SetAttrib "32", "Trigger", "7"
+	List1.SetAttrib "32", "RandPeriod", "3524"
+	List1.AddLevel "33"
+	List1.SetWeight "33", "1"
+	List1.SetProc "33", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "33", "Level", "0"
+	List1.SetAttrib "33", "BranchSide", "B"
+	List1.SetAttrib "33", "MemoryExpression", "1+-2)4(+()3"
+	List1.SetAttrib "33", "TaskExpression", "1+-2)4(+()3"
+	List1.SetAttrib "33", "TaskAns", "2"
+	List1.SetAttrib "33", "DiffPosi1", "-1"
+	List1.SetAttrib "33", "WithinCorrect1", "-1"
+	List1.SetAttrib "33", "DiffPosi2", "-1"
+	List1.SetAttrib "33", "WithinCorrect2", "-1"
+	List1.SetAttrib "33", "ExchSymb", "-1"
+	List1.SetAttrib "33", "Trigger", "1"
+	List1.SetAttrib "33", "RandPeriod", "3762"
+	List1.AddLevel "34"
+	List1.SetWeight "34", "1"
+	List1.SetProc "34", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "34", "Level", "1"
+	List1.SetAttrib "34", "BranchSide", "L"
+	List1.SetAttrib "34", "MemoryExpression", "2)3+4()(1+-"
+	List1.SetAttrib "34", "TaskExpression", "2)3+4()(1+-"
+	List1.SetAttrib "34", "TaskAns", "2"
+	List1.SetAttrib "34", "DiffPosi1", "-1"
+	List1.SetAttrib "34", "WithinCorrect1", "-1"
+	List1.SetAttrib "34", "DiffPosi2", "-1"
+	List1.SetAttrib "34", "WithinCorrect2", "-1"
+	List1.SetAttrib "34", "ExchSymb", "-1"
+	List1.SetAttrib "34", "Trigger", "2"
+	List1.SetAttrib "34", "RandPeriod", "2905"
+	List1.AddLevel "35"
+	List1.SetWeight "35", "1"
+	List1.SetProc "35", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "35", "Level", "2"
+	List1.SetAttrib "35", "BranchSide", "L"
+	List1.SetAttrib "35", "MemoryExpression", ")(3+4)-2(+1"
+	List1.SetAttrib "35", "TaskExpression", ")(3+4)-2(+1"
+	List1.SetAttrib "35", "TaskAns", "2"
+	List1.SetAttrib "35", "DiffPosi1", "-1"
+	List1.SetAttrib "35", "WithinCorrect1", "-1"
+	List1.SetAttrib "35", "DiffPosi2", "-1"
+	List1.SetAttrib "35", "WithinCorrect2", "-1"
+	List1.SetAttrib "35", "ExchSymb", "-1"
+	List1.SetAttrib "35", "Trigger", "4"
+	List1.SetAttrib "35", "RandPeriod", "4048"
+	List1.AddLevel "36"
+	List1.SetWeight "36", "1"
+	List1.SetProc "36", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "36", "Level", "3"
+	List1.SetAttrib "36", "BranchSide", "L"
+	List1.SetAttrib "36", "MemoryExpression", "((3+4)-2)+1"
+	List1.SetAttrib "36", "TaskExpression", "((3+4)-2)+1"
+	List1.SetAttrib "36", "TaskAns", "2"
+	List1.SetAttrib "36", "DiffPosi1", "-1"
+	List1.SetAttrib "36", "WithinCorrect1", "-1"
+	List1.SetAttrib "36", "DiffPosi2", "-1"
+	List1.SetAttrib "36", "WithinCorrect2", "-1"
+	List1.SetAttrib "36", "ExchSymb", "-1"
+	List1.SetAttrib "36", "Trigger", "6"
+	List1.SetAttrib "36", "RandPeriod", "3619"
+	List1.AddLevel "37"
+	List1.SetWeight "37", "1"
+	List1.SetProc "37", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "37", "Level", "0"
+	List1.SetAttrib "37", "BranchSide", "B"
+	List1.SetAttrib "37", "MemoryExpression", "1()2-+4(+)3"
+	List1.SetAttrib "37", "TaskExpression", "1()2-+4(+)3"
+	List1.SetAttrib "37", "TaskAns", "2"
+	List1.SetAttrib "37", "DiffPosi1", "-1"
+	List1.SetAttrib "37", "WithinCorrect1", "-1"
+	List1.SetAttrib "37", "DiffPosi2", "-1"
+	List1.SetAttrib "37", "WithinCorrect2", "-1"
+	List1.SetAttrib "37", "ExchSymb", "-1"
+	List1.SetAttrib "37", "Trigger", "1"
+	List1.SetAttrib "37", "RandPeriod", "2524"
+	List1.AddLevel "38"
+	List1.SetWeight "38", "1"
+	List1.SetProc "38", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "38", "Level", "1"
+	List1.SetAttrib "38", "BranchSide", "R"
+	List1.SetAttrib "38", "MemoryExpression", "+)(4-)3+2(1"
+	List1.SetAttrib "38", "TaskExpression", "+)(4-)3+2(1"
+	List1.SetAttrib "38", "TaskAns", "2"
+	List1.SetAttrib "38", "DiffPosi1", "-1"
+	List1.SetAttrib "38", "WithinCorrect1", "-1"
+	List1.SetAttrib "38", "DiffPosi2", "-1"
+	List1.SetAttrib "38", "WithinCorrect2", "-1"
+	List1.SetAttrib "38", "ExchSymb", "-1"
+	List1.SetAttrib "38", "Trigger", "3"
+	List1.SetAttrib "38", "RandPeriod", "4333"
+	List1.AddLevel "39"
+	List1.SetWeight "39", "1"
+	List1.SetProc "39", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "39", "Level", "2"
+	List1.SetAttrib "39", "BranchSide", "R"
+	List1.SetAttrib "39", "MemoryExpression", "+4)1-(3+2)("
+	List1.SetAttrib "39", "TaskExpression", "+4)1-(3+2)("
+	List1.SetAttrib "39", "TaskAns", "2"
+	List1.SetAttrib "39", "DiffPosi1", "-1"
+	List1.SetAttrib "39", "WithinCorrect1", "-1"
+	List1.SetAttrib "39", "DiffPosi2", "-1"
+	List1.SetAttrib "39", "WithinCorrect2", "-1"
+	List1.SetAttrib "39", "ExchSymb", "-1"
+	List1.SetAttrib "39", "Trigger", "5"
+	List1.SetAttrib "39", "RandPeriod", "3571"
+	List1.AddLevel "40"
+	List1.SetWeight "40", "1"
+	List1.SetProc "40", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "40", "Level", "3"
+	List1.SetAttrib "40", "BranchSide", "R"
+	List1.SetAttrib "40", "MemoryExpression", "4+(1-(3+2))"
+	List1.SetAttrib "40", "TaskExpression", "4+(1-(3+2))"
+	List1.SetAttrib "40", "TaskAns", "2"
+	List1.SetAttrib "40", "DiffPosi1", "-1"
+	List1.SetAttrib "40", "WithinCorrect1", "-1"
+	List1.SetAttrib "40", "DiffPosi2", "-1"
+	List1.SetAttrib "40", "WithinCorrect2", "-1"
+	List1.SetAttrib "40", "ExchSymb", "-1"
+	List1.SetAttrib "40", "Trigger", "7"
+	List1.SetAttrib "40", "RandPeriod", "4476"
+	List1.AddLevel "41"
+	List1.SetWeight "41", "1"
+	List1.SetProc "41", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "41", "Level", "0"
+	List1.SetAttrib "41", "BranchSide", "B"
+	List1.SetAttrib "41", "MemoryExpression", "2-)+1)(4(3+"
+	List1.SetAttrib "41", "TaskExpression", "2-)+1)(4(3+"
+	List1.SetAttrib "41", "TaskAns", "2"
+	List1.SetAttrib "41", "DiffPosi1", "-1"
+	List1.SetAttrib "41", "WithinCorrect1", "-1"
+	List1.SetAttrib "41", "DiffPosi2", "-1"
+	List1.SetAttrib "41", "WithinCorrect2", "-1"
+	List1.SetAttrib "41", "ExchSymb", "-1"
+	List1.SetAttrib "41", "Trigger", "1"
+	List1.SetAttrib "41", "RandPeriod", "2810"
+	List1.AddLevel "42"
+	List1.SetWeight "42", "1"
+	List1.SetProc "42", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "42", "Level", "1"
+	List1.SetAttrib "42", "BranchSide", "L"
+	List1.SetAttrib "42", "MemoryExpression", "2)1+4(+-)(3"
+	List1.SetAttrib "42", "TaskExpression", "2)1+4(+-)(3"
+	List1.SetAttrib "42", "TaskAns", "2"
+	List1.SetAttrib "42", "DiffPosi1", "-1"
+	List1.SetAttrib "42", "WithinCorrect1", "-1"
+	List1.SetAttrib "42", "DiffPosi2", "-1"
+	List1.SetAttrib "42", "WithinCorrect2", "-1"
+	List1.SetAttrib "42", "ExchSymb", "-1"
+	List1.SetAttrib "42", "Trigger", "2"
+	List1.SetAttrib "42", "RandPeriod", "2048"
+	List1.AddLevel "43"
+	List1.SetWeight "43", "1"
+	List1.SetProc "43", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "43", "Level", "2"
+	List1.SetAttrib "43", "BranchSide", "L"
+	List1.SetAttrib "43", "MemoryExpression", ")(1+4)-3(+2"
+	List1.SetAttrib "43", "TaskExpression", ")(1+4)-3(+2"
+	List1.SetAttrib "43", "TaskAns", "2"
+	List1.SetAttrib "43", "DiffPosi1", "-1"
+	List1.SetAttrib "43", "WithinCorrect1", "-1"
+	List1.SetAttrib "43", "DiffPosi2", "-1"
+	List1.SetAttrib "43", "WithinCorrect2", "-1"
+	List1.SetAttrib "43", "ExchSymb", "-1"
+	List1.SetAttrib "43", "Trigger", "4"
+	List1.SetAttrib "43", "RandPeriod", "4286"
+	List1.AddLevel "44"
+	List1.SetWeight "44", "1"
+	List1.SetProc "44", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "44", "Level", "3"
+	List1.SetAttrib "44", "BranchSide", "L"
+	List1.SetAttrib "44", "MemoryExpression", "((1+4)-3)+2"
+	List1.SetAttrib "44", "TaskExpression", "((1+4)-3)+2"
+	List1.SetAttrib "44", "TaskAns", "2"
+	List1.SetAttrib "44", "DiffPosi1", "-1"
+	List1.SetAttrib "44", "WithinCorrect1", "-1"
+	List1.SetAttrib "44", "DiffPosi2", "-1"
+	List1.SetAttrib "44", "WithinCorrect2", "-1"
+	List1.SetAttrib "44", "ExchSymb", "-1"
+	List1.SetAttrib "44", "Trigger", "6"
+	List1.SetAttrib "44", "RandPeriod", "2286"
+	List1.AddLevel "45"
+	List1.SetWeight "45", "1"
+	List1.SetProc "45", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "45", "Level", "0"
+	List1.SetAttrib "45", "BranchSide", "B"
+	List1.SetAttrib "45", "MemoryExpression", "(1+-3)4)+(2"
+	List1.SetAttrib "45", "TaskExpression", "(1+-3)4)+(2"
+	List1.SetAttrib "45", "TaskAns", "2"
+	List1.SetAttrib "45", "DiffPosi1", "-1"
+	List1.SetAttrib "45", "WithinCorrect1", "-1"
+	List1.SetAttrib "45", "DiffPosi2", "-1"
+	List1.SetAttrib "45", "WithinCorrect2", "-1"
+	List1.SetAttrib "45", "ExchSymb", "-1"
+	List1.SetAttrib "45", "Trigger", "1"
+	List1.SetAttrib "45", "RandPeriod", "4952"
+	List1.AddLevel "46"
+	List1.SetWeight "46", "1"
+	List1.SetProc "46", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "46", "Level", "1"
+	List1.SetAttrib "46", "BranchSide", "R"
+	List1.SetAttrib "46", "MemoryExpression", ")-4(+)3+1(2"
+	List1.SetAttrib "46", "TaskExpression", ")-4(+)3+1(2"
+	List1.SetAttrib "46", "TaskAns", "2"
+	List1.SetAttrib "46", "DiffPosi1", "-1"
+	List1.SetAttrib "46", "WithinCorrect1", "-1"
+	List1.SetAttrib "46", "DiffPosi2", "-1"
+	List1.SetAttrib "46", "WithinCorrect2", "-1"
+	List1.SetAttrib "46", "ExchSymb", "-1"
+	List1.SetAttrib "46", "Trigger", "3"
+	List1.SetAttrib "46", "RandPeriod", "3667"
+	List1.AddLevel "47"
+	List1.SetWeight "47", "1"
+	List1.SetProc "47", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "47", "Level", "2"
+	List1.SetAttrib "47", "BranchSide", "R"
+	List1.SetAttrib "47", "MemoryExpression", "4+)2-(3+1)("
+	List1.SetAttrib "47", "TaskExpression", "4+)2-(3+1)("
+	List1.SetAttrib "47", "TaskAns", "2"
+	List1.SetAttrib "47", "DiffPosi1", "-1"
+	List1.SetAttrib "47", "WithinCorrect1", "-1"
+	List1.SetAttrib "47", "DiffPosi2", "-1"
+	List1.SetAttrib "47", "WithinCorrect2", "-1"
+	List1.SetAttrib "47", "ExchSymb", "-1"
+	List1.SetAttrib "47", "Trigger", "5"
+	List1.SetAttrib "47", "RandPeriod", "2667"
+	List1.AddLevel "48"
+	List1.SetWeight "48", "1"
+	List1.SetProc "48", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "48", "Level", "3"
+	List1.SetAttrib "48", "BranchSide", "R"
+	List1.SetAttrib "48", "MemoryExpression", "4+(2-(3+1))"
+	List1.SetAttrib "48", "TaskExpression", "4+(2-(3+1))"
+	List1.SetAttrib "48", "TaskAns", "2"
+	List1.SetAttrib "48", "DiffPosi1", "-1"
+	List1.SetAttrib "48", "WithinCorrect1", "-1"
+	List1.SetAttrib "48", "DiffPosi2", "-1"
+	List1.SetAttrib "48", "WithinCorrect2", "-1"
+	List1.SetAttrib "48", "ExchSymb", "-1"
+	List1.SetAttrib "48", "Trigger", "7"
+	List1.SetAttrib "48", "RandPeriod", "5000"
+	List1.AddLevel "49"
+	List1.SetWeight "49", "1"
+	List1.SetProc "49", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "49", "Level", "0"
+	List1.SetAttrib "49", "BranchSide", "B"
+	List1.SetAttrib "49", "MemoryExpression", "3)+)-1(2(+4"
+	List1.SetAttrib "49", "TaskExpression", "3)+)-1(2(+4"
+	List1.SetAttrib "49", "TaskAns", "2"
+	List1.SetAttrib "49", "DiffPosi1", "-1"
+	List1.SetAttrib "49", "WithinCorrect1", "-1"
+	List1.SetAttrib "49", "DiffPosi2", "-1"
+	List1.SetAttrib "49", "WithinCorrect2", "-1"
+	List1.SetAttrib "49", "ExchSymb", "-1"
+	List1.SetAttrib "49", "Trigger", "1"
+	List1.SetAttrib "49", "RandPeriod", "2190"
+	List1.AddLevel "50"
+	List1.SetWeight "50", "1"
+	List1.SetProc "50", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "50", "Level", "1"
+	List1.SetAttrib "50", "BranchSide", "L"
+	List1.SetAttrib "50", "MemoryExpression", "2)3+1((+-4)"
+	List1.SetAttrib "50", "TaskExpression", "2)3+1((+-4)"
+	List1.SetAttrib "50", "TaskAns", "2"
+	List1.SetAttrib "50", "DiffPosi1", "-1"
+	List1.SetAttrib "50", "WithinCorrect1", "-1"
+	List1.SetAttrib "50", "DiffPosi2", "-1"
+	List1.SetAttrib "50", "WithinCorrect2", "-1"
+	List1.SetAttrib "50", "ExchSymb", "-1"
+	List1.SetAttrib "50", "Trigger", "2"
+	List1.SetAttrib "50", "RandPeriod", "4667"
+	List1.AddLevel "51"
+	List1.SetWeight "51", "1"
+	List1.SetProc "51", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "51", "Level", "2"
+	List1.SetAttrib "51", "BranchSide", "L"
+	List1.SetAttrib "51", "MemoryExpression", ")(3+1)-4(2+"
+	List1.SetAttrib "51", "TaskExpression", ")(3+1)-4(2+"
+	List1.SetAttrib "51", "TaskAns", "2"
+	List1.SetAttrib "51", "DiffPosi1", "-1"
+	List1.SetAttrib "51", "WithinCorrect1", "-1"
+	List1.SetAttrib "51", "DiffPosi2", "-1"
+	List1.SetAttrib "51", "WithinCorrect2", "-1"
+	List1.SetAttrib "51", "ExchSymb", "-1"
+	List1.SetAttrib "51", "Trigger", "4"
+	List1.SetAttrib "51", "RandPeriod", "4429"
+	List1.AddLevel "52"
+	List1.SetWeight "52", "1"
+	List1.SetProc "52", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "52", "Level", "3"
+	List1.SetAttrib "52", "BranchSide", "L"
+	List1.SetAttrib "52", "MemoryExpression", "((3+1)-4)+2"
+	List1.SetAttrib "52", "TaskExpression", "((3+1)-4)+2"
+	List1.SetAttrib "52", "TaskAns", "2"
+	List1.SetAttrib "52", "DiffPosi1", "-1"
+	List1.SetAttrib "52", "WithinCorrect1", "-1"
+	List1.SetAttrib "52", "DiffPosi2", "-1"
+	List1.SetAttrib "52", "WithinCorrect2", "-1"
+	List1.SetAttrib "52", "ExchSymb", "-1"
+	List1.SetAttrib "52", "Trigger", "6"
+	List1.SetAttrib "52", "RandPeriod", "2619"
+	List1.AddLevel "53"
+	List1.SetWeight "53", "1"
+	List1.SetProc "53", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "53", "Level", "0"
+	List1.SetAttrib "53", "BranchSide", "B"
+	List1.SetAttrib "53", "MemoryExpression", "+1)2)3(-+(4"
+	List1.SetAttrib "53", "TaskExpression", "+1)2)3(-+(4"
+	List1.SetAttrib "53", "TaskAns", "2"
+	List1.SetAttrib "53", "DiffPosi1", "-1"
+	List1.SetAttrib "53", "WithinCorrect1", "-1"
+	List1.SetAttrib "53", "DiffPosi2", "-1"
+	List1.SetAttrib "53", "WithinCorrect2", "-1"
+	List1.SetAttrib "53", "ExchSymb", "-1"
+	List1.SetAttrib "53", "Trigger", "1"
+	List1.SetAttrib "53", "RandPeriod", "3857"
+	List1.AddLevel "54"
+	List1.SetWeight "54", "1"
+	List1.SetProc "54", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "54", "Level", "1"
+	List1.SetAttrib "54", "BranchSide", "R"
+	List1.SetAttrib "54", "MemoryExpression", "(-+1))4+3(2"
+	List1.SetAttrib "54", "TaskExpression", "(-+1))4+3(2"
+	List1.SetAttrib "54", "TaskAns", "2"
+	List1.SetAttrib "54", "DiffPosi1", "-1"
+	List1.SetAttrib "54", "WithinCorrect1", "-1"
+	List1.SetAttrib "54", "DiffPosi2", "-1"
+	List1.SetAttrib "54", "WithinCorrect2", "-1"
+	List1.SetAttrib "54", "ExchSymb", "-1"
+	List1.SetAttrib "54", "Trigger", "3"
+	List1.SetAttrib "54", "RandPeriod", "3952"
+	List1.AddLevel "55"
+	List1.SetWeight "55", "1"
+	List1.SetProc "55", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "55", "Level", "2"
+	List1.SetAttrib "55", "BranchSide", "R"
+	List1.SetAttrib "55", "MemoryExpression", "-2)1+(4+3)("
+	List1.SetAttrib "55", "TaskExpression", "-2)1+(4+3)("
+	List1.SetAttrib "55", "TaskAns", "2"
+	List1.SetAttrib "55", "DiffPosi1", "-1"
+	List1.SetAttrib "55", "WithinCorrect1", "-1"
+	List1.SetAttrib "55", "DiffPosi2", "-1"
+	List1.SetAttrib "55", "WithinCorrect2", "-1"
+	List1.SetAttrib "55", "ExchSymb", "-1"
+	List1.SetAttrib "55", "Trigger", "5"
+	List1.SetAttrib "55", "RandPeriod", "4905"
+	List1.AddLevel "56"
+	List1.SetWeight "56", "1"
+	List1.SetProc "56", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "56", "Level", "3"
+	List1.SetAttrib "56", "BranchSide", "R"
+	List1.SetAttrib "56", "MemoryExpression", "2-(1+(4+3))"
+	List1.SetAttrib "56", "TaskExpression", "2-(1+(4+3))"
+	List1.SetAttrib "56", "TaskAns", "2"
+	List1.SetAttrib "56", "DiffPosi1", "-1"
+	List1.SetAttrib "56", "WithinCorrect1", "-1"
+	List1.SetAttrib "56", "DiffPosi2", "-1"
+	List1.SetAttrib "56", "WithinCorrect2", "-1"
+	List1.SetAttrib "56", "ExchSymb", "-1"
+	List1.SetAttrib "56", "Trigger", "7"
+	List1.SetAttrib "56", "RandPeriod", "2857"
+	List1.AddLevel "57"
+	List1.SetWeight "57", "1"
+	List1.SetProc "57", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "57", "Level", "0"
+	List1.SetAttrib "57", "BranchSide", "B"
+	List1.SetAttrib "57", "MemoryExpression", ")4)3(2-+1(+"
+	List1.SetAttrib "57", "TaskExpression", ")4)3(2-+1(+"
+	List1.SetAttrib "57", "TaskAns", "2"
+	List1.SetAttrib "57", "DiffPosi1", "-1"
+	List1.SetAttrib "57", "WithinCorrect1", "-1"
+	List1.SetAttrib "57", "DiffPosi2", "-1"
+	List1.SetAttrib "57", "WithinCorrect2", "-1"
+	List1.SetAttrib "57", "ExchSymb", "-1"
+	List1.SetAttrib "57", "Trigger", "1"
+	List1.SetAttrib "57", "RandPeriod", "3476"
+	List1.AddLevel "58"
+	List1.SetWeight "58", "1"
+	List1.SetProc "58", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "58", "Level", "1"
+	List1.SetAttrib "58", "BranchSide", "L"
+	List1.SetAttrib "58", "MemoryExpression", "4)2+1(-+3)("
+	List1.SetAttrib "58", "TaskExpression", "4)2+1(-+3)("
+	List1.SetAttrib "58", "TaskAns", "2"
+	List1.SetAttrib "58", "DiffPosi1", "-1"
+	List1.SetAttrib "58", "WithinCorrect1", "-1"
+	List1.SetAttrib "58", "DiffPosi2", "-1"
+	List1.SetAttrib "58", "WithinCorrect2", "-1"
+	List1.SetAttrib "58", "ExchSymb", "-1"
+	List1.SetAttrib "58", "Trigger", "2"
+	List1.SetAttrib "58", "RandPeriod", "2095"
+	List1.AddLevel "59"
+	List1.SetWeight "59", "1"
+	List1.SetProc "59", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "59", "Level", "2"
+	List1.SetAttrib "59", "BranchSide", "L"
+	List1.SetAttrib "59", "MemoryExpression", ")(2+1)+4(-3"
+	List1.SetAttrib "59", "TaskExpression", ")(2+1)+4(-3"
+	List1.SetAttrib "59", "TaskAns", "2"
+	List1.SetAttrib "59", "DiffPosi1", "-1"
+	List1.SetAttrib "59", "WithinCorrect1", "-1"
+	List1.SetAttrib "59", "DiffPosi2", "-1"
+	List1.SetAttrib "59", "WithinCorrect2", "-1"
+	List1.SetAttrib "59", "ExchSymb", "-1"
+	List1.SetAttrib "59", "Trigger", "4"
+	List1.SetAttrib "59", "RandPeriod", "2143"
+	List1.AddLevel "60"
+	List1.SetWeight "60", "1"
+	List1.SetProc "60", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "60", "Level", "3"
+	List1.SetAttrib "60", "BranchSide", "L"
+	List1.SetAttrib "60", "MemoryExpression", "((2+1)+4)-3"
+	List1.SetAttrib "60", "TaskExpression", "((2+1)+4)-3"
+	List1.SetAttrib "60", "TaskAns", "2"
+	List1.SetAttrib "60", "DiffPosi1", "-1"
+	List1.SetAttrib "60", "WithinCorrect1", "-1"
+	List1.SetAttrib "60", "DiffPosi2", "-1"
+	List1.SetAttrib "60", "WithinCorrect2", "-1"
+	List1.SetAttrib "60", "ExchSymb", "-1"
+	List1.SetAttrib "60", "Trigger", "6"
+	List1.SetAttrib "60", "RandPeriod", "3333"
+	List1.AddLevel "61"
+	List1.SetWeight "61", "1"
+	List1.SetProc "61", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "61", "Level", "0"
+	List1.SetAttrib "61", "BranchSide", "B"
+	List1.SetAttrib "61", "MemoryExpression", "3-+2))1(4+("
+	List1.SetAttrib "61", "TaskExpression", "3-+2))1(4+("
+	List1.SetAttrib "61", "TaskAns", "2"
+	List1.SetAttrib "61", "DiffPosi1", "-1"
+	List1.SetAttrib "61", "WithinCorrect1", "-1"
+	List1.SetAttrib "61", "DiffPosi2", "-1"
+	List1.SetAttrib "61", "WithinCorrect2", "-1"
+	List1.SetAttrib "61", "ExchSymb", "-1"
+	List1.SetAttrib "61", "Trigger", "1"
+	List1.SetAttrib "61", "RandPeriod", "2714"
+	List1.AddLevel "62"
+	List1.SetWeight "62", "1"
+	List1.SetProc "62", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "62", "Level", "1"
+	List1.SetAttrib "62", "BranchSide", "R"
+	List1.SetAttrib "62", "MemoryExpression", "1-+4))2+3(("
+	List1.SetAttrib "62", "TaskExpression", "1-+4))2+3(("
+	List1.SetAttrib "62", "TaskAns", "2"
+	List1.SetAttrib "62", "DiffPosi1", "-1"
+	List1.SetAttrib "62", "WithinCorrect1", "-1"
+	List1.SetAttrib "62", "DiffPosi2", "-1"
+	List1.SetAttrib "62", "WithinCorrect2", "-1"
+	List1.SetAttrib "62", "ExchSymb", "-1"
+	List1.SetAttrib "62", "Trigger", "3"
+	List1.SetAttrib "62", "RandPeriod", "4095"
+	List1.AddLevel "63"
+	List1.SetWeight "63", "1"
+	List1.SetProc "63", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "63", "Level", "2"
+	List1.SetAttrib "63", "BranchSide", "R"
+	List1.SetAttrib "63", "MemoryExpression", "+4)1-(2+3)("
+	List1.SetAttrib "63", "TaskExpression", "+4)1-(2+3)("
+	List1.SetAttrib "63", "TaskAns", "2"
+	List1.SetAttrib "63", "DiffPosi1", "-1"
+	List1.SetAttrib "63", "WithinCorrect1", "-1"
+	List1.SetAttrib "63", "DiffPosi2", "-1"
+	List1.SetAttrib "63", "WithinCorrect2", "-1"
+	List1.SetAttrib "63", "ExchSymb", "-1"
+	List1.SetAttrib "63", "Trigger", "5"
+	List1.SetAttrib "63", "RandPeriod", "3143"
+	List1.AddLevel "64"
+	List1.SetWeight "64", "1"
+	List1.SetProc "64", "stimproc"
+	'Nested not specified for this level
+	List1.SetAttrib "64", "Level", "3"
+	List1.SetAttrib "64", "BranchSide", "R"
+	List1.SetAttrib "64", "MemoryExpression", "4+(1-(2+3))"
+	List1.SetAttrib "64", "TaskExpression", "4+(1-(2+3))"
+	List1.SetAttrib "64", "TaskAns", "2"
+	List1.SetAttrib "64", "DiffPosi1", "-1"
+	List1.SetAttrib "64", "WithinCorrect1", "-1"
+	List1.SetAttrib "64", "DiffPosi2", "-1"
+	List1.SetAttrib "64", "WithinCorrect2", "-1"
+	List1.SetAttrib "64", "ExchSymb", "-1"
+	List1.SetAttrib "64", "Trigger", "7"
+	List1.SetAttrib "64", "RandPeriod", "3000"
+	List1.Filename = "Strings\\MathFormula_fMRI_Run9.txt"
+	List1.LoadMethod = ebLoadMethodScript
+
+	Set List1.TerminateCondition = Cycles(1)
+	Set List1.ResetCondition = Samples(64)
+	List1.Reset
+	
+	Set stimproc = New Procedure
+	stimproc.Name = "stimproc"
+	stimproc.Tag = ""
+	stimproc.Subroutine = "stimproc_Run"
+
+	Set Instructions = New TextDisplay
+	Instructions.Name = "Instructions"
+	Instructions.Tag = ""
+
+	Set InstructionsEchoClients = New EchoClientCollection
+
+	InitTextDisplayDefaults Instructions
+
+	Instructions.Text = "\nFixez le point au centre de l'écran\n\nAppuyez le plus rapidement possible sur le  bouton droit si les 2 chaines de caractère sont identiques appuye" &_ 
+				"z sur le bouton gauche si elles sont différentes\n\nMerci de ne pas bouger la tête\n"
+	Instructions.BackColor = CColor("black")
+	Instructions.ForeColor = CColor("white")
+	Instructions.FontName = "Verdana"
+	Instructions.FontBold = CLogical("No")
+	Instructions.ClearAfter = CLogical("Yes")
+	Instructions.Duration = CLng("-1")
+	Instructions.TimingMode = ebTimingModeEvent
+	Instructions.PreRelease = Val("60")
+
+	Instructions.OnsetSync = 1
+	Instructions.OffsetSync = 0
+
+	Set FixationBefore = New TextDisplay
+	FixationBefore.Name = "FixationBefore"
+	FixationBefore.Tag = ""
+
+	InitTextDisplayDefaults FixationBefore
+
+	FixationBefore.Text = "·"
+	FixationBefore.BackColor = CColor("black")
+	FixationBefore.ForeColor = CColor("yellow")
+	FixationBefore.FontName = "Century"
+	FixationBefore.FontSize = "22"
+	FixationBefore.Duration = CLng("800")
+	FixationBefore.TimingMode = ebTimingModeCumulative
+	FixationBefore.PreRelease = Val("60")
+
+	FixationBefore.OnsetSync = 1
+	FixationBefore.OffsetSync = 0
+
+	Set FixationBtwn = New TextDisplay
+	FixationBtwn.Name = "FixationBtwn"
+	FixationBtwn.Tag = ""
+
+	InitTextDisplayDefaults FixationBtwn
+
+	FixationBtwn.Text = "·"
+	FixationBtwn.BackColor = CColor("black")
+	FixationBtwn.ForeColor = CColor("yellow")
+	FixationBtwn.FontName = "Century"
+	FixationBtwn.FontSize = "22"
+	FixationBtwn.Duration = CLng("1500")
+	FixationBtwn.TimingMode = ebTimingModeCumulative
+	FixationBtwn.PreRelease = Val("60")
+
+	FixationBtwn.OnsetSync = 1
+	FixationBtwn.OffsetSync = 0
+
+	Set FeedbackTrial = New FeedbackDisplay
+	FeedbackTrial.Name = "FeedbackTrial"
+	FeedbackTrial.Tag = ""
+
+	FeedbackTrial.ACCDivisor = "1.0"
+	FeedbackTrial.ACCFormat = "Percent"
+	FeedbackTrial.RTDivisor = "1000.0"
+	FeedbackTrial.RTFormat = "###0.000"
+	FeedbackTrial.CorrectRTDivisor = "1000.0"
+	FeedbackTrial.CorrectRTFormat = "###0.000"
+	FeedbackTrial.IncorrectRTDivisor = "1000.0"
+	FeedbackTrial.IncorrectRTFormat = "###0.000"
+	FeedbackTrial.CollectNoRespACCStats = True
+	FeedbackTrial.TimingMode = ebTimingModeCumulative
+	FeedbackTrial.PreRelease = Val("60")
+
+	FeedbackTrial.OnsetSync = 1
+	FeedbackTrial.OffsetSync = 0
+
+	Set FeedbackTrial_State = New SlideState
+	FeedbackTrial_State.Name = "Correct"
+
+	InitSlideStateDefaults FeedbackTrial_State
+
+	FeedbackTrial_State.BackColor = CColor("black")
+
+	FeedbackTrial.States.Add FeedbackTrial_State, "Correct"
+
+
+	Set FeedbackTrial_SlideText = New SlideText
+	FeedbackTrial_SlideText.Name = "Text1"
+
+	InitSlideTextDefaults FeedbackTrial_SlideText
+
+	FeedbackTrial_SlideText.Text = "·"
+	FeedbackTrial_SlideText.ForeColor = CColor("green")
+	FeedbackTrial_SlideText.BackColor = CColor("black")
+	FeedbackTrial_SlideText.FontName = "Century"
+	FeedbackTrial_SlideText.FontSize = "22"
+	FeedbackTrial.States.Item("Correct").Objects.Add FeedbackTrial_SlideText, "Text1"
+
+	Set FeedbackTrial_SlideSoundOut = New SlideSoundOut
+	FeedbackTrial_SlideSoundOut.Name = "SoundOut1"
+	FeedbackTrial_SoundBufferInfo.MaxLength = 5000
+	FeedbackTrial_SoundBufferInfo.VolumeControl = CLogical("no")
+	FeedbackTrial_SoundBufferInfo.PanControl = CLogical("no")
+	Set FeedbackTrial_SoundBuffer = Sound.CreateBuffer(FeedbackTrial_SoundBufferInfo)
+	FeedbackTrial_SlideSoundOut.Buffers.Add FeedbackTrial_SoundBuffer
+	FeedbackTrial.States.Item("Correct").Objects.Add FeedbackTrial_SlideSoundOut, "SoundOut1"
+
+	FeedbackTrial_SoundBuffer.Filename = "Sound\\Reward2_Amplify.wav"
+	FeedbackTrial_SoundBuffer.Load
+
+	InitSlideSoundBufferDefaults FeedbackTrial_SoundBuffer
+
+	FeedbackTrial_SoundBuffer.EndSoundAction = 0
+	Set FeedbackTrial_SoundBuffer = Nothing
+
+	Set FeedbackTrial_State = New SlideState
+	FeedbackTrial_State.Name = "Incorrect"
+
+	InitSlideStateDefaults FeedbackTrial_State
+
+	FeedbackTrial_State.BackColor = CColor("black")
+
+	FeedbackTrial.States.Add FeedbackTrial_State, "Incorrect"
+
+
+	Set FeedbackTrial_SlideText = New SlideText
+	FeedbackTrial_SlideText.Name = "Text1"
+
+	InitSlideTextDefaults FeedbackTrial_SlideText
+
+	FeedbackTrial_SlideText.Text = "·"
+	FeedbackTrial_SlideText.ForeColor = CColor("red")
+	FeedbackTrial_SlideText.BackColor = CColor("black")
+	FeedbackTrial_SlideText.FontName = "Century"
+	FeedbackTrial_SlideText.FontSize = "22"
+	FeedbackTrial.States.Item("Incorrect").Objects.Add FeedbackTrial_SlideText, "Text1"
+
+	Set FeedbackTrial_SlideSoundOut = New SlideSoundOut
+	FeedbackTrial_SlideSoundOut.Name = "SoundOut2"
+	FeedbackTrial_SoundBufferInfo.MaxLength = 5000
+	FeedbackTrial_SoundBufferInfo.VolumeControl = CLogical("no")
+	FeedbackTrial_SoundBufferInfo.PanControl = CLogical("no")
+	Set FeedbackTrial_SoundBuffer = Sound.CreateBuffer(FeedbackTrial_SoundBufferInfo)
+	FeedbackTrial_SlideSoundOut.Buffers.Add FeedbackTrial_SoundBuffer
+	FeedbackTrial.States.Item("Incorrect").Objects.Add FeedbackTrial_SlideSoundOut, "SoundOut2"
+
+	FeedbackTrial_SoundBuffer.Filename = "Sound\\Beep2_Amplify.wav"
+	FeedbackTrial_SoundBuffer.Load
+
+	InitSlideSoundBufferDefaults FeedbackTrial_SoundBuffer
+
+	FeedbackTrial_SoundBuffer.EndSoundAction = 0
+	Set FeedbackTrial_SoundBuffer = Nothing
+
+	Set FeedbackTrial_State = New SlideState
+	FeedbackTrial_State.Name = "NoResponse"
+
+	InitSlideStateDefaults FeedbackTrial_State
+
+	FeedbackTrial_State.BackColor = CColor("black")
+
+	FeedbackTrial.States.Add FeedbackTrial_State, "NoResponse"
+
+
+	Set FeedbackTrial_SlideText = New SlideText
+	FeedbackTrial_SlideText.Name = "Text1"
+
+	InitSlideTextDefaults FeedbackTrial_SlideText
+
+	FeedbackTrial_SlideText.Text = "·"
+	FeedbackTrial_SlideText.ForeColor = CColor("blue")
+	FeedbackTrial_SlideText.BackColor = CColor("black")
+	FeedbackTrial_SlideText.FontName = "Century"
+	FeedbackTrial_SlideText.FontSize = "22"
+	FeedbackTrial.States.Item("NoResponse").Objects.Add FeedbackTrial_SlideText, "Text1"
+
+	Set FeedbackTrial_SlideSoundOut = New SlideSoundOut
+	FeedbackTrial_SlideSoundOut.Name = "SoundOut1"
+	FeedbackTrial_SoundBufferInfo.MaxLength = 5000
+	FeedbackTrial_SoundBufferInfo.VolumeControl = CLogical("no")
+	FeedbackTrial_SoundBufferInfo.PanControl = CLogical("no")
+	Set FeedbackTrial_SoundBuffer = Sound.CreateBuffer(FeedbackTrial_SoundBufferInfo)
+	FeedbackTrial_SlideSoundOut.Buffers.Add FeedbackTrial_SoundBuffer
+	FeedbackTrial.States.Item("NoResponse").Objects.Add FeedbackTrial_SlideSoundOut, "SoundOut1"
+
+	FeedbackTrial_SoundBuffer.Filename = "Sound\\Beep1_Amplify.wav"
+	FeedbackTrial_SoundBuffer.Load
+
+	InitSlideSoundBufferDefaults FeedbackTrial_SoundBuffer
+
+	FeedbackTrial_SoundBuffer.EndSoundAction = 0
+	Set FeedbackTrial_SoundBuffer = Nothing
+
+	Set FeedbackTrial_State = New SlideState
+	FeedbackTrial_State.Name = "Pending"
+
+	InitSlideStateDefaults FeedbackTrial_State
+
+
+	FeedbackTrial.States.Add FeedbackTrial_State, "Pending"
+
+
+	Set FinishMessage = New TextDisplay
+	FinishMessage.Name = "FinishMessage"
+	FinishMessage.Tag = ""
+
+	InitTextDisplayDefaults FinishMessage
+
+	FinishMessage.BackColor = CColor("black")
+	FinishMessage.ForeColor = CColor("white")
+	FinishMessage.FontName = "Verdana"
+	FinishMessage.FontBold = CLogical("No")
+	FinishMessage.Duration = CLng("5000")
+	FinishMessage.TimingMode = ebTimingModeEvent
+	FinishMessage.PreRelease = Val("60")
+
+	FinishMessage.OnsetSync = 1
+	FinishMessage.OffsetSync = 0
+
+	Set WaitTTL = New TextDisplay
+	WaitTTL.Name = "WaitTTL"
+	WaitTTL.Tag = ""
+
+	Set WaitTTLEchoClients = New EchoClientCollection
+
+	InitTextDisplayDefaults WaitTTL
+
+	WaitTTL.Text = "Waiting for fMRI trigger... (or press 's' to start)"
+	WaitTTL.BackColor = CColor("black")
+	WaitTTL.ForeColor = CColor("white")
+	WaitTTL.ClearAfter = CLogical("Yes")
+	WaitTTL.Duration = CLng("-1")
+	WaitTTL.TimingMode = ebTimingModeEvent
+	WaitTTL.PreRelease = Val("60")
+
+	WaitTTL.OnsetSync = 1
+	WaitTTL.OffsetSync = 0
+
+	Set FixationAfter = New TextDisplay
+	FixationAfter.Name = "FixationAfter"
+	FixationAfter.Tag = ""
+
+	Set FixationAfterEchoClients = New EchoClientCollection
+
+	InitTextDisplayDefaults FixationAfter
+
+	FixationAfter.Text = "·"
+	FixationAfter.BackColor = CColor("black")
+	FixationAfter.ForeColor = CColor("yellow")
+	FixationAfter.FontName = "Century"
+	FixationAfter.FontSize = "22"
+	FixationAfter.Duration = CLng("1500")
+	FixationAfter.TimingMode = ebTimingModeCumulative
+	FixationAfter.PreRelease = Val("60")
+
+	FixationAfter.OnsetSync = 1
+	FixationAfter.OffsetSync = 0
+
+	Set TaskExpression = New Slide
+	TaskExpression.Name = "TaskExpression"
+	TaskExpression.Tag = ""
+	TaskExpression.Duration = CLng("200")
+	TaskExpression.TimingMode = ebTimingModeCumulative
+	TaskExpression.PreRelease = Val("60")
+
+	TaskExpression.OnsetSync = 1
+	TaskExpression.OffsetSync = 0
+
+	Set TaskExpression_State = New SlideState
+	TaskExpression_State.Name = "Default"
+
+	InitSlideStateDefaults TaskExpression_State
+
+	TaskExpression_State.BackColor = CColor("black")
+
+	TaskExpression.States.Add TaskExpression_State, "Default"
+
+
+	Set TaskExpression_SlideText = New SlideText
+	TaskExpression_SlideText.Name = "Text1"
+
+	InitSlideTextDefaults TaskExpression_SlideText
+
+	TaskExpression_SlideText.ForeColor = CColor("white")
+	TaskExpression_SlideText.BackColor = CColor("black")
+	TaskExpression_SlideText.FontName = "Lucida Console"
+	TaskExpression_SlideText.FontSize = "22"
+	TaskExpression_SlideText.FontBold = CLogical("No")
+	TaskExpression.States.Item("Default").Objects.Add TaskExpression_SlideText, "Text1"
+	TaskExpression.ActiveState = "Default"
+
+	Set MemoryExpression = New Slide
+	MemoryExpression.Name = "MemoryExpression"
+	MemoryExpression.Tag = ""
+	MemoryExpression.Duration = CLng("200")
+	MemoryExpression.TimingMode = ebTimingModeCumulative
+	MemoryExpression.PreRelease = Val("60")
+
+	MemoryExpression.OnsetSync = 1
+	MemoryExpression.OffsetSync = 0
+
+	Set MemoryExpression_State = New SlideState
+	MemoryExpression_State.Name = "Default"
+
+	InitSlideStateDefaults MemoryExpression_State
+
+	MemoryExpression_State.BackColor = CColor("black")
+
+	MemoryExpression.States.Add MemoryExpression_State, "Default"
+
+
+	Set MemoryExpression_SlideText = New SlideText
+	MemoryExpression_SlideText.Name = "Text2"
+
+	InitSlideTextDefaults MemoryExpression_SlideText
+
+	MemoryExpression_SlideText.Text = ""
+	MemoryExpression_SlideText.ForeColor = CColor("white")
+	MemoryExpression_SlideText.BackColor = CColor("black")
+	MemoryExpression_SlideText.BackStyle = "transparent"
+	MemoryExpression_SlideText.FontName = "Century"
+	MemoryExpression_SlideText.FontSize = "22"
+	MemoryExpression.States.Item("Default").Objects.Add MemoryExpression_SlideText, "Text2"
+
+	Set MemoryExpression_SlideText = New SlideText
+	MemoryExpression_SlideText.Name = "Text1"
+
+	InitSlideTextDefaults MemoryExpression_SlideText
+
+	MemoryExpression_SlideText.ForeColor = CColor("white")
+	MemoryExpression_SlideText.BackColor = CColor("black")
+	MemoryExpression_SlideText.FontName = "Lucida Console"
+	MemoryExpression_SlideText.FontSize = "22"
+	MemoryExpression_SlideText.FontBold = CLogical("No")
+	MemoryExpression.States.Item("Default").Objects.Add MemoryExpression_SlideText, "Text1"
+	MemoryExpression.ActiveState = "Default"
+
+	Set FixationStart = New TextDisplay
+	FixationStart.Name = "FixationStart"
+	FixationStart.Tag = ""
+
+	InitTextDisplayDefaults FixationStart
+
+	FixationStart.Text = "·"
+	FixationStart.BackColor = CColor("black")
+	FixationStart.ForeColor = CColor("gray")
+	FixationStart.FontName = "Century"
+	FixationStart.FontSize = "22"
+	FixationStart.Duration = CLng("5000")
+	FixationStart.TimingMode = ebTimingModeCumulative
+	FixationStart.PreRelease = Val("60")
+
+	FixationStart.OnsetSync = 1
+	FixationStart.OffsetSync = 0
+
+	Set FixationEnd = New TextDisplay
+	FixationEnd.Name = "FixationEnd"
+	FixationEnd.Tag = ""
+
+	InitTextDisplayDefaults FixationEnd
+
+	FixationEnd.Text = "·"
+	FixationEnd.BackColor = CColor("black")
+	FixationEnd.ForeColor = CColor("gray")
+	FixationEnd.FontName = "Century"
+	FixationEnd.FontSize = "22"
+	FixationEnd.Duration = CLng("5000")
+	FixationEnd.TimingMode = ebTimingModeCumulative
+	FixationEnd.PreRelease = Val("60")
+
+	FixationEnd.OnsetSync = 1
+	FixationEnd.OffsetSync = 0
+
+
+End Sub
+
+
+'--------------------------------------------------------------------------
+' InitPackages
+'
+'--------------------------------------------------------------------------
+Sub InitPackages(c As Context)
+
+End Sub
+
+
+
+'--------------------------------------------------------------------------
+'--------------------------------------------------------------------------
+' UnInitDevices
+'--------------------------------------------------------------------------
+Sub UnInitDevices()
+	Display.Close
+	Set Display = Nothing
+	Sound.Close
+
+	Keyboard.Close
+	Set Keyboard = Nothing
+
+	Mouse.Close
+	Set Mouse = Nothing
+
+
+	Port.Close
+	End Sub
+
+
+'--------------------------------------------------------------------------
+'--------------------------------------------------------------------------
+' UnInitPackages
+'--------------------------------------------------------------------------
+Sub UnInitPackages()
+End Sub
+
+
+'--------------------------------------------------------------------------
+' UnInitObjects
+'
+'--------------------------------------------------------------------------
+Sub UnInitObjects()
+
+	Set SessionProc = Nothing
+
+	Set List1 = Nothing
+
+	Set stimproc = Nothing
+
+	Set Instructions = Nothing
+
+	Set InstructionsEchoClients = Nothing
+
+	Set FixationBefore = Nothing
+
+	Set FixationBtwn = Nothing
+
+	Set FeedbackTrial = Nothing
+
+	Set FinishMessage = Nothing
+
+	Set WaitTTL = Nothing
+
+	Set WaitTTLEchoClients = Nothing
+
+	Set FixationAfter = Nothing
+
+	Set FixationAfterEchoClients = Nothing
+
+	Set TaskExpression = Nothing
+
+	Set MemoryExpression = Nothing
+
+	Set FixationStart = Nothing
+
+	Set FixationEnd = Nothing
+
+
+End Sub
+
+
+'--------------------------------------------------------------------------
+' Main
+'
+'--------------------------------------------------------------------------
+Sub Main()
+
+	CreateDefaultPort
+
+	' Create and initialize the default context, data file,
+	' and provide global access to the context.
+	Dim c As Context
+	Set c = New Context
+	Set c.DataFile = New DataFile
+	c.PushNewFrame
+	Set ebContext = c
+
+	' Set the log level names
+	c.SetLogLevelName 1, "Session"
+	c.SetLogLevelName 2, "Block"
+	c.SetLogLevelName 3, "Trial"
+	c.SetLogLevelName 4, "SubTrial"
+	c.SetLogLevelName 5, "LogLevel5"
+	c.SetLogLevelName 6, "LogLevel6"
+	c.SetLogLevelName 7, "LogLevel7"
+	c.SetLogLevelName 8, "LogLevel8"
+	c.SetLogLevelName 9, "LogLevel9"
+	c.SetLogLevelName 10, "LogLevel10"
+
+	' Set standard logging items
+	ebContext.SetAttrib "Experiment", "MathFormula_fMRI_Memory"
+	ebContext.SetAttrib "SessionDate", Date$
+	ebContext.SetAttrib "SessionTime", Time$
+	ebContext.SetAttrib "RandomSeed", PRNG.GetSeed()
+
+	If Basic.OS = ebWin32 Then
+		WinActivate "E-Run Experiment Window"
+	End If
+
+	' Get the StartupInfo
+	' Set default for GroupNumber
+	c.SetAttrib "Group", "1"
+
+
+	' Set the defaults for all of the StartupInfo
+	c.SetAttrib "Subject", "1"
+	c.SetAttrib "Session", "1"
+
+	Dim vAnswer As Variant
+StartupInfo_Begin:
+
+StartupInfoPrompt_Subject:
+	vAnswer = AskBox("Please enter the Subject Number (1-32767, 0=No Data Logging):", c.GetAttrib("Subject"))
+	If Not IsEmpty(vAnswer) then
+		If Not IsNumeric(vAnswer) then
+			MsgBox "Please enter an integer value"
+			GoTo StartupInfoPrompt_Subject
+		ElseIf CLng(vAnswer) < 0 Then
+			MsgBox "The value for Subject must not be less than 0"
+			GoTo StartupInfoPrompt_Subject
+		ElseIf CLng(vAnswer) > 32767 Then
+			MsgBox "The value for Subject must be not be greater than 32767"
+			GoTo StartupInfoPrompt_Subject
+		End If
+	Else
+		GoTo ExperimentAbort
+	End if
+
+	c.SetAttrib "Subject", CStr(vAnswer)
+
+StartupInfoPrompt_Session:
+	vAnswer = AskBox("Please enter the Session Number (1-32767):", c.GetAttrib("Session"))
+	If Not IsEmpty(vAnswer) then
+		If Not IsNumeric(vAnswer) then
+			MsgBox "Please enter an integer value"
+			GoTo StartupInfoPrompt_Session
+		ElseIf CLng(vAnswer) < 1 Then
+			MsgBox "The value for Session must not be less than 1"
+			GoTo StartupInfoPrompt_Session
+		ElseIf CLng(vAnswer) > 32767 Then
+			MsgBox "The value for Session must be not be greater than 32767"
+			GoTo StartupInfoPrompt_Session
+		End If
+	Else
+		GoTo ExperimentAbort
+	End if
+
+	c.SetAttrib "Session", CStr(vAnswer)
+
+	' Display the summary
+	Dim strSummary As String
+	strSummary = "Subject:    " & c.GetAttrib("Subject") & "\n"
+	strSummary = strSummary & "Session:    " & c.GetAttrib("Session") & "\n"
+	strSummary = strSummary & "\nContinue with the above startup info?"
+
+	Dim nSummaryAnswer As Integer
+	nSummaryAnswer = MsgBox(strSummary, ebYesNoCancel + ebQuestion, "Summary of Startup Info")
+	If nSummaryAnswer = ebNo Then
+		GoTo StartupInfo_Begin
+	ElseIf nSummaryAnswer = ebCancel Then
+		GoTo ExperimentAbort
+	End If
+
+
+	' Set the default Data Filename
+	c.DataFile.Filename = CStr(c.GetAttrib("Experiment")) & "-" & CStr(c.GetAttrib("Subject")) & "-" & CStr(c.GetAttrib("Session")) & ".txt"
+
+	' If we are logging data, then prompt to overwrite the data file if it exists
+	If CLng(c.GetAttrib("Subject")) <> 0 Then
+		If FileExists(c.DataFile.Filename) Then
+			If ebYes <> MsgBox("WARNING: The data file and/or recovery file already exists:\nFILE: " & c.DataFile.Filename & "\n\nDo you want to overwrite?", ebYesNo + ebQuestion) Then
+				GoTo ExperimentAbort
+			End If
+		End If
+	End If
+
+	' Initialize all system devices, packages, and objects
+	InitDevices c
+	InitPackages c
+	InitObjects c
+
+	' If we are logging data, then open the datafile
+	If CLng(c.GetAttrib("Subject")) <> 0 Then
+		c.DataFile.Open
+		c.LogHeader
+	End If
+
+	' Start the running of the Experiment
+	SessionProc.Run c
+
+	' Clean up the context and close the datafile
+	If CLng(c.GetAttrib("Subject")) <> 0 Then
+		c.DataFile.Close
+		' Attempt to convert the recovery file into a data file
+		Dim nConvert As Long
+		nConvert = c.DataFile.Convert(ebProgressSimple)
+		If nConvert = 0 Then
+			' Settings in E-Studio are set to not remove E-Recovery file
+		Else
+			' The datafile failed to convert!
+			MsgBox "ERROR: The datafile did not convert!\nFILE: " & c.DataFile.Filename & "\n\nIt is recommended that you recover your data with the E-Recovery utility"
+			MsgBox c.DataFile.GetLastErrorMessage()
+		End If
+	End If
+ExperimentFinish:
+
+	UnInitObjects
+
+	UnInitPackages
+	UnInitDevices
+
+ExperimentAbort:
+
+	' Clean up the context
+	c.PopFrame
+	Set c = Nothing
+	Set ebContext = Nothing
+
+	DestroyDefaultPort
+
+End Sub

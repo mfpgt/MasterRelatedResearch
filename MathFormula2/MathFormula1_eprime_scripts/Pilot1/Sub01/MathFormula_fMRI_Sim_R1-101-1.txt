@@ -1,0 +1,45 @@
+*** Header Start ***
+VersionPersist: 1
+LevelName: Session
+LevelName: Block
+LevelName: Trial
+LevelName: SubTrial
+LevelName: LogLevel5
+LevelName: LogLevel6
+LevelName: LogLevel7
+LevelName: LogLevel8
+LevelName: LogLevel9
+LevelName: LogLevel10
+Experiment: MathFormula_fMRI_Sim_R1
+SessionDate: 06-15-2009
+SessionTime: 09:47:57
+RandomSeed: -1916070387
+Group: 1
+Subject: 101
+Session: 1
+Name: 
+Age: 0
+Sex: male
+Handedness: left
+ResearcherID: 1
+Display.RefreshRate: 60.027
+*** Header End ***
+Level: 1
+*** LogFrame Start ***
+Experiment: MathFormula_fMRI_Sim_R1
+SessionDate: 06-15-2009
+SessionTime: 09:47:57
+RandomSeed: -1916070387
+Group: 1
+Subject: 101
+Session: 1
+Name: 
+Age: 0
+Sex: male
+Handedness: left
+ResearcherID: 1
+Display.RefreshRate: 60.027
+TaskInstructions.OnsetDelay: 42
+TaskInstructions.OnsetTime: 8076
+TaskInstructions.DurationError: -999999
+*** LogFrame End ***

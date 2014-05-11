@@ -1,0 +1,26 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Sat Jan 04 2014 18:28:06
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-58-generic', '#88-Ubuntu SMP Tue Dec 3 17:37:58 UTC 2013', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+3673,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+3673,design,logged,
+3673,Experiment,started
+3674,Stimulus,presented,0
+4176,Stimulus,presented,1
+5177,Stimulus,presented,0
+5678,Stimulus,presented,2
+6679,Stimulus,presented,0
+7180,Stimulus,presented,3
+8181,Stimulus,presented,0
+8682,Stimulus,presented,4
+9683,Experiment,ended
+9686,Stimulus,presented,5
+667847,stdout,received,'*** DEVELOP MODE ***'
+667857,stdout,received,'Warning: OpenGL does not support window mode. OpenGL will be deactivated!'

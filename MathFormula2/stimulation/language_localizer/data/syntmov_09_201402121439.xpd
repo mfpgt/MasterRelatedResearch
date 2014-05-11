@@ -1,0 +1,16 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpd-file
+#date: Wed Feb 12 2014 14:39:47
+#--EXPERIMENT INFO
+#e mainfile: syntmov.py
+#e Experiment: 'First Experiment'
+#e no between subject factors
+#e Block 0: block1
+#e     block factors: 
+#e     n trials: 117
+#e     trial factors:
+#--SUBJECT INFO
+#s id: 9
+subject_id,onset,targetonset,cond,stim,resp
+9,5236,4709,11_Unacc_Decl_NP_Cl1_2Arg_loc,Tu y circules.,0
+9,9273,8735,10_Unacc_Qinv_NP_V_2Arg_loc,Affleure-t-elle là?,116
+9,14011,13472,14_Unacc_Q_NP_Wh_2Arg_loc,Où tu circules?,106

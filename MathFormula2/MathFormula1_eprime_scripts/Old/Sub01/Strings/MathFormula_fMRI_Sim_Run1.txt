@@ -1,0 +1,184 @@
+Weight	Nested	Procedure	Stim	BranchSide	Duration	Type
+1		TrialProc	-+2}1)3+4({	R	2	level1
+1		TrialProc	1}4+)2({+3-	B	2	level0
+1		TrialProc		N	2	NULL
+1		TrialProc	2+-4)}3+{1(	B	2	level0
+1		TrialProc		N	2	NULL
+1		TrialProc	1{)2-+4(+}3	B	2	level0
+1		TrialProc	2+}4+(1-3){	R	2	level2
+1		TrialProc	2-{1+(3+4)}	R	2	level3
+1		TrialProc		N	1	NULL
+1		TrialProc	2-{+}4)+1(3	B	2	level0
+1		TrialProc	4)2+1(-+}{3	L	2	level1
+1		TrialProc	1)4-3(+{}2+	L	2	level1
+1		TrialProc		N	1	NULL
+1		TrialProc	{(3+1)+2}-4	L	2	level3
+1		TrialProc	3)-+4}1{(+2	B	2	level0
+1		TrialProc		N	1	NULL
+1		TrialProc	2)3+1({}4-+	L	2	level1
+1		TrialProc		N	1	NULL
+1		TrialProc	2+{}-)1+3(4	R	2	level1
+1		TrialProc	###########	N	2	target
+1		TrialProc		N	1	NULL
+1		TrialProc	+4}1-(3+2){	R	2	level2
+1		TrialProc	3)1+4(-+2}{	L	2	level1
+1		TrialProc	###########	N	2	target
+1		TrialProc		N	1	NULL
+1		TrialProc	)2}1{+4+(3-	B	2	level0
+1		TrialProc	)+3}+-1(2{4	B	2	level0
+1		TrialProc	2-}4+(1+3){	R	2	level2
+1		TrialProc	1)2}{+4+(-3	B	2	level0
+1		TrialProc		N	1	NULL
+1		TrialProc	2-+}3)1+4({	R	2	level1
+1		TrialProc		N	1	NULL
+1		TrialProc	2-{4+(1+3)}	R	2	level3
+1		TrialProc	###########	N	2	target
+1		TrialProc	3-{+})1+2(4	R	2	level1
+1		TrialProc	4-{3+(1+2)}	R	2	level3
+1		TrialProc	1+}+2-{)4(3	B	2	level0
+1		TrialProc	}-3{+)2+1(4	R	2	level1
+1		TrialProc	{(1-3)+2}+4	L	2	level3
+1		TrialProc	{(1+4)+2}-3	L	2	level3
+1		TrialProc		N	2	NULL
+1		TrialProc	4)2+1(+}3{-	L	2	level1
+1		TrialProc	3+{2+(4-1)}	R	2	level3
+1		TrialProc		N	1	NULL
+1		TrialProc	})3-2(+4{1+	L	2	level1
+1		TrialProc	}(3-1)+2{4+	L	2	level2
+1		TrialProc		N	3	NULL
+1		TrialProc	-4}3+(2+1){	R	2	level2
+1		TrialProc	2+-1})3+{4(	B	2	level0
+1		TrialProc	1+-2{+})3(4	B	2	level0
+1		TrialProc		N	1	NULL
+1		TrialProc	###########	N	2	target
+1		TrialProc	2)1+4({-}+3	L	2	level1
+1		TrialProc		N	1	NULL
+1		TrialProc	}(1+2)+3{4-	L	2	level2
+1		TrialProc	4+)1+-3}(2{	B	2	level0
+1		TrialProc		N	1	NULL
+1		TrialProc	}(4-1)+3{2+	L	2	level2
+1		TrialProc	}(1+4)+3{2-	L	2	level2
+1		TrialProc	)3}4-{1+(+2	B	2	level0
+1		TrialProc	4-}3+(1+2){	R	2	level2
+1		TrialProc		N	3	NULL
+1		TrialProc	}-2+)1{4(+3	B	2	level0
+1		TrialProc	2-}1+(3+4){	R	2	level2
+1		TrialProc	2)1-3(+}4{+	L	2	level1
+1		TrialProc		N	3	NULL
+1		TrialProc	+4}1)-3(+{2	B	2	level0
+1		TrialProc	-3{+})2+1(4	R	2	level1
+1		TrialProc	-+{}4)2+1(3	R	2	level1
+1		TrialProc	1+{4+(2-3)}	R	2	level3
+1		TrialProc	3-{4+(2+1)}	R	2	level3
+1		TrialProc		N	1	NULL
+1		TrialProc	-4+}3)2+(1{	B	2	level0
+1		TrialProc	3-}4+(2+1){	R	2	level2
+1		TrialProc	+3+}{)4-1(2	R	2	level1
+1		TrialProc	})4-2(+1{3+	L	2	level1
+1		TrialProc	+)1}2+(4{3-	B	2	level0
+1		TrialProc		N	1	NULL
+1		TrialProc	{(4-2)+3}+1	L	2	level3
+1		TrialProc		N	4	NULL
+1		TrialProc	4+}3-(2+1){	R	2	level2
+1		TrialProc	{}+1+)2-4(3	R	2	level1
+1		TrialProc	+3}2+(4-1){	R	2	level2
+1		TrialProc		N	2	NULL
+1		TrialProc	2-+1}4){(+3	B	2	level0
+1		TrialProc	2-}3+(1+4){	R	2	level2
+1		TrialProc	1+)3+-2({}4	B	2	level0
+1		TrialProc	1+-2)4{+(}3	B	2	level0
+1		TrialProc		N	1	NULL
+1		TrialProc	###########	N	2	target
+1		TrialProc		N	2	NULL
+1		TrialProc	}(1+4)+2{-3	L	2	level2
+1		TrialProc		N	1	NULL
+1		TrialProc	+}{4-)3+2(1	R	2	level1
+1		TrialProc	}(1-3)+2{4+	L	2	level2
+1		TrialProc	-4}1+(2+3){	R	2	level2
+1		TrialProc	}(4-2)+3{1+	L	2	level2
+1		TrialProc	{(3-2)+4}+1	L	2	level3
+1		TrialProc	}(3+1)+4{2-	L	2	level2
+1		TrialProc		N	1	NULL
+1		TrialProc	###########	N	2	target
+1		TrialProc	4})1(3{+-+2	B	2	level0
+1		TrialProc	(4+}3+-1{)2	B	2	level0
+1		TrialProc	{(4-1)+3}+2	L	2	level3
+1		TrialProc	+1}4+(2-3){	R	2	level2
+1		TrialProc	4-{3+(2+1)}	R	2	level3
+1		TrialProc		N	1	NULL
+1		TrialProc	+4}3+(1-2){	R	2	level2
+1		TrialProc	+)2-}1+(3{4	B	2	level0
+1		TrialProc	{(3-1)+2}+4	L	2	level3
+1		TrialProc	+1+)4}3-({2	B	2	level0
+1		TrialProc		N	1	NULL
+1		TrialProc	3)1+2(}{4-+	L	2	level1
+1		TrialProc		N	1	NULL
+1		TrialProc	{(4-3)+1}+2	L	2	level3
+1		TrialProc		N	1	NULL
+1		TrialProc	}(3+4)-2{+1	L	2	level2
+1		TrialProc	{(1+4)+3}-2	L	2	level3
+1		TrialProc	-3}2+(1+4){	R	2	level2
+1		TrialProc	3-{2+(1+4)}	R	2	level3
+1		TrialProc	###########	N	2	target
+1		TrialProc		N	1	NULL
+1		TrialProc	4+{1-(3+2)}	R	2	level3
+1		TrialProc	)4}3{-+2+(1	B	2	level0
+1		TrialProc		N	1	NULL
+1		TrialProc	###########	N	2	target
+1		TrialProc		N	2	NULL
+1		TrialProc	}(4+2)-3{+1	L	2	level2
+1		TrialProc	4}1)+3{+2(-	B	2	level0
+1		TrialProc	+{}1+)2-3(4	R	2	level1
+1		TrialProc		N	2	NULL
+1		TrialProc	+4+{})1-2(3	R	2	level1
+1		TrialProc	1+}3+(2-4){	R	2	level2
+1		TrialProc		N	1	NULL
+1		TrialProc	{(2+1)-4}+3	L	2	level3
+1		TrialProc	2+}1-)3(+{4	B	2	level0
+1		TrialProc	}(2+1)+3{4-	L	2	level2
+1		TrialProc	###########	N	2	target
+1		TrialProc	4+{}1)(3+-2	B	2	level0
+1		TrialProc	2){-+4+}1(3	B	2	level0
+1		TrialProc	{(3+4)-2}+1	L	2	level3
+1		TrialProc	###########	N	2	target
+1		TrialProc	2)3-1(+{+}4	L	2	level1
+1		TrialProc		N	2	NULL
+1		TrialProc	4+{3+(1-2)}	R	2	level3
+1		TrialProc		N	1	NULL
+1		TrialProc	-4{}1)2+3(+	R	2	level1
+1		TrialProc	}(3-2)+4{1+	L	2	level2
+1		TrialProc	{(1+2)+3}-4	L	2	level3
+1		TrialProc	2+{4+(1-3)}	R	2	level3
+1		TrialProc	+2}4+)1-3({	R	2	level1
+1		TrialProc	###########	N	2	target
+1		TrialProc		N	1	NULL
+1		TrialProc	2-{3+(1+4)}	R	2	level3
+1		TrialProc	4-{1+(2+3)}	R	2	level3
+1		TrialProc		N	1	NULL
+1		TrialProc	4+{3-(2+1)}	R	2	level3
+1		TrialProc		N	1	NULL
+1		TrialProc	###########	N	2	target
+1		TrialProc		N	1	NULL
+1		TrialProc	1)4+2(-}+3{	L	2	level1
+1		TrialProc	###########	N	2	target
+1		TrialProc		N	1	NULL
+1		TrialProc	}+2{-)1+4(3	R	2	level1
+1		TrialProc		N	1	NULL
+1		TrialProc	2)3+4(}{1+-	L	2	level1
+1		TrialProc	}(2+1)-4{+3	L	2	level2
+1		TrialProc		N	1	NULL
+1		TrialProc	4)3+1(-}+2{	L	2	level1
+1		TrialProc	3+}2{)1(4-+	B	2	level0
+1		TrialProc	###########	N	2	target
+1		TrialProc	{(2+1)+3}-4	L	2	level3
+1		TrialProc	}(4-3)+1{+2	L	2	level2
+1		TrialProc		N	1	NULL
+1		TrialProc	###########	N	2	target
+1		TrialProc	{(3+1)+4}-2	L	2	level3
+1		TrialProc		N	1	NULL
+1		TrialProc	1+{3+(2-4)}	R	2	level3
+1		TrialProc	}(3+1)+2{4-	L	2	level2
+1		TrialProc		N	1	NULL
+1		TrialProc	{(4+2)-3}+1	L	2	level3
+1		TrialProc		N	2	NULL
+1		TrialProc	2)4-1(}+{+3	L	2	level1

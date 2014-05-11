@@ -1,0 +1,17 @@
+[Object0]
+Name=GoodBye
+WindowState=0
+Left=88
+Top=88
+Width=459
+Height=188
+[Object1]
+Name=waitforscannerTTL
+WindowState=0
+Left=66
+Top=66
+Width=459
+Height=188
+[Object2]
+Name=Fixation
+WindowState=2

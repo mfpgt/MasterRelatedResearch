@@ -1,0 +1,81 @@
+#Expyriment 0.6.4 (Revision ff39d2489a7e; Python 2.7.3), .xpe-file
+#date: Mon Mar 31 2014 16:49:48
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is147103', '3.2.0-58-generic', '#88-Ubuntu SMP Tue Dec 3 17:37:58 UTC 2013', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+197,stdout,received,"['log(c)-y', 'sin(x)+z', '50']"
+198,stdout,received,"['c-tan(y)', 'sin(x)+z', '50']"
+199,stdout,received,"['tan(a-b)', 'sin(x)+z', '50']"
+200,stdout,received,"['x+tan(a))', 'z^sin(b))', '50']"
+201,stdout,received,"['log(a)-x', 'z^sin(b))', '50']"
+202,stdout,received,"['log(c+x)', 'z^sin(b))', '50']"
+203,stdout,received,"['log(z^x)', 'sin(a-b)', '50']"
+204,stdout,received,"['y*tan(c)', 'sin(a-b)', '50']"
+205,stdout,received,"['cos(z)+y', 'sin(a-b)', '50']"
+206,stdout,received,"['log(z)', 'tan(c)', '50']"
+207,stdout,received,"['(y+x)', 'tan(c)', '50']"
+208,stdout,received,"['(z-x)', '(c+a)', '50']"
+209,stdout,received,"['cos(x)', '(c+a)', '50']"
+210,stdout,received,"['cos(z)+x', 'y)sin^a(', '50']"
+211,stdout,received,"['b*log(x)', 'y)sin^a(', '50']"
+212,stdout,received,"['cos(c+x)', 'y)sin^a(', '50']"
+213,stdout,received,"['(b+a)', 'c)(sin', '50']"
+214,stdout,received,"['sin(x)', 'b)c(-', '50']"
+3193,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 0,0,5,5
+#design: 0,0,6,6
+#design: 0,0,7,7
+#design: 0,0,8,8
+#design: 0,0,9,9
+#design: 0,0,10,10
+#design: 0,0,11,11
+#design: 0,0,12,12
+#design: 0,0,13,13
+#design: 0,0,14,14
+#design: 0,0,15,15
+#design: 0,0,16,16
+#design: 0,0,17,17
+3193,design,logged,
+3193,Experiment,started
+3197,Stimulus,presented,37
+4329,Keyboard,received,s,wait_char
+4330,Stimulus,presented,0
+4833,Stimulus,presented,2
+4986,Stimulus,presented,1
+8189,stdout,received,'[]'
+8189,Stimulus,presented,0
+8691,Stimulus,presented,4
+8844,Stimulus,presented,3
+12046,stdout,received,'[]'
+12046,Stimulus,presented,0
+12548,Stimulus,presented,6
+12701,Stimulus,presented,5
+15904,stdout,received,'[]'
+15904,Stimulus,presented,0
+16406,Stimulus,presented,8
+16560,Stimulus,presented,7
+19762,stdout,received,'[]'
+19762,Stimulus,presented,0
+20263,Stimulus,presented,10
+20415,Stimulus,presented,9
+23618,stdout,received,'[]'
+23618,Stimulus,presented,0
+24121,Stimulus,presented,12
+24275,Stimulus,presented,11
+27477,stdout,received,'[]'
+27477,Stimulus,presented,0
+27979,Stimulus,presented,14
+28131,Stimulus,presented,13
+28217,stderr,received,'Traceback (most recent call last):'
+28217,stderr,received,'  File "display_strings_ordered.py", line 100, in <module>'
+28217,stderr,received,'    exp.clock.wait(targettime)'
+28217,stderr,received,'  File "/usr/local/lib/python2.7/dist-packages/expyriment/misc/_clock.py", line 115, in wait'
+28217,stderr,received,'    while (self.time < start + waiting_time):'
+28217,stderr,received,'KeyboardInterrupt'

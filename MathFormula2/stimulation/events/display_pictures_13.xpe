@@ -1,0 +1,418 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Fri Mar 28 2014 19:04:34
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-60-generic', '#91-Ubuntu SMP Wed Feb 19 03:54:44 UTC 2014', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+306,Picture,loaded,forMathfonts/img144.png
+307,Picture,loaded,forMathfonts/img68.png
+308,Picture,loaded,forMathfonts/img41.png
+308,Picture,loaded,forMathfonts/img111.png
+309,Picture,loaded,forMathfonts/img103.png
+309,Picture,loaded,forMathfonts/img72.png
+310,Picture,loaded,forMathfonts/img48.png
+311,Picture,loaded,forMathfonts/img47.png
+311,Picture,loaded,forMathfonts/img24.png
+312,Picture,loaded,forMathfonts/img40.png
+312,Picture,loaded,forMathfonts/img133.png
+313,Picture,loaded,forMathfonts/img62.png
+313,Picture,loaded,forMathfonts/img44.png
+314,Picture,loaded,forMathfonts/img11.png
+314,Picture,loaded,forMathfonts/img46.png
+315,Picture,loaded,forMathfonts/img77.png
+315,Picture,loaded,forMathfonts/img40.png
+316,Picture,loaded,forMathfonts/img118.png
+316,Picture,loaded,forMathfonts/img100.png
+317,Picture,loaded,forMathfonts/img76.png
+317,Picture,loaded,forMathfonts/img51.png
+318,Picture,loaded,forMathfonts/img101.png
+318,Picture,loaded,forMathfonts/img78.png
+319,Picture,loaded,forMathfonts/img84.png
+319,Picture,loaded,forMathfonts/img93.png
+320,Picture,loaded,forMathfonts/img106.png
+321,Picture,loaded,forMathfonts/img40.png
+321,Picture,loaded,forMathfonts/img63.png
+322,Picture,loaded,forMathfonts/img40.png
+322,Picture,loaded,forMathfonts/img112.png
+323,Picture,loaded,forMathfonts/img98.png
+323,Picture,loaded,forMathfonts/img66.png
+324,Picture,loaded,forMathfonts/img136.png
+324,Picture,loaded,forMathfonts/img45.png
+324,Picture,loaded,forMathfonts/img83.png
+325,Picture,loaded,forMathfonts/img131.png
+325,Picture,loaded,forMathfonts/img57.png
+325,Picture,loaded,forMathfonts/img16.png
+325,Picture,loaded,forMathfonts/img22.png
+325,Picture,loaded,forMathfonts/img90.png
+326,Picture,loaded,forMathfonts/img35.png
+326,Picture,loaded,forMathfonts/img10.png
+326,Picture,loaded,forMathfonts/img43.png
+326,Picture,loaded,forMathfonts/img140.png
+327,Picture,loaded,forMathfonts/img50.png
+327,Picture,loaded,forMathfonts/img13.png
+327,Picture,loaded,forMathfonts/img25.png
+327,Picture,loaded,forMathfonts/img15.png
+327,Picture,loaded,forMathfonts/img87.png
+328,Picture,loaded,forMathfonts/img17.png
+328,Picture,loaded,forMathfonts/img143.png
+328,Picture,loaded,forMathfonts/img12.png
+328,Picture,loaded,forMathfonts/img33.png
+329,Picture,loaded,forMathfonts/img128.png
+329,Picture,loaded,forMathfonts/img146.png
+329,Picture,loaded,forMathfonts/img81.png
+329,Picture,loaded,forMathfonts/img9.png
+329,Picture,loaded,forMathfonts/img71.png
+330,Picture,loaded,forMathfonts/img102.png
+330,Picture,loaded,forMathfonts/img96.png
+330,Picture,loaded,forMathfonts/img1.png
+330,Picture,loaded,forMathfonts/img61.png
+331,Picture,loaded,forMathfonts/img91.png
+331,Picture,loaded,forMathfonts/img37.png
+331,Picture,loaded,forMathfonts/img141.png
+331,Picture,loaded,forMathfonts/img2.png
+332,Picture,loaded,forMathfonts/img82.png
+332,Picture,loaded,forMathfonts/img65.png
+332,Picture,loaded,forMathfonts/img39.png
+332,Picture,loaded,forMathfonts/img69.png
+333,Picture,loaded,forMathfonts/img14.png
+333,Picture,loaded,forMathfonts/img145.png
+333,Picture,loaded,forMathfonts/img23.png
+333,Picture,loaded,forMathfonts/img36.png
+334,Picture,loaded,forMathfonts/img54.png
+334,Picture,loaded,forMathfonts/img45.png
+334,Picture,loaded,forMathfonts/img96.png
+334,Picture,loaded,forMathfonts/img3.png
+335,Picture,loaded,forMathfonts/img21.png
+335,Picture,loaded,forMathfonts/img23.png
+335,Picture,loaded,forMathfonts/img40.png
+335,Picture,loaded,forMathfonts/img35.png
+336,Picture,loaded,forMathfonts/img58.png
+336,Picture,loaded,forMathfonts/img123.png
+336,Picture,loaded,forMathfonts/img107.png
+336,Picture,loaded,forMathfonts/img49.png
+337,Picture,loaded,forMathfonts/img31.png
+337,Picture,loaded,forMathfonts/img10.png
+337,Picture,loaded,forMathfonts/img53.png
+337,Picture,loaded,forMathfonts/img18.png
+337,Picture,loaded,forMathfonts/img6.png
+338,Picture,loaded,forMathfonts/img132.png
+338,Picture,loaded,forMathfonts/img121.png
+338,Picture,loaded,forMathfonts/img148.png
+338,Picture,loaded,forMathfonts/img8.png
+339,Picture,loaded,forMathfonts/img117.png
+339,Picture,loaded,forMathfonts/img70.png
+339,Picture,loaded,forMathfonts/img120.png
+340,Picture,loaded,forMathfonts/img86.png
+340,Picture,loaded,forMathfonts/img136.png
+340,Picture,loaded,forMathfonts/img79.png
+340,Picture,loaded,forMathfonts/img99.png
+341,Picture,loaded,forMathfonts/img67.png
+341,Picture,loaded,forMathfonts/img73.png
+341,Picture,loaded,forMathfonts/img19.png
+341,Picture,loaded,forMathfonts/img37.png
+341,Picture,loaded,forMathfonts/img38.png
+342,Picture,loaded,forMathfonts/img43.png
+342,Picture,loaded,forMathfonts/img85.png
+342,Picture,loaded,forMathfonts/img27.png
+342,Picture,loaded,forMathfonts/img34.png
+343,Picture,loaded,forMathfonts/img60.png
+343,Picture,loaded,forMathfonts/img116.png
+343,Picture,loaded,forMathfonts/img88.png
+343,Picture,loaded,forMathfonts/img29.png
+344,Picture,loaded,forMathfonts/img94.png
+344,Picture,loaded,forMathfonts/img55.png
+344,Picture,loaded,forMathfonts/img80.png
+344,Picture,loaded,forMathfonts/img41.png
+345,Picture,loaded,forMathfonts/img105.png
+345,Picture,loaded,forMathfonts/img92.png
+345,Picture,loaded,forMathfonts/img115.png
+345,Picture,loaded,forMathfonts/img97.png
+346,Picture,loaded,forMathfonts/img62.png
+346,Picture,loaded,forMathfonts/img119.png
+346,Picture,loaded,forMathfonts/img16.png
+346,Picture,loaded,forMathfonts/img124.png
+346,Picture,loaded,forMathfonts/img11.png
+347,Picture,loaded,forMathfonts/img7.png
+347,Picture,loaded,forMathfonts/img104.png
+347,Picture,loaded,forMathfonts/img46.png
+347,Picture,loaded,forMathfonts/img127.png
+348,Picture,loaded,forMathfonts/img139.png
+348,Picture,loaded,forMathfonts/img40.png
+348,Picture,loaded,forMathfonts/img48.png
+348,Picture,loaded,forMathfonts/img41.png
+349,Picture,loaded,forMathfonts/img64.png
+349,Picture,loaded,forMathfonts/img38.png
+349,Picture,loaded,forMathfonts/img61.png
+349,Picture,loaded,forMathfonts/img114.png
+350,Picture,loaded,forMathfonts/img35.png
+350,Picture,loaded,forMathfonts/img5.png
+350,Picture,loaded,forMathfonts/img142.png
+350,Picture,loaded,forMathfonts/img26.png
+350,Picture,loaded,forMathfonts/img120.png
+351,Picture,loaded,forMathfonts/img137.png
+351,Picture,loaded,forMathfonts/img49.png
+351,Picture,loaded,forMathfonts/img67.png
+351,Picture,loaded,forMathfonts/img59.png
+352,Picture,loaded,forMathfonts/img129.png
+352,Picture,loaded,forMathfonts/img135.png
+352,Picture,loaded,forMathfonts/img110.png
+352,Picture,loaded,forMathfonts/img147.png
+353,Picture,loaded,forMathfonts/img37.png
+353,Picture,loaded,forMathfonts/img38.png
+353,Picture,loaded,forMathfonts/img138.png
+353,Picture,loaded,forMathfonts/img42.png
+353,Picture,loaded,forMathfonts/img126.png
+354,Picture,loaded,forMathfonts/img20.png
+354,Picture,loaded,forMathfonts/img95.png
+354,Picture,loaded,forMathfonts/img4.png
+354,Picture,loaded,forMathfonts/img109.png
+355,Picture,loaded,forMathfonts/img130.png
+355,Picture,loaded,forMathfonts/img9.png
+355,Picture,loaded,forMathfonts/img8.png
+355,Picture,loaded,forMathfonts/img75.png
+356,Picture,loaded,forMathfonts/img30.png
+356,Picture,loaded,forMathfonts/img56.png
+356,Picture,loaded,forMathfonts/img113.png
+357,Picture,loaded,forMathfonts/img134.png
+357,Picture,loaded,forMathfonts/img32.png
+357,Picture,loaded,forMathfonts/img74.png
+357,Picture,loaded,forMathfonts/img89.png
+358,Picture,loaded,forMathfonts/img122.png
+358,Picture,loaded,forMathfonts/img43.png
+358,Picture,loaded,forMathfonts/img48.png
+358,Picture,loaded,forMathfonts/img108.png
+358,Picture,loaded,forMathfonts/img52.png
+359,Picture,loaded,forMathfonts/img28.png
+359,Picture,loaded,forMathfonts/img125.png
+3169,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 0,0,5,5
+#design: 0,0,6,6
+#design: 0,0,7,7
+#design: 0,0,8,8
+#design: 0,0,9,9
+#design: 0,0,10,10
+#design: 0,0,11,11
+#design: 0,0,12,12
+#design: 0,0,13,13
+#design: 0,0,14,14
+#design: 0,0,15,15
+#design: 0,0,16,16
+#design: 0,0,17,17
+#design: 0,0,18,18
+#design: 0,0,19,19
+#design: 0,0,20,20
+#design: 0,0,21,21
+#design: 0,0,22,22
+#design: 0,0,23,23
+#design: 0,0,24,24
+#design: 0,0,25,25
+#design: 0,0,26,26
+#design: 0,0,27,27
+#design: 0,0,28,28
+#design: 0,0,29,29
+#design: 0,0,30,30
+#design: 0,0,31,31
+#design: 0,0,32,32
+#design: 0,0,33,33
+#design: 0,0,34,34
+#design: 0,0,35,35
+#design: 0,0,36,36
+#design: 0,0,37,37
+#design: 0,0,38,38
+#design: 0,0,39,39
+#design: 0,0,40,40
+#design: 0,0,41,41
+#design: 0,0,42,42
+#design: 0,0,43,43
+#design: 0,0,44,44
+#design: 0,0,45,45
+#design: 0,0,46,46
+#design: 0,0,47,47
+#design: 0,0,48,48
+#design: 0,0,49,49
+#design: 0,0,50,50
+#design: 0,0,51,51
+#design: 0,0,52,52
+#design: 0,0,53,53
+#design: 0,0,54,54
+#design: 0,0,55,55
+#design: 0,0,56,56
+#design: 0,0,57,57
+#design: 0,0,58,58
+#design: 0,0,59,59
+#design: 0,0,60,60
+#design: 0,0,61,61
+#design: 0,0,62,62
+#design: 0,0,63,63
+#design: 0,0,64,64
+#design: 0,0,65,65
+#design: 0,0,66,66
+#design: 0,0,67,67
+#design: 0,0,68,68
+#design: 0,0,69,69
+#design: 0,0,70,70
+#design: 0,0,71,71
+#design: 0,0,72,72
+#design: 0,0,73,73
+#design: 0,0,74,74
+#design: 0,0,75,75
+#design: 0,0,76,76
+#design: 0,0,77,77
+#design: 0,0,78,78
+#design: 0,0,79,79
+#design: 0,0,80,80
+#design: 0,0,81,81
+#design: 0,0,82,82
+#design: 0,0,83,83
+#design: 0,0,84,84
+#design: 0,0,85,85
+#design: 0,0,86,86
+#design: 0,0,87,87
+#design: 0,0,88,88
+#design: 0,0,89,89
+#design: 0,0,90,90
+#design: 0,0,91,91
+#design: 0,0,92,92
+#design: 0,0,93,93
+#design: 0,0,94,94
+#design: 0,0,95,95
+#design: 0,0,96,96
+#design: 0,0,97,97
+#design: 0,0,98,98
+#design: 0,0,99,99
+#design: 0,0,100,100
+#design: 0,0,101,101
+#design: 0,0,102,102
+#design: 0,0,103,103
+#design: 0,0,104,104
+#design: 0,0,105,105
+#design: 0,0,106,106
+#design: 0,0,107,107
+#design: 0,0,108,108
+#design: 0,0,109,109
+#design: 0,0,110,110
+#design: 0,0,111,111
+#design: 0,0,112,112
+#design: 0,0,113,113
+#design: 0,0,114,114
+#design: 0,0,115,115
+#design: 0,0,116,116
+#design: 0,0,117,117
+#design: 0,0,118,118
+#design: 0,0,119,119
+#design: 0,0,120,120
+#design: 0,0,121,121
+#design: 0,0,122,122
+#design: 0,0,123,123
+#design: 0,0,124,124
+#design: 0,0,125,125
+#design: 0,0,126,126
+#design: 0,0,127,127
+#design: 0,0,128,128
+#design: 0,0,129,129
+#design: 0,0,130,130
+#design: 0,0,131,131
+#design: 0,0,132,132
+#design: 0,0,133,133
+#design: 0,0,134,134
+#design: 0,0,135,135
+#design: 0,0,136,136
+#design: 0,0,137,137
+#design: 0,0,138,138
+#design: 0,0,139,139
+#design: 0,0,140,140
+#design: 0,0,141,141
+#design: 0,0,142,142
+#design: 0,0,143,143
+#design: 0,0,144,144
+#design: 0,0,145,145
+#design: 0,0,146,146
+#design: 0,0,147,147
+#design: 0,0,148,148
+#design: 0,0,149,149
+#design: 0,0,150,150
+#design: 0,0,151,151
+#design: 0,0,152,152
+#design: 0,0,153,153
+#design: 0,0,154,154
+#design: 0,0,155,155
+#design: 0,0,156,156
+#design: 0,0,157,157
+#design: 0,0,158,158
+#design: 0,0,159,159
+#design: 0,0,160,160
+#design: 0,0,161,161
+#design: 0,0,162,162
+#design: 0,0,163,163
+#design: 0,0,164,164
+#design: 0,0,165,165
+#design: 0,0,166,166
+#design: 0,0,167,167
+#design: 0,0,168,168
+#design: 0,0,169,169
+#design: 0,0,170,170
+#design: 0,0,171,171
+#design: 0,0,172,172
+#design: 0,0,173,173
+#design: 0,0,174,174
+#design: 0,0,175,175
+#design: 0,0,176,176
+#design: 0,0,177,177
+#design: 0,0,178,178
+#design: 0,0,179,179
+3171,design,logged,
+3171,Experiment,started
+3176,Stimulus,presented,181
+4673,Keyboard,received,s,wait_char
+4675,Stimulus,presented,0
+5176,Stimulus,presented,1
+8092,stdout,received,'[]'
+8092,Stimulus,presented,0
+8593,Stimulus,presented,2
+11680,stdout,received,'[]'
+11680,Stimulus,presented,0
+12181,Stimulus,presented,3
+15539,stdout,received,'[]'
+15539,Stimulus,presented,0
+16040,Stimulus,presented,4
+19402,stdout,received,'[]'
+19402,Stimulus,presented,0
+19903,Stimulus,presented,5
+22931,stdout,received,'[]'
+22931,Stimulus,presented,0
+23432,Stimulus,presented,6
+26216,stdout,received,'[]'
+26216,Stimulus,presented,0
+26717,Stimulus,presented,7
+29635,stdout,received,'[]'
+29635,Stimulus,presented,0
+30136,Stimulus,presented,8
+33130,stdout,received,'[]'
+33130,Stimulus,presented,0
+33631,Stimulus,presented,9
+36734,stdout,received,'[]'
+36734,Stimulus,presented,0
+37235,Stimulus,presented,10
+39824,stdout,received,'[]'
+39824,Stimulus,presented,0
+40325,Stimulus,presented,11
+43608,stdout,received,'[]'
+43608,Stimulus,presented,0
+44109,Stimulus,presented,12
+47586,stdout,received,'[]'
+47586,Stimulus,presented,0
+48087,Stimulus,presented,13
+51189,stdout,received,'[]'
+51189,Stimulus,presented,0
+51690,Stimulus,presented,14
+54265,Experiment,paused
+54266,Stimulus,presented,182
+55786,Keyboard,received,y,wait_char
+55786,Experiment,ended
+55793,Stimulus,presented,182

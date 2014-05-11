@@ -1,0 +1,63 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Wed Apr 02 2014 22:09:49
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-60-generic', '#91-Ubuntu SMP Wed Feb 19 03:54:44 UTC 2014', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+308,stdout,received,"['same', '3', '3', '    sin(a) * b', '   log(x) + y']"
+310,stdout,received,"['diff', '2', '3', '    sin(a * b)', '   log(x) + y']"
+311,stdout,received,"['diff', '1', '2', '    a * sin(b)', '   log(x + y)']"
+312,stdout,received,"['same', '7', '7', '    )x ( y+', '    )x ( y+']"
+314,stdout,received,"['same', '1', '1', '    x + tan(y)', '   a * sin(b)']"
+315,stdout,received,"['same', '8', '8', '   * a sin)b(', '  * a sin)b(']"
+316,stdout,received,"['diff', '3', '2', '    log(x) + y', '   sin(a * b)']"
+317,stdout,received,"['same', '7', '7', '    y )x (+', '    y )x (+  ']"
+319,stdout,received,"['same', '6', '6', '     x)(log', '   x)(log \\t ']"
+320,stdout,received,"['same', '6', '6', '     )x(log', '   )x(log']"
+322,stdout,received,"['same', '2', '2', '    sin(a * b)', '   log(x + y)     ']"
+322,stdout,received,"['diff', '2', '1', '    log(x + y)', '   a * sin(b)  ']"
+323,stdout,received,"['same', '1', '1', '    a * sin(b)', '   x + log(y)     ']"
+324,stdout,received,"['condition', 't1', 't2', 'prime', 'target']"
+325,stdout,received,"['same', '4', '4', '    sin(y)', '      log(x)']"
+326,stdout,received,"['same', '8', '8', '   log) xy (*', '  log) xy (*']"
+327,stdout,received,"['diff', '5', '4', '    (x + y)', '     log(x)        ']"
+328,stdout,received,"['same', '8', '8', '   x) log+ y(', '  x) log+ y(']"
+329,stdout,received,"['same', '8', '8', '   *sin )a( b', '  *sin )a( b']"
+330,stdout,received,"['diff', '4', '5', '    sin(a)', '    (x + y)       ']"
+330,stdout,received,"['same', '5', '5', '    (a * b)', '   (x + y)        ']"
+331,stdout,received,"['same', '2', '2', '    log(x * y)', '   sin(a * b)']"
+332,stdout,received,"['diff', '2', '1', '    sin(a * b)', '   x + log(y)      ']"
+1588,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 0,0,5,5
+#design: 0,0,6,6
+#design: 0,0,7,7
+#design: 0,0,8,8
+#design: 0,0,9,9
+#design: 0,0,10,10
+#design: 0,0,11,11
+#design: 0,0,12,12
+#design: 0,0,13,13
+#design: 0,0,14,14
+#design: 0,0,15,15
+#design: 0,0,16,16
+#design: 0,0,17,17
+#design: 0,0,18,18
+#design: 0,0,19,19
+#design: 0,0,20,20
+#design: 0,0,21,21
+#design: 0,0,22,22
+1589,design,logged,
+1589,Experiment,started
+1593,Stimulus,presented,47
+2510,Keyboard,received,s,wait_char
+2511,Stimulus,presented,0
+2513,stderr,received,'Traceback (most recent call last):'
+2513,stderr,received,'  File "display_strings_ordered.py", line 86, in <module>'
+2513,stderr,received,'    ISI = stimuli_time[counter]'
+2513,stderr,received,"NameError: name 'stimuli_time' is not defined"

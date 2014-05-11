@@ -1,0 +1,74 @@
+#Expyriment  (Revision ; Python 2.7.3), .xpe-file
+#date: Sat Jan 04 2014 20:49:33
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is146569', '3.2.0-58-generic', '#88-Ubuntu SMP Tue Dec 3 17:37:58 UTC 2013', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1444,design,log,
+#design: #exp: First Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 0,0,5,5
+#design: 0,0,6,6
+#design: 0,0,7,7
+#design: 0,0,8,8
+#design: 0,0,9,9
+#design: 0,0,10,10
+#design: 0,0,11,11
+#design: 0,0,12,12
+#design: 0,0,13,13
+#design: 0,0,14,14
+#design: 0,0,15,15
+#design: 0,0,16,16
+#design: 0,0,17,17
+#design: 0,0,18,18
+#design: 0,0,19,19
+1445,design,logged,
+1445,Experiment,started
+1449,Stimulus,presented,21
+2708,Keyboard,received,s,wait_char
+2709,Stimulus,presented,0
+3210,Stimulus,presented,1
+4211,Stimulus,presented,0
+4712,Stimulus,presented,2
+5713,Stimulus,presented,0
+6214,Stimulus,presented,3
+7215,Stimulus,presented,0
+7716,Stimulus,presented,4
+8717,Stimulus,presented,0
+9218,Stimulus,presented,5
+10219,Stimulus,presented,0
+10720,Stimulus,presented,6
+11721,Stimulus,presented,0
+12222,Stimulus,presented,7
+13223,Stimulus,presented,0
+13724,Stimulus,presented,8
+14725,Stimulus,presented,0
+15226,Stimulus,presented,9
+16227,Stimulus,presented,0
+16728,Stimulus,presented,10
+17729,Stimulus,presented,0
+18230,Stimulus,presented,11
+19231,Stimulus,presented,0
+19732,Stimulus,presented,12
+20733,Stimulus,presented,0
+21234,Stimulus,presented,13
+22235,Stimulus,presented,0
+22736,Stimulus,presented,14
+23737,Stimulus,presented,0
+24238,Stimulus,presented,15
+25239,Stimulus,presented,0
+25740,Stimulus,presented,16
+26741,Stimulus,presented,0
+27242,Stimulus,presented,17
+28243,Stimulus,presented,0
+28744,Stimulus,presented,18
+29746,Stimulus,presented,0
+30247,Stimulus,presented,19
+31248,Stimulus,presented,0
+31749,Stimulus,presented,20
+32754,Experiment,ended
+32757,Stimulus,presented,22

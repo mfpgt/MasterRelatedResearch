@@ -1,0 +1,23 @@
+#Expyriment 0.6.4 (Revision ff39d2489a7e; Python 2.7.3), .xpe-file
+#date: Mon Mar 31 2014 16:39:14
+#display: size=(800, 600), window_mode=True, opengl=False
+#os: ('Linux', 'is147103', '3.2.0-58-generic', '#88-Ubuntu SMP Tue Dec 3 17:37:58 UTC 2013', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+181,stdout,received,"['log(c)-y', 'sin(x)+z', '3000']"
+182,stdout,received,"['c-tan(y)', 'sin(x)+z', '3000']"
+183,stdout,received,"['tan(a-b)', 'sin(x)+z', '3000']"
+184,stdout,received,"['x+tan(a))', 'z^sin(b))', '3000']"
+185,stdout,received,"['log(a)-x', 'z^sin(b))', '3000']"
+186,stdout,received,"['log(c+x)', 'z^sin(b))', '3000']"
+187,stdout,received,"['log(z^x)', 'sin(a-b)', '3000']"
+188,stdout,received,"['y*tan(c)', 'sin(a-b)', '3000']"
+189,stdout,received,"['cos(z)+y', 'sin(a-b)', '3000']"
+189,stdout,received,"['log(z)', 'tan(c)', '3000']"
+190,stdout,received,"['(y+x)', 'tan(c)', '3000']"
+191,stdout,received,"['(z-x)', '(c+a)', '3000']"
+192,stdout,received,"['cos(x)', '(c+a)', '3000']"
+193,stdout,received,"['cos(z)+x', 'y)sin^a(', '3000']"
+194,stdout,received,"['b*log(x)', 'y)sin^a(', '3000']"
+195,stdout,received,"['cos(c+x)', 'y)sin^a(', '3000']"
+196,stdout,received,"['(b+a)', 'c)(sin', '3000']"
+197,stdout,received,"['sin(x)', 'b)c(-', '3000']"
