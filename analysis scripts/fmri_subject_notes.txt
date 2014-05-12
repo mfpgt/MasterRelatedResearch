@@ -1,0 +1,169 @@
+# Next loc: Run04 (then 06)
+# Resp: R: 3; L: 3
+
+# ------------------------------
+subject 	ap100009
+
+# 2/19/13 - 10:30-12:30
+# MEG first
+# Localizer - run 02
+# Reported not being able to see the center of the screen in first run, and so moved
+# 	- Not obvious on the images though
+
+rec_date	string	20130219
+anat_scan	string	2
+run_scans	cell	3 4 5 6
+loc_scan	string	7
+
+# Response right
+resp_type	string	right
+
+# Eyetracker seems ok, but calibration on edge dots was not good
+#	Was not actually ok during the runs
+eye_tracker	number	0
+
+# So no baseline…
+num_blinks	number	0
+num_eye_movements	number	0
+num_noise	number	0
+
+
+
+# ------------------------------
+subject 	sg120518
+
+# 2/12/13 - 4-6
+# fMRI first
+# Used Run05 for the localizer
+
+rec_date	string	20130212
+anat_scan	string	2
+run_scans	cell	3 4 5 6
+loc_scan	string	7
+
+resp_type		string	left
+
+# Eye tracker would not pick up eye
+#	- Coil was blocking
+eye_tracker	number	0
+
+# So no baseline…
+num_blinks	number	0
+num_eye_movements	number	0
+num_noise	number	0
+
+
+# ------------------------------
+subject 	cg120234
+
+# 2/11/13 - 9-11
+# fMRI first
+# Used Run03 for the localizer
+
+rec_date	string	20130211
+anat_scan	string	2
+run_scans	cell	3 4 5 6
+loc_scan	string	7
+
+# Left response 
+resp_type		string	left
+
+# eye tracker was not good on first run
+#	- Better on second
+#	- Not on third
+#	- Became sleepy towards end of last block
+#		- And through localizerâ€¦
+# So, for now, not using
+eye_tracker	number	0
+
+
+# ------------------------------
+subject 	sa130042
+
+# 2/4/13 - 9-11
+# fMRI second
+# Scan 4 restart (Technician started early)
+
+rec_date	string	20130204
+anat_scan	string	2
+run_scans	cell	3 4 5 6
+loc_scan	string	8
+
+resp_type		string	right
+
+# No eyetracking
+#	- Subject's eyes were not far enough outside the coil
+eye_tracker	number	0
+
+# Localizer restarted at least once
+#	 run without catch trials
+#		- Bug in response keys
+#	- Subject correctly reported that no responses were made though...
+num_localizer_catch_trials	number 	0
+
+# So no baseline…
+num_blinks	number	0
+num_eye_movements	number	0
+num_noise	number	0
+
+
+# ------------------------------
+subject 	rg110386
+
+# 1/29/13 - 14:15-16:15
+# fMRI first
+
+# Localizer stim / data file seems to be formatted wrongly
+#	Works on the Mac, though so just using the checked .mat file
+
+# Run 1: There was movement
+#	- Subject complained of not being able to see
+
+# Used Run1 for the localizer
+
+# NOTE: Run 2 crashed the first time because the eyetracker stopped recording
+
+# Run 2: Reported eyes tearing up
+
+# Nurse reported lots of movement
+
+rec_date	string	20130129
+anat_scan	string	2
+run_scans	cell	3 5 6 7
+loc_scan	string	8
+
+# Eye tracker would not pick up eye
+eye_tracker 	number	0
+
+#	- Right response in fMRI
+resp_type		string	right
+
+# These were different too
+localizer_catches	cell	cliquez	2	1	appuyez	8	2
+
+# So no baseline…
+num_blinks	number	0
+num_eye_movements	number	0
+num_noise	number	0
+
+
+# Pilot
+
+# ------------------------------
+subject 	hn120493
+
+# 1/14/13 - 2:30-4:30
+# fMRI first
+# Practice was good
+#	- Several errors however
+#	- Run under 'Test' subject, so copied over after the fact
+#	- Ran 18/30 trials
+# First run broke because TTL returns 'x' and so program was exited
+#	- Switched exit key to 'q' thereafter
+# Localizer crashed because no hm_ stim file was made
+#	- Renamed Test_stim file and ran 
+# Log/data files saved as 'hm' for fMRI
+# Eyetracker would not calibrate
+
+
+

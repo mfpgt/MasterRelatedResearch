@@ -1,0 +1,113 @@
+-----------------
+Setup needed to run the analysis
+
+* Matlab path:
+	- Needs to contain the analysis folder with the NM_*.m scripts
+		- Also the experiment folder with the NeuroMod_*.m scripts
+	- Also, needs to contain spm8
+
+* Files from the experiment (in the fMRI project folder):
+	- In the 'logs' folder, there should be a subject folder with:
+		* The _log.txt file from the experimental run (named NIP_log.txt)
+		* The _data.txt file from the experimental run (named NIP_data.txt)
+		 	- NOTE: These should be cleaned such that any trials from aborted runs are removed
+		* The .csv file used for the localizer
+			- Renamed to NIP_localizer_list.csv
+	- In the 'eye_tracking_data' folder, there should be a subject folder with:
+		* Converted .asc files for each .edf file
+			- They should be named NIP_run_#.asc and NIP_baseline.asc
+		* If the eye tracker did not work, then these are obviously not needed
+
+* fMRI_subject_notes.txt: Add a section for the subject with the following lines:
+	* subject	NIP
+	* rec_data	string	YYYYMMDD
+		- This allows the scripts to find the fMRI data files
+	* anat_scan	string	#
+		- The run number for the anatomical scan
+	* run_scans	string	# # # #
+		- The run numbers for the experimental runs
+	* loc_scan	string	#
+		- The run number for the localizer run
+	* resp_type	string	TYPE
+		- Where TYPE is 'right' or 'left' depending on the settings during the experiment
+	* NOTE: If the eye_tracker was not used (as was probably the case) add these lines as well:
+		- eye_tracker	number	0
+		- num_blinks	number	0
+		- num_eye_movements	number	0
+		- num_noise	number	0
+
+-----------------
+Proprocessing:
+
+* Variables: In matlab, set the following global variables before running the analysis
+	- GLA_fmri_dir: The directory of the fMRI project
+		- For now: '/Users/Doug/Documents/neurospin/fmri'
+	- GLA_subject: The subject NIP
+		- Corresponds to the folder names in the project directory and the fmri data
+	- GLA_rec_type: Set to 'fmri' (as opposed to 'meeg')
+
+* NM_Import_Data: This function should find the raw data from the fmri server and copy it into the 'fmri_data' subject folder, with the following structure:
+	- dcm2nii_script.sh: So far, I cannot get the dcm2nii script to run from matlab, so this must be done "manually"
+		- After the .dcm files have been copied matlab will prompt the user to run this script from the command line
+		- It will convert the copied .dcm files and leave behind only the following .nii files
+	- localizer folder: 
+		- NIP_anat.nii: The anatomical run
+		- NIP_loc.nii: The localizer run
+	- experiment folder: 
+		- NIP_anat.nii: The anatomical run
+		- NIP_run_#.nii: The experimental runs (1-4)
+
+* NM_Check_Files: This will parse the output of the experiment to make sure everything is in order.
+	- The results of the parsing will be stored in the global variable GLA_subject_data. This variable is then stored in the 'analysis' subject folder in the file NIP_subject_data.mat.
+		- In general, this will store what and when was displayed during the experiment, and how the subject responded.
+	- Also, this script should check the timing of the stimuli and store the results in 'analysis/NIP/NIP_timing_report.txt'
+
+* NM_PreprocessData: Will perform the preprocessing on the responses, eye tracking data (if present), and the fmri data
+	- Preprocessing the responses will mark behavioral outliers in the GLA_subject_data
+	- Proprocessing the fmri data will, for both the localizer and experiment:
+		- Create the design file (containing 'names','onsets', and 'durations') and save them in 'fmri_data/NIP/TYPE/NIP_design.mat'
+		- Create and run the preprocessing spm batch to realign, segment, etc. the fmri data
+			- The batch will be saved in 'fmri_data/NIP/TYPE/NIP_preprocess_batch.mat'
+			- This will result in the usual intermediary .nii files in the 'fmri_data/NIP/TYPE' folders
+
+* NM_PerformSanityChecks: Will produce the preliminary sanity checks for the data
+	- For the responses, this will produce a graph the RT distribution with the accuracy data displayed
+		- This graph will be saved in 'analysis/NIP/NIP_Behavioral_Sanity_Check.jpg'
+	- For the fMRI data, this will:
+		- Assess the movement during both the experiment and localizer and save the graphs to 'analysis/NIP/NIP_TYPE_movement_plot.jpg'
+		- Perform the first level analysis on the localizer data, which will:
+			- First create and run the design batch 
+				- The batch is saved to 'analysis/NIP/localizer/normal/NIP_localizer_design_batch.mat
+				- This will create the SPM.mat file and associated data files in the 'analysis/NIP/localizer/normal/' folder
+			- Then, create and run the contrasts batch
+				- The batch is saved to 'analysis/NIP/localizer/normal/NIP_localizer_contrasts_batch.mat
+				- The initial contrasts are:
+					- Finterest:
+					- setence-pseudo: The contrast between the sentence and pseudo word blocks
+					- setence+pseudo>0: The contrast between the experimental blocks and the baseline
+
+* The experiment can then be analyzed by:
+	- Setting the global variable GLA_fmri_type to 'experiment'
+	- Running NM_AnalyzefMRIData
+		- This will create the same design and contrast batches as for the localizer during the sanity checks
+		- The initial contrasts are:
+			- Finterest: 
+			- structure: All of the phrase conditions (levels 2-4) vs. the list conditions (2-4)
+			- linear_phrase: A linear contrast for the phrase conditions (1-4)
+			- linear_list: A linear contrast for the list conditions (1-4)
+			- interaction_phrase: linear_phrase - linear_list
+			- interaction_list: linear_list - linear_phrase
+			- big_phrase: The most extreme phrase condition alone (phrase 4)
+			- all_phrases: All phrase levels (1-4)
+			- all_lists: All list levels (1-4)
+			- all: All conditions (phrase / list; levels 1-5)
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,160 @@
+# ------------------------------
+subject 	nc110174
+
+# check resp_type for this subject
+
+resp_type	string	left
+meg_run_files	cell	nc110174_run_1 nc110174_run_2 nc110174_run_3 nc110174_run_4 nc110174_run_5 
+meg_basline_file	string	nc110174_baseline
+
+eye_tracker 	number	0
+
+# ------------------------------
+subject 	cg120234
+
+# 2/18/13 - 14-16
+# fMRI first
+# Bad channels: 1613; 0942
+# Fell asleep in run 3
+# Bad accuracy
+# hpi on 162 97 40 223
+
+resp_type	string	left
+meg_run_files	cell	cg120234_run_1 cg120234_run_2 cg120234_run_3 cg120234_run_4 cg120234_run_5 
+meg_basline_file	string	cg120234_baseline
+
+# Eyes are not open very wide, so et not so reliable
+eye_tracker 	number	0
+
+# Have some extras at the beginning
+eeg_start_triggers	cell	2	11
+
+# ------------------------------
+subject 	rg110386
+
+# 2/14/13 - 14-16
+# fMRI first
+# Bad channels: 1613; (1722/23); 
+# Long delay st beginning
+# Needed to reset max shield
+#Crash at beginning of second run
+#   Should be before triggers
+# Asked to blink after response at second block
+
+resp_type		string	right
+meg_run_files	cell	rg110386_run_1 rg110386_run_2 rg110386_run_3 rg110386_run_4 rg110386_run_5  
+meg_basline_file	string	rg110386_baseline
+
+# EGI amp broke in second run.
+eeg	number	0
+
+# ------------------------------
+subject 	mr080072
+
+# 2/8/13 - 10-12
+# MEG first
+# Very practiced subject
+# Used “metallic” ET cord
+# Bad channels: 1613; (1722/23); 1233 - noisy
+# Used an initial run to set diode, and then remade stim lists
+# Blinked during delays
+
+resp_type		string	right
+meg_run_files	cell	mr080072_run_1 mr_080072_run_2 mr_080072_run_3 mr_080072_run_4 mr_080072_run_5  
+meg_basline_file	string	mr_080072_baseline
+
+
+# ------------------------------
+subject 	ap100009
+
+# 2/7/13 - 13-15
+# MEG first
+# Very practiced subject
+# Used “metallic” ET cord
+# Bad channels: 1613; (1722/23); 1233 - slightly noisy
+# Used "left" responses
+# Stopped initial run to relocate diode
+# Did not update the baseline to write labels to the log. Added by hand
+
+# Mappings to file names of saved meg files
+meg_run_files	cell	ap100009_run1 ap100009_run2 ap100009_run3 ap100009_Run4 ap100009_Run5
+meg_basline_file	string	ap100009_baseline
+
+resp_type	string	left
+
+# Some missing eeg triggers…
+# These are triplets with: run	trial	trigger_num	trig_time		trig_value
+missing_eeg_triggers	cell	3	66	3	459018	43	2	49	5	345919	66
+
+# Still had more of these
+num_eye_movements	number	15
+
+# ------------------------------
+subject 	sa130042
+
+# 1/31/13 - 9-11
+# MEG first
+# Long delay before first run fixing response keys
+# No sync trigger between EGI and MEG
+# No practice feedback
+# Response keys are coded wrong
+# EEG data appeared to have ~50Hz noise during recording
+# Bad channels: 1613; 1813; (1721-23 - a little noisy, as always?)
+# ‘Right” responses
+
+# No tags for baseline in log, so had to add manually
+# Also, stims in logfile are not formatted correctly. Have to find and replace…
+
+# Still allowed repetitions in the runs
+# Not same balance for probe positions
+
+
+# Mappings to file names of saved meg files
+meg_run_files	cell	sa130042_run1 sa130042_run2 sa1320042_run3 sa130042_run4 sa130042_run5
+meg_basline_file	string	sa130042_baseline
+
+resp_type		string	right
+
+# Still had more of these
+num_eye_movements	number	15
+
+# No eyetracking (was broken before start)
+eye_tracker	number	0
+
+# EEG triggers are not good. Seems to be missing the probe, delay and response triggers…
+eeg_start_times 	cell	2	5121	3	6243	blinks	21364	eye_movements	66881	noise	150214
+
+
+# PILOT
+
+# ------------------------------
+subject 	hn120493
+
+# 1/18/13 - 10-12
+# MEG second
+# Runs in blocks
+# Four runs
+# No EGI - Broken amp.
+
+
+# Aborted
+
+# ------------------------------
+subject 	sg120518
+
+# 3/4/13 - 14-16
+# fMRI first
+
+# Seems like a lot of noise on the MEG sensors
+#	Marco checked, and said it was probably ok
+#	** It looks very bad durning the run at times
+
+# Might be no diode on first two runs…
+#	Misc channel is not recording
+#	Yes - first two runs run without recording diode, and different HPF (.3 v. .1)
+
+# HPI: 3/4
+
+resp_type 	string	left
+
+
