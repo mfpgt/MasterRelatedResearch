@@ -1,0 +1,42 @@
+To run the code:
+
+(1) Download the following files from the websites
+
+%%%% functions obtained from others
+% spm_Gpdf.m --- function from SPM2 for generating canonical HRF
+% spm_hrf.m --- function from SPM2 for generating canonical HRF
+% gen_mseq.m --- function from Liu (2004) NeuroImage for generating m-sequence
+% qadd.m --- function from Liu (2004) NeuroImage for generating m-sequence
+% qmult.m --- function from Liu (2004) NeuroImage for generating m-sequence
+% mseq2.m --- function from Liu (2004) NeuroImage for generating m-sequence
+% return_mtaps.m --- function from Liu (2004) NeuroImage for generating m-sequence
+
+%SPM2: http://www.fil.ion.ucl.ac.uk/spm/software/spm2/
+%Liu (2004): http://cfmriweb.ucsd.edu/ttliu/mttfmri_toolbox.html
+
+(2) Use the following example code to assign parameter values
+
+% Par_Assign.m --- example code with default parameter values for running the search
+               --- can directly use this m-file to perform the search
+
+(3) Run 'Par_Assign.m'
+
+==========================================================================
+*Descriptions of other files
+
+% Polydrift.m --- generating Legendre polynomials
+% fMRIMOD.m --- main subroutine for searching optimal designs
+% GenBlock.m --- generating block designs
+% DconvMTX.m --- obtaining the design matrix
+% HRFEfficiency.m --- Calculating Fe 
+% AmpEfficiency.m --- Calculating Fd
+% getcBal.m --- calculating Fc
+% getDFreq.m --- calculating Ff
+% getOVF.m --- calculating the objective function
+% GALoop.m --- performing genetic algorithm
+% Crossover.m --- GA crossover
+% Immigrant.m --- GA immigrants
+% Mutation.m --- GA mutation
+% naturalSelection.m --- GA natural selection 
+
+ 
