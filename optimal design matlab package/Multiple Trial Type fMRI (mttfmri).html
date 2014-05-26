@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)http://cfmriweb.ucsd.edu/tliu/mttfmri_toolbox.html -->
+<html lang="en-us"><!-- InstanceBegin template="/Templates/Pages.dwt" codeOutsideHTMLIsLocked="false" --><!--[if IE]><![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Multiple Trial Type fMRI (mttfmri)</title>
+<!-- InstanceEndEditable -->
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="shortcut icon" href="http://cfmriweb.ucsd.edu/favicon.ico">
+<link rel="stylesheet" href="./Multiple Trial Type fMRI (mttfmri)_files/common.css" type="text/css" media="screen">
+
+<!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" type="text/css" media="screen"/><![endif]-->
+<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" type="text/css" media="screen"/><![endif]-->
+<!--[if lte IE 7]><link rel="stylesheet" href="/assets/css/ie7.css" type="text/css" media="screen"/><![endif]-->
+<!--[if lt  IE 7]><link rel="stylesheet" href="/assets/css/ie6.css" type="text/css" media="screen"/><![endif]-->
+
+<script src="./Multiple Trial Type fMRI (mttfmri)_files/jquery.min.js"></script>
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body class="js-enabled">
+<div id="notification"></div>
+<script>
+$( "#notification" ).load( "/notification.html" );
+</script>
+<div id="top" class="wrap">
+  <div class="wrap">
+    <div class="inner"> <a href="http://fmri.ucsd.edu/" class="logo" title="Click here to return to the Site homepage."><img src="./Multiple Trial Type fMRI (mttfmri)_files/logo-print.png" width="199" height="71" alt="LOGO: UC San Diego School of Medicine"></a> <a href="http://fmri.ucsd.edu/">
+      <div id="split-title" class="site-title"> Center for Functional MRI <span>In the Department of Radiology</span> </div>
+      </a>
+      <div id="header">
+        <ul id="nav4" class="nav">
+          <li><a href="http://cfmriweb.ucsd.edu/AboutUs/index.html">About Us<!--[if gte IE 7]><!--></a><!--<![endif]--><!--[if lte IE 6]><table cellspacing="0"><tr><td><![endif]-->
+            <ul>
+              <li><a href="http://cfmriweb.ucsd.edu/AboutUs/message.html">Message from the Director</a></li>
+              <li><a href="http://cfmriweb.ucsd.edu/AboutUs/index.html">About the Center, Our Mission</a></li>
+              <li><a href="http://cfmriweb.ucsd.edu/AboutUs/people.html">Faculty &amp; Staff</a></li>
+              <li><a href="http://cfmriweb.ucsd.edu/AboutUs/facilities.html">Facilities and Scanners</a></li>
+              <li><a href="http://cfmriweb.ucsd.edu/AboutUs/jobs.html">Jobs</a></li>
+              <li><a href="http://cfmriweb.ucsd.edu/AboutUs/contactus.html">Contact Us</a></li>
+              <div class="contact">
+                <h4>Contact Us | 858-822-0513</h4>
+                <a href="mailto:cfmri@ucsd.edu">Send us an Email</a> </div>
+            </ul>
+            <!--[if lte IE 6]></td></tr></table></a><![endif]--> 
+          </li>
+          <li><a href="http://cfmriweb.ucsd.edu/Research/whatisfmri.html">Research<!--[if gte IE 7]><!--></a><!--<![endif]--><!--[if lte IE 6]><table cellspacing="0"><tr><td><![endif]-->
+            <ul>
+              <li><a href="http://cfmriweb.ucsd.edu/Research/whatisfmri.html">What Is fMRI?</a></li>
+              <li><a href="http://cfmriweb.ucsd.edu/Research/Faculty/index.html">Faculty Research</a></li>
+              <li><a href="http://cfmriweb.ucsd.edu/Research/publications.html">Publications</a></li>
+              <li><a href="http://cfmriweb.ucsd.edu/Research/colab.html">Research Studies at CFMRI</a></li>
+              <li><a href="http://cfmriweb.ucsd.edu/Research/PilotProjects.html">Funding for Pilot Projects</a></li>
+              <li><a href="http://cfmriweb.ucsd.edu/Research/cbfbirn.html">CBFBIRN Project</a></li>
+              <li class="last"><a href="http://cfmriweb.ucsd.edu/Research/ismrm.html">ISMRM</a></li>
+            </ul>
+            <!--[if lte IE 6]></td></tr></table></a><![endif]--> 
+          </li>
+          <li><a href="http://cfmriweb.ucsd.edu/Education/index.html">Education<!--[if gte IE 7]><!--></a><!--<![endif]--><!--[if lte IE 6]><table cellspacing="0"><tr><td><![endif]-->
+            <ul>
+              
+              <li><a href="http://cfmriweb.ucsd.edu/Education/courses.html">Courses</a></li>
+              <li><a href="http://cfmriweb.ucsd.edu/Education/seminars.html">Weekly Seminars</a></li>
+              <li><a href="http://cfmriweb.ucsd.edu/Education/safetytraining.html">Safety Training</a></li>
+              <li class="last"><a href="http://cfmriweb.ucsd.edu/events/Symposium.html">Imaging Symposium</a></li>
+            </ul>
+            <!--[if lte IE 6]></td></tr></table></a><![endif]--> 
+          </li>
+          <li class="last"><a href="http://cfmriweb.ucsd.edu/UserTools/index.html">For Researchers</a> </li>
+        </ul>
+        <!--// ENDS NAV -->
+        
+        <form action="http://cfmriweb.ucsd.edu/search.html" id="cse-search-box">
+          <fieldset>
+            <legend>Enter Search Keywords and Submit</legend>
+            <input type="hidden" name="cx" value="008084293740699499263:lr__ytipz8u">
+            <input type="hidden" name="cof" value="FORID:11">
+            <input type="hidden" name="ie" value="UTF-8">
+            <input type="text" name="q" class="input-search" size="18" value="Search Site">
+            <input type="submit" value="Go" class="btn" title="Click here to submit your search">
+          </fieldset>
+        </form>
+        <!--// ENDS HEADER-SEARCH -->
+        
+        <ul id="utilitynav">
+          <li><a href="http://cfmriweb.ucsd.edu/index.html">Home</a></li>
+          <li><a href="http://cfmriweb.ucsd.edu/UserTools/webschedule.html">Webschedule</a></li>
+          <li class="last"><a href="http://cfmriweb.ucsd.edu/AboutUs/contactus.html">Contact Us</a></li>
+        </ul>
+        <!--// ENDS TERTNAV --> 
+        
+      </div>
+      <!--// ENDS HEADER -->
+      
+      <ul id="portal">
+        <li id="resource-departmentLink"><a href="http://radiology.ucsd.edu/">Visit UC San Diego Department of Radiology</a></li>
+        <li id="resource-exploreLinks"> <a href="http://cfmriweb.ucsd.edu/tliu/mttfmri_toolbox.html#" class="menu">Explore other UCSD Health Sciences Sites</a>
+          <div class="menu-box">
+            <ul>
+              <li><a href="http://health.ucsd.edu/">UC San Diego Health System</a></li>
+              <li><a href="http://som.ucsd.edu/">UCSD School of Medicine</a></li>
+              <li><a href="http://healthsciences.ucsd.edu/">UC San Diego Health Sciences</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+      <!--// ENDS PORTAL -->
+      
+      <div class="content" id="layout-2col">
+        <article>
+          <div class="col" id="col1"> <!-- InstanceBeginEditable name="Content" -->
+            <h1> <strong>Multiple Trial Type fMRI (mttfmri)</strong><br>
+              <strong>MATLAB Toolbox</strong></h1>
+            This toolbox includes
+            code used in the following papers: <a href="http://cfmriweb.ucsd.edu/tliu/papers/liu04_mfmri1.pdf">Liu and Frank (2004)</a> and <a href="http://cfmriweb.ucsd.edu/tliu/papers/liu04_mfmri2.pdf">Liu (2004)</a>. There are also <a href="http://cfmriweb.ucsd.edu/tliu/papers/nimg1840_errata.pdf">errata
+            available here</a>.<br>
+            <br>
+            To use the <a href="http://cfmriweb.ucsd.edu/tliu/software/mttfmri.tar.gz">code download the MATLAB
+            *.m files</a>, uncompress, and expand the tar file.&nbsp; Instructions
+            are in the Contents.m file.&nbsp; A directory of pre-computed *.mat
+            files is provided<a href="http://cfmriweb.ucsd.edu/tliu/software/mttfmri_mat.tar.gz"> here</a> for
+            convenience.&nbsp; Downloading these is optional. To use them,
+            uncompress and expand the tar file and then move these files into the
+            same directory as the *.m files. <!-- InstanceEndEditable --> </div>
+        </article>
+        <!--// ENDS COL1 -->
+        
+        <div class="col" id="col2"> <!-- InstanceBeginEditable name="LeftNav" -->
+          <ul id="leftnav">
+            <li><a href="http://cfmriweb.ucsd.edu/tliu/index.html">Liu Home</a></li>
+            <li><a href="http://cfmriweb.ucsd.edu/tliu/ttliu_research.html">Research</a></li>
+            <li><a href="http://cfmriweb.ucsd.edu/tliu/ttliu_people.html">People</a> </li>
+            <li><a href="http://cfmriweb.ucsd.edu/tliu/ttliu_pub.html">Publications</a> </li>
+            <li><a href="http://cfmriweb.ucsd.edu/ttliu/ttliu_courses.html">Courses</a></li>
+            <li><a href="http://cfmriweb.ucsd.edu/tliu/ttliu_software.html">Software</a> </li>
+            <li><a href="http://cfmriweb.ucsd.edu/tliu/ttliu_contact.html">Contact Info.</a></li>
+            <li><a href="http://cfmriweb.ucsd.edu/tliu/ttliu_links.html">Links</a></li>
+          </ul>
+          <!-- InstanceEndEditable --><!--// ENDS SUBNAV --> 
+          
+        </div>
+        <!--// ENDS COL2 -->
+        
+        <div id="breadcrumb"> <!-- InstanceBeginEditable name="breadcrumb" -->
+          <ul>
+            <li><a href="http://cfmriweb.ucsd.edu/index.html">Home</a></li>
+            <li><a href="http://cfmriweb.ucsd.edu/tliu/index.html">T. Liu</a></li>
+            <li class="last">Multiple Trial Type fMRI (mttfmri)</li>
+          </ul>
+          <!-- InstanceEndEditable --> </div>
+        <!--// ENDS BREADCRUMB --> 
+        
+      </div>
+      <!--// ENDS CONTENT --> 
+      
+    </div>
+    <!--// ENDS INNER --> 
+    
+  </div>
+</div>
+<!--// ENDS WRAP -->
+<footer>
+<div id="footer">
+  <div class="inner">
+    <div class="separator"></div>
+    <div id="site-info">
+      <div id="address-social"> <strong>UC San Diego Center for Functional MRI <span>•</span> 9500 Gilman Drive<span>•</span> La Jolla, CA 92093 <span>•</span> MC 0677 <span>•</span>858-822-0513</strong> &nbsp; 
+        <!--      <a href="https://www.facebook.com/cfmri" class="icon icon-facebook" title="Click here to visit our Facebook page">Facebook<span>&nbsp;</span></a> &nbsp;<a href="https://twitter.com/#!/CFMRI" class="icon icon-twitter" title="Click here to visit our Twitter feed">Twitter<span>&nbsp;</span></a> --> 
+      </div>
+      <!--// ENDS ADDRESS-SOCIAL -->
+      
+      <ul id="footernav">
+        <li><a href="http://cfmriweb.ucsd.edu/index.html">Home</a></li>
+        <li><a href="http://cfmriweb.ucsd.edu/AboutUs/index.html">About Us</a></li>
+        <li><a href="http://cfmriweb.ucsd.edu/Research/index.html">Research</a></li>
+        <li><a href="http://cfmriweb.ucsd.edu/Education/index.html">Education</a></li>
+        <li><a href="http://cfmriweb.ucsd.edu/UserTools/index.html">For Researchers</a></li>
+        <li><a href="http://cfmriweb.ucsd.edu/UserTools/links.html">Links</a></li>
+        <li class="last"><a href="http://cfmriweb.ucsd.edu/Feedback">Feedback</a></li>
+      </ul>
+      <!--// ENDS FOOTERNAV --> 
+      
+    </div>
+    <!--// ENDS SITE-INFO -->
+    
+    <div id="ucsd-info">
+      <p><a href="http://www.ucsd.edu/" target="_blank" id="logo-ucsd"><img src="./Multiple Trial Type fMRI (mttfmri)_files/logo-ucsd.png" width="149" height="19" alt="LOGO: University of California, San Diego"></a></p>
+      <p>Official Web Site of the University of California, San Diego. 
+        <script language="javascript"> 
+  			<!-- 
+				today = new Date(); 
+				document.write("Copyright &copy;", today.getFullYear()); 
+  			//--> 
+			</script>Copyright ©2014<!--//  ENDS DYNAMIC COPYRIGHT YEAR --> 
+        Regents of the University of California. All rights reserved.</p>
+    </div>
+    <!--// ENDS UCSD-INFO --> 
+    
+  </div>
+</div>
+</footer>
+<!--// ENDS FOOTER --> 
+
+<script src="./Multiple Trial Type fMRI (mttfmri)_files/common.js"></script>
+
+<!--     GOOGLE ANALYTICS CODE PLACEHOLDER IS BELOW - PLEASE ENTER YOUR OWN GA CODE OR DELETE THIS  --> 
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="./Multiple Trial Type fMRI (mttfmri)_files/ga.js" type="text/javascript"></script> 
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-18831199-1");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+
+<!-- InstanceEnd --></body></html>
