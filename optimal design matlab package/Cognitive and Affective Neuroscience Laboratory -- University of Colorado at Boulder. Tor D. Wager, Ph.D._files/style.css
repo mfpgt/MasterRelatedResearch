@@ -1,0 +1,236 @@
+body {
+	margin: 0px auto 0px auto;
+	width: 1000px;
+	padding: 0px;
+	font-family: Verdana, Arial;
+	background: white;
+}
+
+h1,h2,h3,h4 {
+	font-weight: normal;
+}
+
+a {
+	cursor: pointer;
+}
+
+img {
+	padding: 0px;
+	margin: 0px;
+}
+
+#page {
+	background: #4682B4;
+	float: left;
+	padding: 5px;
+	padding-top: 5px;
+	margin: 10px 0px 10px 0px;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#title {
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	font-size: 0px;
+	float: left;
+}
+
+#sidebar {
+	width: 150px;
+	font-size: 16px;
+	padding: 5px 7px 10px 0px;
+	margin: 0;
+	float: left;
+}
+
+#sidebar ul {
+	padding: 0px;
+	margin: 0;
+}
+
+#sidebar li {
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+	background: #e8f3f8;
+	-moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -khtml-border-radius: 7px;
+    border-radius: 7px;
+	border: 1px solid black;
+	text-align: center;
+	list-style-type: none;
+	margin-bottom: 4px;
+}
+
+li a {
+	color: black;
+	text-decoration: none;
+	padding: 5px;
+	margin: 0px 0px 0px 0px;
+	display: block;
+}
+
+li a:hover {
+	background: gray;
+	-moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -khtml-border-radius: 7px;
+    border-radius: 7px;
+}
+
+img.logo {
+	width: 100px;
+	height: 119px;
+	margin-right: 20px;
+	padding: 0px;
+	float: left;
+}
+
+#main {
+	width: 1000px;
+	border: 2px solid #4682B4;
+	float: left;
+}
+
+#content {
+	margin: 0px;
+	padding: 20px;
+	float: left;
+	background: white;
+	width: 800px;
+	margin-top: 5px;
+	/*border: 2px solid #4682B4; */
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#header {
+	/* background-image:url('bg-small.jpg'); 
+	border-bottom: 2px solid #5f200a;
+	border-top: 2px solid #5f200a;
+	*/
+	font-family: Georgia;
+	color: black;
+	margin: 0px;
+	padding-right: 30px;
+}
+
+#header > h3, #header > h4 {
+	margin: 7px 0px 3px 50px;
+	text-align: right;
+}
+
+#header > h1 {
+	font-size: 32px;
+}
+
+.group {
+	clear: left;
+	padding: 20px;
+	float: left;
+	width: 100%;
+}
+
+.position h3 {
+	padding: 0px;
+	margin: 0px;
+}
+
+.row {
+	padding: 30px 5px 0px 0px;
+	clear: left;
+	float: left;
+	font-size: 12px;
+}
+
+.person p {
+	margin: 0px 0px 4px 0px;
+}
+
+.pic {
+	float: left;
+	margin-right: 20px;
+	width: 170px;
+	clear: left;
+}
+
+.name {
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+.pic img {
+
+	float: left;
+	margin-bottom: 4px;
+	max-width: 150px;
+}
+
+.desc {
+	float: left;
+	width: 550px;
+}
+
+.center {
+	text-align: center;
+}
+
+.citation {
+	float: left;
+	width: 690px;
+	margin-left: 10px;
+}
+
+.abstract {
+	font-size: 11px;
+	padding-top: 5px;
+}
+
+.icon {
+	width: 20px;
+	height: 20px;
+	border: none;
+	margin-right: 5px;
+	padding: 0px;
+	float: left;
+}
+
+.tool_row {
+	padding-bottom: 4px;
+	float: left;
+	clear: left;
+}
+
+.news {
+	text-align: left;
+	font-size: 14px;
+	margin-bottom: 25px;
+}
+
+.news_date {
+	font-size: 12px;
+}
+
+.news_title {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.news_text {
+	
+}
+
+.footer {
+	font-size: 10px;
+	text-align: right;
+}
