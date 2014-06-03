@@ -1,0 +1,1020 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>robust_reg_results_for_publish</title><meta name="generator" content="MATLAB 7.11"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2012-08-07"><meta name="DC.source" content="robust_reg_results_for_publish.m"><style type="text/css">
+
+body {
+  background-color: white;
+  margin:10px;
+}
+
+h1 {
+  color: #990000; 
+  font-size: x-large;
+}
+
+h2 {
+  color: #990000;
+  font-size: medium;
+}
+
+/* Make the text shrink to fit narrow windows, but not stretch too far in 
+wide windows. */ 
+p,h1,h2,div.content div {
+  max-width: 600px;
+  /* Hack for IE6 */
+  width: auto !important; width: 600px;
+}
+
+pre.codeinput {
+  background: #EEEEEE;
+  padding: 10px;
+}
+@media print {
+  pre.codeinput {word-wrap:break-word; width:100%;}
+} 
+
+span.keyword {color: #0000FF}
+span.comment {color: #228B22}
+span.string {color: #A020F0}
+span.untermstring {color: #B20000}
+span.syscmd {color: #B28C00}
+
+pre.codeoutput {
+  color: #666666;
+  padding: 10px;
+}
+
+pre.error {
+  color: red;
+}
+
+p.footer {
+  text-align: right;
+  font-size: xx-small;
+  font-weight: lighter;
+  font-style: italic;
+  color: gray;
+}
+
+  </style></head><body><div class="content"><pre class="codeoutput">________________________________________________________________________________________________________
+________________________________________________________________________________________________________
+PainxPain_mod_temp^1     
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/second_level/model1/robust0001
+________________________________________________________________________________________________________
+________________________________________________________________________________________________________
+==========================
+=
+= robust_results_batch.m
+=
+==========================
+Directory: /Users/tor/Dropbox/kansas_workshop_aug2012/Data_Wager_NSF_Pain/second_level/model1/robust0001
+Date report generated: 07-Aug-2012
+________________________________
+
+
+Model info:
+________________________________
+Images and regressors (intercept +   0 covs)
+ 	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF1005/con_0001.img	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF1126/con_0001.img	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF1254/con_0001.img	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF188/con_0001.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF1909/con_0001.img	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF818/con_0001.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF830/con_0001.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF838/con_0001.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF845/con_0001.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF846/con_0001.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF907/con_0001.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF909/con_0001.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF935/con_0001.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF960/con_0001.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF972/con_0001.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF975/con_0001.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF979/con_0001.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF986/con_0001.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/nsf1/con_0001.img   	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/nsf2/con_0001.img   	1.0000	
+
+==========================
+
+
+Results info:________________________________
+Input options:
+thresh	0.0010	0.0050	0.0500	
+
+size	prune	
+Results inputs
+________________________________
+
+Mask: rob_beta_0001.img
+Overlay: /Users/tor/Documents/matlab_code_canlab/trunk/3DheadUtility_lite/canlab_canonical_brains/SPM8_colin27T1_seg.img
+
+P-value thresholds: 0.0010	0.0050	0.0500	
+
+
+Extent thresholds: 5.0000	1.0000	1.0000	
+
+Direct calls to spm_defauts are deprecated.
+Please use spm('Defaults',modality) or spm_get_defaults instead.
+</pre><img vspace="5" hspace="5" src="robust_reg_results_for_publish_01.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_02.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_03.png" alt=""> <pre class="codeoutput">Using default mask: /Users/tor/Documents/matlab_code_external/spm8/apriori/brainmask.nii
+loading mask. mapping volumes. 
+checking that dimensions and voxel sizes of volumes are the same. 
+Pre-allocating data array. Needed: 8348800 bytes
+Loading image number:  20
+Elapsed time is 0.248989 seconds.
+fmri_data.create: Converting 1767021 NaNs to 0s.Image names entered, but fullpath attribute is empty. Getting path info.
+Warning: Function
+/Users/tor/Documents/matlab_code_external/spider/functions/norm.m has the
+same name as a MATLAB builtin. We suggest you rename the function to avoid a
+potential name conflict. 
+</pre><img vspace="5" hspace="5" src="robust_reg_results_for_publish_04.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_05.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_06.png" alt=""> <pre class="codeoutput">
+FDR correction info (FDR not necessarily used here; just for info):________________________________
+Calculating FDR threshold across family of tests in these images:
+rob_p_0001.img
+Total p-values:  271633
+Combined FDR threshold is 0.003493
+Returning output in SETUP.fdr_p_thresh (you must save this yourself in the .mat file)
+ 
+Getting FDR thresholds for individual images:
+rob_p_0001.img	 FDR (q &lt; .05) = 0.003493
+Returning output in SETUP.fdr_p_thresh_indiv (you must save this yourself in the .mat file)
+
+________________________________
+Colors: Normal
+==========================
+==========================
+=
+= Results for rob0
+=
+==========================
+Will print tables.
+Will show slices.
+Saving log file: rob_p_0001_001_005_05_k5_1_1_prune_log.txt
+Other key results in: rob_p_0001_001_005_05_k5_1_1_prune_results.txt
+Will also save figures of slice montages if 'slices' requested.
+
+iimg_multi_threshold viewer
+=====================================================
+Showing positive or negative: pos
+Overlay is: /Users/tor/Documents/matlab_code_canlab/trunk/3DheadUtility_lite/canlab_canonical_brains/SPM8_colin27T1_seg.img
+Mask is: rob_beta_0001.img
+Entered p-value image? : Yes
+Height thresholds:0.0010 0.0050 0.0500 
+Extent thresholds:   5   1   1 
+Show only contiguous with seed regions: Yes
+ 
+Warning: p-values in cl.Z will not give valid spm_max subclusters.
+log(1/p) saved in output cl.Z field.
+
+iimg_multi_threshold viewer
+=====================================================
+Showing positive or negative: neg
+Overlay is: /Users/tor/Documents/matlab_code_canlab/trunk/3DheadUtility_lite/canlab_canonical_brains/SPM8_colin27T1_seg.img
+Mask is: rob_beta_0001.img
+Entered p-value image? : Yes
+Height thresholds:0.0010 0.0050 0.0500 
+Extent thresholds:   5   1   1 
+Show only contiguous with seed regions: Yes
+ 
+Warning: p-values in cl.Z will not give valid spm_max subclusters.
+log(1/p) saved in output cl.Z field.
+Extracting image data for significant clusters. 
+Extracting image data for significant clusters. No clusters to extract.
+Summary of output images:
+rob_p_0001.img
+Results clusters clpos and clneg are returned for the LAST image in this set.
+ 
+Printing Tables.
+NOTE: FULL MEDIATION TABLES DO NOT WORK YET FOR SINGLE-LEVEL RESULTS
+Printing abbreviated tables.
+Positive effects
+ 
+Z field contains: Robust regression intercept. (shown in maxstat)
+ 
+Name	index	x	y	z	corr	voxels	volume_mm3	maxstat	snr_avgts(d)	minsnr	maxsnr	numpos	power80	
+R1	  1	-19	-53	-29	NaN	147	-3969	16.22	1.07	0.22	1.65	 17	 15	
+R2	  2	  8	-17	 -2	NaN	231	-6237	10.27	1.23	0.06	1.07	 18	 12	
+R3	  3	 47	 -5	  7	NaN	1073	-28971	24.00	2.30	0.00	2.25	 20	  5	
+R4	  4	-46	 -5	 10	NaN	729	-19683	17.49	1.87	-0.59	1.85	 20	  6	
+R5	  5	  2	 10	 37	NaN	672	-18144	17.15	1.50	-0.57	1.45	 18	  9	
+R6	  6	 26	-38	 61	NaN	 82	-2214	9.73	1.18	0.21	1.05	 18	 13	
+Negative effects
+No results to print.
+Appending clusters in cl_rob_p_0001_001_005_05_k5_1_1_prune
+Saving image of slices: orth_rob_p_0001_001_005_05_k5_1_1_prune_coronal.png
+Saving image of slices: orth_rob_p_0001_001_005_05_k5_1_1_prune_sagittal.png
+Saving image of slices: orth_rob_p_0001_001_005_05_k5_1_1_prune_axial.png
+</pre><img vspace="5" hspace="5" src="robust_reg_results_for_publish_07.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_08.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_09.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_10.png" alt=""> <pre class="codeoutput">PainxPain_mod_temp^1      robust results success.
+________________________________________________________________________________________________________
+________________________________________________________________________________________________________
+PainxPain_mod_prev_temp^1
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/second_level/model1/robust0002
+________________________________________________________________________________________________________
+________________________________________________________________________________________________________
+==========================
+=
+= robust_results_batch.m
+=
+==========================
+Directory: /Users/tor/Dropbox/kansas_workshop_aug2012/Data_Wager_NSF_Pain/second_level/model1/robust0002
+Date report generated: 07-Aug-2012
+________________________________
+
+
+Model info:
+________________________________
+Images and regressors (intercept +   0 covs)
+ 	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF1005/con_0002.img	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF1126/con_0002.img	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF1254/con_0002.img	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF188/con_0002.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF1909/con_0002.img	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF818/con_0002.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF830/con_0002.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF838/con_0002.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF845/con_0002.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF846/con_0002.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF907/con_0002.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF909/con_0002.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF935/con_0002.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF960/con_0002.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF972/con_0002.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF975/con_0002.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF979/con_0002.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF986/con_0002.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/nsf1/con_0002.img   	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/nsf2/con_0002.img   	1.0000	
+
+==========================
+
+
+Results info:________________________________
+Input options:
+thresh	0.0010	0.0050	0.0500	
+
+size	prune	
+Results inputs
+________________________________
+
+Mask: rob_beta_0001.img
+Overlay: /Users/tor/Documents/matlab_code_canlab/trunk/3DheadUtility_lite/canlab_canonical_brains/SPM8_colin27T1_seg.img
+
+P-value thresholds: 0.0010	0.0050	0.0500	
+
+
+Extent thresholds: 5.0000	1.0000	1.0000	
+
+</pre><img vspace="5" hspace="5" src="robust_reg_results_for_publish_11.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_12.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_13.png" alt=""> <pre class="codeoutput">Using default mask: /Users/tor/Documents/matlab_code_external/spm8/apriori/brainmask.nii
+loading mask. mapping volumes. 
+checking that dimensions and voxel sizes of volumes are the same. 
+Pre-allocating data array. Needed: 8348800 bytes
+Loading image number:  20
+Elapsed time is 0.412724 seconds.
+fmri_data.create: Converting 1767021 NaNs to 0s.Image names entered, but fullpath attribute is empty. Getting path info.
+Warning: Function
+/Users/tor/Documents/matlab_code_external/spider/functions/norm.m has the
+same name as a MATLAB builtin. We suggest you rename the function to avoid a
+potential name conflict. 
+</pre><img vspace="5" hspace="5" src="robust_reg_results_for_publish_14.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_15.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_16.png" alt=""> <pre class="codeoutput">
+FDR correction info (FDR not necessarily used here; just for info):________________________________
+Calculating FDR threshold across family of tests in these images:
+rob_p_0001.img
+Total p-values:  271633
+Combined FDR threshold is    -Inf
+Returning output in SETUP.fdr_p_thresh (you must save this yourself in the .mat file)
+ 
+Getting FDR thresholds for individual images:
+rob_p_0001.img	 FDR (q &lt; .05) =     Inf
+Returning output in SETUP.fdr_p_thresh_indiv (you must save this yourself in the .mat file)
+
+________________________________
+Colors: Normal
+==========================
+==========================
+=
+= Results for rob0
+=
+==========================
+Will print tables.
+Will show slices.
+Saving log file: rob_p_0001_001_005_05_k5_1_1_prune_log.txt
+Other key results in: rob_p_0001_001_005_05_k5_1_1_prune_results.txt
+Will also save figures of slice montages if 'slices' requested.
+
+iimg_multi_threshold viewer
+=====================================================
+Showing positive or negative: pos
+Overlay is: /Users/tor/Documents/matlab_code_canlab/trunk/3DheadUtility_lite/canlab_canonical_brains/SPM8_colin27T1_seg.img
+Mask is: rob_beta_0001.img
+Entered p-value image? : Yes
+Height thresholds:0.0010 0.0050 0.0500 
+Extent thresholds:   5   1   1 
+Show only contiguous with seed regions: Yes
+ 
+Warning: p-values in cl.Z will not give valid spm_max subclusters.
+log(1/p) saved in output cl.Z field.
+
+iimg_multi_threshold viewer
+=====================================================
+Showing positive or negative: neg
+Overlay is: /Users/tor/Documents/matlab_code_canlab/trunk/3DheadUtility_lite/canlab_canonical_brains/SPM8_colin27T1_seg.img
+Mask is: rob_beta_0001.img
+Entered p-value image? : Yes
+Height thresholds:0.0010 0.0050 0.0500 
+Extent thresholds:   5   1   1 
+Show only contiguous with seed regions: Yes
+ 
+Warning: p-values in cl.Z will not give valid spm_max subclusters.
+log(1/p) saved in output cl.Z field.
+Extracting image data for significant clusters. No clusters to extract.
+Extracting image data for significant clusters. 
+Summary of output images:
+rob_p_0001.img
+Results clusters clpos and clneg are returned for the LAST image in this set.
+ 
+Printing Tables.
+NOTE: FULL MEDIATION TABLES DO NOT WORK YET FOR SINGLE-LEVEL RESULTS
+Printing abbreviated tables.
+Positive effects
+No results to print.
+Negative effects
+ 
+Z field contains: Robust regression intercept. (shown in maxstat)
+ 
+Name	index	x	y	z	corr	voxels	volume_mm3	maxstat	snr_avgts(d)	minsnr	maxsnr	numpos	power80	
+R1	  1	 23	-89	 -5	NaN	 93	-2511	9.12	-1.17	-1.17	-0.13	  3	 13	
+Appending clusters in cl_rob_p_0001_001_005_05_k5_1_1_prune
+Saving image of slices: orth_rob_p_0001_001_005_05_k5_1_1_prune_coronal.png
+Saving image of slices: orth_rob_p_0001_001_005_05_k5_1_1_prune_sagittal.png
+Saving image of slices: orth_rob_p_0001_001_005_05_k5_1_1_prune_axial.png
+</pre><img vspace="5" hspace="5" src="robust_reg_results_for_publish_17.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_18.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_19.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_20.png" alt=""> <pre class="codeoutput">PainxPain_mod_prev_temp^1 robust results success.
+________________________________________________________________________________________________________
+________________________________________________________________________________________________________
+Pain                     
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/second_level/model1/robust0003
+________________________________________________________________________________________________________
+________________________________________________________________________________________________________
+==========================
+=
+= robust_results_batch.m
+=
+==========================
+Directory: /Users/tor/Dropbox/kansas_workshop_aug2012/Data_Wager_NSF_Pain/second_level/model1/robust0003
+Date report generated: 07-Aug-2012
+________________________________
+
+
+Model info:
+________________________________
+Images and regressors (intercept +   0 covs)
+ 	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF1005/con_0003.img	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF1126/con_0003.img	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF1254/con_0003.img	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF188/con_0003.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF1909/con_0003.img	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF818/con_0003.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF830/con_0003.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF838/con_0003.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF845/con_0003.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF846/con_0003.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF907/con_0003.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF909/con_0003.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF935/con_0003.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF960/con_0003.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF972/con_0003.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF975/con_0003.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF979/con_0003.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF986/con_0003.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/nsf1/con_0003.img   	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/nsf2/con_0003.img   	1.0000	
+
+==========================
+
+
+Results info:________________________________
+Input options:
+thresh	0.0010	0.0050	0.0500	
+
+size	prune	
+Results inputs
+________________________________
+
+Mask: rob_beta_0001.img
+Overlay: /Users/tor/Documents/matlab_code_canlab/trunk/3DheadUtility_lite/canlab_canonical_brains/SPM8_colin27T1_seg.img
+
+P-value thresholds: 0.0010	0.0050	0.0500	
+
+
+Extent thresholds: 5.0000	1.0000	1.0000	
+
+</pre><img vspace="5" hspace="5" src="robust_reg_results_for_publish_21.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_22.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_23.png" alt=""> <pre class="codeoutput">Using default mask: /Users/tor/Documents/matlab_code_external/spm8/apriori/brainmask.nii
+loading mask. mapping volumes. 
+checking that dimensions and voxel sizes of volumes are the same. 
+Pre-allocating data array. Needed: 8348800 bytes
+Loading image number:  20
+Elapsed time is 0.403366 seconds.
+fmri_data.create: Converting 1767021 NaNs to 0s.Image names entered, but fullpath attribute is empty. Getting path info.
+Warning: Function
+/Users/tor/Documents/matlab_code_external/spider/functions/norm.m has the
+same name as a MATLAB builtin. We suggest you rename the function to avoid a
+potential name conflict. 
+</pre><img vspace="5" hspace="5" src="robust_reg_results_for_publish_24.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_25.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_26.png" alt=""> <pre class="codeoutput">
+FDR correction info (FDR not necessarily used here; just for info):________________________________
+Calculating FDR threshold across family of tests in these images:
+rob_p_0001.img
+Total p-values:  271633
+Combined FDR threshold is 0.016247
+Returning output in SETUP.fdr_p_thresh (you must save this yourself in the .mat file)
+ 
+Getting FDR thresholds for individual images:
+rob_p_0001.img	 FDR (q &lt; .05) = 0.016247
+Returning output in SETUP.fdr_p_thresh_indiv (you must save this yourself in the .mat file)
+
+________________________________
+Colors: Normal
+==========================
+==========================
+=
+= Results for rob0
+=
+==========================
+Will print tables.
+Will show slices.
+Saving log file: rob_p_0001_001_005_05_k5_1_1_prune_log.txt
+Other key results in: rob_p_0001_001_005_05_k5_1_1_prune_results.txt
+Will also save figures of slice montages if 'slices' requested.
+
+iimg_multi_threshold viewer
+=====================================================
+Showing positive or negative: pos
+Overlay is: /Users/tor/Documents/matlab_code_canlab/trunk/3DheadUtility_lite/canlab_canonical_brains/SPM8_colin27T1_seg.img
+Mask is: rob_beta_0001.img
+Entered p-value image? : Yes
+Height thresholds:0.0010 0.0050 0.0500 
+Extent thresholds:   5   1   1 
+Show only contiguous with seed regions: Yes
+ 
+Warning: p-values in cl.Z will not give valid spm_max subclusters.
+log(1/p) saved in output cl.Z field.
+
+iimg_multi_threshold viewer
+=====================================================
+Showing positive or negative: neg
+Overlay is: /Users/tor/Documents/matlab_code_canlab/trunk/3DheadUtility_lite/canlab_canonical_brains/SPM8_colin27T1_seg.img
+Mask is: rob_beta_0001.img
+Entered p-value image? : Yes
+Height thresholds:0.0010 0.0050 0.0500 
+Extent thresholds:   5   1   1 
+Show only contiguous with seed regions: Yes
+ 
+Warning: p-values in cl.Z will not give valid spm_max subclusters.
+log(1/p) saved in output cl.Z field.
+Extracting image data for significant clusters. 
+Extracting image data for significant clusters. Using cached image names.
+
+Summary of output images:
+rob_p_0001.img
+Results clusters clpos and clneg are returned for the LAST image in this set.
+ 
+Printing Tables.
+NOTE: FULL MEDIATION TABLES DO NOT WORK YET FOR SINGLE-LEVEL RESULTS
+Printing abbreviated tables.
+Positive effects
+ 
+Z field contains: Robust regression intercept. (shown in maxstat)
+ 
+Name	index	x	y	z	corr	voxels	volume_mm3	maxstat	snr_avgts(d)	minsnr	maxsnr	numpos	power80	
+R1	  1	 14	-14	  4	NaN	1213	-32751	16.12	-1.02	-1.88	1.79	  3	 17	
+R2	  2	-31	 -5	 -2	NaN	264	-7128	22.23	-1.33	-2.27	1.29	  0	 11	
+Negative effects
+ 
+Z field contains: Robust regression intercept. (shown in maxstat)
+ 
+Name	index	x	y	z	corr	voxels	volume_mm3	maxstat	snr_avgts(d)	minsnr	maxsnr	numpos	power80	
+R1	  1	  2	-74	  7	NaN	2891	-78057	21.56	-1.95	-2.15	0.12	  0	  6	
+R2	  2	 14	-14	  4	NaN	1213	-32751	16.12	-1.02	-1.88	1.79	  3	 17	
+R3	  3	-31	 -5	 -2	NaN	264	-7128	22.23	-1.33	-2.27	1.29	  0	 11	
+R4	  4	 -1	  7	 37	NaN	621	-16767	22.22	-1.43	-1.66	0.09	  1	  9	
+R5	  5	-52	-20	 22	NaN	262	-7074	12.87	-1.34	-1.48	0.55	  2	 10	
+R6	  6	 56	-29	 34	NaN	216	-5832	9.10	-1.02	-1.09	-0.33	  2	 17	
+R7	  7	-28	 46	 28	NaN	 79	-2133	12.57	-1.29	-1.49	-0.19	  3	 11	
+R8	  8	-22	-65	 49	NaN	449	-12123	16.04	-1.25	-1.97	-0.39	  0	 12	
+R9	  9	-31	 -8	 58	NaN	162	-4374	14.24	-1.46	-1.44	-0.44	  2	  9	
+R10	 10	 32	  1	 52	NaN	 42	-1134	10.70	-1.20	-1.25	-0.52	  1	 13	
+R11	 11	-25	-32	 61	NaN	 67	-1809	15.02	-1.34	-1.39	-0.41	  2	 10	
+Appending clusters in cl_rob_p_0001_001_005_05_k5_1_1_prune
+Saving image of slices: orth_rob_p_0001_001_005_05_k5_1_1_prune_coronal.png
+Saving image of slices: orth_rob_p_0001_001_005_05_k5_1_1_prune_sagittal.png
+Saving image of slices: orth_rob_p_0001_001_005_05_k5_1_1_prune_axial.png
+</pre><img vspace="5" hspace="5" src="robust_reg_results_for_publish_27.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_28.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_29.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_30.png" alt=""> <pre class="codeoutput">Pain                      robust results success.
+________________________________________________________________________________________________________
+________________________________________________________________________________________________________
+Painxtime^1              
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/second_level/model1/robust0004
+________________________________________________________________________________________________________
+________________________________________________________________________________________________________
+==========================
+=
+= robust_results_batch.m
+=
+==========================
+Directory: /Users/tor/Dropbox/kansas_workshop_aug2012/Data_Wager_NSF_Pain/second_level/model1/robust0004
+Date report generated: 07-Aug-2012
+________________________________
+
+
+Model info:
+________________________________
+Images and regressors (intercept +   0 covs)
+ 	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF1005/con_0004.img	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF1126/con_0004.img	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF1254/con_0004.img	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF188/con_0004.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF1909/con_0004.img	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF818/con_0004.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF830/con_0004.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF838/con_0004.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF845/con_0004.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF846/con_0004.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF907/con_0004.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF909/con_0004.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF935/con_0004.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF960/con_0004.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF972/con_0004.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF975/con_0004.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF979/con_0004.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF986/con_0004.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/nsf1/con_0004.img   	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/nsf2/con_0004.img   	1.0000	
+
+==========================
+
+
+Results info:________________________________
+Input options:
+thresh	0.0010	0.0050	0.0500	
+
+size	prune	
+Results inputs
+________________________________
+
+Mask: rob_beta_0001.img
+Overlay: /Users/tor/Documents/matlab_code_canlab/trunk/3DheadUtility_lite/canlab_canonical_brains/SPM8_colin27T1_seg.img
+
+P-value thresholds: 0.0010	0.0050	0.0500	
+
+
+Extent thresholds: 5.0000	1.0000	1.0000	
+
+</pre><img vspace="5" hspace="5" src="robust_reg_results_for_publish_31.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_32.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_33.png" alt=""> <pre class="codeoutput">Using default mask: /Users/tor/Documents/matlab_code_external/spm8/apriori/brainmask.nii
+loading mask. mapping volumes. 
+checking that dimensions and voxel sizes of volumes are the same. 
+Pre-allocating data array. Needed: 8348800 bytes
+Loading image number:  20
+Elapsed time is 0.408695 seconds.
+fmri_data.create: Converting 1767021 NaNs to 0s.Image names entered, but fullpath attribute is empty. Getting path info.
+Warning: Function
+/Users/tor/Documents/matlab_code_external/spider/functions/norm.m has the
+same name as a MATLAB builtin. We suggest you rename the function to avoid a
+potential name conflict. 
+</pre><img vspace="5" hspace="5" src="robust_reg_results_for_publish_34.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_35.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_36.png" alt=""> <pre class="codeoutput">
+FDR correction info (FDR not necessarily used here; just for info):________________________________
+Calculating FDR threshold across family of tests in these images:
+rob_p_0001.img
+Total p-values:  271633
+Combined FDR threshold is    -Inf
+Returning output in SETUP.fdr_p_thresh (you must save this yourself in the .mat file)
+ 
+Getting FDR thresholds for individual images:
+rob_p_0001.img	 FDR (q &lt; .05) =     Inf
+Returning output in SETUP.fdr_p_thresh_indiv (you must save this yourself in the .mat file)
+
+________________________________
+Colors: Normal
+==========================
+==========================
+=
+= Results for rob0
+=
+==========================
+Will print tables.
+Will show slices.
+Saving log file: rob_p_0001_001_005_05_k5_1_1_prune_log.txt
+Other key results in: rob_p_0001_001_005_05_k5_1_1_prune_results.txt
+Will also save figures of slice montages if 'slices' requested.
+
+iimg_multi_threshold viewer
+=====================================================
+Showing positive or negative: pos
+Overlay is: /Users/tor/Documents/matlab_code_canlab/trunk/3DheadUtility_lite/canlab_canonical_brains/SPM8_colin27T1_seg.img
+Mask is: rob_beta_0001.img
+Entered p-value image? : Yes
+Height thresholds:0.0010 0.0050 0.0500 
+Extent thresholds:   5   1   1 
+Show only contiguous with seed regions: Yes
+ 
+Warning: p-values in cl.Z will not give valid spm_max subclusters.
+log(1/p) saved in output cl.Z field.
+
+iimg_multi_threshold viewer
+=====================================================
+Showing positive or negative: neg
+Overlay is: /Users/tor/Documents/matlab_code_canlab/trunk/3DheadUtility_lite/canlab_canonical_brains/SPM8_colin27T1_seg.img
+Mask is: rob_beta_0001.img
+Entered p-value image? : Yes
+Height thresholds:0.0010 0.0050 0.0500 
+Extent thresholds:   5   1   1 
+Show only contiguous with seed regions: Yes
+ 
+Warning: p-values in cl.Z will not give valid spm_max subclusters.
+log(1/p) saved in output cl.Z field.
+Extracting image data for significant clusters. No clusters to extract.
+Extracting image data for significant clusters. 
+Summary of output images:
+rob_p_0001.img
+Results clusters clpos and clneg are returned for the LAST image in this set.
+ 
+Printing Tables.
+NOTE: FULL MEDIATION TABLES DO NOT WORK YET FOR SINGLE-LEVEL RESULTS
+Printing abbreviated tables.
+Positive effects
+No results to print.
+Negative effects
+ 
+Z field contains: Robust regression intercept. (shown in maxstat)
+ 
+Name	index	x	y	z	corr	voxels	volume_mm3	maxstat	snr_avgts(d)	minsnr	maxsnr	numpos	power80	
+R1	  1	 41	 46	 13	NaN	 81	-2187	9.00	-0.91	-1.03	-0.27	  3	 21	
+R2	  2	  2	 25	 31	NaN	277	-7479	10.16	-1.03	-1.11	-0.12	  2	 17	
+Appending clusters in cl_rob_p_0001_001_005_05_k5_1_1_prune
+Saving image of slices: orth_rob_p_0001_001_005_05_k5_1_1_prune_coronal.png
+Saving image of slices: orth_rob_p_0001_001_005_05_k5_1_1_prune_sagittal.png
+Saving image of slices: orth_rob_p_0001_001_005_05_k5_1_1_prune_axial.png
+</pre><img vspace="5" hspace="5" src="robust_reg_results_for_publish_37.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_38.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_39.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_40.png" alt=""> <pre class="codeoutput">Painxtime^1               robust results success.
+________________________________________________________________________________________________________
+________________________________________________________________________________________________________
+Antic                    
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/second_level/model1/robust0005
+________________________________________________________________________________________________________
+________________________________________________________________________________________________________
+==========================
+=
+= robust_results_batch.m
+=
+==========================
+Directory: /Users/tor/Dropbox/kansas_workshop_aug2012/Data_Wager_NSF_Pain/second_level/model1/robust0005
+Date report generated: 07-Aug-2012
+________________________________
+
+
+Model info:
+________________________________
+Images and regressors (intercept +   0 covs)
+ 	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF1005/con_0005.img	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF1126/con_0005.img	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF1254/con_0005.img	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF188/con_0005.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF1909/con_0005.img	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF818/con_0005.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF830/con_0005.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF838/con_0005.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF845/con_0005.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF846/con_0005.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF907/con_0005.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF909/con_0005.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF935/con_0005.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF960/con_0005.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF972/con_0005.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF975/con_0005.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF979/con_0005.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF986/con_0005.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/nsf1/con_0005.img   	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/nsf2/con_0005.img   	1.0000	
+
+==========================
+
+
+Results info:________________________________
+Input options:
+thresh	0.0010	0.0050	0.0500	
+
+size	prune	
+Results inputs
+________________________________
+
+Mask: rob_beta_0001.img
+Overlay: /Users/tor/Documents/matlab_code_canlab/trunk/3DheadUtility_lite/canlab_canonical_brains/SPM8_colin27T1_seg.img
+
+P-value thresholds: 0.0010	0.0050	0.0500	
+
+
+Extent thresholds: 5.0000	1.0000	1.0000	
+
+</pre><img vspace="5" hspace="5" src="robust_reg_results_for_publish_41.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_42.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_43.png" alt=""> <pre class="codeoutput">Using default mask: /Users/tor/Documents/matlab_code_external/spm8/apriori/brainmask.nii
+loading mask. mapping volumes. 
+checking that dimensions and voxel sizes of volumes are the same. 
+Pre-allocating data array. Needed: 8348800 bytes
+Loading image number:  20
+Elapsed time is 0.426747 seconds.
+fmri_data.create: Converting 1767021 NaNs to 0s.Image names entered, but fullpath attribute is empty. Getting path info.
+Warning: Function
+/Users/tor/Documents/matlab_code_external/spider/functions/norm.m has the
+same name as a MATLAB builtin. We suggest you rename the function to avoid a
+potential name conflict. 
+</pre><img vspace="5" hspace="5" src="robust_reg_results_for_publish_44.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_45.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_46.png" alt=""> <pre class="codeoutput">
+FDR correction info (FDR not necessarily used here; just for info):________________________________
+Calculating FDR threshold across family of tests in these images:
+rob_p_0001.img
+Total p-values:  271633
+Combined FDR threshold is 0.022021
+Returning output in SETUP.fdr_p_thresh (you must save this yourself in the .mat file)
+ 
+Getting FDR thresholds for individual images:
+rob_p_0001.img	 FDR (q &lt; .05) = 0.022021
+Returning output in SETUP.fdr_p_thresh_indiv (you must save this yourself in the .mat file)
+
+________________________________
+Colors: Normal
+==========================
+==========================
+=
+= Results for rob0
+=
+==========================
+Will print tables.
+Will show slices.
+Saving log file: rob_p_0001_001_005_05_k5_1_1_prune_log.txt
+Other key results in: rob_p_0001_001_005_05_k5_1_1_prune_results.txt
+Will also save figures of slice montages if 'slices' requested.
+
+iimg_multi_threshold viewer
+=====================================================
+Showing positive or negative: pos
+Overlay is: /Users/tor/Documents/matlab_code_canlab/trunk/3DheadUtility_lite/canlab_canonical_brains/SPM8_colin27T1_seg.img
+Mask is: rob_beta_0001.img
+Entered p-value image? : Yes
+Height thresholds:0.0010 0.0050 0.0500 
+Extent thresholds:   5   1   1 
+Show only contiguous with seed regions: Yes
+ 
+Warning: p-values in cl.Z will not give valid spm_max subclusters.
+log(1/p) saved in output cl.Z field.
+
+iimg_multi_threshold viewer
+=====================================================
+Showing positive or negative: neg
+Overlay is: /Users/tor/Documents/matlab_code_canlab/trunk/3DheadUtility_lite/canlab_canonical_brains/SPM8_colin27T1_seg.img
+Mask is: rob_beta_0001.img
+Entered p-value image? : Yes
+Height thresholds:0.0010 0.0050 0.0500 
+Extent thresholds:   5   1   1 
+Show only contiguous with seed regions: Yes
+ 
+Warning: p-values in cl.Z will not give valid spm_max subclusters.
+log(1/p) saved in output cl.Z field.
+Extracting image data for significant clusters. 
+Extracting image data for significant clusters. Using cached image names.
+
+Summary of output images:
+rob_p_0001.img
+Results clusters clpos and clneg are returned for the LAST image in this set.
+ 
+Printing Tables.
+NOTE: FULL MEDIATION TABLES DO NOT WORK YET FOR SINGLE-LEVEL RESULTS
+Printing abbreviated tables.
+Positive effects
+ 
+Z field contains: Robust regression intercept. (shown in maxstat)
+ 
+Name	index	x	y	z	corr	voxels	volume_mm3	maxstat	snr_avgts(d)	minsnr	maxsnr	numpos	power80	
+R1	  1	 41	-68	 -5	NaN	317	-8559	17.50	1.53	0.02	2.21	 19	  8	
+R2	  2	 26	 -5	 16	NaN	4117	-111159	19.87	-1.52	-2.53	1.65	  1	  8	
+R3	  3	-40	-56	-20	NaN	 69	-1863	9.95	1.05	0.05	1.01	 17	 16	
+R4	  4	-43	-80	 -8	NaN	 66	-1782	8.57	0.69	0.15	0.99	 18	 35	
+R5	  5	-28	-92	 13	NaN	 64	-1728	12.90	1.11	0.21	1.27	 18	 14	
+R6	  6	 53	-47	  7	NaN	 52	-1404	13.59	1.20	0.32	1.13	 19	 13	
+Negative effects
+ 
+Z field contains: Robust regression intercept. (shown in maxstat)
+ 
+Name	index	x	y	z	corr	voxels	volume_mm3	maxstat	snr_avgts(d)	minsnr	maxsnr	numpos	power80	
+R1	  1	-16	-50	-26	NaN	142	-3834	15.78	-1.18	-1.48	-0.39	  1	 13	
+R2	  2	 26	 -5	 16	NaN	4117	-111159	19.87	-1.52	-2.53	1.65	  1	  8	
+R3	  3	-46	-11	 10	NaN	1501	-40527	18.50	-1.69	-2.09	0.79	  0	  7	
+R4	  4	 41	 49	 10	NaN	197	-5319	18.89	-1.47	-2.15	-0.02	  1	  9	
+R5	  5	-16	 10	 -2	NaN	  8	-216	11.38	-1.16	-1.39	-0.67	  2	 13	
+R6	  6	-28	 49	 25	NaN	 45	-1215	10.89	-1.08	-1.13	-0.52	  3	 15	
+R7	  7	-19	-65	 52	NaN	444	-11988	21.92	-1.58	-2.37	-0.40	  1	  8	
+R8	  8	 17	-65	 55	NaN	272	-7344	13.67	-1.37	-1.63	-0.18	  1	 10	
+R9	  9	-28	 -5	 58	NaN	227	-6129	16.67	-1.83	-1.77	-0.42	  0	  6	
+R10	 10	 32	  1	 52	NaN	 42	-1134	12.36	-1.27	-1.39	-0.49	  2	 11	
+R11	 11	 23	-35	 61	NaN	174	-4698	13.26	-1.06	-1.23	-0.31	  3	 16	
+R12	 12	-25	-35	 61	NaN	 88	-2376	15.70	-1.44	-1.77	-0.40	  1	  9	
+Appending clusters in cl_rob_p_0001_001_005_05_k5_1_1_prune
+Saving image of slices: orth_rob_p_0001_001_005_05_k5_1_1_prune_coronal.png
+Saving image of slices: orth_rob_p_0001_001_005_05_k5_1_1_prune_sagittal.png
+Saving image of slices: orth_rob_p_0001_001_005_05_k5_1_1_prune_axial.png
+</pre><img vspace="5" hspace="5" src="robust_reg_results_for_publish_47.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_48.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_49.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_50.png" alt=""> <pre class="codeoutput">Antic                     robust results success.
+________________________________________________________________________________________________________
+________________________________________________________________________________________________________
+Anticxtime^1             
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/second_level/model1/robust0006
+________________________________________________________________________________________________________
+________________________________________________________________________________________________________
+==========================
+=
+= robust_results_batch.m
+=
+==========================
+Directory: /Users/tor/Dropbox/kansas_workshop_aug2012/Data_Wager_NSF_Pain/second_level/model1/robust0006
+Date report generated: 07-Aug-2012
+________________________________
+
+
+Model info:
+________________________________
+Images and regressors (intercept +   0 covs)
+ 	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF1005/con_0006.img	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF1126/con_0006.img	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF1254/con_0006.img	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF188/con_0006.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF1909/con_0006.img	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF818/con_0006.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF830/con_0006.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF838/con_0006.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF845/con_0006.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF846/con_0006.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF907/con_0006.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF909/con_0006.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF935/con_0006.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF960/con_0006.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF972/con_0006.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF975/con_0006.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF979/con_0006.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/NSF986/con_0006.img 	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/nsf1/con_0006.img   	1.0000	
+/Users/tor/Dropbox/Kansas_Workshop_Aug2012/Data_Wager_NSF_Pain/first_level/model1/nsf2/con_0006.img   	1.0000	
+
+==========================
+
+
+Results info:________________________________
+Input options:
+thresh	0.0010	0.0050	0.0500	
+
+size	prune	
+Results inputs
+________________________________
+
+Mask: rob_beta_0001.img
+Overlay: /Users/tor/Documents/matlab_code_canlab/trunk/3DheadUtility_lite/canlab_canonical_brains/SPM8_colin27T1_seg.img
+
+P-value thresholds: 0.0010	0.0050	0.0500	
+
+
+Extent thresholds: 5.0000	1.0000	1.0000	
+
+</pre><img vspace="5" hspace="5" src="robust_reg_results_for_publish_51.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_52.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_53.png" alt=""> <pre class="codeoutput">Using default mask: /Users/tor/Documents/matlab_code_external/spm8/apriori/brainmask.nii
+loading mask. mapping volumes. 
+checking that dimensions and voxel sizes of volumes are the same. 
+Pre-allocating data array. Needed: 8348800 bytes
+Loading image number:  20
+Elapsed time is 0.407095 seconds.
+fmri_data.create: Converting 1767021 NaNs to 0s.Image names entered, but fullpath attribute is empty. Getting path info.
+Warning: Function
+/Users/tor/Documents/matlab_code_external/spider/functions/norm.m has the
+same name as a MATLAB builtin. We suggest you rename the function to avoid a
+potential name conflict. 
+</pre><img vspace="5" hspace="5" src="robust_reg_results_for_publish_54.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_55.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_56.png" alt=""> <pre class="codeoutput">
+FDR correction info (FDR not necessarily used here; just for info):________________________________
+Calculating FDR threshold across family of tests in these images:
+rob_p_0001.img
+Total p-values:  271633
+Combined FDR threshold is 0.000000
+Returning output in SETUP.fdr_p_thresh (you must save this yourself in the .mat file)
+ 
+Getting FDR thresholds for individual images:
+rob_p_0001.img	 FDR (q &lt; .05) = 0.000000
+Returning output in SETUP.fdr_p_thresh_indiv (you must save this yourself in the .mat file)
+
+________________________________
+Colors: Normal
+==========================
+==========================
+=
+= Results for rob0
+=
+==========================
+Will print tables.
+Will show slices.
+Saving log file: rob_p_0001_001_005_05_k5_1_1_prune_log.txt
+Other key results in: rob_p_0001_001_005_05_k5_1_1_prune_results.txt
+Will also save figures of slice montages if 'slices' requested.
+
+iimg_multi_threshold viewer
+=====================================================
+Showing positive or negative: pos
+Overlay is: /Users/tor/Documents/matlab_code_canlab/trunk/3DheadUtility_lite/canlab_canonical_brains/SPM8_colin27T1_seg.img
+Mask is: rob_beta_0001.img
+Entered p-value image? : Yes
+Height thresholds:0.0010 0.0050 0.0500 
+Extent thresholds:   5   1   1 
+Show only contiguous with seed regions: Yes
+ 
+Warning: p-values in cl.Z will not give valid spm_max subclusters.
+log(1/p) saved in output cl.Z field.
+
+iimg_multi_threshold viewer
+=====================================================
+Showing positive or negative: neg
+Overlay is: /Users/tor/Documents/matlab_code_canlab/trunk/3DheadUtility_lite/canlab_canonical_brains/SPM8_colin27T1_seg.img
+Mask is: rob_beta_0001.img
+Entered p-value image? : Yes
+Height thresholds:0.0010 0.0050 0.0500 
+Extent thresholds:   5   1   1 
+Show only contiguous with seed regions: Yes
+ 
+Warning: p-values in cl.Z will not give valid spm_max subclusters.
+log(1/p) saved in output cl.Z field.
+
+----------------------
+No significant results
+----------------------
+Warning: Function
+/Users/tor/Documents/matlab_code_external/spider/functions/norm.m has the
+same name as a MATLAB builtin. We suggest you rename the function to avoid a
+potential name conflict. 
+Extracting image data for significant clusters. No clusters to extract.
+Extracting image data for significant clusters. No clusters to extract.
+Summary of output images:
+rob_p_0001.img
+Results clusters clpos and clneg are returned for the LAST image in this set.
+ 
+Printing Tables.
+Appending clusters in cl_rob_p_0001_001_005_05_k5_1_1_prune
+No clusters to show slices for.
+</pre><img vspace="5" hspace="5" src="robust_reg_results_for_publish_57.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_58.png" alt=""> <img vspace="5" hspace="5" src="robust_reg_results_for_publish_59.png" alt=""> <pre class="codeoutput">Anticxtime^1              robust results success.
+</pre><p class="footer"><br>
+      Published with MATLAB&reg; 7.11<br></p></div><!--
+##### SOURCE BEGIN #####
+% Note: scripts run in publish have access to variables in the base
+% workspace, but not any variables created in a calling function.
+% We can use assignin.m to assign relevant variables to base workspace.
+
+z = '________________________________________________________________________________________________________';
+
+
+%if robust_regression_results
+
+modeldir = fullfile(basedir, 'second_level', modelname);
+if ~exist(modeldir, 'dir')
+    diary(diaryname), fprintf('Model dir does not exist. Skipping all...\n'); disp(modeldir), diary off
+end
+
+cd(modeldir);
+
+load EXPTm EXPTm
+
+for i = 1:length(EXPTm.SNPM.P)
+    
+    robregdir = fullfile(modeldir, sprintf('robust%04d', i));
+    
+    if ~exist(robregdir, 'dir')
+        diary(diaryname), fprintf('%s robust results: dir does not exist/not run yet (skipping.)\n', EXPTm.SNPM.connames(i, :)), diary off
+        continue
+    end
+    
+    cd(robregdir)
+    
+    fprintf('%s\n%s\n%s\n%s\n%s\n%s\n', z, z, EXPTm.SNPM.connames(i, :), robregdir, z, z);
+    
+    try
+        maskimg = fullfile(pwd, 'rob_tmap_0001.img'); % any image in space with non-zero vals for all vox
+        robust_results_batch('thresh', [.001 .005 .05], 'size', [5 1 1], 'prune');
+        diary(diaryname), fprintf('%s robust results success.\n', EXPTm.SNPM.connames(i, :)), diary off
+        
+    catch
+        diary(diaryname), fprintf('%s robust results failed.\n', EXPTm.SNPM.connames(i, :)), diary off
+        
+    end
+    
+    cd ..
+    
+end
+
+%end % if
+##### SOURCE END #####
+--></body></html>

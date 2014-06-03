@@ -1,0 +1,19 @@
+function stringlist=alternativereadtablenumbers(filename)
+fid = fopen(filename);
+stringcell = textscan(fid, ...            
+                '%s', ...
+                'Delimiter', '\n', ...
+                'CollectOutput', true);
+for i=1:size(stringcell{1},1),
+    row=textscan(stringcell{1}{i}, ...
+                '%s', ...
+                'Delimiter', ',', ...
+                'CollectOutput', true);
+    stringlist{i}=zeros(1,size(row{1},1)-1);
+    for j=2:size(row{1},1),
+        value=row{1}{j};
+        stringlist{i}(j-1)=str2num(value);
+    end
+end
+fclose(fid);
+
