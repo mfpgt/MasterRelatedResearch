@@ -5,16 +5,16 @@ clear Models, clear MM
 
 % Conditions and stimuli
 % ---------------------------------------------------------------
-GA.conditions = [1 2 3 4 5];
+GA.conditions = [1 2 3 4 5 6 7 8 9];
 	% a vector of integers 1:# of event-related conditions (e.g., [1 2 3 4])
 	% to add "rest" intervals, add an extra condition and set its contrast weight
 	% to zero in all contrasts.
 	% e.g., condition 3 in this design could be passive rest.
 
-GA.freqConditions = [.225 .225 .225 .225 .1];
+GA.freqConditions = [.1125 .1125 .1125 .1125 .1125 .1125 .1125 .1125 .1];
 	% vector of frequencies of each trial type; should sum to 1
 
-GA.scanLength = 640;  
+GA.scanLength = 640;
 	% how long your run is, in seconds.  
     % This and the ISI determine how many stimuli are in each design vector
 
@@ -121,11 +121,11 @@ GA.maxFreqDevthresh = [];   % maximum acceptable deviation from input frequencie
 % Here you specify contrasts across conditions, for use with the contrast estimation fitness measure
 % Each contrasts should be a row in the matrix GA.contrasts
 % 
-GA.contrasts = [-0.75 -0.25 0.25 0.75 0;0.75 0.25 -0.25 -0.75 0];                            
+GA.contrasts = designContrasts;                            
     % there should be one column per condition in your design, not including the intercept.
     %if trans2switch or trans2block = 1, double the number of columns.
     % when using epoch design, three elements per condition for epochs (3 epochs)!
-GA.contrastweights = [1 1];	                      
+GA.contrastweights = [1 1 1 1];	                      
     % Weighting function for contrasts (rows of GA.contrasts)
     % Contrast efficiencies will be multiplied by these weights before computing overall design fitness
     % If no contrasts are specified, this vector can specify weights for predictors (columns)
