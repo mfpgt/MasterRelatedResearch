@@ -115,7 +115,8 @@ if ~sum(freqConditions) > 1, error('freqConditions must sum to 1 or less than 1.
 	else disp('	...No rests specified.'),dorests = 0;
 	end
 
-if ~(mod(scanLength / ISI,1) == 0),disp('Warning: Scan length in s is not an even multiple of ISI!'),end
+if ~(mod(scanLength / 
+    ,1) == 0),disp('Warning: Scan length in s is not an even multiple of ISI!'),end
 
 
 % ----------------------------------------------------------------

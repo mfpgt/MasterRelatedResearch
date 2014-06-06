@@ -17,6 +17,28 @@
 % -------------------------------------------------------------------------------------------------
         % Model parameters
         
+stimList=customSequence;
+contrasts=designContrasts;
+contrastweights=[1 1 1 1];
+ISI=4;
+TR=1.5;
+scanLength=640;
+nonlinthreshold = [];
+HPlength = []; 
+GA.LPsmooth = [];
+eval(['load ' AutocorrelationFileName]);  
+xc = myscannerxc;
+if ~exist('dflag')==1,dflag = 0; end
+
+if ~isfield(GA,'LPsmooth'),GA.LPsmooth = 1;,end
+numStim = ceil(scanLength / (ISI));
+numsamps = ceil(numStim*ISI/TR);
+[S,Vi,svi] = getSmoothing(HPlength,GA.LPsmooth,TR,numsamps,xc);
+clear Vi
+HRF = spm_hrf(.1);						% SPM HRF sampled at .1 s
+HRF = HRF/ max(HRF);
+
+
 
         % * efficiency
 		% -------------------------------------------------------------------------------------------------
@@ -27,7 +49,7 @@
             % Kludgy insertion. tor: 5/6/08
             
             xtxitx = pinv(model);   % a-optimality   % inv(X'S'SX)*(SX)'; pseudoinv of (S*X)
-            effDetection = calcEfficiency(contrastweights,contrasts,xtxitx,svi,dflag);
+            [effDetection, effDetectionVector] = calcEfficiency(contrastweights,contrasts,xtxitx,svi,dflag);
 	
         % -------------------------------------------------------------------------------------------------
 		% * HRF shape estimation efficiency
@@ -45,7 +67,6 @@
             if ~isempty(S), model = S * model; end
             
         	xtxitx = pinv(model);   % a-optimality   % inv(X'S'SX)*(SX)'; pseudoinv of (S*X)
-            effEstimation = calcEfficiency([],[],xtxitx,svi,dflag);
+            [effEstimation, effEstimationVector] = calcEfficiency([],[],xtxitx,svi,dflag);
        
-   	clear model,clear maxNumStim,clear maxDev,clear maxFreqDev,clear cBal,clear dummy,clear stimList,clear go,clear xtxitx
-   
+   	clear model,clear maxNumStim,clear maxDev,clear maxFreqDev,clear cBal,clear dummy,clear stimList,clear go,clear xtxitx 

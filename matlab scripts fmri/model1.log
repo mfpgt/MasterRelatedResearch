@@ -218,3 +218,452 @@ ans =
 
      0
 
+Starting Model 1
+OptimizeGA
+===============================
+Saturation threshold = 
+Setting up variables
+You entered 9 conditions  (event types) that will each be modeled with a regessor. 
+ Note that if you enter 0 as a condition number, those events will not be modeled
+ (they are assumed to be rest/inter-stimulus interval periods)
+
+Contrasts entered. You entered matrix of 4 contrasts, with weights across 9 conditions.
+ Contrasts:
+  Columns 1 through 6
+
+   -0.3750   -0.3750   -0.1250   -0.1250    0.1250    0.1250
+    0.3750    0.3750    0.1250    0.1250   -0.1250   -0.1250
+    0.2500   -0.2500    0.2500   -0.2500    0.2500   -0.2500
+   -0.2500    0.2500   -0.2500    0.2500   -0.2500    0.2500
+
+  Columns 7 through 9
+
+    0.3750    0.3750         0
+   -0.3750   -0.3750         0
+    0.2500   -0.2500         0
+   -0.2500    0.2500         0
+
+ ...adding one column to contrast matrix with weights of 0, to model the intercept
+You entered a contrast weight vector across 4 contrasts
+ 	...No rests specified.
+================== Parameters ======================
+     Total stimuli in scan      : 160
+     Fixed rest length in ITIs  : 
+     Fixed Rest stimuli in scan : 0
+     Num blank intervals        : 0
+     Num of task conds          : 9
+     Num stimuli each cond      : 18  18  18  18  18  18  18  18  16
+====================================================
+	...generating lists of organisms
+REST INTERVALS: not used (to use, freqCond should be one longer than conditions
+  ...randomizing organism start state
+======== Num stimuli, averaged across lists (before instruction/rest stimuli) ========
+		Condition 0: 0 stimuli, 0% of total stimuli
+		Condition 1: 18 stimuli, 11.25% of total stimuli
+		Condition 2: 18 stimuli, 11.25% of total stimuli
+		Condition 3: 18 stimuli, 11.25% of total stimuli
+		Condition 4: 18 stimuli, 11.25% of total stimuli
+		Condition 5: 18 stimuli, 11.25% of total stimuli
+		Condition 6: 18 stimuli, 11.25% of total stimuli
+		Condition 7: 18 stimuli, 11.25% of total stimuli
+		Condition 8: 18 stimuli, 11.25% of total stimuli
+		Condition 9: 16 stimuli, 10% of total stimuli
+======================================================================================
+{Undefined function 'resample' for input arguments of type 'double'.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('designvector2model', '/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/optimal designs/optimal design matlab package/OptimizeDesign11/core_functions/designvector2model.m', 40)" style="font-weight:bold">designvector2model</a> (<a href="matlab: opentoline('/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/optimal designs/optimal design matlab package/OptimizeDesign11/core_functions/designvector2model.m',40,0)">line 40</a>)
+model = resample(model,1,TR*10);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('optimizeGA', '/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/optimal designs/optimal design matlab package/OptimizeDesign11/optimizeGA.m', 490)" style="font-weight:bold">optimizeGA</a> (<a href="matlab: opentoline('/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/optimal designs/optimal design matlab package/OptimizeDesign11/optimizeGA.m',490,0)">line 490</a>)
+			model =
+                        designvector2model(stimList,ISI,HRF,TR,numsamps,nonlinthreshold,S);
+                        
+Error in <a href="matlab:helpUtils.errorDocCallback('Maruyama_design_1_ga', '/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/matlab scripts fmri/Maruyama_design_1_ga.m', 219)" style="font-weight:bold">Maruyama_design_1_ga</a> (<a href="matlab: opentoline('/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/matlab scripts fmri/Maruyama_design_1_ga.m',219,0)">line 219</a>)
+   M = optimizeGA(GA);
+} 
+Maruyama_design_1_ga
+Starting Model 1
+OptimizeGA
+===============================
+Saturation threshold = 
+Setting up variables
+You entered 9 conditions  (event types) that will each be modeled with a regessor. 
+ Note that if you enter 0 as a condition number, those events will not be modeled
+ (they are assumed to be rest/inter-stimulus interval periods)
+
+Contrasts entered. You entered matrix of 4 contrasts, with weights across 9 conditions.
+ Contrasts:
+  Columns 1 through 6
+
+   -0.3750   -0.3750   -0.1250   -0.1250    0.1250    0.1250
+    0.3750    0.3750    0.1250    0.1250   -0.1250   -0.1250
+    0.2500   -0.2500    0.2500   -0.2500    0.2500   -0.2500
+   -0.2500    0.2500   -0.2500    0.2500   -0.2500    0.2500
+
+  Columns 7 through 9
+
+    0.3750    0.3750         0
+   -0.3750   -0.3750         0
+    0.2500   -0.2500         0
+   -0.2500    0.2500         0
+
+ ...adding one column to contrast matrix with weights of 0, to model the intercept
+You entered a contrast weight vector across 4 contrasts
+ 	...No rests specified.
+================== Parameters ======================
+     Total stimuli in scan      : 160
+     Fixed rest length in ITIs  : 
+     Fixed Rest stimuli in scan : 0
+     Num blank intervals        : 0
+     Num of task conds          : 9
+     Num stimuli each cond      : 18  18  18  18  18  18  18  18  16
+====================================================
+	...generating lists of organisms
+     1
+     1
+     1
+     1
+     1
+     1
+     1
+     1
+     1
+     1
+     1
+     1
+     1
+     1
+     1
+     1
+     1
+     1
+     2
+     2
+     2
+     2
+     2
+     2
+     2
+     2
+     2
+     2
+     2
+     2
+     2
+     2
+     2
+     2
+     2
+     2
+     3
+     3
+     3
+     3
+     3
+     3
+     3
+     3
+     3
+     3
+     3
+     3
+     3
+     3
+     3
+     3
+     3
+     3
+     4
+     4
+     4
+     4
+     4
+     4
+     4
+     4
+     4
+     4
+     4
+     4
+     4
+     4
+     4
+     4
+     4
+     4
+     5
+     5
+     5
+     5
+     5
+     5
+     5
+     5
+     5
+     5
+     5
+     5
+     5
+     5
+     5
+     5
+     5
+     5
+     6
+     6
+     6
+     6
+     6
+     6
+     6
+     6
+     6
+     6
+     6
+     6
+     6
+     6
+     6
+     6
+     6
+     6
+     7
+     7
+     7
+     7
+     7
+     7
+     7
+     7
+     7
+     7
+     7
+     7
+     7
+     7
+     7
+     7
+     7
+     7
+     8
+     8
+     8
+     8
+     8
+     8
+     8
+     8
+     8
+     8
+     8
+     8
+     8
+     8
+     8
+     8
+     8
+     8
+     9
+     9
+     9
+     9
+     9
+     9
+     9
+     9
+     9
+     9
+     9
+     9
+     9
+     9
+     9
+     9
+
+REST INTERVALS: not used (to use, freqCond should be one longer than conditions
+  ...randomizing organism start state
+======== Num stimuli, averaged across lists (before instruction/rest stimuli) ========
+		Condition 0: 0 stimuli, 0% of total stimuli
+		Condition 1: 18 stimuli, 11.25% of total stimuli
+		Condition 2: 18 stimuli, 11.25% of total stimuli
+		Condition 3: 18 stimuli, 11.25% of total stimuli
+		Condition 4: 18 stimuli, 11.25% of total stimuli
+		Condition 5: 18 stimuli, 11.25% of total stimuli
+		Condition 6: 18 stimuli, 11.25% of total stimuli
+		Condition 7: 18 stimuli, 11.25% of total stimuli
+		Condition 8: 18 stimuli, 11.25% of total stimuli
+		Condition 9: 16 stimuli, 10% of total stimuli
+======================================================================================
+{Undefined function 'resample' for input arguments of type 'double'.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('designvector2model', '/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/optimal designs/optimal design matlab package/OptimizeDesign11/core_functions/designvector2model.m', 40)" style="font-weight:bold">designvector2model</a> (<a href="matlab: opentoline('/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/optimal designs/optimal design matlab package/OptimizeDesign11/core_functions/designvector2model.m',40,0)">line 40</a>)
+model = resample(model,1,TR*10);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('optimizeGA', '/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/optimal designs/optimal design matlab package/OptimizeDesign11/optimizeGA.m', 490)" style="font-weight:bold">optimizeGA</a> (<a href="matlab: opentoline('/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/optimal designs/optimal design matlab package/OptimizeDesign11/optimizeGA.m',490,0)">line 490</a>)
+			model =
+                        designvector2model(stimList,ISI,HRF,TR,numsamps,nonlinthreshold,S);
+                        
+Error in <a href="matlab:helpUtils.errorDocCallback('Maruyama_design_1_ga', '/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/matlab scripts fmri/Maruyama_design_1_ga.m', 219)" style="font-weight:bold">Maruyama_design_1_ga</a> (<a href="matlab: opentoline('/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/matlab scripts fmri/Maruyama_design_1_ga.m',219,0)">line 219</a>)
+   M = optimizeGA(GA);
+} 
+Maruyama_design_1_ga
+Starting Model 1
+OptimizeGA
+===============================
+Saturation threshold = 
+Setting up variables
+You entered 9 conditions  (event types) that will each be modeled with a regessor. 
+ Note that if you enter 0 as a condition number, those events will not be modeled
+ (they are assumed to be rest/inter-stimulus interval periods)
+
+Contrasts entered. You entered matrix of 4 contrasts, with weights across 9 conditions.
+ Contrasts:
+  Columns 1 through 6
+
+   -0.3750   -0.3750   -0.1250   -0.1250    0.1250    0.1250
+    0.3750    0.3750    0.1250    0.1250   -0.1250   -0.1250
+    0.2500   -0.2500    0.2500   -0.2500    0.2500   -0.2500
+   -0.2500    0.2500   -0.2500    0.2500   -0.2500    0.2500
+
+  Columns 7 through 9
+
+    0.3750    0.3750         0
+   -0.3750   -0.3750         0
+    0.2500   -0.2500         0
+   -0.2500    0.2500         0
+
+ ...adding one column to contrast matrix with weights of 0, to model the intercept
+You entered a contrast weight vector across 4 contrasts
+ 	...No rests specified.
+================== Parameters ======================
+     Total stimuli in scan      : 160
+     Fixed rest length in ITIs  : 
+     Fixed Rest stimuli in scan : 0
+     Num blank intervals        : 0
+     Num of task conds          : 9
+     Num stimuli each cond      : 18  18  18  18  18  18  18  18  16
+====================================================
+	...generating lists of organisms
+REST INTERVALS: not used (to use, freqCond should be one longer than conditions
+  ...randomizing organism start state
+======== Num stimuli, averaged across lists (before instruction/rest stimuli) ========
+		Condition 0: 0 stimuli, 0% of total stimuli
+		Condition 1: 18 stimuli, 11.25% of total stimuli
+		Condition 2: 18 stimuli, 11.25% of total stimuli
+		Condition 3: 18 stimuli, 11.25% of total stimuli
+		Condition 4: 18 stimuli, 11.25% of total stimuli
+		Condition 5: 18 stimuli, 11.25% of total stimuli
+		Condition 6: 18 stimuli, 11.25% of total stimuli
+		Condition 7: 18 stimuli, 11.25% of total stimuli
+		Condition 8: 18 stimuli, 11.25% of total stimuli
+		Condition 9: 16 stimuli, 10% of total stimuli
+======================================================================================
+{Undefined function 'resample' for input arguments of type 'double'.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('designvector2model', '/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/optimal designs/optimal design matlab package/OptimizeDesign11/core_functions/designvector2model.m', 40)" style="font-weight:bold">designvector2model</a> (<a href="matlab: opentoline('/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/optimal designs/optimal design matlab package/OptimizeDesign11/core_functions/designvector2model.m',40,0)">line 40</a>)
+model = resample(model,1,TR*10);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('optimizeGA', '/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/optimal designs/optimal design matlab package/OptimizeDesign11/optimizeGA.m', 491)" style="font-weight:bold">optimizeGA</a> (<a href="matlab: opentoline('/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/optimal designs/optimal design matlab package/OptimizeDesign11/optimizeGA.m',491,0)">line 491</a>)
+			model =
+                        designvector2model(stimList,ISI,HRF,TR,numsamps,nonlinthreshold,S);
+                        
+Error in <a href="matlab:helpUtils.errorDocCallback('Maruyama_design_1_ga', '/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/matlab scripts fmri/Maruyama_design_1_ga.m', 219)" style="font-weight:bold">Maruyama_design_1_ga</a> (<a href="matlab: opentoline('/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/matlab scripts fmri/Maruyama_design_1_ga.m',219,0)">line 219</a>)
+   M = optimizeGA(GA);
+} 
+hola=[]
+
+hola =
+
+     []
+
+Maruyama_design_1_ga
+Starting Model 1
+OptimizeGA
+===============================
+Saturation threshold = 
+Setting up variables
+You entered 9 conditions  (event types) that will each be modeled with a regessor. 
+ Note that if you enter 0 as a condition number, those events will not be modeled
+ (they are assumed to be rest/inter-stimulus interval periods)
+
+Contrasts entered. You entered matrix of 4 contrasts, with weights across 9 conditions.
+ Contrasts:
+  Columns 1 through 6
+
+   -0.3750   -0.3750   -0.1250   -0.1250    0.1250    0.1250
+    0.3750    0.3750    0.1250    0.1250   -0.1250   -0.1250
+    0.2500   -0.2500    0.2500   -0.2500    0.2500   -0.2500
+   -0.2500    0.2500   -0.2500    0.2500   -0.2500    0.2500
+
+  Columns 7 through 9
+
+    0.3750    0.3750         0
+   -0.3750   -0.3750         0
+    0.2500   -0.2500         0
+   -0.2500    0.2500         0
+
+ ...adding one column to contrast matrix with weights of 0, to model the intercept
+You entered a contrast weight vector across 4 contrasts
+ 	...No rests specified.
+================== Parameters ======================
+     Total stimuli in scan      : 160
+     Fixed rest length in ITIs  : 
+     Fixed Rest stimuli in scan : 0
+     Num blank intervals        : 0
+     Num of task conds          : 9
+     Num stimuli each cond      : 18  18  18  18  18  18  18  18  16
+====================================================
+	...generating lists of organisms
+REST INTERVALS: not used (to use, freqCond should be one longer than conditions
+  ...randomizing organism start state
+======== Num stimuli, averaged across lists (before instruction/rest stimuli) ========
+		Condition 0: 0 stimuli, 0% of total stimuli
+		Condition 1: 18 stimuli, 11.25% of total stimuli
+		Condition 2: 18 stimuli, 11.25% of total stimuli
+		Condition 3: 18 stimuli, 11.25% of total stimuli
+		Condition 4: 18 stimuli, 11.25% of total stimuli
+		Condition 5: 18 stimuli, 11.25% of total stimuli
+		Condition 6: 18 stimuli, 11.25% of total stimuli
+		Condition 7: 18 stimuli, 11.25% of total stimuli
+		Condition 8: 18 stimuli, 11.25% of total stimuli
+		Condition 9: 16 stimuli, 10% of total stimuli
+======================================================================================
+{Undefined function 'resample' for input arguments of type 'double'.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('designvector2model', '/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/optimal designs/optimal design matlab package/OptimizeDesign11/core_functions/designvector2model.m', 40)" style="font-weight:bold">designvector2model</a> (<a href="matlab: opentoline('/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/optimal designs/optimal design matlab package/OptimizeDesign11/core_functions/designvector2model.m',40,0)">line 40</a>)
+model = resample(model,1,TR*10);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('optimizeGA', '/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/optimal designs/optimal design matlab package/OptimizeDesign11/optimizeGA.m', 490)" style="font-weight:bold">optimizeGA</a> (<a href="matlab: opentoline('/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/optimal designs/optimal design matlab package/OptimizeDesign11/optimizeGA.m',490,0)">line 490</a>)
+			model =
+                        designvector2model(stimList,ISI,HRF,TR,numsamps,nonlinthreshold,S);
+                        
+Error in <a href="matlab:helpUtils.errorDocCallback('Maruyama_design_1_ga', '/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/matlab scripts fmri/Maruyama_design_1_ga.m', 219)" style="font-weight:bold">Maruyama_design_1_ga</a> (<a href="matlab: opentoline('/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/matlab scripts fmri/Maruyama_design_1_ga.m',219,0)">line 219</a>)
+   M = optimizeGA(GA);
+} 
+EfficienciesOfDesign
+{Undefined function or variable 'numsamps'.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('EfficienciesOfDesign', '/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/matlab scripts fmri/EfficienciesOfDesign.m', 34)" style="font-weight:bold">EfficienciesOfDesign</a> (<a href="matlab: opentoline('/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/matlab scripts fmri/EfficienciesOfDesign.m',34,0)">line 34</a>)
+[S,Vi,svi] = getSmoothing(HPlength,GA.LPsmooth,TR,numsamps,xc);
+} 
+EfficienciesOfDesign
+{Undefined function or variable 'numsamps'.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('EfficienciesOfDesign', '/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/matlab scripts fmri/EfficienciesOfDesign.m', 35)" style="font-weight:bold">EfficienciesOfDesign</a> (<a href="matlab: opentoline('/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/matlab scripts fmri/EfficienciesOfDesign.m',35,0)">line 35</a>)
+[S,Vi,svi] = getSmoothing(HPlength,GA.LPsmooth,TR,numsamps,xc);
+} 
+EfficienciesOfDesign
+{Undefined function or variable 'stimList'.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('EfficienciesOfDesign', '/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/matlab scripts fmri/EfficienciesOfDesign.m', 46)" style="font-weight:bold">EfficienciesOfDesign</a> (<a href="matlab: opentoline('/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/matlab scripts fmri/EfficienciesOfDesign.m',46,0)">line 46</a>)
+			model =
+                        designvector2model(stimList,ISI,HRF,TR,numsamps,nonlinthreshold,S);} 
+EfficienciesOfDesign
+{Undefined function 'resample' for input arguments of type 'double'.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('designvector2model', '/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/optimal designs/optimal design matlab package/OptimizeDesign11/core_functions/designvector2model.m', 40)" style="font-weight:bold">designvector2model</a> (<a href="matlab: opentoline('/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/optimal designs/optimal design matlab package/OptimizeDesign11/core_functions/designvector2model.m',40,0)">line 40</a>)
+model = resample(model,1,TR*10);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('EfficienciesOfDesign', '/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/matlab scripts fmri/EfficienciesOfDesign.m', 46)" style="font-weight:bold">EfficienciesOfDesign</a> (<a href="matlab: opentoline('/volatile/martinlocal/GitRepositories/Master/MasterRelatedResearch/matlab scripts fmri/EfficienciesOfDesign.m',46,0)">line 46</a>)
+			model =
+                        designvector2model(stimList,ISI,HRF,TR,numsamps,nonlinthreshold,S);} 
