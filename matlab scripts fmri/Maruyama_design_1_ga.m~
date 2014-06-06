@@ -5,25 +5,25 @@ clear Models, clear MM
 
 % Conditions and stimuli
 % ---------------------------------------------------------------
-GA.conditions = [1 2 3 4 5 6];
+GA.conditions = [1 2 3 4 5];
 	% a vector of integers 1:# of event-related conditions (e.g., [1 2 3 4])
 	% to add "rest" intervals, add an extra condition and set its contrast weight
 	% to zero in all contrasts.
 	% e.g., condition 3 in this design could be passive rest.
 
-GA.freqConditions = [1 1 1 1 1 1] ./ 6;
+GA.freqConditions = [.225 .225 .225 .225 .1];
 	% vector of frequencies of each trial type; should sum to 1
 
-GA.scanLength = 36;  
+GA.scanLength = 640;  
 	% how long your run is, in seconds.  
     % This and the ISI determine how many stimuli are in each design vector
 
-GA.ISI = 1;  
+GA.ISI = 4;  
 	% how long between stimulus presentations? (you can also include "rest" presentations)
 	% also the time resolution of stimulus condition function (list of stimuli)
 	% designs will be constructed in time units of this resolution
     
-GA.TR = 1; 
+GA.TR = 1.5; 
     % the TR (sampling resolution) of your experiment; time for volume acquisition
 
 GA.doepochs = 0;        % build epochs instead of events
@@ -66,11 +66,11 @@ GA.cbalColinPowerWeights = [1 1 0 1];	% 1 = cbal, 2 = eff, 3 = hrf shape, 4 = fr
 	% does not have to sum to 1.
 
 
-GA.numGenerations = 30; 
+GA.numGenerations = 10000; 
 	% how many iterations of the GA to run.
-GA.sizeGenerations = 500;  
+GA.sizeGenerations = 200;  
 	% how many designs to test  for each generation?  Population size.
-GA.maxTime = 30;						
+GA.maxTime = 12000;						
 	% max time to run in s, or Inf for infinite time
 	% The GA stops when either numGenerations or maxTime is reached.
 
@@ -81,7 +81,7 @@ GA.alph = 2.1;
 	% continue on to the next generation.
 	% an intermediate value is best, to keep the population heterogeneity high.
 
-GA.plotFlag = 0; 
+GA.plotFlag = 1; 
 	% plot results after each run.  
 	% Recommended to leave this off if nmodels > 1, and then plot your final results later.
 
@@ -114,19 +114,18 @@ GA.maxOrder = 1;
 
 GA.NumStimthresh = [];      % maximum number of repeats of any one event type in a row
 GA.maxCbalDevthresh = []; 	% maximum acceptable counterbalancing deviation (actual freq - expected freq)
-GA.maxFreqDevthresh = .2;   % maximum acceptable deviation from input frequencies (GA.freqConditions)
+GA.maxFreqDevthresh = [];   % maximum acceptable deviation from input frequencies (GA.freqConditions)
 
 % Contrast setup
 % ---------------------------------------------------------------
 % Here you specify contrasts across conditions, for use with the contrast estimation fitness measure
 % Each contrasts should be a row in the matrix GA.contrasts
 % 
-GA.contrasts = [1 0 0 0 0 0];                            
+GA.contrasts = [-0.75 -0.25 0.25 0.75 0;0.75 0.25 -0.25 -0.75 0];                            
     % there should be one column per condition in your design, not including the intercept.
     %if trans2switch or trans2block = 1, double the number of columns.
     % when using epoch design, three elements per condition for epochs (3 epochs)!
-    
-GA.contrastweights = [1];	                      
+GA.contrastweights = [1 1];	                      
     % Weighting function for contrasts (rows of GA.contrasts)
     % Contrast efficiencies will be multiplied by these weights before computing overall design fitness
     % If no contrasts are specified, this vector can specify weights for predictors (columns)
@@ -134,7 +133,7 @@ GA.contrastweights = [1];
 
 % Autocorrelation and special options
 % ---------------------------------------------------------------
-AutocorrelationFileName = 'myscannerxc';
+AutocorrelationFileName = 'noautocorr';
     % This is the name of a mat file without the .mat extension
     % In the mat file, there should be a variable called myscannerxc
     % which is a row vector containing the autocorrelation fucntion you wish to use.
@@ -175,7 +174,6 @@ GA.nonlinthreshold = [];
     % short ISIs (generally, 2 s or less).  The clipping acts as a 'saturation' factor.
     % I like to use 2, because data in our lab suggests the the nonlinearities in the HRF can be
     % roughly approximated by a clipping function with this parameter value.
-    
 
 % ---------------------------------------------------------------
 %

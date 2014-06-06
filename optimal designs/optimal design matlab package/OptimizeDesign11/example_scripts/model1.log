@@ -1,0 +1,86 @@
+Starting Model 1
+OptimizeGA
+===============================
+Saturation threshold = 2
+Setting up variables
+You entered 2 conditions  (event types) that will each be modeled with a regessor. 
+ Note that if you enter 0 as a condition number, those events will not be modeled
+ (they are assumed to be rest/inter-stimulus interval periods)
+
+Contrasts entered. You entered matrix of 2 contrasts, with weights across 2 conditions.
+ Contrasts:
+     1    -1
+     1     1
+
+ ...adding one column to contrast matrix with weights of 0, to model the intercept
+You entered a contrast weight vector across 2 contrasts
+ 	...Using rests of length 2 and resting every 6
+================== Parameters ======================
+     Total stimuli in scan      : 320
+     Fixed rest length in ITIs  : 2
+     Fixed Rest stimuli in scan : 78
+     Num blank intervals        : 48
+     Num of task conds          : 2
+     Num stimuli each cond      : 97  97
+====================================================
+	...generating lists of organisms
+REST INTERVALS: not used (to use, freqCond should be one longer than conditions
+  ...randomizing organism start state
+	...restMatrix is 58 X 20
+
+ans =
+
+     6     6     6     6     6     6     6     6     6     6
+     6     6     6     6     6     6     6     6     6     6
+     6     6     6     6     6     6     6     6     6     6
+     6     6     6     6     6     6     6     6     6     6
+     6     6     6     6     6     6     6     6     6     6
+
+======== Num stimuli, averaged across lists (before instruction/rest stimuli) ========
+		Condition 0: 48 stimuli, 15% of total stimuli
+		Condition 1: 97 stimuli, 30.3125% of total stimuli
+		Condition 2: 97 stimuli, 30.3125% of total stimuli
+======================================================================================
+best of generation 1 / Wtd. con eff = 102.3241 / Wtd. HRF eff = 53.411 / Pop var. = 0.90346 / time = 1.46
+best of generation 2 / Wtd. con eff = 102.3241 / Wtd. HRF eff = 53.411 / Pop var. = 0.85355 / time = 0.7
+best of generation 3 / Wtd. con eff = 101.916 / Wtd. HRF eff = 54.143 / Pop var. = 0.80444 / time = 0.42
+best of generation 4 / Wtd. con eff = 103.4041 / Wtd. HRF eff = 54.6964 / Pop var. = 0.77355 / time = 0.44
+best of generation 5 / Wtd. con eff = 109.2224 / Wtd. HRF eff = 54.0067 / Pop var. = 0.69207 / time = 0.44
+best of generation 6 / Wtd. con eff = 109.2224 / Wtd. HRF eff = 54.0067 / Pop var. = 0.65066 / time = 0.41
+best of generation 7 / Wtd. con eff = 108.8261 / Wtd. HRF eff = 54.5496 / Pop var. = 0.59299 / time = 0.42
+best of generation 8 / Wtd. con eff = 108.0431 / Wtd. HRF eff = 55.9391 / Pop var. = 0.49406 / time = 0.44
+best of generation 9 / Wtd. con eff = 111.7277 / Wtd. HRF eff = 54.4642 / Pop var. = 0.48423 / time = 0.44
+best of generation 10 / Wtd. con eff = 111.7277 / Wtd. HRF eff = 54.4642 / Pop var. = 0.48142 / time = 0.42
+best of generation 11 / Wtd. con eff = 108.555 / Wtd. HRF eff = 54.9623 / Pop var. = 0.47695 / time = 0.43
+best of generation 12 / Wtd. con eff = 114.6603 / Wtd. HRF eff = 54.0831 / Pop var. = 0.46606 / time = 0.41
+best of generation 13 / Wtd. con eff = 115.1183 / Wtd. HRF eff = 54.6633 / Pop var. = 0.44505 / time = 0.43
+best of generation 14 / Wtd. con eff = 115.1183 / Wtd. HRF eff = 54.6633 / Pop var. = 0.35148 / time = 0.45
+best of generation 15 / Wtd. con eff = 115.1183 / Wtd. HRF eff = 54.6633 / Pop var. = 0.41058 / time = 0.43
+best of generation 16 / Wtd. con eff = 114.0209 / Wtd. HRF eff = 54.6474 / Pop var. = 0.44427 / time = 0.44
+best of generation 17 / Wtd. con eff = 117.1843 / Wtd. HRF eff = 54.3006 / Pop var. = 0.38078 / time = 0.44
+best of generation 18 / Wtd. con eff = 117.1843 / Wtd. HRF eff = 54.3006 / Pop var. = 0.41152 / time = 0.44
+best of generation 19 / Wtd. con eff = 117.1843 / Wtd. HRF eff = 54.3006 / Pop var. = 0.41025 / time = 0.64
+best of generation 20 / Wtd. con eff = 117.1843 / Wtd. HRF eff = 54.3006 / Pop var. = 0.34927 / time = 0.61
+best of generation 21 / Wtd. con eff = 117.1843 / Wtd. HRF eff = 54.3006 / Pop var. = 0.3671 / time = 0.6
+best of generation 22 / Wtd. con eff = 117.1843 / Wtd. HRF eff = 54.3006 / Pop var. = 0.38248 / time = 0.61
+best of generation 23 / Wtd. con eff = 117.1843 / Wtd. HRF eff = 54.3006 / Pop var. = 0.41633 / time = 0.59
+best of generation 24 / Wtd. con eff = 117.1843 / Wtd. HRF eff = 54.3006 / Pop var. = 0.3407 / time = 0.57
+best of generation 25 / Wtd. con eff = 117.1843 / Wtd. HRF eff = 54.3006 / Pop var. = 0.37772 / time = 0.74
+best of generation 26 / Wtd. con eff = 117.1843 / Wtd. HRF eff = 54.3006 / Pop var. = 0.37782 / time = 0.7
+best of generation 27 / Wtd. con eff = 117.1843 / Wtd. HRF eff = 54.3006 / Pop var. = 0.422 / time = 0.78
+best of generation 28 / Wtd. con eff = 117.1843 / Wtd. HRF eff = 54.3006 / Pop var. = 0.31974 / time = 0.65
+saving workspace as GAresults.mat
+
+M = 
+
+     origlist: [242x1 double]
+     restlist: [58x1 double]
+     stimlist: [320x1 double]
+           ga: [1x1 struct]
+    bestLists: [320x28 uint8]
+         date: '6-4-2014'
+
+Elapsed Time for this run
+elapsedTime =
+        50.23      -1957.8      -1959.8      -1941.8      -1942.8      -1940.4
+optimizeGA done: 28.71 s

@@ -1,0 +1,61 @@
+Starting Model 1
+OptimizeGA
+===============================
+Saturation threshold = 
+Setting up variables
+You entered 6 conditions  (event types) that will each be modeled with a regessor. 
+ Note that if you enter 0 as a condition number, those events will not be modeled
+ (they are assumed to be rest/inter-stimulus interval periods)
+
+Contrasts entered. You entered matrix of 1 contrasts, with weights across 6 conditions.
+ Contrasts:
+     1     0     0     0     0     0
+
+ ...adding one column to contrast matrix with weights of 0, to model the intercept
+You entered a contrast weight vector across 1 contrasts
+ 	...No rests specified.
+================== Parameters ======================
+     Total stimuli in scan      : 36
+     Fixed rest length in ITIs  : 
+     Fixed Rest stimuli in scan : 0
+     Num blank intervals        : 0
+     Num of task conds          : 6
+     Num stimuli each cond      : 6  6  6  6  6  6
+====================================================
+	...generating lists of organisms
+REST INTERVALS: not used (to use, freqCond should be one longer than conditions
+  ...randomizing organism start state
+======== Num stimuli, averaged across lists (before instruction/rest stimuli) ========
+		Condition 0: 0 stimuli, 0% of total stimuli
+		Condition 1: 6 stimuli, 16.6667% of total stimuli
+		Condition 2: 6 stimuli, 16.6667% of total stimuli
+		Condition 3: 6 stimuli, 16.6667% of total stimuli
+		Condition 4: 6 stimuli, 16.6667% of total stimuli
+		Condition 5: 6 stimuli, 16.6667% of total stimuli
+		Condition 6: 6 stimuli, 16.6667% of total stimuli
+======================================================================================
+best of generation 1 / cbal. = 97.9259 / Wtd. con eff = 23.4478 / ok lists = 500 / Pop var. = 0.86269 / time = 2.79
+best of generation 2 / cbal. = 97.9259 / Wtd. con eff = 23.4478 / ok lists = 500 / Pop var. = 0.86134 / time = 3.66
+best of generation 3 / cbal. = 97.9259 / Wtd. con eff = 23.4478 / ok lists = 500 / Pop var. = 0.86021 / time = 3.05
+Warning: Some designs are incomplete (too few event types). 
+You may have too many conditions for the length of time you're using.best of generation 4 / cbal. = 97.9259 / Wtd. con eff = 23.4478 / ok lists = 499 / Pop var. = 0.85909 / time = 3.37
+Warning: Some designs are incomplete (too few event types). 
+You may have too many conditions for the length of time you're using.best of generation 5 / cbal. = 97.9259 / Wtd. con eff = 23.4478 / ok lists = 500 / Pop var. = 0.8583 / time = 3.05
+Warning: Some designs are incomplete (too few event types). 
+You may have too many conditions for the length of time you're using.best of generation 6 / cbal. = 97.9259 / Wtd. con eff = 23.4478 / ok lists = 499 / Pop var. = 0.8558 / time = 3.34
+Warning: Some designs are incomplete (too few event types). 
+You may have too many conditions for the length of time you're using.best of generation 7 / cbal. = 97.9259 / Wtd. con eff = 23.4478 / ok lists = 500 / Pop var. = 0.85375 / time = 3.09
+Warning: Some designs are incomplete (too few event types). 
+You may have too many conditions for the length of time you're using.best of generation 8 / cbal. = 97.6204 / Wtd. con eff = 39.6568 / ok lists = 500 / Pop var. = 0.85331 / time = 3.3
+best of generation 9 / cbal. = 97.6204 / Wtd. con eff = 39.6568 / ok lists = 500 / Pop var. = 0.8502 / time = 3.03
+saving workspace as GAresults.mat
+
+M = 
+
+     origlist: [36x1 double]
+     stimlist: [36x1 double]
+           ga: [1x1 struct]
+    bestLists: [36x9 uint8]
+         date: '6-5-2014'
+
+optimizeGA done: 31.09 s
